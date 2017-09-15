@@ -1,5 +1,5 @@
-# gitpitch
-gitpitch presentation
+# slides
+Preesentation slides
 
 ## Second step of Python
 
