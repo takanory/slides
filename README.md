@@ -1,6 +1,12 @@
 # gitpitch
 gitpitch presentation
 
+## Second step of Python
+
+* Date: 2017 Sep 21
+* [「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）](https://career.levtech.jp/hikalab/event/detail/130/ "「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）")
+* [「Python言語」はじめの一歩 / First step of Python](https://www.slideshare.net/takanory/python-first-step-of-python "「Python言語」はじめの一歩 / First step of Python")
+
 ## Reference
 
 * [Markdown Presentations For Everyone on GitHub, GitLab, Bitbucket, Gitea, and Gogs - GitPitch](https://gitpitch.com/ "Markdown Presentations For Everyone on GitHub, GitLab, Bitbucket, Gitea, and Gogs - GitPitch")
