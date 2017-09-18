@@ -1,15 +1,13 @@
-# 「Python言語」
-# 二歩目を踏み出そう！
+## 「Python言語」
+## 二歩目を踏み出そう！
 
-脱初心者になるためのポイントを伝授します
+#### 脱初心者になるためのポイントを伝授します
 
-ヒカ☆ラボ / #ヒカラボ
-
-Takanori Suzuki / 2017 Sep 21
+Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 ---
 
-### Who am I?(お前誰よ)
+## Who am I?(お前誰よ)
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
@@ -162,10 +160,13 @@ Takanori Suzuki / 2017 Sep 21
 
 ### pdb
 
-* [pdb—- Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")
 * Python標準のデバッガ
 * インストール不要
 * コマンドラインで操作
+
+詳しくは[pdb - Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")を参照
+
++++
 
 ### 間違ったfizzbuzz
 
@@ -197,6 +198,8 @@ for num in range(1, 100):
     else:
         print(num)
 ```
+
++++
 
 ### 実行
 
