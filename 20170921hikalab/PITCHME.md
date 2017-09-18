@@ -11,11 +11,26 @@ Takanori Suzuki / 2017 Sep 21
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
-* [株式会社ビープラウド](https://www.beproud.jp/)
-* [一般社団法人PyCon JP](https://www.pycon.jp/) 理事
+
+![takanory](assets/image/kurokuri.jpg)
+
 * [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
 
-![BeProud](images/beproud.png)
++++ 
+
+### 株式会社ビープラウド所属
+
+* [株式会社ビープラウド](https://www.beproud.jp/)
+
+![BeProud](assets/image/beproud.png)
+
++++ 
+
+### 一般社団法人PyCon JP理事
+
+* [一般社団法人PyCon JP](https://www.pycon.jp/)
+
+![PyCon JP](assets/image/pyconjp_logo.png)
 
 ---
 
