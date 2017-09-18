@@ -1,8 +1,9 @@
-## 「Python言語」二歩目を踏み出そう！
+# 「Python言語」
+# 二歩目を踏み出そう！
 
-### 脱初心者になるためのポイントを伝授します
+脱初心者になるためのポイントを伝授します
 
-ヒカラボ
+ヒカ☆ラボ / #ヒカラボ
 
 Takanori Suzuki / 2017 Sep 21
 
@@ -40,13 +41,11 @@ Takanori Suzuki / 2017 Sep 21
 
 ### Python 書いたことある人?
 
-+++
-
 ---
 
 ## 今日のゴール
 
-Python使っていい感じに書けるようになるヒントを得る
+標準のPythonのみを使って、いい感じに書けるようになるヒントを知る
 
 ---
 
@@ -149,6 +148,89 @@ Python使っていい感じに書けるようになるヒントを得る
 --- 
 
 ## 2. pythonの一般的なデバッグ手法(pdb)
+
++++
+
+### なぜ pdb?
+
+* printデバッグはめんどう
+* この変数の値が見たかった
+  * 止めてコード書き換えて再実行
+* pdbを使おう!
+
++++
+
+### pdb
+
+* [pdb—- Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")
+* Python標準のデバッガ
+* インストール不要
+* コマンドラインで操作
+
+### 間違ったfizzbuzz
+
+```
+for num in range(1, 100):
+    if num % 3 == 0:
+        print('Fizz')
+    elif num % 5 == 0:
+        print('Buzz')
+    elif num % 15 == 0:
+        print('FizzBuzz')
+    else:
+        print(num)
+```
+
++++
+
+### デバッグする
+
+```
+for num in range(1, 100):
+    import pdb; pdb.set_trace()  # 追加
+    if num % 3 == 0:
+        print('Fizz')
+    elif num % 5 == 0:
+        print('Buzz')
+    elif num % 15 == 0:
+        print('FizzBuzz')
+    else:
+        print(num)
+```
+
+### 実行
+
+```
+$ python3 fizzbuzz.py
+(env) Takanoris-MacBook-Pro:pycamp.pycon.jp takanori$ python fizzbuzz.py
+> /Users/takanori/fizzbuzz.py(3)<module>()
+-> if num % 3 == 0:
+(Pdb) p num
+1
+(Pdb) n
+> /Users/takanori/fizzbuzz.py(5)<module>()
+-> elif num % 5 == 0:
+(Pdb) c
+1
+> /Users/takanori/fizzbuzz.py(2)<module>()
+-> import pdb; pdb.set_trace()  # 追加
+(Pdb) p num
+2
+(Pdb)
+```
+
++++
+
+### 主なコマンド
+
+* p expression: expressionを評価した結果を表示
+* n: 次の行に移動
+* c: 次のブーレくポイントまで実行
+* h: ヘルプを表示
+* l: ソースコードを表示
+* q: デバッガを終了する
+
+他のコマンドは[27.3.1. デバッガコマンド](https://docs.python.jp/3/library/pdb.html#debugger-commands "27.3.1. デバッガコマンド")を参照
 
 ---
 
