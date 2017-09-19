@@ -239,6 +239,89 @@ $ python3 fizzbuzz.py
 
 ## 3. コーディングスタイルの統一(PEP8, flake8)
 
++++
+
+### なぜ統一する?
+
+* Pythonとしての統一ルールがある
+* サポートするツールもある
+* 統一しておけば揉めない
+
++++
+
+### PEP8
+
+[PEP 8 -- Style Guide for Python Code | Python.org](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
+
+```
+spam(ham[1], {eggs: 2})  # Yes
+spam( ham[ 1 ], { eggs: 2 } )  # No
+
+dct['key'] = lst[index]  # Yes
+dct ['key'] = lst [index]  # No
+
+i = i + 1  # Yes
+submitted += 1  # Yes
+i=i+1  # No
+submitted +=1  # No
+
+def complex(real, imag=0.0):  # Yes
+    return magic(r=real, i=imag)
+
+def complex(real, imag = 0.0):  # No
+    return magic(r = real, i = imag)
+```
+
++++
+
+### pycodestyle
+
+* PEP8対応のチェックツール
+* インストールが必要
+
+[pycodestyle](https://pypi.python.org/pypi/pycodestyle "pycodestyle 2.3.1 : Python Package Index")
+
+```
+$ pip install pycodestyle
+$ pycodestyle fizzbuzz.py
+```
+
+### だめなfizzbuzz.py
+
+```
+for num in range(1, 100) :
+    if num % 15 == 0:
+        print( 'FizzBuzz' )
+    elif num%3 == 0:
+        print('Fizz')
+    elif num % 5 == 0:
+         print('Buzz')
+    else:
+        print(num)
+```
+
++++
+
+### 実行結果
+
+```
+$ pycodestyle fizzbuzz.py 
+fizzbuzz.py:1:25: E203 whitespace before ':'
+fizzbuzz.py:3:15: E201 whitespace after '('
+fizzbuzz.py:3:26: E202 whitespace before ')'
+fizzbuzz.py:4:13: E228 missing whitespace around modulo operator
+fizzbuzz.py:7:10: E111 indentation is not a multiple of four
+```
+
++++ flake8
+
+* pycodestylesに加えてpyflakesのチェックが入る
+* importしてるけど使ってない
+* 宣言した変数を使ってない
+* `from module import *` している
+
+[flake8](https://pypi.python.org/pypi/flake8 "flake8 3.4.1 : Python Package Index")
+
 ---
 
 ## 4. 自動テスト手法(unittest)
