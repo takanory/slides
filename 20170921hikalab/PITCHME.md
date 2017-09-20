@@ -313,7 +313,9 @@ fizzbuzz.py:4:13: E228 missing whitespace around modulo operator
 fizzbuzz.py:7:10: E111 indentation is not a multiple of four
 ```
 
-+++ flake8
++++
+
+### flake8
 
 * pycodestylesに加えてpyflakesのチェックが入る
 * importしてるけど使ってない
@@ -322,9 +324,84 @@ fizzbuzz.py:7:10: E111 indentation is not a multiple of four
 
 [flake8](https://pypi.python.org/pypi/flake8 "flake8 3.4.1 : Python Package Index")
 
++++
+
+### コーディングスタイルの統一: まとめ
+
+* pycodestyle は使おう
+* flake8 も使えるとよい
+* エディターでもチェックしてくれるよ
+
 ---
 
 ## 4. 自動テスト手法(unittest)
+
++++
+
+### なぜ自動テスト?
+
+* 関数単位で仕様が明確になる
+* リファクタリングしても安心
+
++++
+
+### unittest
+
+* Pythonの標準ライブラリ
+* テストコードを書いて実行できる
+
+[26.4. unittest - ユニットテストフレームワーク](https://docs.python.jp/3/library/unittest.html "26.4. unittest — ユニットテストフレームワーク — Python 3.6.1 ドキュメント")
+
++++?code=unittest/fizzbuzz_ng.py
+
+### 間違ったfizzbuzz関数
+
++++?code=unittest/test_fizzbuzz.py
+
+### テストコード
+
++++
+
+### 実行結果
+
+```
+$ python3 -m unittest test_fizzbuzz.py
+..F.
+======================================================================
+FAIL: test_fizzbuzz (test_fizzbuzz.TestFizzbuzz)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/takanori/unittest/test_fizzbuzz.py", line 12, in test_fizzbuzz
+    self.assertEqual(fizzbuzz(30), 'FizzBuzz')
+AssertionError: 'Fizz' != 'FizzBuzz'
+- Fizz
++ FizzBuzz
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+```
+
++++
+
+### 修正して再実行
+
+```
+$ python3 -m unittest test_fizzbuzz.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+```
+
++++
+
+### 自動テスト: まとめ
+
+* 書ける範囲で書こう
 
 ---
 
