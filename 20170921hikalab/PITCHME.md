@@ -419,7 +419,9 @@ OK
   * HOWTO
 * https://docs.python.org/ja/3/ に移行予定
 
-+++ 非公式はあくまでヒントに
++++
+
+### 非公式はあくまでヒントに
 
 * Qiita
 * teratail, Stack Overflow
@@ -442,6 +444,8 @@ OK
 
 [6.1.3.1. 書式指定ミニ言語仕様](https://docs.python.jp/3/library/string.html#format-specification-mini-language "6.1.3.1. 書式指定ミニ言語仕様")
 
++++ 
+
 ### .format()メソッド使いこなし(2/2)
 
 ```
@@ -456,6 +460,7 @@ OK
 
 [6.1.3.1. 書式指定ミニ言語仕様](https://docs.python.jp/3/library/string.html#format-specification-mini-language "6.1.3.1. 書式指定ミニ言語仕様")
 
++++
 
 ### endswith()メソッド
 
@@ -468,6 +473,8 @@ OK
 >>> filename.endswith(('.jpg', '.gif', '.png'))
 True
 ```
+
++++
 
 ### まとめ
 
