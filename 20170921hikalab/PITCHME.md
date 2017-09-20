@@ -429,18 +429,54 @@ OK
 
 +++
 
-### print()関数
+### `print()`関数
 
-```
-print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
-```
+* `print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)`
 
-* `objects`を`sep`で区切りながらテキストストリーム`file`に表示し、最後に`end`を表示します。`sep`、`end`、`file`、`flush` を与える場合、キーワード引数として与える必要があります。
-* キーワードなしの引数はすべて、`str()`がするように文字列に変換され、`sep`で切られながらストリームに書き出され、最後に`end`が続きます。`sep`と`end`の両方とも、文字列でなければなりません。これらを`None`にすると、デフォルトの値が使われます。`objects`が与えられなければ、`print()`は`end`だけを書き出します。
-* `file`引数は、`write(string)`メソッドを持つオブジェクトでなければなりません。指定されないか、`None`である場合、`sys.stdout`が使われます。表示される引数は全てテキスト文字列に変換されますから、`print()`はバイナリモードファイルオブジェクトには使用できません。代わりに`file.write(...)`を使ってください。
-* 出力がバッファ化されるかどうかは通常`file`で決まりますが、`flush`キーワード引数が真ならストリームは強制的にフラッシュされます。
+`objects`を`sep`で区切りながらテキストストリーム`file`に表示し、最後に`end`を表示します。`sep`、`end`、`file`、`flush` を与える場合、キーワード引数として与える必要があります。
 
 [print()関数 - 2. 組み込み関数](https://docs.python.jp/3/library/functions.html#print)
+
++++
+
+### `print()`関数は可変長引数を受け取る
+
+```
+>>> print()
+
+>>> print(1, 2)
+1 2
+>>> print(1, 2, 3, 4)
+1 2 3 4
+```
+
++++
+
+### `sep`引数で区切り文字が変更できる
+
+```
+>>> print(1, 2, 3, 4, sep=",")
+1,2,3,4
+>>> print(1, 2, 3, 4, sep="|")
+1|2|3|4
+>>> print(1, 2, 3, 4, sep="✌")
+1✌2✌3✌4
+```
+
++++
+
+### `file`引数で出力先を変えられる
+
+```
+>>> with open('sample.txt', 'w') as f:
+...     print(1, 2, 3, 4, file=f)
+...     print(1, 2, 3, 4, file=f, sep=',')
+...
+>>> with open('sample.txt') as f:
+...     f.read()
+... 
+'1 2 3 4\n1,2,3,4\n'
+```
 
 +++
 
@@ -501,7 +537,7 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 * `str.endswith(suffix[, start[, end]])`
 
-> 文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
+文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
 
 ```
 >>> filename = 'hoge.jpg'
