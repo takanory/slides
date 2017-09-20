@@ -352,11 +352,11 @@ fizzbuzz.py:7:10: E111 indentation is not a multiple of four
 
 [26.4. unittest - ユニットテストフレームワーク](https://docs.python.jp/3/library/unittest.html "26.4. unittest — ユニットテストフレームワーク — Python 3.6.1 ドキュメント")
 
-+++?code=unittest/fizzbuzz_ng.py
++++?code=20170921hikalab/unittest/fizzbuzz_ng.py
 
 ### 間違ったfizzbuzz関数
 
-+++?code=unittest/test_fizzbuzz.py
++++?code=20170921hikalab/unittest/test_fizzbuzz.py
 
 ### テストコード
 
