@@ -402,10 +402,77 @@ OK
 ### 自動テスト: まとめ
 
 * 書ける範囲で書こう
+* [26.3. doctest - 対話的な実行例をテストする](https://docs.python.jp/3/library/doctest.html "26.3. doctest — 対話的な実行例をテストする — Python 3.6.1 ドキュメント")もあるよ
 
 ---
 
 ## 5. Python公式ドキュメントを読みこなそう
+
++++
+
+### 公式ドキュメント?
+
+* https://docs.python.jp/3/ で公開されている
+* 情報がたくさん
+  * チュートリアル
+  * ライブラリーリファレンス
+  * HOWTO
+* https://docs.python.org/ja/3/ に移行予定
+
++++ 非公式はあくまでヒントに
+
+* Qiita
+* teratail, Stack Overflow
+* 個人ブログ
+
++++
+
+### .format()メソッド使いこなし(1/2)
+
+```
+>>> '{}, {}, {}'.format('a', 'b', 'c')
+'a, b, c'
+>>> '{2}, {1}, {0}'.format('a', 'b', 'c')  # 順番入れ替え
+'c, b, a'
+>>> '{lat}, {lng}'.format(lat='37.24N', lng='-115.81W')  # 名前でアクセス
+'37.24N, -115.81W'
+>>> '{:,}'.format(1234567890)  # 数値にカンマ
+'1,234,567,890'
+```
+
+[6.1.3.1. 書式指定ミニ言語仕様](https://docs.python.jp/3/library/string.html#format-specification-mini-language "6.1.3.1. 書式指定ミニ言語仕様")
+
+### .format()メソッド使いこなし(2/2)
+
+```
+>>> c = 3-5j  # 虚数を定義
+>>> '{0.real} {0.imag}'.format(c)  # 属性にアクセス
+'3.0 -5.0'
+>>> from datetime import datetime
+>>> now = datetime.now()
+>>> '{:%Y-%m-%d %H:%M:%S}'.format(now)  # 特殊な書式指定
+'2017-09-20 17:14:50'
+```
+
+[6.1.3.1. 書式指定ミニ言語仕様](https://docs.python.jp/3/library/string.html#format-specification-mini-language "6.1.3.1. 書式指定ミニ言語仕様")
+
+
+### endswith()メソッド
+
+* `str.endswith(suffix[, start[, end]])`
+
+>>> 文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
+
+```
+>>> filename = 'hoge.jpg'
+>>> filename.endswith(('.jpg', '.gif', '.png'))
+True
+```
+
+### まとめ
+
+* 公式ドキュメント読もう
+* 外部ライブラリもドキュメントがちゃんとしているものを使おう
 
 ---
 
