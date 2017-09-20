@@ -486,7 +486,7 @@ OK
 
 * `str.endswith(suffix[, start[, end]])`
 
->>> 文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
+> 文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
 
 ```
 >>> filename = 'hoge.jpg'
