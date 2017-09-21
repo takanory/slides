@@ -445,7 +445,7 @@ OK
 
 ### 自動テスト: まとめ
 
-* 書ける範囲で書こう
+* 大規模ならunittestを書こう
 * [26.3. doctest - 対話的な実行例をテストする](https://docs.python.jp/3/library/doctest.html "26.3. doctest — 対話的な実行例をテストする — Python 3.6.1 ドキュメント")もあるよ
 
 ---
@@ -476,8 +476,8 @@ OK
 ### `print()`関数
 
 * `print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)`
-
-`objects`を`sep`で区切りながらテキストストリーム`file`に表示し、最後に`end`を表示します。`sep`、`end`、`file`、`flush` を与える場合、キーワード引数として与える必要があります。
+* `objects`を`sep`で区切りながらテキストストリーム`file`に表示し、最後に`end`を表示します。
+* `sep`、`end`、`file`、`flush` を与える場合、キーワード引数として与える必要があります。
 
 [print()関数 - 2. 組み込み関数](https://docs.python.jp/3/library/functions.html#print)
 
@@ -592,8 +592,7 @@ OK
 ### .endswith()メソッド
 
 * `str.endswith(suffix[, start[, end]])`
-
-文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
+* 文字列が指定された`suffix`で終わるなら`True`を、そうでなければ`False`を返します。`suffix`は見つけたい複数の接尾語のタプルでも構いません。
 
 ```python
 >>> filename = 'hoge.jpg'
@@ -639,6 +638,10 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '名前'
 ```
 
+* どんなエラーか
+* エラーの理由
+* どこで発生したか
+
 +++
 
 ### 例外を握りつぶしちゃう
@@ -669,7 +672,7 @@ except IndexError:
 
 +++
 
-### 例外の発生する可能性のある個所のみを対象に
+### 例外の発生する個所のみを対象に
 
 ```python
 try:
@@ -689,6 +692,8 @@ except IndexError:
 
 ### 可能なら前もってチェックする
 
+* 例外処理
+
 ```python
 try:
     num = int(num_str)
@@ -696,12 +701,14 @@ except ValueError:
     # 数値の文字列じゃないときの処理
 ```
 
+* 事前にチェック
+
 ```python
 if num_str.isdigit():
     num = int(num_str)
 else:
     # 数値の文字列じゃないときの処理
-``
+```
 
 +++
 
