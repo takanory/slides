@@ -754,15 +754,6 @@ else:
 >>> squares = [x**2 for x in range(10)]
 ```
 
-```python
->>> squares = []
->>> for x in range(10):
-...     squares.append(x**2)
-...
->>> squares
-[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-```
-
 +++
 
 ### 0から9の偶数の平方リスト
@@ -783,16 +774,6 @@ else:
 
 ```python
 >>> squares = [x**2 for x in range(10) if x % 2 == 0]
-```
-
-```python
->>> squares = []
->>> for x in range(10):
-...     if x % 2 == 0:
-...         squares.append(x**2)
-...
->>> squares
-[0, 4, 16, 36, 64]
 ```
 
 +++
@@ -816,9 +797,26 @@ else:
 2
 ```
 
++++
+
+### 内包表記
+
+* set内包表記
+* 辞書内包表記
+
+```python
+>>> {x**2 for x in range(10)}
+{0, 1, 64, 4, 36, 9, 16, 49, 81, 25}
+>>> {x: x**2 for x in range(10)}
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+```
+
++++
+
 ### まとめ
 
-* 内包表記、ジェネレータ式使おう
+* 内包表記使おう
+* ジェネレータ式使おう
 * やりすぎ注意
 
 [5.1.3. リストの内包表記 - Pythonチュートリアル](https://docs.python.jp/3/tutorial/datastructures.html "5.1.3. リストの内包表記")
