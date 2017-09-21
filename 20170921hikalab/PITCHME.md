@@ -754,6 +754,15 @@ else:
 >>> squares = [x**2 for x in range(10)]
 ```
 
+```python
+>>> squares = []
+>>> for x in range(10):
+...     squares.append(x**2)
+...
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+
 +++
 
 ### 0から9の偶数の平方リスト
@@ -775,6 +784,44 @@ else:
 ```python
 >>> squares = [x**2 for x in range(10) if x % 2 == 0]
 ```
+
+```python
+>>> squares = []
+>>> for x in range(10):
+...     if x % 2 == 0:
+...         squares.append(x**2)
+...
+>>> squares
+[0, 4, 16, 36, 64]
+```
+
++++
+
+### ジェネレーター式
+
+* リスト内包表記の外側の `[]` を `()` にする
+* リスト内包表記→全データできちゃう
+* ジェネレーター式→1つずつ値をとりだす
+
+```python
+>>> l = [x*2 for x in range(10)]
+>>> l
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+>>> g = (x*2 for x in range(10))
+>>> g
+<generator object <genexpr> at 0x1020ad0f8>
+>>> next(g)
+0
+>>> next(g)
+2
+```
+
+### まとめ
+
+* 内包表記、ジェネレータ式使おう
+* やりすぎ注意
+
+[5.1.3. リストの内包表記 - Pythonチュートリアル](https://docs.python.jp/3/tutorial/datastructures.html "5.1.3. リストの内包表記")
 
 ---
 
