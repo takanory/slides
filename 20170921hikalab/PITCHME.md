@@ -279,7 +279,7 @@ def complex(real, imag = 0.0):  # No
 * PEP8対応のチェックツール
 * インストールが必要
 
-[pycodestyle](https://pypi.python.org/pypi/pycodestyle "pycodestyle 2.3.1 : Python Package Index")
+[pycodestyle's documentation](http://pycodestyle.pycqa.org/ "pycodestyle’s documentation — pycodestyle 2.3.1 documentation")
 
 ```
 $ pip install pycodestyle
@@ -491,7 +491,11 @@ OK
 
 * [pdb - Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")
 * [unittest - ユニットテストフレームワーク](https://docs.python.jp/3/library/unittest.html "26.4. unittest — ユニットテストフレームワーク — Python 3.6.1 ドキュメント")
-* [flake8](http://flake8.readthedocs.io/)
+* [doctest - 対話的な実行例をテストする](https://docs.python.jp/3/library/doctest.html "26.3. doctest — 対話的な実行例をテストする — Python 3.6.1 ドキュメント")
+* [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
+* [pycodestyle's documentation](http://pycodestyle.pycqa.org/ "pycodestyle’s documentation — pycodestyle 2.3.1 documentation")
+* [Flake8: Your Tool For Style Guide Enforcement](http://flake8.pycqa.org/en/latest/ "Flake8: Your Tool For Style Guide Enforcement — flake8 3.4.1 documentation")
+* [print()関数 - 2. 組み込み関数](https://docs.python.jp/3/library/functions.html#print)
 
 +++ 
 
@@ -548,7 +552,7 @@ OK
 
 +++
 
-### endswith()メソッド
+### .endswith()メソッド
 
 * `str.endswith(suffix[, start[, end]])`
 
@@ -556,6 +560,8 @@ OK
 
 ```
 >>> filename = 'hoge.jpg'
+>>> filename.endswith('.gif')
+False
 >>> filename.endswith(('.jpg', '.gif', '.png'))
 True
 ```
