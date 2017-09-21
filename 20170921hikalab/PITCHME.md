@@ -480,6 +480,14 @@ OK
 
 +++
 
+### ここまで触れたドキュメント
+
+* [pdb - Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")
+* [unittest - ユニットテストフレームワーク](https://docs.python.jp/3/library/unittest.html "26.4. unittest — ユニットテストフレームワーク — Python 3.6.1 ドキュメント")
+* [flake8](http://flake8.readthedocs.io/)
+
++++ 
+
 ### まとめ
 
 * 公式ドキュメント読もう
@@ -549,11 +557,54 @@ True
 
 ### まとめ
 
-* あとで書く
+* 文字列メソッドは多機能
+* 単純な処理は文字列メソッドのみでOK
 
 ---
 
 ## 7. 例外処理の使いどころ
+
++++
+
+### なぜ?
+
+* 例外処理は便利
+* でもなんでも例外で処理するのは危険
+
++++
+
+### 例外を握りつぶしちゃう
+
+```
+try:
+    # なんか
+    # 処理
+except Exception:
+    pass
+```
+
++++
+
+###
+
+```
+try:
+    num = int(num_str)
+except ValueError:
+    # 数値の文字列じゃないときの処理
+```
+
+```
+if num_str.isdigit():
+    num = int(num_str)
+else:
+    # 数値の文字列じゃないときの処理
++++
+
+### まとめ
+
+* 例外を握りつぶさない
+* 先にわかるものはそこでチェック
 
 ---
 
