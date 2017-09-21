@@ -170,7 +170,7 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 ### 間違ったfizzbuzz
 
-```
+```python
 for num in range(1, 100):
     if num % 3 == 0:
         print('Fizz')
@@ -186,7 +186,7 @@ for num in range(1, 100):
 
 ### デバッグする
 
-```
+```python
 for num in range(1, 100):
     import pdb; pdb.set_trace()  # 追加
     if num % 3 == 0:
@@ -228,7 +228,7 @@ $ python3 fizzbuzz.py
 
 * p expression: expressionを評価した結果を表示
 * n: 次の行に移動
-* c: 次のブーレくポイントまで実行
+* c: 次のブレークポイントまで実行
 * h: ヘルプを表示
 * l: ソースコードを表示
 * q: デバッガを終了する
@@ -251,7 +251,7 @@ $ python3 fizzbuzz.py
 
 ### PEP8
 
-[PEP 8 -- Style Guide for Python Code | Python.org](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
+[PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
 
 ```
 spam(ham[1], {eggs: 2})  # Yes
@@ -286,6 +286,8 @@ $ pip install pycodestyle
 $ pycodestyle fizzbuzz.py
 ```
 
++++
+
 ### だめなfizzbuzz.py
 
 ```
@@ -318,18 +320,23 @@ fizzbuzz.py:7:10: E111 indentation is not a multiple of four
 ### flake8
 
 * pycodestylesに加えてpyflakesのチェックが入る
-* importしてるけど使ってない
-* 宣言した変数を使ってない
-* `from module import *` している
+  * importしてるけど使ってない
+  * 宣言した変数を使ってない
+  * `from module import *` している
+* インストールが必要
 
-[flake8](https://pypi.python.org/pypi/flake8 "flake8 3.4.1 : Python Package Index")
+```
+$ pip install flake8
+$ flake8 fizzbuzz.py
+```
+
+[Flake8: Your Tool For Style Guide Enforcement](http://flake8.pycqa.org/en/latest/ "Flake8: Your Tool For Style Guide Enforcement — flake8 3.4.1 documentation")
 
 +++
 
 ### コーディングスタイルの統一: まとめ
 
-* pycodestyle は使おう
-* flake8 も使えるとよい
+* flake8 を使おう
 * エディターでもチェックしてくれるよ
 
 ---
@@ -637,7 +644,7 @@ except IndexError:
 
 +++
 
-### 前もってチェックできるならチェックする
+### 可能なら前もってチェックする
 
 ```
 try:
@@ -651,6 +658,8 @@ if num_str.isdigit():
     num = int(num_str)
 else:
     # 数値の文字列じゃないときの処理
+``
+
 +++
 
 ### まとめ
