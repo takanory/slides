@@ -873,6 +873,16 @@ else:
 
 ---
 
+## One more thing
+
++++
+
+### 懇親会で書籍プレゼント(拍手)
+
+![books](20170921hikalab/image/books.jpg)
+
+---
+
 ## 今日のゴール
 
 (ほぼ)標準のPythonのみを使って、
