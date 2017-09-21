@@ -670,7 +670,31 @@ else:
 
 ## 9. 次のステップ
 
----
++++
+
+### Python言語入門から
+
+![いちばんやさしいPythonの教本](assets/image/ichiyasa.jpg)
+
+[いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151 "いちばんやさしいPythonの教本 人気講師が教える基礎からサーバサイド開発まで - インプレスブックス")
+
++++
+
+### Pythonで何か作ってみたい
+
+![Pythonエンジニアファーストブック](assets/image/pyfirst.jpg)
+
+[Pythonエンジニア ファーストブック](http://gihyo.jp/book/2017/978-4-7741-9222-2 "Pythonエンジニア ファーストブック：書籍案内｜技術評論社")
+
++++
+
+### ライブラリを使いこなしたい
+
+![Python ライブラリ厳選レシピ](assets/image/recipe.jpg)
+
+[Python ライブラリ厳選レシピ](http://gihyo.jp/book/2015/978-4-7741-7707-6 "Python ライブラリ厳選レシピ：書籍案内｜技術評論社")
+
++++
 
 ## Question?
 
