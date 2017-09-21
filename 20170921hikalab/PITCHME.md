@@ -271,7 +271,7 @@ $ python3 fizzbuzz.py
 
 [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
 
-* Yes
+Yes
 
 ```python
 spam(ham[1], {eggs: 2})
@@ -280,7 +280,7 @@ i = i + 1
 submitted += 1
 ```
 
-* No
+No
 
 ```python
 spam( ham[ 1 ], { eggs: 2 } )
@@ -295,14 +295,14 @@ submitted +=1
 
 [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
 
-* Yes
+Yes
 
 ```python
 def complex(real, imag=0.0):
     return magic(r=real, i=imag)
 ```
 
-* No
+No
 
 ```python
 def complex(real, imag = 0.0):
@@ -658,7 +658,7 @@ except Exception:
 
 ### どこで発生する例外かわかりにくい
 
-```pytho
+```python
 try:
     # とっても
     # とっても
@@ -724,6 +724,49 @@ else:
 ---
 
 ## 8. 内包表記、ジェネレーター式を使いこなそう
+
+---
+
+### 0から9の平方リスト
+
+```python
+>>> squares = []
+>>> for x in range(10):
+...     squares.append(x**2)
+...
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+
++++
+
+### 0から9の平方リスト
+
+```python
+>>> squares = [x**2 for x in range(10)]
+```
+
++++
+
+### 0から9の偶数の平方リスト
+
+```python
+>>> squares = []
+>>> for x in range(10):
+...     if x % 2 == 0:
+...         squares.append(x**2)
+...
+>>> squares
+[0, 4, 16, 36, 64]
+```
+
++++
+
+### 0から9の偶数の平方リスト
+
+```python
+>>> squares = [x**2 for x in range(10) if x % 2 == 0]
+```
 
 ---
 
