@@ -772,7 +772,7 @@ else:
 ### コミュニティに参加しよう
 
 * [PyCon JP](https://pycon.jp/2017/ja/ "PyCon JP 2017 in Tokyo | Sep 7th – Sep 10th")
-* [Python Boot Campで全国にPythonの環を広げよう！ #pycamp](https://peraichi.com/landing_pages/view/pycamp "Python Boot Campで全国にPythonの環を広げよう！ #pycamp)"
+* [Python Boot Campで全国にPythonの環を広げよう！ #pycamp](https://peraichi.com/landing_pages/view/pycamp "Python Boot Campで全国にPythonの環を広げよう！ #pycamp")
 * [カテゴリ「Python」のグループ - connpass](https://connpass.com/category/Python/ "カテゴリ「Python」のグループ・イベント・資料 - connpass")
 
 ---
