@@ -213,7 +213,7 @@ for num in range(1, 100):
 
 ### 実行
 
-```
+```sh
 $ python3 fizzbuzz.py
 (env) Takanoris-MacBook-Pro:pycamp.pycon.jp takanori$ python fizzbuzz.py
 > /Users/takanori/fizzbuzz.py(3)<module>()
@@ -273,7 +273,7 @@ $ python3 fizzbuzz.py
 
 * Yes
 
-```
+```python
 spam(ham[1], {eggs: 2})
 dct['key'] = lst[index]
 i = i + 1
@@ -282,7 +282,7 @@ submitted += 1
 
 * No
 
-```
+```python
 spam( ham[ 1 ], { eggs: 2 } )
 dct ['key'] = lst [index]
 i=i+1
@@ -297,14 +297,14 @@ submitted +=1
 
 * Yes
 
-```
+```python
 def complex(real, imag=0.0):
     return magic(r=real, i=imag)
 ```
 
 * No
 
-```
+```python
 def complex(real, imag = 0.0):
     return magic(r = real, i = imag)
 ```
@@ -318,7 +318,7 @@ def complex(real, imag = 0.0):
 
 [pycodestyle's documentation](http://pycodestyle.pycqa.org/ "pycodestyle’s documentation — pycodestyle 2.3.1 documentation")
 
-```
+```sh
 $ pip install pycodestyle  # インストール
 $ pycodestyle fizzbuzz.py  # pycodestyleを実行
 ```
@@ -327,7 +327,7 @@ $ pycodestyle fizzbuzz.py  # pycodestyleを実行
 
 ### だめなfizzbuzz.py
 
-```
+```python
 for num in range(1, 100) :
     if num % 15 == 0:
         print( 'FizzBuzz' )
@@ -343,7 +343,7 @@ for num in range(1, 100) :
 
 ### 実行結果
 
-```
+```sh
 $ pycodestyle fizzbuzz.py 
 fizzbuzz.py:1:25: E203 whitespace before ':'
 fizzbuzz.py:3:15: E201 whitespace after '('
@@ -362,7 +362,7 @@ fizzbuzz.py:7:10: E111 indentation is not a multiple of four
   * `from module import *` している
 * インストールが必要
 
-```
+```sh
 $ pip install flake8
 $ flake8 fizzbuzz.py
 ```
@@ -396,11 +396,11 @@ $ flake8 fizzbuzz.py
 
 [26.4. unittest - ユニットテストフレームワーク](https://docs.python.jp/3/library/unittest.html "26.4. unittest — ユニットテストフレームワーク — Python 3.6.1 ドキュメント")
 
-+++?code=20170921hikalab/unittest/fizzbuzz_ng.py
++++?code=20170921hikalab/unittest/fizzbuzz_ng.py&lang=python
 
 ### 間違ったfizzbuzz関数
 
-+++?code=20170921hikalab/unittest/test_fizzbuzz.py
++++?code=20170921hikalab/unittest/test_fizzbuzz.py&lang=python
 
 ### テストコード
 
@@ -408,7 +408,7 @@ $ flake8 fizzbuzz.py
 
 ### 実行結果
 
-```
+```sh
 $ python3 -m unittest test_fizzbuzz.py
 ..F.
 ======================================================================
@@ -432,7 +432,7 @@ FAILED (failures=1)
 
 ### 修正して再実行
 
-```
+```sh
 $ python3 -m unittest test_fizzbuzz.py
 ....
 ----------------------------------------------------------------------
@@ -485,7 +485,7 @@ OK
 
 ### `print()`関数は可変長引数を受け取る
 
-```
+```python
 >>> print()
 
 >>> print(1, 2)
@@ -498,7 +498,7 @@ OK
 
 ### `sep`引数で区切り文字が変更できる
 
-```
+```python
 >>> print(1, 2, 3, 4, sep=",")
 1,2,3,4
 >>> print(1, 2, 3, 4, sep="|")
@@ -511,7 +511,7 @@ OK
 
 ### `file`引数で出力先を変えられる
 
-```
+```python
 >>> with open('sample.txt', 'w') as f:
 ...     print(1, 2, 3, 4, file=f)
 ...     print(1, 2, 3, 4, file=f, sep=',')
@@ -558,7 +558,7 @@ OK
 
 ### .format()メソッド使いこなし(1/2)
 
-```
+```python
 >>> '{}, {}, {}'.format('a', 'b', 'c')
 'a, b, c'
 >>> '{2}, {1}, {0}'.format('a', 'b', 'c')  # 順番入れ替え
@@ -575,7 +575,7 @@ OK
 
 ### .format()メソッド使いこなし(2/2)
 
-```
+```python
 >>> c = 3-5j  # 虚数を定義
 >>> '{0.real} {0.imag}'.format(c)  # 属性にアクセス
 '3.0 -5.0'
@@ -595,7 +595,7 @@ OK
 
 文字列が指定された suffix で終わるなら True を、そうでなければ False を返します。 suffix は見つけたい複数の接尾語のタプルでも構いません。
 
-```
+```python
 >>> filename = 'hoge.jpg'
 >>> filename.endswith('.gif')
 False
@@ -628,7 +628,7 @@ True
 
 ### Tracebackを読もう
 
-```
+```python
 Traceback (most recent call last):
   File "traceback_sample.py", line 7, in <module>
     main()
@@ -643,7 +643,7 @@ ValueError: invalid literal for int() with base 10: '名前'
 
 ### 例外を握りつぶしちゃう
 
-```
+```python
 try:
     # なんか
     # 処理
@@ -655,7 +655,7 @@ except Exception:
 
 ### どこで発生する例外かわかりにくい
 
-```
+```pytho
 try:
     # とっても
     # とっても
@@ -671,7 +671,7 @@ except IndexError:
 
 ### 例外の発生する可能性のある個所のみを対象に
 
-```
+```python
 try:
     # とっても
 except ValueError:
@@ -689,14 +689,14 @@ except IndexError:
 
 ### 可能なら前もってチェックする
 
-```
+```python
 try:
     num = int(num_str)
 except ValueError:
     # 数値の文字列じゃないときの処理
 ```
 
-```
+```python
 if num_str.isdigit():
     num = int(num_str)
 else:
