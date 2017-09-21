@@ -731,6 +731,12 @@ else:
 
 +++
 
+## 9. 次のステップ
+
+### または宣伝タイム
+
++++
+
 ### Python言語入門から
 
 ![いちばんやさしいPythonの教本](assets/image/ichiyasa.jpg)
@@ -754,6 +760,22 @@ else:
 [Python ライブラリ厳選レシピ](http://gihyo.jp/book/2015/978-4-7741-7707-6 "Python ライブラリ厳選レシピ：書籍案内｜技術評論社")
 
 +++
+
+### PyQ
+
+* オンライン学習サービス
+
+[PyQ - 本気でプログラミングを学びたい人のPythonオンライン学習サービス](https://pyq.jp/ "PyQ - 本気でプログラミングを学びたい人のPythonオンライン学習サービス")
+
++++
+
+### コミュニティに参加しよう
+
+* [PyCon JP](https://pycon.jp/2017/ja/ "PyCon JP 2017 in Tokyo | Sep 7th – Sep 10th")
+* [Python Boot Campで全国にPythonの環を広げよう！ #pycamp](https://peraichi.com/landing_pages/view/pycamp "Python Boot Campで全国にPythonの環を広げよう！ #pycamp)"
+* [カテゴリ「Python」のグループ - connpass](https://connpass.com/category/Python/ "カテゴリ「Python」のグループ・イベント・資料 - connpass")
+
+---
 
 ## Question?
 
