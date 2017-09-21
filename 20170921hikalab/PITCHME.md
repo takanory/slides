@@ -51,7 +51,11 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 ## 今日のゴール
 
-標準のPythonのみを使って、いい感じに書けるようになるヒントを知る
+(ほぼ)標準のPythonのみを使って、
+
+いい感じにプログラムを書けるようになる
+
+ヒントを得る
 
 ---
 
@@ -157,9 +161,9 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 +++
 
-### なぜ pdb?
+### なぜデバッガー?
 
-* printデバッグはめんどう
+* `print()`デバッグはめんどう
 * この変数の値が見たかった
   * 止めてコード書き換えて再実行
 * pdbを使おう!
@@ -172,8 +176,6 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 * インストール不要
 * コマンドラインで操作
 
-詳しくは[pdb - Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")を参照
-
 +++
 
 ### 間違ったfizzbuzz
@@ -184,7 +186,7 @@ for num in range(1, 100):
         print('Fizz')
     elif num % 5 == 0:
         print('Buzz')
-    elif num % 15 == 0:
+    elif num % 15 == 0:  # ここがおかしい
         print('FizzBuzz')
     else:
         print(num)
@@ -234,14 +236,22 @@ $ python3 fizzbuzz.py
 
 ### 主なコマンド
 
-* p expression: expressionを評価した結果を表示
-* n: 次の行に移動
-* c: 次のブレークポイントまで実行
-* h: ヘルプを表示
-* l: ソースコードを表示
-* q: デバッガを終了する
+* `p`: expression: expressionを評価した結果を表示
+* `n`: 次の行に移動
+* `c`: 次のブレークポイントまで実行
+* `h`: ヘルプを表示
+* `l`: ソースコードを表示
+* `q`: デバッガを終了する
 
 他のコマンドは[27.3.1. デバッガコマンド](https://docs.python.jp/3/library/pdb.html#debugger-commands "27.3.1. デバッガコマンド")を参照
+
++++
+
+### まとめ
+
+* pdbでデバッグしよう
+
+[pdb - Python デバッガ](https://docs.python.jp/3/library/pdb.html "27.3. pdb — Python デバッガ — Python 3.6.1 ドキュメント")
 
 ---
 
@@ -257,26 +267,45 @@ $ python3 fizzbuzz.py
 
 +++
 
-### PEP8
+### PEP8(1/2)
 
 [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
 
+* Yes
+
 ```
-spam(ham[1], {eggs: 2})  # Yes
-spam( ham[ 1 ], { eggs: 2 } )  # No
+spam(ham[1], {eggs: 2})
+dct['key'] = lst[index]
+i = i + 1
+submitted += 1
+```
 
-dct['key'] = lst[index]  # Yes
-dct ['key'] = lst [index]  # No
+* No
 
-i = i + 1  # Yes
-submitted += 1  # Yes
-i=i+1  # No
-submitted +=1  # No
+```
+spam( ham[ 1 ], { eggs: 2 } )
+dct ['key'] = lst [index]
+i=i+1
+submitted +=1
+```
 
-def complex(real, imag=0.0):  # Yes
++++
+
+### PEP8(2/2)
+
+[PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/ "PEP 8 -- Style Guide for Python Code | Python.org")
+
+* Yes
+
+```
+def complex(real, imag=0.0):
     return magic(r=real, i=imag)
+```
 
-def complex(real, imag = 0.0):  # No
+* No
+
+```
+def complex(real, imag = 0.0):
     return magic(r = real, i = imag)
 ```
 
@@ -290,8 +319,8 @@ def complex(real, imag = 0.0):  # No
 [pycodestyle's documentation](http://pycodestyle.pycqa.org/ "pycodestyle’s documentation — pycodestyle 2.3.1 documentation")
 
 ```
-$ pip install pycodestyle
-$ pycodestyle fizzbuzz.py
+$ pip install pycodestyle  # インストール
+$ pycodestyle fizzbuzz.py  # pycodestyleを実行
 ```
 
 +++
@@ -342,7 +371,7 @@ $ flake8 fizzbuzz.py
 
 +++
 
-### コーディングスタイルの統一: まとめ
+### まとめ
 
 * flake8 を使おう
 * エディターでもチェックしてくれるよ
