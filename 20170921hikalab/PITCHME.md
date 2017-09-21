@@ -560,6 +560,8 @@ True
 * 文字列メソッドは多機能
 * 単純な処理は文字列メソッドのみでOK
 
+[4.7. テキストシーケンス型 - str](https://docs.python.jp/3/library/stdtypes.html#text-sequence-type-str "4.7. テキストシーケンス型 — str")
+
 ---
 
 ## 7. 例外処理の使いどころ
@@ -568,8 +570,24 @@ True
 
 ### なぜ?
 
+* エラーは情報の宝庫
 * 例外処理は便利
 * でもなんでも例外で処理するのは危険
+
++++
+
+### Tracebackを読もう
+
+```
+Traceback (most recent call last):
+  File "traceback_sample.py", line 7, in <module>
+    main()
+  File "traceback_sample.py", line 5, in main
+    return sub()
+  File "traceback_sample.py", line 2, in sub
+    return int('名前')
+ValueError: invalid literal for int() with base 10: '名前'
+```
 
 +++
 
@@ -585,7 +603,41 @@ except Exception:
 
 +++
 
-###
+### どこで発生する例外かわかりにくい
+
+```
+try:
+    # とっても
+    # とっても
+    # 長い
+    # 処理
+except ValueError:
+    # 対応する例外処理
+except IndexError:
+    # 対応する例外処理
+```
+
++++
+
+### 例外の発生する可能性のある個所のみを対象に
+
+```
+try:
+    # とっても
+except ValueError:
+    # 対応する例外処理
+    return
+try:
+    # とっても
+except IndexError:
+    # 対応する例外処理
+# 長い
+# 処理
+```
+
++++
+
+### 前もってチェックできるならチェックする
 
 ```
 try:
@@ -603,7 +655,9 @@ else:
 
 ### まとめ
 
+* Tracebackを読もう
 * 例外を握りつぶさない
+* 全体を大きく囲まない
 * 先にわかるものはそこでチェック
 
 ---
