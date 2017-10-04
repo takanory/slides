@@ -38,13 +38,11 @@ Takanori Suzuki
 
 ### いちばんやさしい教本
 
-* [いちばんやさしい教本](https://book.impress.co.jp/category/series/easybook/)
+* https://book.impress.co.jp/category/series/easybook/
+* 「絶対に挫折しない」をコンセプトとした実用書
+* 第一線で活躍する講師のセミナーを受けているように学べる
 
-> これから新しいことを始める人に向けた、「絶対に挫折しない」をコンセプトとした実用書が「いちばんやさしい教本」シリーズ。各分野の第一線で活躍する著者陣が講師となり、まるでセミナーを受けているような感覚で実践的な内容を学べます。
-
-* プログラミングとは限らない
-
-![いちばんやさしい教本](20171005bpstyle/images/easybook.png)
++++?image=20171005bpstyle/images/easybook.png&size=auto
 
 ---
 
@@ -54,6 +52,7 @@ Takanori Suzuki
 * スケジュール
 * 執筆の進め方
 * 執筆ツール
+* おまけ
 
 ---
 
@@ -124,6 +123,23 @@ Takanori Suzuki
 
 ![ライバル書籍たち](20171005bpstyle/images/books.jpg)
 
++++
+
+### 理由
+
+* shimizukawaは執筆入れなそう
+* omega途中で離脱
+* 俺はまだ本気出してないだけ
+
++++
+
+### 対策
+
+* PDFのレビューはharuにほぼまかせた
+  * 残件と指摘対応に集中(takanory)
+* コラムをhirokikyに書いてもらった
+  * テキスト量の調整のみ実施(takanory)
+ 
 ---
 
 ## 執筆の進め方
