@@ -113,6 +113,15 @@ Takanori Suzuki
 
 +++
 
+### 構成まとめ
+
+* 教えていく順番をまとめる
+* コード例をまとめる
+  * 前に教えてない要素を使わない
+* 説明するテキストを書いていく
+
++++
+
 ### 執筆のすすめ方
 
 * ざっくり書く
@@ -143,7 +152,7 @@ Takanori Suzuki
 
 +++
 
-````
+````markdown
 ┏セクションヘッダー━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 【サブタイ】［数値計算］【/サブタイ】
 ## コンピューターに計算をさせてみよう
 前のレッスンでは、プログラムを作るときの考え方を学びました。次はいよいよPythonを使ってプログラムを書いていきます。このレッスンで、簡単な例題をもとにコンピューターの得意なことの1つである「数値計算」をする方法を学んでいきましょう。
@@ -220,3 +229,50 @@ Takanori Suzuki
 
 ## だいたいのレイアウトがわかる
 ## めちゃくちゃ助かる
+
+---
+
+## ツール
+
++++
+
+### ツール
+
+* GitHub
+* エディタ
+* mdpreview
+* Google Drive
+* Windows PC
+* Dropbox
+
++++
+
+### GitHub
+
+* https://github.com/beproud/ichiyasa-python/
+* 章ごとにissue, branch, pull request
+  * pull requestにコメント
+
+[github](20171005bpstyle/images/github.png)
+
++++
+
+### Google Drive
+
+* Googleスライドを図の作成に使用(takanory)
+* そのまま渡せる
+* 図の中のテキストが抜き出せる
+* いらすとや++
+
+[Google Slide](20171005bpstyle/images/google-slide.png)
+
++++
+
+### Windows PC
+
+* インプラPCを利用
+* Windowsのキャプチャに使用
+
+++++
+
+Dropbox
