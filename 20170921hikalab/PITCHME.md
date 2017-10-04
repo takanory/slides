@@ -13,7 +13,7 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 * Twitter: [@takanory](https://twitter.com/takanory)
 * [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
 
-![takanory](assets/image/kurokuri.jpg)
+![takanory](assets/images/kurokuri.jpg)
 
 +++ 
 
@@ -21,7 +21,7 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 * [株式会社ビープラウド](https://www.beproud.jp/)
 
-![BeProud](assets/image/beproud.png)
+![BeProud](assets/images/beproud.png)
 
 +++ 
 
@@ -29,7 +29,7 @@ Takanori Suzuki / ヒカ☆ラボ / 2017年9月21日
 
 * [一般社団法人PyCon JP](https://www.pycon.jp/)
 
-![PyCon JP](assets/image/pyconjp_logo.png)
+![PyCon JP](assets/images/pyconjp_logo.png)
 
 ---
 
@@ -835,7 +835,7 @@ else:
 
 ### Python言語入門から
 
-![いちばんやさしいPythonの教本](assets/image/ichiyasa.jpg)
+![いちばんやさしいPythonの教本](assets/images/ichiyasa.jpg)
 
 [いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151 "いちばんやさしいPythonの教本 人気講師が教える基礎からサーバサイド開発まで - インプレスブックス")
 
@@ -843,7 +843,7 @@ else:
 
 ### Pythonで何か作ってみたい
 
-![Pythonエンジニアファーストブック](assets/image/pyfirst.jpg)
+![Pythonエンジニアファーストブック](assets/images/pyfirst.jpg)
 
 [Pythonエンジニア ファーストブック](http://gihyo.jp/book/2017/978-4-7741-9222-2 "Pythonエンジニア ファーストブック：書籍案内｜技術評論社")
 
@@ -851,7 +851,7 @@ else:
 
 ### ライブラリを使いこなしたい
 
-![Python ライブラリ厳選レシピ](assets/image/recipe.jpg)
+![Python ライブラリ厳選レシピ](assets/images/recipe.jpg)
 
 [Python ライブラリ厳選レシピ](http://gihyo.jp/book/2015/978-4-7741-7707-6 "Python ライブラリ厳選レシピ：書籍案内｜技術評論社")
 
@@ -879,7 +879,7 @@ else:
 
 ### 懇親会で書籍プレゼント
 
-![books](20170921hikalab/image/books.jpg)
+![books](20170921hikalab/images/books.jpg)
 
 ---
 
