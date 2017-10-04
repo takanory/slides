@@ -17,8 +17,9 @@
     local("Yu Gothic"); /* for Chrome */
 }
 
-html {
+.reveal {
     font-family:
+    "Myriad Pro",
     MyYuGothicM, /* Windows 游ゴシック */
     YuGothic, /* OS X 游ゴシック */
     -apple-system, /* iOS San Francisco */
@@ -28,14 +29,25 @@ html {
     sans-serif;
 }
 
-reveal h1,
+.reveal h1,
 .reveal h2,
 .reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    /* font-family: "Montserrtat", Impact, sans-serif; */
-    /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif; */
+    font-family:
+    "Myriad Pro",
+    MyYuGothicM, /* Windows 游ゴシック */
+    YuGothic, /* OS X 游ゴシック */
+    -apple-system, /* iOS San Francisco */
+    BlinkMacSystemFont, /* iOS Chrome San Francisco */
+    "Hiragino Kaku Gothic ProN", /* OS X, iOS ヒラギノ */
+    Meiryo, /* Windows メイリオ */
+    sans-serif;
     text-transform: none;
 }
 
+.reveal pre,
+.reveal code {
+    font-family: Inconsolata, Consolas, monospace;
+}
