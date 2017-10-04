@@ -310,7 +310,7 @@ dct ['key'] = lst [index]      # Bad
 
 * PyQ: https://pyq.jp/
 
-![PyQ](20170629ossx/images/pyq.png)
+![PyQ](assets/images/pyq.png)
 
 +++
 
@@ -335,7 +335,7 @@ dct ['key'] = lst [index]      # Bad
 * [Software Design 2017年6月号](http://gihyo.jp/magazine/SD/archive/2017/201706)
   * 第2特集 今すぐはじめるPython
 
-![Software Design 2017年6月号](20170629ossx/images/softwaredesign.jpg)
+![Software Design 2017年6月号](assets/images/softwaredesign.jpg)
 
 +++
 
@@ -343,7 +343,7 @@ dct ['key'] = lst [index]      # Bad
 
 * 懇親会で1冊プレゼント!!!
 
-![Software Design 2017年6月号](20170629ossx/images/softwaredesign.jpg)
+![Software Design 2017年6月号](assets/images/softwaredesign.jpg)
 
 +++
 
