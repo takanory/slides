@@ -36,6 +36,21 @@ Takanori Suzuki
 
 +++
 
+### 目次
+
+1. インストール
+2. コマンドプロンプト、ターミナル
+3. データ型、演算
+4. for、if
+5. 辞書、ファイルIO
+6. in演算子、関数、組み込み関数
+7. モジュール、datetime、スライス
+8. pip、venv、Requests
+9. Bottle
+10. 書籍、コミュニティ
+
++++
+
 ### いちばんやさしい教本
 
 * https://book.impress.co.jp/category/series/easybook/
