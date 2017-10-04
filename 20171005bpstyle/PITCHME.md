@@ -253,7 +253,7 @@ Takanori Suzuki
 * 章ごとにissue, branch, pull request
   * pull requestにコメント
 
-[github](20171005bpstyle/images/github.png)
+![github](20171005bpstyle/images/github.png)
 
 +++
 
@@ -263,7 +263,7 @@ Takanori Suzuki
 * 図の中のテキストが抜き出せる
 * いらすとや++
 
-[Google Slide](20171005bpstyle/images/google-slide.png)
+![Google Slide](20171005bpstyle/images/google-slide.png)
 
 +++
 
@@ -275,11 +275,11 @@ Takanori Suzuki
 * ファイルサーバー経由でMacとファイル共有
 * キーボードが狭くて、とてもだるかった
 
-++++
++++
 
 ### Dropbox
 
 * 世界最強のPDFレビューツール
 * これなしで書籍のレビューはありえない
 
-[Dropbox](20171005bpstyle/images/dropboxpng)
+![Dropbox](20171005bpstyle/images/dropbox.png)
