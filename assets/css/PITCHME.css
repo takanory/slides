@@ -3,6 +3,31 @@
   box-shadow: none;
 }
 
+@font-face {
+    font-family: "MyYuGothicM";
+    font-weight: normal;
+    src: local("YuGothic-Medium"), /* Postscript name */
+    local("Yu Gothic Medium"), /* for Chrome */
+    local("YuGothic-Regular"); /* Mediumがない場合 */
+}
+@font-face {
+    font-family: "MyYuGothicM";
+    font-weight: bold;
+    src: local("YuGothic-Bold"), /* Postscript name */
+    local("Yu Gothic"); /* for Chrome */
+}
+
+html {
+    font-family:
+    MyYuGothicM, /* Windows 游ゴシック */
+    YuGothic, /* OS X 游ゴシック */
+    -apple-system, /* iOS San Francisco */
+    BlinkMacSystemFont, /* iOS Chrome San Francisco */
+    "Hiragino Kaku Gothic ProN", /* OS X, iOS ヒラギノ */
+    Meiryo, /* Windows メイリオ */
+    sans-serif;
+}
+
 reveal h1,
 .reveal h2,
 .reveal h3,
@@ -10,6 +35,7 @@ reveal h1,
 .reveal h5,
 .reveal h6 {
     /* font-family: "Montserrtat", Impact, sans-serif; */
-    font-family: Lato, "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif; */
+    text-transform: none;
 }
 
