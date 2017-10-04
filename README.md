@@ -12,7 +12,7 @@ Preesentation slides
 ## Pythonの特徴と注目ライブラリのご紹介
 
 * Date: 2017 June 29
-* Slide: https://gitpitch.com/takanory/slides?p=201700629ossx
+* Slide: https://gitpitch.com/takanory/slides?p=20170629ossx
 * [OSSユーザーのための勉強会 < OSS X Users Meeting > #19 Python（2017年06月29日）](https://www.scsk.jp/event/2017/20170629_2.html)
 
 ## Reference
