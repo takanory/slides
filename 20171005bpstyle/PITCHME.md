@@ -232,11 +232,11 @@ Takanori Suzuki
 
 ---
 
-## ツール
+## 執筆ツール
 
 +++
 
-### ツール
+### 執筆ツール
 
 * GitHub
 * エディタ
@@ -260,7 +260,6 @@ Takanori Suzuki
 ### Google Drive
 
 * Googleスライドを図の作成に使用(takanory)
-* そのまま渡せる
 * 図の中のテキストが抜き出せる
 * いらすとや++
 
@@ -270,9 +269,17 @@ Takanori Suzuki
 
 ### Windows PC
 
-* インプラPCを利用
+* インフラPCを利用
 * Windowsのキャプチャに使用
+* [Screenpresso](https://www.screenpresso.com/)でキャプチャ
+* ファイルサーバー経由でMacとファイル共有
+* キーボードが狭くて、とてもだるかった
 
 ++++
 
-Dropbox
+### Dropbox
+
+* 世界最強のPDFレビューツール
+* これなしで書籍のレビューはありえない
+
+[Dropbox](20171005bpstyle/images/dropboxpng)
