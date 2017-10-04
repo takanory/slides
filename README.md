@@ -2,6 +2,12 @@
 
 Preesentation slides
 
+## BPStyle #86
+
+* Date; 2017 Oct 5
+* Slide: https://gitpitch.com/takanory/slides?p=20171005bpstyle
+* https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle86
+
 ## Second step of Python
 
 * Date: 2017 Sep 21
