@@ -26,19 +26,19 @@ Takanori Suzuki / 2017-06-29
 * 注目ライブラリ
 * Pythonを学ぶには
 
----
++++
 
 ### 最初に質問
 
 * Python知ってる人?
 
----
++++
 
 ### 最初に質問
 
 * Python書いたことある人?
 
----
++++
 
 ### 最初に質問
 
@@ -48,7 +48,7 @@ Takanori Suzuki / 2017-06-29
 
 ### Pythonとは
 
----
++++
 
 ### Pythonとは
 
@@ -57,7 +57,7 @@ Takanori Suzuki / 2017-06-29
 * Python 3
 * 豊富なライブラリ
 
----
++++
 
 ### マルチプラットフォーム
 
@@ -66,7 +66,7 @@ Takanori Suzuki / 2017-06-29
 * Linux
 * 他
 
----
++++
 
 ### マルチパラダイム
 
@@ -75,7 +75,7 @@ Takanori Suzuki / 2017-06-29
 * 手続き型
 * 関数型
 
----
++++
 
 ### Python 3
 
@@ -88,7 +88,7 @@ print('こんにちは世界!') # Python 3系
 print 'こんにちは世界!' # Python 2系
 ```
 
----
++++
 
 ### 豊富なライブラリ
 
@@ -97,7 +97,7 @@ print 'こんにちは世界!' # Python 2系
 
 ![標準ライブラリ](20170629ossx/images/standard-library.png)
 
----
++++
 
 ### 豊富なサードパーティ製パッケージ
 
@@ -110,7 +110,7 @@ print 'こんにちは世界!' # Python 2系
 
 ### Python の特徴
 
----
++++
 
 ### Python の特徴
 
@@ -119,7 +119,7 @@ print 'こんにちは世界!' # Python 2系
 * PEP: 拡張提案
 * Pythonでできること
 
----
++++
 
 ### 読みやすいコード
 
@@ -137,7 +137,7 @@ for num in range(1,101):
         print(num)
 ```
 
----
++++
 
 ### PEP8: コーディングスタイル
 
@@ -151,7 +151,7 @@ dct['key'] = lst[index]        # Good
 dct ['key'] = lst [index]      # Bad
 ```
 
----
++++
 
 ### PEP8: コーディングスタイル
 
@@ -160,7 +160,7 @@ dct ['key'] = lst [index]      # Bad
   * autopep8: 自動的に書き換える
   * flake8: pycodestyle + 論理チェック
 
----
++++
 
 ### PEP: Pythonの拡張提案
 
@@ -169,7 +169,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![PEP](20170629ossx/images/peps.png)
 
----
++++
 
 ### Pythonでできること
 
@@ -185,7 +185,7 @@ dct ['key'] = lst [index]      # Bad
 
 ### 注目ライブラリ
 
----
++++
 
 ### 注目ライブラリ
 
@@ -198,7 +198,7 @@ dct ['key'] = lst [index]      # Bad
   * ドキュメンテーション
   * その他
 
----
++++
 
 ### Pythonライブラリ厳選レシピ
 
@@ -210,7 +210,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Pythonライブラリ厳選レシピ](assets/images/recipe.jpg)
 
----
++++
 
 ### Awesome Python
 
@@ -218,7 +218,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Awesome Python](20170629ossx/images/awesome-python.png)
 
----
++++
 
 ### Web開発
 
@@ -231,7 +231,7 @@ dct ['key'] = lst [index]      # Bad
 
   * Scrapy: https://scrapy.org/
 
----
++++
 
 ### データサイエンス
 
@@ -243,7 +243,7 @@ dct ['key'] = lst [index]      # Bad
 * NLTK: 自然言語処理
 * 詳細は次のセッションで
 
----
++++
 
 ### 構成管理
 
@@ -252,7 +252,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Ansible](20170629ossx/images/ansible.png)
 
----
++++
 
 ### ドキュメンテーション
 
@@ -261,7 +261,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Sphinx](20170629ossx/images/sphinx.png)
 
----
++++
 
 ### その他
 
@@ -276,7 +276,7 @@ dct ['key'] = lst [index]      # Bad
 
 ### Pythonを学ぶには
 
----
++++
 
 ### Pythonを学ぶには
 
@@ -286,7 +286,7 @@ dct ['key'] = lst [index]      # Bad
 * 書籍
 * コミュニティ
 
----
++++
 
 ### Webサイト
 
@@ -296,7 +296,7 @@ dct ['key'] = lst [index]      # Bad
   * HOWTO: http://docs.python.jp/3/howto/
 * Dive into Python 3日本語版: http://diveintopython3-ja.rdy.jp/
 
----
++++
 
 ### 学習サイト
 
@@ -304,7 +304,7 @@ dct ['key'] = lst [index]      # Bad
 * ProjectEuler: https://projecteuler.net/
 * CheckIO: https://checkio.org/
 
----
++++
 
 ### 学習サイト
 
@@ -312,14 +312,14 @@ dct ['key'] = lst [index]      # Bad
 
 ![PyQ](20170629ossx/images/pyq.png)
 
----
++++
 
 ### Q&Aサイト
 
 * Stack Overflow: https://ja.stackoverflow.com/
 * teratail: https://teratail.com/
 
----
++++
 
 ### 書籍
 
@@ -328,7 +328,7 @@ dct ['key'] = lst [index]      # Bad
 * [Pythonプロフェッショナルプログラミング第2版](http://www.shuwasystem.co.jp/products/7980html/4315.html)
 * [Pythonライブラリ厳選レシピ](http://gihyo.jp/book/2015/978-4-7741-7707-6)
 
----
++++
 
 ### 書籍(雑誌)
 
@@ -337,7 +337,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Software Design 2017年6月号](20170629ossx/images/softwaredesign.jpg)
 
----
++++
 
 ### 書籍(雑誌)
 
@@ -345,7 +345,7 @@ dct ['key'] = lst [index]      # Bad
 
 ![Software Design 2017年6月号](20170629ossx/images/softwaredesign.jpg)
 
----
++++
 
 ### コミュニティ
 
@@ -355,7 +355,7 @@ dct ['key'] = lst [index]      # Bad
 * PyData.Tokyo: https://pydata.tokyo/
 * PyLadies Tokyo: http://tokyo.pyladies.com/
 
----
++++
 
 ### コミュニティのSlack
 
@@ -365,7 +365,7 @@ dct ['key'] = lst [index]      # Bad
 * PyData-JP: https://pydata-jp.herokuapp.com/
 * PyLadies Japan: [Slackアカウント申請フォーム](https://docs.google.com/forms/d/e/1FAIpQLSelRdBGus7o6MsijTZiTt1kFAoFYQlwYgrBPQOrGVwGlAmHNg/viewform "Slackアカウント申請 - PyLadies Japan")
 
----
++++
 
 ### PyCon JP
 
