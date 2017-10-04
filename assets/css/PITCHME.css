@@ -1,0 +1,15 @@
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    /* font-family: "Montserrtat", Impact, sans-serif; */
+    font-family: Lato, "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
