@@ -340,6 +340,7 @@ Takanori Suzuki
 
 ### あのイラスト
 
+* 「人気講師が教える」体→顔出し必須
 * BPオフィス(bar)で撮影
 * プロのカメラマン
 * 一人30分
@@ -348,7 +349,14 @@ Takanori Suzuki
 
 +++?image=20171005bpstyle/images/takanory-photo-shooting.jpg&size=auto
 
-+++?image=20171005bpstyle/images/omega-photo-shooting.jpg&size=auto
++++
+
+### モデルさんってすごい
+
++++
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">素材として強く生きていこう</p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/914721596534775808?ref_src=twsrc%5Etfw">2017年10月2日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
