@@ -331,3 +331,25 @@ Takanori Suzuki
 * これなしで書籍のレビューはありえない
 
 ![Dropbox](20171005bpstyle/images/dropbox.png)
+
+---
+
+## おまけ
+
++++
+
+### あのイラスト
+
+* BPオフィス(bar)で撮影
+* プロのカメラマン
+* 一人30分
+* いろんなポーズ
+* 写真をそのままイラストにするこだわりの職人
+
++++?image=20171005bpstyle/images/takanory-photo-shooting.jpg&size=auto
+
++++?image=20171005bpstyle/images/omega-photo-shooting.jpg&size=auto
+
+---
+
+## ありがとうございました
