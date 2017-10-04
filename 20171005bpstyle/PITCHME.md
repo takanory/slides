@@ -116,7 +116,7 @@ Takanori Suzuki
 ### 執筆のすすめ方
 
 * ざっくり書く
-* →週に2回の30分のレビュー会
+* →週に2回、30分のレビュー会
 * →直す
 
 +++
@@ -136,7 +136,7 @@ Takanori Suzuki
 
 * Markdown + 独自記法
 
-```
+````
 ┏セクションヘッダー━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 【サブタイ】［数値計算］【/サブタイ】
 ## コンピューターに計算をさせてみよう
 前のレッスンでは、プログラムを作るときの考え方を学びました。次はいよいよPythonを使ってプログラムを書いていきます。このレッスンで、簡単な例題をもとにコンピューターの得意なことの1つである「数値計算」をする方法を学んでいきましょう。
@@ -156,7 +156,7 @@ Takanori Suzuki
 - 数値 (値)
 - 演算子
 【/構文】
-```
+````
 
 +++
 
@@ -166,10 +166,6 @@ Takanori Suzuki
 * 大津さん製
 * https://github.com/lwohtsu/mdpreview
 
-+++?image=20171005bpstyle/images/mdpreview.png
++++?image=20171005bpstyle/images/mdpreview.png&size=auto
 
-Custom size: auto
-
-+++?image-20171005bpstyle/images/ichiyasa-pdf.png
-
-Custom size: auto
++++?image-20171005bpstyle/images/ichiyasa-pdf.png&size=auto
