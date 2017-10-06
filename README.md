@@ -2,6 +2,8 @@
 
 Preesentation slides
 
+* Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
+
 ## BPStyle #86
 
 * Date; 2017 Oct 5
