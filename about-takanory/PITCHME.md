@@ -13,7 +13,7 @@
 
 ### 株式会社ビープラウド所属
 
-* [株式会社ビープラウド](https://www.beproud.jp/)
+* https://www.beproud.jp/
 
 ![BeProud](assets/images/beproud.png)
 
@@ -21,7 +21,7 @@
 
 ### 一般社団法人PyCon JP理事
 
-* [一般社団法人PyCon JP](https://www.pycon.jp/)
+* https://www.pycon.jp/
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
 
@@ -48,3 +48,11 @@
 ![Python ライブラリ厳選レシピ](assets/images/recipe.jpg)
 
 [Python ライブラリ厳選レシピ](http://gihyo.jp/book/2015/978-4-7741-7707-6 "Python ライブラリ厳選レシピ：書籍案内｜技術評論社")
+
++++
+
+### PythonでのWeb開発の手法を知りたい
+
+![Pythonプロフェッショナルプログラミング 第2版](assets/images/pypro2.jpg)
+
+[Pythonプロフェッショナルプログラミング 第2版](http://www.shuwasystem.co.jp/products/7980html/4315.html)
