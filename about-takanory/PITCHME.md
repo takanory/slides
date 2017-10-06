@@ -17,7 +17,6 @@
 
 ![BeProud](assets/images/beproud.png)
 
-
 +++
 
 ### PyQ
@@ -43,6 +42,25 @@
 * https://www.pycon.jp/
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
+
++++
+
+### PyCon JP 2017
+
+* 国内最大のPythonイベント
+* https://pycon.jp/2017/ja/
+
+![PyCon JP 2017](assets/images/pyconjp2017-logo.png)
+
++++
+
+### Python Boot Camp
+
+* 初心者向けPythonチュートリアル
+* https://www.pycon.jp/support/bootcamp.html
+
+![Python Boot Camp](assets/images/python-boot-camp-logo.png)
+
 ---
 
 ## おもな著書
