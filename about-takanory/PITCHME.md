@@ -9,7 +9,7 @@
 
 ![takanory](assets/images/kurokuri.jpg)
 
-+++ 
+---
 
 ### 株式会社ビープラウド所属
 
@@ -17,13 +17,35 @@
 
 ![BeProud](assets/images/beproud.png)
 
-+++ 
+
++++
+
+### PyQ
+
+* Pythonに特化したオンライン学習サービス
+* https://pyq.jp/
+
+![PyQ](assets/images/pyq.png)
+
++++
+
+### connpass
+
+* IT勉強会支援プラットフォーム
+* https://connpass.com/
+
+![connpass](assets/images/connpass.png)
+
+---
 
 ### 一般社団法人PyCon JP理事
 
 * https://www.pycon.jp/
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
+---
+
+## おもな著書
 
 +++
 
