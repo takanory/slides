@@ -56,7 +56,11 @@ Takanori Suzuki
 
 ### 嶋田 健志
 
-* (ここになにか)
+* 嶋田健志 / Takeshi Shimada
+* Twitter: [@TakesxiSximada](https://twitter.com/TakesxiSximada)
+* Webエンジニア
+
+![TakesxiSximada](20171108stapy/images/sximada.png)
 
 +++
 
