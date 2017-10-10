@@ -51,6 +51,9 @@ Takanori Suzuki
 ### 清原 弘貴
 
 * (ここになにか)
+* Twitter: [@hirokiky](https://twitter.com/hirokiky)
+
+![hirokiky](20171108stapy/images/hirokiky.jpg)
 
 +++
 
@@ -67,12 +70,18 @@ Takanori Suzuki
 ### 池内 孝啓
 
 * (ここになにか)
+* Twitter: [@iktakahiro](https://twitter.com/iktakahiro)
+
+![iktakahiro](20171108stapy/images/iktakahiro.jpg)
 
 +++
 
 ### 関根 裕紀
 
 * (ここになにか)
+* Twitter: [@checkpoint](https://twitter.com/checkpoint)
+
+![checkpoint](20171108stapy/images/checkpoint.jpg)
 
 ---
 
