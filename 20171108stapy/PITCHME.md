@@ -60,7 +60,7 @@ Takanori Suzuki
 * Twitter: [@TakesxiSximada](https://twitter.com/TakesxiSximada)
 * Webエンジニア
 
-![TakesxiSximada](20171108stapy/images/sximada.png)
+![TakesxiSximada](20171108stapy/images/sximada.jpg)
 
 +++
 
