@@ -50,12 +50,11 @@ Takanori Suzuki
 
 ### 清原 弘貴
 
-* 清原弘貴 / Hiroki Kiyohara
-* Blog: http://blog.hirokiky.org/
-* GitHub: [hirokiky](https://github.com/hirokiky)
+* 清原 弘貴 / Hiroki Kiyohara
 * Twitter: [@hirokiky](https://twitter.com/hirokiky)
-* 株式会社ビープラウドで [PyQ](https://pyq.jp/) の
-  企画・開発・マーケティングやサポートをチームメンバー皆んなと頑張ってます
+* GitHub: [@hirokiky](https://github.com/hirokiky)
+* [株式会社ビープラウド](https://www.beproud.jp/) 所属、[PyQ](https://pyq.jp/) を開発
+* [djangoproject.jp](http://djangoproject.jp/) 管理者
 
 ![hirokiky](20171108stapy/images/hirokiky.jpg)
 
