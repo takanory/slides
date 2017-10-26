@@ -4,6 +4,13 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## BPStudy #123
+
+* Date: 2017 Nov 24(Fri) 19:00-
+* Slide: https://gitpitch.com/takanory/slides?p=20171124bpstudy-ichiyasa
+* Slide: https://gitpitch.com/takanory/slides?p=20171124bpstudy-pyfirst
+* URL: TBD
+
 ## みんなのPython勉強会#30
 
 * Date: 2017 Nov 8(Wed) 19:00-
