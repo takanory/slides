@@ -103,17 +103,15 @@ Note:
 - 「絶対に挫折しない」をコンセプトとした実用書
 - 第一線で活躍する講師のセミナーを受けているように学べる
 
-+++?image=20171108stapy/images/easybook.png&size=auto
++++?image=20171108stapy/images/easybook.png&size=contain
+
++++
+
+### 「解説パート」+「手順パート」
 
 +++?image=20171108stapy/images/ichiyasa-sample1.png&size=contain
 
-Note:
-解説パート
-
 +++?image=20171108stapy/images/ichiyasa-sample2.png&size=contain
-
-Note:
-手順パート
 
 ---
 
