@@ -105,9 +105,15 @@ Note:
 
 +++?image=20171108stapy/images/easybook.png&size=auto
 
-+++?image=20171108stapy/images/ichiyasa-sample1.png?size=auto
++++?image=20171108stapy/images/ichiyasa-sample1.png&size=auto
 
-+++?image=20171108stapy/images/ichiyasa-sample2.png?size=auto
+Note:
+解説パート
+
++++?image=20171108stapy/images/ichiyasa-sample2.png&size=auto
+
+Note:
+手順パート
 
 ---
 
