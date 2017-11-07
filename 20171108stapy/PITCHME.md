@@ -1,90 +1,219 @@
-# (TBD)ファーストブックの紹介と学び方
+# いちばんやさしいPythonの学び方の作り方
 
 2017 Nov 8 / みんなのPython勉強会#30 
 
 Takanori Suzuki
 
+この書籍がタイトルどおり「いちばんやさしい」内容となることを目指して、執筆にどのどのような工夫をしていたかについて語ります。
+また、この書籍の執筆やPython研修の中で感じている、初めてのプログラミング言語を学ぶときのポイントについても紹介します。
+
+---
+
+## Who am I?(お前誰よ)
+
+* 鈴木たかのり / Takanori Suzuki
+* Twitter: [@takanory](https://twitter.com/takanory)
+* [Python mini Hack-a-thon](https://pyhack.connpass.com/)(#pyhack)主催
+* [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
+
+![takanory](assets/images/kurokuri.jpg)
+
+---
+
+### 株式会社ビープラウド所属
+
+* https://www.beproud.jp/
+
+![BeProud](assets/images/beproud.png)
+
++++
+
+### PyQ
+
+* Pythonに特化したオンライン学習サービス
+* https://pyq.jp/
+
+![PyQ](assets/images/pyq.png)
+
++++
+
+### connpass
+
+* IT勉強会支援プラットフォーム
+* https://connpass.com/
+
+![connpass](assets/images/connpass.png)
+
+---
+
+### 一般社団法人PyCon JP理事
+
+* https://www.pycon.jp/
+
+![PyCon JP](assets/images/pyconjp_logo.png)
+
++++
+
+### PyCon JP 2017
+
+* 国内最大のPythonイベント
+* https://pycon.jp/2017/ja/
+
+![PyCon JP 2017](assets/images/pyconjp2017-logo.png)
+
++++
+
+### Python Boot Camp
+
+* 初心者向けPythonチュートリアル
+* https://www.pycon.jp/support/bootcamp.html
+
+![Python Boot Camp](assets/images/python-boot-camp-logo.png)
+
 ---
 
 ### はなすこと
 
-* ファーストブックの紹介
-  * 著者紹介
-  * 中身の紹介
+* 「いちばんやさしいPythonの教本」の紹介
+  * 執筆チームの紹介
+  * 執筆での工夫
 * Pythonの学び方
 
 ---
 
-### Pythonエンジニア ファーストブック
+### いちばんやさしいPythonの教本
 
-![Pythonエンジニアファーストブック](assets/images/pyfirst.jpg)
-
-* http://gihyo.jp/book/2017/978-4-7741-9222-2
+![いちばんやさしいPythonの教本](assets/images/ichiyasa.jpg)
 
 +++
 
-### Pythonエンジニア ファーストブック
+### いちばんやさしいPythonの教本
 
-* 発売: 2017年9月9日
-* A5判／328ページ
-* 定価: 本体2,400円＋税
-* ISBN: 978-4-7741-9222-2
+* 272ページ / 2,376円(税込)
+* 著者: 鈴木 たかのり、杉谷 弥月
+* 2017年8月10日発売
+* https://book.impress.co.jp/books/1116101151
+
+---
+
+### 執筆チーム
+
+* 著者: 鈴木 たかのり([@takanory](https://twitter.com/takanory)、杉谷 弥月
+* 社内レビュワー
+
+  * [@shimizukawa](https://twitter.com/shimizukawa)
+  * [@haru860](https://twitter.com/haru860)
+  * [@okusama27](https://twitter.com/okusama27)
+
+* ヘルプコラミスト
+
+  * [@hirokiky](https://twitter.com/hirokiky)
+
+---
+
+### 目次
+
+* 1章 Pythonを学ぶ準備をしよう
+* 2章 コマンドプロンプトに慣れよう
+* 3章 基礎を学びながらプログラムを作成しよう
+* 4章 繰り返しと条件分岐を学ぼう
+* 5章 辞書とファイルの扱いを学ぼう
+* 6章 会話botを作ろう
+* 7章 ライブラリを使いこなそう
+* 8章 サードパーティ製パッケージを使いこなそう
+* 9章 Webアプリケーションを作成しよう
+* 10章 さらに知識を身に付けるための学び方
+
++++
+
+### 1.プログラミング入門
+
+プログラムを書いたことがない人向けの内容。
+
+* 1章 Pythonを学ぶ準備をしよう
+  * コンピューターの仕組み
+  * Python、Atomインストール
+* 2章 コマンドプロンプトに慣れよう
+  * コマンドプロンプト(Windows)、ターミナル(macOS)
+  * コマンドでのファイル操作
+* 3章 基礎を学びながらプログラムを作成しよう
+  * 演算、print()関数
+  * 変数、str型、int型
+  * リスト、タプル
+
+Note:
+PCに環境を構築するところから、プログラミングとは何か、どのようにコンピューターで動作するのかを丁寧に解説しています。
+
++++
+
+### Python言語入門
+
+* 4章 繰り返しと条件分岐を学ぼう
+  * for文、if文
+* 5章 辞書とファイルの扱いを学ぼう
+  * 辞書
+  * open()関数
+
+Note:
+プログラミングの基本となるfor文(繰り返し)、if文(条件分岐)や、Pythonのデータ型(辞書)、ファイル入出力
+
++++
+
+### 会話botによるアプリケーション開発
+
+会話botの開発を通じて、Pythonの機能を使いこなす。
+
+* 6章 会話botを作ろう
+  * in演算子、break文
+  * 関数、組込関数
+* 7章 ライブラリを使いこなそう
+  * モジュール
+  * 標準ライブラリ
+  * datetime
+  * 例外処理
+* 8章 サードパーティ製パッケージを使いこなそう
+  * pip、venv
+  * requests
+
++++
+
+### はじめてのWebアプリケーション開発
+
+8章までに作成した会話botをWebアプリケーションにする。
+
+* 9章 Webアプリケーションを作成しよう
+  * Webアプリケーションとは
+  * Bottle
+  * テンプレート
+  * フォーム
+
++++
+
+### 次のステップ
+
+次のステップとして、どうやって学んでいくかについての情報を紹介。
+
+* 10章 さらに知識を身に付けるための学び方
+  * 書籍
+  * Webサイト
+  * コミュニティ
+  
++++
+
+### いちばんやさしい教本
+
+- https://book.impress.co.jp/category/series/easybook/
+- 「絶対に挫折しない」をコンセプトとした実用書
+- 第一線で活躍する講師のセミナーを受けているように学べる
+
++++?image=20171005bpstyle/images/easybook.png&size=auto
 
 ---
 
 ## 著者紹介
 
-+++
-
-### 鈴木 たかのり
-
 * 鈴木たかのり / Takanori Suzuki
-* Twitter: [@takanory](https://twitter.com/takanory)
-* [一般社団法人PyCon JP](https://www.pycon.jp/) 理事
-* [株式会社ビープラウド](https://www.beproud.jp/) 所属
-* [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
-
-![takanory](assets/images/kurokuri.jpg)
-
-+++
-
-### 清原 弘貴
-
-* 清原 弘貴 / Hiroki Kiyohara
-* Twitter: [@hirokiky](https://twitter.com/hirokiky)
-* GitHub: [@hirokiky](https://github.com/hirokiky)
-* [株式会社ビープラウド](https://www.beproud.jp/) 所属、[PyQ](https://pyq.jp/) を開発
-* [djangoproject.jp](http://djangoproject.jp/) 管理者
-
-![hirokiky](20171108stapy/images/hirokiky.jpg)
-
-+++
-
-### 嶋田 健志
-
-* 嶋田健志 / Takeshi Shimada
-* Twitter: [@TakesxiSximada](https://twitter.com/TakesxiSximada)
-* Webエンジニア
-
-![TakesxiSximada](20171108stapy/images/sximada.jpg)
-
-+++
-
-### 池内 孝啓
-
-* (ここになにか)
-* Twitter: [@iktakahiro](https://twitter.com/iktakahiro)
-
-![iktakahiro](20171108stapy/images/iktakahiro.jpg)
-
-+++
-
-### 関根 裕紀
-
-* (ここになにか)
-* Twitter: [@checkpoint](https://twitter.com/checkpoint)
-
-![checkpoint](20171108stapy/images/checkpoint.jpg)
+* 杉谷弥月 / Mitsuki Sugiya
 
 ---
 
