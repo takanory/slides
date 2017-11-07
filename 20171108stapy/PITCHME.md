@@ -95,6 +95,20 @@ Note:
 * 2017年8月10日発売
 * https://book.impress.co.jp/books/1116101151
 
++++
+
+### いちばんやさしい教本
+
+- https://book.impress.co.jp/category/series/easybook/
+- 「絶対に挫折しない」をコンセプトとした実用書
+- 第一線で活躍する講師のセミナーを受けているように学べる
+
++++?image=20171108stapy/images/easybook.png&size=auto
+
++++?image=20171108stapy/images/ichiyasa-sample1.png?size=auto
+
++++?image=20171108stapy/images/ichiyasa-sample2.png?size=auto
+
 ---
 
 ### 執筆チーム
@@ -152,7 +166,7 @@ PCに環境を構築するところから、プログラミングとは何か、
 ### Python言語入門
 
 プログラムを作る上で欠かせない文法を解説
-n
+
 * 4章 繰り返しと条件分岐を学ぼう
   * for文、if文
 * 5章 辞書とファイルの扱いを学ぼう
@@ -201,60 +215,11 @@ Note:
   * Webサイト
   * コミュニティ
   
-+++
-
-### いちばんやさしい教本
-
-- https://book.impress.co.jp/category/series/easybook/
-- 「絶対に挫折しない」をコンセプトとした実用書
-- 第一線で活躍する講師のセミナーを受けているように学べる
-
-+++?image=20171005bpstyle/images/easybook.png&size=auto
-
 ---
-
-## 著者紹介
-
-* 鈴木たかのり / Takanori Suzuki
-* 杉谷弥月 / Mitsuki Sugiya
-
----
-
-### 中身の紹介
 
 ---
 
 ## 書いてみた感想
-
-+++
-
-### 鈴木 たかのり
-
-* (ここになにか)
-
-+++
-
-### 清原 弘貴
-
-* (ここになにか)
-
-+++
-
-### 嶋田 健志
-
-* (ここになにか)
-
-+++
-
-### 池内 孝啓
-
-* (ここになにか)
-
-+++
-
-### 関根 裕紀
-
-* (ここになにか)
 
 ---
 
