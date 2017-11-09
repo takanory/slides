@@ -6,34 +6,33 @@ Preesentation slides
 
 ## BPStudy #123
 
+* Event: [BPStudy#123〜技術書籍執筆の実際、ノウハウ](https://bpstudy.connpass.com/event/68500/)
 * Date: 2017 Nov 24(Fri) 19:00-
-* Slide: https://gitpitch.com/takanory/slides?p=20171124bpstudy-ichiyasa
-* Slide: https://gitpitch.com/takanory/slides?p=20171124bpstudy-pyfirst
-* URL: TBD
+* Slide: https://gitpitch.com/takanory/slides?p=20171124bpstudy
 
 ## みんなのPython勉強会#30
 
+* Event: [みんなのPython勉強会#30 - Stapy30回記念：「初心忘るべからず」](https://startpython.connpass.com/event/65231/)
 * Date: 2017 Nov 8(Wed) 19:00-
-* Slide: https://gitpitch.com/takanory/slides?p=20171108stapy
-* URL: https://startpython.connpass.com/event/65231/
+* Slide: [いちばんやさしいPythonの学び方の作り方](https://gitpitch.com/takanory/slides?p=20171108stapy)
 
 ## BPStyle #86
 
+* Event: https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle86
 * Date: 2017 Oct 5
 * Slide: [いちやさPythonの裏側](https://gitpitch.com/takanory/slides?p=20171005bpstyle)
-* URL: https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle86
 
-## Second step of Python
+## ヒカ☆ラボ
 
+* Event: [「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）](https://career.levtech.jp/hikalab/event/detail/130/ "「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）")
 * Date: 2017 Sep 21
 * Slide: https://gitpitch.com/takanory/slides?p=20170921hikalab
-* [「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）](https://career.levtech.jp/hikalab/event/detail/130/ "「Python言語」二歩目を踏み出そう！脱初心者になるためのポイントを伝授します。（2017/09/21開催）")
-* [「Python言語」はじめの一歩 / First step of Python](https://www.slideshare.net/takanory/python-first-step-of-python "「Python言語」はじめの一歩 / First step of Python")
+* Reference: [「Python言語」はじめの一歩 / First step of Python](https://www.slideshare.net/takanory/python-first-step-of-python "「Python言語」はじめの一歩 / First step of Python")
 
-## Pythonの特徴と注目ライブラリのご紹介
+## OSS X Users Meeting #19
 
 * Date: 2017 June 29
-* Slide: https://gitpitch.com/takanory/slides?p=20170629ossx
+* Slide: [Pythonの特徴と注目ライブラリのご紹介](https://gitpitch.com/takanory/slides?p=20170629ossx)
 * URL: [OSSユーザーのための勉強会 < OSS X Users Meeting > #19 Python（2017年06月29日）](https://www.scsk.jp/event/2017/20170629_2.html)
 
 ## Reference
