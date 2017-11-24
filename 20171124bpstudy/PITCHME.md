@@ -190,6 +190,33 @@ Takanori Suzuki
 
 ## 執筆スケジュール
 
++++
+
+### 執筆スケジュール
+
+* 2016年12月: 編集に改訂を打診
+  * 前向き検討となる
+* 2017年1月: Slack上で相談
+  * 執筆がGo!
+* 2017年2月: 執筆開始
+  * 改訂のストーリー作り
+* 2017年3月: キックオフ飲み
+
++++
+
+### 執筆スケジュール
+
+* 2017年6月: Web以外脱稿
+* 2017年7月: reST脱稿
+  * PDFレビュー開始
+* 2017年8月21日: 5校
+* 2017年9月9日: 発売開始
+  * PyCon JPで先行販売イベント
+
++++?image=20171124bpstudy/images/monotaro-pyfirst.png&size=contain
+
++++?image=20171124bpstudy/images/monotaro-rt.png&size=contain
+
 ---
 
 ## ストーリー作り
