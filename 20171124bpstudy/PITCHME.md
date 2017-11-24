@@ -132,7 +132,7 @@ Takanori Suzuki
   * 他のプログラミング言語知っている
 * 仕事で役立つポイントをつまみ食いしたい
 
-+++?image=20171124bpstudy/images/books-chart.jpg&size=contain
++++?image=20171124bpstudy/images/books-chart.png&size=contain
 
 +++
 
