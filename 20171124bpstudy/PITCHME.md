@@ -6,6 +6,69 @@ Takanori Suzuki
 
 ---
 
+## Who am I?(お前誰よ)
+
+* 鈴木たかのり / Takanori Suzuki
+* Twitter: [@takanory](https://twitter.com/takanory)
+* [Python mini Hack-a-thon](https://pyhack.connpass.com/)(#pyhack)主催
+* [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
+
+![takanory](assets/images/kurokuri.jpg)
+
+---
+
+### 株式会社ビープラウド所属
+
+* https://www.beproud.jp/
+
+![BeProud](assets/images/beproud.png)
+
++++
+
+### PyQ
+
+* Pythonに特化したオンライン学習サービス
+* https://pyq.jp/
+
+![PyQ](assets/images/pyq.png)
+
++++
+
+### connpass
+
+* IT勉強会支援プラットフォーム
+* https://connpass.com/
+
+![connpass](assets/images/connpass.png)
+
+---
+
+### 一般社団法人PyCon JP理事
+
+* https://www.pycon.jp/
+
+![PyCon JP](assets/images/pyconjp_logo.png)
+
++++
+
+### PyCon JP 2017
+
+* 国内最大のPythonイベント
+* https://pycon.jp/2017/ja/
+
+![PyCon JP 2017](assets/images/pyconjp2017-logo.png)
+
++++
+
+### Python Boot Camp
+
+* 初心者向けPythonチュートリアル
+* https://www.pycon.jp/support/bootcamp.html
+
+![Python Boot Camp](assets/images/python-boot-camp-logo.png)
+
+---
+
 ### はなすこと
 
 * ファーストブックの紹介
@@ -48,58 +111,13 @@ Takanori Suzuki
 
 +++
 
-### 鈴木 たかのり
+## 著者紹介
 
-* 第1章、コラム、第4章担当
-* Twitter: [@takanory](https://twitter.com/takanory)
-* [一般社団法人PyCon JP](https://www.pycon.jp/) 理事
-* [株式会社ビープラウド](https://www.beproud.jp/) 所属
-* [Pythonボルダリング部](https://kabepy.connpass.com/)(#kabepy)部長
-
-![takanory](assets/images/kurokuri.jpg)
-
-+++
-
-### 清原 弘貴
-
-* 第2章担当
-* Blog: http://blog.hirokiky.org/
-* GitHub: [hirokiky](https://github.com/hirokiky)
-* Twitter: [@hirokiky](https://twitter.com/hirokiky)
-* 株式会社ビープラウドで [PyQ](https://pyq.jp/) の
-  企画・開発・マーケティングやサポートをチームメンバー皆んなと頑張ってます
-
-![hirokiky](20171124bpsutdy/images/hirokiky.jpg)
-
-+++
-
-### 嶋田 健志
-
-* 第3章担当
-* Twitter: [@TakesxiSximada](https://twitter.com/TakesxiSximada)
-* Webエンジニア
-
-![TakesxiSximada](20171124bpsutdy/images/sximada.jpg)
-
-+++
-
-### 池内 孝啓
-
-* 第5章担当
-* (ここになにか)
-* Twitter: [@iktakahiro](https://twitter.com/iktakahiro)
-
-![iktakahiro](20171124bpsutdy/images/iktakahiro.jpg)
-
-+++
-
-### 関根 裕紀
-
-* 第6章担当
-* (ここになにか)
-* Twitter: [@checkpoint](https://twitter.com/checkpoint)
-
-![checkpoint](20171124bpsutdy/images/checkpoint.jpg)
+* 鈴木 たかのり: 第1章、コラム、第4章
+* 清原 弘貴([@hirokiky](https://twitter.com/hirokiky)): 第2章
+* 嶋田 健志([@TakesxiSximada](https://twitter.com/TakesxiSximada)): 第3章
+* 池内 孝啓([@iktakahiro](https://twitter.com/iktakahiro)): 第5章
+* 関根 裕紀([@checkpoint](https://twitter.com/checkpoint)): 第6章
 
 ---
 
