@@ -207,7 +207,7 @@ Takanori Suzuki
 ### 執筆スケジュール
 
 * 2017年6月: Web以外脱稿
-* 2017年7月: reST脱稿
+* 2017年7月: Web脱稿
   * PDFレビュー開始
 * 2017年8月21日: 5校
 * 2017年9月9日: 発売開始
@@ -223,12 +223,62 @@ Takanori Suzuki
 
 +++
 
-* Python開発の現場にありそうなストーリー
-  * Scrapyでスクレイピング
-  * そのデータをpandasで分析
-  * そのデータをDjangoでWebアプリ化
+### キックオフMTG
+
+* 2016年12月19日
+* ただのバージョンアップじゃなくて新規記事もほしい(編集)
+* BottleからDjangoにしてもいいかも(checkpoint)
+* PyDataはいろんな本が出たので構成考えたい(iktakahiro)
+* 新規記事案
+  * Slackのbot
+  * スクレイピング
+  * クラウド関係
 
 +++
+
+### 改訂箇所のミーティング
+
+* 2017年2月3日
+* Django、PyData改訂、Scrapyで行こう
+* 打ち合わせでストーリー作成
+* Scrapyでスクレイピングしたデータを使う
+  * PyDataでデータ解析
+  * DjangoでWebの元データ
+* データを公開するので途中からでもOK
+
++++
+
+### なんのデータを使おう...
+
++++
+
+### そうだLEGOだ!!!
+
+![LEGOアヒル](20171124bpstudy/images/lego-duck.jpg)
+
++++
+
+### LEGOなら
+
+* いろんな属性値がある
+  * テーマ、発売年、ピース数、価格
+* takanoryの豊富なドメイン知識
+* 似たようなことやってる人がいる
+  * [Crawling and Scraping Web Pages with Scrapy and Python 3](https://www.digitalocean.com/community/tutorials/how-to-crawl-a-web-page-with-scrapy-and-python-3)
+
+---
+
+## ここまでのまとめ
+
++++
+
+### ここまでのまとめ
+
+* 単なる改訂じゃないよ
+* ストーリー性あるよ
+* 買ってね
+
+---
 
 ## では hirokiky にバントタッチ
 
