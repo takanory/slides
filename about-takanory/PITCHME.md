@@ -95,3 +95,9 @@
 ![Pythonプロフェッショナルプログラミング 第3版](assets/images/pypro3.jpg)
 
 [Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html)
+
++++
+
+### Amazonでベストセラー!!!(開発手法)
+
+![Amazonでベストセラー!!!](assets/images/pypro3-best-seller.png)
