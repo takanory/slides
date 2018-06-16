@@ -64,6 +64,8 @@
 
 ## おもな著書
 
+![主な著書](assets/images/takanory-books.jpg)
+
 +++
 
 ### Python言語入門から
