@@ -45,12 +45,11 @@
 
 +++
 
-### PyCon JP 2017
+### PyCon JP 2018
 
 * 国内最大のPythonイベント
-* https://pycon.jp/2017/ja/
-
-![PyCon JP 2017](assets/images/pyconjp2017-logo.png)
+* 日付: 2018年9月17日(月、祝)、18日(火)
+* 会場: [大田区産業プラザPiO](https://www.pio-ota.net/)
 
 +++
 
@@ -83,13 +82,6 @@
 
 +++
 
-### 2刷が出ました!!
-### ✌('ω'✌ )三✌('ω')✌三( ✌'ω')✌
-
-![2刷が出ました](assets/images/2suri.png)
-
-+++
-
 ### ライブラリを使いこなしたい
 
 ![Python ライブラリ厳選レシピ](assets/images/recipe.jpg)
@@ -98,8 +90,8 @@
 
 +++
 
-### PythonでのWeb開発の手法を知りたい
+### Pythonでの開発手法を知りたい
 
-![Pythonプロフェッショナルプログラミング 第2版](assets/images/pypro2.jpg)
+![Pythonプロフェッショナルプログラミング 第3版](assets/images/pypro3.jpg)
 
-[Pythonプロフェッショナルプログラミング 第2版](http://www.shuwasystem.co.jp/products/7980html/4315.html)
+[Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html)
