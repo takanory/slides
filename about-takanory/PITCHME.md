@@ -64,7 +64,7 @@
 
 ## おもな著書
 
-![主な著書](assets/images/takanory-books.jpg)
+![おもな著書](assets/images/takanory-books.png)
 
 +++
 
