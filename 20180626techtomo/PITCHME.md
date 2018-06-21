@@ -4,7 +4,7 @@
 
 Takanori Suzuki
 
----?include=../about-takanory/PITCHME.md
+---?include=about.md
 
 ---
 
