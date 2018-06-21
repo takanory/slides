@@ -4,6 +4,12 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## テクトモ #1
+
+* Event: [テクトモ#1 "Python"ってどんな言語？導入事例や気になるトレンドについて - connpass](https://techtomo.connpass.com/event/89475/)
+* Date: 2018 Jun 26(Tue) 19:00-
+* Slide: https://gitpitch.com/takanory/slides?p=20180626techtomo
+
 ## BPStudy #123
 
 * Event: [BPStudy#123〜技術書籍執筆の実際、ノウハウ](https://bpstudy.connpass.com/event/68500/)
