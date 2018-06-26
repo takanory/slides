@@ -184,6 +184,47 @@ Note:
 
 ## Pythonの今後の展望
 
+++++
+
+### 今後のリリース予定
+
+* 2018年6月27日 Python 3.7.0リリース: [PEP 537](https://www.python.org/dev/peps/pep-0537/)
+* 2019年10月20日 Python 3.8.0リリース: [PEP 569](https://www.python.org/dev/peps/pep-0569/)
+* 2020年1月1日 Python 2系サポート終了リリース: [PEP 404](https://www.python.org/dev/peps/pep-0404/)
+
++++
+
+### Python 3.7.0
+
+* [What's New In Python 3.7](https://docs.python.org/ja/3.7/whatsnew/3.7.html)
+
++++
+
+### breakpoint() 組込関数
+
+* `breakpoint()` と書くと、そこでデバッガーが起動する
+* 今までは `import pdb; pdb.set_trace()` と書いていた
+* pdb以外のデバッガーにも対応
+* [PEP 553 -- Built-in breakpoint() | Python.org](https://www.python.org/dev/peps/pep-0553/)
+
++++
+
+### dataclaess
+
+* データ格納用のクラス
+* [PEP 557 -- Data Classes](https://www.python.org/dev/peps/pep-0557/)
+
+```python
+@dataclass
+class Point:
+    x: float
+    y: float
+    z: float = 0.0
+
+p = Point(1.5, 2.5)
+print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
+```
+
 ---
 
 ## これからPythonを学ぶには
