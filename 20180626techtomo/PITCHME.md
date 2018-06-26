@@ -259,7 +259,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 +++
 
-### ここで次回の発表内容を紹介
+### ここで次回「テクトモ」の発表内容を紹介
 
 +++
 
