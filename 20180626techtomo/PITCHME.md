@@ -212,6 +212,43 @@ Namespaces are one honking great idea -- let's do more of those!
 
 +++
 
+### SQUEEZE
+
+* https://squeeze-inc.co.jp/services/
+* 民泊の運用サポートサービスをPythonで実装
+
+![SQUEEZE](20180626techtomo/images/squeeze.png)
+
++++
+
+### モノタロウ
+
+* https://www.monotaro.com/
+* 工具通販サイトだけでなく、在庫管理など全てPython製
+
+![SQUEEZE](20180626techtomo/images/monotaro.png)
+
++++
+
+### LINE
+
+* https://line.me/
+* フロントは別言語
+* ログ管理とかがPython製
+
+![LINE](20180626techtomo/images/line.png)
+
++++
+
+### Retty
+
+* https://retty.me/
+* 各種データ分析、料理画像の機械学習などに利用
+
+![Retty](20180626techtomo/images/retty.png)
+
++++
+
 ### ここで次回の発表内容を紹介
 
 +++
