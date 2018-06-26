@@ -183,6 +183,25 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## 導入事例
 
++++
+
+### メジャーな企業も利用
+
+* Google: 標準プログラミング言語の1つ
+* Pinterest: WebサービスがPython
+* Instagram: 同上
+* Dropbox: Python開発者が在籍
+* Disney: グラフィックス
+
++++
+
+### US PyConのスポンサー
+
+* Microsoft、Google、AWS、JPMorgan、LinkedIn、Bloombergなどなど
+* [About PyCon Sponsors](https://us.pycon.org/2018/sponsors/)
+
+![US PyCon Sponsors](20180626techtomo/images/pycon-sponsors.png)
+
 ---
 
 ## Pythonの現在のトレンド
