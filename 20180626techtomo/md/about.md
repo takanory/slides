@@ -51,6 +51,8 @@
 * 日付: 2018年9月17日(月、祝)、18日(火)
 * 会場: [大田区産業プラザPiO](https://www.pio-ota.net/)
 
+![PyCon JP 2018](assets/images/pyconjp2018logo.png)
+
 +++
 
 ### Python Boot Camp
