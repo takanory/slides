@@ -98,6 +98,15 @@ for i in range(10):
 
 +++
 
+### バッテリー同梱
+
+* 多数の標準ライブラリ
+* [Python 標準ライブラリ](https://docs.python.org/ja/3/library/index.html)
+
+![標準ライブラリ](20180626techtomo/images/library.png)
+
++++
+
 ### PEP: Python Enhanthment Proposal
 
 * Python拡張の提案
@@ -225,6 +234,14 @@ Namespaces are one honking great idea -- let's do more of those!
 * [DjangoCongress JP 2018](https://djangocongress.jp/)
 
 ![DjangoCongress JP 2018](20180626techtomo/images/djangocongress.png)
+
++++
+
+### Awesome Python
+
+* [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
+
+![Awesome Python](20180626techtomo/images/awesome-python.png)
 
 ---
 
