@@ -1,4 +1,6 @@
-# "Python"ってどんな言語？導入事例や気になるトレンドについて 
+## Pythonってどんな言語?
+
+### 導入事例や気になるトレンドについて 
 
 2018 Jun 26 / テクトモ #1
 
@@ -58,7 +60,7 @@ Takanori Suzuki
 * 2008年12月に3.0がリリース
 * Python 2系との後方互換性を一部削除
 * 3.6.5が最新(2018年5月28日)
-* 3.6.0がもうすぐ(2018年6月27日)リリース予定
+* 3.7.0がもうすぐ(2018年6月27日)リリース予定
 
 ---
 
@@ -93,7 +95,7 @@ for i in range(10):
 
 * Python拡張の提案
 * 拡張のアイデアをドキュメント化
-  * レビュー→採用/不採用
+  * レビューして採用/不採用を判断
   * [PEP 1 - PEP Purpose and Guidelines](http://sphinx-users.jp/articles/pep1.html)
   * [PEP 1 - PEP Purpose and Guidelines(日本語訳)](http://sphinx-users.jp/articles/pep1.html)
 * PEPの一覧ページもPEP
@@ -104,9 +106,30 @@ for i in range(10):
 ### PEP8
 
 * Pythonのコーディング規約
-  * [PEP8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-008/)
+  * [PEP8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
   * [pep8-ja](http://pep8-ja.readthdocs.io/)
 * インデントはスペース4つ
+
++++
+
+### PEP8
+
+* Yes
+
+```python
+import os
+import sys
+
+spam(1)
+```
+
+* No
+
+```python
+import sys, os
+
+spam (1)
+```
 
 +++
 
@@ -114,7 +137,7 @@ for i in range(10):
 
 * [PEP 20 - The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
-``` pythnon
+```python
 >>> import this
 The Zen of Python, by Tim Peters
 
@@ -141,21 +164,34 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ---
 
-# 導入事例
+## 導入事例
 
 ---
 
-# Pythonの現在のトレンド
+## Pythonの現在のトレンド
 
 Note:
 
 ---
 
-# Pythonの今後の展望
+## Pythonの今後の展望
 
 ---
 
-# これからPythonを学ぶには
+## これからPythonを学ぶには
+
+---
+
+## One more thing...
+
++++
+
+### 懇親会で書籍プレゼント
+
+* スラスラ読める Pythonふりがなプログラミング x 2
+* Pythonプロフェッショナルプログラミング 第3版 x 1
+
+* TODO: 画像
 
 ---
 
