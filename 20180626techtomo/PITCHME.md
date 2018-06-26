@@ -8,6 +8,8 @@ Takanori Suzuki
 
 ---?include=20180626techtomo/md/about.md
 
+---
+
 ## 質問はsli.doへ
 
 * ブラウザのURLに `sli.do`
@@ -200,6 +202,28 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ![US PyCon Sponsors](20180626techtomo/images/pycon-sponsors.png)
 
++++
+
+### 国内の事例
+
+* [PyCon JP スポンサー](https://pycon.jp/2017/ja/sponsors/)
+
+![PyCon JP スポンサー](20180626techtomo/images/pyconjp-sponsors.png)
+
++++
+
+### ここで次回の発表内容を紹介
+
++++
+
+### 深層学習のはじめかたと活用事例(仮)
+
+* 志田 和也 (Shida Kazuya)
+* [ユニファ株式会社](https://unifa-e.com/) 開発グループ
+* 私はもともと iOS/Android のエンジニアで、今年から仕事として深層学習をやりはじめました。はじめるに当たって Python や TensorFlow などのツールや環境の紹介と、実際に弊社での深層学習の活用事例を紹介したいと思います
+
+![志田さんアイコン](20180626techtomo/images/shida.jpg)
+
 ---
 
 ## Pythonの現在のトレンド
@@ -231,7 +255,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ### Webスクレイピング
 
-* [Scrapy](https://scrapy.org/)
+* [Scrapy: A Fast and Powerful Scraping and Web Crawling Framework](https://scrapy.org/)
 
 ![Scrapy](20180626techtomo/images/scrapy.png)
 
@@ -239,7 +263,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ### Webアプリケーション
 
-* [Django](https://docs.djangoproject.com/)
+* [Django: The Web framework for perfectionists with deadlines](https://docs.djangoproject.com/)
 
 ![Django](20180626techtomo/images/django.png)
 
@@ -259,6 +283,10 @@ Namespaces are one honking great idea -- let's do more of those!
 * [vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources](https://github.com/vinta/awesome-python)
 
 ![Awesome Python](20180626techtomo/images/awesome-python.png)
+
++++
+
+### Pythonならいろいろできそう
 
 ---
 
