@@ -6,7 +6,7 @@
 
 Takanori Suzuki
 
----?include=md/about.md
+---?include=20180626techtomo/md/about.md
 
 ---
 
@@ -188,10 +188,13 @@ Note:
 
 ### 懇親会で書籍プレゼント
 
-* スラスラ読める Pythonふりがなプログラミング x 2
+* スラスラ読める Pythonふりがなプログラミング x 3
 * Pythonプロフェッショナルプログラミング 第3版 x 1
 
-* TODO: 画像
+![PythonふりがなプログラミングとPythonプロフェッショナルプログラミング](images/present.png)
+
+Note:
+* Pythonふりがなプログラミングの著者の一人の大津さんが見えてます
 
 ---
 
