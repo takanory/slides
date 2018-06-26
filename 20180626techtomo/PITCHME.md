@@ -6,7 +6,7 @@
 
 Takanori Suzuki
 
----?include=about.md
+---?include=md/about.md
 
 ---
 
