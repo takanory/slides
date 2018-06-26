@@ -249,6 +249,16 @@ Namespaces are one honking great idea -- let's do more of those!
 
 +++
 
+### AI学習システム[ＴＲＡＩ]
+
+* http://tekiseicubic.com/about_trai/
+* 適性検査の結果を機械学習
+* 社員タイプの分類、活躍率、定着率予測など
+
+![Retty](20180626techtomo/images/trai.png)
+
++++
+
 ### ここで次回の発表内容を紹介
 
 +++
