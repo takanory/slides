@@ -406,6 +406,15 @@ print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 
 ![connpassのPythonカテゴリ](20180626techtomo/images/connpass-python.png)
 
++++
+
+### PyCon JP 2018
+
+* カンファレンス: 2018年9月17日(月、祝)、18日(火)
+* ぜひまた会いましょう!
+
+![PyCon JP 2018](20180626techtomo/images/pyconjp2018.png)
+
 ---
 
 ## One more thing...
