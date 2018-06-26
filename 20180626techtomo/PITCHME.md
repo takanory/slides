@@ -8,8 +8,6 @@ Takanori Suzuki
 
 ---?include=20180626techtomo/md/about.md
 
----
-
 ## 質問はsli.doへ
 
 * ブラウザのURLに `sli.do`
