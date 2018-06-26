@@ -184,13 +184,13 @@ Note:
 
 ## Pythonの今後の展望
 
-++++
++++
 
 ### 今後のリリース予定
 
 * 2018年6月27日 Python 3.7.0リリース: [PEP 537](https://www.python.org/dev/peps/pep-0537/)
 * 2019年10月20日 Python 3.8.0リリース: [PEP 569](https://www.python.org/dev/peps/pep-0569/)
-* 2020年1月1日 Python 2系サポート終了リリース: [PEP 404](https://www.python.org/dev/peps/pep-0404/)
+* 2020年1月1日 Python 2系サポート終了: [PEP 404](https://www.python.org/dev/peps/pep-0404/)
 
 +++
 
@@ -202,10 +202,15 @@ Note:
 
 ### breakpoint() 組込関数
 
-* `breakpoint()` と書くと、そこでデバッガーが起動する
-* 今までは `import pdb; pdb.set_trace()` と書いていた
+* `breakpoint()` と書くと、バッガーが起動
 * pdb以外のデバッガーにも対応
-* [PEP 553 -- Built-in breakpoint() | Python.org](https://www.python.org/dev/peps/pep-0553/)
+* [PEP 553 -- Built-in breakpoint()](https://www.python.org/dev/peps/pep-0553/)
+
+```python
+import pdb; pdb.set_trace()  # 今まで
+
+breakpoint()  # Python 3.7以降
+```
 
 +++
 
@@ -233,9 +238,8 @@ print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 
 ### 入門書はたくさん
 
-* [ASCII.jp：Python入門書22冊を読み比べてみた｜エデュケーション＠プログラミング＋](http://ascii.jp/elem/000/001/691/1691531/)
-
-> どの本でもPythonを学び始めることができますが、筆者の出した結論は2冊買いです。図が多い書籍＋ページ数の多い書籍、超初心者向け書籍＋リファレンス系書籍、体験系書籍＋チュートリアル系書籍、出版社Aの本＋出版社Bの本など、どんな組み合わせでも良いので、とりあえず2冊買ってみるのです。
+* [ASCII.jp：Python入門書22冊を読み比べてみた](http://ascii.jp/elem/000/001/691/1691531/)
+  * 「どの本でもPythonを学び始めることができますが、筆者の出した結論は2冊買いです。図が多い書籍＋ページ数の多い書籍、超初心者向け書籍＋リファレンス系書籍、体験系書籍＋チュートリアル系書籍、出版社Aの本＋出版社Bの本など、どんな組み合わせでも良いので、とりあえず2冊買ってみるのです。」
 
 +++
 
@@ -252,8 +256,8 @@ print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 ### コミュニティへの参加
 
 * [Pythonカテゴリイベント](https://connpass.com/category/Python/) - connpass
-* 聞くだけでなく、もくもく会への参加がおすすめ
-* 学習の選択肢が多すぎるので、相談できる人を見つけよう
+* もくもく会への参加がおすすめ
+* 相談できる人を見つけよう
 
 ![connpassのPythonカテゴリ](20180626techtomo/images/connpass-python.png)
 
@@ -268,8 +272,8 @@ Note:
 
 ### 懇親会で書籍プレゼント
 
-* スラスラ読める Pythonふりがなプログラミング x 3
-* Pythonプロフェッショナルプログラミング 第3版 x 1
+* スラスラ読める Pythonふりがなプログラミング
+* Pythonプロフェッショナルプログラミング 第3版
 
 ![PythonふりがなプログラミングとPythonプロフェッショナルプログラミング](20180626techtomo/images/present.png)
 
