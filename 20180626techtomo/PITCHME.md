@@ -260,6 +260,14 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ![志田さんアイコン](20180626techtomo/images/shida.jpg)
 
++++
+
+### ユニファ株式会社
+
+* 家族のコミュニケーションを豊かにするプラットフォームを創造
+
+![ユニファ](20180626techtomo/images/unifa.jpg)
+
 ---
 
 ## Pythonの現在のトレンド
