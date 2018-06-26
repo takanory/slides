@@ -266,7 +266,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 * 家族のコミュニケーションを豊かにするプラットフォームを創造
 
-![ユニファ](20180626techtomo/images/unifa.jpg)
+![ユニファ](20180626techtomo/images/unifa.png)
 
 ---
 
