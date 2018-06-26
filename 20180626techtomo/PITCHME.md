@@ -1,12 +1,19 @@
 ## Pythonってどんな言語?
 
-### 導入事例や気になるトレンドについて 
+### 導入事例や気になるトレンドについて
 
 2018 Jun 26 / テクトモ #1
 
 Takanori Suzuki
 
 ---?include=20180626techtomo/md/about.md
+
+---
+
+## 質問はsli.doへ
+
+* ブラウザのURLに `sli.do`
+* イベントコードに `techtomo0626`
 
 ---
 
@@ -112,7 +119,7 @@ for i in range(10):
 
 +++
 
-### PEP8
+### PEP8の例
 
 * Yes
 
@@ -135,6 +142,7 @@ spam (1)
 
 ### The Zen of Python
 
+* Pythonらしさとはなにか?
 * [PEP 20 - The Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ```python
@@ -180,9 +188,40 @@ Note:
 
 ## これからPythonを学ぶには
 
++++
+
+### 入門書はたくさん
+
+* [ASCII.jp：Python入門書22冊を読み比べてみた｜エデュケーション＠プログラミング＋](http://ascii.jp/elem/000/001/691/1691531/)
+
+> どの本でもPythonを学び始めることができますが、筆者の出した結論は2冊買いです。図が多い書籍＋ページ数の多い書籍、超初心者向け書籍＋リファレンス系書籍、体験系書籍＋チュートリアル系書籍、出版社Aの本＋出版社Bの本など、どんな組み合わせでも良いので、とりあえず2冊買ってみるのです。
+
++++
+
+### PCでの学習
+
+* 動画での学習
+* オンライン学習サービス
+  * PyQもよろしく!
+
+![PyQ](assets/images/pyq.png)
+
++++
+
+### コミュニティへの参加
+
+* [Pythonカテゴリイベント](https://connpass.com/category/Python/) - connpass
+* 聞くだけでなく、もくもく会への参加がおすすめ
+* 学習の選択肢が多すぎるので、相談できる人を見つけよう
+
+![connpassのPythonカテゴリ](20180626techtomo/images/connpass-python.png)
+
 ---
 
 ## One more thing...
+
+Note:
+以上で発表を終わりますが、1つおまけがあります
 
 +++
 
@@ -191,7 +230,7 @@ Note:
 * スラスラ読める Pythonふりがなプログラミング x 3
 * Pythonプロフェッショナルプログラミング 第3版 x 1
 
-![PythonふりがなプログラミングとPythonプロフェッショナルプログラミング](images/present.png)
+![PythonふりがなプログラミングとPythonプロフェッショナルプログラミング](20180626techtomo/images/present.png)
 
 Note:
 * Pythonふりがなプログラミングの著者の一人の大津さんが見えてます
