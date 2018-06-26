@@ -100,8 +100,8 @@ for i in range(10):
 
 ### バッテリー同梱
 
-* 多数の標準ライブラリ
 * [Python 標準ライブラリ](https://docs.python.org/ja/3/library/index.html)
+* 多数のライブラリが最初から用意されている
 
 ![標準ライブラリ](20180626techtomo/images/library.png)
 
@@ -255,8 +255,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ### 深層学習のはじめかたと活用事例(仮)
 
-* 志田 和也 (Shida Kazuya)
-* [ユニファ株式会社](https://unifa-e.com/) 開発グループ
+* 志田 和也 (Shida Kazuya) / [ユニファ株式会社](https://unifa-e.com/)
 * 私はもともと iOS/Android のエンジニアで、今年から仕事として深層学習をやりはじめました。はじめるに当たって Python や TensorFlow などのツールや環境の紹介と、実際に弊社での深層学習の活用事例を紹介したいと思います
 
 ![志田さんアイコン](20180626techtomo/images/shida.jpg)
@@ -375,6 +374,14 @@ p = Point(1.5, 2.5)
 print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 ```
 
++++
+
+### さらに先は
+
+* Python 3.8.0 の新機能は未定
+* Python 4系についても未定
+* しばらくはPython 3系の最新でよさそう
+
 ---
 
 ## これからPythonを学ぶには
@@ -400,7 +407,7 @@ print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 
 ### コミュニティへの参加
 
-* [Pythonカテゴリイベント](https://connpass.com/category/Python/) - connpass
+* [Pythonカテゴリイベント](https://connpass.com/category/Python/)
 * もくもく会への参加がおすすめ
 * 相談できる人を見つけよう
 
@@ -410,7 +417,7 @@ print(p)   # produces "Point(x=1.5, y=2.5, z=0.0)"
 
 ### PyCon JP 2018
 
-* カンファレンス: 2018年9月17日(月、祝)、18日(火)
+* https://pycon.jp/2018/
 * ぜひまた会いましょう!
 
 ![PyCon JP 2018](20180626techtomo/images/pyconjp2018.png)
