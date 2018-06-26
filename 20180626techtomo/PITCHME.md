@@ -178,7 +178,53 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## Pythonの現在のトレンド
 
-Note:
++++
+
+### 機械学習、データ分析
+
+* NumPy: 行列操作と数値演算
+* SciPy: 科学技術計算
+* pandas: データの探索や加工、集計
+* Jupyter Notebook: 対話環境
+* Matplotlib: データ可視化
+* scikit-learn: 機械学習
+
++++
+
+### 深層学習
+
+* TensorFlow
+* Keras
+* Chainer
+
++++
+
+### 機械学習だけじゃない
+
++++
+
+### Webスクレイピング
+
+* [Scrapy](https://scrapy.org/)
+
+![Scrapy](20180626techtomo/images/scrapy.png)
+
++++
+
+### Webアプリケーション
+
+* [Django](https://docs.djangoproject.com/)
+
+![Django](20180626techtomo/images/django.png)
+
++++
+
+### DjangoCongress JP 2018
+
+* 日本初のDjangoに関するConference
+* [DjangoCongress JP 2018](https://djangocongress.jp/)
+
+![DjangoCongress JP 2018](20180626techtomo/images/djangocongress.png)
 
 ---
 
