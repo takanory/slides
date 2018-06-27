@@ -4,6 +4,12 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## BPStyle #94
+
+* Event: https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle94
+* Date: 2018 July 5
+* Slide: [PyPro3執筆の光と影](https://gitpitch.com/takanory/slides?p=20180705bpstyle)
+
 ## テクトモ #1
 
 * Event: [テクトモ#1 "Python"ってどんな言語？導入事例や気になるトレンドについて - connpass](https://techtomo.connpass.com/event/89475/)
