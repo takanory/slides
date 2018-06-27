@@ -102,6 +102,6 @@
 
 +++
 
-### Amazonでベストセラー!!!(開発手法)
+### Amazonでベストセラー!!!(開発技法)
 
 ![Amazonでベストセラー!!!](assets/images/pypro3-best-seller.png)
