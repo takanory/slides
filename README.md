@@ -8,7 +8,7 @@ Preesentation slides
 
 * Event: https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle94
 * Date: 2018 July 5
-* Slide: [PyPro3執筆の光と影](https://gitpitch.com/takanory/slides?p=20180705bpstyle)
+* Slide: [PyPro3執筆の光と闇](https://gitpitch.com/takanory/slides?p=20180705bpstyle)
 
 ## テクトモ #1
 
