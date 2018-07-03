@@ -279,6 +279,8 @@ Takanori Suzuki
 
 ---
 
+## 執筆、レビューお疲れ様でした
+
 ## ありがとうございました
 
 +++
@@ -288,3 +290,5 @@ Takanori Suzuki
 +++
 
 「[PyPro3執筆の光と闇(ダークサイド)](https://docs.google.com/presentation/d/1uflZd2bRb4cir3hHBqfn-dWrp6XDEaxvTp7Dd0_rFj8/present?token=AC4w5Vi0h-4fcLChuMax6KMSCCDC8lW3xA:1530584961121&includes_info_params=1#slide=id.p)」へ続く
+
+(社外非公開)
