@@ -44,31 +44,29 @@ Takanori Suzuki
 
 ### 著者の変遷(第1版): 13名
 
-* 清水川貴之、岡野真也、池田洋介、畠弥峰、drillbits
-* cactusman、東健太、tell-k、今川館、ナツ
-* 文殊堂、aita、冨田洋祐
+清水川貴之、岡野真也、池田洋介、畠弥峰、drillbits、cactusman、東健太、tell-k、今川館、ナツ、文殊堂、aita、冨田洋祐
 
-+++
+nnn+++
 
 ### 著者の変遷(第2版): 11名
 
-* Out: 池田洋介、畠弥峰、今川館、ナツ、aita
-* In: aodag、鈴木たかのり、清原弘貴
+Out: 池田洋介、畠弥峰、今川館、ナツ、aita
+
+In: aodag、鈴木たかのり、清原弘貴
 
 +++
 
 ### 著者の変遷(第3版): 11名
 
-* Out: 岡野真也、drillbits、cactusman、東健太、文殊堂、冨田洋祐、aodag
-* In: James Van Dyne、的場達矢、吉田花春、新木雅也、altnight、川村愛美、石上晋
+Out: 岡野真也、drillbits、cactusman、東健太、文殊堂、冨田洋祐、aodag
+
+In: James Van Dyne、的場達矢、吉田花春、新木雅也、altnight、川村愛美、石上晋
 
 +++
 
 ### 第3版の著者: 11名
 
-* 鈴木たかのり、清水川貴之、tell-k、清原弘貴、
-* James Van Dyne、的場達矢、吉田花春、新木雅也
-* altnight、川村愛美、石上晋
+鈴木たかのり、清水川貴之、tell-k、清原弘貴、James Van Dyne、的場達矢、吉田花春、新木雅也、altnight、川村愛美、石上晋
 
 +++
 
