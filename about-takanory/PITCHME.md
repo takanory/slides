@@ -48,8 +48,11 @@
 ### PyCon JP 2018
 
 * 国内最大のPythonイベント
+* https://pycon.jp/2018/
 * 日付: 2018年9月17日(月、祝)、18日(火)
 * 会場: [大田区産業プラザPiO](https://www.pio-ota.net/)
+
+![PyCon JP 2018](assets/images/pyconjp2018logo.png)
 
 +++
 
@@ -72,7 +75,7 @@
 
 ![いちばんやさしいPythonの教本](assets/images/ichiyasa.jpg)
 
-[いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151 "いちばんやさしいPythonの教本 人気講師が教える基礎からサーバサイド開発まで - インプレスブックス")
+[いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151 "いちばんやさしいPythonの教本 人気講師が教える基礎からサーバサイド開発まで - インプレスブックス") (3刷でました!!!)
 
 +++
 
@@ -96,10 +99,4 @@
 
 ![Pythonプロフェッショナルプログラミング 第3版](assets/images/pypro3.jpg)
 
-[Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html)
-
-+++
-
-### Amazonでベストセラー!!!(開発技法)
-
-![Amazonでベストセラー!!!](assets/images/pypro3-best-seller.png)
+[Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html) (2刷でました!!!)
