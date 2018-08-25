@@ -99,4 +99,12 @@
 
 ![Pythonプロフェッショナルプログラミング 第3版](assets/images/pypro3.jpg)
 
-[Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html) (2刷でました!!!)
+[Pythonプロフェッショナルプログラミング 第3版](http://www.shuwasystem.co.jp/products/7980html/5382.html)
+
++++
+
+### Pythonでデータ分析をしたい
+
+![あたらしいPythonによるデータ分析の教科書](assets/images/pydatatext.jpg)
+
+[あたらしいPythonによるデータ分析の教科書](https://www.seshop.com/product/detail/22028)
