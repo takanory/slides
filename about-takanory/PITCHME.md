@@ -105,6 +105,6 @@
 
 ### Pythonでデータ分析をしたい
 
-![あたらしいPythonによるデータ分析の教科書](assets/images/pydatatext.jpg)
+![Pythonによるあたらしいデータ分析の教科書](assets/images/pydatatext.png)
 
-[あたらしいPythonによるデータ分析の教科書](https://www.seshop.com/product/detail/22028)
+[Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028)
