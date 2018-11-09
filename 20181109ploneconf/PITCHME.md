@@ -147,36 +147,64 @@ Note:
 I'll show you.
 How I will reducing bothersome tasks.
 
+```
 $ping
+```
+
 > Bot is active.
 
 > Participants asked me "Do you have any recommendded Japanese food?" at reecption desk.
+
+```
 $choice ramen gyoza gyoza gyoza gyoza sushi
+```
 
 > He asked "Where is the gyoza restaurant?"
+
+```
 $google kamata gyoza
+```
 
 > Then, He said "I don't know gyoza"
 > "OK, I'll show you"
+
+```
 $image gyoza
+```
 
 > "Please tell me more about gyoza"
+
+```
 $wikipedia gyoza
 $wikipedia -en gyoza
+```
 
 > They ate gyoza.
 > At the time of payment, the ammount of money was 26,000 yen for 8 people
+
+```
 26000 / 8
-"3,250 yen for each person"
+```
+
+> "3,250 yen for each person"
 
 > "BTW, I will move to Kyoto tomorrow. Is Kyoto cold?"
+
+```
 $weather 京都
+```
+
 > "I can't read!"
+
+```
 $translate 明日 は :sunny:晴れ 最低気温13℃ 最高気温22℃
+```
 
-Bot answered all questions!!
-I reduced my bothersome tasks.
+* Bot answered all questions!!
+* I reduced my bothersome tasks.
 
+```
 $translate ありがとうございました
 $translate -de ありがとうございました
 $translate -es ありがとうございました
+```
