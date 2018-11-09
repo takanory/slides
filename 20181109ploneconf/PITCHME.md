@@ -73,7 +73,7 @@ I will talk about PyCon JP Bot.
 * Easy access to Slack
 * To do everything in Slack
 
-![takanory](20181109ploneconf/images/slack.png)
+![slack](20181109ploneconf/images/slack.png)
 
 +++
 
@@ -95,7 +95,7 @@ I will talk about PyCon JP Bot.
 ```python
 from slackbot.bot import respond_to
 
-@respond_to('^ping$')
+@respond_to('ping')
 def ping(message):
     """$ping -> pong"""
     message.send('pong')
@@ -120,8 +120,23 @@ Commands can receive parameters using regular expressions
 
 ### Commands of PyCon JP Bot
 
-* `
+* `$google`: search google
+* `$jira`: search JIRA issue
+* `$wikipedia`
+* `$weather`: weather forecast
+* `$translate`
+* `$gadmin`: manage google admin(account and group)
+* `$lgtm`: generate LGTM image
+* ...and so on
+
+Note:
+There are examples of comannds of PyCon JP Bot
 
 +++
 
 ## DEMO
+
+Note:
+I'll show you DEMO.
+How I will reducing the tiresome work.
+
