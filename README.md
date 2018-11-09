@@ -4,6 +4,12 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## Plone Conference 2018 Tokyo
+
+* Event: https://2018.ploneconf.org/
+* Date: 2018 Nov 9
+* Slide: [TBD](https://gitpitch.com/takanory/slides?p=20181109ploneconf)
+
 ## BPStyle #94
 
 * Event: https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle94
