@@ -12,7 +12,7 @@
 
 * Training management by Philip
 * Talk session volunteer by Jim, Kim and others
-* Trainers and Keynotes, Talks, LT speakers
+* Trainers, Keynotes, Talks and LT speakers
 
 Note:
 At first, I say Thank you...
@@ -159,12 +159,6 @@ $ping
 $choice ramen gyoza gyoza gyoza gyoza sushi
 ```
 
-> He asked "Where is the gyoza restaurant?"
-
-```
-$google kamata gyoza
-```
-
 > Then, He said "I don't know gyoza"
 > "OK, I'll show you"
 
@@ -177,6 +171,12 @@ $image gyoza
 ```
 $wikipedia gyoza
 $wikipedia -en gyoza
+```
+
+> He asked "Where is the gyoza restaurant?"
+
+```
+$google kamata gyoza
 ```
 
 > They ate gyoza.
@@ -208,3 +208,6 @@ $translate ありがとうございました
 $translate -de ありがとうございました
 $translate -es ありがとうございました
 ```
+
+
+
