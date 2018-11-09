@@ -128,7 +128,6 @@ command |
 `$translate` | translation
 `$gadmin` | manage google admin
 `$lgtm` | generate LGTM image
-| ...and so on
 
 Note:
 There are examples of comannds of PyCon JP Bot
@@ -144,35 +143,33 @@ How I will reducing bothersome tasks.
 $ping
 > Bot is active.
 
-> Participants asked me "Do you have any recommendded Japanese food?".
+> Participants asked me "Do you have any recommendded Japanese food?" at reecption desk.
 $choice ramen gyoza gyoza gyoza gyoza sushi
 
-> Where is the gyoza restaurant?
+> He asked "Where is the gyoza restaurant?"
 $google kamata gyoza
 
-> "I don't know gyoza"
-> "I'll show you"
+> Then, He said "I don't know gyoza"
+> "OK, I'll show you"
 $image gyoza
 
 > "Please tell me more about gyoza"
 $wikipedia gyoza
 $wikipedia -en gyoza
 
-> "OK Looks good to me."
-$lgtm create https://pbs.twimg.com/media/DrdPY1fU0AAzpGV.jpg
-
 > They ate gyoza.
 > At the time of payment, the ammount of money was 26,000 yen for 8 people
 26000 / 8
 "3,250 yen for each person"
 
-> "BTW, I will move to Kyoto tomorrow. How do I get to Kyoto?"
-$google 京急蒲田から京都
-
-> "Is Kyoto cold?"
+> "BTW, I will move to Kyoto tomorrow. Is Kyoto cold?"
 $weather 京都
 > "I can't read!"
 $translate 明日 は :sunny:晴れ 最低気温13℃ 最高気温22℃
 
 Bot answered all questions!!
 I reduced my bothersome tasks.
+
+$translate ありがとうございました
+$translate -de ありがとうございました
+$translate -es ありがとうございました
