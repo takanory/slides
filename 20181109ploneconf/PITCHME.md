@@ -121,14 +121,16 @@ Commands can receive parameters using regular expressions
 
 ### Commands of PyCon JP Bot
 
-* `$google`: search google
-* `$jira`: search JIRA issue
-* `$wikipedia`
-* `$weather`: weather forecast
-* `$translate`
-* `$gadmin`: manage google admin(account and group)
-* `$lgtm`: generate LGTM image
-* ...and so on
+command |
+--- | ---
+`$google` | search google
+`$jira` | search JIRA issue
+`$wikipedia` |
+`$weather` | weather forecast
+`$translate` |
+`$gadmin` | manage google admin(account and group)
+`$lgtm` | generate LGTM image
+| ...and so on
 
 Note:
 There are examples of comannds of PyCon JP Bot
