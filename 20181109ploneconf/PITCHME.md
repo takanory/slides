@@ -94,7 +94,7 @@ I want to do everything in Slack
 
 ### PyCon JP Bot
 
-* TODO: 図を入れる
+![architecture](20181109ploneconf/images/architecture.png)
 
 +++
 
