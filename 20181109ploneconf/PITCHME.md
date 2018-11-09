@@ -12,7 +12,7 @@
 
 * Training management by Philip
 * Talk session volunteer by Jim, Kim and others
-* All Keynotes, Talks speakers
+* Trainers and Keynotes, Talks, LT speakers
 
 Note:
 At first, I say Thank you...
@@ -144,7 +144,7 @@ There are examples of comannds of PyCon JP Bot
 ## DEMO
 
 Note:
-I'll show you DEMO.
+I'll show you.
 How I will reducing bothersome tasks.
 
 $ping
