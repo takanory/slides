@@ -36,11 +36,12 @@ At first, I say Thank you...
 * Foods, Coffee, Snacks and Beers
 
 Note:
-I think you know, there are so many tasks to hold a conference
+I think you know, there are so many tasks to hold a conference.
+But,...
 
 +++
 
-## But Programmer is Lazy
+## Programmer is Lazy
 
 Note:
 As you know, programmers dislike routine work.
@@ -61,7 +62,7 @@ to do my bothersome tasks on my behalf
 
 ## PyCon JP Bot
 
-Chatbot for PyCon JP Slack
+a Chat bot for PyCon JP Slack
 
 Note:
 I will talk about PyCon JP Bot.
@@ -71,17 +72,23 @@ I will talk about PyCon JP Bot.
 ### Why Chatbot?
 
 * Launching the Slack application at any time
-* Easy access to Slack
+* Easy to access Slack
 * To do everything in Slack
 
 ![slack](20181109ploneconf/images/slack.png)
+
+Note: 
+I'am Launching the Slack application at any time
+So it's easy to access Slack
+I want to do everything in Slack
 
 +++
 
 ### PyCon JP Bot
 
 * GitHub: https://github.com/pyconjp/pyconjpbot
-* based on https://github.com/lins05/slackbot
+* based on Slackbot: https://github.com/lins05/slackbot
+* Slack API: https://api.slack.com/
 
 +++
 
