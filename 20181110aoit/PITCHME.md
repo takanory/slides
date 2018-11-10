@@ -47,11 +47,11 @@ Note:
 * 費用: 講師の旅費、会場費などはPyCon JP持ち
 * 参加費: 2,000円(学生500円)
 
-+++?image=20181110aoit/images/pycamp-iwate.jpg
++++?image=20181110aoit/images/pycamp-iwate.jpg&size=auto 100%
 
-+++?image=20181110aoit/images/pycamp-iwate-group.jpg
++++?image=20181110aoit/images/pycamp-iwate-group.jpg&size=auto 100%
 
-+++?image=20181110aoit/images/pycamp-party.jpg
++++?image=20181110aoit/images/pycamp-party.jpg&size=auto 100%
 
 +++
 
@@ -69,9 +69,9 @@ Note:
 
 ![Pycamp開催済](20181110aoit/images/pycamp-venues.png)
 
-+++?image=20181110aoit/images/aomori.png
++++?image=20181110aoit/images/aomori.png&size=auto 100%
 
-+++?image=20181110aoit/images/aomori2.png
++++?image=20181110aoit/images/aomori2.png&size=auto 100%
 
 +++
 
