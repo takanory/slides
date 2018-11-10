@@ -85,3 +85,5 @@ Note:
 * 「Python Boot Camp」で検索
 * https://www.pycon.jp/support/bootcamp.html
 * ハッシュタグ: #pycamp
+
+![Python Boot Campロゴ](assets/images/python-boot-camp-logo.png)
