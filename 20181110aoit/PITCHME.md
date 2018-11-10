@@ -49,9 +49,21 @@ Note:
 
 +++
 
+![pycamp岩手](20181101aoit/images/pycamp-iwate.jpg)
+
++++
+
+![pycamp岩手の集合写真](20181101aoit/images/pycamp-iwate-group.jpg)
+
++++
+
+![Python懇親会](20181101aoit/images/pycamp-party.jpg)
+
++++
+
 ### Python Boot Camp現地スタッフ
 
-* 各地域でPythonをひろめたい人からの申込みを待ってます
+* 全国各地でPythonをひろめたい人からの申込みを待ってます
 * やること: 場所確保、告知、ブログ、当日運営、懇親会など
 * コアスタッフによる開催サポートあります
 
