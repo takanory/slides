@@ -17,6 +17,8 @@
 
 ![BeProud](assets/images/beproud.png)
 
++++?image=assets/images/sokidan.jpg
+
 +++
 
 ### PyQ
