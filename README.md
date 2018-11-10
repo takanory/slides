@@ -4,11 +4,18 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## あおもりITひとつなぎ交流会
+
+* Event: http://www.aoit.jp/9251.html
+* Date: 2018 Nov 10
+* Slide: [Python Boot Campの紹介](https://gitpitch.com/takanory/slides?p=20181110aoit)
+* Note: Plone Conference Sprints と同じマイクロソフトでたまたまやっていた青森のイベントにPython Boot Campの話で突入してきた
+
 ## Plone Conference 2018 Tokyo
 
 * Event: https://2018.ploneconf.org/
 * Date: 2018 Nov 9
-* Slide: [TBD](https://gitpitch.com/takanory/slides?p=20181109ploneconf)
+* Slide: [PyCon JP Bot](https://gitpitch.com/takanory/slides?p=20181109ploneconf)
 
 ## BPStyle #94
 
