@@ -4,6 +4,6 @@
 
 Takanori Suzuki
 
----?include=20180626techtomo/md/about.md
+---?include=about-takanory/about.md
 
 ---
