@@ -9,7 +9,7 @@
 
 ![takanory](assets/images/kurokuri.jpg)
 
-+++?image=assets/images/sokidan.jpg&size=auto 90%
++++?image=assets/images/sokidan.jpg&size=auto 100%
 
 ---
 
