@@ -82,4 +82,6 @@ Note:
 
 ## ありがとうございました
 
+* 「Python Boot Camp」で検索
 * https://www.pycon.jp/support/bootcamp.html
+* ハッシュタグ: #pycamp
