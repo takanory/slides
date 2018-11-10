@@ -49,15 +49,15 @@ Note:
 
 +++
 
-![pycamp岩手](20181101aoit/images/pycamp-iwate.jpg)
+![pycamp岩手](20181110aoit/images/pycamp-iwate.jpg)
 
 +++
 
-![pycamp岩手の集合写真](20181101aoit/images/pycamp-iwate-group.jpg)
+![pycamp岩手の集合写真](20181110aoit/images/pycamp-iwate-group.jpg)
 
 +++
 
-![Python懇親会](20181101aoit/images/pycamp-party.jpg)
+![Python懇親会](20181110aoit/images/pycamp-party.jpg)
 
 +++
 
@@ -83,4 +83,12 @@ Note:
 
 ![青森](20181110aoit/images/aomori2.png)
 
----
++++
+
+### 青森からの現地スタッフ申込みをお待ちしています
+
++++
+
+## ありがとうございました
+
+* https://www.pycon.jp/support/bootcamp.html
