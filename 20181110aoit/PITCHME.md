@@ -49,13 +49,9 @@ Note:
 
 +++?image=20181110aoit/images/pycamp-iwate.jpg
 
-+++
++++?image=20181110aoit/images/pycamp-iwate-group.jpg
 
-![pycamp岩手の集合写真](20181110aoit/images/pycamp-iwate-group.jpg)
-
-+++
-
-![Python懇親会](20181110aoit/images/pycamp-party.jpg)
++++?image=20181110aoit/images/pycamp-party.jpg
 
 +++
 
@@ -73,17 +69,14 @@ Note:
 
 ![Pycamp開催済](20181110aoit/images/pycamp-venues.png)
 
-+++
++++?image=20181110aoit/images/aomori.png
 
-![青森](20181110aoit/images/aomori.png)
-
-+++
-
-![青森](20181110aoit/images/aomori2.png)
++++?image=20181110aoit/images/aomori2.png
 
 +++
 
-### 青森からの現地スタッフ申込みをお待ちしています
+### 青森からの現地スタッフ申込み
+### お待ちしています
 
 +++
 
