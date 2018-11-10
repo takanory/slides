@@ -18,7 +18,7 @@ Note:
 
 ありがとうございます
 
----?include=about-takanory/about.md
+---?include=about-takanory/PITCHME.md
 
 ---
 
@@ -42,20 +42,33 @@ Note:
 
 ### Python Boot Camp
 
-* 講師: 一般社団法人PyCon JPが派遣(私も講師やってます)
-* 費用: 講師の旅費、宿泊費、会場費などはPyCon JP持ち
-* 現地スタッフ
-  * 各地域でPythonをひろめたい人が中心でイベントを進める
-  * やること: 告知、ブログ、当日運営、懇親会など
-  * Python Boot Campコアスタッフによる開催サポート
+* 講師: 一般社団法人PyCon JPから派遣
+  * 私も講師の一人です
+* 費用: 講師の旅費、会場費などはPyCon JP持ち
 * 参加費: 2,000円(学生500円)
 
 +++
 
-### Python Boot Camp
+### Python Boot Camp現地スタッフ
+
+* 各地域でPythonをひろめたい人からの申込みを待ってます
+* やること: 場所確保、告知、ブログ、当日運営、懇親会など
+* コアスタッフによる開催サポートあります
+
++++
+
+### Python Boot Camp実績
 
 * 28道府県で開催済/予定
 
 ![Pycamp開催済](20181110aoit/images/pycamp-venues.png)
+
++++
+
+![青森](20181110aoit/images/aomori.png)
+
++++
+
+![青森](20181110aoit/images/aomori2.png)
 
 ---
