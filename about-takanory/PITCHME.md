@@ -9,6 +9,8 @@
 
 ![takanory](assets/images/kurokuri.jpg)
 
++++?image=assets/images/sokidan.jpg&size=auto
+
 ---
 
 ### 株式会社ビープラウド取締役
@@ -16,8 +18,6 @@
 * https://www.beproud.jp/
 
 ![BeProud](assets/images/beproud.png)
-
-+++?image=assets/images/sokidan.jpg
 
 +++
 
