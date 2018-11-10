@@ -65,6 +65,14 @@ Note:
 
 ### Python Boot Camp実績
 
+* 2016年6月の京都が第1回
+* 2018年12月8日の仙台まで30回、28道府県で開催
+* スタッフ、TA含めて738名が参加
+
++++
+
+### Python Boot Camp実績
+
 * 28道府県で開催済/予定
 
 ![Pycamp開催済](20181110aoit/images/pycamp-venues.png)
@@ -83,7 +91,7 @@ Note:
 ## ありがとうございました
 
 * 「Python Boot Camp」で検索
-* https://www.pycon.jp/support/bootcamp.html
 * ハッシュタグ: #pycamp
+* https://www.pycon.jp/support/bootcamp.html
 
 ![Python Boot Campロゴ](assets/images/python-boot-camp-logo.png)
