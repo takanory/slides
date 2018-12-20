@@ -21,8 +21,8 @@
 
 ## 質問はsli.doへ
 
-* ブラウザのURLに `sli.do`
-* イベントコードに `techtomo1220`
+* ブラウザのURLに https://www.sli.do/
+* イベントコードに `tt1220`
 
 ---
 
@@ -45,3 +45,5 @@
 ---
 
 ## その他
+
+* https://app2.sli.do/event/uuowezmd/questions
