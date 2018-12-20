@@ -28,7 +28,7 @@
 
 ## 書籍について
 
-![Go言語による並行処理](20181220techtomo/images/go-cover.jpg)
+![Go言語による並行処理](20181220techtomo/images/go-cover.png)
 
 ---
 
