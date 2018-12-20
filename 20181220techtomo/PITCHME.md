@@ -6,16 +6,14 @@
 
 ---
 
-Takanori Suzuki
-
 ## Who am I?(お前誰よ)
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
-* [一般社団法人PyCon JP](https://www.pycon.jp)理事 #pyconjp
-* [株式会社ビープラウド](https://www.beproud.jp)役員
-* [Python mini Hack-a-thon](https://pyhack.connpass.com/)o主催 #pyhack
-* [Pythonボルダリング部](https://kabepy.connpass.com/)部長 #kabepy
+* [一般社団法人PyCon JP](https://www.pycon.jp) 理事: `#pyconjp`
+* [株式会社ビープラウド](https://www.beproud.jp) 役員
+* [Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催: `#pyhack`
+* [Pythonボルダリング部](https://kabepy.connpass.com/) 部長: `#kabepy`
 
 ![takanory](assets/images/kurokuri.jpg)
 
@@ -24,7 +22,7 @@ Takanori Suzuki
 ## 質問はsli.doへ
 
 * ブラウザのURLに `sli.do`
-* イベントコードに `techtomo0626`
+* イベントコードに `techtomo1220`
 
 ---
 
@@ -35,6 +33,8 @@ Takanori Suzuki
 ---
 
 ## Go言語について
+
+![Go-Logo](20181220techtomo/images/Go-Logo_LightBlue.jpg)
 
 ---
 
