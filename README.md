@@ -4,6 +4,12 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## テクトモ #7
+
+* Event: [テクトモ#7 Googleの山口能迪さん登場！ Goのパフォーマンスチューニング](https://techtomo.connpass.com/event/107621/)
+* Date: 2018 Dec 20(Tue) 19:00-
+* Slide: https://gitpitch.com/takanory/slides?p=20181220techtomo
+
 ## あおもりITひとつなぎ交流会
 
 * Event: http://www.aoit.jp/9251.html
