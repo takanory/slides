@@ -34,7 +34,7 @@
 
 ## Go言語について
 
-![Go-Logo](20181220techtomo/images/Go-Logo_LightBlue.png)
+![Go-Logo](20181220techtomo/images/go-logo.png)
 
 ---
 
