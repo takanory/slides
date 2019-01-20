@@ -4,6 +4,13 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## PyCon APAC 2019
+
+* Event: [PyCon APAC 2019](https://pycon.python.ph/)
+* Date: 2019 Feb 23-24
+* Place: Makati, Philippines
+* Slide: https://gitpitch.com/takanory/slides?p=20190223pyconapac
+
 ## テクトモ #7
 
 * Event: [テクトモ#7 Googleの山口能迪さん登場！ Goのパフォーマンスチューニング](https://techtomo.connpass.com/event/107621/)
