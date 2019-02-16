@@ -9,7 +9,7 @@ Preesentation slides
 * Event: [PyCon APAC 2019](https://pycon.python.ph/)
 * Date: 2019 Feb 23-24
 * Place: Makati, Philippines
-* Slide: https://gitpitch.com/takanory/slides?p=20190223pyconapac
+* Slide: https://gitpitch.com/takanory/slides?p=20190224pyconapac
 
 ## テクトモ #7
 
