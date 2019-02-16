@@ -104,12 +104,22 @@ This is system overview of Incoming Webhook.
 
 +++
 
-### Create Incoming Webhooks Integration on Slack
+### Create Incoming Webhooks Integration
 
-* 
+* Generate Webhook URL
+  1. Create a Slack app
+  2. Enable Incoming Webhooks
+  3. Create an Incoming Webhook
+* Webhook URL like this:
+
+```
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+* see: [Getting started with Incoming Webhooks](https://api.slack.com/incoming-webhooks#getting-started)
 
 Note:
-URLを取得する
+URLを取得する手順を簡単に説明
 
 +++
 
@@ -122,48 +132,24 @@ $ curl -X POST -H 'Content-type: application/json' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
-Note:
-なんか説明
-
-+++
-
-### Post message with cURL
-
 * TODO: ここに送信された画像を入れる
 
 Note:
-送信したメッセージがSlackに表示されます!
-
-+++
-
-### Post message with Requests
-
-```python
-import json
-import requests
-
-URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
-data = json.dumps({'text': 'Hello Slack'})
-requests.post(URL, data=data)
-```
-
-Note:
-PythonでRequests使うとこんな感じだよ。簡単だよね。
-
-+++
-
-### Complex message with Requests
-
-```python
--- snip --
-data = json.dumps({'text': 'Hello Slack'})
-requests.post(URL, data=data)
-```
-
-* TODO: 画像を入れる
+シンプルなメッセージをcURLを使って送信します。こんな感じでJSONで送るとこんな感じで表示されるよ。
 
 Note:
 複雑なメッセージもこんな感じで送れるよ。
+
++++
+
+### Summary of Incoming Webhook
+
+* プログラムから簡単にメッセージ送信できる
+* メッセージの装飾できる
+* BUT one way only
+
+Note:
+Next, I will explain how to make interactive chatbot.
 
 ---
 
@@ -173,17 +159,70 @@ Note:
 
 ### System overview
 
+* TODO: 図を入れる
+
 +++
 
 ### Create bot user on Slack
+
+* Create bot user
+  1. Create a Slack app
+  2. Enable Bots
+  3. Add a Bot User
+  4. Install App to Workspace -> Authorize
+* Bot User OAuth Access Token like this:
+
+```
+xoxb-123467890-XXXXXX-XXXXXXXXXXXXX
+```
+
+* Invite Bot User to Slack channel
+
+* see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
+
+Note:
+Botユーザーをまずは作成します。手順の説明...
 
 +++
 
 ### Install slackbot
 
+* https://github.com/lins05/slackbot
+
+```
+$ mkdir mybot
+$ cd mybot
+$ python3.6 -m venv env
+$ source env/bin/activate
+(env) $ pip install slackbot
+```
+
+Note:
+Then, I make venv and install slackbot.
+
 +++
 
 ### Create a simple bot with slackbot
+
+* slackbot_settings.py
+
+```python
+API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"
+PLUGINS = ['mybot.plugins']
+```
+
+* run.py
+
+```python
+from slackbot.bot import Bot
+
+def main():
+    bot = Bot()
+    bot.run()
+
+if __name__ == "__main__":
+    main()
+```
 
 ---
 
