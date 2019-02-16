@@ -163,7 +163,7 @@ data = json.dumps({'text': 'Hello Slack'})
 requests.post(URL, data=data)
 ```
 
-* TODO: 画像を入れる
+* TODO: 画像を入れる、複雑なコードにする
 
 Note:
 複雑なメッセージもこんな感じで送れるよ。
@@ -252,6 +252,22 @@ if __name__ == "__main__":
     main()
 ```
 
++++
+
+### Simple Plugin
+
+* mybot/plugins/hello.py
+
+```python
+from slackbot.bot import listen_to
+
+@listen_to('Hello')
+def hello(message):
+    message.send('Hello from slackbot')
+```
+
+* TODO: 反応している画像を入れる
+
 ---
 
 ## Extend slackbot
@@ -260,21 +276,86 @@ if __name__ == "__main__":
 
 ### listen_to and respond_to decolator
 
+```python
+from slackbot.bot import listen_to, respond_to
+
+@listen_to('Hello')
+def hello(message):
+    message.send('Hello from slackbot')
+
+@respond_to('ping')  # mention
+def ping(message):
+    message.reply('pong!')  # mention
+```
+
 +++
 
 ### emoji reaction(message.react() method)
+
+* Use `mesasge.react()` method
+
+```python
+# -- snip--
+
+@listen_to('beer'):
+def beer(message):
+    message.react(':beer:')
+```
+
+* TODO: 画像を入れる
 
 +++
 
 ### Extract parameters on chat message
 
+* User regular expression
+
+```python
+import random
+# -- snip--
+
+@listen_to('choice (.*)')
+def choice(message, words):
+    word = random.choice(words.split())
+    message.send('I chose {}'.format(word))
+```
+
+* TODO: 画像を入れる
+
 +++
 
 ### settings
 
+* ALIASESの説明
+* ERRORS_TO
+* DEFAULT_REPLY
+* PLUGIN
+
 +++
 
 ### Attachements support
+
+```python
+import json
+# -- snip--
+
+@respond_to('github', re.IGNORECASE)
+def github():
+    attachments = [
+    {
+        'fallback': 'Fallback text',
+        'author_name': 'Author',
+        'author_link': 'http://www.github.com',
+        'text': 'Some text',
+        'color': '#59afe1'
+    }]
+    message.send_webapi('', json.dumps(attachments))
+```
+
+* なんか複雑なメッセージを返すコードとその実行例
+
+Note:
+ここからは実際にSlackbotとPythonのライブラリとかAPIを組み合わせてどんなことができるかを説明していきます。
 
 ---
 
