@@ -256,6 +256,7 @@ if __name__ == "__main__":
 
 ### Simple Plugin
 
+* mybot/plygins/__init__.py: for module
 * mybot/plugins/hello.py
 
 ```python
@@ -290,7 +291,7 @@ def ping(message):
 
 +++
 
-### emoji reaction(message.react() method)
+### emoji reaction
 
 * Use `mesasge.react()` method
 
@@ -308,7 +309,7 @@ def beer(message):
 
 ### Extract parameters on chat message
 
-* User regular expression
+* Use regular expression
 
 ```python
 import random
@@ -326,10 +327,17 @@ def choice(message, words):
 
 ### settings
 
-* ALIASESの説明
-* ERRORS_TO
-* DEFAULT_REPLY
-* PLUGIN
+* slackbot_settings.py
+
+```python
+ALIASES = '$'  # command like mention
+ERRORS_TO = 'mybot-error'  # some channel
+DEFAULT_REPLY = "Sorry but I didn't understand you"
+PLUGIN = ['mybot.plugins', 'other.plugins',]
+```
+
+Note:
+追加の設定について説明する
 
 +++
 
@@ -352,7 +360,7 @@ def github():
     message.send_webapi('', json.dumps(attachments))
 ```
 
-* なんか複雑なメッセージを返すコードとその実行例
+* TODO: なんか複雑なメッセージを返すコードとその実行例
 
 Note:
 ここからは実際にSlackbotとPythonのライブラリとかAPIを組み合わせてどんなことができるかを説明していきます。
