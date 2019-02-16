@@ -137,6 +137,34 @@ $ curl -X POST -H 'Content-type: application/json' \
 Note:
 シンプルなメッセージをcURLを使って送信します。こんな感じでJSONで送るとこんな感じで表示されるよ。
 
++++
+
+### Post message with Requests
+
+```python
+import json
+import requests
+
+URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
+data = json.dumps({'text': 'Hello Slack'})
+requests.post(URL, data=data)
+```
+
+Note:
+PythonでRequests使うとこんな感じだよ。簡単だよね。
+
++++
+
+### Complex message with Requests
+
+```python
+# -- snip --
+data = json.dumps({'text': 'Hello Slack'})
+requests.post(URL, data=data)
+```
+
+* TODO: 画像を入れる
+
 Note:
 複雑なメッセージもこんな感じで送れるよ。
 
