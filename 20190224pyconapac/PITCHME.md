@@ -2,7 +2,7 @@
 
 ### Takanori Suzuki
 
-PyCon APAC 2019 / 2019 Feb 23
+PyCon APAC 2019 / 2019 Feb 24
 
 ---
 
@@ -76,7 +76,7 @@ I want someone to do my bothersome tasks instead of me.
 * Easy to access Slack
 * To do everything in Slack
 
-![slack](20190223pyconapac/images/slack.png)
+![slack](20190224pyconapac/images/slack.png)
 
 Note:
 (1m) I'am Launching the Slack application at any time. So it's easy to access Slack. I want to do everything in Slack.
