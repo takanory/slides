@@ -25,7 +25,7 @@ Note:
 ## Back grounds and Motivation
 
 Note:
-(2m) First, I will talk about ...
+(2m) First, I will talk about Back grounds and Motivation of this talk.
 
 +++
 
@@ -39,8 +39,9 @@ Note:
   * Foods, Coffee, Snacks and Beers
 
 Note:
-I held PyCon JP several times in the past.
-As you can imagine, lots of tasks to hold Conference.
+
+* I held PyCon JP several times in the past.
+* As you can imagine, lots of tasks to hold Conference. And,
 
 +++
 
@@ -50,8 +51,8 @@ As you can imagine, lots of tasks to hold Conference.
 * Newcomers:Experienced = 50:50
 
 Note:
-The number of PyCon JP staff is 40 over, half of them are the first staff.
-Newcomers ask similar things. And I send similar messages to newcomers.
+The number of PyCon JP staff is 40 over, half of them are the new staff.
+Newcomers ask similar things to me. And I send similar messages to newcomers.
 But, ...
 
 +++
@@ -330,14 +331,16 @@ def choice(message, words):
 * slackbot_settings.py
 
 ```python
-ALIASES = '$'  # command like mention
-ERRORS_TO = 'mybot-error'  # some channel
+ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
+ERRORS_TO = 'mybot-error'  # Some channel
 DEFAULT_REPLY = "Sorry but I didn't understand you"
-PLUGIN = ['mybot.plugins', 'other.plugins',]
+PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
 
+* see: [Usage of Slackbot](https://github.com/lins05/slackbot#usage)
+
 Note:
-追加の設定について説明する
+Slackbot has several settings.
 
 +++
 
@@ -362,12 +365,22 @@ def github():
 
 * TODO: なんか複雑なメッセージを返すコードとその実行例
 
+### Summary of Slackbot
+
+* We can communicate with Slackbot
+* Slackbot can handle arguments in messages
+* Slackbot can send mesages in various formats
+
 Note:
-ここからは実際にSlackbotとPythonのライブラリとかAPIを組み合わせてどんなことができるかを説明していきます。
+I think that you understand Slackbot can do various things.
+Next,...
 
 ---
 
-## Case study
+## Case studies
+
+Note:
+I will show some case studies combining Python libraries and APIs.
 
 +++
 
