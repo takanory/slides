@@ -191,11 +191,11 @@ We can send complex messages like this with message attachments.
 
 +++
 
-### Summary of Incoming Webhook
+### Summary of Incoming Webhooks
 
-* プログラムから簡単にメッセージ送信できる
-* メッセージの装飾できる
-* BUT one way only
+* Easy to send messages from programs
+* We can create complex messages
+* BUT one way only(program -> Webhook -> Slack)
 
 Note:
 Next, I will explain how to make interactive chatbot.
