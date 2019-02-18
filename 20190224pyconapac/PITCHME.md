@@ -128,8 +128,6 @@ https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 
 * see: [Getting started with Incoming Webhooks](https://api.slack.com/incoming-webhooks#getting-started)
 
-https://hooks.slack.com/services/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
-
 Note:
 
 * How to generate Webhook URL is as follows....
@@ -176,14 +174,25 @@ Note:
 
 ```python
 # -- snip --
-data = json.dumps({'text': 'Hello Slack'})
+data = json.dumps({
+    'attachments': [{
+        'pretext': 'Nice to meet you!!',
+	'author_name': 'Takanori Suzuki',
+        'author_link': 'https://twitter.com/takanory/',
+        'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
+	'fields': [
+	    {'title': 'From', 'value': 'Japan', 'short': True},
+	    {'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True},
+	]
+    }]
+})
 requests.post(URL, data=data)
 ```
 
-* TODO: 画像を入れる、複雑なコードにする
+![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
 
 Note:
-複雑なメッセージもこんな感じで送れるよ。
+We can send complex messages like this with message attachments.
 
 +++
 
