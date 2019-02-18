@@ -219,18 +219,17 @@ Next, I will explain how to make interactive chatbot.
   2. Enable Bots
   3. Add a Bot User
   4. Install App to Workspace -> Authorize
-* Bot User OAuth Access Token like this:
+* Invite Bot User to Slack channel
+* 'Bot User OAuth Access Token' like this:
 
 ```
 xoxb-123467890-XXXXXX-XXXXXXXXXXXXX
 ```
 
-* Invite Bot User to Slack channel
-
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
 Note:
-Botユーザーをまずは作成します。手順の説明...
+How to create Bot user is as follow....
 
 +++
 
@@ -238,12 +237,15 @@ Botユーザーをまずは作成します。手順の説明...
 
 * https://github.com/lins05/slackbot
 
-```
+```bash
 $ mkdir mybot
 $ cd mybot
 $ python3.6 -m venv env
 $ source env/bin/activate
 (env) $ pip install slackbot
+:
+:
+Successfully installed certifi-2018.11.29 chardet-3.0.4 idna-2.8 requests-2.21.0 six-1.12.0 slackbot-0.5.3 slacker-0.12.0 urllib3-1.24.1 websocket-client-0.44.0
 ```
 
 Note:
@@ -253,14 +255,14 @@ Then, I make venv and install slackbot.
 
 ### Create a simple bot with slackbot
 
-* slackbot_settings.py
+* `slackbot_settings.py`
 
 ```python
 API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"
 PLUGINS = ['mybot.plugins']
 ```
 
-* run.py
+* `run.py`
 
 ```python
 from slackbot.bot import Bot
@@ -277,8 +279,15 @@ if __name__ == "__main__":
 
 ### Simple Plugin
 
-* mybot/plygins/__init__.py: for module
-* mybot/plugins/hello.py
+* `mybot/plugins/__init__.py`: empty file
+
+```bash
+(env) $ mkdir mybot
+(env) $ mkdir mybot/plugins
+(env) $ touch mybot/plugins/__init__.py
+```
+
+* `mybot/plugins/hello.py`
 
 ```python
 from slackbot.bot import listen_to
@@ -286,6 +295,27 @@ from slackbot.bot import listen_to
 @listen_to('Hello')
 def hello(message):
     message.send('Hello from slackbot')
+```
+
+Note:
+
+* これで一通りのファイルが揃いました
+
+### Run slackbot
+
+* files
+
+```
+├── mybot
+│   └── plugins
+│       ├── __init__.py
+│       └── hello.py
+├── run.py
+└── slackbot_settings.py
+```
+
+```
+(env) $ python run.py
 ```
 
 * TODO: 反応している画像を入れる
