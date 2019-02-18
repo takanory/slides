@@ -3,7 +3,7 @@
 ### Takanori Suzuki
 
 PyCon APAC 2019 / 2019 Feb 24
-
+ 
 ---
 
 ## Who am I?
@@ -41,7 +41,7 @@ Note:
 Note:
 
 * I held PyCon JP several times in the past.
-* As you can imagine, lots of tasks to hold Conference. And,
+* As you can imagine, lots of tasks to hold Conference. And, ...
 
 +++
 
@@ -51,23 +51,26 @@ Note:
 * Newcomers:Experienced = 50:50
 
 Note:
-The number of PyCon JP staff is 40 over, half of them are the new staff.
-Newcomers ask similar things to me. And I send similar messages to newcomers.
-But, ...
+
+* The number of PyCon JP staff is 40 over, half of them are the new staff.
+* Newcomers ask similar things to me. And I send similar messages to newcomers.
+* But, ...
 
 +++
 
 ## Programmer is Lazy
 
 Note:
-As you know, programmers dislike routine work. I also dislike it very much.
+
+* As you know, programmers dislike routine work. I also dislike it very much.
 
 +++
 
 ## Let's create a secretary!!
 
 Note:
-I want someone to do my bothersome tasks instead of me.
+
+* I want someone to do my bothersome tasks instead of me.
 
 ---
 
@@ -80,18 +83,21 @@ I want someone to do my bothersome tasks instead of me.
 ![slack](20190224pyconapac/images/slack.png)
 
 Note:
-(1m) I'am Launching the Slack application at any time. So it's easy to access Slack. I want to do everything in Slack.
-From here, I will explain how to create a chatbot on Slack.
+
+(1m)
+
+* I'm Launching the Slack application at any time.
+* So it's easy to access Slack. I want to do everything in Slack.
+* From here, I will explain how to create a chatbot on Slack.
 
 ---
 
-## Simple integration with Incoming Webhook
-
-* https://api.slack.com/incoming-webhooks
+## Simple integration with Incoming Webhooks
 
 Note:
 (5m)
-まずはSimple integration with Incoming Webhookについて説明します。
+
+* First, I will explain Simple integration with Incoming Webhooks.
 
 +++
 
@@ -99,9 +105,12 @@ Note:
 
 * TODO: 図を入れる
 
+* https://api.slack.com/incoming-webhooks
+
 Note:
-This is system overview of Incoming Webhook.
-プログラムからWebhookに対してメッセージを送信すると、Slackにメッセージがポストされます。
+
+* This is system overview of Incoming Webhooks.
+* When we send a message to a Webhook URL via HTTP, the message sent to Slack.
 
 +++
 
@@ -109,7 +118,7 @@ This is system overview of Incoming Webhook.
 
 * Generate Webhook URL
   1. Create a Slack app
-  2. Enable Incoming Webhooks
+  2. Enable Incoming Webhooks in the app
   3. Create an Incoming Webhook
 * Webhook URL like this:
 
@@ -119,24 +128,28 @@ https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 
 * see: [Getting started with Incoming Webhooks](https://api.slack.com/incoming-webhooks#getting-started)
 
+https://hooks.slack.com/services/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
+
 Note:
-URLを取得する手順を簡単に説明
+
+* How to generate Webhook URL is as follows....
 
 +++
 
 ### Post message with cURL
 
 ```bash
-$ curl -XXX
 $ curl -X POST -H 'Content-type: application/json' \
 > --data '{"text": "Hello Slack"}' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
-* TODO: ここに送信された画像を入れる
+![Hello Slack from cURL](20190224pyconapac/images/webhook-curl.png)
 
 Note:
-シンプルなメッセージをcURLを使って送信します。こんな感じでJSONで送るとこんな感じで表示されるよ。
+
+* Send a simple message with cURL.
+* When we send a message with JSON, a message will be displayed in Slack.
 
 +++
 
@@ -147,12 +160,15 @@ import json
 import requests
 
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
-data = json.dumps({'text': 'Hello Slack'})
+data = json.dumps({'text': 'Hello Slack from Python!'})
 requests.post(URL, data=data)
 ```
 
+![Hello Slack from Requests](20190224pyconapac/images/webhook-requests.png)
+
 Note:
-PythonでRequests使うとこんな感じだよ。簡単だよね。
+
+* Using Requests in Python is like this. It's easy to us.
 
 +++
 
