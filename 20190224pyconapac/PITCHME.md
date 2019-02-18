@@ -173,16 +173,15 @@ Note:
 ### Complex message with Requests
 
 ```python
-data = json.dumps({
-    'attachments': [{
-        'pretext': 'Nice to meet you!!',
-        'author_name': 'Takanori Suzuki',
-        'author_link': 'https://twitter.com/takanory/',
-        'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
-        'fields': [{'title': 'From', 'value': 'Japan', 'short': True},
-                   {'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True}]
-    }]
-})
+fiels = [{'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True},
+         {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
+data = json.dumps({'attachments': [{
+    'pretext': 'Nice to meet you!!',
+    'author_name': 'Takanori Suzuki',
+    'author_link': 'https://twitter.com/takanory/',
+    'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
+    'fields': fiels,
+}]})
 ```
 
 ![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
