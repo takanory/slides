@@ -279,37 +279,39 @@ if __name__ == "__main__":
 
 ### Simple Plugin
 
-* `mybot/plugins/__init__.py`: empty file
+* `mybot/plugins/__init__.py`
 
 ```bash
 (env) $ mkdir mybot
 (env) $ mkdir mybot/plugins
-(env) $ touch mybot/plugins/__init__.py
+(env) $ touch mybot/plugins/__init__.py  # empty file
 ```
 
-* `mybot/plugins/hello.py`
+* `mybot/plugins/sample.py`
 
 ```python
 from slackbot.bot import listen_to
 
-@listen_to('Hello')
+@listen_to('Hi')
 def hello(message):
-    message.send('Hello from slackbot')
+    message.send('Hi!!! I'm slackbot')
 ```
 
 Note:
 
 * これで一通りのファイルが揃いました
 
++++
+
 ### Run slackbot
 
-* files
+* Files for slackbot
 
 ```
 ├── mybot
 │   └── plugins
 │       ├── __init__.py
-│       └── hello.py
+│       └── sample.py
 ├── run.py
 └── slackbot_settings.py
 ```
@@ -318,7 +320,7 @@ Note:
 (env) $ python run.py
 ```
 
-* TODO: 反応している画像を入れる
+![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
 
 ---
 
@@ -331,9 +333,9 @@ Note:
 ```python
 from slackbot.bot import listen_to, respond_to
 
-@listen_to('Hello')
+@listen_to('Hi')
 def hello(message):
-    message.send('Hello from slackbot')
+    message.send('Hi!!! I'm slackbot')
 
 @respond_to('ping')  # mention
 def ping(message):
