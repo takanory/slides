@@ -237,7 +237,7 @@ How to create Bot user is as follow....
 
 * https://github.com/lins05/slackbot
 
-```bash
+```sh
 $ mkdir mybot
 $ cd mybot
 $ python3.6 -m venv env
@@ -281,7 +281,7 @@ if __name__ == "__main__":
 
 * `mybot/plugins/__init__.py`
 
-```bash
+```sh
 (env) $ mkdir mybot
 (env) $ mkdir mybot/plugins
 (env) $ touch mybot/plugins/__init__.py  # empty file
@@ -294,7 +294,7 @@ from slackbot.bot import listen_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I'm slackbot')
+    message.send('Hi!!! Iam slackbot')
 ```
 
 Note:
@@ -307,20 +307,24 @@ Note:
 
 * Files for slackbot
 
-```
-├── mybot
-│   └── plugins
-│       ├── __init__.py
-│       └── sample.py
+```text
+mybot/
+├── mybot/plugins/
+│   ├── __init__.py
+│   └── sample.py
 ├── run.py
 └── slackbot_settings.py
 ```
 
-```
+```sh
 (env) $ python run.py
 ```
 
 ![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
+
+Note:
+
+* 基本的なSlackbotの作りはわかったと思うので、拡張していきます。
 
 ---
 
@@ -328,19 +332,21 @@ Note:
 
 +++
 
-### listen_to and respond_to decolator
+### `listen_to` and `respond_to` decolator
 
 ```python
 from slackbot.bot import listen_to, respond_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I'm slackbot')
+    message.send('Hi!!! I am slackbot')
 
 @respond_to('ping')  # mention
 def ping(message):
     message.reply('pong!')  # mention
 ```
+
+![Decolator](20190224pyconapac/images/slackbot-decolator.png)
 
 +++
 
@@ -351,12 +357,12 @@ def ping(message):
 ```python
 # -- snip--
 
-@listen_to('beer'):
+@listen_to('beer')
 def beer(message):
     message.react(':beer:')
 ```
 
-* TODO: 画像を入れる
+![message.react](20190224pyconapac/images/slackbot-react.png)
 
 +++
 
@@ -368,13 +374,13 @@ def beer(message):
 import random
 # -- snip--
 
-@listen_to('choice (.*)')
+@respond_to('choice (.*)')
 def choice(message, words):
     word = random.choice(words.split())
-    message.send('I chose {}'.format(word))
+    message.send('I chose *{}*'.format(word))
 ```
 
-* TODO: 画像を入れる
+![Regular expression](20190224pyconapac/images/slackbot-re.png)
 
 +++
 
