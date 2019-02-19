@@ -31,9 +31,9 @@ Note:
 
 ### Conference Tasks
 
-* I held PyCon JP(2014-1016) as Chairperson
+* I held PyCon JP(2014-2016) as Chairperson
 * Conference tasks:
-  * Keynotes, Talks and Trainigs arrangement
+  * Keynotes, Talks and Trainings arrangement
   * Ticket sales and reception
   * Venue and facility(WiFi, Video...) management
   * Foods, Coffee, Snacks and Beers
