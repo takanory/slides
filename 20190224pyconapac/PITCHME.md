@@ -443,26 +443,66 @@ Next,...
 Note:
 I will show some case studies combining Python libraries and APIs.
 
-+++
+---
 
 ### Calculator function using SymPy
 
 +++
 
-### Karma function using Peewee ORM
+### Calculator function using SymPy
+
+* Motivation
+  * スマートフォンで電卓アプリを呼び出すのが面倒
+  * Slackから計算できたら楽じゃね?
 
 +++
+
+#### Install SymPy
+
+* SymPy: Python library for symbolic mathematics
+* https://www.sympy.org/
+
+```shell
+(env) $ pip install sympy
+:
+Successfully installed mpmath-1.1.0 sympy-1.3
+```
+
++++
+
+* `mybot/plugins/calc.py`
+
+```
+from slackbot.bot import listen_to
+from sympy import sympify, SympifyError
+
+@listen_to('([-+*/^%!().\d\s]+)')
+def calc(message, formula):
+    try:
+        result = sympify(formula)
+        answer = int(result) if result.is_Integer else float(result)
+    except SympifyError:
+        return
+    message.send(f'{answer:,}')
+```
+
+---
+
+### Karma function using Peewee ORM
+
+---
 
 ### Search JIRA issues and display issue
 
-+++
+---
 
 ### Create multiple issues from a template
-+++
+
+---
 
 ### Search files from Google Drive
 
-+++
+---
 
 ### Account management of G Suite
 
