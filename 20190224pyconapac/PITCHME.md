@@ -192,9 +192,9 @@ We can send complex messages like this with message attachments.
 
 ### Summary of Incoming Webhooks
 
-* *Easy to send* messages from programs
-* We can create *complex messages*
-* *BUT* one way only(program -> Webhook -> Slack)
+* **Easy to send** messages from programs
+* We can create **complex messages**
+* BUT **one way** only(program -> Webhook -> Slack)
 
 Note:
 Next, I will explain how to make interactive chatbot.
@@ -394,6 +394,8 @@ DEFAULT_REPLY = "Sorry but I didn't understand you"
 PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
 
+![Settings](20190224pyconapac/images/slackbot-settings.png)
+
 * see: [Usage of Slackbot](https://github.com/lins05/slackbot#usage)
 
 Note:
@@ -426,9 +428,9 @@ def github():
 
 ### Summary of Slackbot
 
-* We can *communicate* with Slackbot
-* Slackbot can handle *arguments* in messages
-* Slackbot can send mesages in *various formats*
+* We can **communicate** with Slackbot
+* Slackbot can handle **arguments** in messages
+* Slackbot can send mesages in **various formats**
 
 Note:
 I think that you understand Slackbot can do various things.
