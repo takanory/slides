@@ -329,7 +329,7 @@ Note:
 
 ## Extend slackbot
 
-+++?image=20190224pyconapac/images/slackbot-decolator.png&position=bottom
++++
 
 ### `listen_to` / `respond_to` decolator
 
@@ -344,8 +344,6 @@ def hello(message):
 def ping(message):
     message.reply('pong!')  # mention
 ```
-
-Note:
 
 ![Decolator](20190224pyconapac/images/slackbot-decolator.png)
 
