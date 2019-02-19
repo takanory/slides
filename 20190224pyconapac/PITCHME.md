@@ -445,7 +445,7 @@ I will show some case studies combining Python libraries and APIs.
 
 ---
 
-### Calculator function using SymPy
+## Calculator function using SymPy
 
 +++
 
@@ -457,7 +457,7 @@ I will show some case studies combining Python libraries and APIs.
 
 +++
 
-#### Install SymPy
+### Install SymPy
 
 * SymPy: Python library for symbolic mathematics
 * https://www.sympy.org/
@@ -472,7 +472,7 @@ Successfully installed mpmath-1.1.0 sympy-1.3
 
 * `mybot/plugins/calc.py`
 
-```
+```python
 from slackbot.bot import listen_to
 from sympy import sympify, SympifyError
 
@@ -481,10 +481,16 @@ def calc(message, formula):
     try:
         result = sympify(formula)
         answer = int(result) if result.is_Integer else float(result)
+        message.send(f'{answer:,}')
     except SympifyError:
-        return
-    message.send(f'{answer:,}')
+        pass
 ```
+
++++
+
+### Calc command
+
+![calc command](20190224pyconapac/images/slackbot-calc.png)
 
 ---
 
