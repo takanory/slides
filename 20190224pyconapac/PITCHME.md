@@ -3,7 +3,6 @@
 ### Takanori Suzuki
 
 PyCon APAC 2019 / 2019 Feb 24
- 
 ---
 
 ## Who am I?
@@ -173,14 +172,14 @@ Note:
 ### Complex message with Requests
 
 ```python
-fiels = [{'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True},
-         {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
+fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True},
+          {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
 data = json.dumps({'attachments': [{
     'pretext': 'Nice to meet you!!',
     'author_name': 'Takanori Suzuki',
     'author_link': 'https://twitter.com/takanory/',
     'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
-    'fields': fiels,
+    'fields': fields,
 }]})
 ```
 
@@ -193,9 +192,9 @@ We can send complex messages like this with message attachments.
 
 ### Summary of Incoming Webhooks
 
-* Easy to send messages from programs
-* We can create complex messages
-* BUT one way only(program -> Webhook -> Slack)
+* *Easy to send* messages from programs
+* We can create *complex messages*
+* *BUT* one way only(program -> Webhook -> Slack)
 
 Note:
 Next, I will explain how to make interactive chatbot.
@@ -237,7 +236,7 @@ How to create Bot user is as follow....
 
 * https://github.com/lins05/slackbot
 
-```sh
+```shell
 $ mkdir mybot
 $ cd mybot
 $ python3.6 -m venv env
@@ -258,8 +257,8 @@ Then, I make venv and install slackbot.
 * `slackbot_settings.py`
 
 ```python
-API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"
-PLUGINS = ['mybot.plugins']
+API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"  # Bot token
+PLUGINS = ['mybot.plugins']  # Plugin packages
 ```
 
 * `run.py`
@@ -281,7 +280,7 @@ if __name__ == "__main__":
 
 * `mybot/plugins/__init__.py`
 
-```sh
+```shell
 (env) $ mkdir mybot
 (env) $ mkdir mybot/plugins
 (env) $ touch mybot/plugins/__init__.py  # empty file
@@ -294,7 +293,7 @@ from slackbot.bot import listen_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! Iam slackbot')
+    message.send('Hi!!! I am slackbot')
 ```
 
 Note:
@@ -316,7 +315,7 @@ mybot/
 └── slackbot_settings.py
 ```
 
-```sh
+```shell
 (env) $ python run.py
 ```
 
@@ -330,9 +329,9 @@ Note:
 
 ## Extend slackbot
 
-+++
++++?image=20190224pyconapac/images/slackbot-decolator.png&position=bottom
 
-### `listen_to` and `respond_to` decolator
+### `listen_to` / `respond_to` decolator
 
 ```python
 from slackbot.bot import listen_to, respond_to
@@ -345,6 +344,8 @@ def hello(message):
 def ping(message):
     message.reply('pong!')  # mention
 ```
+
+Note:
 
 ![Decolator](20190224pyconapac/images/slackbot-decolator.png)
 
@@ -423,11 +424,13 @@ def github():
 
 * TODO: なんか複雑なメッセージを返すコードとその実行例
 
++++
+
 ### Summary of Slackbot
 
-* We can communicate with Slackbot
-* Slackbot can handle arguments in messages
-* Slackbot can send mesages in various formats
+* We can *communicate* with Slackbot
+* Slackbot can handle *arguments* in messages
+* Slackbot can send mesages in *various formats*
 
 Note:
 I think that you understand Slackbot can do various things.
