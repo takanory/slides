@@ -476,7 +476,7 @@ Successfully installed mpmath-1.1.0 sympy-1.3
 from slackbot.bot import listen_to
 from sympy import sympify, SympifyError
 
-@listen_to('([-+*/^%!().\d\s]+)')
+@listen_to(r'^([-+*/^%!().\d\s]+)$')
 def calc(message, formula):
     try:
         result = sympify(formula)
@@ -544,10 +544,18 @@ jira = JIRA(URL, basic_auth=('user', 'pass'))
 ### Get Issue object
 
 ```python
-issue = jira.issue('ISSHA-1505')
-summary = issue.fields.summary
-status = issue.fields.status.name
-issue_url = issue.permalink()
+@listen_to(r'ISSHA-[\d]+')
+def jira_issue(message, issue_id):
+    issue = jira.issue(issue_id)
+    summary = issue.fields.summary
+    status = issue.fields.status.name
+    assignee = issue.fields.assignee.name
+    issue_url = issue.permalink()
+    attachements = [{
+        'pretext': f'<{issue_url}|{issue_id}> {summary}',
+        'fields': [{'title': 'Assignee', 'value': assignee},
+                   {'title': 'Status', 'value': status}]
+    ]}
 ```
 
 +++
@@ -555,7 +563,8 @@ issue_url = issue.permalink()
 ### Search issues
 
 ```python
-for issue in jira.search_issues('project=ISSHA and text ~ "some keywords"'):
+jql = 'project=ISSHA and text ~ "some keywords"'
+for issue in jira.search_issues(jql, maxResults=5):
     print('{}: {}'.format(issue.key, issue.fields.summary))
 ```
 
