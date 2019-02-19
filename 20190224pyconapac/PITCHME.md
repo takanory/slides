@@ -488,29 +488,108 @@ def calc(message, formula):
 
 +++
 
-### Calc command
+### Slackbot became a calculator
 
 ![calc command](20190224pyconapac/images/slackbot-calc.png)
 
 ---
 
+## Plusplus function using Peewee ORM
+
++++
+
 ### Karma function using Peewee ORM
 
+* Motivation
+  * スタッフに感謝し合う感じにしたい
+
 ---
+
+## Search JIRA issues and display issue
+
++++
 
 ### Search JIRA issues and display issue
 
+* Motivation
+  * WebのJIRAの画面が重い
+  * Webで見ずに詳細を確認したい
+
++++
+
+### Install Python JIRA
+
+* Python library to work with JIRA APIs
+* https://jira.readthedocs.io/
+
+```shell
+(env) $ pip install jira
+:
+Successfully installed asn1crypto-0.24.0 cffi-1.12.1 cryptography-2.5 defusedxml-0.5.0 jira-2.0.0 oauthlib-3.0.1 pbr-5.1.2 pycparser-2.19 pyjwt-1.7.1 requests-oauthlib-1.2.0 requests-toolbelt-0.9.1
+```
+
++++
+
+### Authentication
+
+```python
+from jira import JIRA
+
+URL = 'https://jira.atlassian.com/'
+jira = JIRA(URL, basic_auth=('user', 'pass'))
+```
+
++++
+
+### Get Issue object
+
+```python
+issue = jira.issue('ISSHA-1505')
+summary = issue.fields.summary
+status = issue.fields.status.name
+issue_url = issue.permalink()
+```
+
++++
+
+### Search issues
+
+```python
+for issue in jira.search_issues('project=ISSHA and text ~ "some keywords"'):
+    print('{}: {}'.format(issue.key, issue.fields.summary))
+```
+
+* JQL: JIRA Query Language
+* see: [Advanced searching - Atlassian Documentation](https://confluence.atlassian.com/jiracoreserver073/advanced-searching-861257209.html)
+
 ---
+
+## Create multiple issues from a template
+
++++
 
 ### Create multiple issues from a template
 
+* Motivation
+  * イベント開催ごとに20くらいのJIRA issueが必要
+  * コピーするのだるい
+  * JIRAの画面が重い
+
 ---
 
-### Search files from Google Drive
+## Search files from Google Drive
 
 ---
+
+## Account management of G Suite
+
++++
 
 ### Account management of G Suite
+
+* Motivation
+  * G Suiteの管理画面たまにしか開かない
+  * 使い方忘れる
 
 ---
 
