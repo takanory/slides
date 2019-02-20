@@ -608,12 +608,32 @@ def jira_search(message, keywords):
   * enable API(in this case: Google Sheets API)
   * download `credentials.json`
 * Install Google Client Library
-  * `(venv) $ pip install google-api-python-client google-auth-oauthlib`
-* craete `quickstart.py` ([quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py))
-* run `(venv) $ python quickstart.py`
+
+```shell
+(venv) $ pip install google-api-python-client google-auth-oauthlib
+:
+Successfully installed cachetools-3.1.0 google-api-python-client-1.7.8 google-auth-1.6.3 google-auth-httplib2-0.0.3 httplib2-0.12.1 pyasn1-0.4.5 pyasn1-modules-0.2.4 rsa-4.0 uritemplate-3.0.0
+```
+
++++
+
+### Google Authorization is VERY Complex
+
+* craete `quickstart.py`
+  * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
+* run `quickstart.py`
   * select your Google account in Web browser
   * Click the Accept button
   * get `token.pickle` file
+
+```shell
+(venv) $ python quickstart.py
+Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&.....
+Name, Major:
+Alexandra, English
+:
+Will, Math
+```
 
 * See: [Python Quickstart | Sheets API | Google Developers](https://developers.google.com/sheets/api/quickstart/python)
 
