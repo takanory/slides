@@ -438,7 +438,7 @@ I will show some case studies combining Python libraries and APIs.
 
 ---
 
-## Case study: Calculator function using SymPy
+## Calculator function using SymPy
 
 +++
 
@@ -483,7 +483,7 @@ def calc(message, formula):
 
 ---
 
-## Case study: Plusplus function using Peewee ORM
+## Plusplus function using Peewee ORM
 
 +++
 
@@ -494,7 +494,7 @@ def calc(message, formula):
 
 ---
 
-## Case study: Search JIRA issues and display issue
+## Search JIRA issues and display issue
 
 +++
 
@@ -554,8 +554,6 @@ def jira_issue(message, issue_id):
 
 +++
 
-### Get Issue object
-
 ![JIRA issue](20190224pyconapac/images/slackbot-jira-issue.png)
 
 +++
@@ -581,13 +579,11 @@ def jira_search(message, keywords):
 
 +++
 
-### Search issues
-
 ![JIRA search](20190224pyconapac/images/slackbot-jira-search.png)
 
 ---
 
-## Case study: Create multiple issues from a template
+## Create multiple issues from a template
 
 +++
 
@@ -598,9 +594,38 @@ def jira_search(message, keywords):
   * コピーするのだるい
   * JIRAの画面が重い
 
++++
+
+### System Overview
+
+* TODO: 図を入れる
+
++++
+
+### Google Authorization is VERY Complex
+
+* create Google Cloud Platform project
+  * enable API(in this case: Google Sheets API)
+  * download `credentials.json`
+* Install Google Client Library
+  * `(venv) $ pip install google-api-python-client google-auth-oauthlib`
+* craete `quickstart.py` ([quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py))
+* run `(venv) $ python quickstart.py`
+  * select your Google account in Web browser
+  * Click the Accept button
+  * get `token.pickle` file
+
+* See: [Python Quickstart | Sheets API | Google Developers](https://developers.google.com/sheets/api/quickstart/python)
+
+Note:
+
+* でもGoogleのAPI使えると強力なのでがんばろう
+
++++
+
 ---
 
-## Case study: Search files from Google Drive
+## Search files from Google Drive
 
 ---
 
