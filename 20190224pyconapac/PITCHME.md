@@ -207,7 +207,7 @@ Next, I will explain how to make interactive chatbot.
 
 ### System overview
 
-* TODO: 図を入れる
+![Overview of Slackbot](20190224pyconapac/images/slackbot-overview.png)
 
 +++
 
