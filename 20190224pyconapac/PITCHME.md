@@ -367,12 +367,7 @@ def beer(message):
 
 ### Extract parameters on chat message
 
-* Use regular expression
-
 ```python
-import random
-# -- snip--
-
 @respond_to('choice (.*)')
 def choice(message, words):
     word = random.choice(words.split())
@@ -484,7 +479,7 @@ def calc(message, formula):
         pass
 ```
 
-+++?image=20190224pyconapac/images/slackbot-calc.png
++++?image=20190224pyconapac/images/slackbot-calc.png&size=auto
 
 ---
 
