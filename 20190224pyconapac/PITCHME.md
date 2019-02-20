@@ -598,7 +598,7 @@ def jira_search(message, keywords):
 
 ### System Overview
 
-* TODO: 図を入れる
+![Ovierview of template](20190224pyconapac/images/template-overview.png)
 
 +++
 
