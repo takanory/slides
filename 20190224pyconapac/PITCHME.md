@@ -102,7 +102,7 @@ Note:
 
 ### System overview
 
-* TODO: 図を入れる
+![Overview of Incoming Webhook](20190224pyconapac/images/webhook-overview.png)
 
 * https://api.slack.com/incoming-webhooks
 
@@ -602,7 +602,7 @@ def jira_search(message, keywords):
 
 +++
 
-### Google Authorization is VERY Complex
+### Google Authorization is VERY Complex(1/2)
 
 * create Google Cloud Platform project
   * enable API(in this case: Google Sheets API)
@@ -617,14 +617,14 @@ Successfully installed cachetools-3.1.0 google-api-python-client-1.7.8 google-au
 
 +++
 
-### Google Authorization is VERY Complex
+### Google Authorization is VERY Complex(2/2)
 
 * craete `quickstart.py`
   * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
 * run `quickstart.py`
   * select your Google account in Web browser
   * Click the Accept button
-  * get `token.pickle` file
+  * get `token.pickle` file(finish!!)
 
 ```shell
 (venv) $ python quickstart.py
