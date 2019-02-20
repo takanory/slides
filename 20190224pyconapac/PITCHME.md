@@ -539,37 +539,58 @@ URL = 'https://jira.atlassian.com/'
 jira = JIRA(URL, basic_auth=('user', 'pass'))
 ```
 
+* See: [2.1.2. Authentication](https://jira.readthedocs.io/en/master/examples.html#authentication)
+
 +++
 
 ### Get Issue object
 
 ```python
-@listen_to(r'ISSHA-[\d]+')
+@listen_to(r'(ISSHA-[\d]+)')  # Issue id pattern
 def jira_issue(message, issue_id):
     issue = jira.issue(issue_id)
     summary = issue.fields.summary
     status = issue.fields.status.name
     assignee = issue.fields.assignee.name
     issue_url = issue.permalink()
-    attachements = [{
+    attachments = [{
         'pretext': f'<{issue_url}|{issue_id}> {summary}',
         'fields': [{'title': 'Assignee', 'value': assignee},
-                   {'title': 'Status', 'value': status}]
-    ]}
+                   {'title': 'Status', 'value': status}],
+    }]
+    message.send_webapi('', json.dumps(attachments))
 ```
+
+* See: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
+
++++
+
+![JIRA issue](20190224pyconapac/images/slackbot-jira-issue.png)
 
 +++
 
 ### Search issues
 
 ```python
-jql = 'project=ISSHA and text ~ "some keywords"'
-for issue in jira.search_issues(jql, maxResults=5):
-    print('{}: {}'.format(issue.key, issue.fields.summary))
+@respond_to('jira (.*)')
+def jira_search(message, keywords):
+    jql = f'project=ISSHA and text ~ "{keywords}" order by created desc'
+    text = ''
+    for issue in jira.search_issues(jql, maxResults=5):
+        id = issue.key
+        url = issue.permalink()
+        summary = issue.fields.summary
+        text += f'- <{url}|{id}> {summary}\n'
+    message.send(text)
 ```
 
+* See: [2.1.5 Searching](https://jira.readthedocs.io/en/master/examples.html#searching)
 * JQL: JIRA Query Language
 * see: [Advanced searching - Atlassian Documentation](https://confluence.atlassian.com/jiracoreserver073/advanced-searching-861257209.html)
+
++++
+
+![JIRA search](20190224pyconapac/images/slackbot-jira-search.png)
 
 ---
 
