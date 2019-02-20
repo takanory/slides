@@ -383,9 +383,7 @@ def choice(message, words):
 
 +++
 
-### settings
-
-* slackbot_settings.py
+### settings(`slackbot_settings.py`)
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
@@ -445,7 +443,7 @@ I will show some case studies combining Python libraries and APIs.
 
 ---
 
-## Calculator function using SymPy
+## Case study: Calculator function using SymPy
 
 +++
 
@@ -486,15 +484,11 @@ def calc(message, formula):
         pass
 ```
 
-+++
-
-### Slackbot became a calculator
-
-![calc command](20190224pyconapac/images/slackbot-calc.png)
++++?image=20190224pyconapac/images/slackbot-calc.png
 
 ---
 
-## Plusplus function using Peewee ORM
+## Case study: Plusplus function using Peewee ORM
 
 +++
 
@@ -505,7 +499,7 @@ def calc(message, formula):
 
 ---
 
-## Search JIRA issues and display issue
+## Case study: Search JIRA issues and display issue
 
 +++
 
@@ -565,6 +559,8 @@ def jira_issue(message, issue_id):
 
 +++
 
+### Get Issue object
+
 ![JIRA issue](20190224pyconapac/images/slackbot-jira-issue.png)
 
 +++
@@ -590,11 +586,13 @@ def jira_search(message, keywords):
 
 +++
 
+### Search issues
+
 ![JIRA search](20190224pyconapac/images/slackbot-jira-search.png)
 
 ---
 
-## Create multiple issues from a template
+## Case study: Create multiple issues from a template
 
 +++
 
@@ -607,7 +605,7 @@ def jira_search(message, keywords):
 
 ---
 
-## Search files from Google Drive
+## Case study: Search files from Google Drive
 
 ---
 
