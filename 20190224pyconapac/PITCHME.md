@@ -647,7 +647,6 @@ Note:
 
 ```python
 from googleapiclient.discovery import build
-
 SHEET_ID = '1LEtpNewhAFSXXXXXXXXXXXXX'
 
 creds = None
@@ -656,11 +655,28 @@ if os.path.exists('token.pickle'):
         creds = pickle.load(token)
 service = build('sheets', 'v4', credentials=creds)
 
-sheet = service.spreadsheets()
-result = sheet.values().get(spreadsheetId=SHEET_ID,
-                            range='sheet_name!A:G').execute()
+result = service.spreadsheets().values().get(
+    spreadsheetId=SHEET_ID, range='sheet_name!A:G').execute()
 for row in result.get('value', []):
     print(row[0], row[1])  # Cell A and B
+```
+
++++
+
+### Create JIRA Issue
+
+```python
+duedate = datetime.date.today + datetime.timedelta(days + 14)
+issue_dict = {
+    'project': {'key': PROJECT},
+    'components': [{'name': COMPONENT}],
+    'summary': SUMMARY_TEXT,
+    'description': LONG_DESCRIPTION,
+    'assignee': {'name': NAME_OF_ASSIGNEE},
+    'reporter': {'name': NAME_OF_REPORTER},
+    'duedate': '{:%Y-%m-%d}'.format(duedate),
+}
+issue = jira.create_issue(fields=issue_dict)
 ```
 
 ---
