@@ -643,6 +643,26 @@ Note:
 
 +++
 
+### Get Spredsheet Data
+
+```python
+from googleapiclient.discovery import build
+
+SHEET_ID = '1LEtpNewhAFSXXXXXXXXXXXXX'
+
+creds = None
+if os.path.exists('token.pickle'):
+    with open('token.pickle', 'rb') as token:
+        creds = pickle.load(token)
+service = build('sheets', 'v4', credentials=creds)
+
+sheet = service.spreadsheets()
+result = sheet.values().get(spreadsheetId=SHEET_ID,
+                            range='sheet_name!A:G').execute()
+for row in result.get('value', []):
+    print(row[0], row[1])  # Cell A and B
+```
+
 ---
 
 ## Search files from Google Drive
