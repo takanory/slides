@@ -781,7 +781,7 @@ Note:
 
 * Motivation
   * PyCon JP use `pycon.jp` domain with G Suite
-  * I only use G Suite admin occasionally
+  * I only use Google Admin web occasionally
   * I forgot to use admin screen
 
 Note:
@@ -873,10 +873,37 @@ service.users().delete(userKey=email).execute()
 
 +++
 
+### I can completeley forget Google Admin web site
+
++++
+
 ### Source code of gadmin command
 
 * see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py
 
 ---
 
-## Summary and next steps
+## Summary
+
+* Incoming Webhooks
+* Slackbot
+* Slackbot with Libraries
+* Slackbot with APIs
+
++++
+
+## Next steps
+
+* Let's make your own Slackbot
+* Let's connect with libraries and APIs
+* Automate your Boring Stuff with Slackbot
+
+Note:
+
+Then you will have more free time so you can do toher creative things more.
+
++++
+
+## Thank you!
+
+* Slide: https://gitpitch.com/takanory/slides?p=20190224pyconapac
