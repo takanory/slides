@@ -799,13 +799,78 @@ Note:
 * re-run `quickstart.py`
   * get new `token.pickle`
 
+```shell
+(venv) $ python quickstart.py
+Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&.....
+Name, Major:
+Alexandra, English
+:
+Will, Math
+
 Note:
 
 * If we use the new API we need to re-authenticate
 
 +++
 
-### 
+### Get user list
+
+```python
+DOMAIN = 'pycon.jp'
+service = build('admin', 'directory_v1', credentials=creds)
+users_list = service.users().list(orderBy='email', domain=DOMAIN).execute()
+
+for user in users_list.get('users', []):
+    email = user['primaryEmail']
+    fullname = user['name']['fullName']
+    print(f'{email} {fullname}')
+```
+
+* see: [Users: list | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/list)
+
+### Insert user
+
+```python
+body = {
+    'primaryEmail': EMAIL_ADDRESS,
+    'password': PASSWORD,
+    'name': {
+        'givenName': FIRLST_NAME,
+        'familyName': LAST_NAME,
+    },
+}
+try:
+    service.users().insert(body=body).execute()
+except:
+    pass  # fail
+```
+
+* see: [Users: insert | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/insert)
+
++++
+
+### Suspend, Resume, Delete user
+
+```python
+body = {'suspended': True}  # suspend
+body = {'suspended': False}  # resume
+service.users().update(userKey=EMAIL, body=body).execute()
+
+service.users().delete(userKey=email).execute()
+```
+
+* see: [Users: update | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/update)
+* see: [Users: delete | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/delete)
+
++++?image=20190224pyconapac/images/gadmin-help.png&size=contain
+
++++?image=20190224pyconapac/images/gadmin-user-list.png&size=contain
+
++++?image=20190224pyconapac/images/gadmin-member-list.png&size=contain
+
+### Source code of gadmin command
+
+* see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py
 
 ---
 
