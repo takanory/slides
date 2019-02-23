@@ -487,10 +487,52 @@ def calc(message, formula):
 
 +++
 
-### Karma function using Peewee ORM
+### Plusplus function using Peewee ORM
 
 * Motivation
   * スタッフに感謝し合う感じにしたい
+
++++
+
+### Install Peewee
+
+* simple and small ORM.
+  * a small, expressive ORM
+  * python 2.7+ and 3.4+ (developed with 3.6)
+  * supports sqlite, mysql and postgresql
+* http://docs.peewee-orm.com/
+
+```shell
+(env) $ pip install peewee
+:
+Successfully installed peewee-3.8.2
+```
+
++++
+
+### Plusplus model
+
+```
+import os.path
+from peewee import *  # NOQA
+
+db = SqliteDatabase(os.path.join(os.path.dirname(__file__), 'plusplus.db'))
+
+class Plusplus(Model):
+    """plusplus model"""
+    name = CharField(primary_key=True)
+    counter = IntegerField(default=0)
+
+    class Meta:
+        database = db
+
+db.connect()
+db.create_tables([Plusplus], safe=True)
+```
+
++++
+
+
 
 ---
 
@@ -689,7 +731,21 @@ issue = jira.create_issue(fields=issue_dict)
 
 +++?image=20190224pyconapac/images/template-pycamp-template.png&size=contain
 
+Note:
+
+* Here is the pycamp issue template.
+
 +++?image=20190224pyconapac/images/template-created-issues.png&size=contain
+
+Note:
+
+* こんな感じで1 pycamp イベントに関するチケットをまとめて作成できるようになりました。楽ちん
+
++++
+
+### Source code of pycamp command
+
+* see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py
 
 ---
 
