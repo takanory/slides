@@ -529,6 +529,8 @@ db.connect()
 db.create_tables([Plusplus], safe=True)
 ```
 
++++
+
 ### Plusplus command
 
 ```
