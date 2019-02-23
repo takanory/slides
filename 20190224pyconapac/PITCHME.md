@@ -445,8 +445,8 @@ I will show some case studies combining Python libraries and APIs.
 ### Calculator function using SymPy
 
 * Motivation
-  * スマートフォンで電卓アプリを呼び出すのが面倒
-  * Slackから計算できたら楽じゃね?
+  * I feel heavy to call a caluclator app on my smartphone
+  * It sheems useful if Slack as a caluculator
 
 +++
 
@@ -490,7 +490,7 @@ def calc(message, formula):
 ### Plusplus function using Peewee ORM
 
 * Motivation
-  * スタッフに感謝し合う感じにしたい
+  * In PyCon JP, I want to make a culture that appreciates each other staff
 
 +++
 
@@ -561,8 +561,9 @@ def plusplus(message, name):
 ### Search JIRA issues and display issue
 
 * Motivation
-  * WebのJIRAの画面が重い
-  * Webで見ずに詳細を確認したい
+  * JIRA is very useful
+  * JIRA Web is very heaby
+  * I want to check issue details without JIRA Web
 
 +++
 
@@ -650,9 +651,9 @@ def jira_search(message, keywords):
 ### Create multiple issues from a template
 
 * Motivation
-  * イベント開催ごとに20くらいのJIRA issueが必要
-  * コピーするのだるい
-  * JIRAの画面が重い
+  * In pycamp event, about 20 issues are required for each event
+  * It is very painful for me to copy issues manually
+  * JIRA Web is very heaby(again)
 
 +++
 
@@ -699,8 +700,7 @@ Will, Math
 
 Note:
 
-* でもGoogleのAPI使えると強力なのでがんばろう
-
+* But, if we can use Google's API, we can do many things
 
 +++
 
@@ -762,7 +762,8 @@ Note:
 
 Note:
 
-* こんな感じで1 pycamp イベントに関するチケットをまとめて作成できるようになりました。楽ちん
+* As you can see, I can create many tickets for pycamp in one command.
+* I am very happy.
 
 +++
 
@@ -781,7 +782,6 @@ Note:
 * Motivation
   * G Suiteの管理画面たまにしか開かない
   * 使い方忘れる
-
 
 +++
 
