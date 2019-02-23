@@ -588,7 +588,7 @@ URL = 'https://jira.atlassian.com/'
 jira = JIRA(URL, basic_auth=('user', 'pass'))
 ```
 
-* See: [2.1.2. Authentication](https://jira.readthedocs.io/en/master/examples.html#authentication)
+* see: [2.1.2. Authentication](https://jira.readthedocs.io/en/master/examples.html#authentication)
 
 +++
 
@@ -610,7 +610,7 @@ def jira_issue(message, issue_id):
     message.send_webapi('', json.dumps(attachments))
 ```
 
-* See: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
+* see: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
 
 +++
 
@@ -633,7 +633,7 @@ def jira_search(message, keywords):
     message.send(text)
 ```
 
-* See: [2.1.5 Searching](https://jira.readthedocs.io/en/master/examples.html#searching)
+* see: [2.1.5 Searching](https://jira.readthedocs.io/en/master/examples.html#searching)
 * JQL: JIRA Query Language
 * see: [Advanced searching - Atlassian Documentation](https://confluence.atlassian.com/jiracoreserver073/advanced-searching-861257209.html)
 
@@ -695,11 +695,12 @@ Alexandra, English
 Will, Math
 ```
 
-* See: [Python Quickstart | Sheets API | Google Developers](https://developers.google.com/sheets/api/quickstart/python)
+* see: [Python Quickstart | Sheets API | Google Developers](https://developers.google.com/sheets/api/quickstart/python)
 
 Note:
 
 * でもGoogleのAPI使えると強力なのでがんばろう
+
 
 +++
 
@@ -721,6 +722,8 @@ for row in result.get('value', []):
     print(row[0], row[1])  # Cell A and B
 ```
 
+* see: * [Method: spreadsheets.values.get](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get)
+
 +++
 
 ### Create JIRA Issue
@@ -738,6 +741,8 @@ issue_dict = {
 }
 issue = jira.create_issue(fields=issue_dict)
 ```
+
+* see: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
 
 +++
 
@@ -767,10 +772,6 @@ Note:
 
 ---
 
-## Search files from Google Drive
-
----
-
 ## Account management of G Suite
 
 +++
@@ -780,6 +781,11 @@ Note:
 * Motivation
   * G Suiteの管理画面たまにしか開かない
   * 使い方忘れる
+
+
++++
+
+### 
 
 ---
 
