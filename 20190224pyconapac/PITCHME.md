@@ -514,12 +514,11 @@ Successfully installed peewee-3.8.2
 
 ```
 import os.path
-from peewee import *  # NOQA
+from peewee import SqliteDatabase, Model, CharField, IntegerField
 
 db = SqliteDatabase(os.path.join(os.path.dirname(__file__), 'plusplus.db'))
 
 class Plusplus(Model):
-    """plusplus model"""
     name = CharField(primary_key=True)
     counter = IntegerField(default=0)
 
@@ -530,9 +529,26 @@ db.connect()
 db.create_tables([Plusplus], safe=True)
 ```
 
+### Plusplus command
+
+```
+from slackbot.bot import listen_to
+
+from .plusplus_model import Plusplus
+
+@listen_to(r'^(\w+)\+\+')
+def plusplus(message, name):
+    target = name.lower()
+    plus, created = Plusplus.get_or_create(
+        name=target, defaults={'counter': 0})
+    plus.counter += 1
+    plus.save()
+    message.send(f'Thank you {name}!(count: {plus.counter})')
+```
+
 +++
 
-
+![Plusplus](20190224pyconapac/images/slackbot-plusplus.png)
 
 ---
 
