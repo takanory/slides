@@ -172,7 +172,7 @@ Note:
 ### Complex message with Requests
 
 ```python
-fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, :beers:', 'short': True},
+fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, LEGO', 'short': True},
           {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
 data = json.dumps({'attachments': [{
     'pretext': 'Nice to meet you!!',
@@ -780,9 +780,9 @@ Note:
 ### Account management of G Suite
 
 * Motivation
-  * We use `@pycon.jp` 
+  * PyCon JP use `pycon.jp` domain with G Suite
   * I only use G Suite admin occasionally
-  * I forgate to use
+  * I forgot to use admin screen
 
 Note:
 
@@ -801,7 +801,7 @@ Note:
 
 Note:
 
-* 新しいAPIを使用する場合は認証を再度行う必要があります
+* If we use the new API we need to re-authenticate
 
 +++
 
