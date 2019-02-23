@@ -806,6 +806,7 @@ Name, Major:
 Alexandra, English
 :
 Will, Math
+```
 
 Note:
 
@@ -826,7 +827,9 @@ for user in users_list.get('users', []):
     print(f'{email} {fullname}')
 ```
 
-* see: [Users: list | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/list)
+* see: [Users: list | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/list)
+
++++
 
 ### Insert user
 
@@ -845,7 +848,7 @@ except:
     pass  # fail
 ```
 
-* see: [Users: insert | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/insert)
+* see: [Users: insert | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/insert)
 
 +++
 
@@ -859,14 +862,16 @@ service.users().update(userKey=EMAIL, body=body).execute()
 service.users().delete(userKey=email).execute()
 ```
 
-* see: [Users: update | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/update)
-* see: [Users: delete | Directory API | Google Developers](https://developers.google.com/admin-sdk/directory/v1/reference/users/delete)
+* see: [Users: update | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/update)
+* see: [Users: delete | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/delete)
 
 +++?image=20190224pyconapac/images/gadmin-help.png&size=contain
 
 +++?image=20190224pyconapac/images/gadmin-user-list.png&size=contain
 
 +++?image=20190224pyconapac/images/gadmin-member-list.png&size=contain
+
++++
 
 ### Source code of gadmin command
 
