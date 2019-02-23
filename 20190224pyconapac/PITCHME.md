@@ -687,7 +687,9 @@ issue = jira.create_issue(fields=issue_dict)
 
 ![Sample of Template command](20190224pyconapac/images/template-bot-sample.png)
 
-+++?image=20190224pyconapac/images/template-created-issues.png&size=auto
++++?image=20190224pyconapac/images/template-pycamp-template.png&size=auto 
+
++++?image=20190224pyconapac/images/template-created-issues.png&size=auto 
 
 ---
 
