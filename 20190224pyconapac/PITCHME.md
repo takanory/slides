@@ -722,7 +722,7 @@ for row in result.get('value', []):
     print(row[0], row[1])  # Cell A and B
 ```
 
-* see: * [Method: spreadsheets.values.get](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get)
+* see: [Method: spreadsheets.values.get](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get)
 
 +++
 
@@ -780,8 +780,28 @@ Note:
 ### Account management of G Suite
 
 * Motivation
-  * G Suiteの管理画面たまにしか開かない
-  * 使い方忘れる
+  * We use `@pycon.jp` 
+  * I only use G Suite admin occasionally
+  * I forgate to use
+
+Note:
+
+* create a new staff account
+* add email address to groups
+
++++
+
+### Update Google Authorization
+
+* update Google Cloud Platform project
+  * add G Suite Admin API
+  * re-download `credentials.json`
+* re-run `quickstart.py`
+  * get new `token.pickle`
+
+Note:
+
+* 新しいAPIを使用する場合は認証を再度行う必要があります
 
 +++
 
