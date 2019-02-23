@@ -679,6 +679,16 @@ issue_dict = {
 issue = jira.create_issue(fields=issue_dict)
 ```
 
++++
+
+### Sample of template command
+
+* `$pycamp create`: Create issues for pycamp event
+
+![Sample of Template command](20190224pyconapac/images/template-bot-sample.png)
+
++++?image=20190224pyconapac/images/template-created-issues.png&size=auto
+
 ---
 
 ## Search files from Google Drive
