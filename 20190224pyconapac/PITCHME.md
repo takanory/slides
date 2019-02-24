@@ -3,7 +3,30 @@
 ### Takanori Suzuki
 
 PyCon APAC 2019 / 2019 Feb 24
+
+Note:
+
+* Thank you for visiting my presentation.
+* I am very happy to be able to make a presentation in PyCon APAC.
+
 ---
+
+## Quiz
+
+* Where did I come from?
+
+Note:
+
+* First! I have a quiz.
+* I am noto a Filipino.
+
++++
+
+## Hint
+
+![japan](20190224pyconapac/images/japan.gif)
+
++++
 
 ## Who am I?
 
@@ -19,12 +42,26 @@ PyCon APAC 2019 / 2019 Feb 24
 Note:
 (1m)
 
++++
+
+### PyCon JP
+
+* Date: 2019 Sepember 16, 17
+* Venue: Tokyo, Japan
+
+Note:
+
+* Next PyCon JP will be held in September.
+* I'm looking forward to seeing you again in PyCon JP.
+* OK, Let's talk about the main subject.
+
 ---
 
 ## Back grounds and Motivation
 
 Note:
-(2m) First, I will talk about Back grounds and Motivation of this talk.
+(2m)
+* First, I will talk about Back grounds and Motivation of this talk.
 
 +++
 
