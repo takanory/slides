@@ -8,7 +8,7 @@ Note:
 
 * Thank you for visiting my presentation.
 * I am very happy to be able to make a presentation in PyCon APAC.
-* I will not do pushups in my presentaiton.
+* I will not do pushups in my presentation.
 
 ---
 
@@ -19,7 +19,7 @@ Note:
 Note:
 
 * First! I have a quiz.
-* I am noto a Filipino.
+* I am not a Filipino.
 
 +++
 
@@ -53,7 +53,7 @@ Note:
 Note:
 
 * Next PyCon JP will be held in September.
-* I'm looking forward to seeing YOu again in PyCon JP.
+* I'm looking forward to seeing you again in PyCon JP.
 * OK, Let's talk about the main subject.
 
 ---
@@ -66,11 +66,11 @@ Note:
 
 +++
 
-## Back grounds and Motivation
+## Background and Motivation
 
 Note:
 (2m)
-* First, I will talk about Back grounds and Motivation of this talk.
+* First, I will talk about the Background and Motivation of this talk.
 
 +++
 
@@ -345,7 +345,7 @@ def hello(message):
 
 Note:
 
-* This complets a series of files for slackbot
+* This completes a series of files for slackbot
 
 +++
 
@@ -379,7 +379,7 @@ Note:
 
 +++
 
-### `listen_to` / `respond_to` decolator
+### `listen_to` / `respond_to` decorator
 
 ```python
 from slackbot.bot import listen_to, respond_to
@@ -395,9 +395,9 @@ def ping(message):
 
 +++
 
-### `listen_to` / `respond_to` decolator
+### `listen_to` / `respond_to` decorator
 
-![Decolator](20190224pyconapac/images/slackbot-decolator.png)
+![Decorator](20190224pyconapac/images/slackbot-decolator.png)
 
 +++
 
@@ -475,7 +475,7 @@ def followme(message):
 
 * We can **communicate** with Slackbot
 * Slackbot can handle **arguments** in messages
-* Slackbot can send mesages in **various formats**
+* Slackbot can send messages in **various formats**
 
 Note:
 I think that you understand Slackbot can do various things.
@@ -498,7 +498,7 @@ I will show some case studies combining Python libraries and APIs.
 
 * Motivation
   * I feel heavy to call a caluclator app on my smartphone
-  * It sheems useful if Slack as a caluculator
+  * It seems useful if Slack as a calculator
 
 +++
 
@@ -614,14 +614,14 @@ def plusplus(message, name):
 
 * Motivation
   * JIRA is very useful
-  * JIRA Web is very heaby
+  * JIRA Web is very heavy
   * I want to check issue details without JIRA Web
 
 +++
 
 ### System Overview
 
-![Ovierview of JIRA](20190224pyconapac/images/jira-overview.png)
+![Overview of JIRA](20190224pyconapac/images/jira-overview.png)
 
 +++
 
@@ -711,7 +711,7 @@ def jira_search(message, keywords):
 * Motivation
   * In pycamp event, about 20 issues are required for each event
   * It is very painful for me to copy issues manually
-  * JIRA Web is very heaby(again)
+  * JIRA Web is very heavy(again)
 
 +++
 
@@ -738,7 +738,7 @@ Successfully installed cachetools-3.1.0 google-api-python-client-1.7.8 google-au
 
 ### Google Authorization is VERY Complex(2/2)
 
-* craete `quickstart.py`
+* create `quickstart.py`
   * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
 * run `quickstart.py`
   * select your Google account in Web browser
@@ -762,7 +762,7 @@ Note:
 
 +++
 
-### Get Spredsheet Data
+### Get Spreadsheet Data
 
 ```python
 from googleapiclient.discovery import build
@@ -851,7 +851,7 @@ Note:
 
 ### System Overview
 
-![Ovierview of gadmin](20190224pyconapac/images/gadmin-overview.png)
+![Overview of gadmin](20190224pyconapac/images/gadmin-overview.png)
 
 +++
 
@@ -937,7 +937,7 @@ service.users().delete(userKey=email).execute()
 
 +++
 
-### I can completeley forget Google Admin web site
+### I can completely forget Google Admin web site
 
 +++
 
@@ -964,7 +964,7 @@ service.users().delete(userKey=email).execute()
 
 Note:
 
-Then you will have more free time so you can do toher creative things more.
+Then you will have more free time so you can do other creative things more.
 
 +++
 
