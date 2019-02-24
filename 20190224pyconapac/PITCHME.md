@@ -345,6 +345,8 @@ def ping(message):
     message.reply('pong!')  # mention
 ```
 
++++
+
 ### `listen_to` / `respond_to` decolator
 
 ![Decolator](20190224pyconapac/images/slackbot-decolator.png)
@@ -402,26 +404,22 @@ Slackbot has several settings.
 
 +++
 
-### Attachements support
+### Attachments support
 
 ```python
 import json
-# -- snip--
 
-@respond_to('github', re.IGNORECASE)
-def github():
-    attachments = [
-    {
-        'fallback': 'Fallback text',
-        'author_name': 'Author',
-        'author_link': 'http://www.github.com',
-        'text': 'Some text',
+@respond_to('follow me')
+def followme(message):
+    attachments = [{
+        'author_name': 'Takanori Suzuki',
+        'text': 'Follow me! <https://twitter.com/takanory|@takanory>',
         'color': '#59afe1'
     }]
     message.send_webapi('', json.dumps(attachments))
 ```
 
-* TODO: なんか複雑なメッセージを返すコードとその実行例
+![Attachments](20190224pyconapac/images/slackbot-attachments.png)
 
 +++
 
