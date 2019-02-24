@@ -298,7 +298,7 @@ def hello(message):
 
 Note:
 
-* これで一通りのファイルが揃いました
+* This complets a series of files for slackbot
 
 +++
 
@@ -323,7 +323,7 @@ mybot/
 
 Note:
 
-* 基本的なSlackbotの作りはわかったと思うので、拡張していきます。
+* I guess you understood the basic way to make Slackbot, so we will extend it.
 
 ---
 
@@ -344,6 +344,8 @@ def hello(message):
 def ping(message):
     message.reply('pong!')  # mention
 ```
+
+### `listen_to` / `respond_to` decolator
 
 ![Decolator](20190224pyconapac/images/slackbot-decolator.png)
 
@@ -373,6 +375,10 @@ def choice(message, words):
     word = random.choice(words.split())
     message.send('I chose *{}*'.format(word))
 ```
+
++++
+
+### Extract parameters on chat message
 
 ![Regular expression](20190224pyconapac/images/slackbot-re.png)
 
@@ -904,6 +910,10 @@ Then you will have more free time so you can do toher creative things more.
 
 +++
 
-## Thank you!
+## Slide URL
 
-* Slide: https://gitpitch.com/takanory/slides?p=20190224pyconapac
+* https://gitpitch.com/takanory/slides?p=20190224pyconapac
+
++++
+
+## Thank you!
