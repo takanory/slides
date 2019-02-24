@@ -571,6 +571,12 @@ def plusplus(message, name):
 
 +++
 
+### System Overview
+
+![Ovierview of JIRA](20190224pyconapac/images/jira-overview.png)
+
++++
+
 ### Install Python JIRA
 
 * Python library to work with JIRA APIs
@@ -792,6 +798,12 @@ Note:
 
 * create a new staff account
 * add email address to groups
+
++++
+
+### System Overview
+
+![Ovierview of gadmin](20190224pyconapac/images/gadmin-overview.png)
 
 +++
 
