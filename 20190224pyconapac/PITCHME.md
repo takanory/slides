@@ -8,6 +8,7 @@ Note:
 
 * Thank you for visiting my presentation.
 * I am very happy to be able to make a presentation in PyCon APAC.
+* I will not do pushups in my presentaiton.
 
 ---
 
