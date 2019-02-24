@@ -58,6 +58,14 @@ Note:
 
 ---
 
+## Slide URL
+
+* https://gitpitch.com/takanory/slides?p=20190224pyconapac
+
+![Slide URL tweet](20190224pyconapac/images/tweet.png)
+
++++
+
 ## Back grounds and Motivation
 
 Note:
