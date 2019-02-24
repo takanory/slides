@@ -52,7 +52,7 @@ Note:
 Note:
 
 * Next PyCon JP will be held in September.
-* I'm looking forward to seeing you again in PyCon JP.
+* I'm looking forward to seeing YOu again in PyCon JP.
 * OK, Let's talk about the main subject.
 
 ---
@@ -110,7 +110,7 @@ Note:
 
 ---
 
-## Why Chatbot?
+## Why Slack?
 
 * Launching the Slack application at any time
 * Easy to access Slack
@@ -119,9 +119,10 @@ Note:
 ![slack](20190224pyconapac/images/slack.png)
 
 Note:
-
 (1m)
 
+* My secretary is chatbot of Slack.
+  * Is there someone using Slack?
 * I'm Launching the Slack application at any time.
 * So it's easy to access Slack. I want to do everything in Slack.
 * From here, I will explain how to create a chatbot on Slack.
@@ -141,12 +142,12 @@ Note:
 
 ![Overview of Incoming Webhook](20190224pyconapac/images/webhook-overview.png)
 
-* https://api.slack.com/incoming-webhooks
+* see: https://api.slack.com/incoming-webhooks
 
 Note:
 
 * This is system overview of Incoming Webhooks.
-* When we send a message to a Webhook URL via HTTP, the message sent to Slack.
+* When program send a message to a Webhook URL via HTTP, the message sent to Slack.
 
 +++
 
@@ -255,7 +256,7 @@ Next, I will explain how to make interactive chatbot.
   2. Enable Bots
   3. Add a Bot User
   4. Install App to Workspace -> Authorize
-* Invite Bot User to Slack channel
+* Invite Bot User to Slack channels
 * 'Bot User OAuth Access Token' like this:
 
 ```
@@ -345,6 +346,7 @@ Note:
 
 ```text
 mybot/
+├── env/  # venv
 ├── mybot/plugins/
 │   ├── __init__.py
 │   └── sample.py
@@ -553,7 +555,7 @@ Successfully installed peewee-3.8.2
 
 ### Plusplus model
 
-```
+```python
 import os.path
 from peewee import SqliteDatabase, Model, CharField, IntegerField
 
@@ -595,11 +597,11 @@ def plusplus(message, name):
 
 ---
 
-## Search JIRA issues and display issue
+## Display JIRA issue and Search issues
 
 +++
 
-### Search JIRA issues and display issue
+### Display JIRA issue and Search issues
 
 * Motivation
   * JIRA is very useful
