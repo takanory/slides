@@ -24,7 +24,7 @@ Note:
 
 ## Hint
 
-![japan](20190224pyconapac/images/japan.gif)
+![japan](20190224pyconapac/images/japan.png)
 
 +++
 
