@@ -165,30 +165,28 @@ PyCon JP Botに実装されているコマンドの一例です
 
 Note:
 
-```
-$ping
-$choice タコライス 沖縄そば ゴーヤーチャンプルー
-$image 沖縄そば
-```
+* $ping
+* $choice タコライス 沖縄そば ゴーヤーチャンプルー
+* $image 沖縄そば
 
 +++?image=20190421pybeginners-oki/images/demo2.png&size=auto 100%
 
-```
-$wikipedia 沖縄そば
-$wikipedia -en okinawa soba
-```
+Note:
+
+* $wikipedia 沖縄そば
+* $wikipedia -en okinawa soba
 
 +++?image=20190421pybeginners-oki/images/demo3.png&size=auto 100%
 
-```
-$google 沖縄そば 那覇 おすすめ
-12300 / 8
-$weather
-$weather 那覇
-```
+Note:
+
+* $google 沖縄そば 那覇 おすすめ
+* 12300 / 8
+* $weather
+* $weather 那覇
 
 +++?image=20190421pybeginners-oki/images/demo4.png&size=auto 100%
 
-```
-$lgtm create https://pbs.twimg.com/media/D4hCiW-X4AIUUFn.jpg THANK YOU !
-```
+Note:
+
+* $lgtm create https://pbs.twimg.com/media/D4hCiW-X4AIUUFn.jpg THANK YOU !
