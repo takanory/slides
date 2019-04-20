@@ -1,6 +1,6 @@
-# Slackbot: PyCon JP Botの紹介
+## Slackbot: PyCon JP Botの紹介
 
-2018 Apr 21 / PythonBeginners沖縄 22 初心者向け勉強会
+2018 Apr 21 / PythonBeginners沖縄 22
 
 Takanori Suzuki
 
@@ -23,7 +23,7 @@ Takanori Suzuki
 
 * https://www.pycon.jp/
 * 年に一回Pythonのカンファンレンスを開催(今年は9月に東京)
-* 昨日のOSC沖縄に出店するために来た
+* 昨日のOSC沖縄に出展するために沖縄に来た
 * 16:30の飛行機で帰ります(お先に失礼します)
 
 +++
@@ -33,7 +33,8 @@ Takanori Suzuki
 * https://www.beproud.jp/
 * メインはPythonで受託
 * connpassの運営会社
-* オンライン学習サービスPyQ(https://pyq.jp/)の運営会社
+* オンライン学習サービスPyQの運営会社
+  * https://pyq.jp/
 
 +++
 
@@ -45,7 +46,7 @@ Takanori Suzuki
 
 ---
 
-### カンファレンスのタスク
+### Conferenceのタスク
 
 * キーノート、トーク、チュートリアルの計画
 * チケット発売と受付
@@ -141,8 +142,6 @@ Note:
 
 +++
 
-コマンド |
---- | ---
 `$google` | google検索
 `$image` | google画像検索
 `$jira` | JIRAの課題を検索
@@ -159,3 +158,15 @@ PyCon JP Botに実装されているコマンドの一例です
 +++
 
 ## デモ
+
++++
+
+![demo1](20190421pybeginners-oki/images/demo1.png)
+
++++
+
+![demo2](20190421pybeginners-oki/images/demo2.png)
+
++++
+
+![demo3](20190421pybeginners-oki/images/demo3.png)
