@@ -4,12 +4,19 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## PythonBeginners沖縄 22
+
+* Event: [PythonBeginners沖縄 22 初心者向け勉強会](https://python-beginners-okinawa.connpass.com/event/125925/)
+* Date: 2019 Apr 21
+* Place: 琉球大学 地域創生総合研究棟 508号室
+* Slide: [Slackbot: PyCon JP Botの紹介](https://gitpitch.com/takanory/slides?p=20190421pybeginners-oki)
+
 ## PyCon APAC 2019
 
 * Event: [PyCon APAC 2019](https://pycon.python.ph/)
 * Date: 2019 Feb 23-24
 * Place: Makati, Philippines
-* Slide: https://gitpitch.com/takanory/slides?p=20190224pyconapac
+* Slide: [Automate the Boring Stuff with Slackbot](https://gitpitch.com/takanory/slides?p=20190224pyconapac)
 
 ## テクトモ #7
 
