@@ -142,6 +142,8 @@ Note:
 
 +++
 
+コマンド | 説明
+--- | ---
 `$google` | google検索
 `$image` | google画像検索
 `$jira` | JIRAの課題を検索
@@ -159,14 +161,8 @@ PyCon JP Botに実装されているコマンドの一例です
 
 ## デモ
 
-+++
++++?image=20190421pybeginners-oki/images/demo1.png&size=auto 100%
 
-![demo1](20190421pybeginners-oki/images/demo1.png)
++++?image=20190421pybeginners-oki/images/demo2.png&size=auto 100%
 
-+++
-
-![demo2](20190421pybeginners-oki/images/demo2.png)
-
-+++
-
-![demo3](20190421pybeginners-oki/images/demo3.png)
++++?image=20190421pybeginners-oki/images/demo3.png&size=auto 100%
