@@ -157,7 +157,7 @@ Note:
 
 PyCon JP Botに実装されているコマンドの一例です
 
-+++
+---
 
 ## デモ
 
@@ -166,3 +166,5 @@ PyCon JP Botに実装されているコマンドの一例です
 +++?image=20190421pybeginners-oki/images/demo2.png&size=auto 100%
 
 +++?image=20190421pybeginners-oki/images/demo3.png&size=auto 100%
+
++++?image=20190421pybeginners-oki/images/demo4.png&size=auto 100%
