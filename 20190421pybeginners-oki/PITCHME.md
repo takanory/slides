@@ -38,9 +38,7 @@ Takanori Suzuki
 
 +++
 
-### おみやげ
-
-* 各種ステッカー、チラシ、PyQのお試しコードなど
+### おみやげ(ステッカー、チラシ、PyQ体験)
 
 ![ステッカーなど](20190421pybeginners-oki/images/stickers.jpg)
 
