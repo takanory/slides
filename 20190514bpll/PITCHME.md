@@ -37,6 +37,8 @@ Takanori Suzuki
 
 ## Conference Day -1
 
+2019 May 1
+
 +++?image=20190514bpll/images/train.jpg&size=cover
 
 +++?image=20190514bpll/images/masthead.jpg&size=cover
@@ -46,6 +48,8 @@ Takanori Suzuki
 ---
 
 ## Conference Day 0
+
+2019 May 2
 
 +++?image=20190514bpll/images/floor.jpg&size=cover
 
@@ -63,9 +67,13 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/southern-tier.jpg&size=cover
 
++++?image=20190514bpll/images/southern.jpg&size=cover
+
 ---
 
 ## Conference Day 1
+
+2019 May 3
 
 +++?image=20190514bpll/images/opening.jpg&size=cover
 
@@ -87,6 +95,8 @@ Takanori Suzuki
 
 ## Conference Day 2
 
+2019 May 4
+
 +++?image=20190514bpll/images/keynote.jpg&size=cover
 
 +++?image=20190514bpll/images/eric.jpg&size=cover
@@ -106,3 +116,62 @@ Takanori Suzuki
 ---
 
 ## Conference Day 3
+
+2019 May 5
+
++++?image=20190514bpll/images/venue.jpg&size=cover
+
++++?image=20190514bpll/images/poster.jpg&size=cover
+
++++?image=20190514bpll/images/lt-africa.jpg&size=cover
+
++++?image=20190514bpll/images/lt-terada.jpg&size=cover
+
++++?image=20190514bpll/images/council.jpg&size=cover
+
++++?image=20190514bpll/images/poster2.jpg&size=cover
+
++++?image=20190514bpll/images/poster4.jpg&size=cover
+
++++?image=20190514bpll/images/poster3.jpg&size=cover
+
++++?image=20190514bpll/images/withguido.jpg&size=cover
+
++++
+
+https://twitter.com/takanory/status/1125070984753680384
+
+Retweet & Like お願いします!!
+
+
++++?image=20190514bpll/images/teamjapan.jpg&size=cover
+
++++?image=20190514bpll/images/jason.jpg&size=cover
+
++++?image=20190514bpll/images/psfstaff.jpg&size=cover
+
++++?image=20190514bpll/images/pittsburgh.jpg&size=cover
+
++++?image=20190514bpll/images/dinner.jpg&size=cover
+
+---
+
+## Sprints Day 1
+
+2019 May 6
+
++++?image=20190514bpll/images/sprints.jpg&size=contain
+
++++?image=20190514bpll/images/packaging.jpg&size=cover
+
++++?image=20190514bpll/images/packagingsummit.jpg&size=contain
+
++++?image=20190514bpll/images/dinner2.jpg&size=cover
+
++++?image=20190514bpll/images/meat.jpg&size=cover
+
+---?image=20190514bpll/images/bag.jpg&size=cover
+
+## The End
+
+
