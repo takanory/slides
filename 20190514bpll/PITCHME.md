@@ -65,6 +65,8 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/reception2.jpg&size=cover
 
++++?image=20190514bpll/images/rip-python2.jpg&size=contain
+
 +++?image=20190514bpll/images/southern-tier.jpg&size=cover
 
 +++?image=20190514bpll/images/southern.jpg&size=cover
