@@ -172,6 +172,6 @@ Retweet & Like お願いします!!
 
 +++?image=20190514bpll/images/meat.jpg&size=cover
 
----?image=20190514bpll/images/bag.jpg&size=contain&position=right
+---?image=20190514bpll/images/bag.jpg&size=contain
 
 # The End
