@@ -53,7 +53,7 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/thirsty-dog.jpg&size=cover
 
-+++?image=20190514bpll/images/orienttion.jpg&size=cover
++++?image=20190514bpll/images/orientation.jpg&size=cover
 
 +++?image=20190514bpll/images/reception.jpg&size=cover
 
@@ -67,9 +67,41 @@ Takanori Suzuki
 
 ## Conference Day 1
 
++++?image=20190514bpll/images/opening.jpg&size=cover
+
++++?image=20190514bpll/images/swag.jpg&size=cover
+
++++?image=20190514bpll/images/pycrash.jpg&size=cover
+
++++?image=20190514bpll/images/fluent.jpg&size=cover
+
++++?image=20190514bpll/images/minifig.jpg&size=cover
+
++++?image=20190514bpll/images/hirata.jpg&size=cover
+
++++?image=20190514bpll/images/square.jpg&size=cover
+
++++?image=20190514bpll/images/4moku.jpg&size=cover
+
 ---
 
 ## Conference Day 2
+
++++?image=20190514bpll/images/keynote.jpg&size=cover
+
++++?image=20190514bpll/images/eric.jpg&size=cover
+
++++?image=20190514bpll/images/betsy.jpg&size=cover
+
++++?image=20190514bpll/images/tongpoo.jpg&size=cover
+
++++?image=20190514bpll/images/auction.jpg&size=cover
+
++++?image=20190514bpll/images/auction2.jpg&size=cover
+
++++?image=20190514bpll/images/auction3.jpg&size=cover
+
++++?image=20190514bpll/images/auction4.jpg&size=cover
 
 ---
 
