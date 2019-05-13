@@ -4,10 +4,17 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## BPLL #33
+
+* Event: [BPLL #33](https://bpstudy.connpass.com/event/128217/)
+* Date: 2019 May 14(Tue)
+* Place: BeProud Inc.
+* Slide: [どこよりも早いUS PyCon参加レポート](https://gitpitch.com/takanory/slides?p=20190514bpll)
+
 ## PythonBeginners沖縄 22
 
 * Event: [PythonBeginners沖縄 22 初心者向け勉強会](https://python-beginners-okinawa.connpass.com/event/125925/)
-* Date: 2019 Apr 21
+* Date: 2019 Apr 21(Sun)
 * Place: 琉球大学 地域創生総合研究棟 508号室
 * Slide: [Slackbot: PyCon JP Botの紹介](https://gitpitch.com/takanory/slides?p=20190421pybeginners-oki)
 
