@@ -73,9 +73,9 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/pycrash.jpg&size=cover
 
-+++?image=20190514bpll/images/fluent.jpg&size=cover
++++?image=20190514bpll/images/fluent.jpg&size=contain
 
-+++?image=20190514bpll/images/minifig.jpg&size=cover
++++?image=20190514bpll/images/minifig.jpg&size=contain
 
 +++?image=20190514bpll/images/hirata.jpg&size=cover
 
@@ -91,7 +91,7 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/eric.jpg&size=cover
 
-+++?image=20190514bpll/images/betsy.jpg&size=cover
++++?image=20190514bpll/images/betsy.jpg&size=contain
 
 +++?image=20190514bpll/images/tongpoo.jpg&size=cover
 
