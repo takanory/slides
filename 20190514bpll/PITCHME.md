@@ -27,11 +27,15 @@ Takanori Suzuki
 
 * https://us.pycon.org/2019/
 * オハイオ州クリーブランド
-* チュートリアル: 5月1日(水)、2日(木)
-* カンファレンス: 5月3日(金)-5日(日)
-* スプリント: 5月6日(月)-9日(木)
+  * チュートリアル: 5月1日(水)、2日(木)
+  * カンファレンス: 5月3日(金)-5日(日)
+  * スプリント: 5月6日(月)-9日(木)
+* 参加人数: 3,200人くらい(女性30~35%くらい)
 
 +++?image=20190514bpll/images/cleveland.jpg&size=cover
+
+Note:
+クリーブランドは五大湖のエリー湖の脇
 
 ---
 
@@ -41,9 +45,18 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/train.jpg&size=cover
 
+Note:
+空港から地下鉄で移動した。怖かった
+
 +++?image=20190514bpll/images/masthead.jpg&size=cover
 
+Note:
+Mastheadでビール
+
 +++?image=20190514bpll/images/masthead2.jpg&size=cover
+
+Note:
+ピザがおいしかった
 
 ---
 
@@ -53,23 +66,53 @@ Takanori Suzuki
 
 +++?image=20190514bpll/images/floor.jpg&size=cover
 
+Note:
+メイン会場はこんか感じで馬鹿でかい
+
 +++?image=20190514bpll/images/nametag.jpg&size=cover
+
+Note:
+名札とパンフレット(これが全体図
 
 +++?image=20190514bpll/images/thirsty-dog.jpg&size=cover
 
+Note:
+ビールとプーティーン(多過ぎ
+
 +++?image=20190514bpll/images/orientation.jpg&size=cover
+
+Note:
+初参加者のオリエンテーション
 
 +++?image=20190514bpll/images/reception.jpg&size=cover
 
+Note:
+ビール片手にReceptionでブースを回る
+
 +++?image=20190514bpll/images/slack-booth.jpg&size=cover
+
+Note:
+Slackブース
 
 +++?image=20190514bpll/images/reception2.jpg&size=cover
 
+Note:
+会場全体はこんな感じ
+
 +++?image=20190514bpll/images/rip-python2.jpg&size=contain
+
+Note:
+Facebookの配ってたステッカー
 
 +++?image=20190514bpll/images/southern-tier.jpg&size=cover
 
+Note:
+夜はまたクラフトビールへ
+
 +++?image=20190514bpll/images/southern.jpg&size=cover
+
+Note:
+日本から行ったメンバーで飲み
 
 ---
 
