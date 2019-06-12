@@ -126,7 +126,7 @@ Note:
 * To do everything in Slack
 
 ![slack](20190224pyconapac/images/slack.png)
-
+	
 Note:
 (1m)
 
@@ -629,7 +629,7 @@ def plusplus(message, name):
 
 * Python library to work with JIRA APIs
 * https://jira.readthedocs.io/
-
+p
 ```shell
 (env) $ pip install jira
 :

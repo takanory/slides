@@ -21,7 +21,7 @@ Note:
 * Organizer of [Python mini Hack-a-thon](https://pyhack.connpass.com/): `#pyhack`
 * Captain of [Python Bouldering Club](https://kabepy.connpass.com/): `#kabepy`
 
-![takanory](assets/images/sokidan.jpg)
+![takanory](assets/images/sokidan-square.jpg)
 
 Note:
 (1m)
@@ -30,8 +30,11 @@ Note:
 
 ### PyCon JP
 
+* https://pycon.jp/2019
 * Date: 2019 Sepember 16, 17
 * Venue: Tokyo, Japan
+
+![PyCon JP 2019](assets/images/pyconjp2019site.png)
 
 Note:
 
@@ -45,7 +48,7 @@ Note:
 
 * https://gitpitch.com/takanory/slides?p=20190615pyconth
 
-![Slide URL tweet](20190615pyconth/images/tweet.png)
+![Slide URL tweet](20190224pyconapac/images/tweet.png)
 
 +++
 
@@ -251,7 +254,7 @@ Next, I will explain how to make interactive chatbot.
 
 ### System overview
 
-![Overview of Slackbot](201900224pyconapac/images/slackbot-overview.png)
+![Overview of Slackbot](20190224pyconapac/images/slackbot-overview.png)
 
 +++
 
@@ -284,11 +287,15 @@ How to create Bot user is as follow....
 $ mkdir mybot
 $ cd mybot
 $ python3.6 -m venv env
-$ source env/bin/activate
+$ . env/bin/activate
 (env) $ pip install slackbot
 :
 :
-Successfully installed certifi-2018.11.29 chardet-3.0.4 idna-2.8 requests-2.21.0 six-1.12.0 slackbot-0.5.3 slacker-0.12.0 urllib3-1.24.1 websocket-client-0.44.0
+Successfully installed certifi-2019.3.9 chardet-3.0.4 idna-2.8 requests-2.22.0 six-1.12.0 slackbot-0.5.3 slacker-0.13.0 urllib3-1.25.3 websocket-client-0.44.0
+(env) $ pip list | grep slack
+slackbot         0.5.3   
+slacker          0.13.0  
+
 ```
 
 Note:
@@ -364,7 +371,7 @@ mybot/
 (env) $ python run.py
 ```
 
-![First Slackbot](01900224pyconapac/images/slackbot-hi.png)
+![First Slackbot](0190224pyconapac/images/slackbot-hi.png)
 
 Note:
 
@@ -394,7 +401,7 @@ def ping(message):
 
 ### `listen_to` / `respond_to` decorator
 
-![Decorator](01900224pyconapac/images/slackbot-decolator.png)
+![Decorator](0190224pyconapac/images/slackbot-decolator.png)
 
 +++
 
@@ -507,7 +514,7 @@ I will show some case studies combining Python libraries and APIs.
 ```shell
 (env) $ pip install sympy
 :
-Successfully installed mpmath-1.1.0 sympy-1.3
+Successfully installed mpmath-1.1.0 sympy-1.4
 ```
 
 +++
@@ -554,7 +561,7 @@ def calc(message, formula):
 ```shell
 (env) $ pip install peewee
 :
-Successfully installed peewee-3.8.2
+Successfully installed peewee-3.9.6
 ```
 
 +++
@@ -626,11 +633,13 @@ def plusplus(message, name):
 
 * Python library to work with JIRA APIs
 * https://jira.readthedocs.io/
-p
+
 ```shell
 (env) $ pip install jira
 :
-Successfully installed asn1crypto-0.24.0 cffi-1.12.1 cryptography-2.5 defusedxml-0.5.0 jira-2.0.0 oauthlib-3.0.1 pbr-5.1.2 pycparser-2.19 pyjwt-1.7.1 requests-oauthlib-1.2.0 requests-toolbelt-0.9.1
+Successfully installed asn1crypto-0.24.0 cffi-1.12.3 cryptography-2.7 defusedxml-0.6.0 jira-2.0.0 oauthlib-3.0.1 pbr-5.2.1 pycparser-2.19 pyjwt-1.7.1 requests-oauthlib-1.2.0 requests-toolbelt-0.9.1
+(env) $ pip list | grep jira
+jira              2.0.0   
 ```
 
 +++
@@ -726,9 +735,15 @@ def jira_search(message, keywords):
 * Install Google Client Library
 
 ```shell
-(venv) $ pip install google-api-python-client google-auth-oauthlib
+(env) $ pip install google-api-python-client \
+                     google-auth-oauthlib
 :
-Successfully installed cachetools-3.1.0 google-api-python-client-1.7.8 google-auth-1.6.3 google-auth-httplib2-0.0.3 httplib2-0.12.1 pyasn1-0.4.5 pyasn1-modules-0.2.4 rsa-4.0 uritemplate-3.0.0
+Successfully installed cachetools-3.1.1 google-api-python-client-1.7.9 google-auth-1.6.3 google-auth-httplib2-0.0.3 google-auth-oauthlib-0.4.0 httplib2
+(env) $ pip list | grep google
+google-api-python-client 1.7.9   
+google-auth              1.6.3   
+google-auth-httplib2     0.0.3   
+google-auth-oauthlib     0.4.0   
 ```
 
 +++
@@ -743,7 +758,7 @@ Successfully installed cachetools-3.1.0 google-api-python-client-1.7.8 google-au
   * get `token.pickle` file(finish!!)
 
 ```shell
-(venv) $ python quickstart.py
+(env) $ python quickstart.py
 Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&.....
 Name, Major:
 Alexandra, English
@@ -861,7 +876,7 @@ Note:
   * get new `token.pickle`
 
 ```shell
-(venv) $ python quickstart.py
+(env) $ python quickstart.py
 Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&.....
 Name, Major:
 Alexandra, English
