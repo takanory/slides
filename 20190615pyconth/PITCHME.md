@@ -371,7 +371,7 @@ mybot/
 (env) $ python run.py
 ```
 
-![First Slackbot](0190224pyconapac/images/slackbot-hi.png)
+![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
 
 Note:
 
@@ -401,7 +401,7 @@ def ping(message):
 
 ### `listen_to` / `respond_to` decorator
 
-![Decorator](0190224pyconapac/images/slackbot-decolator.png)
+![Decorator](20190224pyconapac/images/slackbot-decolator.png)
 
 +++
 
@@ -525,10 +525,11 @@ Successfully installed mpmath-1.1.0 sympy-1.4
 from slackbot.bot import listen_to
 from sympy import sympify, SympifyError
 
-@listen_to(r'^([-+*/^%!().\d\s]+)$')
+@listen_to(r'^([-+*/^%!().\d\s]+)$')  # Formula like pattern
 def calc(message, formula):
     try:
-        result = sympify(formula)
+        result = sympify(formula)\
+	# Convert to number
         answer = int(result) if result.is_Integer else float(result)
         message.send(f'{answer:,}')
     except SympifyError:
@@ -569,10 +570,11 @@ Successfully installed peewee-3.9.6
 ### Plusplus model
 
 ```python
-import os.path
+from pathlib import Path
 from peewee import SqliteDatabase, Model, CharField, IntegerField
 
-db = SqliteDatabase(os.path.join(os.path.dirname(__file__), 'plusplus.db'))
+dbpath = Path(__file__).parent / 'plusplus.db')
+db = SqliteDatabase(dbpath)
 
 class Plusplus(Model):
     name = CharField(primary_key=True)
@@ -597,11 +599,12 @@ from .plusplus_model import Plusplus
 @listen_to(r'^(\w+)\+\+')
 def plusplus(message, name):
     target = name.lower()
+    # Get or create object
     plus, created = Plusplus.get_or_create(
         name=target, defaults={'counter': 0})
     plus.counter += 1
     plus.save()
-    message.send(f'Thank you {name}!(count: {plus.counter})')
+    message.send(f'Thank you {name}! (count: {plus.counter})')
 ```
 
 +++
@@ -893,10 +896,12 @@ Note:
 ### Get user list
 
 ```python
+# Build service
 DOMAIN = 'pycon.jp'
 service = build('admin', 'directory_v1', credentials=creds)
-users_list = service.users().list(orderBy='email', domain=DOMAIN).execute()
 
+# Get user list
+users_list = service.users().list(orderBy='email', domain=DOMAIN).execute()
 for user in users_list.get('users', []):
     email = user['primaryEmail']
     fullname = user['name']['fullName']
@@ -914,7 +919,7 @@ body = {
     'primaryEmail': EMAIL_ADDRESS,
     'password': PASSWORD,
     'name': {
-        'givenName': FIRLST_NAME,
+        'givenName': FIRST_NAME,
         'familyName': LAST_NAME,
     },
 }
@@ -931,9 +936,11 @@ except:
 ### Suspend, Resume, Delete user
 
 ```python
-body = {'suspended': True}  # suspend
-body = {'suspended': False}  # resume
-service.users().update(userKey=EMAIL, body=body).execute()
+suspend = {'suspended': True}
+service.users().update(userKey=EMAIL, body=suspend).execute()
+
+resume = {'suspended': False}
+service.users().update(userKey=EMAIL, body=resume).execute()
 
 service.users().delete(userKey=email).execute()
 ```
