@@ -4,6 +4,13 @@ Preesentation slides
 
 * Self introduction: https://gitpitch.com/takanory/slides?p=about-takanory
 
+## PyCon Thailand 2019
+
+* Event: [PyCon Thailand 2019](https://th.pycon.org/en/)
+* Date: 2019 Jun 15-16
+* Place: Bangkok, Thailand
+* Slide: [Automate the Boring Stuff with Slackbot](https://gitpitch.com/takanory/slides?p=20190615pyconth)
+
 ## BPLL #33
 
 * Event: [BPLL #33](https://bpstudy.connpass.com/event/128217/)
