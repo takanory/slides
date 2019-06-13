@@ -209,6 +209,8 @@ req = request.Request(URL, data=data, method='POST')
 request.urlopen(req)
 ```
 
+![Hello from Python!](20190615pyconth/images/webhook-python.png)
+
 +++
 
 ### Post message with Requests
@@ -217,14 +219,11 @@ request.urlopen(req)
 import json
 import requests
 
-import json
-import requests
-
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
 requests.post(URL, json={'text': 'Hello from Requests!'})
 ```
 
-![Hello Slack from Requests](20190224pyconapac/images/webhook-requests.png)
+![Hello from Requests!](20190615pyconth/images/webhook-requests.png)
 
 Note:
 
@@ -237,13 +236,13 @@ Note:
 ```python
 fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, LEGO', 'short': True},
           {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
-data = json.dumps({'attachments': [{
+data = {'attachments': [{
     'pretext': 'Nice to meet you!!',
     'author_name': 'Takanori Suzuki',
     'author_link': 'https://twitter.com/takanory/',
     'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
     'fields': fields,
-}]})
+}]}
 ```
 
 ![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
