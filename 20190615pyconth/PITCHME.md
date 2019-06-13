@@ -197,15 +197,31 @@ Note:
 
 +++
 
+### Post message with Python
+
+```python
+import json
+from urllib import request
+
+URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
+data = json.dumps({'text': 'Hello from Python!'}).encode('utf-8')
+req = request.Request(URL, data=data, method='POST')
+request.urlopen(req)
+```
+
++++
+
 ### Post message with Requests
 
 ```python
 import json
 import requests
 
+import json
+import requests
+
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
-data = json.dumps({'text': 'Hello Slack from Python!'})
-requests.post(URL, data=data)
+requests.post(URL, json={'text': 'Hello from Requests!'})
 ```
 
 ![Hello Slack from Requests](20190224pyconapac/images/webhook-requests.png)
