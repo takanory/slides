@@ -6,9 +6,9 @@ PyCon Thailand 2019 / 2019 Jun 15
 
 Note:
 
-* Thank you for visiting my presentation.
+* Thank you for coming to my presentation.
 * I am very happy to be able to make a presentation in PyCon Thailand.
-* 私はタイを訪れるのははじめてです。
+* This is my first visit to Thailand.
 
 ---
 
@@ -25,6 +25,8 @@ Note:
 
 Note:
 (1m)
+> * I'm from Japan.
+> * Have you ever been to Japan?
 
 +++
 
@@ -39,7 +41,7 @@ Note:
 Note:
 
 * Next PyCon JP will be held in September.
-* I'm looking forward to seeing you again in PyCon JP.
+* I'm looking forward to seeing YOU again in PyCon JP.
 * OK, Let's talk about the main subject.
 
 ---
@@ -49,6 +51,11 @@ Note:
 * https://gitpitch.com/takanory/slides?p=20190615pyconth
 
 ![Slide URL tweet](20190224pyconapac/images/tweet.png)
+
+Note:
+
+* I shared this presentation slide on twitter.
+* Please check it.
 
 +++
 
@@ -236,13 +243,13 @@ Note:
 ```python
 fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, LEGO', 'short': True},
           {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
-data = {'attachments': [{
+requests.post(URL, json={'attachments': [{
     'pretext': 'Nice to meet you!!',
     'author_name': 'Takanori Suzuki',
     'author_link': 'https://twitter.com/takanory/',
     'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
     'fields': fields,
-}]}
+}]})
 ```
 
 ![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
@@ -281,11 +288,7 @@ Next, I will explain how to make interactive chatbot.
   3. Add a Bot User
   4. Install App to Workspace -> Authorize
 * Invite Bot User to Slack channels
-* 'Bot User OAuth Access Token' like this:
-
-```
-xoxb-123467890-XXXXXX-XXXXXXXXXXXXX
-```
+* 'Bot User OAuth Access Token' like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
@@ -310,7 +313,6 @@ Successfully installed certifi-2019.3.9 chardet-3.0.4 idna-2.8 requests-2.22.0 s
 (env) $ pip list | grep slack
 slackbot         0.5.3   
 slacker          0.13.0  
-
 ```
 
 Note:
@@ -432,7 +434,7 @@ def beer(message):
     message.react(':beer:')
 ```
 
-![message.react](20190224pyconapac/images/slackbot-react.png)
+![message.react](20190615pyconth/images/slackbot-react.png)
 
 +++
 
@@ -543,8 +545,8 @@ from sympy import sympify, SympifyError
 @listen_to(r'^([-+*/^%!().\d\s]+)$')  # Formula like pattern
 def calc(message, formula):
     try:
-        result = sympify(formula)\
-	# Convert to number
+        result = sympify(formula)
+        # Convert to number
         answer = int(result) if result.is_Integer else float(result)
         message.send(f'{answer:,}')
     except SympifyError:
@@ -624,7 +626,7 @@ def plusplus(message, name):
 
 +++
 
-![Plusplus](20190224pyconapac/images/slackbot-plusplus.png)
+![Plusplus](20190615pyconth/images/slackbot-plusplus.png)
 
 ---
 
@@ -1009,3 +1011,9 @@ Then you will have more free time so you can do other creative things more.
 +++
 
 ## Thank you!
+
+## ขอบคุณ
+
++++
+
+## Question?
