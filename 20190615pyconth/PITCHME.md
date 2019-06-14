@@ -259,6 +259,23 @@ We can send complex messages like this with message attachments.
 
 +++
 
+### How to create complex message
+
+* Block-Kit: new UI framework
+* Introducing Block Kit
+  * https://api.slack.com/block-kit
+* Block Kit Builder
+  * https://api.slack.com/tools/block-kit-builder
+
+Note:
+
+* Block-Kit is a new UI framework on Slack.
+* and Block Kit Builder is interactive prototype builder.
+
++++?image?image=20190615pyconth/images/block-kit-builder.png&size=auto
+
++++
+
 ### Summary of Incoming Webhooks
 
 * **Easy to send** messages from programs
@@ -1017,3 +1034,4 @@ Then you will have more free time so you can do other creative things more.
 +++
 
 ## Question?
+
