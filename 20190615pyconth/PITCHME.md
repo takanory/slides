@@ -272,7 +272,7 @@ Note:
 * Block-Kit is a new UI framework on Slack.
 * and Block Kit Builder is interactive prototype builder.
 
-+++?image?image=20190615pyconth/images/block-kit-builder.png&size=auto
++++?image=20190615pyconth/images/block-kit-builder.png&size=auto
 
 +++
 
@@ -302,10 +302,10 @@ Next, I will explain how to make interactive chatbot.
 * Create bot user
   1. Create a Slack app
   2. Enable Bots
-  3. Add a Bot User
-  4. Install App to Workspace -> Authorize
+  3. Add a **Bot User**
+  4. Install App to Workspace -> **Authorize**
 * Invite Bot User to Slack channels
-* 'Bot User OAuth Access Token' like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
+* **Bot User OAuth Access Token** like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
@@ -457,6 +457,8 @@ def beer(message):
 
 ### Extract parameters on chat message
 
+* Use regular expressions
+
 ```python
 @respond_to('choice (.*)')
 def choice(message, words):
@@ -472,7 +474,9 @@ def choice(message, words):
 
 +++
 
-### settings(`slackbot_settings.py`)
+### settings
+
+* `slackbot_settings.py` file
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
@@ -725,8 +729,10 @@ def jira_issue(message, issue_id):
 ```python
 @respond_to('jira (.*)')
 def jira_search(message, keywords):
+    # make JQL query string
     jql = f'project=ISSHA and text ~ "{keywords}" order by created desc'
     text = ''
+    # get 5 recent issues
     for issue in jira.search_issues(jql, maxResults=5):
         id = issue.key
         url = issue.permalink()
@@ -787,7 +793,7 @@ google-auth-oauthlib     0.4.0
 
 ### Google Authorization is VERY Complex(2/2)
 
-* create `quickstart.py`
+* download `quickstart.py`
   * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
 * run `quickstart.py`
   * select your Google account in Web browser
@@ -821,8 +827,9 @@ creds = None
 if os.path.exists('token.pickle'):
     with open('token.pickle', 'rb') as token:
         creds = pickle.load(token)
+# build service
 service = build('sheets', 'v4', credentials=creds)
-
+# get data from Spreadsheet
 result = service.spreadsheets().values().get(
     spreadsheetId=SHEET_ID, range='sheet_name!A:G').execute()
 for row in result.get('value', []):
@@ -846,7 +853,7 @@ issue_dict = {
     'reporter': {'name': NAME_OF_REPORTER},
     'duedate': '{:%Y-%m-%d}'.format(duedate),
 }
-issue = jira.create_issue(fields=issue_dict)
+issue = jira.create_issue(fields=issue_dict)  # create issue
 ```
 
 * see: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
@@ -930,11 +937,11 @@ Note:
 ### Get user list
 
 ```python
-# Build service
+# build service
 DOMAIN = 'pycon.jp'
 service = build('admin', 'directory_v1', credentials=creds)
 
-# Get user list
+# get user list
 users_list = service.users().list(orderBy='email', domain=DOMAIN).execute()
 for user in users_list.get('users', []):
     email = user['primaryEmail']
@@ -990,7 +997,7 @@ service.users().delete(userKey=email).execute()
 
 +++
 
-### I can completely forget Google Admin web site
+### I can completely forget Google Admin web site 🎉
 
 +++
 
@@ -1011,7 +1018,7 @@ service.users().delete(userKey=email).execute()
 
 ## Next steps
 
-* Let's make your own Slackbot
+* Let's make **your own Slackbot**
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
