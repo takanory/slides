@@ -1036,7 +1036,7 @@ Then you will have more free time so you can do other creative things more.
 
 ## Thank you!
 
-## ขอบคุณ
+## ขอบคุณ 🙏
 
 +++
 
