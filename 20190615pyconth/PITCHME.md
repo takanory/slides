@@ -26,8 +26,8 @@ Note:
 Note:
 (1m)
 * I'm Takanori Suzuki from Japan. My twitter is takanory please follow me.
-* Have you ever been to Japan?
-* I'm Vice Char of PyCon JP Committee...
+* I'm Vice Chair of PyCon JP Committee.
+* Have you ever been to Japan? If you have never visited Japan,
 
 +++
 
@@ -41,9 +41,10 @@ Note:
 
 Note:
 
-* This yeas's PyCon JP will be held in middle of September.
+* PyCon JP is a very good opportunity for you.
+* PyCon JP will be held in middle of September.
 * I'm looking forward to seeing YOU again in PyCon JP.
-* OK, Let's talk about the main subject.
+* Well then, let's talk about the main topic.
 
 ---
 
@@ -79,7 +80,7 @@ Note:
 
 Note:
 
-* I held PyCon JP several years in the past.
+* I held PyCon JP event several years in the past.
 * As you can imagine, lots of tasks to hold Conference. And, ...
 
 +++
@@ -87,7 +88,7 @@ Note:
 ### Staff ask me the same things
 
 * 40+ staff
-* New staff:Old staff = 50:50
+* **New** staff:**Old** staff = 50:50
 
 Note:
 
@@ -101,7 +102,7 @@ Note:
 
 Note:
 
-* As you know, programmers dislike routine work. I also dislike it very much.
+* As you know, programmers dislike routine work. I also dislike it VERY much.
 
 +++
 
@@ -110,6 +111,7 @@ Note:
 Note:
 
 * I want someone to do my bothersome tasks instead of me.
+* Let's make it.
 
 ---
 
@@ -121,9 +123,10 @@ Note:
 
 Note:
 (1m)
-* You'll learn how to create simple chatbot(one way).
-* You'll learn how to create interactive bot.
-* You'll learn how to extend bot using libraries and APIs through various case studies.
+* The goal of this talk.
+* You'll learn how to create simple chatbot,
+* how to create interactive bot,
+* how to extend bot using libraries and APIs through various case studies.
 
 ---
 
@@ -140,7 +143,7 @@ Note:
 
 * My secretary is chatbot of Slack.
   * Is there someone using Slack?
-* I'm Launching the Slack application at any time.
+* I'm Launching the Slack application at any time on PC and smartphone.
 * So it's easy to access Slack. I want to do everything in Slack.
 * From here, I will explain how to create a chatbot on Slack.
 
@@ -219,6 +222,10 @@ request.urlopen(req)
 
 ![Hello from Python!](20190615pyconth/images/webhook-python.png)
 
+Note:
+
+* Using rullib.requests in Python is like this.
+
 +++
 
 ### Post message with Requests
@@ -273,7 +280,7 @@ Note:
 * Block-Kit is a new UI framework on Slack.
 * and Block Kit Builder is interactive prototype builder.
 
-+++?image=20190615pyconth/images/block-kit-builder.png&size=auto
++++?image=20190615pyconth/images/block-kit-builder.png&size=contain
 
 +++
 
@@ -311,7 +318,8 @@ Next, I will explain how to make interactive chatbot.
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
 Note:
-How to create Bot user is as follow....
+* I describe how to create interactive bot.
+* At first, we craete bot user on Slack.
 
 +++
 
@@ -334,7 +342,8 @@ slacker          0.13.0
 ```
 
 Note:
-Then, I make venv and install slackbot.
+* Then, I make venv and install slackbot library.
+* slackbot is chatbot framework.
 
 +++
 
@@ -360,6 +369,9 @@ if __name__ == "__main__":
     main()
 ```
 
+Note:
+* The simplest slackbot consists of 4 files.
+
 +++
 
 ### Simple Plugin
@@ -384,7 +396,7 @@ def hello(message):
 
 Note:
 
-* This completes a series of files for slackbot
+* That's all.
 
 +++
 
@@ -660,7 +672,7 @@ def plusplus(message, name):
 
 * Motivation
   * JIRA is very useful
-  * JIRA Web is very heavy
+  * JIRA Web is **very heavy**
   * I want to check issue details without JIRA Web
 
 +++
@@ -759,9 +771,12 @@ def jira_search(message, keywords):
 ### Create multiple issues from a template
 
 * Motivation
-  * In pycamp event, about 20 issues are required for each event
-  * It is very painful for me to copy issues manually
-  * JIRA Web is very heavy(again)
+  * In pycamp event, **20+ issues** are required for each event
+  * It is very painful for me to **copy issues** manually
+  * JIRA Web is **very heavy**(again)
+
+Note:
+* PyCon JP hold pycamp every month.
 
 +++
 
@@ -789,6 +804,9 @@ google-auth              1.6.3
 google-auth-httplib2     0.0.3   
 google-auth-oauthlib     0.4.0   
 ```
+
+Note:
+* At firest, we make Google Authorized token.
 
 +++
 
@@ -885,6 +903,10 @@ Note:
 ### Source code of pycamp command
 
 * see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py
+
++++
+
+### I never have to copy issues again 🎉
 
 ---
 
