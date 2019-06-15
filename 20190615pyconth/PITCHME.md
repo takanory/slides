@@ -25,8 +25,9 @@ Note:
 
 Note:
 (1m)
-> * I'm from Japan.
-> * Have you ever been to Japan?
+* I'm Takanori Suzuki from Japan. My twitter is takanory please follow me.
+* Have you ever been to Japan?
+* I'm Vice Char of PyCon JP Committee...
 
 +++
 
@@ -40,7 +41,7 @@ Note:
 
 Note:
 
-* Next PyCon JP will be held in September.
+* This yeas's PyCon JP will be held in middle of September.
 * I'm looking forward to seeing YOU again in PyCon JP.
 * OK, Let's talk about the main subject.
 
@@ -50,11 +51,11 @@ Note:
 
 * https://gitpitch.com/takanory/slides?p=20190615pyconth
 
-![Slide URL tweet](20190224pyconapac/images/tweet.png)
+![Slide URL tweet](20190615pyconth/images/tweet.png)
 
 Note:
 
-* I shared this presentation slide on twitter.
+* I shared this slide slide on twitter.
 * Please check it.
 
 +++
