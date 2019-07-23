@@ -51,7 +51,7 @@
      * 2019 Feb
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * `Slides <ttps://gitpitch.com/takanory/slides?p=20190224pyconapac>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20190224pyconapac>`__
        `Report <https://gihyo.jp/news/report/2019/03/1201>`__
    - * `テクトモ #7 <https://techtomo.connpass.com/event/107621/>`_
      * Tokyo, japan
