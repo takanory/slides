@@ -6,9 +6,9 @@ PyCon Thailand 2019 / 2019 Jun 15
 
 Note:
 
-* Thank you for visiting my presentation.
+* Thank you for coming to my presentation.
 * I am very happy to be able to make a presentation in PyCon Thailand.
-* 私はタイを訪れるのははじめてです。
+* This is my first visit to Thailand.
 
 ---
 
@@ -25,6 +25,9 @@ Note:
 
 Note:
 (1m)
+* I'm Takanori Suzuki from Japan. My twitter is takanory please follow me.
+* I'm Vice Chair of PyCon JP Committee.
+* Have you ever been to Japan? If you have never visited Japan,
 
 +++
 
@@ -38,9 +41,10 @@ Note:
 
 Note:
 
-* Next PyCon JP will be held in September.
-* I'm looking forward to seeing you again in PyCon JP.
-* OK, Let's talk about the main subject.
+* PyCon JP is a very good opportunity for you.
+* PyCon JP will be held in middle of September.
+* I'm looking forward to seeing YOU again in PyCon JP.
+* Well then, let's talk about the main topic.
 
 ---
 
@@ -48,7 +52,12 @@ Note:
 
 * https://gitpitch.com/takanory/slides?p=20190615pyconth
 
-![Slide URL tweet](20190224pyconapac/images/tweet.png)
+![Slide URL tweet](20190615pyconth/images/tweet.png)
+
+Note:
+
+* I shared this slide slide on twitter.
+* Please check it.
 
 +++
 
@@ -71,7 +80,7 @@ Note:
 
 Note:
 
-* I held PyCon JP several years in the past.
+* I held PyCon JP event several years in the past.
 * As you can imagine, lots of tasks to hold Conference. And, ...
 
 +++
@@ -79,7 +88,7 @@ Note:
 ### Staff ask me the same things
 
 * 40+ staff
-* New staff:Old staff = 50:50
+* **New** staff:**Old** staff = 50:50
 
 Note:
 
@@ -93,7 +102,7 @@ Note:
 
 Note:
 
-* As you know, programmers dislike routine work. I also dislike it very much.
+* As you know, programmers dislike routine work. I also dislike it VERY much.
 
 +++
 
@@ -102,6 +111,7 @@ Note:
 Note:
 
 * I want someone to do my bothersome tasks instead of me.
+* Let's make it.
 
 ---
 
@@ -113,9 +123,10 @@ Note:
 
 Note:
 (1m)
-* You'll learn how to create simple chatbot(one way).
-* You'll learn how to create interactive bot.
-* You'll learn how to extend bot using libraries and APIs through various case studies.
+* The goal of this talk.
+* You'll learn how to create simple chatbot,
+* how to create interactive bot,
+* how to extend bot using libraries and APIs through various case studies.
 
 ---
 
@@ -132,7 +143,7 @@ Note:
 
 * My secretary is chatbot of Slack.
   * Is there someone using Slack?
-* I'm Launching the Slack application at any time.
+* I'm Launching the Slack application at any time on PC and smartphone.
 * So it's easy to access Slack. I want to do everything in Slack.
 * From here, I will explain how to create a chatbot on Slack.
 
@@ -211,6 +222,10 @@ request.urlopen(req)
 
 ![Hello from Python!](20190615pyconth/images/webhook-python.png)
 
+Note:
+
+* Using rullib.requests in Python is like this.
+
 +++
 
 ### Post message with Requests
@@ -236,19 +251,36 @@ Note:
 ```python
 fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, LEGO', 'short': True},
           {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
-data = {'attachments': [{
+requests.post(URL, json={'attachments': [{
     'pretext': 'Nice to meet you!!',
     'author_name': 'Takanori Suzuki',
     'author_link': 'https://twitter.com/takanory/',
     'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
     'fields': fields,
-}]}
+}]})
 ```
 
 ![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
 
 Note:
 We can send complex messages like this with message attachments.
+
++++
+
+### How to create complex message
+
+* Block-Kit: new UI framework
+* Introducing Block Kit
+  * https://api.slack.com/block-kit
+* Block Kit Builder
+  * https://api.slack.com/tools/block-kit-builder
+
+Note:
+
+* Block-Kit is a new UI framework on Slack.
+* and Block Kit Builder is interactive prototype builder.
+
++++?image=20190615pyconth/images/block-kit-builder.png&size=contain
 
 +++
 
@@ -278,19 +310,16 @@ Next, I will explain how to make interactive chatbot.
 * Create bot user
   1. Create a Slack app
   2. Enable Bots
-  3. Add a Bot User
-  4. Install App to Workspace -> Authorize
+  3. Add a **Bot User**
+  4. Install App to Workspace -> **Authorize**
 * Invite Bot User to Slack channels
-* 'Bot User OAuth Access Token' like this:
-
-```
-xoxb-123467890-XXXXXX-XXXXXXXXXXXXX
-```
+* **Bot User OAuth Access Token** like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
 Note:
-How to create Bot user is as follow....
+* I describe how to create interactive bot.
+* At first, we craete bot user on Slack.
 
 +++
 
@@ -310,11 +339,11 @@ Successfully installed certifi-2019.3.9 chardet-3.0.4 idna-2.8 requests-2.22.0 s
 (env) $ pip list | grep slack
 slackbot         0.5.3   
 slacker          0.13.0  
-
 ```
 
 Note:
-Then, I make venv and install slackbot.
+* Then, I make venv and install slackbot library.
+* slackbot is chatbot framework.
 
 +++
 
@@ -340,6 +369,9 @@ if __name__ == "__main__":
     main()
 ```
 
+Note:
+* The simplest slackbot consists of 4 files.
+
 +++
 
 ### Simple Plugin
@@ -364,7 +396,7 @@ def hello(message):
 
 Note:
 
-* This completes a series of files for slackbot
+* That's all.
 
 +++
 
@@ -432,11 +464,13 @@ def beer(message):
     message.react(':beer:')
 ```
 
-![message.react](20190224pyconapac/images/slackbot-react.png)
+![message.react](20190615pyconth/images/slackbot-react.png)
 
 +++
 
 ### Extract parameters on chat message
+
+* Use regular expressions
 
 ```python
 @respond_to('choice (.*)')
@@ -453,7 +487,9 @@ def choice(message, words):
 
 +++
 
-### settings(`slackbot_settings.py`)
+### settings
+
+* `slackbot_settings.py` file
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
@@ -543,8 +579,8 @@ from sympy import sympify, SympifyError
 @listen_to(r'^([-+*/^%!().\d\s]+)$')  # Formula like pattern
 def calc(message, formula):
     try:
-        result = sympify(formula)\
-	# Convert to number
+        result = sympify(formula)
+        # Convert to number
         answer = int(result) if result.is_Integer else float(result)
         message.send(f'{answer:,}')
     except SympifyError:
@@ -624,7 +660,7 @@ def plusplus(message, name):
 
 +++
 
-![Plusplus](20190224pyconapac/images/slackbot-plusplus.png)
+![Plusplus](20190615pyconth/images/slackbot-plusplus.png)
 
 ---
 
@@ -636,7 +672,7 @@ def plusplus(message, name):
 
 * Motivation
   * JIRA is very useful
-  * JIRA Web is very heavy
+  * JIRA Web is **very heavy**
   * I want to check issue details without JIRA Web
 
 +++
@@ -706,8 +742,10 @@ def jira_issue(message, issue_id):
 ```python
 @respond_to('jira (.*)')
 def jira_search(message, keywords):
+    # make JQL query string
     jql = f'project=ISSHA and text ~ "{keywords}" order by created desc'
     text = ''
+    # get 5 recent issues
     for issue in jira.search_issues(jql, maxResults=5):
         id = issue.key
         url = issue.permalink()
@@ -733,9 +771,12 @@ def jira_search(message, keywords):
 ### Create multiple issues from a template
 
 * Motivation
-  * In pycamp event, about 20 issues are required for each event
-  * It is very painful for me to copy issues manually
-  * JIRA Web is very heavy(again)
+  * In pycamp event, **20+ issues** are required for each event
+  * It is very painful for me to **copy issues** manually
+  * JIRA Web is **very heavy**(again)
+
+Note:
+* PyCon JP hold pycamp every month.
 
 +++
 
@@ -764,11 +805,14 @@ google-auth-httplib2     0.0.3
 google-auth-oauthlib     0.4.0   
 ```
 
+Note:
+* At firest, we make Google Authorized token.
+
 +++
 
 ### Google Authorization is VERY Complex(2/2)
 
-* create `quickstart.py`
+* download `quickstart.py`
   * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
 * run `quickstart.py`
   * select your Google account in Web browser
@@ -802,8 +846,9 @@ creds = None
 if os.path.exists('token.pickle'):
     with open('token.pickle', 'rb') as token:
         creds = pickle.load(token)
+# build service
 service = build('sheets', 'v4', credentials=creds)
-
+# get data from Spreadsheet
 result = service.spreadsheets().values().get(
     spreadsheetId=SHEET_ID, range='sheet_name!A:G').execute()
 for row in result.get('value', []):
@@ -827,7 +872,7 @@ issue_dict = {
     'reporter': {'name': NAME_OF_REPORTER},
     'duedate': '{:%Y-%m-%d}'.format(duedate),
 }
-issue = jira.create_issue(fields=issue_dict)
+issue = jira.create_issue(fields=issue_dict)  # create issue
 ```
 
 * see: [2.1.3 Issues](https://jira.readthedocs.io/en/master/examples.html#issues)
@@ -858,6 +903,10 @@ Note:
 ### Source code of pycamp command
 
 * see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py
+
++++
+
+### I never have to copy issues again 🎉
 
 ---
 
@@ -911,11 +960,11 @@ Note:
 ### Get user list
 
 ```python
-# Build service
+# build service
 DOMAIN = 'pycon.jp'
 service = build('admin', 'directory_v1', credentials=creds)
 
-# Get user list
+# get user list
 users_list = service.users().list(orderBy='email', domain=DOMAIN).execute()
 for user in users_list.get('users', []):
     email = user['primaryEmail']
@@ -971,7 +1020,7 @@ service.users().delete(userKey=email).execute()
 
 +++
 
-### I can completely forget Google Admin web site
+### I can completely forget Google Admin web site 🎉
 
 +++
 
@@ -992,7 +1041,7 @@ service.users().delete(userKey=email).execute()
 
 ## Next steps
 
-* Let's make your own Slackbot
+* Let's make **your own Slackbot**
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
@@ -1009,3 +1058,10 @@ Then you will have more free time so you can do other creative things more.
 +++
 
 ## Thank you!
+
+## ขอบคุณ 🙏
+
++++
+
+## Question?
+
