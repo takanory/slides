@@ -19,7 +19,7 @@
      * 2019 Jul
      * Poster
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://ep2019.europython.eu/talks/q2tF2E8-python-boot-camp-introduction-of-efforts-to-spread-python-all-over-japan/>`__
-     * Poster(TBD)
+     * `Poster <20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
    - * `PyCon Thailand <https://th.pycon.org/en/>`__
      * Bangkok, Thailand
      * 2019 Jun
@@ -38,7 +38,7 @@
      * 2019 May
      * Poster
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://us.pycon.org/2019/schedule/presentation/130/>`__
-     * Poster(TBD)
+     * `Poster <20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
        `Report <https://gihyo.jp/news/report/01/us-pycon2019>`__
    - * `PythonBeginners沖縄 <https://python-beginners-okinawa.connpass.com/event/125925/>`__
      * Okinawa, Japan
