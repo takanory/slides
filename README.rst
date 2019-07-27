@@ -14,6 +14,30 @@
      * kind
      * title
      * resource
+   - * `PyCon SG <https://pycon.sg/>`__
+     * Singapore
+     * 2019 Oct
+     * Talk
+     * Automate the Boring Stuff with Slackbot
+     * 
+   - * `PyCon TW <https://tw.pycon.org/2019/en-us/>`__
+     * Taipei, Taiwan
+     * 2019 Sep
+     * Talk
+     * `Automate the Boring Stuff with Slackbot <https://tw.pycon.org/2019/en-us/events/talk/848945100682690780/>`__
+     * 
+   - * `PyCon JP <https://pycon.jp/2019/>`__
+     * Tokyo, Japan
+     * 2019 Sep
+     * Talk
+     * Automate the Boring Stuff with Slackbot
+     * 
+   - * `PyCon My <https://pycon.my/>`__
+     * Kuala Lumpur, Malaysia
+     * 2019 Aug
+     * Talk
+     * Automate the Boring Stuff with Slackbot
+     * 
    - * `EuroPython <https://ep2019.europython.eu/>`__
      * Bazel, Switzerland
      * 2019 Jul
