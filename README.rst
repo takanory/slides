@@ -32,12 +32,18 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * 
-   - * `PyCon My <https://pycon.my/>`__
+   - * `PyCon MY <https://pycon.my/>`__
      * Kuala Lumpur, Malaysia
      * 2019 Aug
      * Talk
      * Automate the Boring Stuff with Slackbot
      * 
+   - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
+     * Tokyo, Japan
+     * 2019 Aug
+     * Talk
+     * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
+     * `Slides <https://gitpitch.com/takanory/slides?p=20190808stapy>`__
    - * `EuroPython <https://ep2019.europython.eu/>`__
      * Bazel, Switzerland
      * 2019 Jul
