@@ -57,6 +57,7 @@
      * `Automate the Boring Stuff with Slackbot <https://th.pycon.org/talks/#row-16>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20190615pyconth>`__
        `Report <https://gihyo.jp/news/report/2019/07/0501>`__
+       `Video <https://www.youtube.com/watch?v=4Cn59IXrtdk>`__
    - * `BPLL #33 <https://bpstudy.connpass.com/event/128217/>`_
      * Tokyo, Japan
      * 2019 May
@@ -83,6 +84,7 @@
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://gitpitch.com/takanory/slides?p=20190224pyconapac>`__
        `Report <https://gihyo.jp/news/report/2019/03/1201>`__
+       `Video <https://www.youtube.com/watch?v=iex9DAGxl_o>`__
    - * `テクトモ #7 <https://techtomo.connpass.com/event/107621/>`_
      * Tokyo, japan
      * 2018 Dec
