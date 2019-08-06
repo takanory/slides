@@ -1,8 +1,8 @@
-### いちばんやさしいPython機械学習の教本
+## いちばんやさしいPython機械学習の教本
 
-### から見る、
+### から見る
 
-### 機械学習を学習する課題
+## 機械学習を学習する課題
 
 ### Takanori Suzuki
 
@@ -10,25 +10,65 @@
 
 ---
 
-### 今日話すこと
+## 今日話すこと
 
-* 「いちやさPython機械学習」の紹介
-* この内容になっていった経緯
-* この内容となった背景
+* 書籍そのものの紹介
+* この内容になった経緯
+* 機械学習を学習する課題
+
++++
+
+## 最初にお願い
+
+* 撮影📷、ツイート🐦ぜひどうぞ
+* スライドは📝公開します
+* ぜひ懇親会🍺でフィードバックください
 
 ---
 
-* 自己紹介
+## Who am I?(お前誰よ)
+
+* 鈴木たかのり / Takanori Suzuki
+* Twitter: [@takanory](https://twitter.com/takanory)
+* [一般社団法人PyCon JP](https://www.pycon.jp) 副代表理事: `#pyconjp`
+* [株式会社ビープラウド](https://www.beproud.jp) 役員
+* [Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催: `#pyhack`
+* [Pythonボルダリング部](https://kabepy.connpass.com/) 部長: `#kabepy`
+
+![takanory](assets/images/kurokuri.jpg)
+
++++
+
+### PyCon JP
+
+* PyCon JP 2019: [pycon.jp/2019](https://pycon.jp/2019/)
+* (TODO: 画像入れる)
+
++++
+
+### BeProud
+
+* connpass: [connpass.com](https://connpass.com/)
+* PyQ: [pyq.jp](https://pyq.jp/)
+* 書籍: Pythonプロフェッショナルプログラミング
+* (TODO: 画像入れる)
 
 ---
 
 ## 書籍の紹介
 
----
+![](20190808stapy/images/ichiyasaml.jpg)
+
++++
 
 ### いちばんやさしいPython機械学習の教本
 
-* 似たタイトルの書籍があるので注意
+* 発売日: 2019年6月21日
+* ページ数: 304
+* 著者: 鈴木 たかのり、降旗 洋行、平井 孝幸、株式会社ビープラウド
+* 2,600円+税
+
++++?image=20190808stapy/images/amazon.jpg&size=contain
 
 +++
 
@@ -59,7 +99,7 @@
 * 3章/4章/5章/6章+7章は好きなところから
 * 各章の最後はpybotでコマンド化
 
-+++?images=20190808stapy/images/lesson11.png&size=contain
++++?image=20190808stapy/images/lesson11.png&size=contain
 
 ---
 
@@ -96,3 +136,9 @@
 
 ### 現在の構成になった
 
+---
+
+## Thank You!
+
+* [github.com/takanory/slides](https://github.com/takanory/slides)
+* [@takanory](https://twitter.com/takanory)
