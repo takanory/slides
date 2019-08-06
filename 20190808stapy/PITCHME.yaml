@@ -1,7 +1,7 @@
 theme            : template
 
 theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#E27924", "none" ]
+theme-headline   : [ "Raleway", "#111111", "none" ]
 theme-byline     : [ "Raleway", "#111111", "none" ]
 theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
