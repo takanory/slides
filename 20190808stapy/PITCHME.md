@@ -141,23 +141,34 @@
 
 ### ホワイトボードで各要素の関連を説明
 
-![](20190808stapy/images/whiteboard1.jpg)
+![ホワイトボード](20190808stapy/images/whiteboard1.jpg)
 
 +++
 
 ### ホワイトボードで各要素の関連を説明
 
-![](20190808stapy/images/whiteboard2.jpg)
+![ホワイトボード](20190808stapy/images/whiteboard2.jpg)
 
 +++
 
 ### ホワイトボードで各要素の関連を説明
 
-![](20190808stapy/images/whiteboard3.jpg)
+![ホワイトボード](20190808stapy/images/whiteboard3.jpg)
 
 +++
 
+@snap[north]
 ### 現在の構成になった
+@snapend
+
+@snap[west span-50]
+![ホワイトボード](20190808stapy/images/whiteboard4.jpg)
+@snapend
+
+@snap[east span-50]
+#### 機械学習プロジェクトの全体像
+![機械学習プロジェクトの全体の流れ](20190808stapy/images/overview.png)
+@snapend
 
 ---
 
