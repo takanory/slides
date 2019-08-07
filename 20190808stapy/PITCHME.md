@@ -114,7 +114,7 @@
 
 +++
 
-### 社内的にGo!がでる
+### 社内的にGO!がでる
 
 * 2018年1月12日: 編集者と打合せ
 * 2018年1月18日: 社内でGoがでる
@@ -122,11 +122,10 @@
 * 2018年2月1日: 第2回目打合せ
 * →まずはネタ出しを進める
 
-+++?image=20190808stapy/images/ideathon.png&size=contain
++++?image=20190808stapy/images/ideathon.png&size=contain 90%
 
-+++
++++?image=20190808stapy/images/editor-comment.png&position=right&size=50% auto
 
-@snap[west span-60]
 ### 企画案を編集に伝える
 
 * 2018年7月6日
@@ -137,11 +136,6 @@
 * 前処理と予測
 * 回帰分析
 * 次のステップ
-@snapend
-
-@snap[east span-40]
-![](20190808stapy/images/editor-comment.png)
-@snapend
 
 +++
 
@@ -169,5 +163,5 @@
 
 ## Thank You!
 
-* [github.com/takanory/slides](https://github.com/takanory/slides)
-* [@takanory](https://twitter.com/takanory)
+* Twitter: [@takanory](https://twitter.com/takanory)
+* Slide: [github.com/takanory/slides](https://github.com/takanory/slides)
