@@ -12,7 +12,7 @@
 
 ## 今日話すこと
 
-* 書籍そのものの紹介
+* 書籍の紹介
 * この内容になった経緯
 * 機械学習を学習する課題
 
@@ -43,7 +43,7 @@
 
 * PyCon JP 2019: [pycon.jp/2019](https://pycon.jp/2019/)
 
-![PyCon JP 2019 logo](20190808stapy/images/pyconjp2019.jpg)
+![PyCon JP 2019 logo](20190808stapy/images/pyconjp2019.png)
 
 +++
 
@@ -100,11 +100,13 @@
 * 3章/4章/5章/6章+7章は好きなところから
 * 各章の最後はpybotでコマンド化
 
-+++?image=20190808stapy/images/lesson11.png&size=contain
++++?image=20190808stapy/images/lesson11.png&size=90% auto
 
 +++?image=20190808stapy/images/overview2.png&size=contain
 
+@snap[south]
 @size[x-small](https://shacho.beproud.jp/entry/ichiyasa-pythonml)
+@snapend
 
 ---
 
@@ -126,7 +128,7 @@
 * 2018年2月1日: 第2回目打合せ
 * →まずはネタ出しを進める
 
-+++?image=20190808stapy/images/ideathon.png&size=contain 90%
++++?image=20190808stapy/images/ideathon.png&size=90% auto
 
 +++
 
@@ -141,22 +143,7 @@
 * 回帰分析
 * 次のステップ
 
-+++
-
-### 企画案を編集に伝える
-
-* 2018年7月6日
-* 環境構築、pybot準備
-* スクレイピングでデータ収集
-* マルコフ連鎖で文章生成
-* 手書き文字認識
-* 前処理と予測
-* 回帰分析
-* 次のステップ
-
-@snap[east span=40]
-![大津さん](20190808stapy/images/editor-comment.png)
-@snapend
++++?image=20190808stapy/images/editor-comment.png=90% auto
 
 +++
 
@@ -203,6 +190,77 @@
 * 2019年5月27日: 印刷所入稿
 * 2019年05月30日: 校了
 * 2019年06月21日: 発売！！
+
+---
+
+## 機械学習を学習する課題
+
++++
+
+(注)個人的な意見であり、特定の書籍、人物などを批判するものではありません。
+
++++
+
+### 機械学習だけじゃなにもできない問題
+
++++
+
+### 機械学習だけじゃなにもできない問題
+
+* 機械学習でなにかを作り上げるにはそれ以外がとても大事
+  * 課題の設定
+  * データ収集
+  * 前処理
+
++++
+
+### 全体の流れを解説
+
+![全体の流れ](20190808stapy/images/flow.png)
+
++++
+
+### 最後までがとても長い問題
+
++++
+
+### 最後までがとても長い問題
+
+* データ収集
+* 前処理
+* 機械学習
+* 精度評価→ここで一旦ゴール
+
+Note:
+途中で心折れそう
+
++++
+
+### それぞれを断片的に体験できる
+
+![各Chapterの範囲](20190808stapy/images/hani.png)
+
++++
+
+### そのデータ面白くない問題
+
++++
+
+### そのデータ面白くない問題
+
+* アヤメとかボストンの住宅とか興味ないでしょ?
+
++++
+
+### イメージが湧きそうなデータを使用
+
+![データ](20190808stapy/images/data.png)
+
++++
+
+### 用語多過ぎ問題
+
++++
 
 ---
 
