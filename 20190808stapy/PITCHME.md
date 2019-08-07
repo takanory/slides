@@ -85,11 +85,11 @@
 
 * 1章: 機械学習について知ろう
 * 2章: 開発環境の準備
-* 3章: スクレイピング
-* 4章: 日本語の解析
-* 5章: 手書き文字認識
+* 3章: スクレイピング(データ収集)
+* 4章: 文章自動生成(自然言語処理)
+* 5章: 手書き文字認識(機械学習)
 * 6章: 表データの前処理
-* 7章: 回帰分析
+* 7章: 気温予測(回帰分析)
 * 8章: 次のステップ
 
 +++
@@ -101,6 +101,10 @@
 * 各章の最後はpybotでコマンド化
 
 +++?image=20190808stapy/images/lesson11.png&size=contain
+
++++?image=20190808stapy/images/overview2.png&size=contain
+
+@size[x-small](https://shacho.beproud.jp/entry/ichiyasa-pythonml)
 
 ---
 
