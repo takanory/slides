@@ -126,6 +126,7 @@
 
 +++
 
+@snap[west span-60]
 ### 企画案を編集に伝える
 
 * 2018年7月6日
@@ -136,10 +137,29 @@
 * 前処理と予測
 * 回帰分析
 * 次のステップ
+@snapend
+
+@snap[east span-40]
+![](20190808stapy/images/editor-comment.png)
+@snapend
 
 +++
 
-* バラバラだよねーのくだり
+### ホワイトボードで各要素の関連を説明
+
+![](20190808stapy/images/whiteboard1.jpg)
+
++++
+
+### ホワイトボードで各要素の関連を説明
+
+![](20190808stapy/images/whiteboard2.jpg)
+
++++
+
+### ホワイトボードで各要素の関連を説明
+
+![](20190808stapy/images/whiteboard3.jpg)
 
 +++
 
