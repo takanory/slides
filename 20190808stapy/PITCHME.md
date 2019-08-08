@@ -51,23 +51,24 @@
 
 * connpass: [connpass.com](https://connpass.com/)
 * PyQ: [pyq.jp](https://pyq.jp/)
-* 書籍: Pythonプロフェッショナルプログラミング
-* (TODO: 画像入れる)
+* 書籍: Pythonプロフェッショナルプログラミング他
+
+![BeProud](20190808stapy/images/beproud.png)
 
 +++
 
-### 2019年は海外PyCon発表に挑戦中!!🌏
+### 2019年海外PyCon発表に挑戦!!🌏
 
-* PyCon APAC
-* US PyCon
-* PyCon Thailand
-* EuroPython
-* --- ここまで済み ---
-* PyCon Malaysia
-* PyCon JP
-* PyCon Taiwan
-* PyCon Singapore
-* 詳しくは [gihyo.jp/news/report](https://gihyo.jp/news/report)
+* 2月: PyCon APAC
+* 5月: US PyCon
+* 6月: PyCon Thailand
+* 7月: EuroPython
+* 8月: PyCon Malaysia
+* 9月: PyCon JP
+* 9月: PyCon Taiwan
+* 10月: PyCon Singapore
+* 詳しくは [gihyo.jp/news/report](https://gihyo.jp/news/report) にレポート掲載中
+
 ---
 
 ## 書籍の紹介
@@ -83,7 +84,7 @@
 * 2,600円+税
 * 著者: 鈴木 たかのり、降籏 洋行、平井 孝幸、株式会社ビープラウド
 
-+++?image=20190808stapy/images/amazon.jpg&size=contain
++++?image=20190808stapy/images/amazon.jpg&size=90% auto
 
 +++
 
@@ -122,10 +123,10 @@
 
 +++?image=20190808stapy/images/lesson11.png&size=90% auto
 
-+++?image=20190808stapy/images/overview2.png&size=contain
++++?image=20190808stapy/images/overview2.png&size=90% auto
 
 @snap[south]
-@size[x-small](https://shacho.beproud.jp/entry/ichiyasa-pythonml)
+@size[small](https://shacho.beproud.jp/entry/ichiyasa-pythonml)
 @snapend
 
 ---
@@ -163,7 +164,7 @@
 * 回帰分析
 * 次のステップ
 
-+++?image=20190808stapy/images/editor-comment.png
++++?image=20190808stapy/images/editor-comment.png&size=70% auto
 
 +++
 
@@ -205,7 +206,7 @@
 
 * 2019年4月22日: 著者初校、校閲
 * 2019年5月11日: 再校作成(編集)
-* 2019年5月20日: 著者
+* 2019年5月20日: 著者再校
 * 2019年5月23日: 念校・仕上げ
 * 2019年5月27日: 印刷所入稿
 * 2019年05月30日: 校了
