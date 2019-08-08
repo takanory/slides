@@ -382,3 +382,51 @@ Note:
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [github.com/takanory/slides](https://github.com/takanory/slides)
+
+---
+
+## おまけページ
+
+執筆時の工夫
+
++++
+
+### アウトラインでレビュー
+
+* 執筆初期にアウトライン状態で著者レビュー
+  * 見出し、何を書くつもりか箇条書き
+* ストーリー的によさそうかをチェック
+* 説明の抜け漏れを防ぐ
+* 全体的な流れが統一しやすかった
+
++++
+
+### レビュー説明会
+
+* BeProud社内から17名のレビュワーが参加
+  * 機械学習ﾁｮｯﾄﾃﾞｷﾙ/ﾃﾞｷﾅｲ勢
+* レビューの観点、心の持ち方を説明
+  * (日本語の)バグを憎んで人を憎まず
+  * 思ったらとりあえず書く
+  * 指摘が採用されなくても気にしない
+* レビューシートでバランス調整
+
++++
+
+### Adobe Document Cloud
+
+* 前半はPDFをDropboxでレビュー
+* コメント増えると重たい問題
+* Adobe Document Cloud超便利!!!
+  * 依頼者は有料アカウント必要
+  * Acrobat Readerでレビューできる
+  * 激列に軽い!
+  * オフラインでレビューできる!!
+
+---
+
+## Thank You!
+
+* Twitter: [@takanory](https://twitter.com/takanory)
+* Slides: [github.com/takanory/slides](https://github.com/takanory/slides)
+
