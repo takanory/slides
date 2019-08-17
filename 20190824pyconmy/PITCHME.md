@@ -2,7 +2,7 @@
 
 ### Takanori Suzuki
 
-PyCon Thailand 2019 / 2019 Jun 15
+PyCon Malaysia 2019 / 2019 Aug 24
 
 Note:
 
