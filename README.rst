@@ -37,7 +37,7 @@
      * 2019 Aug
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * 
+     * `Slides <https://gitpitch.com/takanory/slides?p=20190824pyconmy>`__
    - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
      * Tokyo, Japan
      * 2019 Aug
@@ -50,6 +50,7 @@
      * Poster
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://ep2019.europython.eu/talks/q2tF2E8-python-boot-camp-introduction-of-efforts-to-spread-python-all-over-japan/>`__
      * `Poster <20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
+       `Report <https://gihyo.jp/news/report/01/europython2019>`__
    - * `PyCon Thailand <https://th.pycon.org/en/>`__
      * Bangkok, Thailand
      * 2019 Jun
