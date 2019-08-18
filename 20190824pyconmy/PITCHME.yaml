@@ -1,15 +1,15 @@
 theme            : template
 
 theme-background : [ "#FFF" ]
-theme-headline   : [ "Raleway", "#111111", "none" ]
-theme-byline     : [ "Raleway", "#111111", "none" ]
-theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
+theme-headline   : [ "Roobto", "#111111", "none" ]
+theme-byline     : [ "Roboto", "#111111", "none" ]
+theme-text       : [ "Lato", "#1C1C1C", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
 theme-code       : [ "Inconsolata" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
 
-highlight : ir-black
+highlight : tomorrow
 
 controls-layout : edges
 
