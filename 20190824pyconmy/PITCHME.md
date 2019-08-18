@@ -70,13 +70,13 @@ Note:
 
 +++
 
-## World PyCon Tour 2019🌏
+## PyCon Tour 2019🌏
 
 * Feb: PyCon APAC 🇵🇭
 * May: US PyCon 🇺🇸
 * Jun: PyCon Thailand 🇹🇭
 * Jul: EuroPython 🇨🇭
-* Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
+  * Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
 * Sep: PyCon JP 🇯🇵
 * Sep: PyCon Taiwan 🇹🇼
 * Oct: PyCon Singapore 🇸🇬
