@@ -422,6 +422,7 @@ Note:
 
 ### File structure
 
+File | Description
 --- | ---
 mybot/ | Project dir
 mybot/env/ | venv
@@ -437,9 +438,7 @@ Note:
 
 ### Run slackbot
 
-```shell
-(env) $ python run.py
-```
+* `(env) $ python run.py`
 
 ![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
 
