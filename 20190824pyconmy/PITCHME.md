@@ -424,12 +424,12 @@ Note:
 
 File | Description
 --- | ---
-mybot/ | Project dir
-mybot/env/ | venv
-mybot/plugins/__init__.py | 
-mybot/plugins/sample.py | Sample plugin
-mybot/run.py | Main script
-mybot/slackbot_settings.py | Settings
+`mybot/` | Project dir
+`mybot/env/` | venv
+`mybot/run.py` | Main script
+`mybot/slackbot_settings.py` | Settings
+`mybot/plugins/__init__.py` | 
+`mybot/plugins/sample.py` | Sample plugin
 
 Note:
 * たった4つのファイルで完成です

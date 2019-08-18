@@ -1,7 +1,7 @@
 theme            : template
 
 theme-background : [ "#FFF" ]
-theme-headline   : [ "Roobto", "#111111", "none" ]
+theme-headline   : [ "Roboto", "#111111", "none" ]
 theme-byline     : [ "Roboto", "#111111", "none" ]
 theme-text       : [ "Lato", "#1C1C1C", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
