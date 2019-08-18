@@ -202,10 +202,7 @@ Note:
   2. Enable Incoming Webhooks in the app
   3. Create an Incoming Webhook
 * Webhook URL like this:
-
   `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
-
-
 * see: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 Note:
