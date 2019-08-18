@@ -2,7 +2,7 @@
 
 ### Takanori Suzuki
 
-PyCon Malaysia 2019 / 2019 Aug 24
+PyCon Malaysia / 2019 Aug 24
 
 Note:
 
@@ -25,9 +25,9 @@ Today, I will talk about...
 
 ## Before my talk
 
-Photo 📷 👍
-Tweet 🐦 👍
-Memo 📝 🙅‍♂️
+### Photo 📷 Tweet 🐦 👍
+
+### Memo 📝 🙅‍♂️
 
 Note:
 * 撮影OK、Tweetしてね
@@ -37,7 +37,7 @@ Note:
 
 ## Who am I?
 
-* 鈴木たかのり / Takanori Suzuki
+* Takanori Suzuki / 鈴木 たかのり
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
 * Director of [BeProud Inc.](https://www.beproud.jp)
@@ -54,7 +54,7 @@ Note:
 
 +++
 
-### PyCon JP 2019
+## PyCon JP 2019
 
 * [pycon.jp/2019/](https://pycon.jp/2019/)
 * Date: 2019 Sepember 14(Sa)-17(Tu)
@@ -76,7 +76,7 @@ Note:
 * May: US PyCon 🇺🇸
 * Jun: PyCon Thailand 🇹🇭
 * Jul: EuroPython 🇨🇭
-* Aug: PyCon Malaysia 🇲🇾 (<- Now!!!)
+* Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
 * Sep: PyCon JP 🇯🇵
 * Sep: PyCon Taiwan 🇹🇼
 * Oct: PyCon Singapore 🇸🇬
@@ -99,10 +99,10 @@ Note:
 
 * I held PyCon JP(2014-2016) as Chair
 * Conference tasks:
-  * Keynotes, Talks and Trainings arrangement
-  * Ticket sales and reception
-  * Venue and facility(WiFi, Video...) management
-  * Foods, Coffee, Snacks and Beers
+  * 👨‍💻 Keynotes, Talks and Trainings arrangement
+  * 🎫 Ticket sales and reception
+  * 🏬 Venue and facility(WiFi, Video...) management
+  * 🍱 Foods, ☕️ Coffee, 🧁 Snacks and 🍺 Beers
 
 Note:
 
@@ -114,7 +114,7 @@ Note:
 ### Staff ask me the same things
 
 * 40+ staff
-* **New** staff:**Old** staff = 50:50
+* **New** staff : **Old** staff = 50 : 50
 
 Note:
 
@@ -188,12 +188,10 @@ Note:
 
 ![Overview of Incoming Webhook](20190224pyconapac/images/webhook-overview.png)
 
-* see: https://api.slack.com/incoming-webhooks
-
 Note:
 
 * This is system overview of Incoming Webhooks.
-* When program send a message to a Webhook URL via HTTP, the message sent to Slack.
+* When program send a message to a Webhook URL via HTTPS, the message will send to Slack.
 
 +++
 
@@ -205,11 +203,10 @@ Note:
   3. Create an Incoming Webhook
 * Webhook URL like this:
 
-```
-https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-```
+  `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
 
-* see: [Getting started with Incoming Webhooks](https://api.slack.com/incoming-webhooks#getting-started)
+
+* see: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 Note:
 
@@ -241,8 +238,9 @@ import json
 from urllib import request
 
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
-data = json.dumps({'text': 'Hello from Python!'}).encode('utf-8')
-req = request.Request(URL, data=data, method='POST')
+data = {'text': 'Hello from Python!'}
+jsoned = json.dumps(data).encode('utf-8')
+req = request.Request(URL, data=jsoned, method='POST')
 request.urlopen(req)
 ```
 
@@ -257,11 +255,11 @@ Note:
 ### Post message with Requests
 
 ```python
-import json
 import requests
 
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
-requests.post(URL, json={'text': 'Hello from Requests!'})
+data = {'text': 'Hello from Requests!'}
+requests.post(URL, json=data)
 ```
 
 ![Hello from Requests!](20190615pyconth/images/webhook-requests.png)
@@ -277,13 +275,13 @@ Note:
 ```python
 fields = [{'title': 'Love', 'value': 'Ferrets, :beer:, LEGO', 'short': True},
           {'title': 'From', 'value': 'Japan :jp:', 'short': True}]
-requests.post(URL, json={'attachments': [{
+data = {'attachments': [{
     'pretext': 'Nice to meet you!!',
     'author_name': 'Takanori Suzuki',
     'author_link': 'https://twitter.com/takanory/',
     'text': '*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:',
-    'fields': fields,
-}]})
+    'fields': fields}]}
+requests.post(URL, json=data)
 ```
 
 ![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
@@ -351,21 +349,17 @@ Note:
 
 ### Install slackbot
 
-* https://github.com/lins05/slackbot
-
 ```shell
-$ mkdir mybot
-$ cd mybot
-$ python3.6 -m venv env
+$ mkdir mybot; cd mybot
+$ python3.7 -m venv env
 $ . env/bin/activate
 (env) $ pip install slackbot
 :
-:
-Successfully installed certifi-2019.3.9 chardet-3.0.4 idna-2.8 requests-2.22.0 six-1.12.0 slackbot-0.5.3 slacker-0.13.0 urllib3-1.25.3 websocket-client-0.44.0
-(env) $ pip list | grep slack
+(env) $ pip list | grep slackbot
 slackbot         0.5.3   
-slacker          0.13.0  
 ```
+
+* [github.com/lins05/slackbot](https://github.com/lins05/slackbot)
 
 Note:
 * Then, I make venv and install slackbot library.
@@ -375,14 +369,14 @@ Note:
 
 ### Create a simple bot with slackbot
 
-* `slackbot_settings.py`
+* slackbot_settings.py
 
 ```python
 API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"  # Bot token
 PLUGINS = ['mybot.plugins']  # Plugin packages
 ```
 
-* `run.py`
+* run.py
 
 ```python
 from slackbot.bot import Bot
@@ -426,19 +420,22 @@ Note:
 
 +++
 
+### File structure
+
+--- | ---
+mybot/ | Project dir
+mybot/env/ | venv
+mybot/plugins/__init__.py | 
+mybot/plugins/sample.py | Sample plugin
+mybot/run.py | Main script
+mybot/slackbot_settings.py | Settings
+
+Note:
+* たった4つのファイルで完成です
+ 
++++
+
 ### Run slackbot
-
-* Files for slackbot
-
-```text
-mybot/
-├── env/  # venv
-├── mybot/plugins/
-│   ├── __init__.py
-│   └── sample.py
-├── run.py
-└── slackbot_settings.py
-```
 
 ```shell
 (env) $ python run.py
@@ -448,6 +445,7 @@ mybot/
 
 Note:
 
+* ではbotを動かしてみましょう
 * I guess you understood the basic way to make Slackbot, so we will extend it.
 
 ---
@@ -480,11 +478,9 @@ def ping(message):
 
 ### emoji reaction
 
-* Use `mesasge.react()` method
+* `mesasge.react()` method
 
 ```python
-# -- snip--
-
 @listen_to('beer')
 def beer(message):
     message.react(':beer:')
@@ -494,32 +490,30 @@ def beer(message):
 
 +++
 
-### Extract parameters on chat message
+### Extract parameters on message
 
 * Use regular expressions
 
 ```python
-@respond_to('choice (.*)')
-def choice(message, words):
+@respond_to('choice (.*)')  # choice pizza beer sushi
+def choice(message, words):  # -> words='pizza beer sushi'
     word = random.choice(words.split())
     message.send('I chose *{}*'.format(word))
 ```
 
 +++
 
-### Extract parameters on chat message
+### Extract parameters on message
 
 ![Regular expression](20190224pyconapac/images/slackbot-re.png)
 
 +++
 
-### settings
-
-* `slackbot_settings.py` file
+### Settings: `slackbot_settings.py`
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
-ERRORS_TO = 'mybot-error'  # Some channel
+ERRORS_TO = 'mybot-error'  # Error reporting channel
 DEFAULT_REPLY = "Sorry but I didn't understand you"
 PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
@@ -586,13 +580,8 @@ I will show some case studies combining Python libraries and APIs.
 ### Install SymPy
 
 * SymPy: Python library for symbolic mathematics
-* https://www.sympy.org/
-
-```shell
-(env) $ pip install sympy
-:
-Successfully installed mpmath-1.1.0 sympy-1.4
-```
+  * [www.sympy.org](https://www.sympy.org/)
+* Install: `$ pip install sympy`
 
 +++
 
@@ -605,9 +594,11 @@ from sympy import sympify, SympifyError
 @listen_to(r'^([-+*/^%!().\d\s]+)$')  # Formula like pattern
 def calc(message, formula):
     try:
-        result = sympify(formula)
-        # Convert to number
-        answer = int(result) if result.is_Integer else float(result)
+        result = sympify(formula)  # Simplifies the formula
+	if result.is_Integer:
+	    answer = int(result)  # Convert to interger value
+	else:
+	    answer = float(result)  # Convert to float value
         message.send(f'{answer:,}')
     except SympifyError:
         pass
@@ -634,13 +625,8 @@ def calc(message, formula):
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
-* http://docs.peewee-orm.com/
-
-```shell
-(env) $ pip install peewee
-:
-Successfully installed peewee-3.9.6
-```
+* [docs.peewee-orm.com](http://docs.peewee-orm.com/en/latest/)
+* Install: `$ pip install peewee`
 
 +++
 
@@ -712,15 +698,8 @@ def plusplus(message, name):
 ### Install Python JIRA
 
 * Python library to work with JIRA APIs
-* https://jira.readthedocs.io/
-
-```shell
-(env) $ pip install jira
-:
-Successfully installed asn1crypto-0.24.0 cffi-1.12.3 cryptography-2.7 defusedxml-0.6.0 jira-2.0.0 oauthlib-3.0.1 pbr-5.2.1 pycparser-2.19 pyjwt-1.7.1 requests-oauthlib-1.2.0 requests-toolbelt-0.9.1
-(env) $ pip list | grep jira
-jira              2.0.0   
-```
+  * [jira.readthedocs.io](https://jira.readthedocs.io/)
+* Install: `$ pip install jira`			
 
 +++
 
@@ -818,18 +797,7 @@ Note:
   * enable API(in this case: Google Sheets API)
   * download `credentials.json`
 * Install Google Client Library
-
-```shell
-(env) $ pip install google-api-python-client \
-                     google-auth-oauthlib
-:
-Successfully installed cachetools-3.1.1 google-api-python-client-1.7.9 google-auth-1.6.3 google-auth-httplib2-0.0.3 google-auth-oauthlib-0.4.0 httplib2
-(env) $ pip list | grep google
-google-api-python-client 1.7.9   
-google-auth              1.6.3   
-google-auth-httplib2     0.0.3   
-google-auth-oauthlib     0.4.0   
-```
+  * `$ pip install google-api-python-client google-auth-oauthlib`
 
 Note:
 * At firest, we make Google Authorized token.
@@ -1077,7 +1045,7 @@ Then you will have more free time so you can do other creative things more.
 
 +++
 
-## Thank you!
+## Thank you! 🙏
 
 ## Terima kasih! 🙏
 
