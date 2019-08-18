@@ -7,8 +7,31 @@ PyCon Malaysia 2019 / 2019 Aug 24
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to make a presentation in PyCon Thailand.
-* This is my first visit to Thailand.
+* I am very happy to be able to make a presentation in PyCon Malaysia.
+
+---
+
+## Agenda
+
+* Background and Motivation
+* How to create **simple chatbot**
+* How to create **interactive bot**
+* How to **extend bot** using libs and APIs
+
+Note:
+Today, I will talk about...
+
+---
+
+## Before my talk
+
+Photo 📷 👍
+Tweet 🐦 👍
+Memo 📝 🙅‍♂️
+
+Note:
+* 撮影OK、Tweetしてね
+* スライドは公開するからメモ、撮影しなくていいよ
 
 ---
 
@@ -16,7 +39,7 @@ Note:
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
-* Vice Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
+* Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
 * Director of [BeProud Inc.](https://www.beproud.jp)
 * Organizer of [Python mini Hack-a-thon](https://pyhack.connpass.com/): `#pyhack`
 * Captain of [Python Bouldering Club](https://kabepy.connpass.com/): `#kabepy`
@@ -26,41 +49,44 @@ Note:
 Note:
 (1m)
 * I'm Takanori Suzuki from Japan. My twitter is takanory please follow me.
-* I'm Vice Chair of PyCon JP Committee.
+* I'm Vice-Chairperson of PyCon JP Committee.
 * Have you ever been to Japan? If you have never visited Japan,
 
 +++
 
-### PyCon JP
+### PyCon JP 2019
 
-* https://pycon.jp/2019
-* Date: 2019 Sepember 16, 17
-* Venue: Tokyo, Japan
+* [pycon.jp/2019/](https://pycon.jp/2019/)
+* Date: 2019 Sepember 14(Sa)-17(Tu)
+* Place: Tokyo, Japan
 
-![PyCon JP 2019](assets/images/pyconjp2019site.png)
+![PyCon JP 2019](assets/images/pyconjp2019.png)
 
 Note:
 
 * PyCon JP is a very good opportunity for you.
 * PyCon JP will be held in middle of September.
 * I'm looking forward to seeing YOU again in PyCon JP.
-* Well then, let's talk about the main topic.
-
----
-
-## Slide URL
-
-* https://gitpitch.com/takanory/slides?p=20190615pyconth
-
-![Slide URL tweet](20190615pyconth/images/tweet.png)
-
-Note:
-
-* I shared this slide slide on twitter.
-* Please check it.
 
 +++
 
+## World PyCon Tour 2019🌏
+
+* Feb: PyCon APAC 🇵🇭
+* May: US PyCon 🇺🇸
+* Jun: PyCon Thailand 🇹🇭
+* Jul: EuroPython 🇨🇭
+* Aug: PyCon Malaysia 🇲🇾 (<- Now!!!)
+* Sep: PyCon JP 🇯🇵
+* Sep: PyCon Taiwan 🇹🇼
+* Oct: PyCon Singapore 🇸🇬
+
+Note:
+* 今年は世界中のPyConに応募して発表することに挑戦している
+* マレーシアが今年5カ所目、PyConマレーシアでの参加も発表は初めてです
+* Well then, let's talk about the main topic.
+
+---
 ## Background and Motivation
 
 Note:
@@ -1051,17 +1077,9 @@ Then you will have more free time so you can do other creative things more.
 
 +++
 
-## Slide URL
-
-* https://gitpitch.com/takanory/slides?p=20190615pyconth
-
-+++
-
 ## Thank you!
 
-## ขอบคุณ 🙏
+## Terima kasih! 🙏
 
-+++
-
-## Question?
-
+* Twitter: [@takanory](https://twitter.com/takanory)
+* Slides: [github.com/takanory/slides](https://github.com/takanory/slides)
