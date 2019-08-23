@@ -14,9 +14,9 @@ Note:
 ## Agenda
 
 * Background and Motivation
-* How to create **simple chatbot**
-* How to create **interactive bot**
-* How to **extend bot** using libs and APIs
+* How to create SIMPLE chatbot
+* How to create INTERACTIVE bot
+* How to EXTEND bot using libs and APIs
 
 Note:
 Today, I will talk about...
@@ -30,8 +30,8 @@ Today, I will talk about...
 ### Memo 📝 🙅‍♂️
 
 Note:
-* 撮影OK、Tweetしてね
-* スライドは公開するからメモ、撮影しなくていいよ
+* I hope you take photos and tweets my talk.
+* I will share this slides so you don't need to take a photo for memo.
 
 ---
 
@@ -48,9 +48,9 @@ Note:
 
 Note:
 (1m)
-* I'm Takanori Suzuki from Japan. My twitter is takanory please follow me.
+* Before the main topic, I will introduce mycelf.
+* I'm Takanori Suzuki from Japan. My twitter is "takanory" please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
-* Have you ever been to Japan? If you have never visited Japan,
 
 +++
 
@@ -64,9 +64,9 @@ Note:
 
 Note:
 
-* PyCon JP is a very good opportunity for you.
 * PyCon JP will be held in middle of September.
-* I'm looking forward to seeing YOU again in PyCon JP.
+* But tickets were sold out.
+* If you attend PyCon JP, see you again in September.
 
 +++
 
@@ -76,14 +76,15 @@ Note:
 * May: US PyCon 🇺🇸
 * Jun: PyCon Thailand 🇹🇭
 * Jul: EuroPython 🇨🇭
-  * Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
-* Sep: PyCon JP 🇯🇵
+* Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
+* Sep: PyCon Japan 🇯🇵
 * Sep: PyCon Taiwan 🇹🇼
 * Oct: PyCon Singapore 🇸🇬
 
 Note:
-* 今年は世界中のPyConに応募して発表することに挑戦している
-* マレーシアが今年5カ所目、PyConマレーシアでの参加も発表は初めてです
+* This year, I am challenging to talk or poster at PyCon around the world.
+* Malaysia is the 5th place of my PyCon tour, but I am first a first time attendee in thie event.
+* I'm very happy to be here.
 * Well then, let's talk about the main topic.
 
 ---
@@ -114,7 +115,7 @@ Note:
 ### Staff ask me the same things
 
 * 40+ staff
-* **New** staff : **Old** staff = 50 : 50
+* NEW staff : OLD staff = 50 : 50
 
 Note:
 
@@ -143,9 +144,9 @@ Note:
 
 ## Goal
 
-* How to create **simple chatbot**
-* How to create **interactive bot**
-* How to **extend bot** using libs and APIs
+* How to create SIMPLE chatbot
+* How to create INTERACTIVE bot
+* How to EXTEND bot using libs and APIs
 
 Note:
 (1m)
@@ -245,7 +246,8 @@ request.urlopen(req)
 
 Note:
 
-* Using rullib.requests in Python is like this.
+* We are pythonistas.
+* Next, we use urllib.requests module for webhook.
 
 +++
 
@@ -263,7 +265,7 @@ requests.post(URL, json=data)
 
 Note:
 
-* Using Requests in Python is like this. It's easy to us.
+* Using Requests is like this. It's easy to us.
 
 +++
 
@@ -288,7 +290,7 @@ We can send complex messages like this with message attachments.
 
 +++
 
-### How to create complex message
+### More complex message
 
 * Block-Kit: new UI framework
 * Introducing Block Kit
@@ -307,9 +309,9 @@ Note:
 
 ### Summary of Incoming Webhooks
 
-* **Easy to send** messages from programs
-* We can create **complex messages**
-* BUT **one way** only(program -> Webhook -> Slack)
+* EASY TO SEND messages from programs
+* We can create COMPLEX MESSAGES
+* But ONE WAY only(program -> Webhook -> Slack)
 
 Note:
 Next, I will explain how to make interactive chatbot.
@@ -331,10 +333,10 @@ Next, I will explain how to make interactive chatbot.
 * Create bot user
   1. Create a Slack app
   2. Enable Bots
-  3. Add a **Bot User**
-  4. Install App to Workspace -> **Authorize**
+  3. Add a "Bot User"
+  4. Install App to Workspace -> Authorize
 * Invite Bot User to Slack channels
-* **Bot User OAuth Access Token** like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
+* "Bot User OAuth Access Token" like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
@@ -544,9 +546,9 @@ def followme(message):
 
 ### Summary of Slackbot
 
-* We can **communicate** with Slackbot
-* Slackbot can handle **arguments** in messages
-* Slackbot can send messages in **various formats**
+* We can COMMUNICATE with Slackbot
+* Slackbot can handle ARGUMENTS in messages
+* Slackbot can send messages in VARIOUS FORMATS
 
 Note:
 I think that you understand Slackbot can do various things.
@@ -680,7 +682,7 @@ def plusplus(message, name):
 
 * Motivation
   * JIRA is very useful
-  * JIRA Web is **very heavy**
+  * JIRA Web is Very heavy
   * I want to check issue details without JIRA Web
 
 +++
@@ -774,7 +776,7 @@ def jira_search(message, keywords):
 * Motivation
   * In pycamp event, **20+ issues** are required for each event
   * It is very painful for me to **copy issues** manually
-  * JIRA Web is **very heavy**(again)
+  * JIRA Web is Very Heavy(again)
 
 Note:
 * PyCon JP hold pycamp every month.
@@ -1031,7 +1033,7 @@ service.users().delete(userKey=email).execute()
 
 ## Next steps
 
-* Let's make **your own Slackbot**
+* Let's make YOUR OWN Slackbot
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
