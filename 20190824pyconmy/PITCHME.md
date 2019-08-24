@@ -7,13 +7,13 @@ PyCon Malaysia / 2019 Aug 24
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to make a presentation in PyCon Malaysia.
+* I am very happy to be able to talk in PyCon Malaysia.
 
 ---
 
 ## Agenda
 
-* Background and Motivation
+* Background and Motivation for Slackbot
 * How to create SIMPLE chatbot
 * How to create INTERACTIVE bot
 * How to EXTEND bot using libs and APIs
@@ -23,15 +23,13 @@ Today, I will talk about...
 
 ---
 
-## Before my talk
+## Photos 📷 Tweets 🐦 👍
 
-### Photo 📷 Tweet 🐦 👍
-
-### Memo 📝 🙅‍♂️
+## Notes 📝 🙅‍♂️
 
 Note:
-* I hope you take photos and tweets my talk.
-* I will share this slides so you don't need to take a photo for memo.
+* Take photos and tweets welcome.
+* I will share this slides so you don't have to take notes.
 
 ---
 
@@ -49,14 +47,14 @@ Note:
 Note:
 (1m)
 * Before the main topic, I will introduce mycelf.
-* I'm Takanori Suzuki from Japan. My twitter is "takanory" please follow me.
+* I'm Takanori Suzuki from Japan. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
 
 +++
 
 ## PyCon JP 2019
 
-* [pycon.jp/2019/](https://pycon.jp/2019/)
+* [`pycon.jp/2019`](https://pycon.jp/2019/)
 * Date: 2019 Sepember 14(Sa)-17(Tu)
 * Place: Tokyo, Japan
 
