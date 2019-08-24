@@ -292,9 +292,9 @@ We can send complex messages like this with message attachments.
 
 * Block-Kit: new UI framework
 * Introducing Block Kit
-  * https://api.slack.com/block-kit
+  * [`api.slack.com/block-kit`](https://api.slack.com/block-kit)
 * Block Kit Builder
-  * https://api.slack.com/tools/block-kit-builder
+  * `[api.slack.com/tools/block-kit-builder`](https://api.slack.com/tools/block-kit-builder)
 
 Note:
 
@@ -356,7 +356,7 @@ $ . env/bin/activate
 slackbot         0.5.3   
 ```
 
-* [github.com/lins05/slackbot](https://github.com/lins05/slackbot)
+* [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
 
 Note:
 * Then, I make venv and install slackbot library.
@@ -576,7 +576,7 @@ I will show some case studies combining Python libraries and APIs.
 ### Install SymPy
 
 * SymPy: Python library for symbolic mathematics
-  * [www.sympy.org](https://www.sympy.org/)
+  * [`www.sympy.org`](https://www.sympy.org/)
 * Install: `$ pip install sympy`
 
 +++
@@ -621,7 +621,7 @@ def calc(message, formula):
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
-* [docs.peewee-orm.com](http://docs.peewee-orm.com/en/latest/)
+* [`docs.peewee-orm.com`](http://docs.peewee-orm.com/en/latest/)
 * Install: `$ pip install peewee`
 
 +++
@@ -694,7 +694,7 @@ def plusplus(message, name):
 ### Install Python JIRA
 
 * Python library to work with JIRA APIs
-  * [jira.readthedocs.io](https://jira.readthedocs.io/)
+  * [`jira.readthedocs.io`](https://jira.readthedocs.io/)
 * Install: `$ pip install jira`			
 
 +++
@@ -892,7 +892,7 @@ Note:
 
 ### Source code of pycamp command
 
-* see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py
+* see: `https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py`
 
 +++
 
@@ -1016,7 +1016,7 @@ service.users().delete(userKey=email).execute()
 
 ### Source code of gadmin command
 
-* see: https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py
+* see: `https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py`
 
 ---
 
@@ -1046,4 +1046,4 @@ Then you will have more free time so you can do other creative things more.
 ## Terima kasih! 🙏
 
 * Twitter: [@takanory](https://twitter.com/takanory)
-* Slides: [github.com/takanory/slides](https://github.com/takanory/slides)
+* Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
