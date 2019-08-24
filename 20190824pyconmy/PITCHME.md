@@ -24,10 +24,9 @@ Today, I will talk about...
 ---
 
 ## Photos 📷 Tweets 🐦 👍
-
-* `#pyconmy2019`
-
 ## Notes 📝 🙅‍♂️
+
+`#pyconmy2019`
 
 Note:
 * Take photos and tweets welcome.
