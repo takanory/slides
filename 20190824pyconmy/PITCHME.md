@@ -468,7 +468,7 @@ def ping(message):
 
 ### `listen_to` / `respond_to` decorator
 
-![Decorator](20190224pyconapac/images/slackbot-decolator.png)
+![Decorator](20190824pyconmy/images/slackbot-decolator.png)
 
 +++
 
@@ -546,7 +546,7 @@ def followme(message):
 
 * We can COMMUNICATE with Slackbot
 * Slackbot can handle ARGUMENTS in messages
-* Slackbot can send messages in VARIOUS FORMATS
+* Slackbot can send messages in VARIOUS formats
 
 Note:
 I think that you understand Slackbot can do various things.
@@ -577,7 +577,8 @@ I will show some case studies combining Python libraries and APIs.
 
 * SymPy: Python library for symbolic mathematics
   * [`www.sympy.org`](https://www.sympy.org/)
-* Install: `$ pip install sympy`
+* Install:
+  * `$ pip install sympy`
 
 +++
 
@@ -611,18 +612,19 @@ def calc(message, formula):
 ### Plusplus function using Peewee ORM
 
 * Motivation
-  * In PyCon JP, I want to make a culture that appreciates each other staff
+  * In PyCon JP, I want to make a culture that appreciates each other staff 👍
 
 +++
 
 ### Install Peewee
 
-* simple and small ORM.
+* Simple and small ORM.
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
 * [`docs.peewee-orm.com`](http://docs.peewee-orm.com/en/latest/)
-* Install: `$ pip install peewee`
+* Install:
+  * `$ pip install peewee`
 
 +++
 
@@ -632,11 +634,11 @@ def calc(message, formula):
 from pathlib import Path
 from peewee import SqliteDatabase, Model, CharField, IntegerField
 
-dbpath = Path(__file__).parent / 'plusplus.db')
+dbpath = Path(__file__).parent / 'plusplus.db'  # db file
 db = SqliteDatabase(dbpath)
 
 class Plusplus(Model):
-    name = CharField(primary_key=True)
+    name = CharField(primary_key=True)  # fields
     counter = IntegerField(default=0)
 
     class Meta:
@@ -668,7 +670,7 @@ def plusplus(message, name):
 
 +++
 
-![Plusplus](20190615pyconth/images/slackbot-plusplus.png)
+![Plusplus](20190824pyconmy/images/slackbot-plusplus.png)
 
 ---
 
