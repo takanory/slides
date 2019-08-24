@@ -464,7 +464,7 @@ def ping(message):
     message.reply('pong!')  # mention
 ```
 
-+++?image=20190824pyconmy/images/slackbot-decolator.png&size=contain
++++?image=20190824pyconmy/images/slackbot-decolator.png&size=auto 90%
 
 +++
 
@@ -664,7 +664,7 @@ def plusplus(message, name):
     message.send(f'Thank you {name}! (count: {plus.counter})')
 ```
 
-+++?images=20190824pyconmy/images/slackbot-plusplus.png&size=contain
++++?images=20190824pyconmy/images/slackbot-plusplus.png&size=auto 90%
 
 ---
 
