@@ -56,7 +56,7 @@ Note:
 ## PyCon JP 2019
 
 * [`pycon.jp/2019`](https://pycon.jp/2019/)
-* Date: 2019 Sepember 14(Sa)-17(Tu)
+* Date: 2019 September 14(Sat)-17(Tue)
 * Place: Tokyo, Japan
 
 ![PyCon JP 2019](assets/images/pyconjp2019.png)
@@ -82,7 +82,7 @@ Note:
 
 Note:
 * This year, I am challenging to talk or poster at PyCon around the world.
-* Malaysia is the 5th place of my PyCon tour, but I am first a first time attendee in thie event.
+* Malaysia is the 5th place of my PyCon tour, but I am first a first time attendee in this event.
 * I'm very happy to be here.
 * Well then, let's talk about the main topic.
 
@@ -471,7 +471,7 @@ def ping(message):
 
 ### emoji reaction
 
-* `mesasge.react()` method
+* `message.react()` method
 
 ```python
 @listen_to('beer')
@@ -565,7 +565,7 @@ I will show some case studies combining Python libraries and APIs.
 ### Calculator function using SymPy
 
 * Motivation
-  * I feel heavy to call a caluclator app on my smartphone
+  * I feel heavy to call a calculator app on my smartphone
   * It seems useful if Slack as a calculator
 
 +++
@@ -781,7 +781,7 @@ Note:
 
 ### System Overview
 
-![Ovierview of template](20190224pyconapac/images/template-overview.png)
+![Overview of template](20190224pyconapac/images/template-overview.png)
 
 +++
 
