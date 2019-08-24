@@ -664,7 +664,7 @@ def plusplus(message, name):
     message.send(f'Thank you {name}! (count: {plus.counter})')
 ```
 
-+++?images=20190824pyconmy/images/slackbot-plusplus.png&size=auto 90%
++++?image=20190824pyconmy/images/slackbot-plusplus.png&size=auto 90%
 
 ---
 
