@@ -478,7 +478,7 @@ def beer(message):
     message.react(':beer:')
 ```
 
-![message.react](20190824pyconth/images/slackbot-react.png)
+![message.react](20190824pyconmy/images/slackbot-react.png)
 
 +++
 
