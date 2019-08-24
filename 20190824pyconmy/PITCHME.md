@@ -793,7 +793,7 @@ Note:
 * Install Google Client Library
 
 ```sh
-$ pip install google-api-python-client google-auth-oauthlib`
+$ pip install google-api-python-client google-auth-oauthlib
 ```
 
 Note:
