@@ -691,7 +691,8 @@ def plusplus(message, name):
 
 * Python library to work with JIRA APIs
   * [`jira.readthedocs.io`](https://jira.readthedocs.io/)
-* Install: `$ pip install jira`			
+* Install:
+  * `$ pip install jira`			
 
 +++
 
@@ -789,7 +790,10 @@ Note:
   * enable API(in this case: Google Sheets API)
   * download `credentials.json`
 * Install Google Client Library
-  * `$ pip install google-api-python-client google-auth-oauthlib`
+
+```sh
+$ pip install google-api-python-client google-auth-oauthlib`
+```
 
 Note:
 * At firest, we make Google Authorized token.
@@ -798,8 +802,7 @@ Note:
 
 ### Google Authorization is VERY Complex(2/2)
 
-* download `quickstart.py`
-  * [quickstart.py on GitHub](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py)
+* download [`quickstart.py`](https://github.com/gsuitedevs/python-samples/blob/master/sheets/quickstart/quickstart.py) on GitHub
 * run `quickstart.py`
   * select your Google account in Web browser
   * Click the Accept button
@@ -811,7 +814,6 @@ Please visit this URL to authorize this application: https://accounts.google.com
 Name, Major:
 Alexandra, English
 :
-Will, Math
 ```
 
 * see: [Python Quickstart | Sheets API | Google Developers](https://developers.google.com/sheets/api/quickstart/python)
@@ -856,7 +858,7 @@ issue_dict = {
     'description': LONG_DESCRIPTION,
     'assignee': {'name': NAME_OF_ASSIGNEE},
     'reporter': {'name': NAME_OF_REPORTER},
-    'duedate': '{:%Y-%m-%d}'.format(duedate),
+    'duedate': f'{duedate:%Y-%m-%d}'
 }
 issue = jira.create_issue(fields=issue_dict)  # create issue
 ```
@@ -888,7 +890,7 @@ Note:
 
 ### Source code of pycamp command
 
-* see: `https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py`
+* see: [`github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py`](https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/plugins/pycamp.py)
 
 +++
 
@@ -934,7 +936,6 @@ Please visit this URL to authorize this application: https://accounts.google.com
 Name, Major:
 Alexandra, English
 :
-Will, Math
 ```
 
 Note:
@@ -1006,28 +1007,28 @@ service.users().delete(userKey=email).execute()
 
 +++
 
-### I can completely forget Google Admin web site 🎉
+### I can completely forget Google Admin web site 🎉 🎉
 
 +++
 
 ### Source code of gadmin command
 
-* see: `https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py`
+* see: [`github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py`](https://github.com/pyconjp/pyconjpbot/blob/master/pyconjpbot/google_plugins/gadmin.py)
 
 ---
 
 ## Summary
 
 * Incoming Webhooks
-* Slackbot
-* Slackbot with Libraries
-* Slackbot with APIs
+* `slackbot`
+* `slackbot` with Libraries
+* `slackbot` with APIs
 
 +++
 
 ## Next steps
 
-* Let's make YOUR OWN Slackbot
+* Let's make YOUR own Slackbot
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
