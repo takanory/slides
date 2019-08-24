@@ -113,7 +113,7 @@ Note:
 ### Staff ask me the same things
 
 * 40+ staff
-* NEW staff : OLD staff = 50 : 50
+* 🐣 NEW staff : 🐔 OLD staff = 50 : 50
 
 Note:
 
@@ -142,22 +142,22 @@ Note:
 
 ## Goal
 
-* How to create SIMPLE chatbot
+* How to create SIMPLE bot
 * How to create INTERACTIVE bot
 * How to EXTEND bot using libs and APIs
 
 Note:
 (1m)
 * The goal of this talk.
-* You'll learn how to create simple chatbot,
+* You'll learn how to create simple bot,
 * how to create interactive bot,
 * how to extend bot using libraries and APIs through various case studies.
 
 ---
 
-## Why Slackot
+## Why Slackbot
 
-* Launching the Slack application at any time
+* Launching the Slack app at any time 💻 📱
 * Easy to access Slack
 * To do everything in Slack
 
@@ -170,7 +170,7 @@ Note:
   * Is there someone using Slack?
 * I'm Launching the Slack application at any time on PC and smartphone.
 * So it's easy to access Slack. I want to do everything in Slack.
-* From here, I will explain how to create a chatbot on Slack.
+* Let's make chatbot on Slack.
 
 ---
 
@@ -200,8 +200,12 @@ Note:
   1. Create a Slack app
   2. Enable Incoming Webhooks in the app
   3. Create an Incoming Webhook
-* Webhook URL like this:
-  `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
+* Webhook URL:
+
+```
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+```
+
 * see: [Incoming Webhooks](https://api.slack.com/incoming-webhooks)
 
 Note:
@@ -210,7 +214,7 @@ Note:
 
 +++
 
-### Post message with cURL
+### Post a message with cURL
 
 ```bash
 $ curl -X POST -H 'Content-type: application/json' \
@@ -227,7 +231,7 @@ Note:
 
 +++
 
-### Post message with Python
+### Post a message with Python
 
 ```python
 import json
@@ -249,7 +253,7 @@ Note:
 
 +++
 
-### Post message with Requests
+### Post a message with Requests
 
 ```python
 import requests
@@ -291,10 +295,8 @@ We can send complex messages like this with message attachments.
 ### More complex message
 
 * Block-Kit: new UI framework
-* Introducing Block Kit
-  * [`api.slack.com/block-kit`](https://api.slack.com/block-kit)
-* Block Kit Builder
-  * `[api.slack.com/tools/block-kit-builder`](https://api.slack.com/tools/block-kit-builder)
+* [Introducing Block Kit](https://api.slack.com/block-kit)
+* [Block Kit Builder](https://api.slack.com/tools/block-kit-builder)
 
 Note:
 
@@ -307,11 +309,12 @@ Note:
 
 ### Summary of Incoming Webhooks
 
-* EASY TO SEND messages from programs
-* We can create COMPLEX MESSAGES
+* EASY to send messages from programs
+* We can create COMPLEX messages
 * But ONE WAY only(program -> Webhook -> Slack)
 
 Note:
+I want to talk with bot.
 Next, I will explain how to make interactive chatbot.
 
 ---
@@ -328,13 +331,13 @@ Next, I will explain how to make interactive chatbot.
 
 ### Create bot user on Slack
 
-* Create bot user
+* Create bot user 🤖
   1. Create a Slack app
   2. Enable Bots
   3. Add a "Bot User"
   4. Install App to Workspace -> Authorize
+* "Bot User OAuth Access Token": `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 * Invite Bot User to Slack channels
-* "Bot User OAuth Access Token" like this: `xoxb-123467890-XXXXXX-XXXXXXXXXXXX`
 
 * see: [Creating a bot user](https://api.slack.com/bot-users#creating-bot-user)
 
@@ -344,16 +347,13 @@ Note:
 
 +++
 
-### Install slackbot
+### Install `slackbot` package
 
 ```shell
 $ mkdir mybot; cd mybot
 $ python3.7 -m venv env
 $ . env/bin/activate
 (env) $ pip install slackbot
-:
-(env) $ pip list | grep slackbot
-slackbot         0.5.3   
 ```
 
 * [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
@@ -366,14 +366,14 @@ Note:
 
 ### Create a simple bot with slackbot
 
-* slackbot_settings.py
+* `slackbot_settings.py`
 
 ```python
 API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"  # Bot token
 PLUGINS = ['mybot.plugins']  # Plugin packages
 ```
 
-* run.py
+* `run.py`
 
 ```python
 from slackbot.bot import Bot
@@ -387,7 +387,7 @@ if __name__ == "__main__":
 ```
 
 Note:
-* The simplest slackbot consists of 4 files.
+* The simplest slackbot consists of only 4 files.
 
 +++
 
@@ -441,7 +441,7 @@ Note:
 
 Note:
 
-* ではbotを動かしてみましょう
+* Let's run the bot.
 * I guess you understood the basic way to make Slackbot, so we will extend it.
 
 ---
