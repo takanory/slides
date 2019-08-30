@@ -1,6 +1,6 @@
 ---
 
-## Who am I?(お前誰よ)
+## Who am I?(お前誰よ) 👤
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
@@ -15,7 +15,7 @@
 
 ---
 
-### 株式会社ビープラウド
+## 株式会社ビープラウド 🏢
 
 * [`www.beproud.jp`](https://www.beproud.jp/)
 
@@ -23,7 +23,7 @@
 
 +++
 
-### PyQ
+### PyQ 💻
 
 * Pythonに特化したオンライン学習サービス
 * [`pyq.jp`](https://pyq.jp/)
@@ -32,7 +32,7 @@
 
 +++
 
-### connpass
+### connpass 🤝
 
 * IT勉強会支援プラットフォーム
 * [`connpass.com`](https://connpass.com/)
@@ -41,7 +41,7 @@
 
 ---
 
-### 一般社団法人PyCon JP
+## 一般社団法人PyCon JP 🐍
 
 * [`www.pycon.jp`](https://www.pycon.jp/)
 
@@ -49,7 +49,7 @@
 
 +++
 
-### PyCon JP 2019
+### PyCon JP 2019 🎫
 
 * 国内最大のPythonイベント
 * [`pycon.jp/2019`](https://pycon.jp/2019/)
@@ -60,7 +60,7 @@
 
 +++
 
-### Python Boot Camp
+### Python Boot Camp 🗾
 
 * 初心者向けPythonチュートリアル
 * [`www.pycon.jp/support/bootcamp.html`](https://www.pycon.jp/support/bootcamp.html)
@@ -71,7 +71,7 @@
 
 +++
 
-### 主な著書
+## 主な著書 📚
 
 タイトル | 出版 | 内容
 ---|---|---
@@ -81,3 +81,17 @@
 [Pythonエンジニア ファーストブック](https://gihyo.jp/book/2017/978-4-7741-9222-2) | 2017年9月 | データ分析、スクレイピング、Webなどをつまみ食い
 [いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151) |2017年8月 | プログラミング初心者向け
 [Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) | 2015年10月 | 最低限覚えておくべきライブラリの紹介
+
+---
+
+## PyCon Tour 2019 🌏
+
+* 2月: PyCon APAC 🇵🇭
+* 5月: US PyCon 🇺🇸
+* 6月: PyCon Thailand 🇹🇭
+* 7月: EuroPython 🇨🇭
+* 8月: PyCon Malaysia 🇲🇾 👈 ここまで
+* 9月: PyCon Japan 🇯🇵
+* 9月: PyCon Taiwan 🇹🇼
+* 10月: PyCon Singapore 🇸🇬
+	
