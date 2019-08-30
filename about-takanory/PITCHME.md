@@ -22,7 +22,7 @@
 
 +++?image=assets/images/pyq.png&size=auto 60%&position=bottom
 
-@snap[top]
+@snap[north]
 ## PyQ 💻
 
 * [`pyq.jp`](https://pyq.jp/)
