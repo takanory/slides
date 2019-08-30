@@ -22,28 +22,28 @@
 
 +++?image=assets/images/pyq.png&size=auto 60%&position=bottom
 
-@snap[north]
+@snap[north span-100]
 ## PyQ 💻
 
 * [`pyq.jp`](https://pyq.jp/)
 * Pythonに特化したオンライン学習サービス
 @snapend
 
-+++
++++?image=assets/images/connpass.png&size=auto 60%&position=bottom
 
+@snap[north span-100]
 ## connpass 🤝
 
 * [`connpass.com`](https://connpass.com/)
 * IT勉強会支援プラットフォーム
-
-![connpass](assets/images/connpass.png)
+@snapend
 
 ---
 
 ## PyCon JP 🐍
 
-* 一般社団法人PyCon jP
 * [`www.pycon.jp`](https://www.pycon.jp/)
+* 一般社団法人PyCon JP
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
 
@@ -60,20 +60,22 @@
 
 +++
 
-## Python Boot Camp 🗾
+## Python Boot Camp
 
 * [`www.pycon.jp/support/bootcamp.html`](https://www.pycon.jp/support/bootcamp.html)
 * 初心者向けPythonチュートリアル
 
 ![Python Boot Camp](assets/images/python-boot-camp-logo.png)
 
----?image=assets/images/takanory-books.png&size=contain
+---?image=assets/images/takanory-books.png&size=auto 80%&position=bottom
+
+@snap[north span-100]
+## Books 📚
+@snapend
 
 +++
 
-## Books 📚
-
-@snap[text-07]
+@snap[text-06]
 * [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) (2019年6月)
   * 機械学習全般の入門書
 * [Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) (2018年9月)
