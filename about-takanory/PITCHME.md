@@ -66,11 +66,13 @@
 
 ![Python Boot Camp](assets/images/python-boot-camp-logo.png)
 
----?images=assets/images/takanory-books.png&size=contain
+---?image=assets/images/takanory-books.png&size=contain
 
 +++
 
 ## 主な著書 📚
+
+@size[small]{
 
 * [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) (2019年6月)
   * 機械学習全般の入門書
@@ -85,6 +87,8 @@
 * [Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) (2015年10月)
   * 最低限覚えておくべきライブラリの紹介
 
+}
+
 ---
 
 ## PyCon Tour 2019 🌏
@@ -93,7 +97,7 @@
 * 5月: US PyCon 🇺🇸
 * 6月: PyCon Thailand 🇹🇭
 * 7月: EuroPython 🇨🇭
-* 8月: PyCon Malaysia 🇲🇾 👈 ここまで
+* 8月: PyCon Malaysia 🇲🇾 👈 ここまで終了
 * 9月: PyCon Japan 🇯🇵
 * 9月: PyCon Taiwan 🇹🇼
 * 10月: PyCon Singapore 🇸🇬
