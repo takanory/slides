@@ -1,6 +1,6 @@
 ---
 
-## Who am I?(お前誰よ) 👤
+## Who am I? 👤
 
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
@@ -13,7 +13,7 @@
 
 ---
 
-## 株式会社ビープラウド 🏢
+## BeProud Inc. 🏢
 
 * [`www.beproud.jp`](https://www.beproud.jp/)
 * Pythonでシステム開発、研修など
@@ -22,7 +22,7 @@
 
 +++
 
-### PyQ 💻
+## PyQ 💻
 
 * [`pyq.jp`](https://pyq.jp/)
 * Pythonに特化したオンライン学習サービス
@@ -31,7 +31,7 @@
 
 +++
 
-### connpass 🤝
+## connpass 🤝
 
 * [`connpass.com`](https://connpass.com/)
 * IT勉強会支援プラットフォーム
@@ -40,15 +40,16 @@
 
 ---
 
-## 一般社団法人PyCon JP 🐍
+## PyCon JP 🐍
 
+* 一般社団法人PyCon jP
 * [`www.pycon.jp`](https://www.pycon.jp/)
 
 ![PyCon JP](assets/images/pyconjp_logo.png)
 
 +++
 
-### PyCon JP 2019 🎫
+## PyCon JP 2019 🎫
 
 * [`pycon.jp/2019`](https://pycon.jp/2019/)
   * 国内最大のPythonイベント
@@ -59,7 +60,7 @@
 
 +++
 
-### Python Boot Camp 🗾
+## Python Boot Camp 🗾
 
 * [`www.pycon.jp/support/bootcamp.html`](https://www.pycon.jp/support/bootcamp.html)
 * 初心者向けPythonチュートリアル
@@ -70,7 +71,7 @@
 
 +++
 
-## 主な著書 📚
+## Books 📚
 
 @snap[text-07]
 * [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) (2019年6月)
