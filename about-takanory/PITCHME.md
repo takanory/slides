@@ -72,9 +72,7 @@
 
 ## 主な著書 📚
 
-@size[small]{
-
-* [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) (2019年6月)
+* @size[small]{[いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) (2019年6月)}
   * 機械学習全般の入門書
 * [Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) (2018年9月)
   * 主な機械学習ライブラリの使い方
