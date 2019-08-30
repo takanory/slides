@@ -20,14 +20,12 @@
 
 ![BeProud](assets/images/beproud.png)
 
-+++
++++?image=assets/images/pyq.png&size=auto 60%&position=bottom
 
 ## PyQ 💻
 
 * [`pyq.jp`](https://pyq.jp/)
 * Pythonに特化したオンライン学習サービス
-
-![PyQ](assets/images/pyq.png)
 
 +++
 
