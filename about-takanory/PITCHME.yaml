@@ -1,9 +1,9 @@
 theme            : template
 
 theme-background : [ "#FFF" ]
-theme-headline   : [ "Concert One", "#111111", "none" ]
-theme-byline     : [ "Concert One", "#111111", "none" ]
-theme-text       : [ "Bubblegum", "#1C1C1C", "none" ]
+theme-headline   : [ "Montserrat", "#111111", "none" ]
+theme-byline     : [ "Montserrat", "#111111", "none" ]
+theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
 theme-links      : [ "#5289F7", "#5254F7" ]
 theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#484848" ]
