@@ -22,10 +22,12 @@
 
 +++?image=assets/images/pyq.png&size=auto 60%&position=bottom
 
+@snap[top]
 ## PyQ 💻
 
 * [`pyq.jp`](https://pyq.jp/)
 * Pythonに特化したオンライン学習サービス
+@snapend
 
 +++
 
