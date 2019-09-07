@@ -55,14 +55,14 @@ Note:
 
 ## PyCon Tour 2019🌏
 
-#. Feb: PyCon APAC 🇵🇭
-#. May: US PyCon 🇺🇸
-#. Jun: PyCon Thailand 🇹🇭
-#. Jul: EuroPython 🇨🇭
-#. Aug: PyCon Malaysia 🇲🇾
-#. Sep: PyCon Japan 🇯🇵 👈 Now!!!
-#. Sep: PyCon Taiwan 🇹🇼
-#. Oct: PyCon Singapore 🇸🇬
+1. Feb: PyCon APAC 🇵🇭
+2. May: US PyCon 🇺🇸
+3. Jun: PyCon Thailand 🇹🇭
+4. Jul: EuroPython 🇨🇭
+5. Aug: PyCon Malaysia 🇲🇾
+6. Sep: PyCon Japan 🇯🇵 👈 Now!!!
+7. Sep: PyCon Taiwan 🇹🇼
+8. Oct: PyCon Singapore 🇸🇬
 
 Note:
 * This year, I am challenging to talk or poster at PyCon around the world.
