@@ -7,7 +7,7 @@ PyCon JP / 2019 Sep 17
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to talk in PyCon Malaysia.
+* I am very happy to be able to talk in PyCon Japan.
 
 ---
 
@@ -26,7 +26,7 @@ Today, I will talk about...
 ## Photos 📷 Tweets 🐦 👍
 ## Notes 📝 🙅‍♂️
 
-`#pyconmy2019`
+`#pyconjp2019`
 
 Note:
 * Take photos and tweets welcome.
@@ -1025,7 +1025,7 @@ Then you will have more free time so you can do other creative things more.
 
 ## Thank you! 🙏
 
-## Terima kasih! 🙏
+## ありがとうございました! 🙏
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
