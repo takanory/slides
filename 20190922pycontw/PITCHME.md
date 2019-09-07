@@ -2,12 +2,12 @@
 
 ### Takanori Suzuki
 
-PyCon Malaysia / 2019 Aug 24
+PyCon Taiwan / 2019 Sep 22
 
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to talk in PyCon Malaysia.
+* I am very happy to be able to talk in PyCon Taiwan.
 
 ---
 
@@ -26,7 +26,7 @@ Today, I will talk about...
 ## Photos 📷 Tweets 🐦 👍
 ## Notes 📝 🙅‍♂️
 
-`#pyconmy2019`
+`#pycontw`
 
 Note:
 * Take photos and tweets welcome.
@@ -71,18 +71,18 @@ Note:
 
 ## PyCon Tour 2019🌏
 
-* Feb: PyCon APAC 🇵🇭
-* May: US PyCon 🇺🇸
-* Jun: PyCon Thailand 🇹🇭
-* Jul: EuroPython 🇨🇭
-* Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
-* Sep: PyCon Japan 🇯🇵
-* Sep: PyCon Taiwan 🇹🇼
-* Oct: PyCon Singapore 🇸🇬
+1. Feb: PyCon APAC 🇵🇭
+2. May: US PyCon 🇺🇸
+3. Jun: PyCon Thailand 🇹🇭
+4. Jul: EuroPython 🇨🇭
+5. Aug: PyCon Malaysia 🇲🇾
+6. Sep: PyCon Japan 🇯🇵
+7. Sep: PyCon Taiwan 🇹🇼 👈 Now!!!
+8. Oct: PyCon Singapore 🇸🇬
 
 Note:
 * This year, I am challenging to talk or poster at PyCon around the world.
-* Malaysia is the 5th place of my PyCon tour, but I am first a first time attendee in this event.
+* Taiwan is the 7th place of my PyCon tour, but I am first a first time attendee in this event.
 * I'm very happy to be here.
 * Well then, let's talk about the main topic.
 
@@ -1041,7 +1041,7 @@ Then you will have more free time so you can do other creative things more.
 
 ## Thank you! 🙏
 
-## Terima kasih! 🙏
+## 謝謝! 🙏
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
