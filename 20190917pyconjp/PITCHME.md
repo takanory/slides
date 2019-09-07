@@ -2,7 +2,7 @@
 
 ### Takanori Suzuki
 
-PyCon Malaysia / 2019 Aug 24
+PyCon JP / 2019 Sep 17
 
 Note:
 
@@ -53,36 +53,20 @@ Note:
 
 +++
 
-## PyCon JP 2019
-
-* [`pycon.jp/2019`](https://pycon.jp/2019/)
-* Date: 2019 September 14(Sat)-17(Tue)
-* Place: Tokyo, Japan
-
-![PyCon JP 2019](assets/images/pyconjp2019.png)
-
-Note:
-
-* PyCon JP will be held in middle of September.
-* But tickets were sold out.
-* If you attend PyCon JP, see you again in September.
-
-+++
-
 ## PyCon Tour 2019🌏
 
-* Feb: PyCon APAC 🇵🇭
-* May: US PyCon 🇺🇸
-* Jun: PyCon Thailand 🇹🇭
-* Jul: EuroPython 🇨🇭
-* Aug: PyCon Malaysia 🇲🇾 👈 Now!!!
-* Sep: PyCon Japan 🇯🇵
-* Sep: PyCon Taiwan 🇹🇼
-* Oct: PyCon Singapore 🇸🇬
+#. Feb: PyCon APAC 🇵🇭
+#. May: US PyCon 🇺🇸
+#. Jun: PyCon Thailand 🇹🇭
+#. Jul: EuroPython 🇨🇭
+#. Aug: PyCon Malaysia 🇲🇾
+#. Sep: PyCon Japan 🇯🇵 👈 Now!!!
+#. Sep: PyCon Taiwan 🇹🇼
+#. Oct: PyCon Singapore 🇸🇬
 
 Note:
 * This year, I am challenging to talk or poster at PyCon around the world.
-* Malaysia is the 5th place of my PyCon tour, but I am first a first time attendee in this event.
+* Japan is the 6th place in my PyCon tour, but I am first a first time attendee in this event.
 * I'm very happy to be here.
 * Well then, let's talk about the main topic.
 
