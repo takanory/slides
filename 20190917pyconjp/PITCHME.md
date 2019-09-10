@@ -61,7 +61,7 @@ Note:
   * annual PyCon JP
   * Python Boot Camp / Caravan
 * Support
-  * regianal PyCon
+  * Local Python events
   * PyLadies Japan / Caravan
 
 Note:
@@ -73,7 +73,7 @@ Note:
 
 ## Inter-Community Meetup 🤝
 
-* Date: Today(2019 Sep 16)
+* Date: Today (2019 Sep 16)
 * Time: 13:40-14:40
 * Place: 6F Room F
 * Language: 🇯🇵
@@ -86,8 +86,8 @@ Note:
 
 ## Committee meeting 👨‍🏫
 
-* Date: Tomorrow(2019 Sep 17)
-* Time: 12:10-13:10(Lunch)
+* Date: Tomorrow (2019 Sep 17)
+* Time: 12:10-13:10 (Lunch time)
 * Place: 6F Room E
 * Language: 🇯🇵
 
@@ -110,9 +110,9 @@ Note:
 
 ## Join us!!
 
-* Inter-Community Meetup (Day 1)
-* Committee meeting (Day 2)
-* PyCon JP & PSF Booth (Day 1, 2)
+* Inter-Community Meetup (Today)
+* Committee meeting (Tomorrow)
+* PyCon JP & PSF Booth (Both)
 
 Note:
 * Please feel free to join us.
@@ -121,19 +121,18 @@ Note:
 
 ## PyCon Tour 2019 🌏
 
-1. Feb: PyCon APAC 🇵🇭
-2. May: US PyCon 🇺🇸
-3. Jun: PyCon Thailand 🇹🇭
-4. Jul: EuroPython 🇨🇭
-5. Aug: PyCon Malaysia 🇲🇾
-6. Sep: PyCon Japan 🇯🇵 👈 Now!!!
-7. Sep: PyCon Taiwan 🇹🇼
-8. Oct: PyCon Singapore 🇸🇬
+1. PyCon APAC 🇵🇭
+2. US PyCon 🇺🇸
+3. PyCon Thailand 🇹🇭
+4. EuroPython 🇨🇭
+5. PyCon Malaysia 🇲🇾
+6. PyCon Japan 🇯🇵 👈 Now!!!
+7. PyCon Taiwan 🇹🇼
+8. PyCon Singapore 🇸🇬
 
 Note:
-* This year, I am challenging to talk or poster at PyCon around the world.
-* Japan is the 6th place in my PyCon tour, but I am first a first time attendee in this event.
-* I'm very happy to be here.
+* BTW, This year, I am challenging to talk or poster at PyCon around the world.
+* Japan is the 6th place in my PyCon tour.
 * Well then, let's talk about the main topic.
 
 ---
