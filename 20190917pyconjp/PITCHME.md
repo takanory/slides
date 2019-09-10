@@ -53,7 +53,73 @@ Note:
 
 +++
 
-## PyCon Tour 2019🌏
+## PyCon JP Committee 🐍
+
+* [`www.pycon.jp/committee/english.html`](https://www.pycon.jp/committee/english.html)
+* Nonprofit organization
+* Organize
+  * annual PyCon JP
+  * Python Boot Camp / Caravan
+* Support
+  * regianal PyCon
+  * PyLadies Japan / Caravan
+
+Note:
+* PyCon JP Committee is a noprofit organization for Python users in Japan
+* We organize and support several events and communities in Japan
+* If you need our support or want to discuss with us,
+
++++
+
+## Inter-Community Meetup 🤝
+
+* Date: Today(2019 Sep 16)
+* Time: 13:40-14:40
+* Place: 6F Room F
+* Language: 🇯🇵
+
+Note:
+* Today, We will hold Inter-Community Meetup.
+* We'd like to discuss with various community members
+
++++
+
+## Committee meeting 👨‍🏫
+
+* Date: Tomorrow(2019 Sep 17)
+* Time: 12:10-13:10(Lunch)
+* Place: 6F Room E
+* Language: 🇯🇵
+
+Note:
+* Tomorrow, We will hold PyCon JP Committee meeting.
+* We will report on activities, accounting and future.
+
++++
+
+## PyCon JP & PSF Booth
+
+* Date: Today and Tomorrow
+* Place: 1F
+* Language: 🇯🇵 🇬🇧
+
+Note:
+* And web have a booth today and tomorrow.
+
++++
+
+## Join us!!
+
+* Inter-Community Meetup (Day 1)
+* Committee meeting (Day 2)
+* PyCon JP & PSF Booth (Day 1, 2)
+
+Note:
+* Please feel free to join us.
+
++++
+
+## PyCon Tour 2019 🌏
 
 1. Feb: PyCon APAC 🇵🇭
 2. May: US PyCon 🇺🇸
