@@ -266,19 +266,19 @@ Note:
 
 #### 1. Create a Slack app
 
-![Create app 1](20190917pyconjp/images/create-app1.png)
+![Create Slack app - 1](20190917pyconjp/images/create-app1.png)
 
 +++
 
 #### 1. Create a Slack app
 
-![Create app 2](20190917pyconjp/images/create-app2.png)
+![Create Slack app - 2](20190917pyconjp/images/create-app2.png)
 
 +++
 
 #### 1. Create a Slack app
 
-![Create app 3](20190917pyconjp/images/create-app3.png)
+![Create Slack app - 3](20190917pyconjp/images/create-app3.png)
 
 * Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
 
