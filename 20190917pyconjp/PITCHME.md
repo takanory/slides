@@ -262,19 +262,27 @@ Note:
 
 * How to generate Webhook URL is as follows....
 
-+++?image=20190917pyconjp/images/create-app1.png&position=bottom&size=50% auto
++++?image=20190917pyconjp/images/create-app1.png&size=50% auto
 
-#### 1. Create a Slack app
+@snap[north]
+### 1. Create a Slack app
+@snapend
 
-+++?image=20190917pyconjp/images/create-app2.png&position=bottom&size=50% auto
++++?image=20190917pyconjp/images/create-app2.png&size=50% auto
 
-#### 1. Create a Slack app
+@snap[north]
+### 1. Create a Slack app
+@snapend
 
-+++?image=20190917pyconjp/images/create-app3.png&position=bottom&size=50% auto
++++?image=20190917pyconjp/images/create-app3.png&size=50% auto
 
-#### 1. Create a Slack app
+@snap[north]
+### 1. Create a Slack app
+@snapend
 
-* Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
+@snap[south]
+@size[small](Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/))
+@snapend
 
 +++
 
