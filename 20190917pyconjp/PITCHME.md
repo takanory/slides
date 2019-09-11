@@ -434,6 +434,36 @@ Note:
 * I describe how to create interactive bot.
 * At first, we craete bot user on Slack.
 
++++?image=20190917pyconjp/images/enable-bots.png&size=auto 70%
+
+Note:
+* Enable bots in your app
+
++++?image=20190917pyconjp/images/add-bot1.png&size=auto 70%
+
+Note:
+* Add a Bot user
+
++++?image=20190917pyconjp/images/add-bot2.png&size=70% auto
+
+Note:
+* Add a Bot user
+
++++?image=20190917pyconjp/images/reinstall-app.png&size=70% auto
+
+Note:
+* Re-install app in your workspace
+
++++?image=20190917pyconjp/images/get-bot-token.png&size=70% auto
+
+Note:
+* Get Bot Access Token
+
++++?image=20190917pyconjp/images/invite-bot.png&size=70% auto
+
+Note:
+* Invite Bot to channel
+
 +++
 
 ### Install `slackbot` package
