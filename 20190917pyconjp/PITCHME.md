@@ -469,7 +469,7 @@ Note:
 ### Install `slackbot` package
 
 ```shell
-$ mkdir mybot; cd mybot
+$ mkdir beerbot; cd beerbot
 $ python3.7 -m venv env
 $ . env/bin/activate
 (env) $ pip install slackbot
@@ -489,7 +489,7 @@ Note:
 
 ```python
 API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"  # Bot token
-PLUGINS = ['mybot.plugins']  # Plugin packages
+PLUGINS = ['beerbot.plugins']  # Plugin packages
 ```
 
 * `run.py`
@@ -512,22 +512,22 @@ Note:
 
 ### Simple Plugin
 
-* `mybot/plugins/__init__.py`
+* `beerbot/plugins/__init__.py`
 
 ```shell
-(env) $ mkdir mybot
-(env) $ mkdir mybot/plugins
-(env) $ touch mybot/plugins/__init__.py  # empty file
+(env) $ mkdir beerbot
+(env) $ mkdir beerbot/plugins
+(env) $ touch beerbot/plugins/__init__.py  # empty file
 ```
 
-* `mybot/plugins/sample.py`
+* `beerbot/plugins/sample.py`
 
 ```python
 from slackbot.bot import listen_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I am slackbot')
+    message.send('Hi!!! I am beerbot!')
 ```
 
 Note:
@@ -540,12 +540,12 @@ Note:
 
 File | Description
 --- | ---
-`mybot/` | Project dir
-`mybot/env/` | venv
-`mybot/run.py` | Main script
-`mybot/slackbot_settings.py` | Settings
-`mybot/plugins/__init__.py` | 
-`mybot/plugins/sample.py` | Sample plugin
+`./` | Project dir
+`./env/` | venv
+`./run.py` | Main script
+`./slackbot_settings.py` | Settings
+`./beerbot/plugins/__init__.py` | 
+`./beerbot/plugins/sample.py` | Sample plugin
 
 Note:
 * たった4つのファイルで完成です
