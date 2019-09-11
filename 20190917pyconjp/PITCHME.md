@@ -264,13 +264,42 @@ Note:
 
 +++?image=20190917pyconjp/images/create-app1.png&size=70% auto
 
+Note:
+* Create a Slack app
+
 +++?image=20190917pyconjp/images/create-app2.png&size=auto 70%
+
+Note:
+* Create a Slack app
 
 +++?image=20190917pyconjp/images/create-app3.png&size=70% auto
 
 @snap[south text-04 text-gray]
 * credit: Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
 @snapend
+
+Note:
+* Set app icon
+
++++?image=20190917pyconjp/images/enable-webhook1.png&size=auto 70%
+
+Note:
+* Enable webhook
+
++++?image=20190917pyconjp/images/enable-webhook2.png&size=auto 70%
+
+Note:
+* Enable webhook
+
++++?image=20190917pyconjp/images/create-webhook.png&size=auto 70%
+
+Note:
+* Create webhook in your workspace
+
++++?image=20190917pyconjp/images/get-webhook.png&size=auto 70%
+
+Note:
+* Get webhook URL
 
 +++
 
