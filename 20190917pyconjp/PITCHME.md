@@ -262,14 +262,14 @@ Note:
 
 * How to generate Webhook URL is as follows....
 
-+++?image=20190917pyconjp/images/create-app1.png&size=80% auto
++++?image=20190917pyconjp/images/create-app1.png&size=70% auto
 
-+++?image=20190917pyconjp/images/create-app2.png&size=80% auto
++++?image=20190917pyconjp/images/create-app2.png&size=auto 70%
 
-+++?image=20190917pyconjp/images/create-app3.png&size=80% auto
++++?image=20190917pyconjp/images/create-app3.png&size=70% auto
 
-@snap[south text-05 text-gray]
-* Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
+@snap[south text-04 text-gray]
+* credit: Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
 @snapend
 
 +++
