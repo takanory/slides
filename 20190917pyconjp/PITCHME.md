@@ -296,7 +296,7 @@ Note:
 Note:
 * Create webhook in your workspace
 
-+++?image=20190917pyconjp/images/get-webhook.png&size=auto 70%
++++?image=20190917pyconjp/images/get-webhookurl.png&size=auto 70%
 
 Note:
 * Get webhook URL
@@ -311,7 +311,7 @@ $ curl -X POST -H 'Content-type: application/json' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
-![Hello Slack from cURL](20190224pyconapac/images/webhook-curl.png)
+![Hello Slack from cURL](20190917pyconjp/images/webhook-curl.png)
 
 Note:
 
@@ -333,7 +333,7 @@ req = request.Request(URL, data=jsoned, method='POST')
 request.urlopen(req)
 ```
 
-![Hello from Python!](20190615pyconth/images/webhook-python.png)
+![Hello from Python!](20190917pyconjp/images/webhook-python.png)
 
 Note:
 
@@ -352,7 +352,7 @@ data = {'text': 'Hello from Requests!'}
 requests.post(URL, json=data)
 ```
 
-![Hello from Requests!](20190615pyconth/images/webhook-requests.png)
+![Hello from Requests!](20190917pyconjp/images/webhook-requests.png)
 
 Note:
 
@@ -374,7 +374,7 @@ data = {'attachments': [{
 requests.post(URL, json=data)
 ```
 
-![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
+![Message Attachments](20190917pyconjp/images/webhook-attachments.png)
 
 Note:
 We can send complex messages like this with message attachments.
