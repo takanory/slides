@@ -26,7 +26,7 @@ Today, I will talk about...
 ## Photos 📷 Tweets 🐦 👍
 ## Notes 📝 🙅‍♂️
 
-`#pyconjp2019`
+### `#pyconjp2019` / `@takanory`
 
 Note:
 * Take photos and tweets welcome.
@@ -473,13 +473,13 @@ Note:
 * [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
 * `pip install slackbot`
 
-Note
+Note:
 * Then, I will create my bot
 * slackbot is a simple chatbot framework
 
 +++
 
-### Create slackboet
+### Install slackbot with venv
 
 ```shell
 $ mkdir beerbot
@@ -711,8 +711,7 @@ I will show some case studies combining Python libraries and APIs.
 
 * SymPy: Python library for symbolic mathematics
   * [`www.sympy.org`](https://www.sympy.org/)
-* Install:
-  * `$ pip install sympy`
+* `$ pip install sympy`
 
 +++
 
@@ -926,10 +925,7 @@ Note:
   * enable API(in this case: Google Sheets API)
   * download `credentials.json`
 * Install Google Client Library
-
-```sh
-$ pip install google-api-python-client google-auth-oauthlib
-```
+  * `pip install google-api-python-client google-auth-oauthlib`
 
 Note:
 * At firest, we make Google Authorized token.
@@ -1009,13 +1005,13 @@ issue = jira.create_issue(fields=issue_dict)  # create issue
 
 ![Sample of Template command](20190224pyconapac/images/template-bot-sample.png)
 
-+++?image=20190224pyconapac/images/template-pycamp-template.png&size=contain
++++?image=20190224pyconapac/images/template-pycamp-template.png&size=auto 90%
 
 Note:
 
 * Here is the pycamp issue template.
 
-+++?image=20190224pyconapac/images/template-created-issues.png&size=contain
++++?image=20190224pyconapac/images/template-created-issues.png&size=auto 90%
 
 Note:
 
@@ -1135,15 +1131,15 @@ service.users().delete(userKey=email).execute()
 * see: [Users: update | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/update)
 * see: [Users: delete | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/delete)
 
-+++?image=20190224pyconapac/images/gadmin-help.png&size=contain
++++?image=20190224pyconapac/images/gadmin-help.png&size=auto 90%
 
-+++?image=20190224pyconapac/images/gadmin-user-list.png&size=contain
++++?image=20190224pyconapac/images/gadmin-user-list.png&size=auto 90%
 
-+++?image=20190224pyconapac/images/gadmin-member-list.png&size=contain
++++?image=20190224pyconapac/images/gadmin-member-list.png&size=auto 90%
 
 +++
 
-### I can completely forget Google Admin web site 🎉 🎉
+### I can completely forget Google Admin 🎉 🎉
 
 +++
 
@@ -1176,7 +1172,7 @@ Then you will have more free time so you can do other creative things more.
 
 ## Thank you! 🙏
 
-## ありがとうございました! 🙏
+## ありがとうございます! 🙏
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
