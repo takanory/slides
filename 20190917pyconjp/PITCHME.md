@@ -303,7 +303,9 @@ Note:
 
 +++
 
+@snap[north span-100]
 ### Post a message with cURL
+@snapend
 
 ```bash zoom-20
 $ curl -X POST -H 'Content-type: application/json' \
@@ -311,7 +313,9 @@ $ curl -X POST -H 'Content-type: application/json' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
+@snap[south span-100]
 ![Hello Slack from cURL](20190917pyconjp/images/webhook-curl.png)
+@snapend
 
 Note:
 
