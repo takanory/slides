@@ -286,7 +286,7 @@ Note:
 Note:
 * Enable webhook
 
-+++?image=20190917pyconjp/images/enable-webhook2.png&size=auto 70%
++++?image=20190917pyconjp/images/enable-webhook2.png&size=auto 75%
 
 Note:
 * Enable webhook
@@ -305,7 +305,7 @@ Note:
 
 ### Post a message with cURL
 
-```bash
+```bash zoom-20
 $ curl -X POST -H 'Content-type: application/json' \
 > --data '{"text": "Hello Slack"}' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
@@ -469,7 +469,8 @@ Note:
 ### Install `slackbot` package
 
 ```shell
-$ mkdir beerbot; cd beerbot
+$ mkdir beerbot
+$ cd beerbot
 $ python3.7 -m venv env
 $ . env/bin/activate
 (env) $ pip install slackbot
@@ -515,8 +516,7 @@ Note:
 * `beerbot/plugins/__init__.py`
 
 ```shell
-(env) $ mkdir beerbot
-(env) $ mkdir beerbot/plugins
+(env) $ mkdir -p beerbot/plugins
 (env) $ touch beerbot/plugins/__init__.py  # empty file
 ```
 
@@ -527,7 +527,7 @@ from slackbot.bot import listen_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I am beerbot!')
+    message.send('Hi!!! I am beerbot! :beer:')
 ```
 
 Note:
@@ -538,14 +538,15 @@ Note:
 
 ### File structure
 
-File | Description
---- | ---
-`./` | Project dir
-`./env/` | venv
-`./run.py` | Main script
-`./slackbot_settings.py` | Settings
-`./beerbot/plugins/__init__.py` | 
-`./beerbot/plugins/sample.py` | Sample plugin
+```
+.
+├── beerbot
+│   └── plugins
+│       ├── __init__.py
+│       └── sample.py
+├── run.py
+└── slackbot_settings.py
+```
 
 Note:
 * たった4つのファイルで完成です
