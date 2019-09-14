@@ -584,7 +584,7 @@ def ping(message):
     message.send('Cheers! :beers:')
 ```
 
-+++?image=20190717pyconjp/images/slackbot-decolator.png&size=auto 80%
++++?image=20190917pyconjp/images/slackbot-decolator.png&size=auto 80%
 
 +++
 
@@ -604,7 +604,7 @@ def hungry(message):
     message.react(emoji)  # react random emoji
 ```
 
-+++?image=20190717pyconjp/images/slackbot-reply.png&size=auto 80%
++++?image=20190917pyconjp/images/slackbot-reply.png&size=auto 80%
 
 +++
 
