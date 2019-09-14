@@ -303,19 +303,15 @@ Note:
 
 +++
 
-@snap[north span-100]
 ### Post a message with cURL
-@snapend
 
-```bash zoom-20
+```bash
 $ curl -X POST -H 'Content-type: application/json' \
 > --data '{"text": "Hello Slack"}' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
-@snap[south span-100]
 ![Hello Slack from cURL](20190917pyconjp/images/webhook-curl.png)
-@snapend
 
 Note:
 
@@ -485,6 +481,7 @@ $ . env/bin/activate
 Note:
 * Then, I make venv and install slackbot library.
 * slackbot is chatbot framework.
+* Then, I create simplest slackbot with 4 files.
 
 +++
 
@@ -511,7 +508,6 @@ if __name__ == "__main__":
 ```
 
 Note:
-* The simplest slackbot consists of only 4 files.
 
 +++
 
@@ -553,7 +549,7 @@ Note:
 ```
 
 Note:
-* たった4つのファイルで完成です
+* File structure is here
  
 +++
 
@@ -561,7 +557,7 @@ Note:
 
 * `(env) $ python run.py`
 
-![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
+![First Slackbot](20190917pyconjp/images/slackbot-hi.png)
 
 Note:
 
@@ -581,28 +577,34 @@ from slackbot.bot import listen_to, respond_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I am slackbot')
+    message.send('Hi!!! I am beerbot! :beer:')
 
-@respond_to('ping')  # mention
+@respond_to('cheers')  # mention
 def ping(message):
-    message.reply('pong!')  # mention
+    message.send('Cheers! :beers:')
 ```
 
-+++?image=20190824pyconmy/images/slackbot-decolator.png&size=auto 90%
++++?image=20190717pyconjp/images/slackbot-decolator.png&size=auto 80%
 
 +++
 
-### emoji reaction
+### Mention, Emoji reaction
 
-* `message.react()` method
+* `message.reply()`: Mention
+* `message.react()`: Emoji reaction
 
 ```python
-@listen_to('beer')
-def beer(message):
-    message.react(':beer:')
+@listen_to('morning')
+def morning(message):
+    message.reply('Good morning!')
+
+@listen_to('hungry')
+def hungry(message):
+    emoji = random.choice(('ramen', 'sushi', 'beer'))
+    message.react(emoji)  # react random emoji
 ```
 
-![message.react](20190824pyconmy/images/slackbot-react.png)
++++?image=20190717pyconjp/images/slackbot-reply.png&size=auto 80%
 
 +++
 
