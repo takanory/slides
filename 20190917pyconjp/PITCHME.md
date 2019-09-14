@@ -629,7 +629,7 @@ def bees(message, num):  # num=3 or 100
 
 +++
 
-### Settings: `slackbot_settings.py`
+### `slackbot_settings.py`
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
@@ -638,7 +638,7 @@ DEFAULT_REPLY = "Sorry but I didn't understand you"
 PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
 
-![Settings](20190224pyconapac/images/slackbot-settings.png)
+![Settings](20190917pyconjp/images/slackbot-settings.png)
 
 * see: [Usage of Slackbot](https://github.com/lins05/slackbot#usage)
 
@@ -662,7 +662,7 @@ def followme(message):
     message.send_webapi('', json.dumps(attachments))
 ```
 
-![Attachments](20190224pyconapac/images/slackbot-attachments.png)
+![Attachments](20190917pyconjp/images/slackbot-attachments.png)
 
 +++
 
