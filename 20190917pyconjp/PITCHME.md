@@ -617,13 +617,15 @@ def hungry(message):
 def choice(message, words):  # -> words='pizza beer sushi'
     word = random.choice(words.split())
     message.send('I chose *{}*'.format(word))
+
+@listen_to('(\d+)\s*beers')  # 3 beers, 100beers
+def bees(message, num):  # num=3 or 100
+    beers = ':beer:' * int(num)
+    if beers:
+        message.send(beers)
 ```
 
-+++
-
-### Extract parameters on message
-
-![Regular expression](20190224pyconapac/images/slackbot-re.png)
++++?image=20190717pyconjp/images/slackbot-re.png&size=auto 80%
 
 +++
 
