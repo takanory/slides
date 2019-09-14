@@ -466,7 +466,20 @@ Note:
 
 +++
 
-### Install `slackbot` package
+### `slackbot` package
+
+* A simple chat bot for Slack
+* Python 3.4+
+* [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
+* `pip install slackbot`
+
+Note
+* Then, I will create my bot
+* slackbot is a simple chatbot framework
+
++++
+
+### Create slackboet
 
 ```shell
 $ mkdir beerbot
@@ -476,12 +489,9 @@ $ . env/bin/activate
 (env) $ pip install slackbot
 ```
 
-* [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
-
 Note:
-* Then, I make venv and install slackbot library.
-* slackbot is chatbot framework.
-* Then, I create simplest slackbot with 4 files.
+* I make venv and install slackbot library.
+* Next, I make simplest slackbot with 4 files.
 
 +++
 
@@ -697,7 +707,7 @@ I will show some case studies combining Python libraries and APIs.
 
 +++
 
-### Install SymPy
+### about SymPy
 
 * SymPy: Python library for symbolic mathematics
   * [`www.sympy.org`](https://www.sympy.org/)
@@ -706,7 +716,7 @@ I will show some case studies combining Python libraries and APIs.
 
 +++
 
-* `mybot/plugins/calc.py`
+* `calc.py`
 
 ```python
 from slackbot.bot import listen_to
@@ -716,16 +726,16 @@ from sympy import sympify, SympifyError
 def calc(message, formula):
     try:
         result = sympify(formula)  # Simplifies the formula
-	if result.is_Integer:
-	    answer = int(result)  # Convert to interger value
-	else:
-	    answer = float(result)  # Convert to float value
+        if result.is_Integer:
+            answer = int(result)  # Convert to interger value
+        else:
+            answer = float(result)  # Convert to float value
         message.send(f'{answer:,}')
     except SympifyError:
         pass
 ```
 
-+++?image=20190224pyconapac/images/slackbot-calc.png&size=auto
++++?image=20190917pyconjp/images/slackbot-calc.png&size=auto 80%
 
 ---
 
@@ -740,19 +750,18 @@ def calc(message, formula):
 
 +++
 
-### Install Peewee
+### about Peewee
 
 * Simple and small ORM.
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
 * [`docs.peewee-orm.com`](http://docs.peewee-orm.com/en/latest/)
-* Install:
-  * `$ pip install peewee`
+* `$ pip install peewee`
 
 +++
 
-### Plusplus model
+### `plusplus_model.py`
 
 ```python
 from pathlib import Path
@@ -774,7 +783,7 @@ db.create_tables([Plusplus], safe=True)
 
 +++
 
-### Plusplus command
+### `plusplus.py`
 
 ```
 from slackbot.bot import listen_to
@@ -792,7 +801,7 @@ def plusplus(message, name):
     message.send(f'Thank you {name}! (count: {plus.counter})')
 ```
 
-+++?image=20190824pyconmy/images/slackbot-plusplus.png&size=auto 90%
++++?image=20190917pyconjp/images/slackbot-plusplus.png&size=auto 80%
 
 ---
 
@@ -815,12 +824,11 @@ def plusplus(message, name):
 
 +++
 
-### Install Python JIRA
+### about Python JIRA
 
 * Python library to work with JIRA APIs
-  * [`jira.readthedocs.io`](https://jira.readthedocs.io/)
-* Install:
-  * `$ pip install jira`			
+* [`jira.readthedocs.io`](https://jira.readthedocs.io/)
+* `$ pip install jira`			
 
 +++
 
