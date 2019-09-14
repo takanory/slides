@@ -625,7 +625,7 @@ def bees(message, num):  # num=3 or 100
         message.send(beers)
 ```
 
-+++?image=20190717pyconjp/images/slackbot-re.png&size=auto 80%
++++?image=20190917pyconjp/images/slackbot-re.png&size=auto 80%
 
 +++
 
