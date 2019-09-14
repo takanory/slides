@@ -48,8 +48,9 @@ Note:
 Note:
 (1m)
 * Before the main topic, I will introduce mycelf.
-* I'm Takanori Suzuki from Japan. My twitter is "takanory", please follow me.
+* I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
+* Do you know PyCon JP Committee?
 
 +++
 
@@ -65,9 +66,9 @@ Note:
   * PyLadies Japan / Caravan
 
 Note:
-* PyCon JP Committee is a noprofit organization for Python users in Japan
-* We organize and support several events and communities in Japan
-* If you need our support or want to discuss with us,
+* PyCon JP Committee is a noprofit organization.
+* We organize and support several events and communities.
+* If you need our support or want to discuss with us,...
 
 +++
 
@@ -80,7 +81,8 @@ Note:
 
 Note:
 * Today, We will hold Inter-Community Meetup.
-* We'd like to discuss with various community members
+* We'd like to discuss with various community members.
+* And...
 
 +++
 
@@ -93,7 +95,7 @@ Note:
 
 Note:
 * Tomorrow, We will hold PyCon JP Committee meeting.
-* We will report on activities, accounting and future.
+* We will report about events, accounting and future.
 
 +++
 
@@ -133,6 +135,7 @@ Note:
 Note:
 * BTW, This year, I am challenging to talk or poster at PyCon around the world.
 * Japan is the 6th place in my PyCon tour.
+* See you again at PyCon somewhere.
 * Well then, let's talk about the main topic.
 
 ---
@@ -156,7 +159,9 @@ Note:
 Note:
 
 * I held PyCon JP event several years in the past.
-* As you can imagine, lots of tasks to hold Conference. And, ...
+* As you can imagine, lots of tasks to hold Conference.
+* For example, talk arrangements, ticket sales, venue management, food...
+* And, ...
 
 +++
 
@@ -168,7 +173,7 @@ Note:
 Note:
 
 * The number of PyCon JP staff is 40 over, half of them are the new staff.
-* Newcomers ask similar things to me. And I send similar messages to newcomers.
+* New staff ask similar things to me. And I send similar answers repeatedly.
 * But, ...
 
 +++
@@ -185,7 +190,7 @@ Note:
 
 Note:
 
-* I want someone to do my bothersome tasks instead of me.
+* I want someone to do my bothersome tasks instead of me like a secretary.
 * Let's make it.
 
 ---
@@ -279,7 +284,7 @@ Note:
 @snapend
 
 Note:
-* Set app icon
+* Set app icon(option)
 
 +++?image=20190917pyconjp/images/enable-webhook1.png&size=auto 70%
 
@@ -299,11 +304,12 @@ Note:
 +++?image=20190917pyconjp/images/get-webhookurl.png&size=auto 70%
 
 Note:
-* Get webhook URL
+* At last, we got a webhook URL
+* OK, We have a webhook URL. Let's send a message to slack with it.
 
 +++
 
-### Post a message with cURL
+### message with cURL
 
 ```bash
 $ curl -X POST -H 'Content-type: application/json' \
@@ -315,12 +321,12 @@ $ curl -X POST -H 'Content-type: application/json' \
 
 Note:
 
-* Send a simple message with cURL.
-* When we send a message with JSON, a message will be displayed in Slack.
+* We send a simple message with cURL.
+* Whe we send a message with JSON, the message will be displayed in Slack.
 
 +++
 
-### Post a message with Python
+### message with Python
 
 ```python
 import json
@@ -328,7 +334,7 @@ from urllib import request
 
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
 data = {'text': 'Hello from Python!'}
-jsoned = json.dumps(data).encode('utf-8')
+jsoned = json.dumps(data)
 req = request.Request(URL, data=jsoned, method='POST')
 request.urlopen(req)
 ```
@@ -337,12 +343,12 @@ request.urlopen(req)
 
 Note:
 
-* We are pythonistas.
-* Next, we use urllib.requests module for webhook.
+* But we are pythonista.
+* We use `urllib.requests` module.
 
 +++
 
-### Post a message with Requests
+### message with Requests
 
 ```python
 import requests
@@ -356,7 +362,7 @@ requests.post(URL, json=data)
 
 Note:
 
-* Using Requests is like this. It's easy to us.
+* If you like Requests, it's easy.
 
 +++
 
@@ -389,6 +395,7 @@ We can send complex messages like this with message attachments.
 
 Note:
 
+* If you need more comples message, you can use Block-Kit.
 * Block-Kit is a new UI framework on Slack.
 * and Block Kit Builder is interactive prototype builder.
 
@@ -457,12 +464,12 @@ Note:
 +++?image=20190917pyconjp/images/get-bot-token.png&size=70% auto
 
 Note:
-* Get Bot Access Token
+* We got a Access Token
 
 +++?image=20190917pyconjp/images/invite-bot.png&size=70% auto
 
 Note:
-* Invite Bot to channel
+* At last, invite Bot to channels
 
 +++
 
@@ -474,8 +481,8 @@ Note:
 * `pip install slackbot`
 
 Note:
-* Then, I will create my bot
-* slackbot is a simple chatbot framework
+* Then, I will create my slackbot program
+* slackbot is a simple chatbot framework for Python
 
 +++
 
@@ -490,8 +497,8 @@ $ . env/bin/activate
 ```
 
 Note:
-* I make venv and install slackbot library.
-* Next, I make simplest slackbot with 4 files.
+* I make venv and install slackbot library for my bot project.
+* Then, I make simplest slackbot with 4 files.
 
 +++
 
@@ -594,7 +601,14 @@ def ping(message):
     message.send('Cheers! :beers:')
 ```
 
+Note:
+* `listen_to` is called when a message matching the pattern is sent on a channel
+* `respond_to` is sent to the bot
+
 +++?image=20190917pyconjp/images/slackbot-decolator.png&size=auto 80%
+
+Note:
+* The `cheers` message only works with mention.
 
 +++
 
@@ -606,7 +620,7 @@ def ping(message):
 ```python
 @listen_to('morning')
 def morning(message):
-    message.reply('Good morning!')
+    message.reply('Good morning!')  # reply to me
 
 @listen_to('hungry')
 def hungry(message):
@@ -634,6 +648,10 @@ def bees(message, num):  # num=3 or 100
     if beers:
         message.send(beers)
 ```
+
+Note:
+* slackbot can handle parameters.
+* We use regular expressions with parentheses, it is passed as parameter values.
 
 +++?image=20190917pyconjp/images/slackbot-re.png&size=auto 80%
 
@@ -679,11 +697,11 @@ def followme(message):
 ### Summary of Slackbot
 
 * We can COMMUNICATE with Slackbot
-* Slackbot can handle ARGUMENTS in messages
+* Slackbot can handle PARAMETERS in messages
 * Slackbot can send messages in VARIOUS formats
 
 Note:
-I think that you understand Slackbot can do various things.
+I think you understood Slackbot can do various things.
 Next,...
 
 ---
@@ -691,7 +709,7 @@ Next,...
 ## Case studies
 
 Note:
-I will show some case studies combining Python libraries and APIs.
+I will show you some case studies combining Python libraries and APIs.
 
 ---
 
@@ -905,7 +923,7 @@ def jira_search(message, keywords):
 
 * Motivation
   * In pycamp event, **20+ issues** are required for each event
-  * It is very painful for me to **copy issues** manually
+  * Copying issues by hand is painful 
   * JIRA Web is Very Heavy(again)
 
 Note:
@@ -1172,7 +1190,7 @@ Then you will have more free time so you can do other creative things more.
 
 ## Thank you! 🙏
 
-## ありがとうございます! 🙏
+## ありがとうございました!
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
