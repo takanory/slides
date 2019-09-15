@@ -140,11 +140,11 @@ Note:
 
 +++
 
-## Tour Report
+## Conference Report 📝
 
-* Search: `PyCon site:gihyo.jp`
+* Search "`PyCon site:gihyo.jp`"
 
-![gihyo](20190917pyconjp/images/gihyo.jpg)
+![gihyo.jp](20190917pyconjp/gihyo.jpg)
 
 Note:
 * you can read my conference report at gihyo.jp.
