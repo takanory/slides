@@ -136,6 +136,18 @@ Note:
 * BTW, This year, I am challenging to talk or poster at PyCon around the world.
 * Japan is the 6th place in my PyCon tour.
 * See you again at PyCon somewhere.
+* If you are interested in my tou, ...
+
++++
+
+## Tour Report
+
+* Search: `PyCon site:gihyo.jp`
+
+![gihyo](20190917pyconjp/images/gihyo.jpg)
+
+Note:
+* you can read my conference report at gihyo.jp.
 * Well then, let's talk about the main topic.
 
 ---
