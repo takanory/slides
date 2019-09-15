@@ -144,7 +144,7 @@ Note:
 
 * Search "`PyCon site:gihyo.jp`"
 
-![gihyo.jp](20190917pyconjp/gihyo.jpg)
+![gihyo.jp](20190917pyconjp/images/gihyo.png)
 
 Note:
 * you can read my conference report at gihyo.jp.
