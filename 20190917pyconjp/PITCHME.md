@@ -36,7 +36,7 @@ Note:
 
 ## Who am I?
 
-* Takanori Suzuki / 鈴木 たかのり ([@takanory](https://twitter.com/takanory))
+* Takanori Suzuki / 鈴木 たかのり / [@takanory](https://twitter.com/takanory)
 * Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
 * Director of [BeProud Inc.](https://www.beproud.jp)
 * Instructor of [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): `#pycamp`
