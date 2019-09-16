@@ -29,7 +29,7 @@ Today, I will talk about...
 ### `#pyconjp2019` / `@takanory`
 
 Note:
-* Take photos and tweets welcome.
+* Take pictures and tweets welcome.
 * I will share this slides so you don't have to take notes.
 
 ---
@@ -105,6 +105,8 @@ Note:
 * Place: 1F
 * Language: 🇯🇵 🇬🇧
 
+![Booth](20190917pyconjp/images/booth2.jpg)
+
 Note:
 * And web have a booth today and tomorrow.
 
@@ -135,8 +137,8 @@ Note:
 Note:
 * BTW, This year, I am challenging to talk or poster at PyCon around the world.
 * Japan is the 6th place in my PyCon tour.
-* See you again at PyCon somewhere.
-* If you are interested in my tou, ...
+* (See you again at PyCon somewhere.)
+* If you are interested in my tour, ...
 
 +++
 
