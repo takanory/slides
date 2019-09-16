@@ -101,9 +101,7 @@ Note:
 
 ## PyCon JP & PSF Booth
 
-* Date: Today and Tomorrow
-* Place: 1F
-* Language: 🇯🇵 🇬🇧
+* Place: 1F / Language: 🇯🇵 🇬🇧
 
 ![Booth](20190917pyconjp/images/booth2.jpg)
 
