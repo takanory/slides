@@ -30,16 +30,16 @@ Today, I will talk about...
 
 Note:
 * Take pictures and tweets welcome.
-* I will share this slides so you don't have to take notes.
+* I have already published this slides so you don't have to take notes.
 
 ---
 
 ## Who am I?
 
-* Takanori Suzuki / 鈴木 たかのり
-* Twitter: [@takanory](https://twitter.com/takanory)
+* Takanori Suzuki / 鈴木 たかのり ([@takanory](https://twitter.com/takanory))
 * Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
 * Director of [BeProud Inc.](https://www.beproud.jp)
+* Instructor of [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): `#pycamp`
 * Organizer of [Python mini Hack-a-thon](https://pyhack.connpass.com/): `#pyhack`
 * Captain of [Python Bouldering Club](https://kabepy.connpass.com/): `#kabepy`
 
