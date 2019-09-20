@@ -7,7 +7,7 @@ PyCon Taiwan / 2019 Sep 22
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to talk in PyCon Taiwan.
+* I am very happy to be able to talk in PyCon Japan.
 
 ---
 
@@ -26,20 +26,20 @@ Today, I will talk about...
 ## Photos 📷 Tweets 🐦 👍
 ## Notes 📝 🙅‍♂️
 
-`#pycontw`
+### `#pyconjp` / `@takanory`
 
 Note:
-* Take photos and tweets welcome.
-* I will share this slides so you don't have to take notes.
+* Take pictures and tweets welcome.
+* I have already published this slides so you don't have to take notes.
 
 ---
 
 ## Who am I?
 
-* Takanori Suzuki / 鈴木 たかのり
-* Twitter: [@takanory](https://twitter.com/takanory)
+* Takanori Suzuki / 鈴木 たかのり / [@takanory](https://twitter.com/takanory)
 * Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
 * Director of [BeProud Inc.](https://www.beproud.jp)
+* Instructor of [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): `#pycamp`
 * Organizer of [Python mini Hack-a-thon](https://pyhack.connpass.com/): `#pyhack`
 * Captain of [Python Bouldering Club](https://kabepy.connpass.com/): `#kabepy`
 
@@ -48,45 +48,45 @@ Note:
 Note:
 (1m)
 * Before the main topic, I will introduce mycelf.
-* I'm Takanori Suzuki from Japan. My twitter is "takanory", please follow me.
+* I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
+* Do you know PyCon JP Committee?
 
 +++
 
-## PyCon JP 2019
+## PyCon JP ♥ 🇹🇼
 
-* [`pycon.jp/2019`](https://pycon.jp/2019/)
-* Date: 2019 September 14(Sat)-17(Tue)
-* Place: Tokyo, Japan
-
-![PyCon JP 2019](assets/images/pyconjp2019.png)
+![Taiwan friends](20190922pycontw/images/taiwanfriends.jpg)
 
 Note:
-
-* PyCon JP will be held in middle of September.
-* But tickets were sold out.
-* If you attend PyCon JP, see you again in September.
+* たくさんきてくれてありがとう
 
 +++
 
-## PyCon Tour 2019🌏
-
-1. Feb: PyCon APAC 🇵🇭
-2. May: US PyCon 🇺🇸
-3. Jun: PyCon Thailand 🇹🇭
-4. Jul: EuroPython 🇨🇭
-5. Aug: PyCon Malaysia 🇲🇾
-6. Sep: PyCon Japan 🇯🇵
-7. Sep: PyCon Taiwan 🇹🇼 👈 Now!!!
-8. Oct: PyCon Singapore 🇸🇬
 
 Note:
-* This year, I am challenging to talk or poster at PyCon around the world.
-* Taiwan is the 7th place of my PyCon tour, but I am first a first time attendee in this event.
-* I'm very happy to be here.
-* Well then, let's talk about the main topic.
+* 台湾で本が出てます
+
++++
+
+## PyCon Tour 2019 🌏
+
+1. PyCon APAC 🇵🇭
+2. US PyCon 🇺🇸
+3. PyCon Thailand 🇹🇭
+4. EuroPython 🇨🇭
+5. PyCon Malaysia 🇲🇾
+6. PyCon Japan 🇯🇵
+7. PyCon Taiwan 🇹🇼 👈 Now!!!
+8. PyCon Singapore 🇸🇬
+
+Note:
+* BTW, This year, I am challenging to talk or poster at PyCon around the world.
+* Taiwan is the 7th place in my PyCon tour.
+* See you again at PyCon somewhere.
 
 ---
+
 ## Background and Motivation
 
 Note:
@@ -107,7 +107,9 @@ Note:
 Note:
 
 * I held PyCon JP event several years in the past.
-* As you can imagine, lots of tasks to hold Conference. And, ...
+* As you can imagine, lots of tasks to hold Conference.
+* For example, talk arrangements, ticket sales, venue management, food...
+* And, ...
 
 +++
 
@@ -119,7 +121,7 @@ Note:
 Note:
 
 * The number of PyCon JP staff is 40 over, half of them are the new staff.
-* Newcomers ask similar things to me. And I send similar messages to newcomers.
+* New staff ask similar things to me. And I send similar answers repeatedly.
 * But, ...
 
 +++
@@ -136,7 +138,7 @@ Note:
 
 Note:
 
-* I want someone to do my bothersome tasks instead of me.
+* I want someone to do my bothersome tasks instead of me like a secretary.
 * Let's make it.
 
 ---
@@ -213,9 +215,49 @@ Note:
 
 * How to generate Webhook URL is as follows....
 
++++?image=20190917pyconjp/images/create-app1.png&size=70% auto
+
+Note:
+* Create a Slack app
+
++++?image=20190917pyconjp/images/create-app2.png&size=auto 70%
+
+Note:
+* Create a Slack app
+
++++?image=20190917pyconjp/images/create-app3.png&size=70% auto
+
+@snap[south text-04 text-gray]
+* credit: Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [`www.flaticon.com`](https://www.flaticon.com/)
+@snapend
+
+Note:
+* Set app icon(option)
+
++++?image=20190917pyconjp/images/enable-webhook1.png&size=auto 70%
+
+Note:
+* Enable webhook
+
++++?image=20190917pyconjp/images/enable-webhook2.png&size=auto 75%
+
+Note:
+* Enable webhook
+
++++?image=20190917pyconjp/images/create-webhook.png&size=auto 70%
+
+Note:
+* Create webhook in your workspace
+
++++?image=20190917pyconjp/images/get-webhookurl.png&size=auto 70%
+
+Note:
+* At last, we got a webhook URL
+* OK, We have a webhook URL. Let's send a message to slack with it.
+
 +++
 
-### Post a message with cURL
+### message with cURL
 
 ```bash
 $ curl -X POST -H 'Content-type: application/json' \
@@ -223,16 +265,16 @@ $ curl -X POST -H 'Content-type: application/json' \
 > https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX
 ```
 
-![Hello Slack from cURL](20190224pyconapac/images/webhook-curl.png)
+![Hello Slack from cURL](20190917pyconjp/images/webhook-curl.png)
 
 Note:
 
-* Send a simple message with cURL.
-* When we send a message with JSON, a message will be displayed in Slack.
+* We send a simple message with cURL.
+* Whe we send a message with JSON, the message will be displayed in Slack.
 
 +++
 
-### Post a message with Python
+### message with Python
 
 ```python
 import json
@@ -240,21 +282,21 @@ from urllib import request
 
 URL = 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXX'
 data = {'text': 'Hello from Python!'}
-jsoned = json.dumps(data).encode('utf-8')
+jsoned = json.dumps(data)
 req = request.Request(URL, data=jsoned, method='POST')
 request.urlopen(req)
 ```
 
-![Hello from Python!](20190615pyconth/images/webhook-python.png)
+![Hello from Python!](20190917pyconjp/images/webhook-python.png)
 
 Note:
 
-* We are pythonistas.
-* Next, we use urllib.requests module for webhook.
+* But we are pythonista.
+* We use `urllib.requests` module.
 
 +++
 
-### Post a message with Requests
+### message with Requests
 
 ```python
 import requests
@@ -264,11 +306,11 @@ data = {'text': 'Hello from Requests!'}
 requests.post(URL, json=data)
 ```
 
-![Hello from Requests!](20190615pyconth/images/webhook-requests.png)
+![Hello from Requests!](20190917pyconjp/images/webhook-requests.png)
 
 Note:
 
-* Using Requests is like this. It's easy to us.
+* If you like Requests, it's easy.
 
 +++
 
@@ -286,7 +328,7 @@ data = {'attachments': [{
 requests.post(URL, json=data)
 ```
 
-![Message Attachments](20190224pyconapac/images/webhook-attachments.png)
+![Message Attachments](20190917pyconjp/images/webhook-attachments.png)
 
 Note:
 We can send complex messages like this with message attachments.
@@ -301,6 +343,7 @@ We can send complex messages like this with message attachments.
 
 Note:
 
+* If you need more comples message, you can use Block-Kit.
 * Block-Kit is a new UI framework on Slack.
 * and Block Kit Builder is interactive prototype builder.
 
@@ -346,22 +389,64 @@ Note:
 * I describe how to create interactive bot.
 * At first, we craete bot user on Slack.
 
++++?image=20190917pyconjp/images/enable-bots.png&size=auto 70%
+
+Note:
+* Enable bots in your app
+
++++?image=20190917pyconjp/images/add-bot1.png&size=70% auto
+
+Note:
+* Add a Bot user
+
++++?image=20190917pyconjp/images/add-bot2.png&size=auto 70%
+
+Note:
+* Add a Bot user
+
++++?image=20190917pyconjp/images/reinstall-app.png&size=auto 70%
+
+Note:
+* Re-install app in your workspace
+
++++?image=20190917pyconjp/images/get-bot-token.png&size=70% auto
+
+Note:
+* We got a Access Token
+
++++?image=20190917pyconjp/images/invite-bot.png&size=70% auto
+
+Note:
+* At last, invite Bot to channels
+
 +++
 
-### Install `slackbot` package
+### `slackbot` package
+
+* A simple chat bot for Slack
+* Python 3.4+
+* [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
+* `pip install slackbot`
+
+Note:
+* Then, I will create my slackbot program
+* slackbot is a simple chatbot framework for Python
+
++++
+
+### Install slackbot with venv
 
 ```shell
-$ mkdir mybot; cd mybot
+$ mkdir beerbot
+$ cd beerbot
 $ python3.7 -m venv env
 $ . env/bin/activate
 (env) $ pip install slackbot
 ```
 
-* [`github.com/lins05/slackbot`](https://github.com/lins05/slackbot)
-
 Note:
-* Then, I make venv and install slackbot library.
-* slackbot is chatbot framework.
+* I make venv and install slackbot library for my bot project.
+* Then, I make simplest slackbot with 4 files.
 
 +++
 
@@ -371,7 +456,7 @@ Note:
 
 ```python
 API_TOKEN = "xoxb-123467890-XXXXXX-XXXXXXXXXXXXX"  # Bot token
-PLUGINS = ['mybot.plugins']  # Plugin packages
+PLUGINS = ['beerbot.plugins']  # Plugin packages
 ```
 
 * `run.py`
@@ -388,28 +473,26 @@ if __name__ == "__main__":
 ```
 
 Note:
-* The simplest slackbot consists of only 4 files.
 
 +++
 
 ### Simple Plugin
 
-* `mybot/plugins/__init__.py`
+* `beerbot/plugins/__init__.py`
 
 ```shell
-(env) $ mkdir mybot
-(env) $ mkdir mybot/plugins
-(env) $ touch mybot/plugins/__init__.py  # empty file
+(env) $ mkdir -p beerbot/plugins
+(env) $ touch beerbot/plugins/__init__.py  # empty file
 ```
 
-* `mybot/plugins/sample.py`
+* `beerbot/plugins/sample.py`
 
 ```python
 from slackbot.bot import listen_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I am slackbot')
+    message.send('Hi!!! I am beerbot! :beer:')
 ```
 
 Note:
@@ -420,17 +503,18 @@ Note:
 
 ### File structure
 
-File | Description
---- | ---
-`mybot/` | Project dir
-`mybot/env/` | venv
-`mybot/run.py` | Main script
-`mybot/slackbot_settings.py` | Settings
-`mybot/plugins/__init__.py` | 
-`mybot/plugins/sample.py` | Sample plugin
+```
+.
+├── beerbot
+│   └── plugins
+│       ├── __init__.py
+│       └── sample.py
+├── run.py
+└── slackbot_settings.py
+```
 
 Note:
-* たった4つのファイルで完成です
+* File structure is here
  
 +++
 
@@ -438,7 +522,7 @@ Note:
 
 * `(env) $ python run.py`
 
-![First Slackbot](20190224pyconapac/images/slackbot-hi.png)
+![First Slackbot](20190917pyconjp/images/slackbot-hi.png)
 
 Note:
 
@@ -458,28 +542,41 @@ from slackbot.bot import listen_to, respond_to
 
 @listen_to('Hi')
 def hello(message):
-    message.send('Hi!!! I am slackbot')
+    message.send('Hi!!! I am beerbot! :beer:')
 
-@respond_to('ping')  # mention
+@respond_to('cheers')  # mention
 def ping(message):
-    message.reply('pong!')  # mention
+    message.send('Cheers! :beers:')
 ```
 
-+++?image=20190824pyconmy/images/slackbot-decolator.png&size=auto 90%
+Note:
+* `listen_to` is called when a message matching the pattern is sent on a channel
+* `respond_to` is sent to the bot
+
++++?image=20190917pyconjp/images/slackbot-decolator.png&size=auto 80%
+
+Note:
+* The `cheers` message only works with mention.
 
 +++
 
-### emoji reaction
+### Mention, Emoji reaction
 
-* `message.react()` method
+* `message.reply()`: Mention
+* `message.react()`: Emoji reaction
 
 ```python
-@listen_to('beer')
-def beer(message):
-    message.react(':beer:')
+@listen_to('morning')
+def morning(message):
+    message.reply('Good morning!')  # reply to me
+
+@listen_to('hungry')
+def hungry(message):
+    emoji = random.choice(('ramen', 'sushi', 'beer'))
+    message.react(emoji)  # react random emoji
 ```
 
-![message.react](20190824pyconmy/images/slackbot-react.png)
++++?image=20190917pyconjp/images/slackbot-reply.png&size=auto 80%
 
 +++
 
@@ -492,17 +589,23 @@ def beer(message):
 def choice(message, words):  # -> words='pizza beer sushi'
     word = random.choice(words.split())
     message.send('I chose *{}*'.format(word))
+
+@listen_to('(\d+)\s*beers')  # 3 beers, 100beers
+def bees(message, num):  # num=3 or 100
+    beers = ':beer:' * int(num)
+    if beers:
+        message.send(beers)
 ```
 
+Note:
+* slackbot can handle parameters.
+* We use regular expressions with parentheses, it is passed as parameter values.
+
++++?image=20190917pyconjp/images/slackbot-re.png&size=auto 80%
+
 +++
 
-### Extract parameters on message
-
-![Regular expression](20190224pyconapac/images/slackbot-re.png)
-
-+++
-
-### Settings: `slackbot_settings.py`
+### `slackbot_settings.py`
 
 ```python
 ALIASES = '$'  # Prefix instead of mention (@mybot ping -> $ping)
@@ -511,7 +614,7 @@ DEFAULT_REPLY = "Sorry but I didn't understand you"
 PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
 
-![Settings](20190224pyconapac/images/slackbot-settings.png)
+![Settings](20190917pyconjp/images/slackbot-settings.png)
 
 * see: [Usage of Slackbot](https://github.com/lins05/slackbot#usage)
 
@@ -535,18 +638,18 @@ def followme(message):
     message.send_webapi('', json.dumps(attachments))
 ```
 
-![Attachments](20190224pyconapac/images/slackbot-attachments.png)
+![Attachments](20190917pyconjp/images/slackbot-attachments.png)
 
 +++
 
 ### Summary of Slackbot
 
 * We can COMMUNICATE with Slackbot
-* Slackbot can handle ARGUMENTS in messages
+* Slackbot can handle PARAMETERS in messages
 * Slackbot can send messages in VARIOUS formats
 
 Note:
-I think that you understand Slackbot can do various things.
+I think you understood Slackbot can do various things.
 Next,...
 
 ---
@@ -554,7 +657,7 @@ Next,...
 ## Case studies
 
 Note:
-I will show some case studies combining Python libraries and APIs.
+I will show you some case studies combining Python libraries and APIs.
 
 ---
 
@@ -570,16 +673,15 @@ I will show some case studies combining Python libraries and APIs.
 
 +++
 
-### Install SymPy
+### about SymPy
 
 * SymPy: Python library for symbolic mathematics
   * [`www.sympy.org`](https://www.sympy.org/)
-* Install:
-  * `$ pip install sympy`
+* `$ pip install sympy`
 
 +++
 
-* `mybot/plugins/calc.py`
+* `calc.py`
 
 ```python
 from slackbot.bot import listen_to
@@ -589,16 +691,16 @@ from sympy import sympify, SympifyError
 def calc(message, formula):
     try:
         result = sympify(formula)  # Simplifies the formula
-	if result.is_Integer:
-	    answer = int(result)  # Convert to interger value
-	else:
-	    answer = float(result)  # Convert to float value
+        if result.is_Integer:
+            answer = int(result)  # Convert to interger value
+        else:
+            answer = float(result)  # Convert to float value
         message.send(f'{answer:,}')
     except SympifyError:
         pass
 ```
 
-+++?image=20190224pyconapac/images/slackbot-calc.png&size=auto
++++?image=20190917pyconjp/images/slackbot-calc.png&size=auto 80%
 
 ---
 
@@ -613,19 +715,18 @@ def calc(message, formula):
 
 +++
 
-### Install Peewee
+### about Peewee
 
 * Simple and small ORM.
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
 * [`docs.peewee-orm.com`](http://docs.peewee-orm.com/en/latest/)
-* Install:
-  * `$ pip install peewee`
+* `$ pip install peewee`
 
 +++
 
-### Plusplus model
+### `plusplus_model.py`
 
 ```python
 from pathlib import Path
@@ -647,7 +748,7 @@ db.create_tables([Plusplus], safe=True)
 
 +++
 
-### Plusplus command
+### `plusplus.py`
 
 ```
 from slackbot.bot import listen_to
@@ -665,7 +766,7 @@ def plusplus(message, name):
     message.send(f'Thank you {name}! (count: {plus.counter})')
 ```
 
-+++?image=20190824pyconmy/images/slackbot-plusplus.png&size=auto 90%
++++?image=20190917pyconjp/images/slackbot-plusplus.png&size=auto 80%
 
 ---
 
@@ -688,12 +789,11 @@ def plusplus(message, name):
 
 +++
 
-### Install Python JIRA
+### about Python JIRA
 
 * Python library to work with JIRA APIs
-  * [`jira.readthedocs.io`](https://jira.readthedocs.io/)
-* Install:
-  * `$ pip install jira`			
+* [`jira.readthedocs.io`](https://jira.readthedocs.io/)
+* `$ pip install jira`			
 
 +++
 
@@ -771,7 +871,7 @@ def jira_search(message, keywords):
 
 * Motivation
   * In pycamp event, **20+ issues** are required for each event
-  * It is very painful for me to **copy issues** manually
+  * Copying issues by hand is painful 
   * JIRA Web is Very Heavy(again)
 
 Note:
@@ -791,10 +891,7 @@ Note:
   * enable API(in this case: Google Sheets API)
   * download `credentials.json`
 * Install Google Client Library
-
-```sh
-$ pip install google-api-python-client google-auth-oauthlib
-```
+  * `pip install google-api-python-client google-auth-oauthlib`
 
 Note:
 * At firest, we make Google Authorized token.
@@ -874,13 +971,13 @@ issue = jira.create_issue(fields=issue_dict)  # create issue
 
 ![Sample of Template command](20190224pyconapac/images/template-bot-sample.png)
 
-+++?image=20190224pyconapac/images/template-pycamp-template.png&size=contain
++++?image=20190224pyconapac/images/template-pycamp-template.png&size=auto 90%
 
 Note:
 
 * Here is the pycamp issue template.
 
-+++?image=20190224pyconapac/images/template-created-issues.png&size=contain
++++?image=20190224pyconapac/images/template-created-issues.png&size=auto 90%
 
 Note:
 
@@ -1000,15 +1097,15 @@ service.users().delete(userKey=email).execute()
 * see: [Users: update | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/update)
 * see: [Users: delete | Directory API](https://developers.google.com/admin-sdk/directory/v1/reference/users/delete)
 
-+++?image=20190224pyconapac/images/gadmin-help.png&size=contain
++++?image=20190224pyconapac/images/gadmin-help.png&size=auto 90%
 
-+++?image=20190224pyconapac/images/gadmin-user-list.png&size=contain
++++?image=20190224pyconapac/images/gadmin-user-list.png&size=auto 90%
 
-+++?image=20190224pyconapac/images/gadmin-member-list.png&size=contain
++++?image=20190224pyconapac/images/gadmin-member-list.png&size=auto 90%
 
 +++
 
-### I can completely forget Google Admin web site 🎉 🎉
+### I can completely forget Google Admin 🎉 🎉
 
 +++
 
