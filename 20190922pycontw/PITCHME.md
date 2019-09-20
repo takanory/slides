@@ -62,10 +62,10 @@ Note:
 * And I and some friends are participatiing in PyCon TW from Japan.
 * I hope the relationship will continue.
 
-+++?image=20190922pycontw/images/pydatabook.jpg&auto 90%
++++?image=20190922pycontw/images/pydatabook.jpg&size=auto 90%
 
 @snap[south text-04 text-gray]
-* [用Python快速上手資料分析與機器學習](https://www.books.com.tw/products/0010827936)
+[用Python快速上手資料分析與機器學習](https://www.books.com.tw/products/0010827936)
 @snapend
 
 Note:
