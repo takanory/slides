@@ -50,22 +50,28 @@ Note:
 * Before the main topic, I will introduce mycelf.
 * I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
-* Do you know PyCon JP Committee?
 
 +++
 
-## PyCon JP ♥ 🇹🇼
+## PyCon JP ❤️ PyCon TW
 
 ![Taiwan friends](20190922pycontw/images/taiwanfriends.jpg)
 
 Note:
-* たくさんきてくれてありがとう
+* Thank you so many Taiwanese friends for coming to PyCon JP on this week.
+* And I and some friends are participatiing in PyCon TW from Japan.
+* I hope the relationship will continue.
 
-+++
++++?image=20190922pycontw/images/pydatabook.jpg&auto 90%
 
+@snap[south text-04 text-gray]
+* [用Python快速上手資料分析與機器學習](https://www.books.com.tw/products/0010827936)
+@snapend
 
 Note:
-* 台湾で本が出てます
+* BTW, my book was published in Taiwan in July 2019.
+* Please check it out.
+* If you have it I will write an autograph.
 
 +++
 
@@ -81,9 +87,9 @@ Note:
 8. PyCon Singapore 🇸🇬
 
 Note:
-* BTW, This year, I am challenging to talk or poster at PyCon around the world.
+* This year, I am challenging to talk or poster at PyCon around the world.
 * Taiwan is the 7th place in my PyCon tour.
-* See you again at PyCon somewhere.
+* I want to make Pythonista friends around the world. Please contact to me.
 
 ---
 
