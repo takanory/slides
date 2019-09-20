@@ -26,7 +26,7 @@ Today, I will talk about...
 ## Photos 📷 Tweets 🐦 👍
 ## Notes 📝 🙅‍♂️
 
-### `#pyconjp` / `@takanory`
+### `#pycontw` / `@takanory`
 
 Note:
 * Take pictures and tweets welcome.
