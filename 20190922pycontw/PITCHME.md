@@ -1223,3 +1223,16 @@ Then you will have more free time so you can do other creative things more.
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
++++
+
+```python
+from googletrans import Translator
+from slackbot.bot import respond_to
+
+@respond_to('^trans\s+(.+)\s+([\w-]+)$')
+def trans(message, text, dest):
+    translator = Translator()
+    t = translator.translate(text, dest=dest)
+    message.send(t.text)
+```
