@@ -368,6 +368,7 @@ bars = [{  # bar info
     'address': '松山區復興南路一段39號',
     'tweet': 'https://twitter.com/takanory/status/1174640810991718400',
     'image': 'https://pbs.twimg.com/media/EE0pl9cW4AEokGj?format=jpg',
+    'beers': ['Cream Ale', 'Seventy Four'],
 },
 {
     'name': 'Driftwood Ximending ',
@@ -375,6 +376,7 @@ bars = [{  # bar info
     'address': '萬華區昆明街46號',
     'tweet': 'https://twitter.com/takanory/status/1175034244328038400',
     'image': 'https://pbs.twimg.com/media/EE6PayFX4AU-dsx?format=jpg',
+    'beers': ['Bright Ale', 'Taihu IPA', 'Yuzu Midnight IPA'],
 }]
 ```
 
@@ -401,7 +403,7 @@ for bar in bars:  # create all bar info
     s = {'type': 'section'}
     s['text'] = {  # text
         'type': 'mrkdwn',
-        'text': f"*{bar['name']}*\n{bar['tweet']}",
+        'text': f"*{bar['name']}*\n{bar['tweet']}\n{', '.join(bar['beers'])}",
     }
     s['fields'] = [  # fields
         {'type': 'mrkdwn', 'text': f"*Date*: {bar['date']}"},
