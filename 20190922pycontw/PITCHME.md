@@ -360,9 +360,9 @@ Note:
 ```python
 import requests
 
-URL = 'https://hooks.slack.com/services/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'
+URL = 'https://hooks.slack.com/services/T0XXXXXX/YYYYYYYY/ZZZZZZZ'
 
-bars = [{
+bars = [{  # bar info
     'name': 'Zhang Men Brewing Company',
     'date': '19 Sep 2019',
     'address': '松山區復興南路一段39號',
@@ -387,28 +387,27 @@ title = {
     'type': 'section',
     'text': {
         'type': 'mrkdwn',
-        'text': 'My beer journey in :flag-tw:',
+        'text': 'My :beer: journey in :flag-tw:',
     }
 }
-blocks.append(title)
-blocks.append({'type': 'divider'})
+blocks.append(title)  # add title
+blocks.append({'type': 'divider'})  # add divider
 ```
 
 +++
 
 ```
-for bar in bars:
+for bar in bars:  # create all bar info
     s = {'type': 'section'}
-    s['text'] = {
+    s['text'] = {  # text
         'type': 'mrkdwn',
         'text': f"*{bar['name']}*\n{bar['tweet']}",
     }
-    fields = [
+    s['fields'] = [  # fields
         {'type': 'mrkdwn', 'text': f"*Date*: {bar['date']}"},
         {'type': 'mrkdwn', 'text': f"*Address*: {bar['address']}"},
     ]
-    s['fields'] = fields
-    s['accessory'] = {
+    s['accessory'] = {  # image
         'type': 'image',
         'image_url': bar['image'],
         'alt_text': bar['name'],
