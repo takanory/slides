@@ -73,18 +73,11 @@ Note:
 * Please check it out.
 * If you have it I will write an autograph.
 
-+++
++++?image=20190922pycontw/imagese/pycontourmap.jpg&size=auto 90%
 
-## PyCon Tour 2019 🌏
-
-1. PyCon APAC 🇵🇭
-2. US PyCon 🇺🇸
-3. PyCon Thailand 🇹🇭
-4. EuroPython 🇨🇭
-5. PyCon Malaysia 🇲🇾
-6. PyCon Japan 🇯🇵
-7. PyCon Taiwan 🇹🇼 👈 Now!!!
-8. PyCon Singapore 🇸🇬
+@snap[south text-04 text-gray]
+[`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
+@snapend
 
 Note:
 * This year, I am challenging to talk or poster at PyCon around the world.
