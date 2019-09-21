@@ -684,7 +684,7 @@ def bees(message, num):  # num='3' or '100'
         message.send(beers)
 ```
 
-![beers](20190922pycontw/images/slackbot-react.png)
+![beers](20190922pycontw/images/slackbot-beers.png)
 
 +++
 
@@ -1219,9 +1219,7 @@ Then you will have more free time so you can do other creative things more.
 
 +++
 
-## Thank you! 🙏
-
-## 謝謝! 🙏
+![Thank you!!](20190922pycontw/images/slackbot-thanks.png)
 
 * Twitter: [@takanory](https://twitter.com/takanory)
 * Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
