@@ -53,9 +53,10 @@ Note:
 
 +++
 
-## Do you now PyCon JP?
+## Do you know PyCon JP?
 
-* I think, you know PyCon JP very well.
+Note:
+* I think, everyone knows very well.
 
 +++
 
@@ -65,7 +66,7 @@ Note:
 
 Note:
 * Thank you so many Taiwanese friends for coming to PyCon JP on this week.
-* And I and some friends are participatiing in PyCon TW from Japan.
+* And 10 or more friends are participating in PyCon Taiwan from Japan.
 * I hope the relationship will continue.
 
 +++?image=20190922pycontw/images/pydatabook.jpg&size=auto 85%
@@ -353,6 +354,69 @@ Note:
 * and Block Kit Builder is interactive prototype builder.
 
 +++?image=20190615pyconth/images/block-kit-builder.png&size=contain
+
++++
+
+```python
+import requests
+
+URL = 'https://hooks.slack.com/services/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'
+
+bars = [{
+    'name': 'Zhang Men Brewing Company',
+    'date': '19 Sep 2019',
+    'address': '松山區復興南路一段39號',
+    'tweet': 'https://twitter.com/takanory/status/1174640810991718400',
+    'image': 'https://pbs.twimg.com/media/EE0pl9cW4AEokGj?format=jpg',
+},
+{
+    'name': 'Driftwood Ximending ',
+    'date': '20 Sep 2019',
+    'address': '萬華區昆明街46號',
+    'tweet': 'https://twitter.com/takanory/status/1175034244328038400',
+    'image': 'https://pbs.twimg.com/media/EE6PayFX4AU-dsx?format=jpg',
+}]
+```
+
++++
+
+```python
+data = {'text': ''}
+blocks = []
+title = {
+    'type': 'section',
+    'text': {
+        'type': 'mrkdwn',
+        'text': 'My beer journey in :flag-tw:',
+    }
+}
+blocks.append(title)
+blocks.append({'type': 'divider'})
+```
+
++++
+
+```
+for bar in bars:
+    s = {'type': 'section'}
+    s['text'] = {
+        'type': 'mrkdwn',
+        'text': f"*{bar['name']}*\n{bar['tweet']}",
+    }
+    fields = [
+        {'type': 'mrkdwn', 'text': f"*Date*: {bar['date']}"},
+        {'type': 'mrkdwn', 'text': f"*Address*: {bar['address']}"},
+    ]
+    s['fields'] = fields
+    s['accessory'] = {
+        'type': 'image',
+        'image_url': bar['image'],
+        'alt_text': bar['name'],
+    }
+    blocks.append(s)
+data['blocks'] = blocks
+r = requests.post(URL, json=data)
+```
 
 +++
 
