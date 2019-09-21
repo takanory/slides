@@ -73,7 +73,7 @@ Note:
 * Please check it out.
 * If you have it I will write an autograph.
 
-+++?image=20190922pycontw/imagese/pycontourmap.jpg&size=auto 90%
++++?image=20190922pycontw/images/pycontourmap.jpg&size=auto 90%
 
 @snap[south text-04 text-gray]
 [`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
