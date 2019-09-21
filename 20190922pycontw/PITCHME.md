@@ -1226,6 +1226,8 @@ Then you will have more free time so you can do other creative things more.
 
 +++
 
+### `$trans` command
+
 ```python
 from googletrans import Translator
 from slackbot.bot import respond_to
