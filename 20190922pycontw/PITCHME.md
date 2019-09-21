@@ -420,7 +420,7 @@ data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20190922pycontw/images/beerjourney.png&size=auto 90%
++++?image=20190922pycontw/images/beerjourney.png
 
 +++
 
