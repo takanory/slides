@@ -401,9 +401,10 @@ blocks.append({'type': 'divider'})  # add divider
 ```
 for bar in bars:  # create all bar info
     s = {'type': 'section'}
+    beers = ', '.join(bar['beers']
     s['text'] = {  # text
         'type': 'mrkdwn',
-        'text': f"*{bar['name']}*\n{bar['tweet']}\n{', '.join(bar['beers'])}",
+        'text': f"*{bar['name']}*\n{bar['tweet']}\n{beers}",
     }
     s['fields'] = [  # fields
         {'type': 'mrkdwn', 'text': f"*Date*: {bar['date']}"},
@@ -419,7 +420,7 @@ data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20190922pycontw/images/beerjourney.png
++++?image=20190922pycontw/images/beerjourney.png&size=auto 90%
 
 +++
 
