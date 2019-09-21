@@ -633,23 +633,27 @@ Note:
 
 +++
 
-### Mention, Emoji reaction
-
-* `message.reply()`: Mention
-* `message.react()`: Emoji reaction
+### `message.reply()`: Mention
 
 ```python
 @listen_to('morning')
 def morning(message):
     message.reply('Good morning!')  # reply to me
-
-@listen_to('hungry')
-def hungry(message):
-    emoji = random.choice(('ramen', 'sushi', 'beer'))
-    message.react(emoji)  # react random emoji
 ```
 
-+++?image=20190917pyconjp/images/slackbot-reply.png&size=auto 80%
+![mention](20190922pycontw/images/slackbot-reply.png)
+
++++
+
+### `message.react()`: Emoji reaction
+
+```python
+@listen_to('beer')
+def hungry(message):
+    message.react('beer')  # react beer emoji
+```
+
+![react](20190922pycontw/images/slackbot-react.png)
 
 +++
 
@@ -662,19 +666,25 @@ def hungry(message):
 def choice(message, words):  # -> words='pizza beer sushi'
     word = random.choice(words.split())
     message.send('I chose *{}*'.format(word))
-
-@listen_to('(\d+)\s*beers')  # 3 beers, 100beers
-def bees(message, num):  # num=3 or 100
-    beers = ':beer:' * int(num)
-    if beers:
-        message.send(beers)
 ```
+
+![choice](20190922pycontw/images/slackbot-choice.png)
 
 Note:
 * slackbot can handle parameters.
 * We use regular expressions with parentheses, it is passed as parameter values.
 
-+++?image=20190917pyconjp/images/slackbot-re.png&size=auto 80%
++++
+
+```python
+@listen_to('(\d+)\s*beers')  # 3 beers, 100beers
+def bees(message, num):  # num='3' or '100'
+    beers = ':beer:' * int(num)
+    if beers:
+        message.send(beers)
+```
+
+![beers](20190922pycontw/images/slackbot-react.png)
 
 +++
 
