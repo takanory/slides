@@ -377,6 +377,14 @@ bars = [{  # bar info
     'tweet': 'https://twitter.com/takanory/status/1175034244328038400',
     'image': 'https://pbs.twimg.com/media/EE6PayFX4AU-dsx?format=jpg',
     'beers': ['Bright Ale', 'Taihu IPA', 'Yuzu Midnight IPA'],
+},
+{
+    'name': 'Redpoint Brewery',
+    'date': '21 Sep 2019',
+    'address': 'Da-an District, 106',
+    'tweet': 'https://twitter.com/takanory/status/1175380697764290561',
+    'image': 'https://pbs.twimg.com/media/EE_KhARW4AEekHb?format=jpg',
+    'beers': ['台.P.A.', 'Hazy Platypus', 'Hoppy Hibiscus', 'Disco Macaw'],
 }]
 ```
 
@@ -426,9 +434,9 @@ r = requests.post(URL, json=data)
 
 ### Summary of Incoming Webhooks
 
-* EASY to send messages from programs
-* We can create COMPLEX messages
-* But ONE WAY only(program -> Webhook -> Slack)
+* EASY to send messages from programs ⚙️
+* We can create COMPLEX messages 🛠
+* But ONE WAY only(program 👉 Webhook 👉 Slack)
 
 Note:
 I want to talk with bot.
@@ -608,7 +616,10 @@ Note:
 
 +++
 
-### `listen_to` / `respond_to` decorator
+### decorator
+
+* `listen_to`: message sent on a channel
+* `respond_to`: message sent to the bot
 
 ```python
 from slackbot.bot import listen_to, respond_to
@@ -633,7 +644,9 @@ Note:
 
 +++
 
-### `message.reply()`: Mention
+### mention
+
+* `message.reply()`
 
 ```python
 @listen_to('morning')
@@ -645,7 +658,9 @@ def morning(message):
 
 +++
 
-### `message.react()`: Emoji reaction
+### emoji reaction
+
+* `message.react()`
 
 ```python
 @listen_to('beer')
