@@ -7,7 +7,7 @@ PyCon Taiwan / 2019 Sep 22
 Note:
 
 * Thank you for coming to my presentation.
-* I am very happy to be able to talk in PyCon Japan.
+* I am very happy to be able to talk in PyCon Taiwan.
 
 ---
 
@@ -30,7 +30,7 @@ Today, I will talk about...
 
 Note:
 * Take pictures and tweets welcome.
-* I have already published this slides so you don't have to take notes.
+* I have already published this slides, so you don't have to take notes.
 
 ---
 
@@ -282,7 +282,7 @@ $ curl -X POST -H 'Content-type: application/json' \
 Note:
 
 * We send a simple message with cURL.
-* Whe we send a message with JSON, the message will be displayed in Slack.
+* When we send a message with JSON, the message will be displayed in Slack.
 
 +++
 
@@ -355,9 +355,9 @@ We can send complex messages like this with message attachments.
 
 Note:
 
-* If you need more comples message, you can use Block-Kit.
+* If you need more complex message, you can use Block-Kit.
 * Block-Kit is a new UI framework on Slack.
-* and Block Kit Builder is interactive prototype builder.
+* And Block Kit Builder is interactive prototype builder.
 
 +++?image=20190615pyconth/images/block-kit-builder.png&size=contain
 
@@ -1248,6 +1248,8 @@ Then you will have more free time so you can do other creative things more.
 +++
 
 ### `$trans` command
+
+* `pip install googletrans`
 
 ```python
 from googletrans import Translator
