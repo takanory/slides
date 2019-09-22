@@ -59,15 +59,31 @@ Note:
 * I think, everyone knows very well.
 
 +++
-
 ## PyCon JP ❤️ PyCon TW
 
 ![Taiwan friends](20190922pycontw/images/taiwanfriends.jpg)
 
 Note:
 * Thank you so many Taiwanese friends for coming to PyCon JP on this week.
-* And 10 or more friends are participating in PyCon Taiwan from Japan.
+* And...
+
++++?image=20190922pycontw/images/teamjapan.jpg&size=contain
+
+Note:
+* Our side, 10+ my friends are participating in PyCon Taiwan from Japan.
 * I hope the relationship will continue.
+* But PyCon is not only Taiwan and Japan.
+
++++?image=20190922pycontw/images/pycontourmap.jpg&size=auto 90%
+
+@snap[south text-04 text-gray]
+[`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
+@snapend
+
+Note:
+* This year, I am challenging to talk or poster at Python Conference around the world.
+* Taiwan is the 7th place in my PyCon tour.
+* I want to make Pythonista friends around the world. Please talk to me.
 
 +++?image=20190922pycontw/images/pydatabook.jpg&size=auto 85%
 
@@ -78,18 +94,8 @@ Note:
 Note:
 * BTW, my book was published in Taiwan in July 2019.
 * Please check it out.
-* If you have it I will write an autograph.
-
-+++?image=20190922pycontw/images/pycontourmap.jpg&size=auto 90%
-
-@snap[south text-04 text-gray]
-[`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
-@snapend
-
-Note:
-* This year, I am challenging to talk or poster at PyCon around the world.
-* Taiwan is the 7th place in my PyCon tour.
-* I want to make Pythonista friends around the world. Please contact to me.
+* If you have it I can write an autograph.
+* OK, let's talk about main topic.
 
 ---
 
