@@ -19,7 +19,7 @@
      * 2019 Oct
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * 
+     * `Slides <https://gitpitch.com/takanory/slides?p=20191010pyconsg>`__
    - * `PyCon TW <https://tw.pycon.org/2019/en-us/>`__
      * Taipei, Taiwan
      * 2019 Sep
@@ -38,6 +38,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://gitpitch.com/takanory/slides?p=20190824pyconmy>`__ 
+       `Report <https://gihyo.jp/news/report/2019/09/0901>`__
    - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
      * Tokyo, Japan
      * 2019 Aug
