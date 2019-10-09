@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `PyCon ID <https://pycon.id/>`__
+     * Surabaya, Indonesia
+     * 2019 Nov
+     * Talk
+     * Automate the Boring Stuff with Slackbot
+     * 
    - * `PyCon SG <https://pycon.sg/>`__
      * Singapore
      * 2019 Oct
