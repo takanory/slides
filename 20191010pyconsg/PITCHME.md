@@ -38,8 +38,9 @@ Note:
 Note:
 * But, I have already published this slides, so you don't have to take notes.
 
----?image=assets/images/sokidan-square.jpg?position=left&size=50% auto
+---?image=assets/images/sokidan-square.jpg?position=left&size=auto 50%
 
+@snap[west span-50]
 ## Who am I?
 
 * Takanori Suzuki / 鈴木 たかのり
@@ -47,6 +48,7 @@ Note:
 * [PyCon JP Committee](https://www.pycon.jp)
 * [BeProud Inc.](https://www.beproud.jp)
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
+@[snapend]
 
 Note:
 (1m)
