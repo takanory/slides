@@ -65,7 +65,7 @@ Note:
 Note:
 * This year, I am challenging to talk or poster at Python Conference around the world.
 * Singapore is the 8th place in my PyCon tour.
-* I want to make Pythonista friends around the world. Please talk to me.
+* I want to make Pythonista friends around the world. Please talk to me. Let's go get a beer.
 
 ---
 
@@ -127,7 +127,7 @@ Note:
 
 ## Goal
 
-* How to create SIMPLE bot
+* How to create @color[SeaGreen](SIMPLE) bot
 * How to create INTERACTIVE bot
 * How to EXTEND bot using libs and APIs
 
