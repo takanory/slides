@@ -333,29 +333,21 @@ import requests
 
 URL = 'https://hooks.slack.com/services/T0XXXXXX/YYYYYYYY/ZZZZZZZ'
 
-bars = [{  # bar info
-    'name': 'Zhang Men Brewing Company',
-    'date': '19 Sep 2019',
-    'address': '松山區復興南路一段39號',
-    'tweet': 'https://twitter.com/takanory/status/1174640810991718400',
-    'image': 'https://pbs.twimg.com/media/EE0pl9cW4AEokGj?format=jpg',
-    'beers': ['Cream Ale', 'Seventy Four'],
+bars = [{
+    'name': 'Chin Chin Eating House',
+    'date': '9 Oct 2019',
+    'address': '19 Purvis Street',
+    'tweet': 'https://twitter.com/takanory/status/1181912217265917952',
+    'image': 'https://pbs.twimg.com/media/EGb-4osUEAAG6LQ?format=jpg',
+    'beers': ['Tiger', 'Heineken'],
 },
 {
-    'name': 'Driftwood Ximending ',
-    'date': '20 Sep 2019',
-    'address': '萬華區昆明街46號',
-    'tweet': 'https://twitter.com/takanory/status/1175034244328038400',
-    'image': 'https://pbs.twimg.com/media/EE6PayFX4AU-dsx?format=jpg',
-    'beers': ['Bright Ale', 'Taihu IPA', 'Yuzu Midnight IPA'],
-},
-{
-    'name': 'Redpoint Brewery',
-    'date': '21 Sep 2019',
-    'address': 'Da-an District, 106',
-    'tweet': 'https://twitter.com/takanory/status/1175380697764290561',
-    'image': 'https://pbs.twimg.com/media/EE_KhARW4AEekHb?format=jpg',
-    'beers': ['台.P.A.', 'Hazy Platypus', 'Hoppy Hibiscus', 'Disco Macaw'],
+    'name': 'The Arumoury',
+    'date': '9 Oct 2019',
+    'address': '#01-02 South Beach (36 Beach Road)',
+    'tweet': 'https://twitter.com/takanory/status/1182156955600732160',
+    'image': 'https://pbs.twimg.com/media/EGfdfJwXkAEgtYQ?format=jpg',
+    'beers': ['Dog Days', 'Make America Juicy Again'],
 }]
 ```
 
@@ -368,7 +360,7 @@ title = {
     'type': 'section',
     'text': {
         'type': 'mrkdwn',
-        'text': 'My :beer: journey in :flag-tw:',
+        'text': 'My :beer: journey in :flag-sg:',
     }
 }
 blocks.append(title)  # add title
@@ -399,7 +391,7 @@ data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20190922pycontw/images/beerjourney.png&size=90% auto
++++?image=201901010pyconsg/images/beerjourney.png&size=90% auto
 
 +++
 
