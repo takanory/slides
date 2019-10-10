@@ -24,26 +24,29 @@ Today, I will talk about...
 ---
 
 ## Photos 📷 Tweets 🐦 👍
-## Notes 📝 🙅‍♂️
 
-### `#pyconsg` / `@takanory`
+`#pyconsg` / `@takanory`
 
 Note:
-* Take pictures and tweets welcome.
-* I have already published this slides, so you don't have to take notes.
+* Please take pictures and tweets.
 
----
++++
+## Notes 📝 🙅‍♂️
+
+[`github.com/takanory/slides`](https://github.com/takanory/slides)
+
+Note:
+* But, I have already published this slides, so you don't have to take notes.
+
+---?image=assets/images/sokidan-square.jpg?position=left&size=50% auto
 
 ## Who am I?
 
-* Takanori Suzuki / 鈴木 たかのり / [@takanory](https://twitter.com/takanory)
-* Vice-Chair of [PyCon JP Committee](https://www.pycon.jp): `#pyconjp`
-* Director of [BeProud Inc.](https://www.beproud.jp)
-* Instructor of [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): `#pycamp`
-* Organizer of [Python mini Hack-a-thon](https://pyhack.connpass.com/): `#pyhack`
-* Captain of [Python Bouldering Club](https://kabepy.connpass.com/): `#kabepy`
-
-![takanory](assets/images/sokidan-square.jpg)
+* Takanori Suzuki / 鈴木 たかのり
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* [PyCon JP Committee](https://www.pycon.jp)
+* [BeProud Inc.](https://www.beproud.jp)
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
 
 Note:
 (1m)
