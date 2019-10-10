@@ -51,8 +51,6 @@ Note:
 * I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
 
-+++
-
 +++?image=20191010pyconsg/images/pycontourmap.jpg&size=auto 90%
 
 @snap[south text-04 text-gray]
@@ -641,7 +639,7 @@ def hungry(message):
     message.react('beer')  # react beer emoji
 ```
 
-![react](20190922pycontw/images/slackbot-react.png)
+![react](20191010pyconsg/images/slackbot-react.png)
 
 +++
 
@@ -1207,10 +1205,10 @@ Then you will have more free time so you can do other creative things more.
 
 +++
 
-![Thank you!!](20190922pycontw/images/slackbot-thanks.png)
+![Thank you!!](20191010pyconsg/images/slackbot-trans.png)
 
-* Twitter: [@takanory](https://twitter.com/takanory)
-* Slides: [`github.com/takanory/slides`](https://github.com/takanory/slides)
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
 +++
 
@@ -1228,3 +1226,10 @@ def trans(message, text, dest):
     t = translator.translate(text, dest=dest)
     message.send(t.text)
 ```
+
++++
+
+![Thank you!!](20191010pyconsg/images/slackbot-trans.png)
+
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
