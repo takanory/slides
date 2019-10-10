@@ -128,8 +128,8 @@ Note:
 ## Goal
 
 * How to create @color[SeaGreen](SIMPLE) bot
-* How to create INTERACTIVE bot
-* How to EXTEND bot using libs and APIs
+* How to create @color[SeaGreen](INTERACTIVE) bot
+* How to @color[SeaGreen](EXTEND) bot using libs and APIs
 
 Note:
 (1m)
@@ -144,7 +144,7 @@ Note:
 
 * Launching the Slack app at any time 💻 📱
 * Easy to access Slack
-* To do everything in Slack
+* To do @color[SeaGreen](everything) in Slack
 
 ![slack](20190224pyconapac/images/slack.png)
 	
@@ -181,7 +181,7 @@ Note:
 
 ### Create Incoming Webhooks Integration
 
-* Generate Webhook URL
+* Generate @color[SeaGreen](Webhook URL)
   1. Create a Slack app
   2. Enable Incoming Webhooks in the app
   3. Create an Incoming Webhook
@@ -396,15 +396,15 @@ data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=201901010pyconsg/images/beerjourney.png&size=90% auto
++++?image=20191010pyconsg/images/beerjourney.png&size=90% auto
 
 +++
 
 ### Summary of Incoming Webhooks
 
-* EASY to send messages from programs ⚙️
-* We can create COMPLEX messages 🛠
-* But ONE WAY only(program 👉 Webhook 👉 Slack)
+* @color[SeaGreen](Easy) to send messages from programs ⚙️
+* We can create @color[SeaGreen](complex) messages 🛠
+* But @color[SeaGreen](one way)(program 👉 Webhook 👉 Slack)
 
 Note:
 I want to talk with bot.
@@ -424,7 +424,7 @@ Next, I will explain how to make interactive chatbot.
 
 ### Create bot user on Slack
 
-* Create bot user 🤖
+* Create @color[SeaGreen](bot user) 🤖
   1. Create a Slack app
   2. Enable Bots
   3. Add a "Bot User"
@@ -586,8 +586,8 @@ Note:
 
 ### decorator
 
-* `listen_to`: message sent on a channel
-* `respond_to`: message sent to the bot
+* `listen_to`: message sent on @color[SeaGreen](a channel)
+* `respond_to`: message sent to @color[SeaGreen](the bot)
 
 ```python
 from slackbot.bot import listen_to, respond_to
@@ -710,9 +710,9 @@ def followme(message):
 
 ### Summary of Slackbot
 
-* We can COMMUNICATE with Slackbot
-* Slackbot can handle PARAMETERS in messages
-* Slackbot can send messages in VARIOUS formats
+* We can @color[SeaGreen](communicate) with Slackbot
+* Slackbot can handle @color[SeaGreen](parameters) in messages
+* Slackbot can send messages in @color[SeaGreen](various formats)
 
 Note:
 I think you understood Slackbot can do various things.
@@ -735,7 +735,7 @@ I will show you some case studies combining Python libraries and APIs.
 
 * Motivation
   * I feel heavy to call a calculator app on my smartphone
-  * It seems useful if Slack as a calculator
+  * It seems useful if @color[SeaGreen](Slack as a calculator)
 
 +++
 
@@ -777,13 +777,13 @@ def calc(message, formula):
 ### Plusplus function using Peewee ORM
 
 * Motivation
-  * In PyCon JP, I want to make a culture that appreciates each other staff 👍
+  * In PyCon JP, I want to make a culture that @color[SeaGreen](appreciates) each other staff 👍
 
 +++
 
 ### about Peewee
 
-* Simple and small ORM.
+* Simple and small @color[SeaGreen](ORM).
   * a small, expressive ORM
   * python 2.7+ and 3.4+ (developed with 3.6)
   * supports sqlite, mysql and postgresql
@@ -844,8 +844,8 @@ def plusplus(message, name):
 
 * Motivation
   * JIRA is very useful
-  * JIRA Web is Very heavy
-  * I want to check issue details without JIRA Web
+  * JIRA Web is @color[SeaGreen](very heavy)
+  * I want to check issue details @color[SeaGreen](without JIRA Web)
 
 +++
 
@@ -937,8 +937,8 @@ def jira_search(message, keywords):
 
 * Motivation
   * In pycamp event, **20+ issues** are required for each event
-  * Copying issues by hand is painful 
-  * JIRA Web is Very Heavy(again)
+  * Copying issues @color[SeaGreen](by hand is painful)
+  * JIRA Web is @color[SeaGreen](very Heavy) (again)
 
 Note:
 * PyCon JP hold pycamp every month.
@@ -1071,7 +1071,7 @@ Note:
 * Motivation
   * PyCon JP use `pycon.jp` domain with G Suite
   * I only use Google Admin web occasionally
-  * I forgot to use admin screen
+  * @color[SeaGreen](I forgot) to use admin screen
 
 Note:
 
@@ -1192,7 +1192,7 @@ service.users().delete(userKey=email).execute()
 
 ## Next steps
 
-* Let's make YOUR own Slackbot
+* Let's make @color[SeaGreen](your own Slackbot)
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
