@@ -38,7 +38,7 @@ Note:
 Note:
 * But, I have already published this slides, so you don't have to take notes.
 
----?image=assets/images/sokidan-square.jpg&position=right&size=auto 50%
+---?image=assets/images/sokidan-square.jpg&position=right&size=100% auto
 
 @snap[west span-50]
 ## Who am I?
@@ -48,13 +48,13 @@ Note:
 * [PyCon JP Committee](https://www.pycon.jp)
 * [BeProud Inc.](https://www.beproud.jp)
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
+@[snapend]
 
 Note:
 (1m)
 * Before the main topic, I will introduce mycelf.
 * I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Committee.
-@[snapend]
 
 +++?image=20191010pyconsg/images/pycontourmap.jpg&size=auto 90%
 
