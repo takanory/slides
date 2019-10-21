@@ -38,6 +38,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://gitpitch.com/takanory/slides?p=20190917pyconjp>`__
+       `Video <https://www.youtube.com/watch?v=rbNI2LzwaqE>`__
    - * `PyCon MY <https://pycon.my/>`__
      * Kuala Lumpur, Malaysia
      * 2019 Aug
