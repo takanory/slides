@@ -19,9 +19,7 @@
   * パスワード管理ソフト
 * 2要素認証(2FA)
   * 2要素認証どうやるの
-  * 2FAに対応しているメジャーなサービス
-  * 2FAの認証クライアント
-* Slackで2FAを設定
+  * Slackで2FAを設定
 
 ---
 
@@ -93,8 +91,8 @@
 
 ### パスワード流出をチェック
 
-* https://haveibeenpwned.com/ : メールアドレス
-* https://haveibeenpwned.com/Passwords : パスワード
+* [`haveibeenpwned.com](https://haveibeenpwned.com/) : メールアドレス
+* [`haveibeenpwned.com/Passwords`](https://haveibeenpwned.com/Passwords) : パスワード
 
 ![have i been pwned](201908-2fa/images/haveibeenpwned.png)
 
@@ -139,13 +137,117 @@
 
 ### 2要素認証とは
 
+* 2FA(Two-factor Authentication)
+* 2種類の要素で認証する
+
 +++
 
-###
+### 2種類の要素って?
+
+* 以下の3要素のうち2つ
+  * 本人だけが知っていること
+  * 本人だけが所有しているもの
+  * 本人自身の特性
+* Q: それそれどんな認証が例として考えられますか?
+* 参考: [二要素認証とは？セキュリティを向上させる5つのポイント](https://japan.norton.com/two-factor-authentication-8528)
+
++++
+
+### 認証の例
+
+* 本人だけが知っていること: パスワード
+* 本人だけが所有しているもの: トークン、スマートフォン
+* 本人自身の特性: 指紋、顔認証
+
++++
+
+### 2段階認証
+
+* 2要素認証≠2段階認証
+* Q: 違いを説明できますか?
+
++++
+
+### 2要素認証≠2段階認証
+
+* 例: ネットバンキングなど
+  * ログインパスワード(1段階)
+  * 振り込み時に秘密の質問(2段階)
+* どちらも「本人だけが知っていること」なので1要素
 
 ---
 
 ## 2要素認証どうやるの
+
+---
+
+## 2要素認証どうやるの
+
+* Webサービス + スマートフォンアプリ
+
+![多要素認証実施までの流れ](https://www.secure-sketch.com/hs-fs/hubfs/blog_GRCP%E5%AF%84%E7%A8%BF/201810_MFA%EF%BC%88%E5%B1%B1%E7%94%B0%EF%BC%89/MFA2.jpg)
+
+* 引用元: [多要素認証とは？パスワードだけでは守りきれないクラウドのセキュリティ](https://www.secure-sketch.com/blog/multi-factor-authentication)
+
++++
+
+### 2FAに対応しているサービス
+
+* Google Account
+* Dropbox
+* Evernote
+* Facebook
+* GitHub
+* Slack
+* AWS
+* PayPal
+
++++
+
+### 2FAの認証クライアント
+
+* スマートフォンにインストールして使う
+  * [Authy](https://authy.com/)
+  * [Google Authenticator](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&hl=ja&oco=0)
+  * [LastPass Authenticator](https://lastpass.com/auth/)
+  * [IIJ SmartKey](https://www.iij.ad.jp/smartkey/)
+
++++
+
+### TOTP
+
+* Time-based One-Time Password
+  * ワンタイムパスワードの1種
+  * 時間単位(だいたい30秒)でパスワードが払い出される
+* [RFC 6238 - TOTP: Time-Based One-Time Password Algorithm](https://tools.ietf.org/html/rfc6238)	
+* 参考: [ワンタイムパスワード](https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%91%E3%82%B9%E3%83%AF%E3%83%BC%E3%83%89)
+
++++
+
+### pyotp: OTPのPython実装
+
+* [pyauth/pyotp](https://github.com/pyauth/pyotp)
+
+```python
+totp = pyotp.TOTP('base32secret3232')
+totp.now() # => '492039'
+
+# OTP verified for current time
+totp.verify('492039') # => True
+time.sleep(30)
+totp.verify('492039') # => False
+```
+
++++
+
+### ハードウェアキー
+
+* (私は使ったことありません)
+* [ワンタイムパスワードトークンYubiKey](https://yubikey.yubion.com/)
+* [Titan Security Key](https://cloud.google.com/titan-security-key/?hl=ja)
+* FIDO(Fast IDentity Online)
+
+  * 参考: [FIDO エコシステム | YubiOn](https://www.yubion.com/solution/fido/)
 
 ---
 
