@@ -19,7 +19,7 @@
      * 2019 Nov
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * 
+     * `Slides <https://gitpitch.com/takanory/slides?p=20191123pyconid>`__
    - * `PyCon SG <https://pycon.sg/>`__
      * Singapore
      * 2019 Oct
