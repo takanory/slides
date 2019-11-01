@@ -32,6 +32,7 @@
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://tw.pycon.org/2019/en-us/events/talk/848945100682690780/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20190922pycontw>`__
+       `Video <https://www.youtube.com/watch?v=XGHR4D8_fjQ>`__
    - * `PyCon JP <https://pycon.jp/2019/>`__
      * Tokyo, Japan
      * 2019 Sep
