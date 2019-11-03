@@ -13,10 +13,10 @@ Note:
 
 ## Agenda
 
-* Background and Motivation for Slackbot
-* How to create SIMPLE chatbot
-* How to create INTERACTIVE bot
-* How to EXTEND bot using libs and APIs
+* @color[SeaGreen](Background) and @color[SeaGreen](Motivation) for Slackbot
+* How to create @color[SeaGreen](simple) chatbot
+* How to create @color[SeaGreen](interactive) bot
+* How to @color[SeaGreen](extend) bot using libs and APIs
 
 Note:
 Today, I will talk about...
@@ -127,9 +127,9 @@ Note:
 
 ## Goal
 
-* How to create @color[SeaGreen](SIMPLE) bot
-* How to create @color[SeaGreen](INTERACTIVE) bot
-* How to @color[SeaGreen](EXTEND) bot using libs and APIs
+* How to create @color[SeaGreen](simpe) bot
+* How to create @color[SeaGreen](interactive) bot
+* How to @color[SeaGreen](extend) bot using libs and APIs
 
 Note:
 (1m)
