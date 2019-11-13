@@ -26,6 +26,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://gitpitch.com/takanory/slides?p=20191010pyconsg>`__
+       `Video <https://www.youtube.com/watch?v=4r3-5wvi4kA>`__
        `Report <https://gihyo.jp/news/report/2019/10/2901>`__
    - * `PyCon TW <https://tw.pycon.org/2019/en-us/>`__
      * Taipei, Taiwan
