@@ -25,7 +25,7 @@ Today, I will talk about...
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#pyconid` / `@takanory`
+`#pyconid2019` / `@takanory`
 
 Note:
 * Please take pictures and tweets.
@@ -338,21 +338,21 @@ import requests
 
 URL = 'https://hooks.slack.com/services/T0XXXXXX/YYYYYYYY/ZZZZZZZ'
 
-bars = [{
-    'name': 'Chin Chin Eating House',
-    'date': '9 Oct 2019',
-    'address': '19 Purvis Street',
-    'tweet': 'https://twitter.com/takanory/status/1181912217265917952',
-    'image': 'https://pbs.twimg.com/media/EGb-4osUEAAG6LQ?format=jpg',
-    'beers': ['Tiger', 'Heineken'],
+places = [{
+    'name': 'Muguinbo',
+    'date': '21 Nov 2019',
+    'address': 'Haneda airport2-6-5, Ota, Tokyo',
+    'tweet': 'https://twitter.com/takanory/status/1197496680695943168',
+    'image': 'https://pbs.twimg.com/media/EJ5c4n0WkAIyQiz?format=jpg',
+    'food': ['Curry Udon'],
 },
 {
-    'name': 'The Arumoury',
-    'date': '9 Oct 2019',
-    'address': '#01-02 South Beach (36 Beach Road)',
-    'tweet': 'https://twitter.com/takanory/status/1182156955600732160',
-    'image': 'https://pbs.twimg.com/media/EGfdfJwXkAEgtYQ?format=jpg',
-    'beers': ['Dog Days', 'Make America Juicy Again'],
+    'name': 'Old Town White Coffee',
+    'date': '22 Nov 2019',
+    'address': 'Terminal 2, Sedati, East Java 61253',
+    'tweet': 'https://twitter.com/takanory/status/1197743437833031680',
+    'image': 'https://pbs.twimg.com/media/EJ89T0dXUAIcJXm?format=jpg',
+    'food': ['Nasi remak with fried chicken'],
 }]
 ```
 
@@ -365,7 +365,7 @@ title = {
     'type': 'section',
     'text': {
         'type': 'mrkdwn',
-        'text': 'My :beer: journey in :flag-sg:',
+        'text': 'My journey in :flag-id:',
     }
 }
 blocks.append(title)  # add title
@@ -375,28 +375,28 @@ blocks.append({'type': 'divider'})  # add divider
 +++
 
 ```
-for bar in bars:  # create all bar info
+for place in places:  # create all place info
     s = {'type': 'section'}
-    beers = ', '.join(bar['beers']
+    hood = ', '.join(place['hood'])
     s['text'] = {  # text
         'type': 'mrkdwn',
-        'text': f"*{bar['name']}*\n{bar['tweet']}\n{beers}",
+        'text': f"*{place['name']}*\n{place['tweet']}\n{food}",
     }
     s['fields'] = [  # fields
-        {'type': 'mrkdwn', 'text': f"*Date*: {bar['date']}"},
-        {'type': 'mrkdwn', 'text': f"*Address*: {bar['address']}"},
+        {'type': 'mrkdwn', 'text': f"*Date*: {food['date']}"},
+        {'type': 'mrkdwn', 'text': f"*Address*: {food['address']}"},
     ]
     s['accessory'] = {  # image
         'type': 'image',
-        'image_url': bar['image'],
-        'alt_text': bar['name'],
+        'image_url': food['image'],
+        'alt_text': food['name'],
     }
     blocks.append(s)
 data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20191010pyconsg/images/beerjourney.png&size=90% auto
++++?image=20191123pyconid/images/beerjourney.png&size=90% auto
 
 +++
 
@@ -636,7 +636,7 @@ def hungry(message):
     message.react('beer')  # react beer emoji
 ```
 
-![react](20191010pyconsg/images/slackbot-react.png)
+![react](20191123pyconid/images/slackbot-react.png)
 
 +++
 
