@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
+     * Tokyo, Japan
+     * 2019 Dec
+     * Talk
+     * 社歴長い人枠
+     * `Slides <https://gitpitch.com/takanory/slides?p=20191205bpstyle>`__
    - * `PyCon ID <https://pycon.id/>`__
      * Surabaya, Indonesia
      * 2019 Nov
