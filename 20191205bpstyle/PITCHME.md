@@ -58,7 +58,7 @@ BPStyle #109 / 2019 Dec 5
 
 +++
 
-* [お品書きに戻る](#/2)
+[「お品書き」に戻る](#/2)
 
 ---
 
@@ -115,13 +115,37 @@ BPStyle #109 / 2019 Dec 5
   * カリフォルニア、フロリダ
   * UAE
 
++++
+
+[「お品書き」に戻る](#/2)
+
 ---
 
 ## クラフトビール
 
 +++
 
-### クラフトビール
+## クラフトビール
+
+* 昔はワインとかウィスキーとか飲んでた
+* いつ頃からビールメインになったか忘れた
+* 行った先のビールを飲みに行くの楽しい
+* 基本、家では飲まない
+* 黒いビールはあんまり飲まなくなった
+
++++
+
+## Untappd
+
+* [Untappd](https://untappd.com/home)
+* 飲んだビールを記録するアプリ
+* 次の日「何杯飲んだか」がわかるので便利
+* 2016年12月7日からヘビーに使い始めた
+* [Beer History](https://untappd.com/user/takanory/beers)
+
++++
+
+[「お品書き」に戻る](#/2)
 
 ---
 
@@ -130,6 +154,50 @@ BPStyle #109 / 2019 Dec 5
 +++
 
 ## トランペット
+
+* 中学校で吹奏楽部に入る
+* そこからずっとトランペット
+* 今は市民吹奏楽団で活動
+  * 毎週日曜日に練習
+
++++
+
+## トランペット
+
+* [Schilke S32HD-GP](https://www.schilkemusic.com/bb-trumpets/hd-series/s32hd/)
+  * GPは金メッキのこと
+  * GL(ラッカー仕上げ)とは違うよ(こだわり)
+  * 海外から直輸入した
+
++++
+
+## ピッコロトランペット
+
+* [YAMAHA YTR-6810S](https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bba_piccolo_trumpets/ytr-6810s/index.html)
+  * トランペットの1オクターブ上
+  * 知り合いから中古で購入
+  * うまく吹けない...
+
++++
+
+## コルネット
+
+* [Bach 184MLSP](https://www.bachbrass.com/instruments/cornets/184ml)
+  * トランペットと同じ音域だが音質が違う
+  * 渋谷の楽器店で中古で購入
+  * 高い音が出ず苦戦中
+
++++
+
+## 楽器ケース
+
+* [Marcus Bonna 2 Trumpets Case](http://mbcases.com.br/en/products/2-trumpets-case/)
+  * トランペットとコルネットが入る
+  * 迷彩柄がお気に入り
+
++++
+
+[「お品書き」に戻る](#/2)
 
 ---
 
@@ -137,4 +205,9 @@ BPStyle #109 / 2019 Dec 5
 
 +++
 
-### フェレット
+## フェレット
+
++++
+
+[「お品書き」に戻る](#/2)
+
