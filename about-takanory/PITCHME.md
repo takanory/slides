@@ -49,11 +49,11 @@
 
 +++
 
-## PyCon JP 2019 🎫
+## PyCon JP 2020 🎫
 
-* [`pycon.jp/2019`](https://pycon.jp/2019/)
-  * 国内最大のPythonイベント
-* 日付: 2019年9月14日(土)~17日(火)
+* [`pycon.jp`](https://pycon.jp/)
+  * 国内最大(1,000名)規模のPythonイベント
+* 日付: 2020年8月28日(金)、29日(土)
 * 会場: [大田区産業プラザPiO](https://www.pio-ota.net/)
 
 ![PyCon JP 2019](assets/images/pyconjp2019.png)
