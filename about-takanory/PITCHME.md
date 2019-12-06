@@ -5,7 +5,7 @@
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
 * [一般社団法人PyCon JP](https://www.pycon.jp) 副代表理事: `#pyconjp`
-* [株式会社BeProud](https://www.beproud.jp) 取締役
+* [株式会社BeProud](https://www.beproud.jp) 取締役/Python Climber
 * [Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催: `#pyhack`
 * [Pythonボルダリング部](https://kabepy.connpass.com/) 部長: `#kabepy`
 
@@ -98,7 +98,8 @@
 * 5月: US PyCon 🇺🇸
 * 6月: PyCon Thailand 🇹🇭
 * 7月: EuroPython 🇨🇭
-* 8月: PyCon Malaysia 🇲🇾 👈 ここまで終了
+* 8月: PyCon Malaysia 🇲🇾
 * 9月: PyCon Japan 🇯🇵
 * 9月: PyCon Taiwan 🇹🇼
 * 10月: PyCon Singapore 🇸🇬
+* 11月: PyCon Indonesia 🇮🇩
