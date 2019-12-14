@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
+     * Tokyo, Japan
+     * 2020 Mar
+     * Talk
+     * TBD
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
    - * `PyCon ID <https://pycon.id/>`__
      * Surabaya, Indonesia
      * 2019 Nov
