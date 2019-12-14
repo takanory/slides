@@ -5,7 +5,7 @@
 * 鈴木たかのり / Takanori Suzuki
 * Twitter: [@takanory](https://twitter.com/takanory)
 * [一般社団法人PyCon JP](https://www.pycon.jp) 副代表理事: `#pyconjp`
-* [株式会社BeProud](https://www.beproud.jp) 取締役
+* [株式会社BeProud](https://www.beproud.jp) 取締役/Python Climber
 * [Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催: `#pyhack`
 * [Pythonボルダリング部](https://kabepy.connpass.com/) 部長: `#kabepy`
 
@@ -49,11 +49,11 @@
 
 +++
 
-## PyCon JP 2019 🎫
+## PyCon JP 2020 🎫
 
-* [`pycon.jp/2019`](https://pycon.jp/2019/)
-  * 国内最大のPythonイベント
-* 日付: 2019年9月14日(土)~17日(火)
+* [`pycon.jp`](https://pycon.jp/)
+  * 国内最大(1,000名)規模のPythonイベント
+* 日付: 2020年8月28日(金)、29日(土)
 * 会場: [大田区産業プラザPiO](https://www.pio-ota.net/)
 
 ![PyCon JP 2019](assets/images/pyconjp2019.png)
@@ -98,7 +98,8 @@
 * 5月: US PyCon 🇺🇸
 * 6月: PyCon Thailand 🇹🇭
 * 7月: EuroPython 🇨🇭
-* 8月: PyCon Malaysia 🇲🇾 👈 ここまで終了
+* 8月: PyCon Malaysia 🇲🇾
 * 9月: PyCon Japan 🇯🇵
 * 9月: PyCon Taiwan 🇹🇼
 * 10月: PyCon Singapore 🇸🇬
+* 11月: PyCon Indonesia 🇮🇩
