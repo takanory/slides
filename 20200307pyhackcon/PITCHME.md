@@ -1,6 +1,8 @@
-# PyCon Tour 2019 in numbers
+## PyCon Tour 2019 ✈️
 
-## Takanori Suzuki
+#### in numbers 
+
+#### Takanori Suzuki
 
 [pyhackcon](https://pyhack.connpass.com/event/154028/) / 2020 Mar 7
 
@@ -18,13 +20,17 @@
 
 ---
 
-## PyCon Tour 2019 in numbers
+#### 数字で見る
 
-## 数字で見る PyCon Tour 2019
+## PyCon Tour 2019
+
+#### in numbers
 
 ---
 
-## 2019年たくさんのPyConに参加した
+## 2019年
+
+## たくさんのPyConに参加した
 
 +++
 
@@ -33,10 +39,6 @@
 +++
 
 ## 答え: 9カ所
-
-+++
-
-## PyCon Tour 2019 🌏
 
 * 2月: PyCon APAC 🇵🇭
 * 5月: US PyCon 🇺🇸
@@ -50,13 +52,17 @@
 
 +++?image=20191010pyconsg/images/pycontourmap.jpg&size=auto 90%
 
+@snap[south text-04 text-gray]
+[`www.google.com/maps/d/viewer`](https://www.google.com/maps/d/viewer?mid=1El0Gzo-efzH7pBkaFT8nHMwRiVR-1JFI&ll=25.39827248419623%2C156.78839700294202&z=2)
+@snapend
+
 ---
 
 ## ざっと見ていきます
 
 +++
 
-## 1.PyCon APAC 🇵🇭
+## 1. PyCon APAC 🇵🇭
 
 * Date: 2019 Feb 23, 24
 * Place: Makati, Philippines
@@ -64,7 +70,7 @@
 
 +++
 
-## 2.PyCon 🇺🇸
+## 2. PyCon 🇺🇸
 
 * Date: 2019 May 01-09
 * Place: Cleveland, Ohio
@@ -72,7 +78,7 @@
 
 +++
 
-## 3.PyCon Thailand 🇹🇭
+## 3. PyCon Thailand 🇹🇭
 
 * Date: 2019 Jun 15, 16
 * Place: Bangkok, Thailand
@@ -80,7 +86,7 @@
 
 +++
 
-## 4.EuroPython 🇨🇭
+## 4. EuroPython 🇨🇭
 
 * Date: 2019 Jul 8-14
 * Place: Basel, Switzerland
@@ -88,7 +94,7 @@
 
 +++
 
-## 5.PyCon Malaysia 🇲🇾
+## 5. PyCon Malaysia 🇲🇾
 
 * Date: 2019 Aug 24, 25
 * Place: Kuala Lumpur, malaysia
@@ -96,14 +102,14 @@
 
 +++
 
-## 6.PyCon Japan 🇯🇵
+## 6. PyCon Japan 🇯🇵
 
 * Date: 2019 Sep 14-17
 * Place: Tokyo, Japan
 
 +++
 
-## 7.PyCon Taiwan 🇹🇼
+## 7. PyCon Taiwan 🇹🇼
 
 * Date: 2019 Sep 20-22
 * Place: Taipei, Taiwan
@@ -111,7 +117,7 @@
 
 +++
 
-## 8.PyCon Singapore 🇸🇬
+## 8. PyCon Singapore 🇸🇬
 
 * Date: 2019 Oct 10-12
 * Place: Singapore
@@ -119,7 +125,7 @@
 
 +++
 
-## 9.PyCon Indonesia 🇮🇩
+## 9. PyCon Indonesia 🇮🇩
 
 * Date: 2019 Nov 23
 * Place: Surabaya, Indonesia
@@ -133,7 +139,7 @@
 
 ## カンファレンス参加日数
 
-* 22日:
+* 22日(1年の6%)
 
   * Conference: 20日 
   * Sprint: 2日(US, JP)
@@ -143,7 +149,7 @@
 ## 発表回数
 
 * トーク: 7回
-* ポスター: 2回
+* ポスター: 2回(US, Euro)
 
 +++
 
