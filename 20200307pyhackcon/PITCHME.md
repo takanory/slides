@@ -1,6 +1,6 @@
 ## PyCon Tour 2019 ✈️
 
-#### in numbers 
+### in numbers 
 
 #### Takanori Suzuki
 
@@ -20,17 +20,17 @@
 
 ---
 
-#### 数字で見る
+### 数字で見る
 
 ## PyCon Tour 2019
 
-#### in numbers
+### in numbers
 
 ---
 
 ## 2019年
 
-## たくさんのPyConに参加した
+## たくさんPyConに参加
 
 +++
 
@@ -139,25 +139,51 @@
 
 ## カンファレンス参加日数
 
-* 22日(1年の6%)
+* 22日 (1年の1/16)
 
   * Conference: 20日 
-  * Sprint: 2日(US, JP)
+  * Sprint: 2日 (US, JP)
 
 +++
 
 ## 発表回数
 
 * トーク: 7回
-* ポスター: 2回(US, Euro)
+* ポスター: 2回 (US, Euro)
 
 +++
 
-## トークReject回数
+## Reject回数
 
-* 3回(US, Euro, AU)
+* トーク: 3回 (US, Euro, AU)
+
+---
+
+## 移動について
+
++++?code=20200307pyhackcon/src/ariport.py&lang=python
 
 +++
+
+```
+$ python airport.py
+移動距離: 2,990km 羽田空港-Ninoy Aquino International Airport(往復)
+移動距離: 10,867km 成田空港-Washington Dulles International Airport(片道)
+移動距離: 463km Washington Dulles International Airport-Cleveland Hopkins International Airport(片道)
+移動距離: 508km Cleveland Hopkins International Airport-Chicago O'Hare International Airport(片道)
+移動距離: 10,096km Chicago O'Hare International Airport-成田空港(片道)
+移動距離: 4,589km 羽田空港-Bangkok International Airport(往復)
+移動距離: 9,165km 羽田空港-Vienna International Airport(片道)
+移動距離: 679km Vienna International Airport-EuroAirport Basel-Mulhouse-Freiburg(片道)
+移動距離: 278km EuroAirport Basel-Mulhouse-Freiburg-Flughafen Frankfurt am Main(片道)
+移動距離: 9,387km Flughafen Frankfurt am Main-羽田空港(片道)
+移動距離: 5,344km 羽田空港-Kuala Lumpur International Airport(往復)
+移動距離: 2,097km 羽田空港-Taipei International Airport(往復)
+移動距離: 1,260km 成田空港-Incheon Airport(往復)
+移動距離: 4,613km Incheon Airport-Singapore Changi Airport(往復)
+Status code Unknown from https://nominatim.openstreetmap.org/search: ERROR - HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=5.0)
+総移動距離: 83,229km
+```
 
 +++
 
