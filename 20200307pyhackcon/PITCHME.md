@@ -157,6 +157,34 @@
 
 * トーク: 3回 (US, Euro, AU)
 
++++
+
+## 私以外に日本から参加者がいた数は?
+
++++
+
+## 私以外に日本から参加者がいた数は?
+
+* 100% (9/9回)
+* PyCon APAC: koedoyoshida, jbking, nobnov, taxfree
+* US PyCon: terapyon, selina, kanan, akiko, TetsuyaHirata, sakakendo
+* PyCon Thailand: terapyon, selina, chie8842
+* EuroPython: komo_fr
+* PyCon Malaysia: Kzfm
+* PyCon Taiwan: ds110, nikkie, naoy, koedoyoshida, selina, TetsuyaHirata, hirokinko, kiyota, someda
+* PyCon Singapore: nikkie, naoy, keistn
+* PyCon Indonesia: jbking, iskandar
+
++++
+
+## 私が一番会った回数が多い人は?
+
++++
+
+## 私が一番会った回数が多い人は?
+
+* Noah (8/9回)
+
 ---
 
 ## 移動について
