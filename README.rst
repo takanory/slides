@@ -16,10 +16,16 @@
      * resource
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
-     * 2020 Mar
+     * 2020 June?
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
+   - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
+     * Pittsburgh, PA -> Online
+     * 2020 Apr
+     * Talk
+     * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200417pycon>`__
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
      * Tokyo, Japan
      * 2019 Dec
