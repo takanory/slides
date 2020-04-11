@@ -325,7 +325,7 @@ Note:
 * Block-Kit is a new UI framework on Slack.
 * And Block Kit Builder is interactive prototype builder.
 
-+++?image=201200417pycon/images/block-kit-builder.png&size=contain
++++?image=20200417pycon/images/block-kit-builder.png&size=contain
 
 +++
 
