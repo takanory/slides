@@ -444,7 +444,7 @@ Next, I will explain...how to create interactive bot.
 
 ---
 
-## Interactive bot with `slackbot` library
+## Interactive bot with slackbot library
 
 Note:
 * Next, I will explain...how to create interactive bot with slackbot library.
@@ -506,7 +506,7 @@ Note:
 
 +++
 
-### `slackbot` package
+### slackbot library
 
 * A simple chat bot for Slack
 * Python 3.4+
@@ -514,8 +514,8 @@ Note:
 * `pip install slackbot`
 
 Note:
-* Then, I will create my slackbot program
-* slackbot is a simple chatbot framework for Python
+* Then, I will create my bot program with slackbot library
+* slackbot is a chat bot framework for Python
 
 +++
 
@@ -1217,26 +1217,29 @@ service.users().delete(userKey=email).execute()
 
 ## Summary
 
-* Incoming Webhooks
-* `slackbot`
-* `slackbot` with Libraries
-* `slackbot` with APIs
+* Simple bot with Incoming Webhooks
+* Interactive bot with `slackbot`
+* `slackbot` with libraries and apis
+
+Note:
+* You'be learned how to create simple bot with incoming webhooks,
+* how to create interactive bot with slackbot,
+* how to extend slackbot with libraries and APIs.
 
 +++
 
 ## Next steps
 
-* Let's make @color[SeaGreen](your own Slackbot)
-* Let's connect with libraries and APIs
+* Let's make @color[SeaGreen](your own bot)
+* Let's use libraries and APIs in your bot
 * Automate your Boring Stuff with Slackbot
 
 Note:
-
-Then you will have more free time so you can do other creative things more.
+* Then you will have more free time, so you can do more creative things!!
 
 +++
 
-![Thank you!!](20191123pyconid/images/slackbot-trans.png)
+![Thank you!!](20200417pycon/images/slackbot-trans.png)
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
@@ -1260,7 +1263,7 @@ def trans(message, text, dest):
 
 +++
 
-![Thank you!!](20191123pyconid/images/slackbot-trans.png)
+![Thank you!!](20200417pycon/images/slackbot-trans.png)
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
