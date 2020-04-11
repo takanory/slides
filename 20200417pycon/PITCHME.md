@@ -6,7 +6,7 @@ PyCon / 2020 Apr 17
 
 Note:
 
-* Thank you for watching to my presentation.
+* Thank you for watching to my talk.
 * I am very happy to be able to talk in PyCon.
 
 ---
@@ -23,20 +23,12 @@ Today, I will talk about...
 
 ---
 
-## Photos 📷 Tweets 🐦 👍
+## Tweets 🐦 👍
 
 `#pycon2020` / `@takanory`
 
 Note:
-* Please take pictures and tweets.
-
-+++
-## Notes 📝 🙅‍♂️
-
-[`github.com/takanory/slides`](https://github.com/takanory/slides)
-
-Note:
-* But, I have already published this slides, so you don't have to take notes.
+* Please give me feedback on Twitter, etc.
 
 ---
 
@@ -63,8 +55,8 @@ Note:
 @snapend
 
 Note:
-* Last year, I am challenging to talk or poster at Python Conference around the world.
-* I want to make Pythonista friends around the world. Please talk to me. Let's go get a beer.
+* Last year, I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
+* This talk is the final point of the tour.
 
 ---
 
@@ -126,7 +118,7 @@ Note:
 
 ## Goal
 
-* How to create @color[SeaGreen](simpe) bot
+* How to create @color[SeaGreen](simple) bot
 * How to create @color[SeaGreen](interactive) bot
 * How to @color[SeaGreen](extend) bot using libs and APIs
 
@@ -328,7 +320,7 @@ Note:
 * Block-Kit is a new UI framework on Slack.
 * And Block Kit Builder is interactive prototype builder.
 
-+++?image=20190615pyconth/images/block-kit-builder.png&size=contain
++++?image=201200417pycon/images/block-kit-builder.png&size=contain
 
 +++
 
@@ -338,21 +330,55 @@ import requests
 URL = 'https://hooks.slack.com/services/T0XXXXXX/YYYYYYYY/ZZZZZZZ'
 
 places = [{
-    'name': 'Muguinbo',
-    'date': '21 Nov 2019',
-    'address': 'Haneda airport2-6-5, Ota, Tokyo',
-    'tweet': 'https://twitter.com/takanory/status/1197496680695943168',
-    'image': 'https://pbs.twimg.com/media/EJ5c4n0WkAIyQiz?format=jpg',
-    'food': ['Curry Udon'],
+    'name': 'Masthead Brewing Co',
+    'date': 'May 1, 2019',
+    'address': '1261 Superior Ave E, Cleveland, OH',
+    'tweet': 'https://twitter.com/takanory/status/1123746614768820224',
+    'image': 'https://pbs.twimg.com/media/D5hZl0UWsAE8ipN?format=jpg',
+    'beers': ['Tire Swing', 'Brute Force Double IPA'],
 },
 {
-    'name': 'Old Town White Coffee',
-    'date': '22 Nov 2019',
-    'address': 'Terminal 2, Sedati, East Java 61253',
-    'tweet': 'https://twitter.com/takanory/status/1197743437833031680',
-    'image': 'https://pbs.twimg.com/media/EJ89T0dXUAIcJXm?format=jpg',
-    'food': ['Nasi remak with fried chicken'],
-}]
+    'name': 'Southern Tier Brewery Cleveland',
+    'date': 'May 2, 2019',
+    'address': '811 Prospect Ave E, Cleveland, OH',
+    'tweet': 'https://twitter.com/takanory/status/1124112560058503168',
+    'image': 'https://pbs.twimg.com/media/D5mmap5X4AA7kw2?format=jpg',
+    'beers': ['8 Days A Week', 'Nu Juice IPA'],
+},
+{
+    'name': 'Punch Bowl Social',
+    'date': 'May 3, 2019',
+    'address': '1086 W 11th Pl, Cleveland, OH',
+    'tweet': 'https://twitter.com/takanory/status/1124459741537865728',
+    'image': 'https://pbs.twimg.com/media/D5rvkCzW0AAWTSV?format=jpg',
+    'beers': ['Columbus IPA', 'Cloud Cutter Hoppy Wheat Ale',
+              'Burning River Pale Ale', 'Elvis Juice', 'Nano OG Lager'],
+},
+{
+    'name': 'Noble Beast Brewing',
+    'date': 'May 5, 2019',
+    'address': '1470 Lakeside Ave E (E. 13th St.), Cleveland, OH ',
+    'tweet': 'https://twitter.com/takanory/status/1125219552781045760',
+    'image': 'https://pbs.twimg.com/media/D52VOHEX4AAPAMr?format=jpg',
+    'beers': ['[Winter] Evil Motives', 'Sweet Amarillo'],
+},
+{
+    'name': 'Great Lakes Brewing Company',
+    'date': 'May 7, 2019',
+    'address': 'Concourse C (at CLE Airport), Cleveland, OH',
+    'tweet': 'https://twitter.com/takanory/status/1125720508161503233',
+    'image': 'https://pbs.twimg.com/media/D59c1jTWAAE-Br2?format=jpg',
+    'beers': ['Dortmunder', 'Eliot Ness'],
+},
+{
+    'name': 'Goose Island Beer Company',
+    'date': 'May 7, 2019',
+    'address': 'Terminal 1, near Gate C10 (ORD Airport), Chicago, IL',
+    'tweet': 'https://twitter.com/takanory/status/1125777013330063362',
+    'image': 'https://pbs.twimg.com/media/D5-QNopW0AAGl6L?format=jpg',
+    'beers': ['Green Line Pale Ale'],
+},
+]
 ```
 
 +++
@@ -364,7 +390,7 @@ title = {
     'type': 'section',
     'text': {
         'type': 'mrkdwn',
-        'text': 'My journey in :flag-id:',
+        'text': ':beer: Beer memories from PyCon 2019',
     }
 }
 blocks.append(title)  # add title
@@ -376,14 +402,15 @@ blocks.append({'type': 'divider'})  # add divider
 ```
 for place in places:  # create all place info
     s = {'type': 'section'}
-    hood = ', '.join(place['hood'])
-    s['text'] = {  # text
+    tweet = f"<{place['tweet']}|Tweet>"
+    beers = ', '.join(place['beers'])
+    s['text'] = {
         'type': 'mrkdwn',
-        'text': f"*{place['name']}*\n{place['tweet']}\n{food}",
+        'text': f"*{place['name']}* (tweet)\n:beers:: {beers}",
     }
     s['fields'] = [  # fields
-        {'type': 'mrkdwn', 'text': f"*Date*: {food['date']}"},
-        {'type': 'mrkdwn', 'text': f"*Address*: {food['address']}"},
+        {'type': 'mrkdwn', 'text': f"*Date*: {place['date']}"},
+        {'type': 'mrkdwn', 'text': f"*Address*: {place['address']}"},
     ]
     s['accessory'] = {  # image
         'type': 'image',
@@ -391,11 +418,12 @@ for place in places:  # create all place info
         'alt_text': food['name'],
     }
     blocks.append(s)
+
 data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20191123pyconid/images/beerjourney.png&size=90% auto
++++?image=20200417pycon/images/beermemories.png&size=90% auto
 
 +++
 
@@ -635,7 +663,7 @@ def hungry(message):
     message.react('beer')  # react beer emoji
 ```
 
-![react](20191123pyconid/images/slackbot-react.png)
+![react](20200417pycon/images/slackbot-react.png)
 
 +++
 
@@ -680,8 +708,6 @@ PLUGIN = ['mybot.plugins', 'other.plugins',]  # Pluing packages
 ```
 
 ![Settings](20190917pyconjp/images/slackbot-settings.png)
-
-* see: [Usage of Slackbot](https://github.com/lins05/slackbot#usage)
 
 Note:
 Slackbot has several settings.
