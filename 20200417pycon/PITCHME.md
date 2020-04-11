@@ -6,17 +6,17 @@ PyCon / 2020 Apr 17
 
 Note:
 
-* Thank you for watching to my talk.
-* I am very happy to be able to talk in PyCon.
+* Thank you for taking the time to watch my talk.
+* I am very happy to be able to talk at PyCon.
 
 ---
 
 ## Agenda
 
 * @color[SeaGreen](Background) and @color[SeaGreen](Motivation) for Slackbot
-* How to create @color[SeaGreen](simple) chatbot
-* How to create @color[SeaGreen](interactive) bot
-* How to @color[SeaGreen](extend) bot using libs and APIs
+* How to create @color[SeaGreen](Simple) bot
+* How to create @color[SeaGreen](Interactive) bot
+* How to @color[SeaGreen](Extend) bot using libs and APIs
 
 Note:
 Today, I will talk about...
@@ -28,7 +28,8 @@ Today, I will talk about...
 `#pycon2020` / `@takanory`
 
 Note:
-* Please give me feedback on Twitter, etc.
+* I'd be happy to give you feedback on Twitter, etc.
+* Before the main topic,...I will introduce mycelf.
 
 ---
 
@@ -44,9 +45,10 @@ Note:
 
 Note:
 (1m)
-* Before the main topic, I will introduce mycelf.
+* Before the main topic,...I will introduce mycelf.
 * I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Association.
+* Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 
 +++?image=20191010pyconsg/images/pycontourmap.jpg&size=auto 90%
 
@@ -55,8 +57,10 @@ Note:
 @snapend
 
 Note:
-* Last year, I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
-* This talk is the final point of the tour.
+* Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
+* I presented at 9 conferences on the tour, mostly in Asia.
+* This talk could be the final point of the tour, so I'm deeply moved.
+* Now, let's get back to the main topic.
 
 ---
 
@@ -70,7 +74,7 @@ Note:
 
 ### Conference Tasks
 
-* I held PyCon JP(2014-2016) as Chair
+* I held PyCon JP(2014-2016) as @color[SeaGreen](Chair)
 * Conference tasks:
   * 👨‍💻 Keynotes, Talks and Trainings arrangement
   * 🎫 Ticket sales and reception
@@ -118,9 +122,9 @@ Note:
 
 ## Goal
 
-* How to create @color[SeaGreen](simple) bot
-* How to create @color[SeaGreen](interactive) bot
-* How to @color[SeaGreen](extend) bot using libs and APIs
+* How to create @color[SeaGreen](Simple) bot
+* How to create @color[SeaGreen](Interactive) bot
+* How to @color[SeaGreen](Extend) bot using libs and APIs
 
 Note:
 (1m)
@@ -128,25 +132,26 @@ Note:
 * You'll learn how to create simple bot,
 * how to create interactive bot,
 * how to extend bot using libraries and APIs through various case studies.
+* Then you'll be able to automate your boring stuff with Slackbot!!
 
 ---
 
 ## Why Slackbot
 
-* Launching the Slack app at any time 💻 📱
+* Slack running all the time on 💻 📱
 * Easy to access Slack
-* To do @color[SeaGreen](everything) in Slack
+* To do @color[SeaGreen](Everything) in Slack
 
 ![slack](20190224pyconapac/images/slack.png)
 	
 Note:
 (1m)
 
-* My secretary is chatbot of Slack.
-  * Is there someone using Slack?
-* I'm Launching the Slack application at any time on PC and smartphone.
-* So it's easy to access Slack. I want to do everything in Slack.
-* Let's make chatbot on Slack.
+* My secretary is chatbot for Slack.
+  * Do you know Slack? Slack is a instant messaging platform.
+* I have Slack running all the time on my PC and smartphone.
+* This makes it easy to access Slack. I want to do everything in Slack.
+* Let's make a chatbot for Slack.
 
 ---
 
@@ -423,23 +428,27 @@ data['blocks'] = blocks
 r = requests.post(URL, json=data)
 ```
 
-+++?image=20200417pycon/images/beermemories.png&size=90% auto
++++?image=20200417pycon/images/beermemories.png&size=auto 90%
 
 +++
 
 ### Summary of Incoming Webhooks
 
 * @color[SeaGreen](Easy) to send messages from programs ⚙️
-* We can create @color[SeaGreen](complex) messages 🛠
-* But @color[SeaGreen](one way)(program 👉 Webhook 👉 Slack)
+* Create @color[SeaGreen](Complex) messages 🛠
+* But @color[SeaGreen](One way)(program 👉 Webhook 👉 Slack)
 
 Note:
-I want to talk with bot.
-Next, I will explain how to make interactive chatbot.
+I want to interact with bot.
+Next, I will explain...how to create interactive bot.
 
 ---
 
-## How to create slackbot
+## Interactive bot with `slackbot` library
+
+Note:
+* Next, I will explain...how to create interactive bot with slackbot library.
+
 
 +++
 
