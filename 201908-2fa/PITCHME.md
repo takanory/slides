@@ -1,6 +1,6 @@
 # 2要素認証について知ろう
 
-2019 Aug XXX / Takanori Suzuki
+2020 May XXX / Takanori Suzuki
 
 ---
 
@@ -91,7 +91,7 @@
 
 ### パスワード流出をチェック
 
-* [`haveibeenpwned.com](https://haveibeenpwned.com/) : メールアドレス
+* [`haveibeenpwned.com`](https://haveibeenpwned.com/) : メールアドレス
 * [`haveibeenpwned.com/Passwords`](https://haveibeenpwned.com/Passwords) : パスワード
 
 ![have i been pwned](201908-2fa/images/haveibeenpwned.png)
@@ -177,28 +177,28 @@
 
 ---
 
-## 2要素認証どうやるの
-
----
-
-## 2要素認証どうやるの
-
-* Webサービス + スマートフォンアプリ
-
-![多要素認証実施までの流れ](https://www.secure-sketch.com/hs-fs/hubfs/blog_GRCP%E5%AF%84%E7%A8%BF/201810_MFA%EF%BC%88%E5%B1%B1%E7%94%B0%EF%BC%89/MFA2.jpg)
-
-* 引用元: [多要素認証とは？パスワードだけでは守りきれないクラウドのセキュリティ](https://www.secure-sketch.com/blog/multi-factor-authentication)
+## 2要素認証(2FA)どうやるの
 
 +++
 
-### 2FAに対応しているサービス
+## 2要素認証(2FA)どうやるの
 
-* Google Account
+* Webサービス + スマートフォンアプリ
+* 引用元: [多要素認証とは？パスワードだけでは守りきれないクラウドのセキュリティ](https://www.secure-sketch.com/blog/multi-factor-authentication)
+
+![多要素認証実施までの流れ](https://www.secure-sketch.com/hs-fs/hubfs/blog_GRCP%E5%AF%84%E7%A8%BF/201810_MFA%EF%BC%88%E5%B1%B1%E7%94%B0%EF%BC%89/MFA2.jpg)
+
++++
+
+### 2FAに対応しているサービス(例)
+
+* Googleアカウント
 * Dropbox
+* Slack
 * Evernote
 * Facebook
+* Twitter
 * GitHub
-* Slack
 * AWS
 * PayPal
 
@@ -243,10 +243,11 @@ totp.verify('492039') # => False
 ### ハードウェアキー
 
 * (私は使ったことありません)
-* [ワンタイムパスワードトークンYubiKey](https://yubikey.yubion.com/)
-* [Titan Security Key](https://cloud.google.com/titan-security-key/?hl=ja)
-* FIDO(Fast IDentity Online)
+* [YubiKey](https://yubikey.yubion.com/)
+* [Titanセキュリティキー](https://cloud.google.com/titan-security-key/?hl=ja)
+* FIDO(Fast IDentity Online)という認証技術
 
+  * 参考: [FIDO (認証技術) - Wikipedia](https://ja.wikipedia.org/wiki/FIDO_(%E8%AA%8D%E8%A8%BC%E6%8A%80%E8%A1%93%29)
   * 参考: [FIDO エコシステム | YubiOn](https://www.yubion.com/solution/fido/)
 
 ---
