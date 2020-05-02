@@ -101,7 +101,9 @@ Note:
 * 私も初回からスタッフ
 * 1 Day, 7 Talks, 4 Sponsors, 136 Participants
 
-Note: 
+Note:
+
++++?image=20200510pyconhk/images/pyconminijp.png
 
 +++
 
