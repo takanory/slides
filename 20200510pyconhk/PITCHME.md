@@ -1,6 +1,6 @@
 ## Decade of PyCon JP
 
-#### How we spread the Python community in Japan
+#### -- How we spread the Python community in Japan -- 
 
 ### Takanori Suzuki
 
@@ -68,13 +68,68 @@ Note:
 
 ## History of PyCon JP
 
-* The origin of PyCon JP was PyCon APAC 2010 in Singapore
-* We have been holding PyCon JP every year since 2011
+Note:
+* まずはPyCon JPの歴史について紹介します
 
-  * Our first PyCon was PyCon mini JP in 2011
-  * We invited PyCon APAC from Singapore in 2013
-* Participants are increasing steadily
++++
+
+## 2010: Before PyCon JP
+
+* 4人のPythonistaが日本からPyCon APAC(Singapore)に参加
+* 会場ではじめて顔を合わせる
+* 日本に戻ってから「日本でもやりたいね」と話す
+
+Note:
+* 2010年に
+* The origin of PyCon JP was PyCon APAC 2010 in Singapore
+
++++
+
+## 2010: 4人のPythonista
+
+* Yasushi Masuda
+* Manabu Terada
+* Ian Lewis
+* Iqbal Abdullah
+
++++
+
+## 2011: PyCon mini JP
+
+* 2011年1月にはじめてのPyConを開催
+* 初回はニーズがあるかもわからなかったので、miniと名前に付けた
+* 私も初回からスタッフ
+* 1 Day, 7 Talks, 4 Sponsors, 136 Participants
+
+Note: 
+
++++
+
+## 2011-2020: PyCon JP
+
+* 2011年から毎年9月頃に開催
+* 英語セッションは必ず用意
+* 2013年はPyCon APACとして開催
+
+Note:
+* APACはそれまではSingaporeのみだった。ここから持ち回りになった
 * There is English tracks and Japanese talks
+
++++
+
+### Growth of PyCon JP
+
+* 開催する毎に規模が大きくなっていった
+* グラフを出す
+  * 人数
+  * スポンサー数
+  * セッション数
+* see: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
+
+Note:
+* Participants are increasing steadily
+
++++
 
 Note:
 Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
