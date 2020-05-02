@@ -119,7 +119,7 @@ Note:
 
 +++
 
-### Growth of PyCon JP
+## Growth of PyCon JP
 
 * 開催する毎に規模が大きくなっていった
 * グラフを出す
@@ -130,35 +130,89 @@ Note:
 
 Note:
 * Participants are increasing steadily
-
-+++
-
-Note:
-Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
-
-## 2013: Association
-
-* Purpose: We have established a legal entity to make it easier to manage money and contracts for PyCon JP event 
-* I have been a director since 2013
+* Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
 
 ---
 
-## 2014-1016: Chair od PyCon JP event
+## PyCon JP Organizer
 
-* I was the chair of PyCon JP event from 2014 to 2016
++++
+
+## 2013: Association
+
+* 一般社団法人を立ち上げた
+* 目的はお金の管理と契約など
+* 5~6名の理事で運営
+  * [`www.pycon.jp/committee/english`](https://www.pycon.jp/committee/english.html)
+* 私は2013年から現在まで理事
+
+Note:
+* Purpose: We have established a legal entity to make it easier to manage money and contracts for PyCon JP event 
+* I have been a director since 2013
+
++++
+
+## 2014-1016: Chairperson
+
+* この期間はイベントのChairpersonとして活動
+* 規模、スタッフが増えたのでやりかたを変えた
+
+Note:
+* I was the chairperson of PyCon JP event from 2014 to 2016
+
++++
+
+## 開かれたPyCon JP運営
+
+* 目的: 多くの人に興味を持ってもらう、他に参考にしてもらう
+* スタッフミーティングをイベントサイトで公開
+  * 誰でも参加できるように→そこからスタッフへ
+* ミーティングや作業の様子をBlogで発信
+* 運営マニュアルを作成
+
+Note:
 * Purpose: Open management
 * I opened every staff meeting to make it easier for new staff to join
 * We created an operation manual and made it reusable
 * We regularly publish our activities on the blog to get interested in event management
 
++++
+
+Note:
+* 運営マニュアルの画像を入れる
+
 ---
 
-## 2015-: PyCon mini
+## 2015: PyCon mini
+
+* 2015年から各地域でPyCon miniイベントが開催されるようになった
+* PyCon JPはサポートのみで運営は各イベント
+* 運営ノウハウの共有や宣伝強力なども
+* `pycon.jp` のサブドメイン提供など
+
+Note:
 * Small PyCons in the region were held in Sapporo and Hiroshima in 2015
 * It has been held in various places such as Kumamoto and Osaka
 * PyCon Kyushu is held all over Kyushu(Fukuoka -> Okinawa -> Kumamoto)
 * We have been sharing operating know-how and supporting money and people
 * We have also provided a subdomain of pycon.jp
+
++++
+
+## PyCon mini event
+
+* 2015: Sapporo, Hiroshima
+* 2016: Hiroshima
+* 2017: Kumamoto
+* 2018: Osaka, Fukuoka, Hiroshima
+* 2019: Sapporo, Okinawa, Hiroshima
+* 2020: Shizuoka, Kumamoto, Hiroshima
+
++++
+
+## PyCon mini event
+
+TODO: 地図を入れる
 
 ---
 
