@@ -24,8 +24,8 @@
      * Online
      * 2020 May
      * Talk
-     * Decade of PyCon JP: How we spread the Python community in Japan
-     * `Slides <https://gitpitch.com/takanory/slides?p=20200509pyconhk>`__
+     * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200510pyconhk>`__
    - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
      * Pittsburgh, PA -> Online
      * 2020 Apr
