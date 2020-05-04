@@ -185,6 +185,10 @@ Note:
 
 ## 2015: PyCon mini
 
++++
+
+## 2015: PyCon mini
+
 * 2015年から各地域でPyCon miniイベントが開催されるようになった
 * PyCon JPはサポートのみで運営は各イベント
 * 運営ノウハウの共有や宣伝強力なども
@@ -199,7 +203,7 @@ Note:
 
 +++
 
-## PyCon mini event
+## PyCon mini events
 
 * 2015: Sapporo, Hiroshima
 * 2016: Hiroshima
@@ -210,29 +214,151 @@ Note:
 
 +++
 
-## PyCon mini event
+
+## PyCon mini events
 
 TODO: 地図を入れる
 
 ---
 
-## 2016-: Python Boot Camp
+## 2016: Python Boot Camp
+
++++
+
+## 2016: Python Boot Camp
+
+* 2016年から開始
+* 一般社団法人PyCon JP Associationの主催イベント
+* 目的: 日本各地にPythonを広げる
+* Python入門を4時間で教える
+* 講師は私などを派遣
+* 開催スタッフとTAは現地
+
+Note:
 * Objective: We visit all over Japan to teach Python → We connect with local people → We hope local communities to start up
 * We teach an introduction to Python programming in half a day
-* We hold 40 times in 3.5 years with 950 local participants
 * We hold in cooperation with local staff and local teachig assistants
+
++++
+
+## Timetable
+
+* 13:00 Self-introduction, Let's start Python
+* 14:00 Data types
+* 15:00 Snack break 🍰
+* 15:30 File IO, module, 3rd party package, venv
+* 16:00 Web Scraping, Web API, Q&A
+* 17:00 End of event -> Party 🍺
+
+Note:
+* 基本的なタイムテーブルの例です
+* プログラミングの基礎から、実践例としてWebスクレイピングまでやります
+* 終わった後に懇親会(これが私の楽しみ)
+
++++
+
+## Textbook
+
+* [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
+
+![pycamp textbook](20200510pyconhk/images/pycampttext.png)
+
++++
+
+## T-shirts
+
+* 2回スタッフ、TAで貢献するとTシャツをあげる
+* TシャツがほしくてTAで遠征してくれる人もでてきた
+* 現在32名がTシャツを持っている
+* TODO: 写真を入れる
+
++++
+
+## Results in numbers
+
+* 4 years
+* 41 times
+* 970 participants
+
+Note:
+* We hold 41 times in 4 years with 970 local participants
+
++++
+
+## Results in map
+
+* 34 / 47 prefectures (72%)
+
+![pycamp map](20200510pyconhk/images/pycamp-map.png)
+
+Note:
+* 34都道府県を制覇しました。残り13都道府県
+
+<!--
+https://n.freemap.jp/make/mapComp/20200504_17574778085
+削除キー 74xra5mh
+-->
+
++++
+
+## Results: Local community
+
+* いくつかの地域コミュニティが立ち上がった
+* TODO: 地図を入れる
+
+Note:
 * Result: Some local communities have been created
+
++++
+
+## Results: PyCon JP
+
+Note:
 * PyCon JP has more people coming from local area
 
 ---
 
-## 2019: Python Boot Camp Caravan, Regional Meetup
+## 2019: Python Boot Camp Caravan
+
++++
+
+## 2019: Python Boot Camp Caravan
+
+* Python Boot Campの地域があまり増えない
+* こっちから訪問しよう
+* 日本各地で開催されているOSCで出展
+
++++
+
+## Python Boot Camp Caravan
+
+* 2019年は6か所に出展
+  * Okinawa, Sapporo, Nagoya, Kyoto, Shimane, Fukuoka
+* Pythonステッカーを配布
+* Pythonについてトークセッションで発表
+
++++
+
+## PyCon JP Booth in OSC
+
+* TODO: 写真
+
+---
+
+## 2019: Regional Meetup
+
++++
+
+## 2019: Regional Meetup
+
 * Purpose: To strengthen the connection between local communities
 * A regional meetup was held at PyCon JP 2019 with local community members
 * About 30 people gathered from all over Japan for this event
 * We had various discussions and shared ideas and worries
 * We hold local meetups online
 * We hold the first online meeting using Zoom, with 15 participants from all over Japan
+
++++?image=20200510pyconhk/images/meetup.jpg&size=auto 100%
 
 ---
 
