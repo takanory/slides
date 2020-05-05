@@ -69,7 +69,7 @@ Note:
 ## History of PyCon JP
 
 Note:
-* まずはPyCon JPの歴史について紹介します
+* Firts, I'd like to introduce the history of PyCon JP
 
 +++
 
@@ -85,23 +85,29 @@ Note:
 
 +++
 
-## 2010: 4人のPythonista
+## 4 Pythonistas 🇯🇵
 
 * Yasushi Masuda
 * Manabu Terada
 * Ian Lewis
 * Iqbal Abdullah
 
+Note:
+* These are 4 Pythonistas from Japan
+
 +++
 
 ## 2011: PyCon mini JP
 
-* 2011年1月にはじめてのPyConを開催
-* 初回はニーズがあるかもわからなかったので、miniと名前に付けた
+* Jan 2011: first PyCon in Japan
+* Event name: "PyCon mini JP"
 * 私も初回からスタッフ
 * 1 Day, 7 Talks, 4 Sponsors, 136 Participants
 
 Note:
+* In January 2011, we held first PyCon in Japan
+* We named the event PyCon mini JP, because...
+* It was a small event with 1 day, ... and 136 participants.
 
 +++?image=20200510pyconhk/images/pyconminijp.png
 
@@ -109,13 +115,14 @@ Note:
 
 ## 2011-2020: PyCon JP
 
-* 2011年から毎年9月頃に開催
-* 英語セッションは必ず用意
-* 2013年はPyCon APACとして開催
+* Annual event
+* English and Japanese
+* 2013: PyCon APAC in Tokyo
 
 Note:
-* APACはそれまではSingaporeのみだった。ここから持ち回りになった
-* There is English tracks and Japanese talks
+* We hold PyCon JP every year since 2011
+* There is English talks and Japanese talks
+* In 2013, we held PyCon APAC in Tokyo. It was first PyCon APAC to be held outside of Singapore.
 
 +++
 
@@ -134,31 +141,39 @@ Note:
 
 ---
 
-## PyCon JP Organizer
+## How we organize PyCon JP
+
+Note:
+* PyCon JP has grown.
+* I'm going to talk about how we've organized and managed it.
 
 +++
 
 ## 2013: Association
 
-* 一般社団法人を立ち上げた
-* 目的はお金の管理と契約など
-* 5~6名の理事で運営
+* We establishded "PyCon JP Association"
+* Purpose: Money management and contracts
+* 5 or 6 board members
   * [`www.pycon.jp/committee/english`](https://www.pycon.jp/committee/english.html)
-* 私は2013年から現在まで理事
+  * I'm a board member
 
 Note:
-* Purpose: We have established a legal entity to make it easier to manage money and contracts for PyCon JP event 
-* I have been a director since 2013
+* In 2013, We have established a general incorporated associtation, the name is "PyCon JP Association".
+* The pourpose of assciation is to manage money and contract for PyCon JP event
+* It's run by 5 or 6 board members. 
+* I have been a board member since 2013 and now I'm a vice-chairperson.
 
 +++
 
-## 2014-1016: Chairperson
+## 2014-1016: Event Chair
 
-* この期間はイベントのChairpersonとして活動
+* I was the Chair of PyCon JP event.
+  * Event team != Association
 * 規模、スタッフが増えたのでやりかたを変えた
 
 Note:
-* I was the chairperson of PyCon JP event from 2014 to 2016
+* I was the chairperson of PyCon JP event from 2014 to 2016.
+* The event team and the association are sseparate entities.
 
 +++
 
@@ -212,12 +227,8 @@ Note:
 * 2019: Sapporo, Okinawa, Hiroshima
 * 2020: Shizuoka, Kumamoto, Hiroshima
 
-+++
-
-
-## PyCon mini events
-
-TODO: 地図を入れる
+Note:
+* TODO: 地図を入れる
 
 ---
 
@@ -279,17 +290,12 @@ Note:
 * 4 years
 * 41 times
 * 970 participants
+* 34 / 47 prefectures (72%)
 
 Note:
 * We hold 41 times in 4 years with 970 local participants
 
-+++
-
-## Results in map
-
-* 34 / 47 prefectures (72%)
-
-![pycamp map](20200510pyconhk/images/pycamp-map.png)
++++?image=20200510pyconhk/images/pycamp-map.png&size=100% auto
 
 Note:
 * 34都道府県を制覇しました。残り13都道府県
@@ -301,17 +307,16 @@ https://n.freemap.jp/make/mapComp/20200504_17574778085
 
 +++
 
-## Results: Local community
+## Local communities
 
-* いくつかの地域コミュニティが立ち上がった
-* TODO: 地図を入れる
+![local communities](20200510pyconhk/images/local-communities.png)
 
 Note:
-* Result: Some local communities have been created
+* Some local communities have been launched
 
 +++
 
-## Results: PyCon JP
+## Reunion at PyCon JP
 
 Note:
 * PyCon JP has more people coming from local area
