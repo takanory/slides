@@ -61,7 +61,7 @@ Note:
 Note:
 * Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 * I presented at 9 conferences on the tour, mostly in Asia.
-* 香港には訪問できていないので今日発表できてうれしいです。
+* I'm happy to talks at PyCon HK, but I'd like to visit HK next time.
 * Now, let's get back to the main topic.
 
 ---
@@ -75,25 +75,16 @@ Note:
 
 ## 2010: Before PyCon JP
 
-* 4人のPythonistaが日本からPyCon APAC(Singapore)に参加
-* 会場ではじめて顔を合わせる
-* 日本に戻ってから「日本でもやりたいね」と話す
+* 4 Pythonistas attended PyCon APAC in SG
+  * Yasushi Masuda, Manabu Terada, Ian Lewis, Iqbal Abdullah
+* They met first time
+* "We'd like to hold PyCon in Japan!"
 
 Note:
-* 2010年に
-* The origin of PyCon JP was PyCon APAC 2010 in Singapore
-
-+++
-
-## 4 Pythonistas 🇯🇵
-
-* Yasushi Masuda
-* Manabu Terada
-* Ian Lewis
-* Iqbal Abdullah
-
-Note:
-* These are 4 Pythonistas from Japan
+* The story goes back to 2010.
+* 4 Pythonistas attended PyCon APAC in Singapore from Japan
+* They met for the first time in Singapore
+* When they came back to Japan, they think "We'd like to hold PyCon in Japan".
 
 +++
 
@@ -101,15 +92,19 @@ Note:
 
 * Jan 2011: first PyCon in Japan
 * Event name: "PyCon mini JP"
-* 私も初回からスタッフ
+  * "mini" = trial event
 * 1 Day, 7 Talks, 4 Sponsors, 136 Participants
 
 Note:
 * In January 2011, we held first PyCon in Japan
-* We named the event PyCon mini JP, because...
-* It was a small event with 1 day, ... and 136 participants.
+* We named the event PyCon mini JP.
+  * We added the word "mini" to indicate it was a trial event.
+* It was a small event with 1 day, ... and 136 participants. Then the event was a success.
 
-+++?image=20200510pyconhk/images/pyconminijp.png
++++?image=20200510pyconhk/images/pyconminijp.png&size=100% auto
+
+Note:
+* This is our PyCon mini JP website.
 
 +++
 
@@ -130,18 +125,37 @@ Note:
 
 ![Number of Participants](20200510pyconhk/images/participants.png)
 
+@snap[south text-04 text-gray]
+* ref: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
+@snapend
+
 Note:
-* see: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
+* This chart is number of participants of PyCon JP
 * Participants are increasing steadily
+* Currently, about 1,000 people are attending PyCon JP
 * Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
+
++++
+
+## mini(2011) -> 2019
+
+* 1 -> 4 Days (incl. Tutorial, Sprint)
+* 7 -> 47 Talks
+* 4 -> 43 Sponsors
+* 136 -> 951 Participants
+
+Note:
+* Days, Talks and Sponsers are increasing as well
 
 ---
 
-## How we organize PyCon JP
+## How we organize
+
+## PyCon JP
 
 Note:
 * PyCon JP has grown.
-* I'm going to talk about how we've organized and managed it.
+* I'm going to talk about how we organized and managed it.
 
 +++
 
@@ -203,17 +217,17 @@ Note:
 
 ## 2015: PyCon mini
 
-* 2015年から各地域でPyCon miniイベントが開催されるようになった
-* PyCon JPはサポートのみで運営は各イベント
-* 運営ノウハウの共有や宣伝強力なども
-* `pycon.jp` のサブドメイン提供など
+* PyCon mini Sapporo and Hiroshima
+* PyCon JP supports PyCon mini
+  * Know-how, PR, Money and people
+* `pycon.jp` subdomain
 
 Note:
-* Small PyCons in the region were held in Sapporo and Hiroshima in 2015
+* In 2015, Small PyCons in the region were held in Sapporo and Hiroshima
 * It has been held in various places such as Kumamoto and Osaka
 * PyCon Kyushu is held all over Kyushu(Fukuoka -> Okinawa -> Kumamoto)
-* We have been sharing operating know-how and supporting money and people
-* We have also provided a subdomain of pycon.jp
+* We shared operating know-how and suppored public relations, money and people
+* We also provided subdomain of pycon.jp for PyCon mini
 
 +++
 
@@ -224,9 +238,11 @@ Note:
 * 2017: Kumamoto
 * 2018: Osaka, Fukuoka, Hiroshima
 * 2019: Sapporo, Okinawa, Hiroshima
-* 2020: Shizuoka, Kumamoto, Hiroshima
+* 2020: Shizuoka(, Kumamoto, Hiroshima)
 
 Note:
+* This is list of PyCon mini events in Japan
+* It has been held 13 times in 7 cities.
 * TODO: 地図を入れる
 
 ---
