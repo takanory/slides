@@ -128,11 +128,10 @@ Note:
 
 ## Growth of PyCon JP
 
-* see: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
-
 ![Number of Participants](20200510pyconhk/images/participants.png)
 
 Note:
+* see: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
 * Participants are increasing steadily
 * Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
 
@@ -191,7 +190,7 @@ Note:
 * We regularly publish our activities on the blog to get interested in event management
 * We created an operation manual and made it reusable
 
-+++?image=20200510pyconhk/images/pyconjp-manual.png&size=100% auto
++++?image=20200510pyconhk/images/pyconjp-manual.png&size=auto 100%
 
 Note:
 * This is the manual translated by Google Translate.
@@ -268,9 +267,7 @@ Note:
 
 +++
 
-## Textbook
-
-* [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
+## Textbook: [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
 
 ![pycamp textbook](20200510pyconhk/images/pycamptext.png)
 
