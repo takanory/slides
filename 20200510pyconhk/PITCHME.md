@@ -169,32 +169,35 @@ Note:
 
 * I was the Chair of PyCon JP event.
   * Event team != Association
-* 規模、スタッフが増えたのでやりかたを変えた
+* Change event organizing
 
 Note:
 * I was the chairperson of PyCon JP event from 2014 to 2016.
-* The event team and the association are sseparate entities.
+* The event team and the association are different organizations.
+* And I changed event organizing because of the size of PyCon JP and the number of staff.
 
 +++
 
-## 開かれたPyCon JP運営
+## Open PyCon JP team
 
-* 目的: 多くの人に興味を持ってもらう、他に参考にしてもらう
-* スタッフミーティングをイベントサイトで公開
-  * 誰でも参加できるように→そこからスタッフへ
-* ミーティングや作業の様子をBlogで発信
-* 運営マニュアルを作成
+* Purpose: Get more people, Reference
+* Open staff meeting
+  * Guest -> Staff
+* Meeting Blog
+* Operation Manual ([`manual.pycon.jp`](https://manual.pycon.jp/))
 
 Note:
-* Purpose: Open management
+* I changed PyCon JP event team to more open.
+* The purpose is to get more poeple interested in the event team and to provide a reference for other technical events.
 * I opened every staff meeting to make it easier for new staff to join
-* We created an operation manual and made it reusable
+  * The event was open to guest participation, and some people went from guests to new staff.
 * We regularly publish our activities on the blog to get interested in event management
+* We created an operation manual and made it reusable
 
-+++
++++?image=20200510pyconhk/images/pyconjp-manual.png&size=100% auto
 
 Note:
-* 運営マニュアルの画像を入れる
+* This is the manual translated by Google Translate.
 
 ---
 
@@ -272,7 +275,11 @@ Note:
 
 * [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
 
-![pycamp textbook](20200510pyconhk/images/pycampttext.png)
+![pycamp textbook](20200510pyconhk/images/pycamptext.png)
+
+Note:
+* This is textbook translated by Google Translate.
+
 
 +++
 
