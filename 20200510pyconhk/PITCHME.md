@@ -128,12 +128,9 @@ Note:
 
 ## Growth of PyCon JP
 
-* 開催する毎に規模が大きくなっていった
-* グラフを出す
-  * 人数
-  * スポンサー数
-  * セッション数
 * see: [`www.pycon.jp/organizer`](https://www.pycon.jp/organizer/)
+
+![Number of Participants](20200510pyconhk/images/participants.png)
 
 Note:
 * Participants are increasing steadily
