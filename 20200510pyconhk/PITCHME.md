@@ -184,7 +184,7 @@ Note:
 * Open staff meeting
   * Guest -> Staff
 * Meeting Blog
-* Operation Manual ([`manual.pycon.jp`](https://manual.pycon.jp/))
+* Operation Manual: [`manual.pycon.jp`](https://manual.pycon.jp/)
 
 Note:
 * I changed PyCon JP event team to more open.
