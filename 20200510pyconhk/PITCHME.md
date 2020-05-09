@@ -66,7 +66,7 @@ Note:
 
 ---
 
-## History of PyCon JP
+## History of PyCon JP 🇯🇵
 
 Note:
 * Firts, I'd like to introduce the history of PyCon JP
@@ -247,11 +247,11 @@ Note:
 
 ---
 
-## 2016: Python Boot Camp
+## 2016: Python Boot Camp ⛺️
 
 +++
 
-## 2016: Python Boot Camp
+## 2016: Python Boot Camp ⛺️
 
 * Half-day hands-on for beginners
 * Purpose: Spreading Python around Japan
@@ -346,13 +346,13 @@ Note:
 
 ---
 
-## 2019: Python Boot Camp Caravan
+## 2019: Python Boot Camp Caravan 🐪
 
 Note:
 
 +++
 
-## 2019: Python Boot Camp Caravan
+## 2019: Python Boot Camp Caravan 🐪
 
 * Python Boot Campの地域があまり増えない
 * こっちから訪問しよう
@@ -375,11 +375,11 @@ Note:
 
 ---
 
-## 2019: Regional Meetup
+## 2019: Regional Meetup 🤝
 
 +++
 
-## 2019: Regional Meetup
+## 2019: Regional Meetup 🤝
 
 * Purpose: To strengthen the connection between local communities
 * A regional meetup was held at PyCon JP 2019 with local community members
@@ -407,7 +407,7 @@ Note:
 
 ## Summary
 
-* spread Python throughout Japan
+* Spread Python throughout Japan
   * PyCon JP, PyCon mini, Python Boot Camp, Caravan, Regional Meetup
 * Face to Face
   * We go to local
@@ -421,3 +421,6 @@ Note:
 ---
 
 ## Thank you!!
+
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
