@@ -261,8 +261,6 @@ Note:
 
 Note:
 * In 2015, Small PyCons in the region were held in Sapporo and Hiroshima
-* It has been held in various places such as Kumamoto and Osaka
-* PyCon Kyushu is held all over Kyushu(Fukuoka -> Okinawa -> Kumamoto)
 * We shared operating know-how and supported public relations, money and people
 * We also provided subdomain of pycon.jp for PyCon mini
 
@@ -280,7 +278,17 @@ Note:
 Note:
 * This is list of PyCon mini events in Japan
 * It has been held 13 times in 7 cities.
-* TODO: 地図を入れる
+* PyCon Kyushu is held all over Kyushu area(Fukuoka -> Okinawa -> Kumamoto)
+
++++?image=20200510pyconhk/images/pyconmini-map.png&size=100% auto
+
+Note:
+
+<!--
+https://n.freemap.jp/tw/20200509_1731119223
+削除キー eat753nt
+-->
+
 
 ---
 
