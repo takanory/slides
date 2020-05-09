@@ -251,7 +251,7 @@ Note:
 
 +++
 
-## 2016: Python Boot Camp ⛺️
+## 2016: Python Boot Camp
 
 * Half-day hands-on for beginners
 * Purpose: Spreading Python around Japan
@@ -352,7 +352,7 @@ Note:
 
 +++
 
-## 2019: Python Boot Camp Caravan 🐪
+## 2019: Python Boot Camp Caravan
 
 * Python Boot Campの地域があまり増えない
 * こっちから訪問しよう
@@ -379,16 +379,33 @@ Note:
 
 +++
 
-## 2019: Regional Meetup 🤝
+## 2019: Regional Meetup
 
-* Purpose: To strengthen the connection between local communities
-* A regional meetup was held at PyCon JP 2019 with local community members
-* About 30 people gathered from all over Japan for this event
-* We had various discussions and shared ideas and worries
+* Purpose: Relationship with local communities
+* hold at PyCon JP 2019
+  * Sharing ideas and worries
 * We hold local meetups online
 * We hold the first online meeting using Zoom, with 15 participants from all over Japan
 
+Note:
+* The Purpose of regional meetup is stronger relationship with local communities
+* The event hold at PyCon JP 2019 with local community members
+* We discussed the sharing of ideas and worries that local comunnities have
+
 +++?image=20200510pyconhk/images/meetup.jpg&size=auto 100%
+
+Note:
+* About 30 people gathered from all over Japan for the event
+
++++
+
+## Regional Meetup(online)
+
+![Regional meetup online](20200510pyconhk/images/meetup-online.jpg)
+
+Note:
+* Then, we hold local meetups online
+* We hold the first online meeting using Zoom, with 15 participants from all over Japa
 
 ---
 
