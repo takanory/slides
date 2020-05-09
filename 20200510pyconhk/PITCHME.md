@@ -369,9 +369,9 @@ Note:
 
 +++
 
-## PyCon JP Booth in OSC
+## PyCon JP Booth
 
-* TODO: 写真
+![Pycamp booth](20200510pyconhk/images/pycamp-booth.jpg)
 
 ---
 
@@ -394,18 +394,29 @@ Note:
 
 ## Future
 
-* We want to hold PyCon JP outside of Tokyo
-* We want to conquer all prefectures at Python Boot Camp
-* We want PyCon mini to be held all over Japan
+* PyCon JP: outside of Tokyo
+* Python Boot Camp: all prefectures
+* PyCon mini: more cities
+
+Note:
+* In the future, we hope to hold PyCon JP outside of Tokyo,
+* hold Python Boot Camp in all prefectires
+* and hold PyCon mini in more cities.
 
 ---
 
 ## Summary
 
+* spread Python throughout Japan
+  * PyCon JP, PyCon mini, Python Boot Camp, Caravan, Regional Meetup
+* Face to Face
+  * We go to local
+  * Reunion make relationship stronger
+
+Note:
 * We have spread Python throughout Japan with various activities
-* I think it's important to meet
-* First we go to meet local people
-* Reunion strengthens relationship
+* I think it's important to be face to face communication
+* First, we go to meet local people. And the reunion make the relationship stronger.
 
 ---
 
