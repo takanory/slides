@@ -253,16 +253,19 @@ Note:
 
 ## 2016: Python Boot Camp
 
-* 2016年から開始
-* 一般社団法人PyCon JP Associationの主催イベント
-* 目的: 日本各地にPythonを広げる
-* Python入門を4時間で教える
-* 講師は私などを派遣
-* 開催スタッフとTAは現地
+* Half-day hands-on for beginners
+* Purpose: Spreading Python around Japan
+  * Visit all over Japan
+  * Connect with locals
+  * Launch local community
+* Local staff and TA
 
 Note:
-* Objective: We visit all over Japan to teach Python → We connect with local people → We hope local communities to start up
-* We teach an introduction to Python programming in half a day
+* In 2016, PyCon JP Association launched Python Boot Camp
+* The event is half-day hands-on for begginers
+  * We teach an introduction to Python programming
+* The poupose of the event is to spread Python around Japan
+  * I or another insructor visit all over Japan to teach Python, and connect with locals and help to launch a local community
 * We hold in cooperation with local staff and local teachig assistants
 
 +++
@@ -277,9 +280,9 @@ Note:
 * 17:00 End of event -> Party 🍺
 
 Note:
-* 基本的なタイムテーブルの例です
-* プログラミングの基礎から、実践例としてWebスクレイピングまでやります
-* 終わった後に懇親会(これが私の楽しみ)
+* This is basic timetable
+* From the basics of Pytbon programming to Web Scraping in a hands-on
+* After the event, we go to the party. It is a fun time for me
 
 +++
 
@@ -312,10 +315,10 @@ Note:
 Note:
 * We hold 41 times in 4 years with 970 local participants
 
-+++?image=20200510pyconhk/images/pycamp-map.png&size=100% auto
++++?image=20200510pyconhk/images/pycamp-map.png&size=auto 90%
 
 Note:
-* 34都道府県を制覇しました。残り13都道府県
+* We held Python Boot Camp in 34 prefectures, the rest are 13 prefs.
 
 <!--
 https://n.freemap.jp/make/mapComp/20200504_17574778085
@@ -329,18 +332,23 @@ https://n.freemap.jp/make/mapComp/20200504_17574778085
 ![local communities](20200510pyconhk/images/local-communities.png)
 
 Note:
-* Some local communities have been launched
+* Several local communities have been launched in the wake of Python Boot Camp
 
 +++
 
 ## Reunion at PyCon JP
 
+![Pycamp poster](20200510pyconhk/images/pycamp-poster.jpg)
+
 Note:
-* PyCon JP has more people coming from local area
+* And, PyCon JP has more people coming from local area.
+* This photo was taken at the poster session of PyCon JP
 
 ---
 
 ## 2019: Python Boot Camp Caravan
+
+Note:
 
 +++
 
