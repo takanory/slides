@@ -10,7 +10,7 @@ Note:
 
 * Thank you for taking the time to watch my talk
 * I am very happy to be able to talk at PyCon HK 2020 Spring
-* My talk title is "Decade of PyCon JP" ... Today
+* My talk title is "Decade of PyCon JP" ... Today,...
 
 ---
 
@@ -22,7 +22,7 @@ Note:
 * Future
 
 Note:
-* ...Today, I will talk about the 10-year history of PyCon JP,
+* Today,... I will talk about the 10-year history of PyCon JP,
   * and how we organize the conference at it's grown since it was launched
 * And I will talk about the various activities
   * It is spreading Python communities in Japan
@@ -36,6 +36,7 @@ Note:
 
 Note:
 * I'd be happy to give you feedback on Twitter, etc.
+* Hashtag is `#pyconhk`
 
 +++
 
@@ -44,7 +45,7 @@ Note:
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
 Note:
-* The slides avairable on GitHub, github.com takanory slides
+* This slide avairable on GitHub, github.com takanory slides
 * Please check it out
 
 +++
@@ -58,8 +59,9 @@ Note:
 
 Note:
 * If you have any questions, please write to slido
-* Go to slido web site with your web browser, then enter event code 11227
-* Before the main topic,...I will introduce mycelf.
+* Go to slido web site with your web browser, and enter event code 11227
+  * Then sli.do event page will be displayed
+* Before the main topic,...I will introduce myself.
 
 ---
 
@@ -75,9 +77,11 @@ Note:
 
 Note:
 (1m)
-* Before the main topic,...I will introduce mycelf.
+* Before the main topic,...I will introduce myself.
 * I'm Takanori Suzuki. My twitter is "takanory", please follow me.
 * I'm Vice-Chairperson of PyCon JP Association.
+* And I'm director of BeProud Inc.
+* I'm also active in several Python related communities
 * Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 
 +++?image=20191010pyconsg/images/pycontourmap.jpg&size=auto 90%
@@ -89,7 +93,7 @@ Note:
 Note:
 * Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 * I presented at 9 conferences on the tour, mostly in Asia.
-* I'm happy to talks at PyCon HK, but I'd like to visit HK next time.
+* I'm happy to talks at PyCon HK 2020 spring, but I've never been to HK, so I'd like to visit HK next conference. And I want to drink HK's craft beer
 * Now, let's get back to the main topic.
 
 ---
@@ -97,21 +101,23 @@ Note:
 ## History of PyCon JP 🇯🇵
 
 Note:
-* Firts, I'd like to introduce the history of PyCon JP
+* First, I'm going to talk about the history of PyCon JP
 
 +++
 
 ## 2010: Before PyCon JP
 
-* 4 Pythonistas attended PyCon APAC in SG
+* first PyCon APAC in SG
+  * 4 Pythonistas from Japan 
   * Yasushi Masuda, Manabu Terada, Ian Lewis, Iqbal Abdullah
-* They met first time
+* They met first time and enjoyed
 * "We'd like to hold PyCon in Japan!"
 
 Note:
 * The story goes back to 2010.
-* 4 Pythonistas attended PyCon APAC in Singapore from Japan
-* They met for the first time in Singapore
+* Singapore hosted the first PyCon APAC, 
+  * 4 Pythonistas attended the conference from Japan
+* They met for the first time, and they enjoyed first PyCon
 * When they came back to Japan, they think "We'd like to hold PyCon in Japan".
 
 +++
@@ -125,14 +131,14 @@ Note:
 
 Note:
 * In January 2011, we held first PyCon in Japan
-* We named the event PyCon mini JP.
+* We named the event "PyCon mini JP"
   * We added the word "mini" to indicate it was a trial event.
-* It was a small event with 1 day, ... and 136 participants. Then the event was a success.
+* It was a small event with 1 day, 7 talks, 4 sponsors and 136 participants. Then the event was a success.
 
 +++?image=20200510pyconhk/images/pyconminijp.png&size=100% auto
 
 Note:
-* This is our PyCon mini JP website.
+* This is PyCon mini JP website. It's so simple
 
 +++
 
@@ -143,9 +149,10 @@ Note:
 * 2013: PyCon APAC in Tokyo
 
 Note:
-* We hold PyCon JP every year since 2011
+* PyCon mini JP was a success, so we hold PyCon JP every year since 2011
 * There is English talks and Japanese talks
 * In 2013, we held PyCon APAC in Tokyo. It was first PyCon APAC to be held outside of Singapore.
+  * Since 2013, we've held PyCon APAC on a rotating basis across Asia
 
 +++
 
@@ -159,9 +166,8 @@ Note:
 
 Note:
 * This chart is number of participants of PyCon JP
-* Participants are increasing steadily
+* The number of participants are growing for 10 years
 * Currently, about 1,000 people are attending PyCon JP
-* Paper: https://paper.dropbox.com/doc/Decade-of-PyCon-JP-How-we-spread-the-Python-community-in-Japan--AykOMutaHOKyExGGTYxFHw2uAg-84LJpWIsTUGpFwkJPT411
 
 +++
 
@@ -173,7 +179,10 @@ Note:
 * 136 -> 951 Participants
 
 Note:
-* Days, Talks and Sponsers are increasing as well
+* Conference days, number of talks and sponsors are increasing as well
+  * 1 day to 4days
+  * 7 talks to 47 talks
+  * 4 sponsors to 43 sponsors
 
 ---
 
@@ -196,8 +205,8 @@ Note:
   * I'm a board member
 
 Note:
-* In 2013, We have established a general incorporated associtation, the name is "PyCon JP Association".
-* The pourpose of assciation is to manage money and contract for PyCon JP event
+* In 2013, We have established a general incorporated association, the name is "PyCon JP Association".
+* The purpose of association is to manage money and contract for PyCon JP event
 * It's run by 5 or 6 board members. 
 * I have been a board member since 2013 and now I'm a vice-chairperson.
 
@@ -226,7 +235,7 @@ Note:
 
 Note:
 * I changed PyCon JP event team to more open.
-* The purpose is to get more poeple interested in the event team and to provide a reference for other technical events.
+* The purpose is to get more people interested in the event team and to provide a reference for other technical events.
 * I opened every staff meeting to make it easier for new staff to join
   * The event was open to guest participation, and some people went from guests to new staff.
 * We regularly publish our activities on the blog to get interested in event management
@@ -254,7 +263,7 @@ Note:
 * In 2015, Small PyCons in the region were held in Sapporo and Hiroshima
 * It has been held in various places such as Kumamoto and Osaka
 * PyCon Kyushu is held all over Kyushu(Fukuoka -> Okinawa -> Kumamoto)
-* We shared operating know-how and suppored public relations, money and people
+* We shared operating know-how and supported public relations, money and people
 * We also provided subdomain of pycon.jp for PyCon mini
 
 +++
@@ -292,9 +301,9 @@ Note:
 * In 2016, PyCon JP Association launched Python Boot Camp
 * The event is half-day hands-on for begginers
   * We teach an introduction to Python programming
-* The poupose of the event is to spread Python around Japan
-  * I or another insructor visit all over Japan to teach Python, and connect with locals and help to launch a local community
-* We hold in cooperation with local staff and local teachig assistants
+* The purpose of the event is to spread Python around Japan
+  * I or another instructor visit all over Japan to teach Python, and connect with locals and help to launch a local community
+* We hold in cooperation with local staff and local teaching assistants
 
 +++
 
@@ -309,7 +318,7 @@ Note:
 
 Note:
 * This is basic timetable
-* From the basics of Pytbon programming to Web Scraping in a hands-on
+* From the basics of Python programming to Web Scraping in a hands-on
 * After the event, we go to the party. It is a fun time for me
 
 +++
@@ -431,7 +440,7 @@ Note:
 Note:
 * The Purpose of regional meetup is stronger relationship with local communities
 * The event hold at PyCon JP 2019 with local community members
-* We discussed the sharing of ideas and worries that local comunnities have
+* We discussed the sharing of ideas and worries that local communities have
 
 +++?image=20200510pyconhk/images/meetup.jpg&size=auto 100%
 
@@ -447,7 +456,7 @@ Note:
 Note:
 * Then, we hold online regional meetup
 * About 15 people from all over Japan participated in the meetup
-* We've just started the meetup, so we're going to continute to held it.
+* We've just started the meetup, so we're going to continue to held it.
 
 ---
 
