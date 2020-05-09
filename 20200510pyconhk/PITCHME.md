@@ -8,20 +8,25 @@ PyCon HK 2020 Spring / 2020 May 9
 
 Note:
 
-* Thank you for taking the time to watch my talk.
-* I am very happy to be able to talk at PyCon HK 2020 Spring.
+* Thank you for taking the time to watch my talk
+* I am very happy to be able to talk at PyCon HK 2020 Spring
+* My talk title is "Decade of PyCon JP" ... Today
 
 ---
 
 ## Agenda
 
-* PyCon JPの歴史は2010年からはじまって10年たつ
-* カンファレンス自体は立ち上げ→規模の拡大→安定化してきた
-* それと平行して(日本)国内にPythonを広げる活動をして広がりつつある
-* そしてこれからどうしていくか?
+* History of PyCon JP
+  * How we organize PyCon JP
+* Various activities about spreading Python
+* Future
 
 Note:
-Today, I will talk about...
+* ...Today, I will talk about the 10-year history of PyCon JP,
+  * and how we organize the conference at it's grown since it was launched
+* And I will talk about the various activities
+  * It is spreading Python communities in Japan
+* At last, I will talk about we're going to do in the future
 
 ---
 
@@ -46,7 +51,7 @@ Note:
 
 ## Q&A
 
-* Go to `https://www.sli.do/`
+* Go to [`www.sli.do`](https://www.sli.do/)
 * Event code: `11227`
 
 ![sli.do](20200510pyconhk/images/slido.png)
@@ -477,6 +482,12 @@ Note:
 * and hold PyCon mini in more cities
 
 ---
+
+## Questions?
+
+* [sli.do](https://admin.sli.do/event/vnm62o0o/questions)
+
++++
 
 ## Thank you!!
 
