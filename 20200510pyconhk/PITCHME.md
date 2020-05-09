@@ -410,6 +410,10 @@ Note:
 
 ## Summary
 
++++
+
+## Summary
+
 * Spread Python throughout Japan
   * PyCon JP, PyCon mini, Python Boot Camp, Caravan, Regional Meetup
 * Face to Face
