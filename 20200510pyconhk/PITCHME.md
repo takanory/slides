@@ -349,23 +349,36 @@ Note:
 ## 2019: Python Boot Camp Caravan 🐪
 
 Note:
+* In 2019, we started a new activity, Python Boot Camp Caravan
 
 +++
 
 ## 2019: Python Boot Camp Caravan
 
-* Python Boot Campの地域があまり増えない
-* こっちから訪問しよう
-* 日本各地で開催されているOSCで出展
+* No new prefector for Python Boot Camp
+* Visit local region from Tokyo
+* PyCon JP booth at OSC
+
+Note:
+* No candidacy from new prefecture for Python Boot Camp
+* Conversely, let's visit local region from Tokyo
+* Then, we decided to have a PyCon JP booth at the OSC
+  * OSC is an open source event held all over Japan
 
 +++
 
 ## Python Boot Camp Caravan
 
-* 2019年は6か所に出展
+* 6 locations
   * Okinawa, Sapporo, Nagoya, Kyoto, Shimane, Fukuoka
-* Pythonステッカーを配布
-* Pythonについてトークセッションで発表
+* PyCon JP activities    	     
+* Python Stickers
+* Talk about Python syntax
+
+Note:
+* In 2019, we had a boot at 6 locations
+* We introduced PyCon JP activities, handed out Python stickers at the booth
+* And gave a talk about Python syntax
 
 +++
 
