@@ -298,10 +298,12 @@ Note:
 
 ## T-shirts
 
+![pycamp T-shirts](20200510pyconhk/images/pycamp-tshirts.jpg)
+
+Note:
 * 2回スタッフ、TAで貢献するとTシャツをあげる
 * TシャツがほしくてTAで遠征してくれる人もでてきた
 * 現在32名がTシャツを持っている
-* TODO: 写真を入れる
 
 +++
 
