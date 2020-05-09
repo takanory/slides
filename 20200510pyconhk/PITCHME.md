@@ -280,7 +280,7 @@ Note:
 * It has been held 13 times in 7 cities.
 * PyCon Kyushu is held all over Kyushu area(Fukuoka -> Okinawa -> Kumamoto)
 
-+++?image=20200510pyconhk/images/pyconmini-map.png&size=100% auto
++++?image=20200510pyconhk/images/pycon-mini-map.png&size=auto 100%
 
 Note:
 
@@ -331,7 +331,9 @@ Note:
 
 +++
 
-## Textbook: [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
+## Textbook
+
+* [`pycamp.pycon.jp`](https://pycamp.pycon.jp/)
 
 ![pycamp textbook](20200510pyconhk/images/pycamptext.png)
 
