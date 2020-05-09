@@ -31,6 +31,29 @@ Today, I will talk about...
 
 Note:
 * I'd be happy to give you feedback on Twitter, etc.
+
++++
+
+## Slide
+
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
+Note:
+* The slides avairable on GitHub, github.com takanory slides
+* Please check it out
+
++++
+
+## Q&A
+
+* Go to `https://www.sli.do/`
+* Event code: `11227`
+
+![sli.do](20200510pyconhk/images/slido.png)
+
+Note:
+* If you have any questions, please write to slido
+* Go to slido web site with your web browser, then enter event code 11227
 * Before the main topic,...I will introduce mycelf.
 
 ---
