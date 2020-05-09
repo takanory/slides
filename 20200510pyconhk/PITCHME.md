@@ -384,8 +384,6 @@ Note:
 * Purpose: Relationship with local communities
 * hold at PyCon JP 2019
   * Sharing ideas and worries
-* We hold local meetups online
-* We hold the first online meeting using Zoom, with 15 participants from all over Japan
 
 Note:
 * The Purpose of regional meetup is stronger relationship with local communities
@@ -395,7 +393,7 @@ Note:
 +++?image=20200510pyconhk/images/meetup.jpg&size=auto 100%
 
 Note:
-* About 30 people gathered from all over Japan for the event
+* About 30 people gathered from all over Japan for the meetup
 
 +++
 
@@ -404,21 +402,9 @@ Note:
 ![Regional meetup online](20200510pyconhk/images/meetup-online.jpg)
 
 Note:
-* Then, we hold local meetups online
-* We hold the first online meeting using Zoom, with 15 participants from all over Japa
-
----
-
-## Future
-
-* PyCon JP: outside of Tokyo
-* Python Boot Camp: all prefectures
-* PyCon mini: more cities
-
-Note:
-* In the future, we hope to hold PyCon JP outside of Tokyo,
-* hold Python Boot Camp in all prefectires
-* and hold PyCon mini in more cities.
+* Then, we hold online regional meetup
+* About 15 people from all over Japan participated in the meetup
+* We've just started the meetup, so we're going to continute to held it.
 
 ---
 
@@ -434,6 +420,19 @@ Note:
 * We have spread Python throughout Japan with various activities
 * I think it's important to be face to face communication
 * First, we go to meet local people. And the reunion make the relationship stronger.
+
++++
+
+## Future
+
+* PyCon JP: outside of Tokyo
+* Python Boot Camp: all prefectures
+* PyCon mini: more cities
+
+Note:
+* In the future, we hope to hold PyCon JP outside of Tokyo,
+* hold Python Boot Camp in all prefectires
+* and hold PyCon mini in more cities
 
 ---
 
