@@ -196,6 +196,21 @@ Note:
 
 +++
 
+## Communication Tools
+
+* Slack: Chat
+* JIRA: Issue management
+* Google Drive: File sharing
+* GitHub: Source code management
+* Google Calendar
+* Google Apps: `pycon.jp` Domain and email
+* connpass: Event management
+
+Note:
+* Organizer team uses a variety of communication tools
+
++++
+
 ## 2013: Association
 
 * We establishded "PyCon JP Association"
@@ -348,9 +363,9 @@ Note:
 ![pycamp T-shirts](20200510pyconhk/images/pycamp-tshirts.jpg)
 
 Note:
-* 2回スタッフ、TAで貢献するとTシャツをあげる
-* TシャツがほしくてTAで遠征してくれる人もでてきた
-* 現在32名がTシャツを持っている
+* We created python boot camp T-shirts.
+* We are giving T-shirts to people who have contributed twice as a staff or TA.
+* A lot of people contributed to python boot camp and now 32 people have T-shits.
 
 +++
 
