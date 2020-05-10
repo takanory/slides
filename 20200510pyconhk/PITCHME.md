@@ -514,8 +514,35 @@ Note:
 * In the future, we hope to hold PyCon JP outside of Tokyo,
 * hold Python Boot Camp in all prefectires
 * and hold PyCon mini in more cities
+* But...
+
++++
+
+## COVID-19
+
+* Game changing
+* Switch to online
+  * US, Euro, APAC(MY), KR, JP
+  * What the difference?
+* I'd like to meet offline
+  * Let's go 🍺
+
+Note:
+* But...many things ar going to change with COVID-19
+* Several countries switched to online event
+  * However, I wonder what the difference would be if we held online events in defferent countires
+  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attendded PyCon HK
+* I'd like to meet the local participants offline
+  * And let's go have a beer together
 
 ---
+
+## Thank you!!
+
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
++++
 
 ## Questions?
 
