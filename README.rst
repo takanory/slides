@@ -26,12 +26,14 @@
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20200510pyconhk>`__
+       `Video <https://www.youtube.com/watch?v=Gi3B46Tjxh8>`__
    - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
      * Pittsburgh, PA -> Online
      * 2020 Apr
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20200417pycon>`__
+       `Video <https://www.youtube.com/watch?v=ndi55Ig6-SI>`__
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
      * Tokyo, Japan
      * 2019 Dec
