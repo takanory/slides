@@ -202,9 +202,9 @@ Note:
 * @fab[jira] JIRA: Issue management
 * @fab[google-drive] Google Drive: File sharing
 * @fab[github] GitHub: Source code management
-* @fab[calendar] Google Calendar
-* @fab[at] Google Apps: `pycon.jp` Domain and email
-* @fab[handshake] connpass: Event management
+* @fa[calendar] Google Calendar
+* @fa[at] Google Apps: `pycon.jp` Domain and email
+* @fa[handshake] connpass: Event management
 
 Note:
 * Organizer team uses a variety of communication tools
