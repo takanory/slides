@@ -198,13 +198,13 @@ Note:
 
 ## Communication Tools
 
-* Slack: Chat
-* JIRA: Issue management
-* Google Drive: File sharing
-* GitHub: Source code management
-* Google Calendar
-* Google Apps: `pycon.jp` Domain and email
-* connpass: Event management
+* @fab[slack] Slack: Chat
+* @fab[jira] JIRA: Issue management
+* @fab[google-drive] Google Drive: File sharing
+* @fab[github] GitHub: Source code management
+* @fab[calendar] Google Calendar
+* @fab[at] Google Apps: `pycon.jp` Domain and email
+* @fab[handshake] connpass: Event management
 
 Note:
 * Organizer team uses a variety of communication tools
@@ -245,7 +245,7 @@ Note:
 * Purpose: Get more people, Reference
 * Open staff meeting
   * Guest -> Staff
-* Meeting Blog
+* Meeting Blog: [`pyconjp.blogspot.com`](https://pyconjp.blogspot.com/)
 * Operation Manual: [`manual.pycon.jp`](https://manual.pycon.jp/)
 
 Note:
@@ -283,12 +283,12 @@ Note:
 
 ## PyCon mini events
 
-* 2015: Sapporo, Hiroshima
-* 2016: Hiroshima
-* 2017: Kumamoto
-* 2018: Osaka, Fukuoka, Hiroshima
-* 2019: Sapporo, Okinawa, Hiroshima
-* 2020: Shizuoka(, Kumamoto, Hiroshima)
+* 2015: [Sapporo](https://sapporo.pycon.jp/2015/), [Hiroshima](https://hiroshima.pycon.jp/2015/)
+* 2016: [Hiroshima](https://hiroshima.pycon.jp/2016/)
+* 2017: [Kumamoto](https://kumamoto.pycon.jp/)
+* 2018: [Osaka](https://osaka.pycon.jp/), [Fukuoka](https://kyushu.pycon.jp/2020/), [Hiroshima](https://hiroshima.pycon.jp/2018/)
+* 2019: [Sapporo](https://sapporo.pycon.jp/2019/), [Okinawa](https://kyushu.pycon.jp/2019/), [Hiroshima](https://hiroshima.pycon.jp/2019/)
+* 2020: [Shizuoka](https://shizuoka.pycon.jp/)(, [Kumamoto](https://kyushu.pycon.jp/2020/), Hiroshima)
 
 Note:
 * This is list of PyCon mini events in Japan
@@ -546,7 +546,7 @@ Note:
 
 ## Questions?
 
-* [sli.do](https://admin.sli.do/event/vnm62o0o/questions)
+* [sli.do](https://app.sli.do/event/vnm62o0o/live/questions)
 
 +++
 
