@@ -16,10 +16,22 @@
      * resource
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
-     * 2020 Mar
+     * 2020 June?
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
+   - * `PyCon HK <https://pycon.hk/>`__
+     * Online
+     * 2020 May
+     * Talk
+     * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200510pyconhk>`__
+   - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
+     * Pittsburgh, PA -> Online
+     * 2020 Apr
+     * Talk
+     * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200417pycon>`__
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
      * Tokyo, Japan
      * 2019 Dec
@@ -32,6 +44,8 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://gitpitch.com/takanory/slides?p=20191123pyconid>`__
+       `Video <https://www.youtube.com/watch?v=3iBA9kjQ9B0>`__
+       `Report <https://gihyo.jp/news/report/2019/12/1701>`__
    - * `PyCon SG <https://pycon.sg/>`__
      * Singapore
      * 2019 Oct
