@@ -227,7 +227,7 @@ Note:
 
 +++
 
-## 2014-1016: Event Chair
+## 2014-2016: Event Chair
 
 * I was the Chair of PyCon JP event.
   * Event team != Association
