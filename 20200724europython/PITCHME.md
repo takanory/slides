@@ -32,11 +32,11 @@ Note:
 
 ## Tweets 🐦 👍
 
-`#pyconhk` / `@takanory`
+`#EuroPython` / `@takanory`
 
 Note:
 * I'd be happy to give you feedback on Twitter, etc.
-* Hashtag is `#pyconhk`
+* Hashtag is `#EuroPython`
 
 +++
 
@@ -52,15 +52,8 @@ Note:
 
 ## Q&A
 
-* Go to [`www.sli.do`](https://www.sli.do/)
-* Event code: `11227`
-
-![sli.do](20200510pyconhk/images/slido.png)
-
 Note:
-* If you have any questions, please write to slido
-* Go to slido web site with your web browser, and enter event code 11227
-  * Then sli.do event page will be displayed
+* If you have any questions, please write to Zoom Q&A.
 * Before the main topic,...I will introduce myself.
 
 ---
@@ -93,7 +86,7 @@ Note:
 Note:
 * Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 * I presented at 9 conferences on the tour, mostly in Asia.
-* I'm happy to talks at PyCon HK 2020 spring, but I've never been to HK, so I'd like to visit HK next conference. And I want to drink HK's craft beer
+* I'm happy to talk at EuroPython 2020, but I'd like to visit Dublin next conference. And I want to drink Irish Craft Beer
 * Now, let's get back to the main topic.
 
 ---
@@ -531,7 +524,7 @@ Note:
 * But...many things ar going to change with COVID-19
 * Several countries switched to online event
   * However, I wonder what the difference would be if we held online events in defferent countires
-  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attendded PyCon HK
+  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attendded EuroPython
 * I'd like to meet the local participants offline
   * And let's go have a beer together
 
