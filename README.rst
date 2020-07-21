@@ -14,9 +14,15 @@
      * kind
      * title
      * resource
+   - * `EuroPython 2020 Online <https://ep2020.europython.eu/>`__
+     * Online
+     * 2020 Jul
+     * Talk
+     * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200724europython>`__
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
-     * 2020 June?
+     * 2020 Jun?
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
