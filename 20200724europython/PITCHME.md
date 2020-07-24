@@ -563,7 +563,7 @@ Note:
 * I'd like to meet the local participants offline
   * And let's go have a beer together
   
-+++
+---
 
 ## 2020: Python Charity Talks
 
@@ -571,7 +571,8 @@ Note:
 * Date: 2020 Jul 4(Sa)
 * Online donation event
 * Goal: donate to PSF
-  * [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https* Half-day, Single track
+  * [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https://opensource.com/article/20/5/pycon-covid-19)
+* Half-day, Single track
 * PSF supported PyCon JP
   * PyCon JP gives back to PSF
 
@@ -612,7 +613,7 @@ Note:
 ![Python Video](https://www.youtube.com/embed/o-UBokTvQjE)
 
 Note:
-* If you're interested, watch the video
+* If you're interested, watch the video.
 
 ---
 
@@ -621,9 +622,14 @@ Note:
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
+Note:
+* Thank you for your attention to my talk.
+* I hope something in this talk will help you.
+* And if you have any ideas, please let me know.
+
 +++
 
-## Questions?
+## Questions / Feedback
 
 * @fab[discord] `#talk-detcade-of-pycon-jp`
 
