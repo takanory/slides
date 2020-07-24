@@ -229,7 +229,7 @@ Note:
 * @fab[google-drive] Google Drive: File sharing
 * @fab[github] GitHub: Source code management
 * @fa[calendar] Google Calendar
-* @fa[at] Google for Nonprofits: `pycon.jp` Domain and email
+* @fa[at] G Suite: `pycon.jp` Domain and email
 * @fa[ticket-alt] connpass: Event management
 
 Note:
@@ -317,7 +317,7 @@ Note:
 * 2017: [Kumamoto](https://kumamoto.pycon.jp/)
 * 2018: [Osaka](https://osaka.pycon.jp/), [Fukuoka](https://kyushu.pycon.jp/2020/), [Hiroshima](https://hiroshima.pycon.jp/2018/)
 * 2019: [Sapporo](https://sapporo.pycon.jp/2019/), [Okinawa](https://kyushu.pycon.jp/2019/), [Hiroshima](https://hiroshima.pycon.jp/2019/)
-* 2020: [Shizuoka](https://shizuoka.pycon.jp/)(, [Kumamoto](https://kyushu.pycon.jp/2020/), Hiroshima)
+* 2020: [Shizuoka](https://shizuoka.pycon.jp/)(, [Kumamoto](https://kyushu.pycon.jp/2020/), [Hiroshima](https://hiroshima.pycon.jp/2020/))
 
 Note:
 * This is list of PyCon mini events in Japan
@@ -547,7 +547,7 @@ Note:
 
 +++
 
-## COVID-19
+## COVID-19 🦠
 
 * Game changing
 * Switch to online
@@ -570,10 +570,9 @@ Note:
 
 * [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
 * Date: 2020 Jul 4(Sa)
-* Online donation event
+* Online donation event, Half-day, Single track
 * Goal: donate to PSF
-  * [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https://opensource.com/article/20/5/pycon-covid-19)
-* Half-day, Single track
+  * ref: [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https://opensource.com/article/20/5/pycon-covid-19)
 * PSF supported PyCon JP
   * PyCon JP gives back to PSF
 
