@@ -53,7 +53,7 @@ Note:
 
 ## Q&A
 
-* `#talk-detcade-of-pycon-jp`
+* @fab[discord] `#talk-detcade-of-pycon-jp`
 
 Note:
 * If you have any questions, please write to Zoom Q&A.
@@ -96,13 +96,13 @@ Note:
 +++?image=20200724europython/images/europython2019.jpg&size=auto 90%
 
 Note:
-* In the tour,... I presented poster session at EuroPython 2019 in Basel.
+* In the tour,... I presented poster session at EuroPython 2019 in Basel. Did you see me?
 * It was my first EuroPython and a very exiting experience!
 * Today, I'm happy to talk at EuroPython 2020, but I'd like to visit Dublin next conference. And I want to drink Irish Craft Beer
 
 +++
 
-## PyCon JP 2020
+![PyCon JP 2020 logo](20200724europython/images/pyconjp2020logo.png)
 
 * [`pycon.jp/2020`](https://pycon.jp/2020/)
 * 2020 Aug 28(Fr), 29(Sa)
@@ -568,6 +568,8 @@ Note:
 +++
 
 ## Questions?
+
+* @fab[discord] `#talk-detcade-of-pycon-jp`
 
 +++
 
