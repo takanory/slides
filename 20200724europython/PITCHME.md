@@ -569,8 +569,8 @@ Note:
 ## 2020: Python Charity Talks
 
 * [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
-* Date: 2020 Jul 4(Sa)
-* Online donation event, Half-day, Single track
+* Date: 2020 Jul 4(Sat) 13:00-18:00
+  * Online donation event, Half-day, Single track
 * Goal: donate to PSF
   * ref: [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https://opensource.com/article/20/5/pycon-covid-19)
 * PSF supported PyCon JP
