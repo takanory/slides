@@ -121,6 +121,8 @@ Note:
 
 ## History of PyCon JP 🇯🇵
 
+![PyCon JP logo](20200724europython/images/pyconjp_logo.png)
+
 Note:
 * First, I'm going to talk about the history of PyCon JP
 
@@ -226,8 +228,8 @@ Note:
 * @fab[google-drive] Google Drive: File sharing
 * @fab[github] GitHub: Source code management
 * @fa[calendar] Google Calendar
-* @fa[at] Google Apps: `pycon.jp` Domain and email
-* @fa[handshake] connpass: Event management
+* @fa[at] Google for Nonprofits: `pycon.jp` Domain and email
+* @fa[ticket-alt] connpass: Event management
 
 Note:
 * Organizer team uses a variety of communication tools
@@ -288,6 +290,9 @@ Note:
 
 ## 2015: PyCon mini
 
+Note:
+* Then, I'll share some of our activities.
+
 +++
 
 ## 2015: PyCon mini
@@ -299,8 +304,8 @@ Note:
 
 Note:
 * In 2015, Small PyCons in the region were held in Sapporo and Hiroshima
-* We shared operating know-how and supported public relations, money and people
-* We also provided subdomain of pycon.jp for PyCon mini
+* PyCon JP shared operating know-how and supported public relations, money and people to local oragnizers
+* We also provided subdomain of pycon.jp for PyCon mini website
 
 +++
 
@@ -535,7 +540,7 @@ Note:
 
 Note:
 * In the future, we hope to hold PyCon JP outside of Tokyo,
-* hold Python Boot Camp in all prefectires
+* hold Python Boot Camp in all prefectures
 * and hold PyCon mini in more cities
 * But...
 
@@ -557,6 +562,57 @@ Note:
   * Online is easy to attend from a foreign country like me, but online makes me feel less like I attendded EuroPython
 * I'd like to meet the local participants offline
   * And let's go have a beer together
+  
++++
+
+## 2020: Python Charity Talks
+
+* [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
+* Date: 2020 Jul 4(Sa)
+* Online donation event
+* Goal: donate to PSF
+  * [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https* Half-day, Single track
+* PSF supported PyCon JP
+  * PyCon JP gives back to PSF
+
+Note:
+* This year, we launched new event "Python Charity Talks in Japan"
+* The event is online donation event
+* The goal of the event is donate to PSF because PSF is due to the financial impact of the cancellation of PyCon US
+* PyCon JP has received money support from PSF in the past.
+* The event is our way of giving back to PSF.
+
++++
+
+## Results of Python Charity Talks
+
+* Sponsors: 1 Platinum, 5 Gold, 9 Silver, 40 Patron
+* Attendees: 200
+* Speakers: 5
+* LT Speakers: 7
+* Staff: 8
+
+Note:
+* This was our first online event.
+* I think a lot of people attended and enjoyed it!
+* And, We had a lot of companies, communities and people supporting us as sponsors!
+
++++
+
+## 1,401,500 JPY
+
+### (11,300 EUR)
+
+Note:
+* As a result, 1.4 million Yen (about 11,300 EUR) was raised!
+* I think the event was a huge success.
+
++++
+
+![Python Video](https://www.youtube.com/embed/o-UBokTvQjE)
+
+Note:
+* If you're interested, watch the video
 
 ---
 
