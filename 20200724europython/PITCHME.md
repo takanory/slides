@@ -9,7 +9,8 @@ EuroPython 2020 / 2020 Jul 24
 Note:
 
 * Thank you for taking the time to watch my talk
-* I am very happy to be able to talk at PyCon HK 2020 Spring
+* I am Takanori Suzuki. Now I'm presenting from Japan
+* I am very happy to be able to talk at EuroPython 2020 Online
 * My talk title is "Decade of PyCon JP" ... Today,...
 
 ---
@@ -25,7 +26,7 @@ Note:
 * Today,... I will talk about the 10-year history of PyCon JP,
   * and how we organize the conference at it's grown since it was launched
 * And I will talk about the various activities
-  * It is spreading Python communities in Japan
+  * There are spreading Python communities in Japan
 * At last, I will talk about we're going to do in the future
 
 ---
@@ -52,8 +53,11 @@ Note:
 
 ## Q&A
 
+* `#talk-detcade-of-pycon-jp`
+
 Note:
 * If you have any questions, please write to Zoom Q&A.
+* Or write to #talk-detcade-of-pycon-jp channel
 * Before the main topic,...I will introduce myself.
 
 ---
@@ -86,7 +90,31 @@ Note:
 Note:
 * Last year,... I was challenged to talk or poster at Python Conference around the world, which I called PyCon tour.
 * I presented at 9 conferences on the tour, mostly in Asia.
-* I'm happy to talk at EuroPython 2020, but I'd like to visit Dublin next conference. And I want to drink Irish Craft Beer
+* In the tour...
+
+
++++?image=20200724europython/images/europython2019.jpg&size=auto 90%
+
+Note:
+* In the tour,... I presented poster session at EuroPython 2019 in Basel.
+* It was my first EuroPython and a very exiting experience!
+* Today, I'm happy to talk at EuroPython 2020, but I'd like to visit Dublin next conference. And I want to drink Irish Craft Beer
+
++++
+
+## PyCon JP 2020
+
+* [`pycon.jp/2020`](https://pycon.jp/2020/)
+* 2020 Aug 28(Fr), 29(Sa)
+* Online, Ticket now on sale
+* English talks and Japanese talks
+
+Note:
+* By the way, I'm a vice-chairperson of PyCon JP Association.
+  * This organization is like EuroPython Society.
+* We will be held PyCon JP 2020 Online in Aug.
+* You can participate PyCon JP from home.
+* We have English talks and we also have Japanese talks. Please join us!
 * Now, let's get back to the main topic.
 
 ---
@@ -108,7 +136,8 @@ Note:
 
 Note:
 * The story goes back to 2010.
-* Singapore hosted the first PyCon APAC, 
+* Singapore hosted the first PyCon APAC,
+  * APAC means Asia Pacific
   * 4 Pythonistas attended the conference from Japan
 * They met for the first time, and they enjoyed first PyCon
 * When they came back to Japan, they think "We'd like to hold PyCon in Japan".
@@ -158,6 +187,7 @@ Note:
 @snapend
 
 Note:
+* Next' let's talk about the growth of PyCon JP
 * This chart is number of participants of PyCon JP
 * The number of participants are growing for 10 years
 * Currently, about 1,000 people are attending PyCon JP
@@ -184,7 +214,7 @@ Note:
 ## PyCon JP
 
 Note:
-* PyCon JP has grown.
+* As I've explained, PyCon JP has grown.
 * I'm going to talk about how we organized and managed it.
 
 +++
@@ -538,8 +568,6 @@ Note:
 +++
 
 ## Questions?
-
-* [sli.do](https://app.sli.do/event/vnm62o0o/live/questions)
 
 +++
 
