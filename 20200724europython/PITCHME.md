@@ -46,7 +46,7 @@ Note:
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
 Note:
-* This slide avairable on GitHub, github.com takanory slides
+* This slide available on GitHub, github.com takanory slides
 * Please check it out
 
 +++
@@ -105,7 +105,7 @@ Note:
 ![PyCon JP 2020 logo](20200724europython/images/pyconjp2020logo.png)
 
 * [`pycon.jp/2020`](https://pycon.jp/2020/)
-* 2020 Aug 28(Fr), 29(Sa)
+* 2020 Aug 28(Fri), 29(Sat)
 * Online, Ticket now on sale
 * English talks and Japanese talks
 
@@ -189,10 +189,10 @@ Note:
 @snapend
 
 Note:
-* Next' let's talk about the growth of PyCon JP
-* This chart is number of participants of PyCon JP
+* Next, let's talk about the growth of PyCon JP
+* This chart is number of participants
 * The number of participants are growing for 10 years
-* Currently, about 1,000 people are attending PyCon JP
+* Currently, about 1,000 people are attending
 
 +++
 
@@ -208,6 +208,7 @@ Note:
   * 1 day to 4days
   * 7 talks to 47 talks
   * 4 sponsors to 43 sponsors
+* As I've explained,... PyCon JP has grown.
 
 ---
 
@@ -216,7 +217,7 @@ Note:
 ## PyCon JP
 
 Note:
-* As I've explained, PyCon JP has grown.
+* As I've explained,... PyCon JP has grown.
 * I'm going to talk about how we organized and managed it.
 
 +++
@@ -304,7 +305,7 @@ Note:
 
 Note:
 * In 2015, Small PyCons in the region were held in Sapporo and Hiroshima
-* PyCon JP shared operating know-how and supported public relations, money and people to local oragnizers
+* PyCon JP shared operating know-how and supported public relations, money and people to local organizers
 * We also provided subdomain of pycon.jp for PyCon mini website
 
 +++
@@ -393,7 +394,7 @@ Note:
 Note:
 * We created python boot camp T-shirts.
 * We are giving T-shirts to people who have contributed twice as a staff or TA.
-* A lot of people contributed to python boot camp and now 32 people have T-shits.
+* A lot of people contributed to python boot camp and now 32 people have T-shirts.
 
 +++
 
@@ -468,7 +469,7 @@ Note:
 * Talk about Python syntax
 
 Note:
-* In 2019, we had a boot at 6 locations
+* In 2019, we had a booth at 6 locations
 * We introduced PyCon JP activities, handed out Python stickers at the booth
 * And gave a talk about Python syntax
 
@@ -486,7 +487,7 @@ Note:
 
 ## 2019: Regional Meetup
 
-* Purpose: Relationship with local communities
+* Purpose: Relationship with local python communities
 * hold at PyCon JP 2019
   * Sharing ideas and worries
 
@@ -556,10 +557,10 @@ Note:
   * Let's go 🍺
 
 Note:
-* But...many things ar going to change with COVID-19
+* But...many things are going to change with COVID-19
 * Several countries switched to online event
-  * However, I wonder what the difference would be if we held online events in defferent countires
-  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attendded EuroPython
+  * However, I wonder what the difference would be if we held online events in different countries
+  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attended EuroPython
 * I'd like to meet the local participants offline
   * And let's go have a beer together
   
