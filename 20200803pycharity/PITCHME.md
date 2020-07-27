@@ -92,7 +92,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * スタッフ内で推薦→コメント→決定
   * スピーカーに依頼
 
-+++?image=20200803pycharity/images/pycharity-talks.png&size=100% auto
++++?image=20200803pycharity/images/pycharity-talks.png&size=90% auto
 
 +++
 
@@ -111,7 +111,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * シート上でスタッフ間でコメント
 * 10候補から7枠を選定
 
-+++?image=20200803pycharity/images/pycharity-lt.png&size=auto 100%
++++?image=20200803pycharity/images/pycharity-lt.png&size=auto 90%
 
 +++
 
@@ -127,7 +127,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * 必要なときは必ず個別メンション
   * 普段は見なくてもOKにする
 
-+++?image=20200803pycharity/images/pycharity-slack.png&size=100% auto
++++?image=20200803pycharity/images/pycharity-slack.png&size=auto 90%
 
 +++
 
@@ -137,7 +137,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ## ドキュメント作成 📄
 
-* 発表者向けドキュメント
+* 発表者向け資料
 * オープニング、クロージング
 * 休憩時のスポンサー表示
 * タイムテーブル
@@ -145,7 +145,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## 発表者向けドキュメント 📄
+## 発表者向け資料 📄
 
 * [発表者向け説明スライド](https://docs.google.com/presentation/d/14fzC7A_PQ19m4p-i87ksKSjshj5E7eRWwbjdxrneJ5o/edit#slide=id.p)
 * Zoom Webiner発表の注意点をまとめたもの
@@ -154,7 +154,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## 発表者向けドキュメント 📄
+## 発表者向け資料 📄
 
 * 主な内容
 
@@ -181,7 +181,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 * Zoom Webinerは慣れが必要
 * 発表者は全員リハーサル実施
-  * [(1)](https://pyconjp-staff.connpass.com/event/180216/), [(2)](https://pyconjp-staff.connpass.com/event/180218/), [(3)](https://pyconjp-staff.connpass.com/event/180219/), [(4)](https://pyconjp-staff.connpass.com/event/181096/)
+  * 4日程実施: [(1)](https://pyconjp-staff.connpass.com/event/180216/), [(2)](https://pyconjp-staff.connpass.com/event/180218/), [(3)](https://pyconjp-staff.connpass.com/event/180219/), [(4)](https://pyconjp-staff.connpass.com/event/181096/)
 
 +++
 
@@ -193,7 +193,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * 司会含め本番っぽく実施
 * 「こうするとよさそう」と助言
 
-+++?image=20200803pycharity/images/pycharity-rehearsal.png&size=auto 100%
++++?image=20200803pycharity/images/pycharity-rehearsal.png&size=auto 90%
 
 +++
 
@@ -218,8 +218,8 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * PC準備 💻
 * タイムテーブル 🛎
 * Zoom操作 ⚙️
-* トークを見ない 🙈*
- 休憩トーク 🏝
+* トークを見ない 🙈
+* 休憩トーク 🏝
 
 +++
 
@@ -234,16 +234,18 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
   * マイク、カメラ
 * サブPCは参加者として
   * Zoom、YouTube確認
+  * その他いろいろ
 
 +++
 
 ## メインPC準備 💻
 
-* 再起動する
-* 不要なアプリケーションを落とす
-  * Zoom、Webブラウザーのみ
+* 直前に再起動
+* Zoom、Webブラウザーのみ
+  * 不要なアプリケーションを落とす
+  
 
-+++?image=20200803pycharity/images/takanory-py.jpg&size=100% auto
++++?image=20200803pycharity/images/takanory-pc.jpg&size=90% auto
   
 +++
 
@@ -258,7 +260,17 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * 内容、スピーカー、呼び名
 * スライド等へのリンク
 
-+++?image=20200803pycharity/images/timetable.png&size=100% auto
++++?image=20200803pycharity/images/timetable.png&size=auto 90%
+
++++
+
+## タイムテーブル 🛎
+
+* タイムキープ
+* 次のスピーカー確認
+  * Slackで連絡、指示出し
+* スピーカー名読み上げ
+* スライド表示
 
 +++
 
@@ -266,11 +278,64 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
+## Zoom操作 ⚙️
+
+* スポットライトOn/Off
+* 強制ミュート
+* 強制ビデオ停止
+
++++
+
+## Zoom操作(失敗) ⚙️
+
+* 強制停止の解除がホストからできない
+  * ホスト: 解除依頼
+  * →パネラー: 解除
+* LT前に停止した人を戻しきれなかった
+
+@snap[source span-100 text-08]
+* 参考: [Zoom、ビデオ会議中の強制ミュート解除は必ずユーザー同意が必要に](https://pc.watch.impress.co.jp/docs/news/1254433.html)
+@snapend
+
++++
+
 ## トークを見ない 🙈
 
 +++
 
+## トークを見ない 🙈
+
+* 画面越しだと目が疲れる
+* 集中力がもたない
+* 意識的に画面を見ない
+* 長いトークの途中に中座する
+  * ミュート、カメラオフ
+
++++
+
 ## 休憩トーク 🏝
+
++++
+
+## 休憩トーク 🏝
+
+* 休憩時間に雑なトーク
+* スタッフが聞き手でスピーカーと話す
+* 耳だけで楽しめるように
+* 休憩が無音にならないために
+
++++?image=20200803pycharity/images/break-talk.png&size=auto 90%
+
+## 当日進行まとめ 🎤
+
+* 品質を高める
+  * PC準備 💻
+  * タイムテーブル 🛎
+  * Zoom操作 ⚙️
+* 離脱防止、温かみ
+  * 休憩トーク 🏝
+* 頑張りすぎない
+  * トークを見ない 🙈
 
 ---
 
