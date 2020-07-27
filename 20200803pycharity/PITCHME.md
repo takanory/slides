@@ -294,7 +294,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
   * →パネラー: 解除
 * LT前に停止した人を戻しきれなかった
 
-@snap[south span-100 text-09]
+@snap[south span-100 text-03]
 * 参考: [Zoom、ビデオ会議中の強制ミュート解除は必ずユーザー同意が必要に](https://pc.watch.impress.co.jp/docs/news/1254433.html)
 @snapend
 
@@ -327,7 +327,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++?image=20200803pycharity/images/break-talk.png&size=auto 90%
 
- +++
++++
 
 ## 当日進行まとめ 📣
 
