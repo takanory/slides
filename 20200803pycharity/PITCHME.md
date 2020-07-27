@@ -30,7 +30,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 ## Who am I?(お前誰よ)
 
 * Takanori Suzuki / 鈴木 たかのり
-* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[twitter] [`@takanory`](https://twitter.com/takanory)
 * [PyCon JP Association](https://www.pycon.jp)
 * [BeProud Inc.](https://www.beproud.jp)
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
@@ -41,15 +41,17 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ## Who am I?(お前誰よ)
 
-* Python Charity Talks in Japan(以下pycharity)プログラム担当
+* Python Charity Talks in Japanプログラム担当
+  * https://pyconjp.connpass.com/event/177586/
+  * https://www.youtube.com/watch?v=o-UBokTvQjE
 
 ---
 
-## 最初に考えたこと
+## 最初に考えたこと 🤔
 
 +++
 
-## 最初に考えたこと
+## 最初に考えたこと 🤔
 
 * 寄付だけど参加費をもらっている
 * グダグダじゃない品質
@@ -59,21 +61,22 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ---
 
-## 事前準備
+## 事前準備 🎬
 
 +++
 
-## 事前準備
+## 事前準備 🎬
 
-* トーク選定
-* LT選定
-* 連絡体制
-* ドキュメント作成
-* リハーサル
+* トーク選定 🗣
+* LT選定 ⚡️
+* 連絡体制 💬
+* ドキュメント作成 📄
+* リハーサル 👩‍💻
+
 
 +++
 
-## トーク選定
+## トーク選定 🗣
 
 * 準備期間が短い(約一ヶ月)
 * 募集して選定するのは無理
@@ -81,7 +84,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## トーク選定
+## トーク選定 🗣
 
 * 決定: PyCon JP 2019のトークの再演
   * 質の高いトークが聞ける
@@ -89,11 +92,11 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * スタッフ内で推薦→コメント→決定
   * スピーカーに依頼
 
-+++?image=20200803pycharity/images/pycharity-talks.png&size=auto 100%
++++?image=20200803pycharity/images/pycharity-talks.png&size=100% auto
 
 +++
 
-## トーク決定
+## トーク決定 🗣
 
 * TwitterのDMで連絡→その日に全員快諾
 
@@ -101,7 +104,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## LT選定
+## LT選定 ⚡️
 
 * connpass登録時にLTタイトル記入
 * 顔出し、録画OKなども確認
@@ -112,11 +115,11 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## 連絡体制
+## 連絡体制 💬
 
 +++
 
-## 連絡体制
+## 連絡体制 💬
 
 * 全スピーカーをPyCon JP Slackに招待
 * 1チャンネルのみを使用
@@ -124,15 +127,15 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * 必要なときは必ず個別メンション
   * 普段は見なくてもOKにする
 
-+++?image=20200803pycharity/images/pycharity-slack.png&size=auto 100%
++++?image=20200803pycharity/images/pycharity-slack.png&size=100% auto
 
 +++
 
-## ドキュメント作成
+## ドキュメント作成 📄
 
 +++
 
-## ドキュメント作成
+## ドキュメント作成 📄
 
 * 発表者向けドキュメント
 * オープニング、クロージング
@@ -142,7 +145,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## 発表者向けドキュメント
+## 発表者向けドキュメント 📄
 
 * [発表者向け説明スライド](https://docs.google.com/presentation/d/14fzC7A_PQ19m4p-i87ksKSjshj5E7eRWwbjdxrneJ5o/edit#slide=id.p)
 * Zoom Webiner発表の注意点をまとめたもの
@@ -151,7 +154,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## 発表者向けドキュメント
+## 発表者向けドキュメント 📄
 
 * 主な内容
 
@@ -161,7 +164,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## オープニング、クロージング
+## Opening, Closing 📄
 
 * [オープニング](https://docs.google.com/presentation/d/1s9fZeXc6inTIrlKiKwyzfoP3lcQdiPMuYaVsNWMp8ko/edit#slide=id.p)
   * タイムテーブル、進め方
@@ -170,11 +173,11 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## リハーサル
+## リハーサル ️🧑‍💻
 
 +++
 
-## リハーサル
+## リハーサル ️🧑‍💻
 
 * Zoom Webinerは慣れが必要
 * 発表者は全員リハーサル実施
@@ -182,7 +185,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 +++
 
-## チェックポイント
+## チェックポイント ️🧑‍💻
 
 * 音、映像、スライド
 * Zoom Webinar操作に慣れる
@@ -190,19 +193,19 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 * 司会含め本番っぽく実施
 * 「こうするとよさそう」と助言
 
-+++?image=20200803pycharity/images/pycharity-rehearsal.png&size=100% auto
++++?image=20200803pycharity/images/pycharity-rehearsal.png&size=auto 100%
 
 +++
 
-## 事前準備
+## 事前準備まとめ 🎬
 
-* 省力化
-  * トーク選定
-  * LT選定
-  * 連絡体制
-* 品質を高める
-  * ドキュメント作成
-  * リハーサル
+* 省力化 ↘️
+  * トーク選定 🗣
+  * LT選定 ⚡️
+  * 連絡体制 💬
+* 品質を高める ↗️
+  * ドキュメント作成 📄
+  * リハーサル 👩‍💻
 
 ---
 
@@ -225,6 +228,10 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ## 心の持ち方
 
+* そのままを見せる
+* かっこつけない
+* 多少のミスは気にしない
+
 ---
 
 ## まとめ
@@ -233,5 +240,5 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ## ありがとうございました
 
-* @fab[twitter] `@takanory`
+* @fab[twitter] [`@takanory`](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
