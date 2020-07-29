@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `Python Charity Talks in Japan: 振り返り会 <https://pyconjp.connpass.com/event/182075/>`__
+     * Online
+     * 2020 Aug
+     * Talk
+     * 事前準備と当日進行について
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200803pycharity>`__
    - * `EuroPython 2020 Online <https://ep2020.europython.eu/>`__
      * Online
      * 2020 Jul
