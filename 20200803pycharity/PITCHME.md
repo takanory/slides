@@ -79,7 +79,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 ## トーク選定 🗣
 
 * 準備期間が短い(約一ヶ月)
-* 募集して選定するのは無理
+* スケジュール的に募集→選定は厳しい
 * 依頼するにもどう決める?
 
 +++
@@ -148,7 +148,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 ## 発表者向け資料 📄
 
 * [発表者向け説明スライド](https://docs.google.com/presentation/d/14fzC7A_PQ19m4p-i87ksKSjshj5E7eRWwbjdxrneJ5o/edit#slide=id.p)
-* Zoom Webiner発表の注意点をまとめたもの
+* Zoom Webinar発表の注意点をまとめたもの
 * リハーサルの開始時に説明
 * あとでも読めるように
 
@@ -179,7 +179,7 @@ Python Charity Talks in Japan 振り返り / 2020 Aug 3
 
 ## リハーサル ️🧑‍💻
 
-* Zoom Webinerは慣れが必要
+* Zoom Webinarは慣れが必要
 * 発表者は全員リハーサル実施
   * 4日程実施: [(1)](https://pyconjp-staff.connpass.com/event/180216/), [(2)](https://pyconjp-staff.connpass.com/event/180218/), [(3)](https://pyconjp-staff.connpass.com/event/180219/), [(4)](https://pyconjp-staff.connpass.com/event/181096/)
 
