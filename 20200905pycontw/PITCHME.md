@@ -98,7 +98,7 @@ Note:
 Note:
 * In the tour,... I presented talk at PyCon Taiwan 2019. Did you see me?
 * It was a very fun and comfortable time for me.
-* Today, I'm happy to talk at PyCon Taiwan 2020, but I'd like to visit Tainan. And I want to drink Taiwan Craft Beer
+* Today, I'm happy to talk at PyCon Taiwan 2020, but I'd like to visit Tainan. And I want to drink Taiwanese Craft Beer
 * Now, let's get back to the main topic.
 
 ---
@@ -301,7 +301,7 @@ Note:
 * 2017: [Kumamoto](https://kumamoto.pycon.jp/)
 * 2018: [Osaka](https://osaka.pycon.jp/), [Fukuoka](https://kyushu.pycon.jp/2020/), [Hiroshima](https://hiroshima.pycon.jp/2018/)
 * 2019: [Sapporo](https://sapporo.pycon.jp/2019/), [Okinawa](https://kyushu.pycon.jp/2019/), [Hiroshima](https://hiroshima.pycon.jp/2019/)
-* 2020: [Shizuoka](https://shizuoka.pycon.jp/)(, [Kumamoto](https://kyushu.pycon.jp/2020/), [Hiroshima](https://hiroshima.pycon.jp/2020/))
+* 2020: [Shizuoka](https://shizuoka.pycon.jp/), [Hiroshima](https://hiroshima.pycon.jp/2020/)(, [Kumamoto](https://kyushu.pycon.jp/2020/))
 
 Note:
 * This is list of PyCon mini events in Japan
@@ -544,7 +544,8 @@ Note:
 * But...many things are going to change with COVID-19
 * Several countries switched to online event
   * However, I wonder what the difference would be if we held online events in different countries
-  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attended EuroPython
+  * Online is easy to attend from a foreign country like me, but online makes me feel less like I attended PyCon Taiwan
+  * Because there is no Taiwanese food, no Taiwanese beer, no Night markets, no Pinapple cake!!
 * I'd like to meet the local participants offline
   * And let's go have a beer together
   
