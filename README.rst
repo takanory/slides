@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `PyCon Taiwan 2020 <https://tw.pycon.org/2020/en-us/>`__
+     * Tainan/Online
+     * 2020 Sep
+     * Talk
+     * `Decade of PyCon JP: How we spread the Python community in Japan <https://tw.pycon.org/2020/en-us/conference/talk/1164383136524534147/>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200905pycontw>`__
    - * `Python Charity Talks in Japan: 振り返り会 <https://pyconjp.connpass.com/event/182075/>`__
      * Online
      * 2020 Aug
