@@ -10,7 +10,7 @@ Note:
 
 * Thank you for taking the time to watch my talk
 * I am Takanori Suzuki. Now I'm presenting from Japan
-* I am very happy to be able to talk at PyCon Taiwano 2020
+* I am very happy to be able to talk at PyCon Taiwan 2020
 * My talk title is "Decade of PyCon JP" ... Today,...
 
 ---
@@ -47,17 +47,23 @@ Note:
 
 Note:
 * This slide available on GitHub, github.com takanory slides
-* Please check it out
+* And I've already shared this slide on Twitter.
+* Please check it out #pycontw.
 
 +++
 
 ## Q&A
 
-* @fab[discord] `#talk-detcade-of-pycon-jp`
+* [`www.sli.do`](https://www.sli.do/): `#pycontw`
+
+![sli.do QR code](20200905pycontw/images/slido.png)
 
 Note:
-* If you have any questions, please write to Zoom Q&A.
-* Or write to #talk-detcade-of-pycon-jp channel
+* If you have any questions, please post them on sli.do.
+* Go to sli.do then type pycontw. Or use the QR code to access sli.do.
+* Please try and write something on sli.do.
+  * https://admin.sli.do/event/yhkdzmcx/questions
+  * https://app.sli.do/event/yhkdzmcx
 * Before the main topic,...I will introduce myself.
 
 ---
