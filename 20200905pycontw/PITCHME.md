@@ -105,12 +105,12 @@ Note:
 * In the tour,... I presented talk about slackbot at PyCon Taiwan 2019. Did you see me?
 * It was a very fun and comfortable time for me. Because I really enjoyed the conference and beer every day with my friends from Japan, Taiwan and Asia.
 * Today, I'm happy to talk at PyCon Taiwan 2020, but I'd like to visit Tainan.
-* ... And
+* ... Because 
 
 +++?image=20200905pycontw/images/pycontw2019beer.jpg&size=auto 90%
 
 Note:
-* ... And I want to drink Taiwanese Craft Beer.
+* ... Because I really want to drink Taiwanese Craft Beer with my friends.
 * Now, let's get back to the main topic.
 
 ---
@@ -160,6 +160,11 @@ Note:
 Note:
 * This is PyCon mini JP website. It's so simple
 
++++?image=20200905pycontw/images/pyconminijp2011.jpg&size=100% auto
+
+Note:
+* And this is the audience of PyCon mini JP.
+
 +++
 
 ## 2011-2020: PyCon JP
@@ -172,7 +177,14 @@ Note:
 * PyCon mini JP was a success, so we hold PyCon JP every year since 2011
 * There is English talks and Japanese talks
 * In 2013, we held PyCon APAC in Tokyo. It was first PyCon APAC to be held outside of Singapore.
-  * Since 2013, we've held PyCon APAC on a rotating basis across Asia
+  
++++?image=20200905pycontw/images/pyconapac2013.jpg&size=100% auto
+
+Note:
+* This is a group photo from PyCon APAC 2013.
+* A lot of participants from overseas.
+* Since 2013, we've held PyCon APAC on a rotating basis across Asia
+  * Japan, Taiwan, Korea, Malaysia, Singapore, Philippines
 
 +++
 
@@ -194,14 +206,14 @@ Note:
 
 ## mini(2011) -> 2019
 
-* 1 -> 4 Days (incl. Tutorial, Sprint)
-* 7 -> 47 Talks
-* 4 -> 43 Sponsors
-* 136 -> 951 Participants
+* 1 -> 4 Days (4x)
+* 7 -> 47 Talks (7x)
+* 4 -> 43 Sponsors (10x)
+* 136 -> 951 Participants (7x)
 
 Note:
 * Conference days, number of talks and sponsors are increasing as well
-  * 1 day to 4days
+  * 1 day to 4 days
   * 7 talks to 47 talks
   * 4 sponsors to 43 sponsors
 * As I've explained,... PyCon JP has grown.
@@ -258,7 +270,9 @@ Note:
 Note:
 * I was the chairperson of PyCon JP event from 2014 to 2016.
 * The event team and the association are different organizations.
-* And I changed event organizing because of the size of PyCon JP and the number of staff.
+  * For example, in 2014, I was the Chair of the PyCon JP event team and a board member of PyCon JP Association.
+* And I changed event organizing as chairperson.
+  * The reason for the change was the size of the event and the number of staff.
 
 +++
 
@@ -277,6 +291,7 @@ Note:
   * The event was open to guest participation, and some people went from guests to new staff.
 * We regularly publish our activities on the blog to get interested in event management
 * We created an operation manual and made it reusable
+* As a result, I think we've been able to renew the event team
 
 +++?image=20200510pyconhk/images/pyconjp-manual.png&size=auto 100%
 
@@ -333,6 +348,9 @@ https://n.freemap.jp/tw/20200509_1731119223
 ---
 
 ## 2016: Python Boot Camp ⛺️
+
+Note:
+Next activity is Python Boot Camp.
 
 +++
 
@@ -599,10 +617,10 @@ Note:
 
 ## 1,401,500 JPY
 
-### (11,300 EUR)
+### (388,000 NTD)
 
 Note:
-* As a result, 1.4 million Yen (about 11,300 EUR) was raised!
+* As a result, 1.4 million Yen (about 388,000 NTD) was raised!
 * I think the event was a huge success.
 
 +++
@@ -614,21 +632,20 @@ Note:
 
 ---
 
-## Thank you!!
+## Questions
+## Feedback
 
-* @fab[twitter] [@takanory](https://twitter.com/takanory)
-* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
+* [`www.sli.do`](https://www.sli.do/): `#pycontw`
+* @fab[discord] `#r3-track`
 
 Note:
 * Thank you for your attention to my talk.
 * I hope something in this talk will help you.
+* If you have any questions, please post them on sli.do or discord.
 * And if you have any ideas, please let me know.
-
-+++
-
-## Questions / Feedback
-
-* @fab[discord] `#talk-detcade-of-pycon-jp`
+  * https://admin.sli.do/event/yhkdzmcx/questions
+  * https://app.sli.do/event/yhkdzmcx
 
 +++
 
