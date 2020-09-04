@@ -102,9 +102,15 @@ Note:
 +++?image=20200905pycontw/images/pycontw2019.jpg&size=auto 90%
 
 Note:
-* In the tour,... I presented talk at PyCon Taiwan 2019. Did you see me?
-* It was a very fun and comfortable time for me.
-* Today, I'm happy to talk at PyCon Taiwan 2020, but I'd like to visit Tainan. And I want to drink Taiwanese Craft Beer
+* In the tour,... I presented talk about slackbot at PyCon Taiwan 2019. Did you see me?
+* It was a very fun and comfortable time for me. Because I really enjoyed the conference and beer every day with my friends from Japan, Taiwan and Asia.
+* Today, I'm happy to talk at PyCon Taiwan 2020, but I'd like to visit Tainan.
+* ... And
+
++++?image=20200905pycontw/images/pycontw2019beer.jpg&size=auto 90%
+
+Note:
+* ... And I want to drink Taiwanese Craft Beer.
 * Now, let's get back to the main topic.
 
 ---
