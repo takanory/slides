@@ -45,7 +45,7 @@ Note:
 
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
-![github slids](20200905pycontw/images/github-slids.png)
+![github slids](20200905pycontw/images/github-slides.png)
 
 Note:
 * This slide available on GitHub, github.com takanory slides
@@ -582,11 +582,11 @@ Note:
 
 ### 2020: Python Charity Talks
 
-* [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
+* [`connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
 * Date: 2020 Jul 4(Sat) 13:00-18:00
-  * Online donation event, Half-day, Single track
+  * Online, Half-day, Single track
 * Goal: donate to PSF
-  * ref: [The real impact of canceling PyCon due to COVID-19 | Opensource.com](https://opensource.com/article/20/5/pycon-covid-19)
+  * ref: [The real impact of canceling PyCon due to COVID-19](https://opensource.com/article/20/5/pycon-covid-19)
 * PSF supported PyCon JP
   * PyCon JP gives back to PSF
 
@@ -599,7 +599,7 @@ Note:
 
 +++
 
-### Results of Python Charity Talks
+## Results of Python Charity Talks
 
 * Sponsors: 1 Platinum, 5 Gold, 9 Silver, 40 Patron
 * Attendees: 200
@@ -654,7 +654,7 @@ Note:
 Note:
 * Thank you. See you at the next PyCon Taiwan or some PyCon.
 
-+++?image=20200905pycontw/images/taihutokyo.png&size=100% auto
++++?image=20200905pycontw/images/taihutokyo.png&size=auto 100%
 
 Note:
 * I'm going to Taifu Tokyo tonight for Taiwanese craft beer!!!
