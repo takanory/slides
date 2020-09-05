@@ -121,7 +121,7 @@ Note:
 
 +++
 
-## 2010: Before PyCon JP
+### 2010: Before PyCon JP
 
 * first PyCon APAC in SG
   * 4 Pythonistas from Japan 
@@ -164,7 +164,7 @@ Note:
 
 +++
 
-## 2011-2020: PyCon JP
+### 2011-2020: PyCon JP
 
 * Annual event
 * English and Japanese
@@ -227,7 +227,7 @@ Note:
 
 +++
 
-## Communication Tools
+### Communication Tools
 
 * @fab[slack] Slack: Chat
 * @fab[jira] JIRA: Issue management
@@ -258,7 +258,7 @@ Note:
 
 +++
 
-## 2014-2016: Event Chair
+### 2014-2016: Event Chair
 
 * I was the Chair of PyCon JP event.
   * Event team != Association
@@ -273,7 +273,7 @@ Note:
 
 +++
 
-## Open PyCon JP team
+### Open PyCon JP team
 
 * Purpose: Get more people, Reference
 * Open staff meeting
@@ -351,7 +351,7 @@ Next activity is Python Boot Camp.
 
 +++
 
-## 2016: Python Boot Camp
+### 2016: Python Boot Camp
 
 * Half-day hands-on for beginners
 * Purpose: Spreading Python around Japan
@@ -471,7 +471,7 @@ Note:
 
 +++
 
-## Python Boot Camp Caravan
+### Python Boot Camp Caravan
 
 * 6 locations
   * Okinawa, Sapporo, Nagoya, Kyoto, Shimane, Fukuoka
@@ -496,7 +496,7 @@ Note:
 
 +++
 
-## 2019: Regional Meetup
+### 2019: Regional Meetup
 
 * Purpose: Relationship with local python communities
 * hold at PyCon JP 2019
@@ -514,7 +514,7 @@ Note:
 
 +++
 
-## Regional Meetup(online)
+### Regional Meetup(online)
 
 ![Regional meetup online](20200510pyconhk/images/meetup-online.jpg)
 
@@ -578,7 +578,7 @@ Note:
   
 ---
 
-## 2020: Python Charity Talks
+### 2020: Python Charity Talks
 
 * [`pyconjp.connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
 * Date: 2020 Jul 4(Sat) 13:00-18:00
@@ -597,7 +597,7 @@ Note:
 
 +++
 
-## Results of Python Charity Talks
+### Results of Python Charity Talks
 
 * Sponsors: 1 Platinum, 5 Gold, 9 Silver, 40 Patron
 * Attendees: 200
@@ -652,7 +652,7 @@ Note:
 Note:
 * Thank you. See you at the next PyCon Taiwan or some PyCon.
 
-+++?image=20200905pycontw/images/taifutokyo.jpg&size=auto 100%
++++?image=20200905pycontw/images/taihutokyo.jpg&size=auto 100%
 
-Note
+Note:
 * I'm going to Taifu Tokyo tonight for Taiwanese craft beer!!!
