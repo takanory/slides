@@ -45,7 +45,7 @@ Note:
 
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 
-![sli.do](20200905pycontw/images/slido.jpg)
+![github slids](20200905pycontw/images/github-slids.png)
 
 Note:
 * This slide available on GitHub, github.com takanory slides
@@ -57,6 +57,8 @@ Note:
 ## Q&A
 
 * [`www.sli.do`](https://www.sli.do/)
+
+![sli.do](20200905pycontw/images/slido.png)
 
 Note:
 * If you have any questions, please post them on sli.do.
@@ -652,7 +654,7 @@ Note:
 Note:
 * Thank you. See you at the next PyCon Taiwan or some PyCon.
 
-+++?image=20200905pycontw/images/taihutokyo.jpg&size=auto 100%
++++?image=20200905pycontw/images/taihutokyo.png&size=100% auto
 
 Note:
 * I'm going to Taifu Tokyo tonight for Taiwanese craft beer!!!
