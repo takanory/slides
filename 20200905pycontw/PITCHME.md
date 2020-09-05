@@ -1,6 +1,6 @@
 ## Decade of PyCon JP
 
-##### -- How we spread the Python community in Japan -- 
+##### How we spread the Python community in Japan
 
 ### Takanori Suzuki
 
@@ -631,6 +631,31 @@ Note:
 
 ---
 
+## PyCon JP 2020
+
+![pycon jp 2020](20200905pycontw/images/pyconjp2020.png)
+
+Note:
+* Finally, a breaf recap of the PyCon JP 2020
+
++++
+
+## PyCon JP 2020
+
+* [`pycon.jp/2020`](https://pycon.jp/2020/)
+* 2020 Aug 28(Fri), 29(Sat)
+* Online (Zoom + YouTube)
+* 2 Keynotes
+* 5 Tracks
+
+Note:
+* PyCon JP 2020 was the first online annual event.
+* There were two keynotes and 5 tracks.
+* I think the participants probably enjoyed it.
+* Someday we hope to be able to held PyCon JP onsite.
+
+---
+
 ## Questions
 ## Feedback
 
@@ -657,4 +682,4 @@ Note:
 +++?image=20200905pycontw/images/taihutokyo.png&size=auto 100%
 
 Note:
-* I'm going to Taifu Tokyo tonight for Taiwanese craft beer!!!
+* I'm going to Taihu Tokyo tonight for Taiwanese craft beer!!!
