@@ -1,6 +1,6 @@
 ## Decade of PyCon JP
 
-##### How we spread the Python community in Japan
+##### How we spread the Python community in JP
 
 ### Takanori Suzuki
 
@@ -54,7 +54,7 @@ Note:
 
 +++
 
-## Q&A
+## Questions
 
 * [`www.sli.do`](https://www.sli.do/)
 
@@ -67,7 +67,7 @@ Note:
 
 ---
 
-## Who am I?
+## Who am I? 👤
 
 * Takanori Suzuki / 鈴木 たかのり
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
@@ -221,7 +221,7 @@ Note:
 
 ## How we organize
 
-## PyCon JP
+## PyCon JP 👥
 
 Note:
 * As I've explained,... PyCon JP has grown.
@@ -385,6 +385,11 @@ Note:
 * This is basic timetable
 * From the basics of Python programming to Web Scraping in a hands-on
 * After the event, we go to the party. It is a fun time for me
+
++++?image=20200905pycontw/images/pycamp.jpg&size=auto 100%
+
+Note:
+* This picuture shows a python boot camp.
 
 +++
 
@@ -580,6 +585,10 @@ Note:
   
 ---
 
+## 2020: Python Charity Talks 💰
+
++++ 
+
 ### 2020: Python Charity Talks
 
 * [`connpass.com/event/177586`](https://pyconjp.connpass.com/event/177586/)
@@ -631,12 +640,12 @@ Note:
 
 ---
 
-## PyCon JP 2020
+## PyCon JP 2020 🐍
 
 ![pycon jp 2020](20200905pycontw/images/pyconjp2020.png)
 
 Note:
-* Finally, a breaf recap of the PyCon JP 2020
+* Finally, I'll talk briefly about PyCon JP 2020
 
 +++
 
@@ -656,8 +665,8 @@ Note:
 
 ---
 
-## Questions
-## Feedback
+## Questions 💭
+## Feedback 💬
 
 
 * [`www.sli.do`](https://www.sli.do/)
@@ -671,7 +680,7 @@ Note:
 
 +++
 
-## Thank you!!
+## Thank you!! 🙇‍♂️
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
@@ -683,3 +692,10 @@ Note:
 
 Note:
 * I'm going to Taihu Tokyo tonight for Taiwanese craft beer!!!
+
++++
+
+## Thank you!! 🍺
+
+* @fab[twitter] [@takanory](https://twitter.com/takanory)
+* @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
