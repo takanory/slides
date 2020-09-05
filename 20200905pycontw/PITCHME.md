@@ -31,12 +31,12 @@ Note:
 
 ---
 
-## Tweets 🐦 👍
+## Photos 📷 Tweets 🐦 👍
 
 `#pycontw` / `@takanory`
 
 Note:
-* I'd be happy to give you feedback on Twitter, etc.
+* I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
 * Hashtag is `#pycontw`
 
 +++
@@ -44,6 +44,8 @@ Note:
 ## Slide
 
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
+![sli.do](20200905pycontw/images/slido.jpg)
 
 Note:
 * This slide available on GitHub, github.com takanory slides
