@@ -54,16 +54,11 @@ Note:
 
 ## Q&A
 
-* [`www.sli.do`](https://www.sli.do/): `#pycontw`
-
-![sli.do QR code](20200905pycontw/images/slido.png)
+* [`www.sli.do`](https://www.sli.do/)
 
 Note:
 * If you have any questions, please post them on sli.do.
-* Go to sli.do then type pycontw. Or use the QR code to access sli.do.
-* Please try and write something on sli.do.
-  * https://admin.sli.do/event/yhkdzmcx/questions
-  * https://app.sli.do/event/yhkdzmcx
+* (Please try and write something on sli.do.)
 * Before the main topic,...I will introduce myself.
 
 ---
@@ -636,16 +631,14 @@ Note:
 ## Feedback
 
 
-* [`www.sli.do`](https://www.sli.do/): `#pycontw`
+* [`www.sli.do`](https://www.sli.do/)
 * @fab[discord] `#r3-track`
 
 Note:
 * Thank you for your attention to my talk.
 * I hope something in this talk will help you.
-* If you have any questions, please post them on sli.do or discord.
+* If you have any questions, please post them on sli.do or Python Taiwan discord.
 * And if you have any ideas, please let me know.
-  * https://admin.sli.do/event/yhkdzmcx/questions
-  * https://app.sli.do/event/yhkdzmcx
 
 +++
 
@@ -653,3 +646,11 @@ Note:
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
+Note:
+* Thank you. See you at the next PyCon Taiwan or some PyCon.
+
++++?image=20200905pycontw/images/taifutokyo.jpg&size=auto 100%
+
+Note
+* I'm going to Taifu Tokyo tonight for Taiwanese craft beer!!!
