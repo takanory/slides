@@ -587,6 +587,9 @@ Note:
 
 ## 2020: Python Charity Talks 💰
 
+Note:
+* This year, we launched new event "Python Charity Talks in Japan"
+
 +++ 
 
 ### 2020: Python Charity Talks
@@ -600,7 +603,6 @@ Note:
   * PyCon JP gives back to PSF
 
 Note:
-* This year, we launched new event "Python Charity Talks in Japan"
 * The event is online donation event
 * The goal of the event is donate to PSF because PSF is due to the financial impact of the cancellation of PyCon US
 * PyCon JP has received money support from PSF in the past.
@@ -660,8 +662,23 @@ Note:
 Note:
 * PyCon JP 2020 was the first online annual event.
 * There were two keynotes and 5 tracks.
-* I think the participants probably enjoyed it.
-* Someday we hope to be able to held PyCon JP onsite.
+* I enjoyed the event and I think the participants probably enjoyed it.
+* But, someday we hope to be able to held PyCon JP onsite.
+
+---
+
+## Summary
+
+* Hold online events
+* Enjoy online events
+* No food, No beer, No encounter
+* I hope to see you in real
+
+Note:
+* We can hold online events
+* And we can enjoy online events too!
+* But there is No food, No beer, No encounter there
+* I hope to see you in real life accross the country someday, somewhere!
 
 ---
 
