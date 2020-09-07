@@ -56,8 +56,9 @@
 
 ![いちばんやさしいPython機械学習の教本](20190808stapy/images/ichiyasaml.jpg)
 
-+++
++++?image=20200910stapy/images/ichiyasa2.jpg&position=left&size=25% auto
 
+@snap[east span-70 text-center]
 ### いちばんやさしいPythonの教本 第2版
 
 * https://book.impress.co.jp/books/1119101162
@@ -65,9 +66,11 @@
 * ページ数: 272
 * 2,200円+税
 * 主な内容: あああ
+@snapend
 
-+++
++++?image=20200910stapy/images/pattern80.jpg&position=left&size=25% auto
 
+@snap[east span-70 text-center]
 ### つなげば動く！ Pythonふりがなプログラミング パターン文例80
 
 * https://book.impress.co.jp/books/1119101161
@@ -75,9 +78,11 @@
 * ページ数: 248
 * 2,200円+税
 * 主な内容: あああ
+@snapend
 
-+++
++++?image=20200910stapy/images/pythnon-excel.jpg&position=left&size=25% auto
 
+@snap[east span-70 text-center]
 ### できる 仕事がはかどるPython＆Excel自動処理 全部入り。
 
 * https://book.impress.co.jp/books/1119101179
@@ -85,6 +90,7 @@
 * ページ数: 280
 * 2,150円+税
 * 主な内容: あああ
+@snapend
 
 +++?image=20200910stapy/images/saitan-python1.jpg&position=left&size=25% auto
 
