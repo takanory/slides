@@ -86,7 +86,7 @@
 * 2,150円+税
 * 主な内容: あああ
 
-+++image=20200910stapy/images/saitan-python1.jpg&position=left&size=45% 100%
++++?image=20200910stapy/images/saitan-python1.jpg&position=left&size=45% 100%
 
 @snap[east span-50 text-center]
 ### 最短距離でゼロからしっかり学ぶ Python入門 必修編
@@ -98,7 +98,7 @@
 * 主な内容: あああ
 @snapend
 
-+++
++++?image=20200910stapy/images/saitan-python2.jpg&position=left&size=45% 100%
 
 ### 最短距離でゼロからしっかり学ぶ Python入門 実践編
 
