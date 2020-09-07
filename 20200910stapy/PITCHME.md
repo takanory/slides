@@ -86,9 +86,9 @@
 * 2,150円+税
 * 主な内容: あああ
 
-+++?image=20200910stapy/images/saitan-python1.jpg&position=left&size=30% auto
++++?image=20200910stapy/images/saitan-python1.jpg&position=left&size=25% auto
 
-@snap[east span-50 text-center]
+@snap[east span-70 text-center]
 ### 最短距離でゼロからしっかり学ぶ Python入門 必修編
 
 * https://gihyo.jp/book/2020/978-4-297-11570-8
@@ -98,8 +98,9 @@
 * 主な内容: あああ
 @snapend
 
-+++?image=20200910stapy/images/saitan-python2.jpg&position=left&size=45% 100%
++++?image=20200910stapy/images/saitan-python2.jpg&position=left&size=25% auto
 
+@snap[east span-70 text-center]
 ### 最短距離でゼロからしっかり学ぶ Python入門 実践編
 
 * https://gihyo.jp/book/2020/978-4-297-11572-2
@@ -107,6 +108,7 @@
 * ページ数: 344
 * 3,300円+税
 * 主な内容: あああ
+@snapend
 
 +++?image=20190808stapy/images/amazon.jpg&size=90% auto
 
