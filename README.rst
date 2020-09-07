@@ -14,6 +14,12 @@
      * kind
      * title
      * resource
+   - * `みんなのPython勉強会#61 <https://startpython.connpass.com/event/186016/>`_
+     * Online
+     * 2020 Sep
+     * Talk
+     * オンライン時代のプログラミング習得について考える
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200910stapy>`__
    - * `PyCon Taiwan 2020 <https://tw.pycon.org/2020/en-us/>`__
      * Tainan/Online
      * 2020 Sep
