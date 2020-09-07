@@ -52,9 +52,29 @@
 
 ---
 
-## 書籍の紹介
+@snap[north-west span-50 text-center]
+![](20200910stapy/images/ichiyasa2.jpg)
+@snapend
 
-![いちばんやさしいPython機械学習の教本](20190808stapy/images/ichiyasaml.jpg)
+@snap[north span-50 text-center]
+![](20200910stapy/images/pattern80.jpg)
+@snapend
+
+@snap[north-east span-50 text-center]
+![](20200910stapy/images/python-excel.jpg)
+@snapend
+
+@snap[midpoint span-100 text-center]
+## 最近関わった書籍の紹介(宣伝)
+@snapend
+
+@snap[south-west span-50 text-center]
+![](20200910stapy/images/saitan-python1.jpg)
+@snapend
+
+@snap[south-east span-50 text-center]
+![](20200910stapy/images/saitan-python2.jpg)
+@snapend
 
 +++?image=20200910stapy/images/ichiyasa2.jpg&position=left&size=25% auto
 
