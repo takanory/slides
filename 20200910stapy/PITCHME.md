@@ -35,7 +35,7 @@
 
 +++
 
-### PyCon JP🐍
+### PyCon JP 🐍
 
 * PyCon JP 2020: [`pycon.jp/2020`](https://pycon.jp/2020/)
 
@@ -43,12 +43,11 @@
 
 +++
 
-### BeProud
+### BeProud 👨‍💻
 
-* connpass: [`connpass.com`](https://connpass.com/)
-* PyQ: [`pyq.jp`](https://pyq.jp/)
-* Python関連開発
-* 書籍: Pythonプロフェッショナルプログラミング他
+* Python関連開発(Web、機械学習、数理最適化)
+* [connpass](https://connpass.com/)、[PyQ](https://pyq.jp/)、Python研修
+* 書籍: Pythonプロフェッショナルプログラミング他多数
 
 ![BeProud](20190808stapy/images/beproud.png)
 
@@ -83,59 +82,59 @@
 @snap[east span-70 text-center]
 ### いちばんやさしいPythonの教本 第2版
 
-* https://book.impress.co.jp/books/1119101162
-* 発売日: 2020年8月24日
-* ページ数: 272
+* [書籍ページ](https://book.impress.co.jp/books/1119101162)
+* 2020年8月24日発売
+* 272ページ
 * 2,200円+税
-* 主な内容: あああ
+* 初心者向け、講義形式、Python 3.8対応に改訂
 @snapend
 
 +++?image=20200910stapy/images/pattern80.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-### つなげば動く！ Pythonふりがなプログラミング パターン文例80
+#### つなげば動く！ Pythonふりがなプログラミング パターン文例80
 
-* https://book.impress.co.jp/books/1119101161
-* 発売日: 2020年7月22日
-* ページ数: 248
+* [書籍ページ](https://book.impress.co.jp/books/1119101161)
+* 2020年7月22日発売
+* 248ページ
 * 2,200円+税
-* 主な内容: あああ
+* 超初心者向け、ふりがなPythonの続編
 @snapend
 
 +++?image=20200910stapy/images/python-excel.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-### できる 仕事がはかどるPython＆Excel自動処理 全部入り。
+#### できる 仕事がはかどるPython＆Excel自動処理 全部入り。
 
-* https://book.impress.co.jp/books/1119101179
-* 発売日: 2020年8月24日
-* ページ数: 280
+* [書籍ページ](https://book.impress.co.jp/books/1119101179)
+* 2020年8月24日発売
+* 280ページ
 * 2,150円+税
-* 主な内容: あああ
+* Python全部入りの続編、Excelに特化
 @snapend
 
 +++?image=20200910stapy/images/saitan-python1.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-### 最短距離でゼロからしっかり学ぶ Python入門 必修編
+#### 最短距離でゼロからしっかり学ぶ Python入門 必修編
 
-* https://gihyo.jp/book/2020/978-4-297-11570-8
-* 発売日: 2020年9月2日
-* ページ数: 312
+* [書籍ページ](https://gihyo.jp/book/2020/978-4-297-11570-8)
+* 2020年9月2日発売
+* 312ページ
 * 3,200円+税
-* 主な内容: あああ
+* Python Crash Courseを翻訳、Python基礎をみっちり
 @snapend
 
 +++?image=20200910stapy/images/saitan-python2.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-### 最短距離でゼロからしっかり学ぶ Python入門 実践編
+#### 最短距離でゼロからしっかり学ぶ Python入門 実践編
 
-* https://gihyo.jp/book/2020/978-4-297-11572-2
-* 発売日: 2020年9月2日
-* ページ数: 344
+* [書籍ページ](https://gihyo.jp/book/2020/978-4-297-11572-2)
+* 2020年9月2日発売
+* 344ページ
 * 3,300円+税
-* 主な内容: あああ
+* Pygame、データ可視化、DjangoでWeb
 @snapend
 
 ---
