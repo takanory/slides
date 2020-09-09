@@ -92,7 +92,7 @@
 +++?image=20200910stapy/images/pattern80.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-#### つなげば動く！ Pythonふりがなプログラミング パターン文例80
+#### Pythonふりがなプログラミング パターン文例80
 
 * [書籍ページ](https://book.impress.co.jp/books/1119101161)
 * 2020年7月22日発売
@@ -104,7 +104,7 @@
 +++?image=20200910stapy/images/python-excel.jpg&position=left&size=25% auto
 
 @snap[east span-70 text-center]
-#### できる 仕事がはかどるPython＆Excel自動処理 全部入り。
+### 仕事がはかどるPython＆Excel全部入り
 
 * [書籍ページ](https://book.impress.co.jp/books/1119101179)
 * 2020年8月24日発売
