@@ -24,9 +24,8 @@
 
 ## 最初にお願い
 
-* sli.doのlive poll使います
 * [`sli.do`](https://www.sli.do/): `#beer`
-  * https://app.sli.do/event/ucsxm60y/live/polls
+  * [`app.sli.do/event/ucsxm60y/live/polls`](https://app.sli.do/event/ucsxm60y/live/polls)
 
 ![sli.do](20200910stapy/images/slido.png)
 
@@ -53,9 +52,9 @@
 
 +++
 
-## Q: PyCon JP 2020参加した?
+### Q: PyCon JP 2020参加した?
 
-* https://app.sli.do/event/ucsxm60y/live/polls
+* [`app.sli.do/event/ucsxm60y/live/polls`](https://app.sli.do/event/ucsxm60y/live/polls)
 
 ![sli.do polls](20200910stapy/images/slido-poll.png)
 
