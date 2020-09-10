@@ -24,10 +24,9 @@
 
 ## 最初にお願い
 
-* [`sli.do`](https://www.sli.do/): `#beer`
-  * [`app.sli.do/event/ucsxm60y/live/polls`](https://app.sli.do/event/ucsxm60y/live/polls)
+* sli.doでインタラクティブにやりたい
 
-![sli.do](20200910stapy/images/slido.png)
++++?image=20200910stapy/images/slido.png&size=auto 100%
 
 ---
 
@@ -53,8 +52,6 @@
 +++
 
 ### Q: PyCon JP 2020参加した?
-
-* [`app.sli.do/event/ucsxm60y/live/polls`](https://app.sli.do/event/ucsxm60y/live/polls)
 
 ![sli.do polls](20200910stapy/images/slido-poll.png)
 
@@ -165,6 +162,13 @@
 
 ## Q: 紹介した本欲しい? 📚
 
+Note:
+今回紹介した本を
+購入済
+絶対買う
+買おうかなぁ
+買うかも知れない
+
 +++
 
 ## 書籍プレゼント!! 🎁
@@ -184,9 +188,91 @@
 
 ## Q: Python学習どれくらい?
 
+Note:
+Python学習どれくらい?
+これから
+学習開始したところ
+文法はマスターした
+人に教えられる
+
 +++
 
 ## 前提の共有
+
++++
+
+## 前提の共有
+
+* Pythonの習得に興味あるはず
+
++++
+
+## 習得のためのサイクル
+
+* インプット
+  * →試す
+  * →アウトプット
+  * →フィードバック
+  * →インプット
+
++++
+
+## 習得の目的
+
+* 言語は道具 🔧
+* XXXが作りたい
+* YYYを調べたい
+* ZZZで働きたい
+
++++
+
+## 多様な手段
+
+* インプット(本、Web、ビデオ、イベント...)
+* 試す(PC、ハード、Web...)
+* アウトプット(Web、発表、本...)
+* フィードバック(コメント、QA、懇親会...)
+
++++
+
+## Q: あなたのインプット手段は?
+
+Note:
+あなたのインプット手段は?
+書籍
+Webサイト
+スクール・トレーニング
+ビデオ
+イベント
+
++++
+
+## COVID-19
+
+* リアルで集まれない
+* 仮説: 習得方法が変わったんじゃないか?
+
+---
+
+## インプット編
+
++++
+
+## 書籍
+
+* 書籍の売り上げは伸びてるらしい
+* 技術書も売り上げがいいっぽい
+
++++
+
+## Q: 書籍前よりも読めてる?
+
+Note:
+書籍前よりも読めてる?
+読めてる
+買ってるけど読めてない
+変わらない
+前より読めてない
 
 ---
 
@@ -194,4 +280,3 @@
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
-
