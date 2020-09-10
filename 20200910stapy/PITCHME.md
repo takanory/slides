@@ -20,6 +20,16 @@
   * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
 * ぜひ懇親会🍺でフィードバックください
 
++++
+
+## 最初にお願い
+
+* sli.doのlive poll使います
+* [`sli.do`](https://www.sli.do/): `#beer`
+  * https://app.sli.do/event/ucsxm60y/live/polls
+
+![sli.do](20200910stapy/images/slido.png)
+
 ---
 
 ## Who am I?(お前誰よ)
@@ -40,6 +50,21 @@
 * PyCon JP 2020: [`pycon.jp/2020`](https://pycon.jp/2020/)
 
 ![PyCon JP 2020](20200910stapy/images/pyconjp2020.png)
+
++++
+
+## Q: PyCon JP 2020参加した?
+
+* https://app.sli.do/event/ucsxm60y/live/polls
+
+![sli.do polls](20200910stapy/images/slido-poll.png)
+
++++
+
+## 協力thx
+
+* こんな感じでやっていきます
+* Pollsのページは開きっぱなし推奨
 
 +++
 
@@ -66,7 +91,7 @@
 @snapend
 
 @snap[midpoint span-100 text-center]
-## 関わった書籍(宣伝)
+## 関わった書籍(PR)
 @snapend
 
 @snap[south-west span-50 text-center]
@@ -137,7 +162,27 @@
 * Pygame、データ可視化、DjangoでWeb
 @snapend
 
++++
+
+## Q: 紹介した本欲しい? 📚
+
++++
+
+## プレゼントあります!! 🎁
+
+* いちばんやさしいPythonの教本 第2版(2名)
+* 最短距離でゼロからしっかり学ぶ Python入門
+  * 必修編、実践編(2冊セット x 2名)
+* 紙の本(住所必須)
+* 感想をぜひSNS、ブログ等で
+
 ---
+
+### オンライン時代のプログラミング習得について考える
+
++++
+
+## Q: Python習得どれくらい?
 
 ---
 
