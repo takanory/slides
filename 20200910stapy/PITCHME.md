@@ -459,3 +459,8 @@ Note:
 
 * @fab[twitter] [@takanory](https://twitter.com/takanory)
 * @fab[github] [`github.com/takanory/slides`](https://github.com/takanory/slides)
+
++++?image=20200910stapy/images/beer.jpg&size=auto 100%
+
+## 懇親会のビール
+
