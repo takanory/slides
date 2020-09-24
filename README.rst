@@ -33,7 +33,7 @@
      * Talk
      * 事前準備と当日進行について
      * `Slides <https://gitpitch.com/takanory/slides?p=20200803pycharity>`__
-       `Video <https://www.youtube.com/watch?v=CHJiILdwAHM&t=3002>`__
+       `Video <https://www.youtube.com/watch?v=CHJiILdwAHM&t=3000>`__
    - * `EuroPython 2020 Online <https://ep2020.europython.eu/>`__
      * Online
      * 2020 Jul
