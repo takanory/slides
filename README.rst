@@ -4,6 +4,14 @@
 
 * `Self introduction <https://gitpitch.com/takanory/slides?p=about-takanory>`_
 
+.. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
+     * Tokyo, Japan
+     * 2020 Jun?
+     * Talk
+     * TBD
+     * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
+
+
 .. list-table::
    :header-rows: 1
    :widths: 10, 10, 10, 10, 40, 10
@@ -40,12 +48,6 @@
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20200724europython>`__
-   - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
-     * Tokyo, Japan
-     * 2020 Jun?
-     * Talk
-     * TBD
-     * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
    - * `PyCon HK <https://pycon.hk/>`__
      * Online
      * 2020 May
@@ -110,6 +112,7 @@
      * Talk
      * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
      * `Slides <https://gitpitch.com/takanory/slides?p=20190808stapy>`__
+       `Video <https://www.youtube.com/watch?v=gKrQVJ1v7WM&t=589>`__
    - * `EuroPython <https://ep2019.europython.eu/>`__
      * Bazel, Switzerland
      * 2019 Jul
@@ -143,7 +146,7 @@
      * 2019 Apr
      * Lightning Talk
      * Slackbot: PyCon JP Botの紹介
-     * `Slide <https://gitpitch.com/takanory/slides?p=20190421pybeginners-oki>`__
+     * `Slides <https://gitpitch.com/takanory/slides?p=20190421pybeginners-oki>`__
    - * `PyCon APAC <https://pycon.python.ph/>`__
      * Makati, Philippines
      * 2019 Feb
