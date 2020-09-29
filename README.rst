@@ -48,6 +48,13 @@
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20200724europython>`__
+   - * `オープンソースカンファレンス2020 Online/Hokkaido <https://event.ospn.jp/osc2020-online-do/>`_
+     * Online
+     * 2020 Jun
+     * Talk
+     * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`_
+     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020do>`__
+       `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
    - * `PyCon HK <https://pycon.hk/>`__
      * Online
      * 2020 May
@@ -134,6 +141,12 @@
      * Lightning Talk
      * どこよりも早いUS PyCon参加レポート
      * `Slides <https://gitpitch.com/takanory/slides?p=20190514bpll>`__
+   - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-okinawa/>`__
+     * Sapporo, Japan
+     * 2019 May
+     * Talk
+     * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17>`_
+     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2019do>`__
    - * `PyCon <https://us.pycon.org/2019/>`__
      * Cleveland, OH
      * 2019 May
@@ -147,6 +160,12 @@
      * Lightning Talk
      * Slackbot: PyCon JP Botの紹介
      * `Slides <https://gitpitch.com/takanory/slides?p=20190421pybeginners-oki>`__
+   - * `オープンソースカンファレンス2019 Okinawa <https://www.ospn.jp/osc2019-okinawa/>`__
+     * Okinawa, Japan
+     * 2019 Apr
+     * Talk
+     * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=19>`_
+     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2019okinawa>`__
    - * `PyCon APAC <https://pycon.python.ph/>`__
      * Makati, Philippines
      * 2019 Feb
