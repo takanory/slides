@@ -141,7 +141,7 @@
      * Lightning Talk
      * どこよりも早いUS PyCon参加レポート
      * `Slides <https://gitpitch.com/takanory/slides?p=20190514bpll>`__
-   - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-okinawa/>`__
+   - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-do/>`__
      * Sapporo, Japan
      * 2019 May
      * Talk
