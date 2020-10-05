@@ -48,6 +48,7 @@
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
      * `Slides <https://gitpitch.com/takanory/slides?p=20200724europython>`__
+       `Video <https://www.youtube.com/watch?v=jO8isCFS_YM>`__
    - * `オープンソースカンファレンス2020 Online/Hokkaido <https://event.ospn.jp/osc2020-online-do/>`_
      * Online
      * 2020 Jun
