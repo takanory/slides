@@ -11,7 +11,6 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
-
 .. list-table::
    :header-rows: 1
    :widths: 10, 10, 10, 10, 40, 10
@@ -22,6 +21,13 @@
      * kind
      * title
      * resource
+   - * `オープンソースカンファレンス2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
+     * Online
+     * 2020 Oct
+     * Talk
+     * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-fall/session/200253>`__
+     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020fall>`__
+       `Video <https://www.youtube.com/watch?v=4IJCRt9wklQ>`__
    - * `みんなのPython勉強会#61 <https://startpython.connpass.com/event/186016/>`_
      * Online
      * 2020 Sep
@@ -53,7 +59,7 @@
      * Online
      * 2020 Jun
      * Talk
-     * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`_
+     * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`__
      * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020do>`__
        `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
    - * `PyCon HK <https://pycon.hk/>`__
