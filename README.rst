@@ -26,7 +26,8 @@
      * 2020 Oct
      * Talk
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-fall/session/200253>`__
-     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020fall>`__
+     * Slides
+       `Markdown <https://github.com/pyconjp/slides/blob/master/osc2020fall/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=4IJCRt9wklQ>`__
    - * `みんなのPython勉強会#61 <https://startpython.connpass.com/event/186016/>`_
      * Online
@@ -48,7 +49,8 @@
      * 2020 Aug
      * Talk
      * 事前準備と当日進行について
-     * `Slides <https://gitpitch.com/takanory/slides?p=20200803pycharity>`__
+     * Slides
+       `Markdown <20200803pycharity/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=CHJiILdwAHM&t=3000>`__
    - * `EuroPython 2020 Online <https://ep2020.europython.eu/>`__
      * Online
@@ -63,7 +65,8 @@
      * 2020 Jun
      * Talk
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`__
-     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020do>`__
+     * Slides
+       `Markdown <https://github.com/pyconjp/slides/blob/master/osc2020do/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
    - * `PyCon HK <https://pycon.hk/>`__
      * Online
@@ -78,7 +81,8 @@
      * 2020 Apr
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
-     * `Slides <https://gitpitch.com/takanory/slides?p=20200417pycon>`__
+     * Slides
+       `Markdown <20200417pycon/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=ndi55Ig6-SI>`__
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
      * Tokyo, Japan
@@ -166,7 +170,8 @@
      * 2019 May
      * Talk
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17>`_
-     * `Slides <https://gitpitch.com/pyconjp/slides/master?p=osc2020do>`__
+     * Slides
+       `Markdown <https://github.com/pyconjp/slides/blob/master/osc2019do/PITCHME.md>`__
    - * `PyCon <https://us.pycon.org/2019/>`__
      * Cleveland, OH
      * 2019 May
