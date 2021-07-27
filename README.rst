@@ -34,7 +34,7 @@
      * 2020 Sep
      * Talk
      * オンライン時代のプログラミング習得について考える
-     * Slides
+     * `Slides <20200910stapy/20200910stapy.pdf>`__
        `Markdown <20200910stapy/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=zuIWyyGCHeM&t=3603>`__
    - * `PyCon Taiwan 2020 <https://tw.pycon.org/2020/en-us/>`__
@@ -131,7 +131,7 @@
      * 2019 Aug
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * Slides
+     * `Slides <20190824pyconmy/20190824pyconmy.pdf>`__
        `Markdown <20190824pyconmy/PITCHME.md>`__
        `Report <https://gihyo.jp/news/report/2019/09/0901>`__
    - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
@@ -154,7 +154,7 @@
      * 2019 Jun
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://th.pycon.org/talks/#row-16>`__
-     * Slides
+     * `Slides <20190615pyconth/20190615pyconth.pdf>`__
        `Markdown <20190615pyconth/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=4Cn59IXrtdk>`__
        `Report <https://gihyo.jp/news/report/2019/07/0501>`__
@@ -162,7 +162,7 @@
      * Tokyo, Japan
      * 2019 May
      * Lightning Talk
-     * どこよりも早いUS PyCon参加レポート
+     * `どこよりも早いUS PyCon参加レポート <20190514bpll/20190514bpll.pdf>`__
      * `Slides <20190514bpll/20190514bpll.pdf>`__
        `Markdown <20190514bpll/PITCHME.md>`__
    - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-do/>`__
@@ -184,7 +184,7 @@
      * 2019 Apr
      * Lightning Talk
      * Slackbot: PyCon JP Botの紹介
-     * Slides
+     * `Slides <20190421pybeginners-oki/0190421pybeginners-oki.pdf>`__
        `Markdown <20190421pybeginners-oki/PITCHME.md>`__
    - * `オープンソースカンファレンス2019 Okinawa <https://www.ospn.jp/osc2019-okinawa/>`__
      * Okinawa, Japan
@@ -198,7 +198,7 @@
      * 2019 Feb
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * Slides
+     * `Slides <20190224pyconapac/20190224pyconapac.pdf>`__
        `Markdown <20190224pyconapac/PITCHME.md>`__
        `Report <https://gihyo.jp/news/report/2019/03/1201>`__
        `Video <https://www.youtube.com/watch?v=iex9DAGxl_o>`__
@@ -207,7 +207,7 @@
      * 2018 Dec
      * Panel
      * トークセッション 山口能迪＆鈴木たかのり
-     * Slides
+     * `Slides <20181220techtomo/20181220techtomo.pdf>`__
        `Markdown <20181220techtomo/PITCHME.md>`__
    - * `あおもりITひとつなぎ交流会 <http://www.aoit.jp/9251.html>`_
      * Tokyo, japan
@@ -228,35 +228,35 @@
      * 2018 Jul
      * Talk
      * PyPro3執筆の光と闇
-     * Slides
+     * `Slides <20180705bpstyle/20180705bpstyle.pdf>`__
        `Markdown <20180705bpstyle/PITCHME.md>`__
    - * `テクトモ #1 <https://techtomo.connpass.com/event/89475/>`_
      * Tokyo, Japan
      * 2018 Jun
      * Talk
      * Pythonってどんな言語? -導入事例や気になるトレンドについて-
-     * Slides
+     * `Slides <20180626techtomo/20180626techtomo.pdf>`__
        `Markdown <20180626techtomo/PITCHME.md>`__
    - * `BPStudy #123 <https://bpstudy.connpass.com/event/68500/>`_
      * Tokyo, Japan
      * 2017 Nov
      * Talk
      * Pythonエンジニアファーストブックの紹介
-     * Slides
+     * `Slides <20171124bpstudy/20171124bpstudy.pdf>`__
        `Markdown <20171124bpstudy/PITCHME.md>`__
    - * `みんなのPython勉強会#30 <https://startpython.connpass.com/event/65231/>`_
      * Tokyo, Japan
      * 2017 Nov
      * Talk
      * いちばんやさしいPythonの学び方の作り方
-     * Slides
+     * `Slides <20171108stapy/20171108stapy.pdf>`__
        `Markdown <20171108stapy/PITCHME.md>`__
    - * `BPStyle #86 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle86>`_
      * Tokyo, Japan
      * 2017 Oct
      * Talk
      * いちやさPythonの裏側
-     * Slides
+     * `Slides <20171005bpstyle/20171005bpstyle.pdf>`__
        `Markdown <20171005bpstyle/PITCHME.md>`__
    - * `ヒカ☆ラボ <https://career.levtech.jp/hikalab/event/detail/130/>`__
      * Tokyo, Japan
