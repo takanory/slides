@@ -49,7 +49,7 @@
      * 2020 Aug
      * Talk
      * 事前準備と当日進行について
-     * Slides
+     * `Slides <20200803pycharity/20200803pycharity.pdf>`__
        `Markdown <20200803pycharity/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=CHJiILdwAHM&t=3000>`__
    - * `EuroPython 2020 Online <https://ep2020.europython.eu/>`__
@@ -139,7 +139,7 @@
      * 2019 Aug
      * Talk
      * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
-     * `Slides <20190808stapy/20190808stapy.df>`__
+     * `Slides <20190808stapy/20190808stapy.pdf>`__
        `Markdown <20190808stapy/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=gKrQVJ1v7WM&t=589>`__
    - * `EuroPython <https://ep2019.europython.eu/>`__
