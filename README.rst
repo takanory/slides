@@ -42,7 +42,7 @@
      * 2020 Sep
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://tw.pycon.org/2020/en-us/conference/talk/1164383136524534147/>`__
-     * Slides
+     * `Slides <20200905pycontw/20200905pycontw.pdf>`__
        `Markdown <20200905pycontw/PITCHME.md>`__
    - * `Python Charity Talks in Japan: 振り返り会 <https://pyconjp.connpass.com/event/182075/>`__
      * Online
@@ -57,7 +57,7 @@
      * 2020 Jul
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
-     * Slides
+     * `Slides <20200724europython/20200724europython.pdf>`__
        `Markdown <20200724europython/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=jO8isCFS_YM>`__
    - * `オープンソースカンファレンス2020 Online/Hokkaido <https://event.ospn.jp/osc2020-online-do/>`_
@@ -73,7 +73,7 @@
      * 2020 May
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
-     * Slides
+     * `Slides <20200510pyconhk/20200510pyconhk.pdf>`__
        `Markdown <20200510pyconhk/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=Gi3B46Tjxh8>`__
    - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
@@ -81,7 +81,7 @@
      * 2020 Apr
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
-     * Slides
+     * `Slides <20200417pycon/20200417pycon.pdf>`__
        `Markdown <20200417pycon/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=ndi55Ig6-SI>`__
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
@@ -96,7 +96,7 @@
      * 2019 Nov
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * Slides
+     * `Slides <20191123pyconid/20191123pyconid.pdf>`__
        `Markdown <20191123pyconid/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=3iBA9kjQ9B0>`__
        `Report <https://gihyo.jp/news/report/2019/12/1701>`__
@@ -105,7 +105,7 @@
      * 2019 Oct
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * Slides
+     * `Slides <20191010pyconsg/20191010pyconsg.pdf>`__
        `Markdown <20191010pyconsg/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=4r3-5wvi4kA>`__
        `Report <https://gihyo.jp/news/report/2019/10/2901>`__
@@ -114,7 +114,7 @@
      * 2019 Sep
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://tw.pycon.org/2019/en-us/events/talk/848945100682690780/>`__
-     * Slides
+     * `Slides <20190922pycontw/20190922pycontw.pdf>`__
        `Markdown <20190922pycontw/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=XGHR4D8_fjQ>`__
        `Report <https://gihyo.jp/news/report/01/pycon-tw2019>`__
@@ -123,7 +123,7 @@
      * 2019 Sep
      * Talk
      * Automate the Boring Stuff with Slackbot
-     * Slides
+     * `Slides <20190917pyconjp/20190917pyconjp.pdf>`__
        `Markdown <20190917pyconjp/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=rbNI2LzwaqE>`__
    - * `PyCon MY <https://pycon.my/>`__
@@ -139,7 +139,7 @@
      * 2019 Aug
      * Talk
      * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
-     * Slides
+     * `Slides <20190808stapy/20190808stapy.df>`__
        `Markdown <20190808stapy/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=gKrQVJ1v7WM&t=589>`__
    - * `EuroPython <https://ep2019.europython.eu/>`__
@@ -214,7 +214,7 @@
      * 2018 Nov
      * Lightning Talk
      * Python Boot Campの紹介
-     * Slides
+     * `Slides <20181110aoit/20181110aoit.pdf>`__
        `Markdown <20181110aoit/PITCHME.md>`__
    - * `Plone Conference <https://2018.ploneconf.org/>`__
      * Tokyo, japan
