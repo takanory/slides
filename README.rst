@@ -26,7 +26,7 @@
      * 2020 Oct
      * Talk
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-fall/session/200253>`__
-     * Slides
+     * `Slides <<https://github.com/pyconjp/slides/blob/master/osc2020fall/osc2020fall.pdf>`__
        `Markdown <https://github.com/pyconjp/slides/blob/master/osc2020fall/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=4IJCRt9wklQ>`__
    - * `みんなのPython勉強会#61 <https://startpython.connpass.com/event/186016/>`_
@@ -65,7 +65,7 @@
      * 2020 Jun
      * Talk
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`__
-     * Slides
+     * `Slides <https://github.com/pyconjp/slides/blob/master/osc2020do/osc2020do.pdf>`__
        `Markdown <https://github.com/pyconjp/slides/blob/master/osc2020do/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
    - * `PyCon HK <https://pycon.hk/>`__
@@ -170,7 +170,7 @@
      * 2019 May
      * Talk
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17>`_
-     * Slides
+     * `Slides <https://github.com/pyconjp/slides/blob/master/osc2019do/osc2019do.pdf>`__
        `Markdown <https://github.com/pyconjp/slides/blob/master/osc2019do/PITCHME.md>`__
    - * `PyCon <https://us.pycon.org/2019/>`__
      * Cleveland, OH
@@ -191,7 +191,7 @@
      * 2019 Apr
      * Talk
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=19>`_
-     * Slides
+     * `Slides <https://github.com/pyconjp/slides/blob/master/osc2019okinawa/osc2019okinawa.pdf>`__
        `Markdown <osc2019okinawa/PITCHME.md>`__
    - * `PyCon APAC <https://pycon.python.ph/>`__
      * Makati, Philippines
