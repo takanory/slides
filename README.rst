@@ -26,7 +26,7 @@
      * 2020 Oct
      * Talk
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-fall/session/200253>`__
-     * `Slides <<https://github.com/pyconjp/slides/blob/master/osc2020fall/osc2020fall.pdf>`__
+     * `Slides <https://github.com/pyconjp/slides/blob/master/osc2020fall/osc2020fall.pdf>`__
        `Markdown <https://github.com/pyconjp/slides/blob/master/osc2020fall/PITCHME.md>`__
        `Video <https://www.youtube.com/watch?v=4IJCRt9wklQ>`__
    - * `みんなのPython勉強会#61 <https://startpython.connpass.com/event/186016/>`_
