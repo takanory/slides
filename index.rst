@@ -3,5 +3,6 @@ takanory slids
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   20210615bpll/index
+   2021*/index
