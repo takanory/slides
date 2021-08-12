@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'takanory slids'
+project = 'takanory slides'
 copyright = '2021, takanory'
 author = 'takanory'
 
@@ -47,7 +47,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env', 'README.rst',
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bizstyle'
+html_theme = 'karma_sphinx_theme' # 'press'
+
+html_theme_options = {
+    'nosidebar': False,
+    'includehidden': False,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
