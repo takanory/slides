@@ -1,0 +1,4 @@
+[build]
+  base    = "."
+  publish = "build"
+  command = "sphinx-build . build && sphinx-build -b revealjs . build/slides"

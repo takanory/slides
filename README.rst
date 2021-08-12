@@ -21,6 +21,12 @@
      * kind
      * title
      * resource
+   - * `OSS X Users Meeting #31 <https://oss-x-users-meeting.connpass.com/event/218793/>`_
+     * Online
+     * 2021 Aug
+     * Talk
+     * Pythonの現在とこれからと
+     * Slides
    - * `オープンソースカンファレンス2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
      * Online
      * 2020 Oct
