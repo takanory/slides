@@ -1,5 +1,4 @@
-takanory slides
-===============
+.. include:: README.rst
 
 .. toctree::
    :maxdepth: 1
@@ -7,5 +6,4 @@ takanory slides
    :hidden:
 
    2021*/index
-
-.. include:: README.rst
+             
