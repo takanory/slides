@@ -266,7 +266,7 @@
      * トークセッション 山口能迪＆鈴木たかのり
      * `Slides <https://github.com/takanory/slides/raw/master/20181220techtomo/20181220techtomo.pdf>`__
        `Markdown <https://github.com/takanory/slides/tree/master/20181220techtomo/PITCHME.md>`__
-   - * `あおもりITひとつなぎ交流会 <http://www.aoit.jp/9251.html>`_
+   - * `あおもりITひとつなぎ交流会 <https://aoit.jp/news/news-4>`_
      * Tokyo, japan
      * 2018 Nov
      * LT
