@@ -93,6 +93,7 @@ revealjs_script_plugins = [
 ]
 revealjs_static_path = html_static_path
 revealjs_css_files = [
-    "revealjs4/plugin/highlight/zenburn.css",
+    "http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+    "revealjs4/plugin/highlight",
     'slides.css',
 ]
