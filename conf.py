@@ -54,7 +54,7 @@ html_theme_options = {
     'includehidden': False,
 }
 
-html_css_files = ["http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
+html_css_files = ["https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
