@@ -6,10 +6,6 @@ Takanori Suzuki
 
 <OSS X Users Meeting> #31 / 2021 Aug 25
 
-TODO
-====
-* emでfontawesomeが斜体になるのでCSS直す
-
 今日話すこと 🗣
 ===============
 * Pythonとは(5分)
@@ -17,6 +13,14 @@ TODO
 * Python開発の歴史(5分)
 * Python言語アップデート(10分)
 * Pythonの未来(5分)
+
+スクショ 📸 ツイート 🐦 👍
+==========================
+* ``#ossx`` / ``@takanory``
+
+スライド 💻
+===========
+👉 `slides.takanory.net <https://slides.takanory.net>`_
 
 最初に質問
 ==========
@@ -32,7 +36,7 @@ Python今使っている人🙋‍♂️
 
 Who am I(お前誰よ) 👤
 =====================
-* 鈴木たかのり(|twitter| `@takanory <https://twitter.com/takanory>`_)
+* 鈴木たかのり(`@takanory <https://twitter.com/takanory>`_)
 * PyCon JP Association 副代表理事
 * 株式会社BeProud 役員/Python Climber
 * 好き：フェレット、🍺、LEGO／趣味：🎺、🧗
@@ -288,7 +292,7 @@ Python Charity Talks in Japan
 ------------
 * 興味があるものに参加してみてください
 
-Python言語アップデート(10分)
+Python言語アップデート 🆕
 ============================
 * 現在はPython 3.9.6
 * 2021年10月に3.10.0がリリース予定
@@ -315,8 +319,11 @@ Python 3.10の主な新機能
 * Structural Pattern Matching
 * (コード例を出す)
 
-Pythonの未来(5分)
-=================
+Python言語アップデート 🆕 - まとめ
+----------------------------------
+
+Pythonの未来 🚀
+===============
 * 2021のPyConでのLanuguage SummitでGuioが発表
 
   * コロナでひまでMSに入った
