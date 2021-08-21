@@ -15,23 +15,34 @@ TODO
 * Pythonとは(5分)
 * Pythonの旬なプロジェクト(5分)
 * Python開発の歴史(5分)
-* Pythonの現在と今後(10分)
+* Python言語アップデート(10分)
 * Pythonの未来(5分)
 
-最初に質問(1分)
-===============
-* Python知ってる人
-* Python使ったことある人
+最初に質問
+==========
+   
+Python知ってる人🙋‍♂️
+---------------------
 
-Who am I(お前誰よ)(1分)
-=======================
-* 鈴木たかのり
-* |twitter| `@takanory <https://twitter.com/takanory>`_
-* (``#pyconjp``) 副代表理事
+Python使ったことある人🙋‍♀️
+---------------------------
+
+Python今使っている人🙋‍♂️
+-------------------------
+
+Who am I(お前誰よ)
+==================
+* 鈴木たかのり(|twitter| `@takanory <https://twitter.com/takanory>`_)
+* PyCon JP Association 副代表理事
 * 株式会社BeProud 役員/Python Climber
 
-Pythonとは(5分)
-===============
+.. image:: /assets/images/sokidan-square.jpg
+
+Pythonとは
+==========
+
+.. revealjs-break::
+
 * 汎用のプログラミング言語
 
   * 動的型付け
@@ -42,55 +53,139 @@ Pythonとは(5分)
 読みやすく
 ----------
 * インデントが構文
-* PEP8というコーディング規約
+* **PEP 8** というコーディング規約
+
+  * https://www.python.org/dev/peps/pep-0008/
 
 .. code-block:: python
 
-   ここにサンプルコード
+   for num in range(1, 101):
+       if num % 15 == 0:
+           print('FizzBuzz')
+       elif num % 5 == 0:
+           print('Fizz')
+       elif num % 3 == 0:
+           print('Buzz')
+       else:
+           print(num)
 
 後方互換性
 ----------
-* 基本的に3.xが更新されてもそのまま動く
-* 対応するサードパーティ製パッケージ次第(後述)
-* Python 2系→3系ではいくつか広報互換性を犠牲にした
+* 3.9で書いたプログラム→基本3.10で動く
+* 利用するサードパーティライブラリ次第(後述)
+* Python 2系→3系では後方互換性を犠牲に
 
-  * そのおかげで移行にかなりかかった
+  * 移行にかなりかかった
 
-豊富なライブラリ
-----------------
+豊富な標準ライブラリ
+--------------------
 * 標準ライブラリでいろいろできる
 * 「バッテリー同梱」とも言われる
 * ただ多すぎて使われてなさそうなものも...
+* https://docs.python.org/ja/3/library/
 
-豊富なサードパーティ製パッケージ
+豊富なサードパーティライブラリ
 --------------------------------
-* PyPIからインストールできる
-* いろいろできる
-* Webフレームワーク、スクレイピング
-* 機械学習、深層学習
-* コンピュータービジョン
-* データ分析
-* https://awesome-python.com/ を紹介
+* PyPI(https://pypi.org/)からインストール
 
-Pythonの特徴まとめ
-------------------
+.. image:: images/pypi.png
+   :width: 80%
+   :alt: PyPI
+
+.. revealjs-break::
+
+* Webフレームワーク、スクレイピング
+* 行列計算、機械学習、深層学習
+* コンピュータービジョン、画像処理
+* データ分析、可視化
+
+.. revealjs-break::
+
+* Awesome Python(https://awesome-python.com/)
+
+.. image:: images/awesome-python.png
+   :width: 80%
+   :alt: Awesome Python
+
+他のツールの組み込み言語
+------------------------
+* 3DCG
+
+  * blender, Mayaなど
+* ゲームエンジン
+
+  * Unreal Engine
+
+Pythonとは - まとめ
+-------------------
 * 読みやすい構文
 * 後方互換性を維持
-* 豊富なライブラリ、パッケージ
+* 豊富な標準ライブラリ、サードパーティ
 
-Pythonの旬なプロジェクト(5分)
-=============================
-* GitHubでstarが多めのものから抜粋
+Pythonの旬なプロジェクト
+========================
+* 旬っぽいプロジェクトをいくつか紹介
+
+FastAPI
+-------
+* API構築のWebフレームワーク
+* URL: https://fastapi.tiangolo.com/ja/
+
+.. image:: images/fastapi.png
+   :width: 70%
+
+.. Pythonの標準である型ヒントに基づいてAPIを構築するための、モダンで、高速(高パフォーマンス)な、Web フレームワーク
+  
+JupyterLab
+----------
+* Webベースのプログラムの対話型実行環境
+* https://jupyterlab.readthedocs.io/
+
+.. image:: images/jupyterlab.png
+   :width: 70%
+
+PyCaret
+-------
+* ローコードのMLライブラリ(AutoMLサポート)
+* https://pycaret.org/
+
+.. image:: images/pycaret.png
+   :width: 70%
+
+AWS CLI / Google Cloud SDK
+--------------------------
+* クラウドを管理するコマンド群
+* https://aws.amazon.com/cli/
+* https://cloud.google.com/sdk
+
+Black
+-----
+* 妥協のないコードフォーマッター
+* https://black.readthedocs.io/
+
+.. image:: images/black.png
+   :width: 70%
+
+Poetry
+------
+* パッケージの依存関係の管理、構築
+* https://python-poetry.org/
+
+.. image:: images/poetry.png
+   :width: 65%
+
+Pythonの旬なプロジェクト - まとめ
+---------------------------------
+* 気になるものがあったら試してみて
 * FastAPI
-* Django / DRF
-* Keras?
-* scikit-learn: 1.0が出るっぽい?
-* black
-* poetry
-* (それぞれを1ページずつで紹介予定)
+* JupyterLab
+* PyCaret
+* AWSCLI / Google Cloud SDK
+* Black
+* Poetry
 
-Python開発の歴史(5分)
-=====================
+Python開発の歴史
+================
 * PEPの仕組みを説明(2000年から
 
   * PEP書いて提案
@@ -127,8 +222,8 @@ PyCon JP 2021の宣伝(1分)
 * ここで宣伝を入れる
 * Python Charity Talksも宣伝するかなぁ
 
-Pythonの現在と今後(10分)
-========================
+Python言語アップデート(10分)
+============================
 * 現在はPython 3.9.6
 * 2021年10月に3.10.0がリリース予定
 * 今後は年1回マイナーバージョンが上がる
