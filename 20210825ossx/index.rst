@@ -10,8 +10,8 @@ TODO
 ====
 * emでfontawesomeが斜体になるのでCSS直す
 
-今日話すこと
-============
+今日話すこと 🗣
+===============
 * Pythonとは(5分)
 * Pythonの旬なプロジェクト(5分)
 * Python開発の歴史(5分)
@@ -20,7 +20,7 @@ TODO
 
 最初に質問
 ==========
-   
+
 Python知ってる人🙋‍♂️
 ---------------------
 
@@ -30,16 +30,17 @@ Python使ったことある人🙋‍♀️
 Python今使っている人🙋‍♂️
 -------------------------
 
-Who am I(お前誰よ)
-==================
+Who am I(お前誰よ) 👤
+=====================
 * 鈴木たかのり(|twitter| `@takanory <https://twitter.com/takanory>`_)
 * PyCon JP Association 副代表理事
 * 株式会社BeProud 役員/Python Climber
+* 好き：フェレット、🍺、LEGO／趣味：🎺、🧗
 
 .. image:: /assets/images/sokidan-square.jpg
 
-Pythonとは
-==========
+Pythonとは 🐍
+==============
 
 .. revealjs-break::
 
@@ -116,14 +117,14 @@ Pythonとは
 
   * Unreal Engine
 
-Pythonとは - まとめ
--------------------
+Pythonとは 🐍 - まとめ
+----------------------
 * 読みやすい構文
 * 後方互換性を維持
 * 豊富な標準ライブラリ、サードパーティ
 
-Pythonの旬なプロジェクト
-========================
+Pythonの旬なプロジェクト 🔥
+===========================
 * 旬っぽいプロジェクトをいくつか紹介
 
 FastAPI
@@ -135,7 +136,7 @@ FastAPI
    :width: 70%
 
 .. Pythonの標準である型ヒントに基づいてAPIを構築するための、モダンで、高速(高パフォーマンス)な、Web フレームワーク
-  
+
 JupyterLab
 ----------
 * Webベースのプログラムの対話型実行環境
@@ -174,8 +175,8 @@ Poetry
 .. image:: images/poetry.png
    :width: 65%
 
-Pythonの旬なプロジェクト - まとめ
----------------------------------
+Pythonの旬なプロジェクト 🔥 - まとめ
+------------------------------------
 * 気になるものがあったら試してみて
 * FastAPI
 * JupyterLab
@@ -184,43 +185,108 @@ Pythonの旬なプロジェクト - まとめ
 * Black
 * Poetry
 
-Python開発の歴史
-================
-* PEPの仕組みを説明(2000年から
+Python開発の歴史 🕰
+==================
 
-  * PEP書いて提案
+Pythonの拡張はPEPで提案
+-----------------------
+* PEP: Python Enhancement Proposal
+* 2000年頃から運用
+
+  * PEPを書いて提案
   * メーリングリストで議論
   * 最後に採用/不採用を判断
+* `PEP 1 -- PEP Purpose and Guidelines <https://www.python.org/dev/peps/pep-0001/>`_
 
-* BDFLが採用不採用を判断していた
+BDFL: 優しい終身の独裁者
+------------------------
+* BDFLが採用不採用を最終決定
 
-  * BDFL = Guido
-  * BDFL Delegateで他人に判断を委譲できる
+  * BDFL = Guido van Rossum
+  * BDFL Delegateで他人に判断を委譲可能
 
-* BDFL引退の話
+BDFLの引退
+----------
+* セイウチ演算子ですごいもめたのがきっかけ?
 
-  * セイウチ演算子ですごいもめた?
+  * `PEP 572 -- Assignment Expressions <https://www.python.org/dev/peps/pep-0572/>`_
+* 2018年7月にBDFLを引退するというメールを送信
+
   * `[python-committers] Transfer of power <https://mail.python.org/pipermail/python-committers/2018-July/005664.html>`_
 
-* Pythonの新しい運営モデル
+.. revealjs-break::
 
-  * `PEP 8000 -- Python Language Governance Proposal Overview | Python.org <https://www.python.org/dev/peps/pep-8000/>`_ でいくつか提案されて投票
-  * `PEP 8016 -- The Steering Council Model | Python.org <https://www.python.org/dev/peps/pep-8016/>`_ が採用
+.. image:: images/transfer-of-power.png
+   :width: 80%
 
-* The Steering Council Model
+Pythonの新しい運営モデル
+------------------------
+* `PEP 8000 -- Python Language Governance Proposal Overview <https://www.python.org/dev/peps/pep-8000/>`_
 
-  * 毎年5名のCouncilメンバーを投票で決める
-  * CouncilメンバーがPEPの採用不採用を決定
-  * 2019はGuidoはいたが、2020以降は立候補していない
-* 今後
+  * 複数のガバナンスモデルが提案され投票
+* `PEP 8016 -- The Steering Council Model <https://www.python.org/dev/peps/pep-8016/>`_
 
-  * 継続的に開発は続きそう
-  * Council Modelへの移行はいいタイミングだったかも
+  * この案が採用された
 
-PyCon JP 2021の宣伝(1分)
-========================
-* ここで宣伝を入れる
-* Python Charity Talksも宣伝するかなぁ
+The Steering Council Model
+--------------------------
+* 毎年5名のCouncilメンバーを投票で決める
+* CouncilメンバーがPEPの採用不採用を決定
+* 2019年はGuidoがいたが、2020以降は立候補していない
+* 投票結果: `2019 <https://www.python.org/dev/peps/pep-8100/>`_, `2020 <https://www.python.org/dev/peps/pep-8101/>`_, `2021 <https://www.python.org/dev/peps/pep-8102/>`_
+
+2021 Councilメンバー
+--------------------
+* C.Willing, T.Wouters, B.Cannon, P.Galindo Salgado, B.Warsaw
+
+.. image:: images/council.png
+   :width: 80%
+
+Python開発の歴史 🕰 - まとめ
+---------------------------
+* 2018年に大きく運営方針が変わった
+* 今後も継続的に開発は続きそう
+* Council Modelへの移行はいいタイミングだったかも
+
+宣伝 📺
+=======
+* ここで休憩がてらコミュニティ活動の宣伝
+
+PyCon JP
+--------
+* 国内最大のPythonイベント(`2021.pycon.jp <https://2021.pycon.jp/>`_)
+* 2021年10月15日(金)、16日(土)
+
+.. image:: images/pyconjp.png
+   :width: 80%
+
+PyCon JP TV
+-----------
+* Pythonについて月1ライブ配信(`tv.pycon.jp <https://tv.pycon.jp/>`_)
+* 次回は2021年9月3日(金)
+
+.. image:: images/pyconjptv.png
+   :width: 70%
+
+Python Boot Camp
+----------------
+* 日本中で開催する初心者向けチュートリアル
+* https://www.pycon.jp/support/bootcamp.html
+
+.. image:: images/pycamp.png
+   :width: 80%
+
+Python Charity Talks in Japan
+-----------------------------
+* 今回は地域コミュニティ祭り
+* https://pyconjp.connpass.com/event/218154/
+* 2021年9月11日(土)
+
+.. image:: images/pycharity.png
+
+宣伝ここまで
+------------
+* 興味があるものに参加してみてください
 
 Python言語アップデート(10分)
 ============================
