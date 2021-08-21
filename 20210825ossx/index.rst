@@ -297,16 +297,87 @@ Python言語アップデート 🆕
 * 現在はPython 3.9.6
 * 2021年10月に3.10.0がリリース予定
 * 今後は年1回マイナーバージョンが上がる
-* サポートは5年間
+
+  * `PEP 602 -- Annual Release Cycle for Python <https://www.python.org/dev/peps/pep-0602/>`_
+* 3.N.0リリースから5年間サポート
 
 最近の主な新機能
 ----------------
-* 3.9: 辞書の和集合演算子
-* 3.8: 代入式
-* 3.7: データクラス
 * 3.6: フォーマット済み文字列リテラル
-* (コード例を出す)
+* 3.7: データクラス
+* 3.8: 代入式
+* 3.9: 辞書の和集合演算子
 
+3.6: フォーマット済み文字列リテラル
+-----------------------------------
+* f-stringともいう
+* ``f'{式}や{式:書式}'``
+
+.. code-block:: python
+
+   >>> name = 'たかのり'
+   >>> power = 530000
+   >>> f'{name}の戦闘力は{power:,}'  # f-string
+   'たかのりの戦闘力は530,000'
+   >>> '{}の戦闘力は{:,}'.format(name, power)  # それ以前
+
+* `What's New In Python 3.6 <https://docs.python.org/ja/3.9/whatsnew/3.6.html>`_
+* `2.4.3. フォーマット済み文字列リテラル <https://docs.python.org/ja/3.9/reference/lexical_analysis.html#f-strings>`_  
+
+3.7: データクラス
+-----------------
+* ``@dataclass`` デコレータで作れる
+
+.. code-block:: python
+
+   @dataclass
+   class Point:
+       x: float
+       y: float
+       z: float = 0.0
+
+   p = Point(1.5, 2.5)
+   print(p)  # "Point(x=1.5, y=2.5, z=0.0)"
+
+* `What's New In Python 3.7 <https://docs.python.org/ja/3.9/whatsnew/3.7.html>`_
+* `dataclasses --- データクラス <https://docs.python.org/ja/3.9/library/dataclasses.html#module-dataclasses>`_
+
+3.8: 代入式
+-----------
+* ``:=`` 演算子: 変数に値を入れて、その値を返す
+* 別名「セイウチ演算子」
+
+.. code-block:: python
+
+   name = 'じゅげむじゅげむごこうのすりきれ'
+   if (n := len(name)) > 10:
+       print(f"名前が長すぎます({n}文字)")
+
+   # それ以前
+   if (len(name)) > 10:
+       print(f"名前が長すぎます({len(name)}文字)")
+    
+* `What's New In Python 3.8 <https://docs.python.org/ja/3.9/whatsnew/3.8.html>`_
+
+
+3.9: 辞書の和集合演算子
+-----------------------
+* 辞書のマージ(``|``)と更新(``|=``)演算子
+
+.. code-block:: python
+
+   >>> x = {"key1": "v1/x", "key2": "v2/x"}
+   >>> y = {"key2": "v2/y", "key3": "v3/y"}
+   >>> x | y
+   {'key1': 'v1/x', 'key2': 'v2/y', 'key3': 'v3/y'}
+   >>> y | x
+   {'key2': 'v2/x', 'key3': 'v3/y', 'key1': 'v1/x'}
+   >>> 
+   >>> {**x, **y}  # それ以前
+   {'key1': 'v1/x', 'key2': 'v2/y', 'key3': 'v3/y'}
+
+* `What's New In Python 3.9 <https://docs.python.org/ja/3.9/whatsnew/3.9.html>`_
+  
 型ヒント
 --------
 * 動的型付け言語だが型ヒントが付けられる
@@ -315,12 +386,15 @@ Python言語アップデート 🆕
 
 Python 3.10の主な新機能
 -----------------------
+* `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_  
 * Better error messages
 * Structural Pattern Matching
 * (コード例を出す)
 
 Python言語アップデート 🆕 - まとめ
 ----------------------------------
+* 最近はあまり大きい変更はなかった
+* Structural Pattern Matchingは注目の機能追加
 
 Pythonの未来 🚀
 ===============
