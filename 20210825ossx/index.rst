@@ -55,8 +55,8 @@ Pythonとは 🐍
 * 最新バージョンは3.9.6
 * Python 2系は2020年1月1日にEOL
 
-読みやすく
-----------
+読みやすい構文
+--------------
 * インデントが構文
 * **PEP 8** というコーディング規約
 
@@ -93,8 +93,10 @@ Pythonとは 🐍
 --------------------------------
 * PyPI(https://pypi.org/)からインストール
 
+  * ``$ pip install パッケージ名``
+
 .. image:: images/pypi.png
-   :width: 80%
+   :width: 70%
    :alt: PyPI
 
 .. revealjs-break::
@@ -103,6 +105,7 @@ Pythonとは 🐍
 * 行列計算、機械学習、深層学習
 * コンピュータービジョン、画像処理
 * データ分析、可視化
+* などなど
 
 .. revealjs-break::
 
@@ -133,7 +136,7 @@ Pythonの旬なプロジェクト 🔥
 
 FastAPI
 -------
-* API構築のWebフレームワーク
+* API構築のための高速なWebフレームワーク
 * URL: https://fastapi.tiangolo.com/ja/
 
 .. image:: images/fastapi.png
@@ -381,8 +384,54 @@ Python言語アップデート 🆕
 型ヒント
 --------
 * 動的型付け言語だが型ヒントが付けられる
-* 別なツールでチェックできる
-* (コード例を付ける)
+
+  * Python 3.5から導入
+  * `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_
+* `mypy <http://mypy-lang.org/>`_ などのツールで静的チェック
+* ヒントなので実行時は評価されない
+
+.. code-block:: python
+
+   def greeting(name: str) -> str:
+       # name: str で引数nameの型が文字列
+       # -> str で返り値が文字列
+       return 'Hello ' + name
+
+型ヒント - なにが嬉しいの?
+--------------------------
+* 型安全なプログラムになる
+
+  * 大規模プロジェクトなどで有効
+* APIドキュメントに型情報が入る
+* エディターが型ヒントをもとに教えてくれる
+
+.. image:: images/vscode.png
+   :alt: VS Codeでの型ヒントの使用例
+           
+型ヒント - 発展中
+-----------------
+* 徐々に書き方が便利になってきている
+* ``from __future__ import annotations`` で最新(3.10)の書き方ができる
+
+.. code-block:: python  
+
+   # Python 3.10からこう書ける
+   def square(number: int | float) -> int | float:
+       return number ** 2
+
+   # それ以前
+   from typing import Union
+
+   def square(number: Union[int, float]) -> Union[int, float]:
+       return number ** 2   
+
+型ヒント - 参考資料
+-------------------
+* `Pythonではじめる今風な型プログラミング <https://speakerdeck.com/peacock0803sz/osc21do>`_
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/2sZ9U1iIscQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Python 3.10の主な新機能
 -----------------------
@@ -407,6 +456,9 @@ Pythonの未来 🚀
 * Python 4の予定はない
 
   * 出すとしても2→3のようにはしない
+
+Pythonの未来 🚀 - まとめ
+------------------------
 
 まとめ
 ======
