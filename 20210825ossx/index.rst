@@ -82,6 +82,12 @@ Pythonとは 🐍
 
   * 移行にかなりかかった
 
+Pythonリリースの歴史
+--------------------
+
+.. image:: images/history.png   
+
+
 豊富な標準ライブラリ
 --------------------
 * 標準ライブラリでいろいろできる
@@ -210,16 +216,16 @@ BDFL: 優しい終身の独裁者
 * BDFLが採用不採用を最終決定
 
   * BDFL = Guido van Rossum
-  * BDFL Delegateで他人に判断を委譲可能
+  * BDFL Delegateで他の人に判断を委譲可能
 
 BDFLの引退
 ----------
-* セイウチ演算子ですごいもめたのがきっかけ?
-
-  * `PEP 572 -- Assignment Expressions <https://www.python.org/dev/peps/pep-0572/>`_
 * 2018年7月にBDFLを引退するというメールを送信
 
   * `[python-committers] Transfer of power <https://mail.python.org/pipermail/python-committers/2018-July/005664.html>`_
+* セイウチ演算子ですごいもめたのがきっかけ?
+
+  * `PEP 572 -- Assignment Expressions <https://www.python.org/dev/peps/pep-0572/>`_
 
 .. revealjs-break::
 
