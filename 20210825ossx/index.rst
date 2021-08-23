@@ -297,6 +297,9 @@ Python Charity Talks in Japan
 
 Python言語アップデート 🆕
 ============================
+
+.. revealjs-break::
+
 * 現在はPython 3.9.6
 * 2021年10月に3.10.0がリリース予定
 * 今後は年1回マイナーバージョンが上がる
@@ -435,34 +438,192 @@ Python言語アップデート 🆕
 
 Python 3.10の主な新機能
 -----------------------
-* `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_  
-* Better error messages
-* Structural Pattern Matching
-* (コード例を出す)
+* `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
+
+  * Better error messages
+  * Structural Pattern Matching
+
+Better error messages
+---------------------
+* エラーメッセージがわかりやすくなった
+
+.. code-block:: python
+
+   >>> if name = 'takanori':  # Python 3.9以前
+     File "<stdin>", line 1
+       if name = 'takanori':
+               ^
+   SyntaxError: invalid syntax
+
+.. code-block:: python
+
+   >>> if name = 'takanori':  # Python 3.10
+     File "<stdin>", line 1
+       if name = 'takanori':
+          ^^^^^^^^^^^^^^^^^
+   SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+* もしかして '=' ではなく '==' や ':=' の意味では?
+
+.. revealjs-break::
+
+* IndentationErrorもわかりやすく
+
+.. code-block:: python
+
+   >>> for i in range(10):  # Python 3.9以前
+   ... print(i)
+     File "<stdin>", line 2
+       print(i)
+       ^
+   IndentationError: expected an indented block
+  
+.. code-block:: python
+
+   >>> for i in range(10):  # Python 3.10
+   ... print(i)
+     File "<stdin>", line 2
+       print(i)
+       ^
+   IndentationError: expected an indented block after 'for' statement on line 1
+
+* 1行目の 'for' 文のあとにインデントされたブロックが必要です
+
+Structural Pattern Matching
+---------------------------
+* ``match`` 文と ``case`` 文でいずれかのパターンにマッチ
+
+.. code-block:: python
+
+   match subject:
+       case <pattern_1>:
+           <action_1>
+       case <pattern_2>:
+           <action_2>
+       case <pattern_3>:
+           <action_3>
+       case _:
+           <action_wildcard>
+
+.. revealjs-break::
+
+* シンプルなリテラルにマッチ
+
+.. code-block:: python
+
+   def http_error(status):
+       match status:
+           case 400:
+               return "Bad request"
+           case 401 | 403 | 404:  # or
+               return "Not allowed"
+           case 418:
+               return "I'm a teapot"
+           case _:  # ワイルドカード
+               return "Something's wrong with the Internet"
+
+.. revealjs-break::
+
+* ``(x, y)`` のタプルの値でマッチ   
+
+.. code-block:: python
+
+   match point:
+       case (0, 0):
+           print("Origin")
+       case (0, y):
+           print(f"Y={y}")
+       case (x, 0):
+           print(f"X={x}")
+       case (x, y):
+           print(f"X={x}, Y={y}")
+       case _:
+           raise ValueError("Not a point")
+
+Structural Pattern Matching - 参考情報
+--------------------------------------
+* `PEP 634 -- Specification <https://www.python.org/dev/peps/pep-0634/>`_
+* `PEP 635 -- Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
+* `PEP 636 -- Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
+* `Python 3.10の新機能(その1） パターンマッチ <https://www.python.jp/news/wnpython310/index.html>`_  
+* `PEP 634, 635, 636 を読んだよメモ <https://qiita.com/tk0miya/items/d9f816b14101ff83d5b7>`_
+* `Pythonにmatch文がやってくる <https://qiita.com/ksato9700/items/3ce4c68c0d713874b693>`_  
+
+Structural Pattern Matching - 参考情報
+--------------------------------------
+* ODC 2021 Online セミナープログラム
+
+  * 2021年8月28日(土) 12:00 〜 12:45
+  * `Language Update: Java&Python <https://event.ospn.jp/odc2021-online/session/431209>`_
+* `PyCon JP 2021: 2日目のキーノートスピーカー <https://pyconjp.blogspot.com/2021/08/pycon-jp-2021-2-announcement-of-keynote.html>`_
+
+  * 10月16日(土)のキーノート
+  * Structural Pattern Matchingの中心人物
 
 Python言語アップデート 🆕 - まとめ
 ----------------------------------
 * 最近はあまり大きい変更はなかった
+* Better error messagesで初心者に優しく
 * Structural Pattern Matchingは注目の機能追加
 
 Pythonの未来 🚀
 ===============
-* 2021のPyConでのLanuguage SummitでGuioが発表
 
-  * コロナでひまでMSに入った
-  * Pythonをスピードアップしていく
-  * 1年(0.1あがる)ごとに1.5倍
-  * 4年で5倍を目指す
-* Python 4の予定はない
+Python 4はいつ出るの?
+---------------------
+* 現在その計画はなく3.11, 3.12...と続く
+* 3から4への移行は、2から3のようにはしない
 
-  * 出すとしても2→3のようにはしない
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Python 4 FAQ.<br>1. The version after 3.9 is 3.10; in fact it already exists (in github master).<br>2. If there ever is a version 4, the transition from 3 to 4 will be more like that from 1 to 2 rather than 2 to 3.</p>&mdash; Guido van Rossum (@gvanrossum) <a href="https://twitter.com/gvanrossum/status/1306082472443084801?ref_src=twsrc%5Etfw">September 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Pythonの高速化
+--------------
+* PyCon US 2021のLanuguage Summitでの発表
+* Making CPython faster, Guido van Rossum
+* 発表資料: `FasterCPythonDark.pdf <https://raw.githubusercontent.com/faster-cpython/ideas/main/FasterCPythonDark.pdf>`_
+* Blog記事: `The 2021 Python Language Summit: Making CPython Faster <https://pyfound.blogspot.com/2021/05/the-2021-python-language-summit-making.html>`_  
+
+The "Shannon Plan"
+------------------
+* https://github.com/markshannon/faster-cpython
+* 4年で5倍の高速化(1年で1.5倍)
+* 資金調達を検討中
+
+Microsoftのサポート
+-------------------
+* Guido氏はDropboxを去って引退
+
+  * `Thank you, Guido | Dropbox Blog <https://blog.dropbox.com/topics/company/thank-you--guido>`_
+* しかしコロナで家にいるのがつまらない
+* Microsoftに応募して採用された
+* 自由にプロジェクトが選べる  
+* Pythonの高速化を進める
+
+faster-cpythonリポジトリ
+------------------------
+* https://github.com/faster-cpython/cpython
+* https://github.com/faster-cpython/ideas
+* https://github.com/faster-cpython/tools
 
 Pythonの未来 🚀 - まとめ
 ------------------------
+* Python 3系がしばらく続きそう
+* Pythonの高速化に注目  
 
 まとめ
 ======
-* 30年くらいたってる
-* なんやかんやあったけど体制は維持されている
-* 今もちょっとずつよくなっていってる
+* Pythonリリースから30年ほど経過
+* 色々あったが運営の体制は維持されている
+* 現在も少しずつ改良されている
 * 今後は高速化にも期待
+
+Thank you 🙏
+============
+
+.. code-block:: python
+
+   >>> import __hello__
+   Hello world!
+
