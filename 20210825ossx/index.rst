@@ -8,11 +8,11 @@ Takanori Suzuki
 
 今日話すこと 🗣
 ===============
-* Pythonとは(5分)
-* Pythonの旬なプロジェクト(5分)
-* Python開発の歴史(5分)
-* Python言語アップデート(10分)
-* Pythonの未来(5分)
+* Pythonとは
+* Pythonの旬なプロジェクト
+* Python開発の歴史
+* Python言語アップデート
+* Pythonの未来
 
 スクショ 📸 ツイート 🐦 👍
 ==========================
@@ -25,20 +25,20 @@ Takanori Suzuki
 最初に質問
 ==========
 
-Python知ってる人🙋‍♂️
----------------------
+Python知ってる人 🙋‍♂️
+----------------------
 
-Python使ったことある人🙋‍♀️
----------------------------
+Python使ったことある人 🙋‍♀️
+----------------------------
 
-Python今使っている人🙋‍♂️
--------------------------
+Python今使っている人 🙋‍♂️
+--------------------------
 
 Who am I(お前誰よ) 👤
 =====================
 * 鈴木たかのり(`@takanory <https://twitter.com/takanory>`_)
-* PyCon JP Association 副代表理事
-* 株式会社BeProud 役員/Python Climber
+* `PyCon JP Association <https://www.pycon.jp/>`_ 副代表理事
+* `株式会社BeProud <https://www.beproud.jp/>`_ 役員/Python Climber
 * 好き：フェレット、🍺、LEGO／趣味：🎺、🧗
 
 .. image:: /assets/images/sokidan-square.jpg
@@ -52,7 +52,7 @@ Pythonとは 🐍
 
   * 動的型付け
 * 1991年に0.9がリリース
-* 最新バージョンは3.9.6
+* 最新バージョンは **3.9.6**
 * Python 2系は2020年1月1日にEOL
 
 読みやすい構文
@@ -60,7 +60,7 @@ Pythonとは 🐍
 * インデントが構文
 * **PEP 8** というコーディング規約
 
-  * https://www.python.org/dev/peps/pep-0008/
+  * `PEP 8 -- Style Guide for Python Code <https://www.python.org/dev/peps/pep-0008/>`_
 
 .. code-block:: python
 
@@ -91,13 +91,13 @@ Pythonリリースの歴史
 豊富な標準ライブラリ
 --------------------
 * 標準ライブラリでいろいろできる
-* 「バッテリー同梱」とも言われる
+* **バッテリー同梱** とも言われる
 * ただ多すぎて使われてなさそうなものも...
-* https://docs.python.org/ja/3/library/
+* 公式ドキュメント: `Python 標準ライブラリ <https://docs.python.org/ja/3/library/>`_
 
 豊富なサードパーティライブラリ
 --------------------------------
-* PyPI(https://pypi.org/)からインストール
+* `PyPI <https://pypi.org/>`_ (パイピーアイ)からインストール
 
   * ``$ pip install パッケージ名``
 
@@ -115,7 +115,7 @@ Pythonリリースの歴史
 
 .. revealjs-break::
 
-* Awesome Python(https://awesome-python.com/)
+* `Awesome Python <https://awesome-python.com/>`_ (`GitHub <https://github.com/vinta/awesome-python/>`__)
 
 .. image:: images/awesome-python.png
    :width: 80%
@@ -134,7 +134,7 @@ Pythonとは 🐍 - まとめ
 ----------------------
 * 読みやすい構文
 * 後方互換性を維持
-* 豊富な標準ライブラリ、サードパーティ
+* 豊富な標準ライブラリ、サードパーティライブラリ
 
 Pythonの旬なプロジェクト 🔥
 ===========================
@@ -143,7 +143,7 @@ Pythonの旬なプロジェクト 🔥
 FastAPI
 -------
 * API構築のための高速なWebフレームワーク
-* URL: https://fastapi.tiangolo.com/ja/
+* https://fastapi.tiangolo.com/ja/
 
 .. image:: images/fastapi.png
    :width: 70%
@@ -203,7 +203,7 @@ Python開発の歴史 🕰
 
 Pythonの拡張はPEPで提案
 -----------------------
-* PEP: Python Enhancement Proposal
+* **PEP**: Python Enhancement Proposal
 * 2000年頃から運用
 
   * PEPを書いて提案
@@ -213,21 +213,25 @@ Pythonの拡張はPEPで提案
 
 BDFL: 優しい終身の独裁者
 ------------------------
-* BDFLが採用不採用を最終決定
+* **BDFL** が採用/不採用を最終決定
 
   * BDFL = Guido van Rossum
-  * BDFL Delegateで他の人に判断を委譲可能
+  * BDFL Delegatesで他の人に判断を委譲可能
+
+.. image:: https://pbs.twimg.com/profile_images/424495004/GuidoAvatar_400x400.jpg
+   :alt: Guido van Rossum
 
 BDFLの引退
 ----------
-* 2018年7月にBDFLを引退するというメールを送信
+* 2018年7月にBDFLを引退するメールを送信
 
-  * `[python-committers] Transfer of power <https://mail.python.org/pipermail/python-committers/2018-July/005664.html>`_
-* セイウチ演算子ですごいもめたのがきっかけ?
+  * `Transfer of power - python-committers <https://mail.python.org/archives/list/python-committers@python.org/thread/GQONAGWBBFRHVRUPU7RNBM75MHKGUFJN/>`_
+* セイウチ演算子(``:=``)でもめたのがきっかけか?
 
   * `PEP 572 -- Assignment Expressions <https://www.python.org/dev/peps/pep-0572/>`_
 
 .. revealjs-break::
+   :notitle:
 
 .. image:: images/transfer-of-power.png
    :width: 80%
@@ -243,17 +247,25 @@ Pythonの新しい運営モデル
 
 The Steering Council Model
 --------------------------
-* 毎年5名のCouncilメンバーを投票で決める
-* CouncilメンバーがPEPの採用不採用を決定
+* 毎年5名のCouncil membersを投票で決める
+* Council membersがPEPの採用/不採用を決定
 * 2019年はGuidoがいたが、2020以降は立候補していない
-* 投票結果: `2019 <https://www.python.org/dev/peps/pep-8100/>`_, `2020 <https://www.python.org/dev/peps/pep-8101/>`_, `2021 <https://www.python.org/dev/peps/pep-8102/>`_
+* 投票結果: `2019(PEP 8100) <https://www.python.org/dev/peps/pep-8100/>`_, `2020(PEP 8101) <https://www.python.org/dev/peps/pep-8101/>`_, `2021(PEP 8102) <https://www.python.org/dev/peps/pep-8102/>`_
 
-2021 Councilメンバー
---------------------
-* C.Willing, T.Wouters, B.Cannon, P.Galindo Salgado, B.Warsaw
+2021 Council member
+-------------------
+P.Galindo Salgado, B.Cannon,  T.Wouters
+
+C.Willing, B.Warsaw
 
 .. image:: images/council.png
    :width: 80%
+
+Python Steering CouncilのKeynote
+--------------------------------
+.. raw:: html
+
+   <iframe width="800" height="450" src="https://www.youtube.com/embed/xEkuOtCQ6vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Python開発の歴史 🕰 - まとめ
 ---------------------------
@@ -322,7 +334,7 @@ Python言語アップデート 🆕
 
 3.6: フォーマット済み文字列リテラル
 -----------------------------------
-* f-stringともいう
+* **f-string** ともいう
 * ``f'{式}や{式:書式}'``
 
 .. code-block:: python
@@ -338,7 +350,7 @@ Python言語アップデート 🆕
 
 3.7: データクラス
 -----------------
-* ``@dataclass`` デコレータで作れる
+* ``@dataclass`` デコレーターで作れる
 
 .. code-block:: python
 
@@ -357,7 +369,7 @@ Python言語アップデート 🆕
 3.8: 代入式
 -----------
 * ``:=`` 演算子: 変数に値を入れて、その値を返す
-* 別名「セイウチ演算子」
+* 別名: **セイウチ演算子** (Walrus Operator)
 
 .. code-block:: python
 
@@ -392,7 +404,7 @@ Python言語アップデート 🆕
   
 型ヒント
 --------
-* 動的型付け言語だが型ヒントが付けられる
+* 動的型付け言語だが **型ヒント** が付けられる
 
   * Python 3.5から導入
   * `PEP 484 -- Type Hints <https://www.python.org/dev/peps/pep-0484/>`_
@@ -440,14 +452,13 @@ Python言語アップデート 🆕
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/2sZ9U1iIscQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="800" height="450" src="https://www.youtube.com/embed/2sZ9U1iIscQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Python 3.10の主な新機能
 -----------------------
 * `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
-
-  * Better error messages
-  * Structural Pattern Matching
+* Better error messages
+* Structural Pattern Matching
 
 Better error messages
 ---------------------
@@ -467,9 +478,10 @@ Better error messages
      File "<stdin>", line 1
        if name = 'takanori':
           ^^^^^^^^^^^^^^^^^
-   SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+   SyntaxError: invalid syntax. Maybe you meant '==' or ':='
+   instead of '='?
 
-* もしかして '=' ではなく '==' や ':=' の意味では?
+* 「たぶん、 ``=`` ではなく ``==`` や ``:=`` の意味では?」
 
 .. revealjs-break::
 
@@ -491,9 +503,10 @@ Better error messages
      File "<stdin>", line 2
        print(i)
        ^
-   IndentationError: expected an indented block after 'for' statement on line 1
+   IndentationError: expected an indented block after 'for'
+   statement on line 1
 
-* 1行目の 'for' 文のあとにインデントされたブロックが必要です
+* 「1行目の ``for`` のあとにインデントが必要」
 
 Structural Pattern Matching
 ---------------------------
@@ -545,6 +558,21 @@ Structural Pattern Matching
            print(f"X={x}, Y={y}")
        case _:
            raise ValueError("Not a point")
+
+.. revealjs-break::
+
+* インスタンスの型でマッチ
+
+.. code-block:: python
+
+   def dump(node: Node) -> str:
+       match node:
+           case Assignment(target, value):
+               return f"{target} = {dump(value)}"
+           case Print(value):
+               return f"print({dump(value)})"
+           case Operation(left, op, right):
+               return f"({dump(left)} {op} {dump(right)})"  
 
 Structural Pattern Matching - 参考情報
 --------------------------------------
@@ -602,7 +630,7 @@ Microsoftのサポート
 * Guido氏はDropboxを去って引退
 
   * `Thank you, Guido | Dropbox Blog <https://blog.dropbox.com/topics/company/thank-you--guido>`_
-* しかしコロナで家にいるのがつまらない
+* しかしパンデミックで家にいてつまらない
 * Microsoftに応募して採用された
 * 自由にプロジェクトが選べる  
 * Pythonの高速化を進める
