@@ -29,7 +29,7 @@
      * 2021 Aug
      * Talk
      * Pythonの現在とこれからと
-     * Slides
+     * `Slides <https://slides.takanory.net/slides/20210825ossx/>`__
    - * `BPLL #58 <https://bpstudy.connpass.com/event/214092/>`_
      * Online
      * 2021 Jun
