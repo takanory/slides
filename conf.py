@@ -54,9 +54,9 @@ html_theme_options = {
     'includehidden': False,
 }
 
-FONTAWESOME_URL = ("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/"
-                   "css/font-awesome.min.css")
-html_css_files = [FONTAWESOME_URL]
+FONT_AWESOME_URL = ("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/"
+                    "css/font-awesome.min.css")
+html_css_files = [FONT_AWESOME_URL]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -95,7 +95,7 @@ revealjs_script_plugins = [
 ]
 revealjs_static_path = html_static_path
 revealjs_css_files = [
-    FONTAWESOME_URL,
+    FONT_AWESOME_URL,
     "revealjs4/plugin/highlight/zenburn.css",
     'slides.css',
 ]
