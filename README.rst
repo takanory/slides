@@ -30,6 +30,7 @@
      * Talk
      * `Pythonブームの裏側で ～Python入門書の執筆＆監修 こぼれ話 <https://event.ospn.jp/odc2021-online/session/391797>`_
      * `Slides <https://event.ospn.jp/slides/odc2021-online/Python%E3%83%96%E3%83%BC%E3%83%A0%E3%81%AE%E8%A3%8F%E5%81%B4%E3%81%A7-%EF%BD%9EPython%E5%85%A5%E9%96%80%E6%9B%B8%E3%81%AE%E5%9F%B7%E7%AD%86%EF%BC%86%E7%9B%A3%E4%BF%AE-%E3%81%93%E3%81%BC%E3%82%8C%E8%A9%B1.pdf>`__
+       `Video <https://www.youtube.com/watch?v=OPLyJ_32SWI>`__
    - * `OSS X Users Meeting #31 <https://oss-x-users-meeting.connpass.com/event/218793/>`_
      * Online
      * 2021 Aug
