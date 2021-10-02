@@ -63,6 +63,13 @@ html_css_files = [FONT_AWESOME_URL]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_context = {
+  'display_github': True,
+  'github_user': 'takanory',
+  'github_repo': 'slides',
+  'github_version': 'master/',
+}
+
 # -- for revealjs --------
 # https://github.com/attakei/sphinx-revealjs/blob/master/demo/revealjs4/conf.py
 
