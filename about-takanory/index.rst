@@ -1,11 +1,7 @@
-==========
- 自己紹介
-==========
-
-Who am I? 👤
-============
-- 鈴木たかのり / Takanori Suzuki
-- Twitter: `@takanory <https://twitter.com/takanory>`_
+==============
+ Who am I? 👤
+==============
+- 鈴木たかのり / Takanori Suzuki (`@takanory <https://twitter.com/takanory>`_)
 - `PyCon JP Association <https://www.pycon.jp>`__ 副代表理事: ``#pyconjp``
 - `株式会社BeProud <https://www.beproud.jp>`__ 取締役/Python Climber
 - `Python mini Hack-a-thon <https://pyhack.connpass.com/>`__ 主催: ``#pyhack``

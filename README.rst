@@ -2,7 +2,7 @@
  takanory slides
 =================
 
-* `Self introduction <https://github.com/takanory/slides/blob/master/about-takanory/about-takanory.pdf>`_
+* `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
