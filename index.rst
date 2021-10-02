@@ -2,8 +2,9 @@
 
 .. toctree::
    :maxdepth: 1
-   :glob:
    :hidden:
+   :glob:
 
+   about-takanory/index
    2021*/index
              
