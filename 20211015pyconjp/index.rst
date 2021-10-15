@@ -18,6 +18,9 @@ Who am I / お前誰よ 👤
 
 .. image:: /assets/images/sokidan-square.jpg
 
+久しぶりのリアル登壇 🤪
+------------------------
+
 Python 3.10.0
 =============
 Release Date: Oct. 4, 2021 🎉
@@ -50,7 +53,7 @@ Python Release Python 3.10.0
 
 Who are you? / お前誰だ? 🐍
 ----------------------------
-.. image:: https://user-images.githubusercontent.com/11718525/135937807-fd3e0fd2-a31a-47a4-90c6-b0bb1d0704d4.png           
+.. image:: https://user-images.githubusercontent.com/11718525/135937807-fd3e0fd2-a31a-47a4-90c6-b0bb1d0704d4.png
 
 Parenthesized context managers
 ==============================
@@ -82,7 +85,7 @@ Better error messages
    $ python3.10 beer_styles.py
      File ".../beer_styles.py", line 1
        beer_styles = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
-                    ^
+                     ^
    SyntaxError: '[' was never closed
 
 .. revealjs-code-block:: text
@@ -105,7 +108,7 @@ Better error messages
        if beer_syle = 'IPA':
           ^^^^^^^^^^^^^^^^^
    SyntaxError: invalid syntax. \
-     Maybe you meant '==' or ':=' instead of '='?   
+     Maybe you meant '==' or ':=' instead of '='?
 
 .. revealjs-code-block:: python
    :data-line-numbers: 3-5
@@ -175,16 +178,65 @@ Advertise / 宣伝 📣
 --------------------
 .. image:: images/pylibbook2.png
 
+Python 3.9対応
+--------------
+* 残念ならが3.10の新機能の話はタイプヒントがちょこっと入ってるだけです
+
+宣伝終わり
+----------
+
 Structural Pattern Matching
 ===========================
+.. revealjs-break::
 
+* `PEP 634 -- Structural Pattern Matching: Specification <https://www.python.org/dev/peps/pep-0634/>`__
+* `PEP 635 -- Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`__
+* `PEP 636 -- Structural Pattern Matching: Tutorial <https://www.python.org/dev/peps/pep-0636/>`__
+
+Syntax of Structural Pattern Matching
+-------------------------------------
+
+.. code-block:: python
+
+   match subject:
+       case <pattern_1>:
+           <action_1>
+       case <pattern_2>:
+           <action_2>
+       case <pattern_3>:
+           <action_3>
+       case _:
+           <action_wildcard>
+
+Simple pattern
+--------------
+.. code-block:: python
+
+    match beer_style:
+        case 'Pilsner':
+            return "First drink"
+        case 'IPA':
+            return "I like it"
+        case 'Hazy IPA':
+            return "Cloudy and cloudy"
+        case _:
+            return "I like most beers"
+
+For more information / 詳しくは...
+----------------------------------
+
+Keynote Day 2: 明日のキーノートで
+---------------------------------
+Brandt Bucher
+
+.. image:: https://1.bp.blogspot.com/-3eyCcV9cSEk/YRjlW5vfMHI/AAAAAAAADnM/qpPRy05gMEMJEka6BT55NmljWIsRk3fyACLcBGAsYHQ/s1203/profile.jpg
+   :width: 40%
 
 Reference / 参考資料
 ====================
 * `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
 * `Python Release Python 3.10.0 | Python.org <https://www.python.org/downloads/release/python-3100/>`_
 * `プログラミング言語 Python 総合情報サイト - python.jp <https://www.python.jp/index.html>`_
-
 
 Thank you !! 🙏
 ===============
