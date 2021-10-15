@@ -54,7 +54,118 @@ Who are you? / お前誰だ? 🐍
 
 Parenthesized context managers
 ==============================
+.. code-block:: python
 
-AD
-==
-* 書籍のこと
+   # 3.10
+   with (
+       open('craftbeer.txt') as f1,
+       open('beer-in-kanda.txt') as f2,
+   ):
+       ...
+
+.. code-block:: python
+
+   with open('craftbeer.txt') as f1, \
+        open('beer-in-kanda.txt') as f2
+       ...
+
+Better error messages
+=====================
+
+Better error messages
+---------------------
+.. literalinclude:: beer_styles.py
+
+.. code-block:: text
+
+   # 3.10
+   $ python3.10 beer_styles.py
+     File ".../beer_styles.py", line 1
+       beer_styles = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
+                    ^
+   SyntaxError: '[' was never closed
+
+.. code-block:: text
+
+   $ python3.9 beer_styles.py
+     File ".../beer_styles.py", line 2
+       print(beer_styles)
+       ^
+   SyntaxError: invalid syntax
+
+.. revealjs-break::
+
+.. code-block:: python
+
+   # 3.10
+   >>> if beer_syle = 'IPA':
+     File "<stdin>", line 1
+       if beer_syle = 'IPA':
+          ^^^^^^^^^^^^^^^^^
+   SyntaxError: invalid syntax. \
+     Maybe you meant '==' or ':=' instead of '='?   
+
+.. code-block:: python
+
+   >>> if beer_syle = 'IPA':
+     File "<stdin>", line 1
+       if beer_syle = 'IPA':
+                    ^
+   SyntaxError: invalid synta
+
+Better typing syntax
+====================
+
+PEP 604: New Type Union Operator
+--------------------------------
+* ``Union[X, Y]`` → ``X | Y``
+* ``Optional[X]`` → ``X | None``
+
+.. code-block:: python
+
+   # 3.10
+   def drink_beer(number: int | float) -> str | None
+       if am_i_full(number):
+           return 'I'm full'
+
+.. code-block:: python
+
+   def drink_beer(number: Union[int, float]) -> Optional[str]
+       if am_i_full(number):
+           return 'I'm full'
+
+PEP 613: TypeAlias
+------------------
+
+.. code-block:: python
+
+   # 3.10
+   StrCache: TypeAlias = 'Cache[str]'  # a type alias
+   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
+
+.. code-block:: python
+
+   StrCache = 'Cache[str]'  # a type alias
+   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
+
+Better typing syntax
+--------------------
+* Python 3.7 - 3.9
+
+.. code-block:: python
+
+   from __future__ import annotations
+
+Advertise / 宣伝 📣
+====================
+
+『Python 実践レシピ』 📕
+-------------------------
+* **2022年1月** 発売予定 / 技術評論社
+* 著者: 鈴木たかのり、筒井隆次、寺田学、杉田雅子、門脇諭、福田隼也
+* ページ数、金額: 調整中
+* 『Pythonライブラリ厳選レシピ』を **大加筆、大改訂!!!**
+
+大絶賛レビュー中 🔥
+--------------------
+.. image:: images/pylibbook2.png
