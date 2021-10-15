@@ -24,6 +24,12 @@
      * kind
      * title
      * resource
+   - * `PyCon JP 2021 <https://2021.pycon.jp/>`__
+     * Tokyo/Online
+     * 2021 Oct
+     * LT
+     * What's New in Python 3.10
+     * `Slides <https://slides.takanory.net/slides/20211015pyconjp/>`__
    - * `オープンデベロッパーズカンファレンス(ODC)2021 Online <https://event.ospn.jp/odc2021-online/>`_
      * Online
      * 2021 Aug
