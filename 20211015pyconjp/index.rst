@@ -76,16 +76,17 @@ Better error messages
 ---------------------
 .. literalinclude:: beer_styles.py
 
-.. code-block:: text
+.. revealjs-code-block:: text
+   :data-line-numbers: 1,3-5
 
-   # 3.10
    $ python3.10 beer_styles.py
      File ".../beer_styles.py", line 1
        beer_styles = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
                     ^
    SyntaxError: '[' was never closed
 
-.. code-block:: text
+.. revealjs-code-block:: text
+   :data-line-numbers: 1,3-5
 
    $ python3.9 beer_styles.py
      File ".../beer_styles.py", line 2
@@ -95,7 +96,8 @@ Better error messages
 
 .. revealjs-break::
 
-.. code-block:: python
+.. revealjs-code-block:: python
+   :data-line-numbers: 2,4-8
 
    # 3.10
    >>> if beer_syle = 'IPA':
@@ -105,13 +107,14 @@ Better error messages
    SyntaxError: invalid syntax. \
      Maybe you meant '==' or ':=' instead of '='?   
 
-.. code-block:: python
+.. revealjs-code-block:: python
+   :data-line-numbers: 3-5
 
    >>> if beer_syle = 'IPA':
      File "<stdin>", line 1
        if beer_syle = 'IPA':
                     ^
-   SyntaxError: invalid synta
+   SyntaxError: invalid syntax
 
 Better typing syntax
 ====================
@@ -121,14 +124,16 @@ PEP 604: New Type Union Operator
 * ``Union[X, Y]`` → ``X | Y``
 * ``Optional[X]`` → ``X | None``
 
-.. code-block:: python
+.. revealjs-code-block:: python
+   :data-line-numbers: 2
 
    # 3.10
    def drink_beer(number: int | float) -> str | None
        if am_i_full(number):
            return 'I'm full'
 
-.. code-block:: python
+.. revealjs-code-block:: python
+   :data-line-numbers: 1
 
    def drink_beer(number: Union[int, float]) -> Optional[str]
        if am_i_full(number):
@@ -140,12 +145,12 @@ PEP 613: TypeAlias
 .. code-block:: python
 
    # 3.10
-   StrCache: TypeAlias = 'Cache[str]'  # a type alias
+   BeerStr: TypeAlias = 'Beer[str]'  # a type alias
    LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
 
 .. code-block:: python
 
-   StrCache = 'Cache[str]'  # a type alias
+   BeerStr = 'Beer[str]'  # a type alias
    LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
 
 Better typing syntax
@@ -169,3 +174,22 @@ Advertise / 宣伝 📣
 大絶賛レビュー中 🔥
 --------------------
 .. image:: images/pylibbook2.png
+
+Structural Pattern Matching
+===========================
+
+
+Reference / 参考資料
+====================
+* `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
+* `Python Release Python 3.10.0 | Python.org <https://www.python.org/downloads/release/python-3100/>`_
+* `プログラミング言語 Python 総合情報サイト - python.jp <https://www.python.jp/index.html>`_
+
+
+Thank you !! 🙏
+===============
+Takanori Suzuki (`@takanory <https://twitter.com/takanory>`_)
+
+`slides.takanory.net <https://slides.takanory.net/>`_
+
+.. image:: /assets/images/sokidan-square.jpg
