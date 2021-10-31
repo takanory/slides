@@ -6,5 +6,212 @@ Takanori Suzuki
 
 PyCon APAC 2021 / 2021 Nov 20
 
+.. 見てくれてありがとう。今日はこれについて話すよ的な
 
 
+Agenda
+======
+* What's New
+* Motivation
+* Syntax
+* Patterns
+
+.. 今日話すことをざっくり説明
+
+Photos 📷 Tweets 🐦 👍
+========================
+``#pyconapac`` / ``@takanory``
+
+.. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
+   Hashtag is #pyconapac
+
+Slide
+-----
+`slides.takanory.net <https://slides.takanory.net>`__
+
+.. This slide available on slides.takanory.net.
+   And I've already shared this slide on Twitter.
+   Please check it out #pyconapac.
+
+Who am I? 👤
+=============
+* Takanori Suzuki / 鈴木 たかのり (`@takanory <https://twitter.com/takanory>`_)
+* `PyCon JP Association <https://www.pycon.jp/>`_
+* `BeProud Inc. <https://www.beproud.jp/>`_
+* `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
+
+.. image:: /assets/images/sokidan-square.jpg
+
+.. Before the main topic,...I will introduce myself.
+   I'm Takanori Suzuki. My twitter is "takanory", please follow me.
+   I'm Vice-Chairperson of PyCon JP Association.
+   And I'm director of BeProud Inc.
+   I'm also active in several Python related communities
+
+First Questions
+===============
+
+.. First, I have questions
+
+Have you used Python 3.10? 🙋‍♂️
+--------------------------------
+
+Do you know the new features? 🙋‍♀️
+-----------------------------------
+.. Do you know the new features in 3.10?
+
+What's New in Python 3.10 🆕
+=============================
+
+.. Before main topic. I will introduce to the new features of 3.10.
+   3.10の新機能について紹介します
+
+What's New in Python 3.10 🆕
+-----------------------------
+* `docs.python.org/3/whatsnew/3.10.html <https://docs.python.org/3/whatsnew/3.10.html>`_
+
+.. image:: images/whatsnew.png
+   :alt: What's New in Python 3.10
+
+Python Release Python 3.10.0
+----------------------------
+* `www.python.org/downloads/release/python-3100/ <https://www.python.org/downloads/release/python-3100/>`_
+* Release Date: Oct. 4, 2021
+
+.. image:: images/python3100.png
+   :alt: Python Release Python 3.10.0
+
+.. Python 3.10 has many new features...By the way...
+
+Who are You? 🐍
+----------------
+
+.. image:: https://user-images.githubusercontent.com/11718525/135937807-fd3e0fd2-a31a-47a4-90c6-b0bb1d0704d4.png
+   :alt: Python 3.10 release logo
+
+.. This image is "Python 3.10 release logo".
+   You can find the new features of 3.10 around this snake.
+
+Parenthesized Context Managers
+------------------------------
+.. code-block:: python
+
+   # 3.10
+   with (
+       open('craftbeer.txt') as f1,
+       open('beer-in-kanda.txt') as f2,
+   ):
+       ...
+
+.. code-block:: python
+
+   # Before 3.10
+   with open('craftbeer.txt') as f1, \
+        open('beer-in-kanda.txt') as f2
+       ...
+
+Better Error Messages
+---------------------
+.. code-block:: python
+
+   # Brackets are not closed
+   beer_types = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
+   print(beer_types)
+
+.. revealjs-code-block:: text
+   :data-line-numbers: 3-5
+
+   $ python3.10 beer_styles.py
+     File ".../beer_styles.py", line 2
+       beer_styles = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
+                     ^
+   SyntaxError: '[' was never closed
+
+.. revealjs-code-block:: text
+   :data-line-numbers: 3-5
+
+   $ python3.9 beer_styles.py
+     File ".../beer_styles.py", line 3
+       print(beer_styles)
+       ^
+   SyntaxError: invalid syntax
+
+Better Error Messages
+---------------------
+.. revealjs-code-block:: python
+   :data-line-numbers: 3-6
+
+   # 3.10
+   >>> if beer_syle = 'IPA':
+     File "<stdin>", line 1
+       if beer_syle = 'IPA':
+          ^^^^^^^^^^^^^^^^^
+   SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 3-5
+
+   # Before 3.10
+   >>> if beer_syle = 'IPA':
+     File "<stdin>", line 1
+       if beer_syle = 'IPA':
+                    ^
+   SyntaxError: invalid syntax
+
+Better Typing Syntax
+--------------------
+* `PEP 604 <https://www.python.org/dev/peps/pep-0604>`_: New Type Union Operator
+
+  * ``Union[X, Y]`` → ``X | Y``
+  * ``Optional[X]`` → ``X | None``
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 2
+
+   # 3.10
+   def drink_beer(number: int | float) -> str | None
+       if am_i_full(number):
+           return 'I'm full'
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 2
+
+   # Before 3.10
+   def drink_beer(number: Union[int, float]) -> Optional[str]
+       if am_i_full(number):
+           return 'I'm full'
+
+.. revealjs-break::
+
+* `PEP 613 <https://www.python.org/dev/peps/pep-0613>`_: TypeAlias
+
+.. code-block:: python
+
+   # 3.10
+   BeerStr: TypeAlias = 'Beer[str]'  # a type alias
+   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
+
+.. code-block:: python
+
+   # Before 3.10
+   BeerStr = 'Beer[str]'  # a type alias
+   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant           
+
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 2, 4
+
+   # Python 3.7-3.9
+   from __future__ import annotations
+
+   def drink_beer(number: int | float) -> str | None
+       if am_i_full(number):
+           return 'I'm full'
+
+What's New in Python 3.10 🆕
+-----------------------------
+* Parenthesized Context Managers
+* Better Error Messages
+* Better Typing Syntax
+* **Structural Pattern Matching**
