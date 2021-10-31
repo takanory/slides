@@ -11,8 +11,8 @@ PyCon APAC 2021 / 2021 Nov 20
 
 Agenda
 ======
-* What's New
 * Motivation
+* What's New
 * Syntax
 * Patterns
 
@@ -48,8 +48,8 @@ Who am I? 👤
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities
 
-First Questions
-===============
+Questions
+=========
 
 .. First, I have questions
 
@@ -59,6 +59,20 @@ Have you used Python 3.10? 🙋‍♂️
 Do you know the new features? 🙋‍♀️
 -----------------------------------
 .. Do you know the new features in 3.10?
+
+Motivation 💪
+==============
+
+.. このトークのモチベーション
+   3.10で色々新機能が増えている
+   Structural Pattern Matchingはかなり便利そう
+   みんなに知って使ってみてほしい
+
+Goal 🥅
+========
+.. Python 3.10の新機能の概要を知る
+   Structural Pattern Matchingの基本的な使い方を知る
+   明日から試せる
 
 What's New in Python 3.10 🆕
 =============================
@@ -195,7 +209,7 @@ Better Typing Syntax
 
    # Before 3.10
    BeerStr = 'Beer[str]'  # a type alias
-   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant           
+   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
 
 .. revealjs-break::
 
@@ -215,3 +229,40 @@ What's New in Python 3.10 🆕
 * Better Error Messages
 * Better Typing Syntax
 * **Structural Pattern Matching**
+
+Structural Pattern Matching 🏛
+===============================
+
+.. revealjs-break::
+
+* `PEP 634 – Structural Pattern Matching: Specification <https://www.python.org/dev/peps/pep-0634/>`_
+* `PEP 635 – Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
+* `PEP 636 – Structural Pattern Matching: Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
+
+Motivation of Structural Pattern Matching
+-----------------------------------------
+`PEP 635 – Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
+
+  (Structural) pattern matching syntax is found in many languages, from Haskell, Erlang and Scala to Elixir and Ruby. (A proposal for JavaScript is also under consideration.)
+
+.. revealjs-break::
+   :notitle:
+
+.. code-block:: python
+
+   if isinstance(x, tuple) and len(x) == 2:
+       host, port = x
+       mode = "http"
+   elif isinstance(x, tuple) and len(x) == 3:
+       host, port, mode = x
+
+.. code-block:: python
+
+   # Structural Pattern Matching
+   match x:
+       case host, port:
+           mode = "http"
+       case host, port, mode:
+           pass
+
+.. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
