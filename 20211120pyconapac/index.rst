@@ -35,7 +35,7 @@ Slide
 
 Who am I? 👤
 =============
-* Takanori Suzuki / 鈴木 たかのり (`@takanory <https://twitter.com/takanory>`_)
+* Takanori Suzuki / 鈴木 たかのり (|twitter| `@takanory <https://twitter.com/takanory>`_)
 * `PyCon JP Association <https://www.pycon.jp/>`_
 * `BeProud Inc. <https://www.beproud.jp/>`_
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
@@ -60,16 +60,16 @@ Do you know the new features? 🙋‍♀️
 -----------------------------------
 .. Do you know the new features in 3.10?
 
-Motivation 💪
-==============
+Motivation of this talk 💪
+===========================
 
 .. このトークのモチベーション
    3.10で色々新機能が増えている
    Structural Pattern Matchingはかなり便利そう
    みんなに知って使ってみてほしい
 
-Goal 🥅
-========
+Goal of this talk 🥅
+=====================
 .. Python 3.10の新機能の概要を知る
    Structural Pattern Matchingの基本的な使い方を知る
    明日から試せる
@@ -77,15 +77,15 @@ Goal 🥅
 What's New in Python 3.10 🆕
 =============================
 
-.. Before main topic. I will introduce to the new features of 3.10.
-   3.10の新機能について紹介します
+.. revealjs-break::
 
-What's New in Python 3.10 🆕
------------------------------
 * `docs.python.org/3/whatsnew/3.10.html <https://docs.python.org/3/whatsnew/3.10.html>`_
 
 .. image:: images/whatsnew.png
    :alt: What's New in Python 3.10
+
+.. Before main topic. I will introduce to the new features of 3.10.
+   3.10の新機能について紹介します
 
 Python Release Python 3.10.0
 ----------------------------
@@ -224,14 +224,14 @@ Better Typing Syntax
            return 'I'm full'
 
 What's New in Python 3.10 🆕
------------------------------
+----------------------------
 * Parenthesized Context Managers
 * Better Error Messages
 * Better Typing Syntax
 * **Structural Pattern Matching**
 
 Structural Pattern Matching 🏛
-===============================
+==============================
 
 .. revealjs-break::
 
@@ -239,9 +239,9 @@ Structural Pattern Matching 🏛
 * `PEP 635 – Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
 * `PEP 636 – Structural Pattern Matching: Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
 
-Motivation of Structural Pattern Matching
------------------------------------------
-`PEP 635 – Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
+Motivation
+----------
+`www.python.org/dev/peps/pep-0635/#motivation <https://www.python.org/dev/peps/pep-0635/#motivation>`_
 
   (Structural) pattern matching syntax is found in many languages, from Haskell, Erlang and Scala to Elixir and Ruby. (A proposal for JavaScript is also under consideration.)
 
@@ -266,3 +266,114 @@ Motivation of Structural Pattern Matching
            pass
 
 .. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
+   
+Syntax |code|
+=============
+Generic syntax of pattern matching
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1|2-9
+
+   match subject:
+       case <pattern_1>:
+           <action_1>
+       case <pattern_2>:
+           <action_2>
+       case <pattern_3>:
+           <action_3>
+       case _:
+           <action_wildcard>
+
+.. A match statement takes an expression ... and compares its value to successive patterns given as one or more case blocks
+
+Soft keywords
+-------------
+* New in Pytohn 3.10
+* ``match``, ``case`` and ``_``
+* Can be used identifier names
+
+.. code-block:: python
+
+   >>> match = 'match'  # Soft keyword
+   >>> class = 'class'  # Keyword
+     File "<stdin>", line 1
+       class = 'class'
+             ^
+   SyntaxError: invalid syntax
+
+.. 新しくソフトキーワードができた。
+   match, case, _はソフトキーワード。
+   ソフトキーワードは識別子に使用できる
+   では、実際の書き方を説明していきます。
+
+Patterns |random|
+=================
+.. revealjs-break::
+
+.. code-block:: python
+
+   match subject:
+       case <pattern_1>:
+           <action_1>
+       case <pattern_2>:
+           <action_2>
+       case <pattern_3>:
+           <action_3>
+       case _:
+           <action_wildcard>
+
+.. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
+   いくつかを紹介していきます。
+
+Simple pattern
+--------------
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-7|1,8-9
+
+   match beer_style:
+       case "Pilsner":
+           return "First drink"
+       case "IPA":
+           return "I like it"
+       case "Hazy IPA":
+           return "Cloudy and cloudy"
+       case _:
+           return "I like most beers"
+
+.. beer_styleの中身がXXXならYYYを返します。
+   どれもマッチしなければワイルドカードの _ にマッチします。
+
+.. revealjs-break::
+
+* ``|`` is OR   
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 4-5
+
+   match beer_style:
+       case "Pilsner":
+           return "First drink"
+       case "IPA" | "Session IPA":
+           return "I like it"
+       case "Hazy IPA":
+           return "Cloudy and cloudy"
+       case _:
+           return "I like most beers"
+
+.. revealjs-break::
+
+* without whildcard
+
+.. revealjs-code-block:: python
+
+   match beer_style:
+       case "Pilsner":
+           return "First drink"
+       case "IPA":
+           return "I like it"
+       case "Hazy IPA":
+           return "Cloudy and cloudy"
+
+.. 最後のワイルドカードを削除する。
+   それ以外を選んだらなにも起こらない。
