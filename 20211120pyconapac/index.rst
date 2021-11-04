@@ -266,7 +266,7 @@ Motivation
            pass
 
 .. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
-   
+
 Syntax |code|
 =============
 Generic syntax of pattern matching
@@ -325,9 +325,8 @@ Patterns |random|
 .. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
    いくつかを紹介していきます。
 
-Simple pattern
---------------
-
+Literal pattern
+---------------
 .. revealjs-code-block:: python
    :data-line-numbers: 1-7|1,8-9
 
@@ -343,11 +342,10 @@ Simple pattern
 
 .. beer_styleの中身がXXXならYYYを返します。
    どれもマッチしなければワイルドカードの _ にマッチします。
+   _ はワイルドカードです
 
-.. revealjs-break::
-
-* ``|`` is OR   
-
+``|`` is OR
+-----------
 .. revealjs-code-block:: python
    :data-line-numbers: 4-5
 
@@ -361,11 +359,10 @@ Simple pattern
        case _:
            return "I like most beers"
 
-.. revealjs-break::
-
-* without whildcard
-
+Literal pattern without Wildcard
+--------------------------------
 .. revealjs-code-block:: python
+   :data-line-numbers: 8-9
 
    match beer_style:
        case "Pilsner":
@@ -374,6 +371,455 @@ Simple pattern
            return "I like it"
        case "Hazy IPA":
            return "Cloudy and cloudy"
+       # case _:
+       #     return "I like most beers"
 
 .. 最後のワイルドカードを削除する。
    それ以外を選んだらなにも起こらない。
+
+? 🤔
+-----
+
+.. あんまり便利りそうに見えない
+
+if-elif-else
+------------
+* これはif文でよいのでは
+
+.. code-block:: python
+
+   if beer_style == "Pilsner":
+       return "First drink"
+   elif beer_style in  ["IPA", "Session IPA"]:
+       return "I like it"
+   elif beer_style == "Hazy IPA"::
+       return "Cloudy and cloudy"
+   else:
+       return "I like most beers"
+
+.. こんなif文とかわなないのでは?
+   あなたの考えは正しいです。
+   But...
+
+Pattern Matching is Powerful 💪
+--------------------------------
+.. But...Pattern Matching is much more powerful.
+   これからさらに強力なパターンを紹介します。
+
+Literal and Variable patterns
+=============================
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case ("", ""):
+               return  "Please order something."
+           case (beer, ""):
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case (beer, food):
+               return f"I drink {beer} with {food}."
+           case _:
+               return "one beer and one food only."
+
+.. このようなタプルを受け取る関数を考えてみます。
+
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-4,14
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case ("", ""):  # match here
+               return  "Please order something."
+           case (beer, ""):
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case (beer, food):
+               return f"I drink {beer} with {food}."
+           case _:
+               return "one beer and one food only."
+
+   order_beer_and_food(("", ""))  # -> Please order something.
+
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-2,5-6,14
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case ("", ""):
+               return  "Please order something."
+           case (beer, ""):  # match here
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case (beer, food):
+               return f"I drink {beer} with {food}."
+           case _:
+               return "one beer and one food only."
+
+   order_beer_and_food("IPA")  # -> I drink IPA.
+
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-2,9-10,14
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case ("", ""):
+               return  "Please order something."
+           case (beer, ""):
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case (beer, food):  # match here
+               return f"I drink {beer} with {food}."
+           case _:
+               return "one beer and one food only."
+
+   order_beer_and_food("IPA", "nuts")  # -> I drink IPA with nuts.
+
+.. revealjs-break::
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-2,11-14
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case ("", ""):
+               return  "Please order something."
+           case (beer, ""):
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case (beer, food):
+               return f"I drink {beer} with {food}."
+           case _:  # match here
+               return "one beer and one food only."
+
+   order_beer_and_food(("IPA", "nuts", "spam"))  # -> one beer and one food only.
+
+rewrite with ``if`` statement
+-----------------------------
+.. code-block:: python
+
+   def order_beer_and_food(order: tuple) -> str:
+       if len(order) == 2:
+           beer, food = order
+           if beer == "" and food == "":
+               return  "I'm full."
+           elif beer != "" and food == "":
+               return f"I drink {beer}."
+           elif beer == "" and food != "":
+               return f"I eat {food}."
+           else:
+               return f"I drink {beer} with {food}."
+       else:
+           return  "one beer and one food only."
+
+Which do you like?
+------------------
+* Structural Pattern Matching
+* ``if`` statement
+
+Order is important ⬇️
+=====================
+.. revealjs-code-block:: python
+   :data-line-numbers: 3-4,14
+
+   def order_beer_and_food(order: tuple) -> str:
+       match (order):
+           case (beer, food):  # match here
+               return f"I drink {beer} with {food}."
+           case ("", ""):
+               return "Please order something."
+           case (beer, ""):
+               return f"I drink {beer}."
+           case ("", food):
+               return f"I eat {food}."
+           case _:
+               return "one beer and one food only."
+
+   order_beer_and_food(("IPA", ""))  # -> I drink IPA with .
+
+.. 一つ注意点があります。caseの順番は重要です。
+   上から順にマッチするのでこのように書くとすべて最初のパターンにマッチしてしまいます。
+
+Classes patterns
+================
+.. revealjs-break::
+
+.. code-block:: python
+
+   @dataclass
+   class Order:
+       beer: str = ""
+       food: str = ""
+
+   def order_with_class(order: Order) -> str:
+       match (order):
+           case Order(beer="", food=""):
+               return "Please order something."
+           case Order(beer=beer, food=""):
+               return f"I drink {beer}."
+           case Order(beer="", food=food):
+               return f"I eat {food}."
+           case Order(beer=beer, food=food):
+               return f"I drink {beer} with {food}."
+           case _:
+               return "Not an order."
+
+.. beerとfoodを属性に持つorderクラスを作ります
+
+Results: Classes patterns
+-------------------------
+
+.. code-block:: python
+
+   >>> order_with_class(Order())
+   'Please order something.'
+   >>> order_with_class(Order(beer="Ale"))
+   'I drink Ale.'
+   >>> order_with_class(Order(food="fries"))
+   'I eat fries.'
+   >>> order_with_class(Order("Ale", "fries"))
+   'I drink Ale with fries.'
+   >>> order_with_class("IPA")
+   'Not an order.'
+
+.. The results are here.
+   先程のタプルと同じように動作します
+
+Classes patterns
+----------------
+.. code-block:: python
+
+   def order_with_class(order: Order) -> str:
+       match (order):
+           case Order(beer="", food=""):
+               return "Please order something."
+           case Order(beer=beer, food=""):
+               return f"I drink {beer}."
+           case Order(beer="", food=food):
+               return f"I eat {food}."
+           case Order(beer=beer, food=food):
+               return f"I drink {beer} with {food}."
+           case _:
+               return "Not an order."
+
+.. This is code of classes patterns.
+
+rewrite with ``if`` statement
+-----------------------------
+.. code-block:: python
+
+   def order_with_class(order: Order) -> str:
+       if isinstance(order, Order):
+           if order.beer == "" and order.food == "":
+               return  "Please order something."
+           elif order.beer != "" and order.food == "":
+               return f"I drink {order.beer}."
+           elif order.beer == "" and order.food != "":
+               return f"I eat {order.food}."
+           else:
+               return f"I drink {order.beer} with {order.food}."
+       else:
+           return "Not an order."
+
+.. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
+   まだまだあります
+
+Matching sequences ➡️
+=====================
+.. revealjs-break::
+
+* Sequense Pattens
+* Parse the order text
+* for example:
+
+  * ``"beer IPA pint"``
+  * ``"food nuts"``
+  * ``"water 3"``
+  * ``"bill"``
+
+.. 次はシーケンスのマッチについて解説します。
+   ここでは注文のテキストを解析します。
+   In this caes, I'll parse the order text.
+
+Matching multiple patterns
+--------------------------
+* Matching by length of sequence
+
+.. code-block:: python
+
+   match order_text.split():
+       case [action]:  # match ["bill"]
+            ...
+       case [action, name]:  # match "food nuts", "water 3"
+            ...
+       case [action, name, size]:  # match "beer IPA pint"
+            ...
+
+.. 複数のシーケンスのパターンにマッチできます。
+   この場合はリストの長さが1、2、3でそれぞれ振り分けています。
+
+Matching specific values
+------------------------
+* Matching specific attions(bill, food...)
+
+.. code-block:: python
+
+   match order_text.split():
+       case ["bill"]:
+            calculate_amount()
+       case ["food", food]:
+            tell_kitchen(food)
+       case ["water", number]:
+            grass_of_water(number)
+       case ["beer", kind, size]:
+            tell_beer_master(kind, size)
+
+Capturing matched sub-patterns
+------------------------------
+* Valid beer size is ``"Pint"`` and ``"HalfPint"``
+* ``"beer IPA 1-liter"`` is invalid
+
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["beer", kind, ("Pint" | "HalfPint")]:
+       # I don't know beer size
+
+.. revealjs-break::
+
+* Use ``as`` patterns
+* Bind the value(``"Pint"`` or ``"HalfPint"``) to ``size``
+
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["beer", kind, ("Pint" | "HalfPint") as size]:
+            tell_beer_master(kind, size)
+
+Matching multiple values
+------------------------
+* Can handle multiple food orders
+* example:
+
+  * ``"food nuts fries pickles"``
+
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["food", food]:  # capture single value
+            tell_kitchen(food)
+
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["food", *foods]:  # capture multiple values
+            for food in foods:
+                tell_kitchen(name)
+
+Matching dictionaries 📕
+=========================
+.. revelajs-break::
+
+* Mapping Patterns
+
+.. code-block:: python
+
+   order_dict = {"beer": "IPA", "size": "Pint"}
+   match order_dict:
+       case {"food": food}:
+           tell_kitchen(food)
+       case {"beer": kind, "size": ("Pint" | "HalfPint") as size}:
+           tell_beer_master(kind, size)
+       case {"beer": kind, "size": _}:
+           print("Unknown beer size")
+       case {"water": number}:
+           grass_of_water(number)
+       case {"bill": _}:
+           calculate_amount()
+
+Matching builtin classes
+------------------------
+.. code-block:: python
+
+   order_dict = {"water": 3}
+   match order_dict:
+       case {"food": str(food)}:
+           tell_kitchen(food)
+       case {"beer": str(kind), "size": ("Pint" | "HalfPint") as size}:
+           tell_beer_master(kind, size)
+       case {"beer": str(kind), "size": _}:
+           print("Unknown beer size")
+       case {"water": int(number)}:
+           grass_of_water(number)
+       case {"bill": _}:
+           calculate_amount()
+
+Guards 💂‍♀️
+============
+*
+
+.. 最後にガードについて説明します。
+
+Summary
+=======
+.. revealjs-break::
+
+* Motivation 💪
+* What's New in Python 3.10 🆕
+
+  * context manager, error message, typing
+* Syntax |code|
+
+  * ``match``, ``case`` and ``_``
+* Patterns |random|
+
+  * literal, ``|``, variable, class, sequense, dict...
+
+.. Summary of this talks.
+   I tald about ...
+
+Try Structural Pattern Matching 👍
+-----------------------------------
+.. image:: https://user-images.githubusercontent.com/11718525/135937807-fd3e0fd2-a31a-47a4-90c6-b0bb1d0704d4.png
+   :alt: Python 3.10 release logo
+
+.. If you think pattern matching looks good, give it a try!!
+   もしパターンマッチよさそうだなと思ったら、挑戦してみてください
+
+References 📚
+--------------
+* `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
+* `Python Release Python 3.10.0 <https://www.python.org/downloads/release/python-3100/>`_
+* `PEP 634 -- Structural Pattern Matching: Specification <https://www.python.org/dev/peps/pep-0634/>`_
+* `PEP 635 -- Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
+* `PEP 636 -- Structural Pattern Matching: Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
+
+.. References are here
+
+Thank you !! 🙏
+===============
+Takanori Suzuki (|twitter| `@takanory <https://twitter.com/takanory>`_)
+
+`slides.takanory.net <https://slides.takanory.net/>`_
+
+.. image:: /assets/images/sokidan-square.jpg
+
+.. Thank you for your attention.
+   I hope to see you at PyCon held onsite somewhere.
