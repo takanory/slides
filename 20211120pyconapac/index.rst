@@ -51,7 +51,7 @@ Who am I? 👤
 Motivation of this talk 💪
 ===========================
 * Structural Pattern Matching looks **useful**
-* You to **know** and **try** it  
+* You to **know** and **try** it
 
 .. There are a lat of new features in Python 3.10.
    I think Structural Pattern Matching looks pretty useful.
@@ -66,7 +66,7 @@ Goal of this talk 🥅
 ---------------------
 * Learn **syntax** and **basic usage**
 * Learn **various patterns** and **how to use** them
-* **Try it** tomorrow  
+* **Try it** tomorrow
 
 .. You will learn the syntax and basic usage of Structural Pattern Matching.
    And, you witll learn about the various patterns and how to use them.
@@ -81,7 +81,7 @@ Prerequisites
 * **Intermediate** level
 * You should know **Python syntax**
 
-  * tuple, list, dict, if, isinstance, dataclass and more
+  * tuple, list, dict, if, def, isinstance, dataclass, type hinting and more
 
 .. This talk is for interemediate level.
    You should have a basic understanding of Python syntax.
@@ -160,7 +160,7 @@ Structural Pattern Matching 🏛
 
 .. revealjs-break::
 
-* PEPs for Structural Pattern Matching   
+* PEPs for Structural Pattern Matching
 
   * `PEP 634 – Specification <https://www.python.org/dev/peps/pep-0634/>`_
   * `PEP 635 – Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
@@ -273,7 +273,7 @@ Patterns |random|
 .. This is the syntax I introduced before.
    You can specify various patterns after case.
    I will introduce patterns with code examples.
-   
+
 .. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
    いくつかを紹介していきます。
 
@@ -401,7 +401,7 @@ Literal and **Variable** patterns
                return "one beer and one food only."
 
 .. Let's consider a function receives beer and food orders tuple.
-   
+
 .. このようなタプルを受け取る関数を考えてみます。
 
 Literal and **Variable** patterns
@@ -526,7 +526,7 @@ rewrite with **if** statement
 
 .. I rewrite it with an if statement.
    I think this code is a bit confusing.
-   
+
 Which do you like?
 ------------------
 * Structural Pattern Matching
@@ -562,15 +562,18 @@ Which do you like?
 
 **Classes** patterns
 ====================
+.. Next, Classes patterns.
 
 **Classes** patterns
 --------------------
 .. code-block:: python
 
    @dataclass
-   class Order:
+   class Order:  # Order(beer="IPA"), Order("Ale", "nuts")...
        beer: str = ""
        food: str = ""
+
+.. code-block:: python
 
    def order_with_class(order: Order) -> str:
        match (order):
@@ -584,6 +587,13 @@ Which do you like?
                return f"I drink {beer} with {food}."
            case _:
                return "Not an order."
+
+.. Order class has beer and food attributes.
+   First case is the pattern matches when beer and food are empty.
+   Second case is the pattern matches when only food is empty.
+   Then the value of order.beer will be assignend to beer variable.
+   3rd case is order.food value assigned to food variable.
+   4th case is order.beer and order.food value assignend beer and food.
 
 .. beerとfoodを属性に持つorderクラスを作ります
 
@@ -604,7 +614,9 @@ Which do you like?
    'Not an order.'
 
 .. The results are here.
-   先程のタプルと同じように動作します
+   It works in the same way as the previous tuple case.
+
+.. 先程のタプルと同じように動作します
 
 Classes patterns
 ----------------
@@ -623,9 +635,9 @@ Classes patterns
            case _:
                return "Not an order."
 
-.. This is code of classes patterns.
+.. Rewrite this code of classes pattern with if statement.
 
-rewrite with ``if`` statement
+rewrite with **if** statement
 -----------------------------
 .. code-block:: python
 
@@ -642,21 +654,95 @@ rewrite with ``if`` statement
        else:
            return "Not an order."
 
+.. I rewrote that code  with if statements. It looks like this.
+   It looks a little cluttered.
+   Classes patterns are much more powerful.
+
 .. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
    まだまだあります
 
-Matching sequences ➡️
-=====================
-.. revealjs-break::
+**Order** classses
+------------------
+.. code-block:: python
 
-* Sequense Pattens
+   @dataclass
+   class Beer:  # Beer("IPA", "Pint")
+       style: str
+       size: str
+
+   @dataclass
+   class Food:  # Food("nuts")
+       name: str
+
+   @dataclass
+   class Water:  # Water(4)
+       number: int
+
+.. There are three classes representing order of beer, food, and water.
+   Each classes has as attributes beer style and size, fodd name, and the number of glasses of water.
+
+.. ビール、フード、水の注文を表すそれぞれのクラスがあるとします。
+
+**Classes** patterns
+--------------------
+* With **multiple** classes
+
+.. code-block:: python
+
+   def order_with_classes(order: Beer|Food|Water) -> str:
+       match (order):
+           case Beer(style=style, size=size):
+               return f"I drink {size} of {style}."
+           case Food(name=name):
+               return f"I eat {name}."
+           case Water(number=number):
+               return f"{number} glasses of water, please."
+           case _:
+               return "Not an order."
+
+.. This code written in classes patterns with multiple classess.
+   It is easy to recognize because it branches based on the type of classes.
+
+.. classes patternsで書くとこうなります。
+   それぞれのクラスの型で分岐するのでわかりやすいです。
+
+rewrite with **if** statement
+-----------------------------
+.. code-block:: python
+
+   def order_with_classes(order: Beer|Food|Water) -> str:
+       if isinstance(order, Beer):
+           return f"I drink {order.size} of {order.style}."
+       elif isinstance(order, Food):
+           return f"I eat {order.name}."
+       elif isinstance(order, Water):
+           return f"{order.number} glasses of water, please."
+       else:
+           return "Not an order."
+
+.. I rewrote that code  with if statements. It looks like this.
+   The match case is cleaner and readable, don't you think?
+
+.. match caseで書いた方がすっきりして読みやすいと思いませんか?
+
+**Sequense** patterns ➡️
+==========================
+
+**Sequense** patterns ➡️
+--------------------------
 * Parse the order text
 * for example:
 
-  * ``"beer IPA pint"``
-  * ``"food nuts"``
-  * ``"water 3"``
-  * ``"bill"``
+.. code-block:: python
+
+   order_text = "beer IPA pint"
+   order_text = "food nuts"
+   order_text = "water 3"
+   order_text = "bill"
+
+.. Next, I will explain about Sequense pattens.
+   In this caes, I'll parse the order text.
+   For example...
 
 .. 次はシーケンスのマッチについて解説します。
    ここでは注文のテキストを解析します。
@@ -669,15 +755,18 @@ Matching multiple patterns
 .. code-block:: python
 
    match order_text.split():
-       case [action]:  # match ["bill"]
+       case [action]:  # match "bill"
             ...
        case [action, name]:  # match "food nuts", "water 3"
             ...
        case [action, name, size]:  # match "beer IPA pint"
             ...
 
+.. This code can match the patterns of multiple sequences.
+   In this case, there are patterns with list lengths of 1, 2, and 3.
+
 .. 複数のシーケンスのパターンにマッチできます。
-   この場合はリストの長さが1、2、3でそれぞれ振り分けています。
+   この場合はリストの長さが1、2、3のパターンがあります。
 
 Matching specific values
 ------------------------
@@ -741,8 +830,8 @@ Matching multiple values
             for food in foods:
                 tell_kitchen(name)
 
-Matching dictionaries 📕
-=========================
+**Mapping** Patterns 📕
+========================
 .. revealjs-break::
 
 * Mapping Patterns
@@ -960,4 +1049,3 @@ Better Typing Syntax
 
 Try Python 3.10 👍
 -------------------
-           
