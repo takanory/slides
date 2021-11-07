@@ -533,7 +533,7 @@ Which do you like?
 * ``if`` statement
 
 **Order** is important ⬇️
-=========================
+==========================
 .. revealjs-code-block:: python
    :data-line-numbers: 3-4,14
 
@@ -750,17 +750,17 @@ rewrite with **if** statement
 
 Matching multiple patterns
 --------------------------
-* Matching by length of sequence
+* Matching by **length** of sequence
 
 .. code-block:: python
 
    match order_text.split():
        case [action]:  # match "bill"
-            ...
+           ...
        case [action, name]:  # match "food nuts", "water 3"
-            ...
+           ...
        case [action, name, size]:  # match "beer IPA pint"
-            ...
+           ...
 
 .. This code can match the patterns of multiple sequences.
    In this case, there are patterns with list lengths of 1, 2, and 3.
@@ -775,127 +775,200 @@ Matching specific values
 .. code-block:: python
 
    match order_text.split():
-       case ["bill"]:
-            calculate_amount()
-       case ["food", food]:
-            tell_kitchen(food)
-       case ["water", number]:
-            grass_of_water(number)
-       case ["beer", kind, size]:
-            tell_beer_master(kind, size)
+       case ["bill"]:  # match "bill"
+           calculate_amount()
+       case ["food", food]:  # match "food nuts"
+           tell_kitchen(food)
+       case ["water", number]:  # match "water 3"
+           grass_of_water(number)
+       case ["beer", style, size]:  # match "beer IPA pint"
+           tell_beer_master(style, size)
 
-Capturing matched sub-patterns
-------------------------------
-* Valid beer size is ``"Pint"`` and ``"HalfPint"``
+.. Also, if you write the pattern like this, any value in the list will be matched with a specific string(bill, food...).
+   This is a combination of sequence patterns and literal patterns.
+
+.. また、このようにパターンを書くと、リストの任意の値が特定の文字列とマッチします
+
+Capturing matched **sub-patterns**
+----------------------------------
+* Valid beer size are ``"Pint"`` and ``"HalfPint"``
 * ``"beer IPA 1-liter"`` is invalid
 
 .. code-block:: python
 
    match order_text.split():
        ...
-       case ["beer", kind, ("Pint" | "HalfPint")]:
-       # I don't know beer size
+       case ["beer", style, ("Pint" | "HalfPint")]:
+           # I don't know beer size
 
-.. revealjs-break::
+.. Valid beer sizes are Pint or Half Pint only.
+   For example, "beer IPA 1-liter" is invalid.
+   Using the OR patterns in this way, you can match any value.
+   But I don't know beer size. How do I get the value of size.
 
-* Use ``as`` patterns
-* Bind the value(``"Pint"`` or ``"HalfPint"``) to ``size``
+.. 有効なビールのサイズはPintとHalfPintのみだとします
+
+Capturing matched **sub-patterns**
+----------------------------------
+
+* Use **as** patterns
+* Assign the size value(``"Pint"`` or ``"HalfPint"``) to ``size``
 
 .. code-block:: python
 
    match order_text.split():
        ...
-       case ["beer", kind, ("Pint" | "HalfPint") as size]:
-            tell_beer_master(kind, size)
+       case ["beer", style, ("Pint" | "HalfPint") as size]:
+           tell_beer_master(style, size)
 
-Matching multiple values
-------------------------
-* Can handle multiple food orders
+.. In this case, use as patterns.
+   Assign the size value(Pint or HalfPint) to the size variable.
+
+
+Matching **multiple values**
+----------------------------
+* Can handle multiple food order
 * example:
 
   * ``"food nuts fries pickles"``
 
 .. code-block:: python
 
+   order_text = "food nuts fries pickles"
+
    match order_text.split():
        ...
        case ["food", food]:  # capture single value
-            tell_kitchen(food)
+           tell_kitchen(food)
+
+.. I want to order multiple food items at once.
+   For example "food nuts fries pickles",
+   But this sequence pattern can handle single food.
+
+Matching **multiple values**
+----------------------------
+* Add **\*** to variable name
 
 .. code-block:: python
+
+   order_text = "food nuts fries pickles"
 
    match order_text.split():
        ...
        case ["food", *foods]:  # capture multiple values
-            for food in foods:
-                tell_kitchen(name)
+           for food in foods:  # ("nuts", "fries", "pickles")
+               tell_kitchen(name)
+
+.. If I add * to the variable name(foods), multiple values will be assigned.
+   Now I can order multiple food items at once!
+
+.. これで一度に複数のフードを注文できるようになりました!
 
 **Mapping** Patterns 📕
 ========================
-.. revealjs-break::
+.. Last patterns is Mapping pattens.
 
-* Mapping Patterns
+**Mapping** Patterns 📕
+------------------------
+* Pattern match for **dictinaries**
+* Useful for alalyzing **JSON**
 
 .. code-block:: python
 
    order_dict = {"beer": "IPA", "size": "Pint"}
+
    match order_dict:
        case {"food": food}:
            tell_kitchen(food)
-       case {"beer": kind, "size": ("Pint" | "HalfPint") as size}:
-           tell_beer_master(kind, size)
-       case {"beer": kind, "size": _}:
+       case {"beer": style, "size": ("Pint" | "HalfPint") as size}:
+           tell_beer_master(style, size)
+       case {"beer": style, "size": _}:
            print("Unknown beer size")
        case {"water": number}:
            grass_of_water(number)
        case {"bill": _}:
            calculate_amount()
 
-Matching builtin classes
-------------------------
+.. The pattern is matched by map types such as dictionaries.
+   The mapping pattern is useful for analyzing a JSON-loaded dictionary.
+
+Matching **builtin** classes
+----------------------------
+* Use **str()**, **int()** and more
+
 .. code-block:: python
 
    order_dict = {"water": 3}
+   # order_dict = {"water": "three"}  # Doesn't match
+
    match order_dict:
        case {"food": str(food)}:
            tell_kitchen(food)
-       case {"beer": str(kind), "size": ("Pint" | "HalfPint") as size}:
-           tell_beer_master(kind, size)
-       case {"beer": str(kind), "size": _}:
+       case {"beer": str(style), "size": ("Pint" | "HalfPint") as size}:
+           tell_beer_master(style, size)
+       case {"beer": str(style), "size": _}:
            print("Unknown beer size")
        case {"water": int(number)}:
            grass_of_water(number)
        case {"bill": _}:
            calculate_amount()
 
+.. You can use builtin classes to specify the type of the value.
+   In this code, food and beer style are string, and the number of water is an integer only.
+   If the value of water is string, it will not match the pattern.
+
+.. このコードでは、料理やビールの種類は文字列で、水の数は整数のみとなります。
+   もしwaterの値が文字のthreeの場合は、パターンにマッチしません。
+
 Guards 💂‍♀️
 ============
-*
+
+.. Finally, let me introduce Guards.
 
 .. 最後にガードについて説明します。
+
+Guards 💂‍♀
+------------
+* **if** statement after pattern
+
+.. code-block:: python
+
+   order_list = ["water", 3]  # -> 3 glasses of water, please.
+   # order_list = ["water", 15]  # -> You can only order 1-9 glasses of water.
+
+   match order_list:
+       case ["water", int(number)] if 0 < number < 10:
+           print(f"{number} glasses of water, please.")
+       case ["water", _]:
+           print("You can only order 1-9 glasses of water.")
+
+.. If you write an if statement after the pattern, it becomes a guard.
+   This code will match if the second value of order_list is an integer.
+   After that, a guard checks if the number is in the range of 1-9.
+
+.. パターンの後ろにif文を書くとguardになります。
 
 Summary
 =======
 .. revealjs-break::
 
 * Motivation 💪
-* What's New in Python 3.10 🆕
-
-  * context manager, error message, typing
 * Syntax |code|
 
-  * ``match``, ``case`` and ``_``
+  * Soft keywords: ``match``, ``case`` and ``_``
 * Patterns |random|
 
-  * literal, ``|``, variable, class, sequense, dict...
+  * Literal, Variable, Classes, Sequense, Mapping
+  * Wildcard, OR, AS, Guards
 
 .. Summary of this talks.
    I tald about ...
 
-Try Structural Pattern Matching 👍
------------------------------------
+**Try** Structural Pattern Matching 👍
+---------------------------------------
 .. If you think pattern matching looks good, give it a try!!
-   もしパターンマッチよさそうだなと思ったら、挑戦してみてください
+
+.. もしパターンマッチよさそうだなと思ったら、挑戦してみてください
 
 References 📚
 --------------
