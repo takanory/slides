@@ -6,8 +6,12 @@ Takanori Suzuki
 
 PyCon APAC 2021 / 2021 Nov 20
 
-.. 見てくれてありがとう。今日はこれについて話すよ的な
+.. Thank you for wathing my talk.
+   I'm happy to be giving a talk at PyCon APAC.
+   I'm Takanori Suzuki
+   Talk title is ...
 
+.. 見てくれてありがとう。今日はこれについて話すよ的な
 
 Agenda
 ======
@@ -15,6 +19,12 @@ Agenda
 * What's New
 * Syntax
 * Patterns
+
+.. Agenda of this talk.
+   First, I will share my motivation and goals for this talk.
+   Next, I will introduce what's new in Python 3.10.
+   Then, I'll explain the syntax of structural pattern matching.
+   Finally, various patterns will be explained with code examples.
 
 .. 今日話すことをざっくり説明
 
@@ -53,7 +63,8 @@ Motivation of this talk 💪
 * Structural Pattern Matching looks **useful**
 * You to **know** and **try** it
 
-.. There are a lat of new features in Python 3.10.
+.. Now let's get to the main topic.
+   There are a lat of new features in Python 3.10.
    I think Structural Pattern Matching looks pretty useful.
    I'd like to YOU to know about it and try it out.
 
@@ -319,7 +330,7 @@ Patterns |random|
        case _:
            result = "I like most beers"
 
-.. This pattern matches IP or Session IP
+.. This pattern matches IPA or Session IPA
 
 Literal patterns **without wildcard**
 -------------------------------------
@@ -365,7 +376,7 @@ rewrite with **if** statement
    else:
        result = "I like most beers"
 
-.. If you write it in an if statement, you won't shee much difference.
+.. If you write it in an if statement, you won't see much difference.
    You're ritght.
    But...
 
@@ -413,7 +424,7 @@ Literal and **Variable** patterns
    def order_beer_and_food(order: tuple) -> str:
        match (order):
            case ("", ""):  # match here
-               return  "Please order something."
+               return "Please order something."
            case (beer, ""):
                return f"I drink {beer}."
            case ("", food):
@@ -437,7 +448,7 @@ Literal and **Variable** patterns
    def order_beer_and_food(order: tuple) -> str:
        match (order):
            case ("", ""):
-               return  "Please order something."
+               return "Please order something."
            case (beer, ""):  # match here
                return f"I drink {beer}."
            case ("", food):
@@ -464,7 +475,7 @@ Literal and **Variable** patterns
    def order_beer_and_food(order: tuple) -> str:
        match (order):
            case ("", ""):
-               return  "Please order something."
+               return "Please order something."
            case (beer, ""):
                return f"I drink {beer}."
            case ("", food):
@@ -491,7 +502,7 @@ Literal and **Variable** patterns
    def order_beer_and_food(order: tuple) -> str:
        match (order):
            case ("", ""):
-               return  "Please order something."
+               return "Please order something."
            case (beer, ""):
                return f"I drink {beer}."
            case ("", food):
@@ -555,7 +566,7 @@ Which do you like?
 .. There is one note of caution.
    The order of the cases is important.
    The patterns are compared in order from top to bottom, so if you write it this way, it will match the first pattern.
-   As a result, no other patterns will be reaced.
+   As a result, no other patterns will be reached.
 
 .. 一つ注意点があります。caseの順番は重要です。
    上から順にマッチするのでこのように書くとすべて最初のパターンにマッチしてしまいます。
@@ -654,9 +665,9 @@ rewrite with **if** statement
        else:
            return "Not an order."
 
-.. I rewrote that code  with if statements. It looks like this.
+.. I rewrote that code  with if statements.
    It looks a little cluttered.
-   Classes patterns are much more powerful.
+   And, Classes patterns are much more powerful.
 
 .. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
    まだまだあります
@@ -679,7 +690,7 @@ rewrite with **if** statement
        number: int
 
 .. There are three classes representing order of beer, food, and water.
-   Each classes has as attributes beer style and size, fodd name, and the number of glasses of water.
+   Each classes has attributes beer style and size, food name, and the number of glasses of water.
 
 .. ビール、フード、水の注文を表すそれぞれのクラスがあるとします。
 
@@ -720,7 +731,7 @@ rewrite with **if** statement
        else:
            return "Not an order."
 
-.. I rewrote that code  with if statements. It looks like this.
+.. I rewrite that code  with if statements. It looks like this.
    The match case is cleaner and readable, don't you think?
 
 .. match caseで書いた方がすっきりして読みやすいと思いませんか?
@@ -995,10 +1006,10 @@ What's New in Python 3.10 🆕
 =============================
 .. revealjs-break::
 
-* Structural Pattern Matching
 * **Parenthesized Context Managers** 👈
 * **Better Error Messages** 👈
 * **Better Typing Syntax** 👈
+* Structural Pattern Matching
 * Better Debugging
 
 Parenthesized Context Managers
