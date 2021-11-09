@@ -485,7 +485,7 @@ Literal and **Variable** patterns
            case _:
                return "one beer and one food only."
 
-   order_beer_and_food("IPA", "nuts")  # -> I drink IPA with nuts.
+   order_beer_and_food(("IPA", "nuts"))  # -> I drink IPA with nuts.
 
 .. If the argument is ("IPA", "nuts"), the pattern in the 9th line will be matched.
    Then the first value "IPA" is then assigned to the beer variable.
