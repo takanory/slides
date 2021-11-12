@@ -49,6 +49,7 @@
      * Talk
      * Pythonの現在とこれからと
      * `Slides <https://slides.takanory.net/slides/20210825ossx/>`__
+       `Report <https://technomado.jp/tech/8589/>`__
    - * `BPLL #58 <https://bpstudy.connpass.com/event/214092/>`_
      * Online
      * 2021 Jun
