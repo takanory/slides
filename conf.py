@@ -54,8 +54,9 @@ html_theme_options = {
     'includehidden': False,
 }
 
-FONT_AWESOME_URL = ("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/"
-                    "css/font-awesome.min.css")
+FONT_AWESOME_URL = (
+    "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+)
 html_css_files = [FONT_AWESOME_URL]
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -77,15 +78,13 @@ html_context = {
 # revealjs_google_fonts = ["M PLUS 1p"]
 # revealjs_google_fonts = ["Noto Sans JP"]
 revealjs_style_theme = "white"
-revealjs_script_conf = """
-    {
-        controls: true,
-        progress: false,
-        history: true,
-        center: true,
-        transition: "none",
-    }
-"""
+revealjs_script_conf = {
+    "controls": True,
+    "progress": False,
+    "history": True,
+    "center": True,
+    "transition": "none",
+}
 revealjs_script_plugins = [
     {
         "name": "RevealNotes",
