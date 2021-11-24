@@ -948,7 +948,7 @@ Guards 💂‍♀
    # order_list = ["water", 15]  # -> You can only order 1-9 glasses of water.
 
    match order_list:
-       case ["water", int(number)] if 0 < number < 10:
+       case ["water", number] if 0 < int(number) < 10:
            print(f"{number} glasses of water, please.")
        case ["water", _]:
            print("You can only order 1-9 glasses of water.")
