@@ -1,36 +1,27 @@
-=============================================
- Introduction to Structural Pattern Matching
-=============================================
+=================================================
+ Introduction to **Structural Pattern Matching**
+=================================================
 
 Takanori Suzuki
 
 PyCon Kyushu 2022 Kumamoto / 2022 Jan 22
 
-.. Thank you for wathing my talk.
-   I'm happy to be giving a talk at PyCon APAC.
-   I'm Takanori Suzuki
-   Talk title is ...
+.. イベントの開催おめでとうございます。
+   また、私のトークに参加してくれてありがとうございます。
+   今日は「タイトル」について話します
 
-.. 見てくれてありがとう。今日はこれについて話すよ的な
-
-Agenda
-======
-* Motivation
-* What's New
-* Syntax
-* Patterns
-
-.. Agenda of this talk.
-   First, I will share my motivation and goals for this talk.
-   Next, I will introduce what's new in Python 3.10.
-   Then, I'll explain the syntax of structural pattern matching.
-   Finally, various patterns will be explained with code examples.
+Agenda / アジェンダ
+===================
+* Motivation / モチベーション
+* What's New / 更新情報
+* Syntax / 構文
+* Patterns / パターン
 
 .. 今日話すことをざっくり説明
 
 Photos 📷 Tweets 🐦 👍
 ========================
-``#pyconapac`` / ``@takanory``
+``#PyConK`` / ``@takanory``
 
 .. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
    Hashtag is #pyconapac
@@ -43,25 +34,19 @@ Slide 💻
    And I've already shared this slide on Twitter.
    Please check it out #pyconapac.
 
-Who am I? 👤
-=============
+Who am I? / お前誰よ 👤
+========================
 * Takanori Suzuki / 鈴木 たかのり (|twitter| `@takanory <https://twitter.com/takanory>`_)
-* `PyCon JP Association <https://www.pycon.jp/>`_: Vice Chair
-* `BeProud Inc. <https://www.beproud.jp/>`_: Director / Python Climber
+* `PyCon JP Association <https://www.pycon.jp/>`_: 副代表理事
+* `BeProud <https://www.beproud.jp/>`_: 取締役 / Python Climber
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
 
 .. image:: /assets/images/sokidan-square.jpg
 
-.. Before the main topic,...I will introduce myself.
-   I'm Takanori Suzuki. My twitter is "takanory", please follow me.
-   I'm Vice-Chairperson of PyCon JP Association.
-   And I'm director of BeProud Inc.
-   I'm also active in several Python related communities
-
-Motivation of this talk 💪
-===========================
-* Structural Pattern Matching looks **useful**
-* You to **know** and **try** it
+この発表の **モチベーション** 💪
+=================================
+* Structural Pattern Matching は **便利そう**
+* みんなに **知って**、**使って** みてほしい
 
 .. Now let's get to the main topic.
    There are a lat of new features in Python 3.10.
@@ -73,51 +58,38 @@ Motivation of this talk 💪
    Structural Pattern Matchingはかなり便利そう
    みんなに知って使ってみてほしい
 
-Goal of this talk 🥅
----------------------
-* Learn **syntax** and **basic usage**
-* Learn **various patterns** and **how to use** them
-* **Try it** tomorrow
+この発表の **ゴール** 🥅
+-------------------------
+* **構文** と **基本的な使い方** を知る
+* さまざまな **パターン** と、その **使い方** を知る
+* 明日から **試せる**
 
-.. You will learn the syntax and basic usage of Structural Pattern Matching.
-   And, you witll learn about the various patterns and how to use them.
-   You'll be able to try it tomorrow.
+前提条件
+--------
+* **中級** レベル
+* **Pythonの文法** を理解している
 
-.. Structural Pattern Matchingの基本的な使い方を知る
-   色々なパターンがあることと、その使い方を知る
-   明日から試せる
-
-Prerequisites
--------------
-* **Intermediate** level
-* You should know **Python syntax**
-
-  * tuple, list, dict, if, def, isinstance, dataclass, type hinting and more
+  * タプル、リスト、辞書、if、def、isinstance、データクラス、型ヒントなど
 
 .. This talk is for interemediate level.
    You should have a basic understanding of Python syntax.
 
-Questions
-=========
+質問
+====
 
-.. First, I have questions
-
-Have you used Python 3.10? 🙋‍♂️
+Python 3.10を使ってますか? 🙋‍♂️
 --------------------------------
 
-Do you know the new features? 🙋‍♀️
------------------------------------
-.. Do you know the new features in 3.10?
+3.10の新機能を知ってますか? 🙋‍♀️
+---------------------------------
 
-What's New in Python 3.10 🆕
-=============================
-
-.. First, I will introduce to the new features of Python 3.10.
+**What's New** in Python 3.10 🆕
+=================================
 
 .. Python 3.10の新機能について紹介します
 
-.. revealjs-break::
-
+**What's New** in Python 3.10 🆕
+---------------------------------
 * `docs.python.org/3/whatsnew/3.10.html <https://docs.python.org/3/whatsnew/3.10.html>`_
 
 .. image:: images/whatsnew.png
@@ -131,12 +103,12 @@ Python Release Python 3.10.0
 
 .. image:: images/python3100.png
    :width: 70%
-   :alt: Python Release Python 3.10.0
+   :alt: Python Release Python 3.10.1
 
 .. Python 3.10 was released on October 4, 2021.
    3.10 has many new features...By the way...
 
-Who are You? 🐍
+お前誰よ? 🐍
 ----------------
 .. image:: https://user-images.githubusercontent.com/11718525/135937807-fd3e0fd2-a31a-47a4-90c6-b0bb1d0704d4.png
    :width: 70%
@@ -145,8 +117,8 @@ Who are You? 🐍
 .. This image is "Python 3.10 release logo".
    You can find the new features of 3.10 around this snake.
 
-New features of Python 3.10
----------------------------
+Python 3.10の **新機能**
+------------------------
 * Parenthesized Context Managers
 * Better Typing Syntax
 * Better Error Messages
@@ -156,8 +128,8 @@ New features of Python 3.10
 .. There are five major new features written in the logo.
    Parenthesized...
 
-New features of Python 3.10
----------------------------
+Python 3.10の **新機能**
+------------------------
 * Parenthesized Context Managers
 * Better Typing Syntax
 * Better Error Messages
@@ -171,7 +143,7 @@ Structural Pattern Matching 🏛
 
 .. revealjs-break::
 
-* PEPs for Structural Pattern Matching
+* Structural Pattern Matchingの **PEP**
 
   * `PEP 634 – Specification <https://www.python.org/dev/peps/pep-0634/>`_
   * `PEP 635 – Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
@@ -183,8 +155,8 @@ Structural Pattern Matching 🏛
 
 .. パターンマッチングは大きな機能なので3つのPEPにわけて提案されています。
 
-Motivation
-----------
+**Motivation**
+--------------
 `www.python.org/dev/peps/pep-0635/#motivation <https://www.python.org/dev/peps/pep-0635/#motivation>`_
 
   (Structural) pattern matching syntax is found in many languages, from Haskell, Erlang and Scala to Elixir and Ruby. (A proposal for JavaScript is also under consideration.)
@@ -193,11 +165,23 @@ Motivation
 
 .. この文章はPEPに書いてあるパターンマッチングのモチベーションです
 
-.. revealjs-break::
+**モチベーション**
+------------------
+`www.python.org/dev/peps/pep-0635/#motivation <https://www.python.org/dev/peps/pep-0635/#motivation>`_
+
+  (構造的)パターンマッチの構文は、Haskell、Erlang、ScalaからElixir、Rubyなど、多くの言語で見られます(JavaScriptへの提案も検討中)。
+
+.. This sentence is the motivation for the Structural Pattern Matching written in PEP.
+
+.. この文章はPEPに書いてあるパターンマッチングのモチベーションです
+
+**モチベーション**
+------------------
 
 .. code-block:: python
 
    # check type or shape of an object
+   # オブジェクトの型や形を確認する
    if isinstance(x, tuple) and len(x) == 2:
        host, port = x
        mode = "http"
@@ -221,9 +205,9 @@ Motivation
 
 .. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
 
-Syntax |code|
-=============
-* Generic syntax of pattern matching
+構文 |code|
+===========
+* Pattern Matchingの基本的な構文
 
 .. revealjs-code-block:: python
    :data-line-numbers: 1|2-9
@@ -240,11 +224,11 @@ Syntax |code|
 
 .. A match statement takes an expression ... and compares its value to successive patterns given as one or more case blocks.
 
-Soft keywords
--------------
-* New in Python 3.10
-* ``match``, ``case`` and ``_``
-* Can be used identifier names
+**ソフト** キーワード
+---------------------
+* Python 3.10の **新概念**
+* ``match``、``case``、``_``
+* **変数名** などに使用可能
 
 .. code-block:: python
 
@@ -265,7 +249,7 @@ Soft keywords
    ソフトキーワードは識別子に使用できる
    では、実際の書き方を説明していきます。
 
-Patterns |random|
+パターン |random|
 =================
 .. revealjs-break::
 
@@ -288,7 +272,7 @@ Patterns |random|
 .. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
    いくつかを紹介していきます。
 
-**Literal** patterns
+**Literal** パターン
 --------------------
 .. revealjs-code-block:: python
    :data-line-numbers: 1-7|1,8-9
@@ -313,9 +297,9 @@ Patterns |random|
    どれもマッチしなければワイルドカードの _ にマッチします。
    _ はワイルドカードです
 
-**OR** patterns
+**OR** パターン
 ---------------
-* ``|`` is OR
+* ``|`` は OR
 
 .. revealjs-code-block:: python
    :data-line-numbers: 4-5
@@ -332,8 +316,8 @@ Patterns |random|
 
 .. This pattern matches IPA or Session IPA
 
-Literal patterns **without wildcard**
--------------------------------------
+**wildcardなし** のLiteralパターン
+----------------------------------
 .. revealjs-code-block:: python
    :data-line-numbers: 8-9
 
@@ -361,9 +345,9 @@ Literal patterns **without wildcard**
 
 .. あんまり便利りそうに見えない
 
-rewrite with **if** statement
------------------------------
-* If written as an ``if`` statement
+**if** 文で書き換える
+---------------------
+* ``if`` 文で書いた場合
 
 .. code-block:: python
 
@@ -384,18 +368,18 @@ rewrite with **if** statement
    あなたの考えは正しいです。
    But...
 
-Pattern Matching is **Powerful** 💪
-------------------------------------
+Pattern Matchingは **パワフル** 💪
+-----------------------------------
 .. But...Pattern Matching is much more powerful.
    I will introduce useful patterns.
 
 .. これからさらに強力なパターンを紹介します。
 
-Literal and **Variable** patterns
-=================================
+リテラルと **変数** パターン
+============================
 
-Literal and **Variable** patterns
----------------------------------
+リテラルと **変数** パターン
+----------------------------
 .. revealjs-code-block:: python
 
    def order_beer_and_food(order: tuple) -> str:
@@ -415,9 +399,8 @@ Literal and **Variable** patterns
 
 .. このようなタプルを受け取る関数を考えてみます。
 
-Literal and **Variable** patterns
----------------------------------
-
+リテラルと **変数** パターン
+----------------------------
 .. revealjs-code-block:: python
    :data-line-numbers: 1-4,14
 
@@ -438,9 +421,9 @@ Literal and **Variable** patterns
 
 .. If the argument is (empty, empty) tuple, the pattern in the 3rd line will be matched. The return "Please order something."
 
-Literal and **Variable** patterns
----------------------------------
-* ``"IPA"`` assign to ``beer``
+リテラルと **変数** パターン
+----------------------------
+* ``"IPA"`` が ``beer`` に代入
 
 .. revealjs-code-block:: python
    :data-line-numbers: 1-2,5-6,14
@@ -464,10 +447,10 @@ Literal and **Variable** patterns
    Then the first value of the tuple, IPA, is then assigned to the beer variable.
    The result is "I drink IPA."
 
-Literal and **Variable** patterns
----------------------------------
-* ``"IPA"`` assign to ``beer``
-* ``"nuts"`` assign to ``food``
+リテラルと **変数** パターン
+----------------------------
+* ``"IPA"`` が ``beer`` に代入
+* ``"nuts"`` が ``food`` に代入
 
 .. revealjs-code-block:: python
    :data-line-numbers: 1-2,9-10,14
@@ -492,9 +475,9 @@ Literal and **Variable** patterns
    And the second value "nuts" is then assigned to the food variable.
    The result is "I drink IPA with nuts."
 
-Literal and **Variable** patterns
----------------------------------
-* Tuple length does not match
+リテラルと **変数** パターン
+----------------------------
+* タプルの長さが一致しない
 
 .. revealjs-code-block:: python
    :data-line-numbers: 1-2,11-14
@@ -517,8 +500,8 @@ Literal and **Variable** patterns
    Because the length of the tuple is not 2.
    The result is "one beer and one food only."
 
-rewrite with **if** statement
------------------------------
+**if** 文で書き換える
+---------------------
 .. code-block:: python
 
    def order_beer_and_food(order: tuple) -> str:
@@ -538,13 +521,13 @@ rewrite with **if** statement
 .. I rewrite it with an if statement.
    I think this code is a bit confusing.
 
-Which do you like?
-------------------
+どっちが好み?
+-------------
 * Structural Pattern Matching
-* ``if`` statement
+* ``if`` 文
 
-**Order** is important ⬇️
-==========================
+**順番** は重要 ⬇️
+==================
 .. revealjs-code-block:: python
    :data-line-numbers: 3-4,14
 
@@ -571,12 +554,12 @@ Which do you like?
 .. 一つ注意点があります。caseの順番は重要です。
    上から順にマッチするのでこのように書くとすべて最初のパターンにマッチしてしまいます。
 
-**Classes** patterns
-====================
+**クラス** パターン
+===================
 .. Next, Classes patterns.
 
-**Classes** patterns
---------------------
+**クラス** パターン
+-------------------
 .. code-block:: python
 
    @dataclass
@@ -608,7 +591,7 @@ Which do you like?
 
 .. beerとfoodを属性に持つorderクラスを作ります
 
-**Results**: Classes patterns
+クラスパターンの **実行結果**
 -----------------------------
 
 .. code-block:: python
@@ -629,8 +612,8 @@ Which do you like?
 
 .. 先程のタプルと同じように動作します
 
-Classes patterns
-----------------
+クラスパターン
+--------------
 .. code-block:: python
 
    def order_with_class(order: Order) -> str:
@@ -648,8 +631,8 @@ Classes patterns
 
 .. Rewrite this code of classes pattern with if statement.
 
-rewrite with **if** statement
------------------------------
+**if** 文で書き換える
+---------------------
 .. code-block:: python
 
    def order_with_class(order: Order) -> str:
@@ -672,8 +655,8 @@ rewrite with **if** statement
 .. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
    まだまだあります
 
-**Order** classses
-------------------
+**注文用** クラス
+-----------------
 .. code-block:: python
 
    @dataclass
@@ -694,9 +677,9 @@ rewrite with **if** statement
 
 .. ビール、フード、水の注文を表すそれぞれのクラスがあるとします。
 
-**Classes** patterns
---------------------
-* With **multiple** classes
+**クラス** パターン
+-------------------
+* **複数** のクラス
 
 .. code-block:: python
 
@@ -717,8 +700,8 @@ rewrite with **if** statement
 .. classes patternsで書くとこうなります。
    それぞれのクラスの型で分岐するのでわかりやすいです。
 
-rewrite with **if** statement
------------------------------
+**if** 文で書き換える
+---------------------
 .. code-block:: python
 
    def order_with_classes(order: Beer|Food|Water) -> str:
@@ -736,13 +719,13 @@ rewrite with **if** statement
 
 .. match caseで書いた方がすっきりして読みやすいと思いませんか?
 
-**Sequense** patterns ➡️
+**シーケンス** パターン ➡️
 ==========================
 
-**Sequense** patterns ➡️
+**シーケンス** パターン ➡️
 --------------------------
-* Parse the order text
-* for example:
+* 注文のテキストをパース
+* 例:
 
 .. code-block:: python
 
@@ -759,9 +742,9 @@ rewrite with **if** statement
    ここでは注文のテキストを解析します。
    In this caes, I'll parse the order text.
 
-Matching multiple patterns
---------------------------
-* Matching by **length** of sequence
+複数のパターンにマッチ
+----------------------
+* シーケンスの **長さ** でマッチ
 
 .. code-block:: python
 
@@ -779,9 +762,9 @@ Matching multiple patterns
 .. 複数のシーケンスのパターンにマッチできます。
    この場合はリストの長さが1、2、3のパターンがあります。
 
-Matching specific values
-------------------------
-* Matching specific attions(bill, food...)
+**特定の値** にマッチ
+---------------------
+* 特定の行動(bill, food...)にマッチ
 
 .. code-block:: python
 
@@ -800,17 +783,17 @@ Matching specific values
 
 .. また、このようにパターンを書くと、リストの任意の値が特定の文字列とマッチします
 
-Capturing matched **sub-patterns**
-----------------------------------
-* Valid beer size are ``"Pint"`` and ``"HalfPint"``
-* ``"beer IPA 1-liter"`` is invalid
+マッチした **サブパターン** を捕まえる
+--------------------------------------
+* 有効なビールサイズ: ``"Pint"``、``"HalfPint"``
+* ``"beer IPA 1-liter"`` は無効
 
 .. code-block:: python
 
    match order_text.split():
        ...
        case ["beer", style, ("Pint" | "HalfPint")]:
-           # I don't know beer size
+           # ビールのサイズがわからない
 
 .. Valid beer sizes are Pint or Half Pint only.
    For example, "beer IPA 1-liter" is invalid.
@@ -819,11 +802,11 @@ Capturing matched **sub-patterns**
 
 .. 有効なビールのサイズはPintとHalfPintのみだとします
 
-Capturing matched **sub-patterns**
-----------------------------------
+マッチした **サブパターン** を捕まえる
+--------------------------------------
 
-* Use **as** patterns
-* Assign the size value(``"Pint"`` or ``"HalfPint"``) to ``size``
+* **as** パターンを使う
+* サイズ(``"Pint"``、``"HalfPint"``)を ``size`` に代入
 
 .. code-block:: python
 
@@ -836,10 +819,10 @@ Capturing matched **sub-patterns**
    Assign the size value(Pint or HalfPint) to the size variable.
 
 
-Matching **multiple values**
-----------------------------
-* Can handle multiple food order
-* example:
+**複数の値** にマッチ
+---------------------
+* 複数の料理の注文に対応する
+* 例:
 
   * ``"food nuts fries pickles"``
 
@@ -849,16 +832,16 @@ Matching **multiple values**
 
    match order_text.split():
        ...
-       case ["food", food]:  # capture single value
+       case ["food", food]:  # 1つの値をキャプチャ
            tell_kitchen(food)
 
 .. I want to order multiple food items at once.
    For example "food nuts fries pickles",
    But this sequence pattern can handle single food.
 
-Matching **multiple values**
+**複数の値** にマッチ
 ----------------------------
-* Add **\*** to variable name
+* 変数名に **\*** を追加
 
 .. code-block:: python
 
@@ -866,7 +849,7 @@ Matching **multiple values**
 
    match order_text.split():
        ...
-       case ["food", *foods]:  # capture multiple values
+       case ["food", *foods]:  # 複数の値をキャプチャ
            for food in foods:  # ("nuts", "fries", "pickles")
                tell_kitchen(name)
 
@@ -875,14 +858,14 @@ Matching **multiple values**
 
 .. これで一度に複数のフードを注文できるようになりました!
 
-**Mapping** Patterns 📕
-========================
+**マッピング** パターン 📕
+===========================
 .. Last patterns is Mapping pattens.
 
-**Mapping** Patterns 📕
-------------------------
-* Pattern match for **dictinaries**
-* Useful for alalyzing **JSON**
+**マッピング** パターン 📕
+--------------------------
+* **辞書** 用のパターン
+* **JSON** の解析に便利
 
 .. code-block:: python
 
@@ -903,9 +886,9 @@ Matching **multiple values**
 .. The pattern is matched by map types such as dictionaries.
    The mapping pattern is useful for analyzing a JSON-loaded dictionary.
 
-Matching **builtin** classes
-----------------------------
-* Use **str()**, **int()** and more
+**組み込み** クラスにマッチ
+---------------------------
+* **str()**、**int()** などを使う
 
 .. code-block:: python
 
@@ -931,16 +914,16 @@ Matching **builtin** classes
 .. このコードでは、料理やビールの種類は文字列で、水の数は整数のみとなります。
    もしwaterの値が文字のthreeの場合は、パターンにマッチしません。
 
-Guards 💂‍♀️
+ガード 💂‍♀️
 ============
 
 .. Finally, let me introduce Guards.
 
 .. 最後にガードについて説明します。
 
-Guards 💂‍♀
+ガード 💂‍♀️
 ------------
-* **if** statement after pattern
+* パターンの後ろに **if** 文
 
 .. code-block:: python
 
@@ -959,30 +942,30 @@ Guards 💂‍♀
 
 .. パターンの後ろにif文を書くとguardになります。
 
-Summary
+まとめ
 =======
 .. revealjs-break::
 
-* Motivation 💪
-* Syntax |code|
+* モチベーション 💪
+* 構文 |code|
 
-  * Soft keywords: ``match``, ``case`` and ``_``
-* Patterns |random|
+  * ソフトキーワード: ``match``、``case``、``_``
+* パターン |random|
 
-  * Literal, Variable, Classes, Sequense, Mapping
-  * Wildcard, OR, AS, Guards
+  * リテラル、変数、クラス、シーケンス、マッピング
+  * ワイルドカード、OR、AS、ガード
 
 .. Summary of this talks.
    I tald about ...
 
-**Try** Structural Pattern Matching 👍
----------------------------------------
+Structural Pattern Matching に **挑戦** 👍
+-------------------------------------------
 .. If you think pattern matching looks good, give it a try!!
 
 .. もしパターンマッチよさそうだなと思ったら、挑戦してみてください
 
-References 📚
---------------
+参考資料 📚
+------------
 * `What's New In Python 3.10 <https://docs.python.org/ja/3.10/whatsnew/3.10.html>`_
 * `Python Release Python 3.10.0 <https://www.python.org/downloads/release/python-3100/>`_
 * `PEP 634 -- Structural Pattern Matching: Specification <https://www.python.org/dev/peps/pep-0634/>`_
