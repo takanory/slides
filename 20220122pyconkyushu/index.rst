@@ -8,7 +8,7 @@ PyCon Kyushu 2022 Kumamoto / 2022 Jan 22
 
 .. イベントの開催おめでとうございます。
    また、私のトークに参加してくれてありがとうございます。
-   今日は「タイトル」について話します
+   今日は「...」について話します
 
 Agenda / アジェンダ
 ===================
@@ -17,22 +17,24 @@ Agenda / アジェンダ
 * Syntax / 構文
 * Patterns / パターン
 
-.. 今日話すことをざっくり説明
+.. トークのアジェンダ。
+   モチベーションとゴール。
+   Python 3.10の新機能を紹介。
+   構造的パターンマッチングの構文。
+   様々なパターンをコード例と一緒に説明。
 
 Photos 📷 Tweets 🐦 👍
 ========================
 ``#PyConK`` / ``@takanory``
 
-.. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
-   Hashtag is #pyconapac
+.. 写真やツイートなどご自由に。
 
 Slide 💻
 ---------
 `slides.takanory.net <https://slides.takanory.net>`__
 
-.. This slide available on slides.takanory.net.
-   And I've already shared this slide on Twitter.
-   Please check it out #pyconapac.
+.. スライドは公開済み。
+   TwitterでURLも共有済み
 
 Who am I? / お前誰よ 👤
 ========================
@@ -48,15 +50,10 @@ Who am I? / お前誰よ 👤
 * Structural Pattern Matching は **便利そう**
 * みんなに **知って**、**使って** みてほしい
 
-.. Now let's get to the main topic.
-   There are a lat of new features in Python 3.10.
-   I think Structural Pattern Matching looks pretty useful.
-   I'd like to YOU to know about it and try it out.
-
-.. このトークのモチベーション
-   3.10で色々新機能が増えている
-   Structural Pattern Matchingはかなり便利そう
-   みんなに知って使ってみてほしい
+.. 本題に入ります。
+   Python 3.10にたくさんの新機能がある。
+   中でも構造的パターンマッチングはかなり便利そう。
+   みんなにも知ってほしい、使ってみてほしい
 
 この発表の **ゴール** 🥅
 -------------------------
@@ -71,8 +68,8 @@ Who am I? / お前誰よ 👤
 
   * タプル、リスト、辞書、if、def、isinstance、データクラス、型ヒントなど
 
-.. This talk is for interemediate level.
-   You should have a basic understanding of Python syntax.
+.. このトークは中級レベル。
+   Pythonの文法を基本的に理解している
 
 質問
 ====
@@ -95,7 +92,7 @@ Python 3.10を使ってますか? 🙋‍♂️
 .. image:: images/whatsnew.png
    :alt: What's New in Python 3.10
 
-.. The new features are summarized in the "What's new" page of the Python official documentation.
+.. Python公式ドキュメントのWhat's Newに新機能がまとまっている
 
 Python Release Python 3.10.0
 ----------------------------
@@ -103,10 +100,11 @@ Python Release Python 3.10.0
 
 .. image:: images/python3100.png
    :width: 70%
-   :alt: Python Release Python 3.10.1
+   :alt: Python Release Python 3.10.0
 
-.. Python 3.10 was released on October 4, 2021.
-   3.10 has many new features...By the way...
+.. Python 3.10は10月4日にリリースされた。
+   3.10.2が最新。
+   3.10には新機能がたくさんあるが...
 
 お前誰よ? 🐍
 ----------------
@@ -114,8 +112,8 @@ Python Release Python 3.10.0
    :width: 70%
    :alt: Python 3.10 release logo
 
-.. This image is "Python 3.10 release logo".
-   You can find the new features of 3.10 around this snake.
+.. この画像はPython 3.10 release logo。
+   ヘビのまわりに3.10の新機能が書いてある
 
 Python 3.10の **新機能**
 ------------------------
@@ -125,7 +123,7 @@ Python 3.10の **新機能**
 * Structural Pattern Matching
 * Better Debugging
 
-.. There are five major new features written in the logo.
+.. 5つの主要な新機能がロゴに書いてある。
    Parenthesized...
 
 Python 3.10の **新機能**
@@ -136,7 +134,7 @@ Python 3.10の **新機能**
 * **Structural Pattern Matching** 👈
 * Better Debugging
 
-.. In this talks, I will talk about Structural Pattern Matching.
+.. このトークではStructural Pattern Matchingについて話す
 
 Structural Pattern Matching 🏛
 ==============================
@@ -149,38 +147,30 @@ Structural Pattern Matching 🏛
   * `PEP 635 – Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
   * `PEP 636 – Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
 
-.. Because of the large function of Structural Patten Matching, it is diveded into 3 PEPs.
-   Specification, Motivation and Rationale and Tutorial.
-   If you are interested, please read PEPs.
+.. 機能が大きいため3つのPEPに分かれている。
+   Specification、Motivation and Rationale、Tutorial。
+   興味のある方は、PEPを読んでみて
 
-.. パターンマッチングは大きな機能なので3つのPEPにわけて提案されています。
-
-**Motivation**
+モチベーション
 --------------
 `www.python.org/dev/peps/pep-0635/#motivation <https://www.python.org/dev/peps/pep-0635/#motivation>`_
 
   (Structural) pattern matching syntax is found in many languages, from Haskell, Erlang and Scala to Elixir and Ruby. (A proposal for JavaScript is also under consideration.)
 
-.. This sentence is the motivation for the Structural Pattern Matching written in PEP.
+.. この文章はPEPに書いてあるパターンマッチングのモチベーション
 
-.. この文章はPEPに書いてあるパターンマッチングのモチベーションです
+.. revealjs-break::
 
-**モチベーション**
-------------------
 `www.python.org/dev/peps/pep-0635/#motivation <https://www.python.org/dev/peps/pep-0635/#motivation>`_
 
   (構造的)パターンマッチの構文は、Haskell、Erlang、ScalaからElixir、Rubyなど、多くの言語で見られます(JavaScriptへの提案も検討中)。
 
-.. This sentence is the motivation for the Structural Pattern Matching written in PEP.
+.. 日本語にするとこんな感じ
 
-.. この文章はPEPに書いてあるパターンマッチングのモチベーションです
-
-**モチベーション**
-------------------
+.. revealjs-break::
 
 .. code-block:: python
 
-   # check type or shape of an object
    # オブジェクトの型や形を確認する
    if isinstance(x, tuple) and len(x) == 2:
        host, port = x
@@ -197,13 +187,11 @@ Structural Pattern Matching 🏛
        case host, port, mode:
            pass
 
-.. The if-elif-else idiom is often used to check type or share of an object.
-   For example isinstance(), hasattr(), len(), key in dict.
-   Use match statements to write more elegantly.
-   This is the motivation for Structural Pattern Matching.
-   Now that you know the motivation, let's talk about the syntax.
-
-.. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
+.. if-elif-elseは、オブジェクトの型や形のチェックによく使われる。
+   isinstance(), hasattr(), len(), dictのkeyなど。
+   match文を使えば、よりエレガントに書くことができる。
+   これがStructural Pattern Matchingのモチベーション。
+   さて、モチベーションがわかったところで、構文について説明します
 
 構文 |code|
 ===========
@@ -222,13 +210,13 @@ Structural Pattern Matching 🏛
        case _:
            <action_wildcard>
 
-.. A match statement takes an expression ... and compares its value to successive patterns given as one or more case blocks.
+.. match文は、式を受け取り...その値をcaseブロックの連続したパターンと比較する
 
 **ソフト** キーワード
 ---------------------
-* Python 3.10の **新概念**
+* Python 3.10の **新仕様**
 * ``match``、``case``、``_``
-* **変数名** などに使用可能
+* **識別子** に使用可能
 
 .. code-block:: python
 
@@ -239,15 +227,10 @@ Structural Pattern Matching 🏛
              ^
    SyntaxError: invalid syntax
 
-.. Soft keywords are a new language specification in 3.10.
-   match, case and _ are soft keywords.
-   Soft keywords can be used identifier names.
-   Next, let's talk about patterns!!
-
-.. 新しくソフトキーワードができた。
+.. ソフトキーワードは新しい言語仕様。
    match, case, _はソフトキーワード。
-   ソフトキーワードは識別子に使用できる
-   では、実際の書き方を説明していきます。
+   ソフトキーワードは識別子に使用可能。
+   では、パターンについて説明します。
 
 パターン |random|
 =================
@@ -272,10 +255,15 @@ Structural Pattern Matching 🏛
 .. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
    いくつかを紹介していきます。
 
-**Literal** パターン
---------------------
+.. これは前に紹介した構文。
+   caseの後にいろいろなパターンを指定できる。
+   パターンをコード例で紹介する。
+
+
+**リテラル** パターン
+---------------------
 .. revealjs-code-block:: python
-   :data-line-numbers: 1-7|1,8-9
+   :data-line-numbers: 1-9|1-3|1,8-9
 
    match beer_style:
        case "Pilsner":
@@ -287,22 +275,19 @@ Structural Pattern Matching 🏛
        case _:
            result = "I like most beers"
 
-.. First, Literal patterns. Literal patterns are the simplest patterns.
-   If the value of beer_style is "Pilsner", then "here" will be executed.
+.. 最初はリテラルパターン。リテラルパターンはシンプルなパターン。
    (ページ送り)
-   If the value doesn't match any of the patterns, it will match _.
-   _ is wildcard.
-
-.. beer_styleの中身がXXXならYYYを返します。
-   どれもマッチしなければワイルドカードの _ にマッチします。
-   _ はワイルドカードです
+   beer_styleの値が"Pilsner"の場合ここが実行される。
+   (ページ送り)
+   値がどのパターンにもマッチしないと_にマッチする。
+   _はワイルドカード。
 
 **OR** パターン
 ---------------
 * ``|`` は OR
 
 .. revealjs-code-block:: python
-   :data-line-numbers: 4-5
+   :data-line-numbers: 1,4-5
 
    match beer_style:
        case "Pilsner":
@@ -314,12 +299,11 @@ Structural Pattern Matching 🏛
        case _:
            result = "I like most beers"
 
-.. This pattern matches IPA or Session IPA
+.. このパターンはIPAまたはSession IPAにマッチする
 
 **wildcardなし** のLiteralパターン
 ----------------------------------
 .. revealjs-code-block:: python
-   :data-line-numbers: 8-9
 
    match beer_style:
        case "Pilsner":
@@ -331,19 +315,13 @@ Structural Pattern Matching 🏛
        # case _:
        #     result = "I like most beers"
 
-.. I commented out the last wildcard.
-   If the value doesn't match any of the pattens, nothing will happen.
-
-.. 最後のワイルドカードを削除する。
-   それ以外を選んだらなにも起こらない。
+.. 最後のワイルドカードをコメントアウト。
+   beer_styleの値がどれにもマッチしなければなにも起こらない
 
 ? 🤔
 -----
 
-.. What?
-   Doesn't look very useful, does it?
-
-.. あんまり便利りそうに見えない
+.. あれ?あんまり便利そうに見えない?
 
 **if** 文で書き換える
 ---------------------
@@ -360,23 +338,30 @@ Structural Pattern Matching 🏛
    else:
        result = "I like most beers"
 
-.. If you write it in an if statement, you won't see much difference.
-   You're ritght.
-   But...
-
-.. こんなif文とかわなないのでは?
-   あなたの考えは正しいです。
-   But...
+.. if文で書き換えてみると、あんまり変わらないように見える。
+   あなたの考えは正しい。
+   ですが...
 
 Pattern Matchingは **パワフル** 💪
 -----------------------------------
-.. But...Pattern Matching is much more powerful.
-   I will introduce useful patterns.
-
-.. これからさらに強力なパターンを紹介します。
+.. ですが...Pattern Matchingはもっとパワフル。
+   便利なパターンを紹介する。
 
 リテラルと **変数** パターン
 ============================
+
+リテラルと **変数** パターン
+----------------------------
+* 長さ2のタプルが注文を表す
+
+.. revealjs-code-block:: python
+
+   order1 = ("IPA", "nuts")  # ビールとフード
+   order2 = ("Pilsner", "")  # ビールのみ
+   order3 = ("", "fries")    # フードのみ
+   order4 = ("", "")         # なにも注文しない
+   
+   order_beer_and_food(order1)  # -> I dring IPA with nuts.
 
 リテラルと **変数** パターン
 ----------------------------
@@ -395,9 +380,7 @@ Pattern Matchingは **パワフル** 💪
            case _:
                return "one beer and one food only."
 
-.. Let's consider a function receives beer and food orders tuple.
-
-.. このようなタプルを受け取る関数を考えてみます。
+.. ビールとフードの注文タプルを受け取る関数を考えてみます。
 
 リテラルと **変数** パターン
 ----------------------------
@@ -419,7 +402,7 @@ Pattern Matchingは **パワフル** 💪
 
    order_beer_and_food(("", ""))  # -> Please order something.
 
-.. If the argument is (empty, empty) tuple, the pattern in the 3rd line will be matched. The return "Please order something."
+.. 注文が(空, 空)の場合、3行目にマッチし戻り値は"Please order something."
 
 リテラルと **変数** パターン
 ----------------------------
@@ -443,9 +426,9 @@ Pattern Matchingは **パワフル** 💪
 
    order_beer_and_food(("IPA", ""))  # -> I drink IPA.
 
-.. If the argument is ("IPA", empty) tuple, the pattern in the 5th line will be matched.
-   Then the first value of the tuple, IPA, is then assigned to the beer variable.
-   The result is "I drink IPA."
+.. 注文が("IPA", 空)の場合、5行目にマッチする。
+   そしてタプルの最初の値(IPA)がbeer変数に代入される。
+   結果は"I drink IPA."
 
 リテラルと **変数** パターン
 ----------------------------
@@ -470,10 +453,9 @@ Pattern Matchingは **パワフル** 💪
 
    order_beer_and_food(("IPA", "nuts"))  # -> I drink IPA with nuts.
 
-.. If the argument is ("IPA", "nuts"), the pattern in the 9th line will be matched.
-   Then the first value "IPA" is then assigned to the beer variable.
-   And the second value "nuts" is then assigned to the food variable.
-   The result is "I drink IPA with nuts."
+.. 注文が("IPA", "nuts")の場合、9行目にマッチ。
+   最初の値(IPA)がbeer変数に代入、2番目の値(nuts)がfood変数に代入。
+   結果は"I drink IPA with nuts."
 
 リテラルと **変数** パターン
 ----------------------------
@@ -496,9 +478,9 @@ Pattern Matchingは **パワフル** 💪
                return "one beer and one food only."
 
    order_beer_and_food(("IPA", "nuts", "spam"))  # -> one beer and one food only.
-.. If the argument is ("IPA", "nuts", "spam"), the whildcard pattern will be matched.
-   Because the length of the tuple is not 2.
-   The result is "one beer and one food only."
+
+.. 注文が("IPA", "nuts", "spam")の場合、タプルの長さが2じゃないのでワイルドカードにマッチする。
+   結果は"one beer and one food only."
 
 **if** 文で書き換える
 ---------------------
@@ -518,8 +500,7 @@ Pattern Matchingは **パワフル** 💪
        else:
            return  "one beer and one food only."
 
-.. I rewrite it with an if statement.
-   I think this code is a bit confusing.
+.. if文で書き換えてみる。このコードは少しわかりにくいと思う。
 
 どっちが好み?
 -------------
@@ -546,17 +527,12 @@ Pattern Matchingは **パワフル** 💪
 
    order_beer_and_food(("IPA", ""))  # -> I drink IPA with .
 
-.. There is one note of caution.
-   The order of the cases is important.
-   The patterns are compared in order from top to bottom, so if you write it this way, it will match the first pattern.
-   As a result, no other patterns will be reached.
-
-.. 一つ注意点があります。caseの順番は重要です。
-   上から順にマッチするのでこのように書くとすべて最初のパターンにマッチしてしまいます。
+.. 注意点が1つある。caseの順番が重要。
+   パターンは上から順に比較するので、こう書くと最初のパターンにマッチする。
+   その結果、他のパターンに到達しない。
 
 **クラス** パターン
 ===================
-.. Next, Classes patterns.
 
 **クラス** パターン
 -------------------
