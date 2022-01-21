@@ -687,7 +687,7 @@ Pattern Matchingは **パワフル** 💪
 .. revealjs-break::
    :notitle:
 
-.. image:: /20220122pyconkyushu/images/python-recipes-book.jpg
+.. image:: images/python-recipes-book.jpg
    :width: 55%
 
 Python実践レシピ 📕
