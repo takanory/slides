@@ -11,6 +11,25 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
+2022
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 40, 10
+
+   - * event
+     * place
+     * date
+     * kind
+     * title
+     * resource
+   - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
+     * Kumamoto
+     * 2022 Jan
+     * Talk
+     * Introduction to Structural Pattern Matching
+     * `Slides <https://slides.takanory.net/slides/20220122pyconkyushu/>`__
+
 2021
 ====
 
