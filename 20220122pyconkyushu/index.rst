@@ -360,7 +360,7 @@ Pattern Matchingは **パワフル** 💪
    order2 = ("Pilsner", "")  # ビールのみ
    order3 = ("", "fries")    # フードのみ
    order4 = ("", "")         # なにも注文しない
-   
+
    order_beer_and_food(order1)  # -> I dring IPA with nuts.
 
 リテラルと **変数** パターン
@@ -713,11 +713,11 @@ Python実践レシピ 📕
 
    order_text = "beer IPA pint"
    order_text.split()  # -> ["beer", "IPA", "pint"]
-   
+
    order_text = "food nuts"
    order_text = "water 3"
    order_text = "bill"
-   
+
 
 .. Next, I will explain about Sequense pattens.
    In this caes, I'll parse the order text.
