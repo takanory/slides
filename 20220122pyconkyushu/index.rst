@@ -558,14 +558,12 @@ Pattern Matchingは **パワフル** 💪
            case _:
                return "Not an order."
 
-.. Order class has beer and food attributes.
-   First case is the pattern matches when beer and food are empty.
-   Second case is the pattern matches when only food is empty.
-   Then the value of order.beer will be assignend to beer variable.
-   3rd case is order.food value assigned to food variable.
-   4th case is order.beer and order.food value assignend beer and food.
-
-.. beerとfoodを属性に持つorderクラスを作ります
+.. 注文のためのOrderクラスを作った。beerとfood属性を持っている。
+   最初のケースのパターンはbeerとfoodが空の場合にマッチする。
+   2番目はfoodのみが空の場合にマッチし、beer変数にOrder.beerが代入される。
+   3番目はbeerのみが空の場合。
+   4番目はbeerとfood両方が代入される。
+   Orderクラスじゃない場合はワイルドカードで処理される。
 
 クラスパターンの **実行結果**
 -----------------------------
@@ -583,10 +581,8 @@ Pattern Matchingは **パワフル** 💪
    >>> order_with_class("IPA")
    'Not an order.'
 
-.. The results are here.
-   It works in the same way as the previous tuple case.
-
-.. 先程のタプルと同じように動作します
+.. 実行結果。
+   さっきのタプルのときと同じように動作している。
 
 クラスパターン
 --------------
@@ -605,7 +601,7 @@ Pattern Matchingは **パワフル** 💪
            case _:
                return "Not an order."
 
-.. Rewrite this code of classes pattern with if statement.
+.. このコードをif文で書き換えてみる。
 
 **if** 文で書き換える
 ---------------------
@@ -624,12 +620,9 @@ Pattern Matchingは **パワフル** 💪
        else:
            return "Not an order."
 
-.. I rewrote that code  with if statements.
-   It looks a little cluttered.
-   And, Classes patterns are much more powerful.
-
-.. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
-   まだまだあります
+.. if文で書き換えるとこんな感じ。
+   少しごちゃごちゃしている。
+   クラスパターンはもっとパワフルです。
 
 **注文用** クラス
 -----------------
@@ -648,14 +641,11 @@ Pattern Matchingは **パワフル** 💪
    class Water:  # Water(4)
        number: int
 
-.. There are three classes representing order of beer, food, and water.
-   Each classes has attributes beer style and size, food name, and the number of glasses of water.
+.. ビール、フード、水の注文を表す3種類のクラスを作る。
+   各クラスには異なる属性を持つ。
 
-.. ビール、フード、水の注文を表すそれぞれのクラスがあるとします。
-
-**クラス** パターン
--------------------
-* **複数** のクラス
+**複数のクラス** を使うパターン
+-------------------------------
 
 .. code-block:: python
 
@@ -670,10 +660,7 @@ Pattern Matchingは **パワフル** 💪
            case _:
                return "Not an order."
 
-.. This code written in classes patterns with multiple classess.
-   It is easy to recognize because it branches based on the type of classes.
-
-.. classes patternsで書くとこうなります。
+.. 複数のクラスを扱うクラスパターンのコード例。
    それぞれのクラスの型で分岐するのでわかりやすいです。
 
 **if** 文で書き換える
@@ -690,117 +677,132 @@ Pattern Matchingは **パワフル** 💪
        else:
            return "Not an order."
 
-.. I rewrite that code  with if statements. It looks like this.
-   The match case is cleaner and readable, don't you think?
+.. if文で書き換えてみるとこんな感じになります。
+   match caseで書いた方がすっきりして読みやすいと思いませんか?
+   パターンはまだまだあります。
 
-.. match caseで書いた方がすっきりして読みやすいと思いませんか?
+宣伝 📣
+========
+
+.. revealjs-break::
+   :notitle:
+
+.. image:: /20220122pyconkyushu/images/python-recipes-book.jpg
+   :width: 55%
+
+Python実践レシピ 📕
+--------------------
+* 2022年1月19日発売
+* **鈴木たかのり**、筒井隆次、**寺田学**、杉田雅子、門脇諭、福田隼也著
+* B5変形判 / 512ページ / 2,970円
+* クロージングで **プレゼント** あるかも
+
+宣伝終わり
+----------
+
+.. 他のパターンを紹介
 
 **シーケンス** パターン ➡️
 ==========================
 
-**シーケンス** パターン ➡️
---------------------------
-* 注文のテキストをパース
-* 例:
+注文テキストを解析
+------------------
+* リストに変換してパターンマッチ
 
 .. code-block:: python
 
    order_text = "beer IPA pint"
+   order_text.split()  # -> ["beer", "IPA", "pint"]
+   
    order_text = "food nuts"
    order_text = "water 3"
    order_text = "bill"
+   
 
 .. Next, I will explain about Sequense pattens.
    In this caes, I'll parse the order text.
    For example...
 
-.. 次はシーケンスのマッチについて解説します。
-   ここでは注文のテキストを解析します。
-   In this caes, I'll parse the order text.
+.. ここではスペース区切りの注のテキストを解析する。
+   リストに変換してパターンマッチする。
 
-複数のパターンにマッチ
-----------------------
-* シーケンスの **長さ** でマッチ
+シーケンスの **長さ** でマッチ
+------------------------------
 
 .. code-block:: python
 
    match order_text.split():
-       case [action]:  # match "bill"
+       case [action]:
+           # ["bill"] にマッチ
            ...
-       case [action, name]:  # match "food nuts", "water 3"
+       case [action, name]:
+           # ["food", "nuts"]、["water", "3"] にマッチ
            ...
-       case [action, name, size]:  # match "beer IPA pint"
+           # 処理を分岐したい
+       case [action, name, size]:
+           # ["beer", "IPA", "pint"] にマッチ
            ...
 
-.. This code can match the patterns of multiple sequences.
-   In this case, there are patterns with list lengths of 1, 2, and 3.
-
-.. 複数のシーケンスのパターンにマッチできます。
-   この場合はリストの長さが1、2、3のパターンがあります。
+.. シーケンスの長さが1、2、3それぞれにマッチできる。
+   長さが2のパターンが2つあるので分岐したい
 
 **特定の値** にマッチ
 ---------------------
-* 特定の行動(bill, food...)にマッチ
+* 特定の値(bill, food...)にマッチ
+* **シーケンス** + **リテラル** パターン
 
 .. code-block:: python
 
    match order_text.split():
-       case ["bill"]:  # match "bill"
+       case ["bill"]:  # ["bill"] にのみマッチ
            calculate_amount()
-       case ["food", food]:  # match "food nuts"
+       case ["food", food]:  # ["food", "nuts"]
            tell_kitchen(food)
-       case ["water", number]:  # match "water 3"
+       case ["water", number]:  # ["water", "3"]
            grass_of_water(number)
-       case ["beer", style, size]:  # match "beer IPA pint"
+       case ["beer", style, size]:  # ["beer", "IPA", "pint"]
            tell_beer_master(style, size)
 
-.. Also, if you write the pattern like this, any value in the list will be matched with a specific string(bill, food...).
-   This is a combination of sequence patterns and literal patterns.
+.. このようにパターンを書くと、リストの任意の値が特定の文字列(bill、food)とマッチできる。
+   これはシーケンスパターンとリテラルパターンの組み合わせ
 
-.. また、このようにパターンを書くと、リストの任意の値が特定の文字列とマッチします
-
-マッチした **サブパターン** を捕まえる
---------------------------------------
-* 有効なビールサイズ: ``"Pint"``、``"HalfPint"``
-* ``"beer IPA 1-liter"`` は無効
-
-.. code-block:: python
-
-   match order_text.split():
-       ...
-       case ["beer", style, ("Pint" | "HalfPint")]:
-           # ビールのサイズがわからない
-
-.. Valid beer sizes are Pint or Half Pint only.
-   For example, "beer IPA 1-liter" is invalid.
-   Using the OR patterns in this way, you can match any value.
-   But I don't know beer size. How do I get the value of size.
-
-.. 有効なビールのサイズはPintとHalfPintのみだとします
-
-マッチした **サブパターン** を捕まえる
---------------------------------------
-
-* **as** パターンを使う
-* サイズ(``"Pint"``、``"HalfPint"``)を ``size`` に代入
-
-.. code-block:: python
-
-   match order_text.split():
-       ...
-       case ["beer", style, ("Pint" | "HalfPint") as size]:
-           tell_beer_master(style, size)
-
-.. In this case, use as patterns.
-   Assign the size value(Pint or HalfPint) to the size variable.
-
-
-**複数の値** にマッチ
+**任意の値** にマッチ
 ---------------------
-* 複数の料理の注文に対応する
-* 例:
+* 有効なビールサイズ: ``pint``、``half``
+* ``"beer IPA 1-liter"`` はマッチしない
 
-  * ``"food nuts fries pickles"``
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["beer", style, ("pint" | "half")]:  # ORパターン
+           # tell_beer_master(style, size)
+           # ビールのサイズはどっち?
+
+.. 有効なビールのサイズはPintとHalfPintのみとする。
+   "beer IPA 1-liter" は無効。
+   ORパターンを使用すると任意の値にマッチできる。
+   しかし、ビールのサイズがわからない。どうすればよいのか。
+
+**AS** パターン
+---------------
+* **サブパターン** の値を取得
+* サイズ(``pint`` または ``half``)を ``size`` に代入
+
+.. code-block:: python
+
+   match order_text.split():
+       ...
+       case ["beer", style, ("pint" | "half") as size]:
+           tell_beer_master(style, size)
+
+.. この場合はASパターンを使う。
+   サイズの値がsize変数に代入される
+
+**任意の長さの値** にマッチ
+---------------------------
+* 複数の料理の注文に対応する
+* 例: ``"food nuts fries pickles"``
 
 .. code-block:: python
 
@@ -808,16 +810,15 @@ Pattern Matchingは **パワフル** 💪
 
    match order_text.split():
        ...
-       case ["food", food]:  # 1つの値をキャプチャ
+       case ["food", food]:  # マッチしない
            tell_kitchen(food)
 
-.. I want to order multiple food items at once.
-   For example "food nuts fries pickles",
-   But this sequence pattern can handle single food.
+.. 一度に複数のフードの注文に対応したい。
+   しかしシーケンスパターンでは1つのフードしか対応していない
 
-**複数の値** にマッチ
-----------------------------
-* 変数名に **\*** を追加
+**任意の長さの値** にマッチ
+---------------------------
+* 変数名に **アスタリスク** (``*``)を追加
 
 .. code-block:: python
 
@@ -825,18 +826,19 @@ Pattern Matchingは **パワフル** 💪
 
    match order_text.split():
        ...
-       case ["food", *foods]:  # 複数の値をキャプチャ
+       case ["food", *foods]:  # 任意の長さの値をキャプチャ
            for food in foods:  # ("nuts", "fries", "pickles")
                tell_kitchen(name)
 
 .. If I add * to the variable name(foods), multiple values will be assigned.
    Now I can order multiple food items at once!
 
-.. これで一度に複数のフードを注文できるようになりました!
+.. foods変数にアスタリスクを付けると、複数の値が代入される。
+   これで一度に複数のフードを注文できるようになった!
 
 **マッピング** パターン 📕
 ===========================
-.. Last patterns is Mapping pattens.
+.. 最後のパターンはマッピングパターン
 
 **マッピング** パターン 📕
 --------------------------
@@ -845,12 +847,12 @@ Pattern Matchingは **パワフル** 💪
 
 .. code-block:: python
 
-   order_dict = {"beer": "IPA", "size": "Pint"}
+   order_dict = {"beer": "IPA", "size": "pint"}
 
    match order_dict:
        case {"food": food}:
            tell_kitchen(food)
-       case {"beer": style, "size": ("Pint" | "HalfPint") as size}:
+       case {"beer": style, "size": ("pint" | "half") as size}:
            tell_beer_master(style, size)
        case {"beer": style, "size": _}:
            print("Unknown beer size")
@@ -859,67 +861,60 @@ Pattern Matchingは **パワフル** 💪
        case {"bill": _}:
            calculate_amount()
 
-.. The pattern is matched by map types such as dictionaries.
-   The mapping pattern is useful for analyzing a JSON-loaded dictionary.
+.. 辞書のようなマップ型にマッチする。
+   マッピングパターンはJSONを読み込んだ辞書の解析に便利
 
 **組み込み** クラスにマッチ
 ---------------------------
-* **str()**、**int()** などを使う
+* 料理名は文字列、水の数は整数
+* ``str()``、``int()`` などを使う
 
 .. code-block:: python
 
    order_dict = {"water": 3}
-   # order_dict = {"water": "three"}  # Doesn't match
+   # order_dict = {"water": "three"}  # マッチしない
 
    match order_dict:
        case {"food": str(food)}:
            tell_kitchen(food)
-       case {"beer": str(style), "size": ("Pint" | "HalfPint") as size}:
-           tell_beer_master(style, size)
-       case {"beer": str(style), "size": _}:
-           print("Unknown beer size")
+       ...
        case {"water": int(number)}:
            grass_of_water(number)
-       case {"bill": _}:
-           calculate_amount()
+       ...
 
-.. You can use builtin classes to specify the type of the value.
-   In this code, food and beer style are string, and the number of water is an integer only.
-   If the value of water is string, it will not match the pattern.
-
-.. このコードでは、料理やビールの種類は文字列で、水の数は整数のみとなります。
-   もしwaterの値が文字のthreeの場合は、パターンにマッチしません。
+.. 組み込みクラスを使用して特定の型を指定できる。
+   このコードで、料理の種類は文字列で、水の数は整数のみとしている。
+   もしwaterの値が文字列のthreeの場合は、パターンにマッチしない
 
 ガード 💂‍♀️
 ============
-
-.. Finally, let me introduce Guards.
 
 .. 最後にガードについて説明します。
 
 ガード 💂‍♀️
 ------------
 * パターンの後ろに **if** 文
+* 水は1〜9杯しか頼めない
 
 .. code-block:: python
 
-   order_list = ["water", 3]  # -> 3 glasses of water, please.
-   # order_list = ["water", 15]  # -> You can only order 1-9 glasses of water.
+   order_dict = {"water": 3}  # 有効な値
+   # order_dict = {"water": 15}  # -> 水は1〜9杯です
+   # order_dict = {"water": "three"}  # -> 水は数値で指定してください
 
-   match order_list:
-       case ["water", int(number)] if 0 < number < 10:
-           print(f"{number} glasses of water, please.")
-       case ["water", _]:
-           print("You can only order 1-9 glasses of water.")
+   match order_dict:
+       case {"water": int(number)} if 0 < number < 10:
+           grass_of_water(number)
+       case {"water": int(number)}:
+           print("水は1〜9杯です")
+       case {"water": _}:
+           print("水は数値で指定してください")
 
-.. If you write an if statement after the pattern, it becomes a guard.
-   This code will match if the second value of order_list is an integer.
-   After that, a guard checks if the number is in the range of 1-9.
-
-.. パターンの後ろにif文を書くとguardになります。
+.. パターンの後ろにif文を書くとガードになる。
+   このコードでは辞書の値が整数であることをチェックし、ガードで数値の範囲を1〜9にしている
 
 まとめ
-=======
+======
 .. revealjs-break::
 
 * モチベーション 💪
@@ -928,17 +923,14 @@ Pattern Matchingは **パワフル** 💪
   * ソフトキーワード: ``match``、``case``、``_``
 * パターン |random|
 
-  * リテラル、変数、クラス、シーケンス、マッピング
-  * ワイルドカード、OR、AS、ガード
+  * リテラル、ワイルドカード、変数、クラス、シーケンス、マッピング、OR、AS、ガード
 
-.. Summary of this talks.
-   I tald about ...
+.. このトークのまとめ。
+   一度では把握しきれないと思うので、ぜひこのスライドを見返してください
 
 Structural Pattern Matching に **挑戦** 👍
 -------------------------------------------
-.. If you think pattern matching looks good, give it a try!!
-
-.. もしパターンマッチよさそうだなと思ったら、挑戦してみてください
+.. もしパターンマッチよさそうだなと思ったら、挑戦してみてください。
 
 参考資料 📚
 ------------
@@ -948,7 +940,7 @@ Structural Pattern Matching に **挑戦** 👍
 * `PEP 635 -- Structural Pattern Matching: Motivation and Rationale <https://www.python.org/dev/peps/pep-0635/>`_
 * `PEP 636 -- Structural Pattern Matching: Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
 
-.. References are here
+.. 参考資料はこちらです
 
 Thank you !! 🙏
 ===============
@@ -958,137 +950,5 @@ Takanori Suzuki (|twitter| `@takanory <https://twitter.com/takanory>`_)
 
 .. image:: /assets/images/sokidan-square.jpg
 
-.. Thank you for your attention.
-   I hope to see you at PyCon held onsite somewhere.
-
-What's New in Python 3.10 🆕
-=============================
-.. revealjs-break::
-
-* **Parenthesized Context Managers** 👈
-* **Better Error Messages** 👈
-* **Better Typing Syntax** 👈
-* Structural Pattern Matching
-* Better Debugging
-
-Parenthesized Context Managers
-------------------------------
-.. code-block:: python
-
-   # 3.10
-   with (
-       open('craftbeer.txt') as f1,
-       open('beer-in-kanda.txt') as f2,
-   ):
-       ...
-
-.. code-block:: python
-
-   # Before 3.10
-   with open('craftbeer.txt') as f1, \
-        open('beer-in-kanda.txt') as f2
-       ...
-
-Better Error Messages
----------------------
-.. code-block:: python
-
-   # Brackets are not closed
-   beer_types = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
-   print(beer_types)
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 3-6
-
-   $ python3.10 beer_styles.py
-     File ".../beer_styles.py", line 2
-       beer_styles = ['Pilsner', 'Ale', 'IPA', 'Hazy IPA'
-                     ^
-   SyntaxError: '[' was never closed
-   # Easy to understand!!
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 3-5
-
-   $ python3.9 beer_styles.py
-     File ".../beer_styles.py", line 3
-       print(beer_styles)
-       ^
-   SyntaxError: invalid syntax
-
-Better Error Messages
----------------------
-.. revealjs-code-block:: python
-   :data-line-numbers: 3-7
-
-   # 3.10
-   >>> if beer_syle = 'IPA':
-     File "<stdin>", line 1
-       if beer_syle = 'IPA':
-          ^^^^^^^^^^^^^^^^^
-   SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
-   # Very friendly!!
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 3-5
-
-   # Before 3.10
-   >>> if beer_syle = 'IPA':
-     File "<stdin>", line 1
-       if beer_syle = 'IPA':
-                    ^
-   SyntaxError: invalid syntax
-
-Better Typing Syntax
---------------------
-* `PEP 604 <https://www.python.org/dev/peps/pep-0604>`_: New Type Union Operator
-
-  * ``Union[X, Y]`` → ``X | Y``
-  * ``Optional[X]`` → ``X | None``
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 2
-
-   # 3.10
-   def drink_beer(number: int | float) -> str | None
-       if am_i_full(number):
-           return 'I'm full'
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 2
-
-   # Before 3.10
-   def drink_beer(number: Union[int, float]) -> Optional[str]
-       if am_i_full(number):
-           return 'I'm full'
-
-.. revealjs-break::
-
-* `PEP 613 <https://www.python.org/dev/peps/pep-0613>`_: TypeAlias
-
-.. code-block:: python
-
-   # 3.10
-   BeerStr: TypeAlias = 'Beer[str]'  # a type alias
-   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
-
-.. code-block:: python
-
-   # Before 3.10
-   BeerStr = 'Beer[str]'  # a type alias
-   LOG_PREFIX = 'LOG[DEBUG]'  # a module constant
-
-.. revealjs-break::
-
-* Can use Python 3.7 - 3.9
-
-.. code-block:: python
-
-   from __future__ import annotations
-
-   def drink_beer(number: int | float) -> str | None
-       if am_i_full(number):
-           return 'I'm full'
-
-Try Python 3.10 👍
--------------------
+.. ありがとうございました。
+   またPyCon JP 2022などでお会いしましょう
