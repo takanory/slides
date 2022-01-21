@@ -84,6 +84,7 @@ revealjs_script_conf = {
     "history": True,
     "center": True,
     "transition": "none",
+    "navigationMode": "linear",
 }
 revealjs_script_plugins = [
     {
