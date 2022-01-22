@@ -368,7 +368,7 @@ Pattern Matchingは **パワフル** 💪
 .. revealjs-code-block:: python
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case ("", ""):
                return "Please order something."
            case (beer, ""):
@@ -388,7 +388,7 @@ Pattern Matchingは **パワフル** 💪
    :data-line-numbers: 1-4,14
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case ("", ""):  # match here
                return "Please order something."
            case (beer, ""):
@@ -412,7 +412,7 @@ Pattern Matchingは **パワフル** 💪
    :data-line-numbers: 1-2,5-6,14
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case ("", ""):
                return "Please order something."
            case (beer, ""):  # match here
@@ -439,7 +439,7 @@ Pattern Matchingは **パワフル** 💪
    :data-line-numbers: 1-2,9-10,14
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case ("", ""):
                return "Please order something."
            case (beer, ""):
@@ -465,7 +465,7 @@ Pattern Matchingは **パワフル** 💪
    :data-line-numbers: 1-2,11-14
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case ("", ""):
                return "Please order something."
            case (beer, ""):
@@ -513,7 +513,7 @@ Pattern Matchingは **パワフル** 💪
    :data-line-numbers: 3-4,14
 
    def order_beer_and_food(order: tuple) -> str:
-       match (order):
+       match order:
            case (beer, food):  # match here
                return f"I drink {beer} with {food}."
            case ("", ""):  # never reach
@@ -546,7 +546,7 @@ Pattern Matchingは **パワフル** 💪
 .. code-block:: python
 
    def order_with_class(order: Order) -> str:
-       match (order):
+       match order:
            case Order(beer="", food=""):
                return "Please order something."
            case Order(beer=beer, food=""):
@@ -589,7 +589,7 @@ Pattern Matchingは **パワフル** 💪
 .. code-block:: python
 
    def order_with_class(order: Order) -> str:
-       match (order):
+       match order:
            case Order(beer="", food=""):
                return "Please order something."
            case Order(beer=beer, food=""):
@@ -650,7 +650,7 @@ Pattern Matchingは **パワフル** 💪
 .. code-block:: python
 
    def order_with_classes(order: Beer|Food|Water) -> str:
-       match (order):
+       match order:
            case Beer(style=style, size=size):
                return f"I drink {size} of {style}."
            case Food(name=name):
@@ -759,7 +759,7 @@ Python実践レシピ 📕
        case ["food", food]:  # ["food", "nuts"]
            tell_kitchen(food)
        case ["water", number]:  # ["water", "3"]
-           grass_of_water(number)
+           glass_of_water(number)
        case ["beer", style, size]:  # ["beer", "IPA", "pint"]
            tell_beer_master(style, size)
 
@@ -857,7 +857,7 @@ Python実践レシピ 📕
        case {"beer": style, "size": _}:
            print("Unknown beer size")
        case {"water": number}:
-           grass_of_water(number)
+           glass_of_water(number)
        case {"bill": _}:
            calculate_amount()
 
@@ -879,7 +879,7 @@ Python実践レシピ 📕
            tell_kitchen(food)
        ...
        case {"water": int(number)}:
-           grass_of_water(number)
+           glass_of_water(number)
        ...
 
 .. 組み込みクラスを使用して特定の型を指定できる。
@@ -904,7 +904,7 @@ Python実践レシピ 📕
 
    match order_dict:
        case {"water": int(number)} if 0 < number < 10:
-           grass_of_water(number)
+           glass_of_water(number)
        case {"water": int(number)}:
            print("水は1〜9杯です")
        case {"water": _}:
