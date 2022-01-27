@@ -55,6 +55,7 @@
      * LT
      * What's New in Python 3.10
      * `Slides <https://slides.takanory.net/slides/20211015pyconjp/>`__
+       `Video <https://www.youtube.com/watch?v=Dk_QkLQIPMU&t=401s>`__
    - * `オープンデベロッパーズカンファレンス(ODC)2021 Online <https://event.ospn.jp/odc2021-online/>`_
      * Online
      * 2021 Aug
