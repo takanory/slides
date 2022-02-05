@@ -21,7 +21,7 @@ Agenda / アジェンダ
 
 Photos 📷 Tweets 🐦 👍
 ========================
-``#pycon9ku`` / ``@takanory``
+``#stapy`` / ``@takanory``
 
 .. 写真やツイートなどご自由に。
 
@@ -214,7 +214,7 @@ Structural Pattern Matching 🏛
 * ``match``、``case``、``_``
 * **識別子** に使用可能
 
-.. code-block:: python
+.. code-block:: pycon
 
    >>> match = 'match'  # OK
    >>> class = 'class'  # NG
@@ -691,7 +691,8 @@ Python実践レシピ 📕
 * 2022年1月19日発売
 * **鈴木たかのり**、筒井隆次、**寺田学**、杉田雅子、門脇諭、福田隼也著
 * B5変形判 / 512ページ / 2,970円
-* クロージングで **プレゼント** あるかも
+
+.. * クロージングで **プレゼント** あるかも
 
 宣伝終わり
 ----------
