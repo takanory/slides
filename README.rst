@@ -23,6 +23,12 @@
      * kind
      * title
      * resource
+   - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/238061/>`_
+     * Online
+     * 2022 Mar
+     * Talk
+     * Introduction to Structural Pattern Matching
+     * `Slides <https://slides.takanory.net/slides/20220310stapy/>`__
    - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
      * Kumamoto
      * 2022 Jan
