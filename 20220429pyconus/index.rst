@@ -126,9 +126,67 @@ Why **Slackbot**
    I'm Launching the Slack application at any time on PC and smartphone.
    So it's easy to access Slack. I want to do everything in Slack.
    Let's make chatbot on Slack.
+
+Simple integration with Incoming Webhooks
+=========================================
+
+System overview
+---------------
+
+Create Incoming Webhooks Integration
+------------------------------------
+* Generate Webhook URL
+
+  1. Create a Slack app
+  2. Activate Incoming Webhooks in the app
+  3. Add Webhook to Workspace
+* see: `Sending messages using Incoming Webhooks <https://api.slack.com/messaging/webhooks>`_
+
+1. Create New App
+-----------------
+* https://api.slack.com/apps
+
+.. image:: images/create-webhook1-1.png
+   :width: 50%
+
+.. image:: images/create-webhook1-2.png
+   :width: 50%
+     
+2. Name app & choose workspace
+------------------------------
+.. image:: images/create-webhook2.png
+   :width: 50%
+     
+3. Set app icon
+---------------
+.. image:: images/create-webhook3.png
+   :width: 50%
+
+`Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
+     
+4. Activate and add webhooks
+----------------------------
+.. image:: images/create-webhook4-1.png
+   :width: 50%
+     
+.. image:: images/create-webhook4-2.png
+   :width: 50%
+     
+5. Allow bot to channel
+-----------------------
+.. image:: images/create-webhook5.png
+   :width: 50%
+     
+6. Get Webhook URL
+------------------
+.. image:: images/create-webhook6.png
+   :width: 50%
      
 あああ
-======
+------
+
+* `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
+  
 - Simple integration with Incoming Webhook (5m)
   - System overview
   - Create Incoming Webhooks Integration on Slack
