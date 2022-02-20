@@ -127,14 +127,18 @@ Why **Slackbot**
    So it's easy to access Slack. I want to do everything in Slack.
    Let's make chatbot on Slack.
 
-Simple integration with Incoming Webhooks
-=========================================
+Simple integration with **Incoming Webhooks**
+=============================================
 
 System overview
 ---------------
+TODO: 図を入れる
 
-Create Incoming Webhooks Integration
-------------------------------------
+**Create** Incoming Webhooks Integration
+========================================
+
+**Create** Incoming Webhooks Integration
+----------------------------------------
 * Generate Webhook URL
 
   1. Create a Slack app
@@ -182,6 +186,9 @@ Create Incoming Webhooks Integration
 .. image:: images/create-webhook6.png
    :width: 50%
 
+Post message via **Webhook URL**
+================================
+
 Post message with **cURL**
 --------------------------
 
@@ -195,7 +202,7 @@ Post message with **cURL**
 
 Post message with **Python**
 ----------------------------
-* `urllib.request <https://docs.python.org/3/library/urllib.request.html>`_
+* see: `urllib.request <https://docs.python.org/3/library/urllib.request.html>`_
 
 .. code-block:: python
 
@@ -211,7 +218,7 @@ Post message with **Python**
 
 Post message with **Requests**
 ------------------------------
-* `Requests <https://docs.python-requests.org/en/latest/>`_
+* see: `Requests <https://docs.python-requests.org/en/latest/>`_
 
 .. code-block:: bash
 
@@ -229,7 +236,7 @@ Post message with **Requests**
 
 Post message with **Slack SDK**
 -------------------------------
-* `Python Slack SDK <https://slack.dev/python-slack-sdk/>`_
+* see: `Python Slack SDK <https://slack.dev/python-slack-sdk/>`_
 
 .. code-block:: bash
 
@@ -247,16 +254,16 @@ Post message with **Slack SDK**
 
 **Formatting** text
 -------------------
-* `Formatting text for app surfaces | Slack <https://api.slack.com/reference/surfaces/formatting>`_
-* ``*bold*``, ``<url|text>``, ``:emoji:``, etc.
+* see: `Formatting text for app surfaces <https://api.slack.com/reference/surfaces/formatting>`_
 
 .. revealjs-code-block:: python
-   :data-line-numbers: 5, 6
+   :data-line-numbers: 4-6
 
    from slack_sdk.webhook import WebhookClient
 
    url = "https://hooks.slack.com/services/T000..."
    webhook = WebhookClient(url)
+   # *bold*, <url|text>, :emoji: and etc.
    r = webhook.send(text="*Hello* from "
      "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
      
