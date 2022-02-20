@@ -181,15 +181,93 @@ Create Incoming Webhooks Integration
 ------------------
 .. image:: images/create-webhook6.png
    :width: 50%
+
+Post message with **cURL**
+--------------------------
+
+.. code-block:: bash
+
+   $ curl -X POST -H 'Content-type: application/json' \
+   > --data '{"text":"Hello Slack!"}' \
+   > https://hooks.slack.com/services/T000...
+
+.. image:: images/webhook-curl.png
+
+Post message with **Python**
+----------------------------
+* `urllib.request <https://docs.python.org/3/library/urllib.request.html>`_
+
+.. code-block:: python
+
+   import json
+   from urllib import request
+
+   url = "https://hooks.slack.com/services/T000..."
+   message = {"text": "Hello from Python!"}
+   data = json.dumps(message).encode()
+   request.urlopen(url, data=data)
+           
+.. image:: images/webhook-python.png
+
+Post message with **Requests**
+------------------------------
+* `Requests <https://docs.python-requests.org/en/latest/>`_
+
+.. code-block:: bash
+
+   $ pip install requests
+   
+.. code-block:: python
+
+   import requests
+
+   url = "https://hooks.slack.com/services/T000..."
+   message = {"text": "Hello from Requests!"}
+   r = requests.post(url, json=message)
      
+.. image:: images/webhook-requests.png
+
+Post message with **Slack SDK**
+-------------------------------
+* `Python Slack SDK <https://slack.dev/python-slack-sdk/>`_
+
+.. code-block:: bash
+
+   $ pip install slack-sdk
+   
+.. code-block:: python
+
+   from slack_sdk.webhook import WebhookClient
+
+   url = "https://hooks.slack.com/services/T000..."
+   webhook = WebhookClient(url)
+   r = webhook.send(text="Hello from Slack SDK!")
+     
+.. image:: images/webhook-slacksdk.png
+
+**Formatting** text
+-------------------
+* `Formatting text for app surfaces | Slack <https://api.slack.com/reference/surfaces/formatting>`_
+* ``*bold*``, ``<url|text>``, ``:emoji:``, etc.
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 5, 6
+
+   from slack_sdk.webhook import WebhookClient
+
+   url = "https://hooks.slack.com/services/T000..."
+   webhook = WebhookClient(url)
+   r = webhook.send(text="*Hello* from "
+     "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
+     
+.. image:: images/webhook-formatting.png
+
 あああ
 ------
 
 * `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
   
 - Simple integration with Incoming Webhook (5m)
-  - System overview
-  - Create Incoming Webhooks Integration on Slack
   - Post message with cURL
   - Post message with Requests
 - How to create chat bot with Bolt for Python (5m)
