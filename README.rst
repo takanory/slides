@@ -202,6 +202,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/20190824pyconmy/20190824pyconmy.pdf>`__
+       `Video <https://www.youtube.com/watch?v=ElUpTjh_ETQ>`__
        `Report <https://gihyo.jp/news/report/2019/09/0901>`__
    - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
      * Tokyo, Japan
