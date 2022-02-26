@@ -41,6 +41,66 @@ Who am I? / お前誰よ 👤
 
 .. image:: /assets/images/sokidan-square.jpg
 
+Books 📚
+---------
+.. image:: /assets/images/takanory-books.png
+   :width: 65%
+
+`鈴木たかのりのAmazon著者ページ <https://www.amazon.co.jp/%E9%88%B4%E6%9C%A8-%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/e/B00W95A036/ref=dp_byline_cont_pop_book_1>`_
+
+PyCon JP 🐍
+===========
+- `www.pycon.jp <https://www.pycon.jp/>`__
+- 一般社団法人PyCon JP Association
+
+.. image:: /assets/images/pyconjp_logo.png
+   :alt: PyCon JP
+
+PSF Community Service Awardを受賞 🎉
+------------------------------------
+
+   We are pleased to inform you of the PSF's decision to award the Q4 2021 Community Service Award to you for your many years of community work.
+
+* ブログ: `PyCon JP AssociationがPSFのCommunity Service Awardに選ばれました <https://pyconjp.blogspot.com/2022/02/psf-community-service-award.html>`_
+
+PyCon JP 2022 🎫
+-----------------
+- 秋の開催に向けて活動開始
+- スタッフ募集中
+- ブログ: `pyconjp.blogspot.com <https://pyconjp.blogspot.com/>`__
+
+Python Boot Camp 💪
+--------------------
+- `www.pycon.jp/support/bootcamp.html <https://www.pycon.jp/support/bootcamp.html>`__
+- 初心者向けPythonチュートリアル
+
+.. image:: /assets/images/python-boot-camp-logo.png
+   :alt: Python Boot Camp
+           
+BeProud Inc. 🏢
+===============
+- `www.beproud.jp <https://www.beproud.jp/>`__
+- Pythonでシステム開発、研修など
+
+.. image:: /assets/images/beproud.png
+   :alt: BeProud
+
+PyQ 💻
+--------
+- `pyq.jp <https://pyq.jp/>`__
+- Pythonに特化したオンライン学習サービス
+
+.. image:: /assets/images/pyq.png
+   :width: 80%
+
+connpass 🤝
+------------
+- `connpass.com <https://connpass.com/>`__
+- IT勉強会支援プラットフォーム
+
+.. image:: /assets/images/connpass.png
+   :width: 80%
+
 この発表の **モチベーション** 💪
 =================================
 * Structural Pattern Matching は **便利そう**
