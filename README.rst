@@ -23,6 +23,12 @@
      * kind
      * title
      * resource
+   - * `Language Night vol.1 〜スクリプト言語〜 <https://blastengine.connpass.com/event/236962/>`_
+     * Online
+     * 2022 Feb
+     * Panel
+     * 
+     * `Video <https://www.youtube.com/watch?v=QDP2SycaAFs>`__
    - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
      * Kumamoto
      * 2022 Jan
