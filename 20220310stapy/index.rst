@@ -41,12 +41,12 @@ Who am I? / お前誰よ 👤
 
 .. image:: /assets/images/sokidan-square.jpg
 
-Books 📚
----------
+Books (|amazon| 著者ページ_) 📚
+--------------------------------
 .. image:: /assets/images/takanory-books.png
-   :width: 65%
+   :width: 75%
 
-`鈴木たかのりのAmazon著者ページ <https://www.amazon.co.jp/%E9%88%B4%E6%9C%A8-%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/e/B00W95A036/ref=dp_byline_cont_pop_book_1>`_
+.. _著者ページ: https://www.amazon.co.jp/kindle-dbs/entity/author/B00W95A036
 
 PyCon JP 🐍
 ===========
@@ -80,26 +80,11 @@ Python Boot Camp 💪
 BeProud Inc. 🏢
 ===============
 - `www.beproud.jp <https://www.beproud.jp/>`__
-- Pythonでシステム開発、研修など
+- Pythonでシステム開発、研修、自社サービス
 
-.. image:: /assets/images/beproud.png
-   :alt: BeProud
-
-PyQ 💻
---------
-- `pyq.jp <https://pyq.jp/>`__
-- Pythonに特化したオンライン学習サービス
-
-.. image:: /assets/images/pyq.png
-   :width: 80%
-
-connpass 🤝
-------------
-- `connpass.com <https://connpass.com/>`__
-- IT勉強会支援プラットフォーム
-
-.. image:: /assets/images/connpass.png
-   :width: 80%
+  - `PyQ <https://pyq.jp/>`__: オンライン学習サービス
+  - `connpass <https://connpass.com/>`__: IT勉強会支援プラットフォーム
+  - `TRACERY <https://tracery.jp/>`__: システム開発のためのドキュメントサービス
 
 この発表の **モチベーション** 💪
 =================================
@@ -737,25 +722,25 @@ Pattern Matchingは **パワフル** 💪
    match caseで書いた方がすっきりして読みやすいと思いませんか?
    パターンはまだまだあります。
 
-宣伝 📣
-========
+.. 宣伝 📣
+   ========
 
-.. revealjs-break::
-   :notitle:
+   .. revealjs-break::
+      :notitle:
 
-.. image:: images/python-recipes-book.jpg
-   :width: 55%
+   .. image:: images/python-recipes-book.jpg
+      :width: 55%
 
-Python実践レシピ 📕
---------------------
-* 2022年1月19日発売
-* **鈴木たかのり**、筒井隆次、**寺田学**、杉田雅子、門脇諭、福田隼也著
-* B5変形判 / 512ページ / 2,970円
+   Python実践レシピ 📕
+   --------------------
+   * 2022年1月19日発売
+   * **鈴木たかのり**、筒井隆次、**寺田学**、杉田雅子、門脇諭、福田隼也著
+   * B5変形判 / 512ページ / 2,970円
 
-.. * クロージングで **プレゼント** あるかも
+   .. * クロージングで **プレゼント** あるかも
 
-宣伝終わり
-----------
+   宣伝終わり
+   ----------
 
 .. 他のパターンを紹介
 
