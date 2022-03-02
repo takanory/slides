@@ -23,7 +23,7 @@
      * kind
      * title
      * resource
-   - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/238061/>`_
+   - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
      * 2022 Mar
      * Talk
