@@ -29,6 +29,12 @@
      * Talk
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20220310stapy/>`__
+   - * `Language Night vol.1 〜スクリプト言語〜 <https://blastengine.connpass.com/event/236962/>`_
+     * Online
+     * 2022 Feb
+     * Panel
+     * 
+     * `Video <https://www.youtube.com/watch?v=QDP2SycaAFs>`__
    - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
      * Kumamoto
      * 2022 Jan
@@ -61,6 +67,7 @@
      * LT
      * What's New in Python 3.10
      * `Slides <https://slides.takanory.net/slides/20211015pyconjp/>`__
+       `Video <https://www.youtube.com/watch?v=Dk_QkLQIPMU&t=401s>`__
    - * `オープンデベロッパーズカンファレンス(ODC)2021 Online <https://event.ospn.jp/odc2021-online/>`_
      * Online
      * 2021 Aug
@@ -207,6 +214,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/20190824pyconmy/20190824pyconmy.pdf>`__
+       `Video <https://www.youtube.com/watch?v=ElUpTjh_ETQ>`__
        `Report <https://gihyo.jp/news/report/2019/09/0901>`__
    - * `みんなのPython勉強会#48 <https://startpython.connpass.com/event/124253/>`_
      * Tokyo, Japan
