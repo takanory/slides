@@ -166,7 +166,7 @@ TODO: 図を入れる
 .. image:: images/create-webhook3.png
    :width: 50%
 
-`Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
+* see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
      
 4. Activate and add webhooks
 ----------------------------
@@ -267,38 +267,40 @@ Post message with **Slack SDK**
    r = webhook.send(text="*Hello* from "
      "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
      
-.. image:: images/webhook-formatting.png
+.. image:: images/webhook-formatting.gif
 
-あああ
-------
+Outline
+=======
 
-* `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
-  
-- Simple integration with Incoming Webhook (5m)
-  - Post message with cURL
-  - Post message with Requests
 - How to create chat bot with Bolt for Python (5m)
+
   - System overview
   - Create bot user on Slack with manifest file
   - Install Bolt for Python
   - Create a simple bot with Bolt for Python
 - Extend bot (5m)
 - Case study (10m)
+
   - Calculator function using SymPy
   - Karma function using Peewee ORM
   - Search JIRA issues and display issue
+
     - JIRA API and jira package
   - Create multiple issues from a template
+
     - motivation and overview
     - about Sheets Spreadsheet API
     - How to connect with Google API
+
       - Create a project on the Google Cloud Platform
   - Search files from Google Drive
+
     - motivation and overview
     - Add Google Drive API to the project
     - Google Drive folders are not hierarchical
     - Create folder hierarchy data
   - Account management of G Suite
+
     - motivation and overview
     - G Suit API
 - Summary and next steps (1m)
