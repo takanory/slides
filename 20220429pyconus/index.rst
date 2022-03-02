@@ -113,8 +113,8 @@ Goal
    how to create interactive bot,
    how to extend bot using libraries and APIs through various case studies.
 
-Why **Slackbot**
-================
+Why **Slackbot** 🤖
+===================
 * Launching the Slack app at any time 💻 📱
 * Easy to access Slack
 * To do **everything** in Slack
@@ -127,15 +127,15 @@ Why **Slackbot**
    So it's easy to access Slack. I want to do everything in Slack.
    Let's make chatbot on Slack.
 
-Simple integration with **Incoming Webhooks**
-=============================================
+Simple integration with **Incoming Webhooks** 🪝
+================================================
 
 System overview
 ---------------
 TODO: 図を入れる
 
-**Create** Incoming Webhooks Integration
-========================================
+**Create** Incoming Webhooks Integration 🔧
+===========================================
 
 **Create** Incoming Webhooks Integration
 ----------------------------------------
@@ -186,8 +186,8 @@ TODO: 図を入れる
 .. image:: images/create-webhook6.png
    :width: 50%
 
-Post message via **Webhook URL**
-================================
+Post message via **Webhook URL** 📬
+===================================
 
 Post message with **cURL**
 --------------------------
@@ -257,7 +257,7 @@ Post message with **Slack SDK**
 * see: `Formatting text for app surfaces <https://api.slack.com/reference/surfaces/formatting>`_
 
 .. revealjs-code-block:: python
-   :data-line-numbers: 4-6
+   :data-line-numbers: 4-7
 
    from slack_sdk.webhook import WebhookClient
 
@@ -269,9 +269,42 @@ Post message with **Slack SDK**
      
 .. image:: images/webhook-formatting.gif
 
+Message **Attachments**
+-----------------------
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 1-11
+
+   fields = [
+       {"title": "Love", "value": ":beer:, Ferrets, LEGO", "short": True},
+       {"title": "From", "value": "Japan :jp:", "short": True},
+   ]
+   attachments =  [{
+       "pretext": "Nice to meet you!!",
+       "author_name": "Takanori Suzuki",
+       "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
+       "fields": fields,
+   }]
+
+   response = webhook.send(attachments=attachments)
+
+.. image:: images/webhook-attachments.png
+
+Message **Attachments**
+-----------------------
+* Message Attachments is **Legacy**
+
+    This feature is a legacy part of messaging functionality for Slack apps.
+
+* see: `Reference: Secondary message attachments <https://api.slack.com/reference/messaging/attachments>`_
+
+.. attachmentsのドキュメントはここにあります
+
+**Block** Kit 🧱
+================
+
 Outline
 =======
-
 - How to create chat bot with Bolt for Python (5m)
 
   - System overview
