@@ -48,6 +48,11 @@ Books (|amazon| 著者ページ_) 📚
 
 .. _著者ページ: https://www.amazon.co.jp/kindle-dbs/entity/author/B00W95A036
 
+プレゼント!! 🎁
+---------------
+.. image:: images/book-present.png
+   :width: 75%
+
 PyCon JP 🐍
 ===========
 - `www.pycon.jp <https://www.pycon.jp/>`__
