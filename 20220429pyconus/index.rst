@@ -298,10 +298,108 @@ Message **Attachments**
 
 * see: `Reference: Secondary message attachments <https://api.slack.com/reference/messaging/attachments>`_
 
-.. attachmentsのドキュメントはここにあります
+.. attachmentsのBlock
 
 **Block** Kit 🧱
 ================
+
+**Block** Kit
+-------------
+  A clean and consistent UI framework for Slack apps
+
+* Blocks
+
+  * Elements
+
+    * Composition objects
+* see: `Block Kit <https://api.slack.com/block-kit>`_
+
+* TODO: 図にする
+* Block Kitは1つ以上のBlockの中にElementを配置してメッセージを作成する
+
+**Example** of Block Kit
+------------------------
+.. code-block:: python
+
+   blocks = [{
+       "type": "section",
+       "text": {
+            "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
+            "type": "mrkdwn"
+       },
+       "fields": [
+            {"type": "mrkdwn", "text": "*Love*"},
+            {"type": "mrkdwn", "text": "*From*"},
+            {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
+            {"type": "plain_text", "text": "Japan :jp:"},
+       ],
+   }]
+   response = webhook.send(blocks=blocks)
+
+.. image:: images/webhook-blocks.png
+
+**Seciton** Block
+-----------------
+* Section Block with ``text`` and ``fields`` Field
+
+.. revealjs-code-block:: python
+   :data-line-numbers: 2,3,7
+
+   blocks = [{
+       "type": "section",  # Section Block
+       "text": {  # text Field
+            "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
+            "type": "mrkdwn"
+       },
+       "fields": [  # fields Field
+            {"type": "mrkdwn", "text": "*Love*"},
+            {"type": "mrkdwn", "text": "*From*"},
+            {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
+            {"type": "plain_text", "text": "Japan :jp:"},
+       ],
+   }]
+   response = webhook.send(blocks=blocks)
+
+* see: `Section Block <https://api.slack.com/reference/block-kit/blocks#section>`_
+
+Block Kit **Builder**
+---------------------
+* ブロックキット複雑なのでBuilderで作れる
+* `app.slack.com/block-kit-builder/ <https://app.slack.com/block-kit-builder/>`_
+
+.. raw:: html
+
+   <video src="../_images/block-kit-buiilder.mov"></video>
+
+.. image:: images/block-kit-buiilder.mov
+
+Summary of Incoming **Webhooks**
+================================
+* **Easy** to post messages from programs 📬
+* Create complex messages with **Block Kit** 🧱
+* But **one-way** (program➡️Webhook➡️Slack)
+
+Interactive bot with **Bolt** ⚡️
+=================================
+
+System overview
+---------------
+* TODO: 図を入れる
+
+**Create** bot user 🤖
+======================
+
+**Create** bot user
+-------------------
+* Create bot user
+
+  1. (Create a Slack app)
+  2. 
+
+Bolt for Python
+---------------
+* 
+* see: `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
 
 Outline
 =======
