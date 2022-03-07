@@ -41,6 +41,7 @@
      * Talk
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20220122pyconkyushu/>`__
+       `Video <https://www.youtube.com/watch?v=-L8R8tPsfg4>`__
 
 2021
 ====
