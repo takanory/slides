@@ -113,13 +113,14 @@ Goal
    how to create interactive bot,
    how to extend bot using libraries and APIs through various case studies.
 
-Why **Slackbot** 🤖
-===================
+Why **Slack** ?
+===============
 * Launching the Slack app at any time 💻 📱
-* Easy to access Slack
+* **Easy** to access Slack
 * To do **everything** in Slack
 
 .. image:: /20190224pyconapac/images/slack.png
+   :width: 60%
 	
 .. My secretary is chatbot of Slack.
    Is there someone using Slack?
@@ -381,8 +382,8 @@ Summary of Incoming **Webhooks**
 * Create complex messages with **Block Kit** 🧱
 * But **one-way** (program➡️Webhook➡️Slack)
 
-Interactive bot with **Bolt** ⚡️
-=================================
+**Interactive** bot 🤝
+======================
 
 System overview
 ---------------
