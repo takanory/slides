@@ -140,15 +140,15 @@ TODO: 図を入れる
 
 **Create** Incoming Webhooks Integration
 ----------------------------------------
-* Generate Webhook URL
+* Generate **Webhook URL**
 
   1. Create a Slack app
   2. Activate Incoming Webhooks in the app
   3. Add Webhook to Workspace
 * see: `Sending messages using Incoming Webhooks <https://api.slack.com/messaging/webhooks>`_
 
-1-1. Create New App
--------------------
+1. Create a Slack app
+---------------------
 * https://api.slack.com/apps
 
 .. image:: images/create-webhook1-1.png
@@ -157,13 +157,19 @@ TODO: 図を入れる
 .. image:: images/create-webhook1-2.png
    :width: 50%
      
-1-2. Name app & choose workspace
---------------------------------
+.. revealjs-break::
+   :notitle:
+
+* Enter name and choose workspace
+
 .. image:: images/create-webhook2.png
    :width: 50%
      
-1-3. Set app icon (optional)
-----------------------------
+.. revealjs-break::
+   :notitle:
+
+* Set app icon (optional)
+
 .. image:: images/create-webhook3.png
    :width: 50%
 
@@ -174,18 +180,26 @@ TODO: 図を入れる
 .. image:: images/create-webhook4-1.png
    :width: 50%
 
-3-1. Add New Webhook to Workspace
----------------------------------
+3. Add Webhook to Workspace
+---------------------------
+* Click "Add New Webhook to Workspace"
+
 .. image:: images/create-webhook4-2.png
    :width: 50%
      
-3-2. Allow app to channel
--------------------------
+.. revealjs-break::
+   :notitle:
+
+* Choose channel → Click "Allow"
+
 .. image:: images/create-webhook5.png
    :width: 50%
      
-3-3. Get Webhook URL
---------------------
+.. revealjs-break::
+   :notitle:
+
+* Get **Webhook URL**: ``https://hooks.slack.com/...``
+
 .. image:: images/create-webhook6.png
    :width: 50%
 
@@ -399,89 +413,136 @@ System overview
 
 **Create** bot user
 -------------------
-* Create bot user
+* Create bot user with **Socket Mode**
 
   1. Create a Slack app (same procedure)
   2. Enable Socket Mode
-  3. Add Bot Token Scopes
-  4. Install App to Workspace
+  3. Subscribe bot event
+  4. Add Bot Token Scopes
+  5. Install App to Workspace
+* Invite bot user to Slack channels
 
-1-1. Create New App
--------------------
-* https://api.slack.com/apps
+1. Create a Slack app
+---------------------
+* Open https://api.slack.com/apps
 
 .. image:: images/create-webhook1-1.png
    :width: 50%
 
 .. image:: images/create-webhook1-2.png
    :width: 50%
-     
-1-2. Name app & choose workspace
---------------------------------
+
+.. revealjs-break::
+   :notitle:
+
+* Enter name and choose workspace
+
 .. image:: images/create-bot2.png
    :width: 50%
      
-1-3. Set app icon (optional)
-----------------------------
+.. revealjs-break::
+   :notitle:
+
+* Set app icon (optional)
+
 .. image:: images/create-bot3.png
    :width: 50%
 
 * see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
 
-2-1. Enable Socket Mode
------------------------
-* Select "Socket Mode" menu
-* Enable Socket Mode toggle
+2. Enable Socket Mode
+---------------------
+* Select "Socket Mode" → Turn toggle on
 
 .. image:: images/create-bot4.png
    :width: 70%
 
-2-2. Generate app-level token
------------------------------
+.. revealjs-break::
+   :notitle:
+
+* Enter token name → Click "Generate"
+
 .. image:: images/create-bot5.png
    :width: 50%
 
-2-2. Get app-level token
-------------------------
+.. revealjs-break::
+   :notitle:
+
+* Get **app-level token**: ``xapp-XXX``
+
 .. image:: images/create-bot6.png
    :width: 50%
 
-3-1. Select "OAuth & Permissions"
----------------------------------
+3. Subscribe bot event
+----------------------
+* Slect "Event Subscriptions" → Turn toggle on
+
+.. image:: images/create-bot3-1.png
+   :width: 70%
+
+.. revealjs-break::
+   :notitle:
+
+* Add "message.channels" to bot events
+
+.. image:: images/create-bot3-2-1.png
+   :width: 50%
+
+.. image:: images/create-bot3-2-2.png
+   :width: 50%
+
+4. Add Bot Token Scopes
+-----------------------
+* Select "OAuth & Permissions"
+
 .. image:: images/create-bot7.png
    :width: 80%
 
-3-2. Add an OAuth Scope
------------------------
+.. revealjs-break::
+   :notitle:
+
 * Click "Add on OAuth Scope"
 
 .. image:: images/create-bot8.png
    :width: 80%
 
-3-3. Add "chat:write" to Scopes
--------------------------------
+.. revealjs-break::
+   :notitle:
+
+* Add "chat:write" to Bot Token Scopes
+
 .. image:: images/create-bot9.png
    :width: 50%
 
 .. image:: images/create-bot10.png
    :width: 50%
 
-4-1. Install App to Workspace
------------------------------
-* Select "Install App" menu
-* Click "Install to Workspace"
+5. Install App to Workspace
+---------------------------
+* Select "Install App" → Click "Install to Workspace"
 
 .. image:: images/create-bot11.png
    :width: 80%
 
-4-2. Allow app to Workspace
----------------------------
+.. revealjs-break::
+   :notitle:
+
+* Switch OAuth screen → Click "Allow" button
+
 .. image:: images/create-bot12.png
    :width: 50%
 
-4-2. Get Bot Token
-------------------
+.. revealjs-break::
+   :notitle:
+
+* Get **Bot Token**: ``xoxb-XXX``
+
 .. image:: images/create-bot13.png
+   :width: 50%
+
+Invite bot user to channels
+---------------------------
+.. image:: images/invite-bot.png
    :width: 50%
 
 Long and Hard? 🤯
@@ -510,25 +571,29 @@ Example of App Manifest
    oauth_config:
      scopes:
        bot:
+         - channels:history
          - chat:write
    settings:
+     event_subscriptions:
+       bot_events:
+         - message.channels
      interactivity:
        is_enabled: true
      org_deploy_enabled: false
      socket_mode_enabled: true
      token_rotation_enabled: false
 
-Get you App Manifest
---------------------
+Get App Manifest
+----------------
 * Select "App Manifest" menu
 
-.. image:: images/app-manifest.png
+.. image:: images/get-app-manifest.png
    :width: 70%
 
-Create new app with App Manifest (1/3)
---------------------------------------
+Create new app with App Manifest
+--------------------------------
 * Select "From an app manifest"
-* Select workspace
+* Select workspace → Click "Next"
 
 .. image:: images/app-manifest1.png
    :width: 40%
@@ -536,40 +601,89 @@ Create new app with App Manifest (1/3)
 .. image:: images/app-manifest2.png
    :width: 40%
 
-Create new app with App Manifest (2/3)
---------------------------------------
+.. revealjs-break::
+   :notitle:
+
 * Enter app manifest YAML
 
 .. image:: images/app-manifest3.png
    :width: 46%
 
-Create new app with App Manifest (3/3)
---------------------------------------
-* Review app summary and create app
+.. revealjs-break::
+   :notitle:
+
+* Review app summary → Click "Create"
 
 .. image:: images/app-manifest4.png
-   :width: 40%
+   :width: 35%
 
 .. image:: images/app-manifest5.png
-   :width: 40%
+   :width: 35%
 
 .. image:: images/app-manifest6.png
-   :width: 40%
+   :width: 35%
 
 .. revealjs-break::
+   :notitle:
 
 * Install App to Workspace   
 
 .. image:: images/app-manifest7.png
    :width: 70%
 
+.. revealjs-break::
+   :notitle:
+
+* Generate App-Level Token
+
+.. image:: images/app-manifest8.png
+   :width: 45%
+
+.. image:: images/app-manifest9.png
+   :width: 45%
+
+
 Short and Reusable !! 🥳
 ========================
 
-Bolt for Python
-===============
+Create bot with **Bolt** ⚡️
+============================
 
-* see: `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
+Bolt for Python
+---------------
+* Python framework to build Slack app in a flash
+* Developped by Slack
+* |github| https://github.com/slackapi/bolt-python
+* see:
+
+  * `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
+  * `The Bolt family of SDKs <https://api.slack.com/tools/bolt>`_
+
+Instal Bolt for Python
+----------------------
+.. code-block:: bash
+
+   $ mkdir beerbot
+   $ cd beerbot
+   $ python3.10 -m venv env
+   $ . env/bin/activate
+   (env) $ pip install slack-bolt
+
+Create at simple bot with Bolt
+------------------------------
+.. literalinclude:: code/app1.py
+   :caption: app.py
+
+Run Slackbot
+------------
+.. code-block:: bash
+
+   (env) $ export SLACK_APP_TOKEN=xapp-XXX
+   (env) $ export SLACK_BOT_TOKEN=xoxb-XXX
+   (env) $ python app.py
+   ⚡️ Bolt app is running!
+
+.. image:: images/bot-hi.png
 
 Outline
 =======
