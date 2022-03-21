@@ -728,14 +728,90 @@ Block Kit support
 .. image:: images/bot-followme.png
    :width: 60%
 
+Events and Scopes 🔭
+====================
+
+Events and Scopes
+-----------------
+* Eventsに設定したイベントしか受け取れない
+* Scopesに設定した範囲の情報しかアクセス
+
+Current Bot Eventes and Scopes
+------------------------------
+
+* Events
+
+  :message.channels: message posted to **public channels**
+
+* Scopes
+                   
+  :channels:history: View messages in **public channels**
+  :chat:write: Post message
+
+.. revealjs-break::
+
+* Cannot view messages in **private channels**
+
+.. image:: images/bot-private-cannot-view.png
+   :width: 50%
+
+Add Events and Scopes
+---------------------
+* Select "Event Subscriptions" → Click "Add Bot User Event"
+* Add **message.groups** event→ Click "Save Changes"
+
+.. image:: images/add-events-and-scopes1.png
+   :width: 50%
+
+.. revealjs-break::
+
+* Select "OAuth & Permissions"
+* **groups:history** scope is added automatically
+           
+.. image:: images/add-events-and-scopes2.png
+   :width: 50%
+
+.. revealjs-break::
+
+* **Reinstall** app to workspace
+
+.. image:: images/add-events-and-scopes3.png
+   :width: 50%
+
+.. image:: images/add-events-and-scopes4.png
+   :width: 40%
+  
+.. revealjs-break::
+
+* Bot can view messages in Private Channel
+
+.. image:: images/add-events-and-scopes6.png
+   :width: 40%
+
+**Summary** of Events and Scopes
+--------------------------------
+* To receive new events
+* To use new API with new scope
+* Add events and/or scopes → Reinstall app
+
+Events and Scopes
+-----------------
+* Events: https://api.slack.com/events
+
+:app_mention: Subscribe to only the message events that mention your app or bot
+:message.app_home: A user sent a message to your Slack app
+:reaction_added: A member has added an emoji reaction to an item
+
+.. revealjs-break::
+  
+* Scopes: https://api.slack.com/scopes
+
+:files:write: Upload, edit, and delete files as your slack app
+:reactions:write: Add and edit emoji reactions
+:users:read: View people in a workspace
+  
 Outline
 =======
-- How to create chat bot with Bolt for Python (5m)
-
-  - System overview
-  - Create bot user on Slack with manifest file
-  - Install Bolt for Python
-  - Create a simple bot with Bolt for Python
 - Extend bot (5m)
 - Case study (10m)
 
