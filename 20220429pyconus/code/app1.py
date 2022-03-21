@@ -2,7 +2,7 @@ import os
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-app = App(token=os.environ["SLACK_BOT_TOKEN"o])
+app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 @app.message("Hi")
 def handle_hi_message(message, say):

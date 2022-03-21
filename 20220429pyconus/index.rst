@@ -685,6 +685,49 @@ Run Slackbot
 
 .. image:: images/bot-hi.png
 
+Extend bot 🛠
+=============
+
+``@app.message()`` decolator
+----------------------------
+.. literalinclude:: code/app2.py
+   :lines: 10-20
+
+.. image:: images/bot-decolator.png
+   :width: 30%
+
+mention
+-------
+.. literalinclude:: code/app2.py
+   :lines: 22-27
+
+.. image:: images/bot-mention.png
+   :width: 30%
+
+Using regular expression
+------------------------
+.. literalinclude:: code/app2.py
+   :lines: 2-3,29-36
+
+.. image:: images/bot-choice.png
+   :width: 30%
+
+.. revealjs-break::
+
+.. literalinclude:: code/app2.py
+   :lines: 37-42
+
+.. image:: images/bot-beers.png
+   :width: 70%
+
+Block Kit support
+-----------------
+.. literalinclude:: code/app2.py
+   :lines: 44-59
+
+.. image:: images/bot-followme.png
+   :width: 60%
+
 Outline
 =======
 - How to create chat bot with Bolt for Python (5m)
