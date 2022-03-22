@@ -814,21 +814,7 @@ Add Emoji reaction
 * To receive new events
 * To use new API with new scope
 * Add events and/or scopes → Reinstall app
-
-Example of Events and Scopes
-----------------------------
-:app_mention: Subscribe to only the message events that mention your app or bot
-:message.app_home: A user sent a message to your Slack app
-:reaction_added: A member has added an emoji reaction to an item
-
 * see: `Events API types <https://api.slack.com/events>`_
-
-.. revealjs-break::
-  
-:files:write: Upload, edit, and delete files as your slack app
-:reactions:write: Add and edit emoji reactions
-:users:read: View people in a workspace
-  
 * see: `Permission scopes <https://api.slack.com/scopes>`_
 
 Outline
