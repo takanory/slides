@@ -755,8 +755,9 @@ Current Bot Eventes and Scopes
 .. image:: images/bot-private-cannot-view.png
    :width: 50%
 
-Add Events and Scopes
----------------------
+Add Events and Scopes for private channels
+------------------------------------------
+
 * Select "Event Subscriptions" → Click "Add Bot User Event"
 * Add **message.groups** event→ Click "Save Changes"
 
@@ -788,31 +789,50 @@ Add Events and Scopes
 .. image:: images/add-events-and-scopes6.png
    :width: 40%
 
+User joined a channel
+---------------------
+* Add **member_joined_channel** event → Reinstall app
+
+.. literalinclude:: code/app2.py
+   :lines: 60-66
+
+.. image:: images/event-member-joined.png
+   :width: 40%
+
+Add Emoji reaction
+------------------
+* Add **reactions:write** scope → Reinstall app
+
+.. literalinclude:: code/app2.py
+   :lines: 67-75
+
+.. image:: images/scope-reactions-write.png
+   :width: 50%
+
 **Summary** of Events and Scopes
 --------------------------------
 * To receive new events
 * To use new API with new scope
 * Add events and/or scopes → Reinstall app
 
-Events and Scopes
------------------
-* Events: https://api.slack.com/events
-
+Example of Events and Scopes
+----------------------------
 :app_mention: Subscribe to only the message events that mention your app or bot
 :message.app_home: A user sent a message to your Slack app
 :reaction_added: A member has added an emoji reaction to an item
 
+* see: `Events API types <https://api.slack.com/events>`_
+
 .. revealjs-break::
   
-* Scopes: https://api.slack.com/scopes
-
 :files:write: Upload, edit, and delete files as your slack app
 :reactions:write: Add and edit emoji reactions
 :users:read: View people in a workspace
   
+* see: `Permission scopes <https://api.slack.com/scopes>`_
+
 Outline
 =======
-- Extend bot (5m)
 - Case study (10m)
 
   - Calculator function using SymPy

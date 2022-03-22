@@ -57,6 +57,23 @@ def handle_follow_me(message, say):
     say(blocks=blocks)
 
 
+# A user joined a public or private channel
+@app.event("member_joined_channel")
+def member_joined(event, say):
+    user = event["user"]  # get user ID
+    say(f"Welcome <@{user}>! :tada:")
+
+
+@app.message("beer")
+def handle_beer(client, message):
+    # add reaction beer emoji
+    client.reactions_add(
+        channel=message["channel"],
+        timestamp=message["ts"],
+        name="beer",
+    )
+
+
 if __name__ == "__main__":
     handler = SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"])
     handler.start()
