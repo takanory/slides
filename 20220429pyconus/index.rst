@@ -884,7 +884,7 @@ Plus-plus feature using **Peewee ORM**
 
 about **Peewee**
 ----------------
-.. image:: http://docs.peewee-orm.com/en/latest/_images/peewee3-logo.png
+.. image:: https://docs.peewee-orm.com/en/latest/_images/peewee3-logo.png
    :width: 40%
 
 * Simple and small ORM.
