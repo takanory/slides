@@ -20,60 +20,6 @@ def handle_cheers_mesasge(mesasge, say):
     say("Cheers! :beers:")
 
 
-# mention
-@app.message("morning")
-def handle_morning_message(message, say):
-    user = message["user"]  # get user ID
-    say(f"Good morning <@{user}>!")
-
-
-@app.message(re.compile(r"choice (.*)"))
-def handle_choice(say, context):
-    # get matchesd text from context.matches
-    words = context["matches"][0].split()
-    say(random.choice(words))
-
-
-@app.message(re.compile(r"(\d+)\s*(beer|tea)"))
-def handle_beer_or_tea(say, context):
-    count = int(context["matches"][0])
-    drink = context["matches"][1]
-    say(f":{drink}:" * count)
-
-
-@app.message("follow me")
-def handle_follow_me(message, say):
-    blocks = [{
-        "type": "section",
-        "text": {
-            "type": "mrkdwn",
-            "text": "*Takanori Suzuki*\nFollow me! <https://twitter.com/takanory|@takanory>"
-        },
-        "accessory": {
-            "type": "image",
-            "image_url": "https://pbs.twimg.com/profile_images/192722095/kurokuri_400x400.jpg",
-            "alt_text": "takanory"
-        }}]
-    say(blocks=blocks)
-
-
-# A user joined a public or private channel
-@app.event("member_joined_channel")
-def member_joined(event, say):
-    user = event["user"]  # get user ID
-    say(f"Welcome <@{user}>! :tada:")
-
-
-@app.message("beer")
-def handle_beer(client, message):
-    # add reaction beer emoji
-    client.reactions_add(
-        channel=message["channel"],
-        timestamp=message["ts"],
-        name="beer",
-    )
-
-
 if __name__ == "__main__":
     handler = SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"])
     handler.start()

@@ -669,9 +669,10 @@ Instal Bolt for Python
    $ . env/bin/activate
    (env) $ pip install slack-bolt
 
-Create at simple bot with Bolt
-------------------------------
+Create a simple bot with Bolt
+-----------------------------
 .. literalinclude:: code/app1.py
+   :language: python
    :caption: app.py
 
 Run Slackbot
@@ -685,51 +686,66 @@ Run Slackbot
 
 .. image:: images/bot-hi.png
 
-Extend bot 🛠
-=============
+**Extend** bot 🛠
+=================
 
 ``@app.message()`` decolator
 ----------------------------
-.. literalinclude:: code/app2.py
-   :lines: 10-20
+.. literalinclude:: code/app-extend.py
+   :lines: 13-23
 
 .. image:: images/bot-decolator.png
    :width: 30%
 
 mention
 -------
-.. literalinclude:: code/app2.py
-   :lines: 22-27
+.. literalinclude:: code/app-extend.py
+   :lines: 25-30
 
 .. image:: images/bot-mention.png
    :width: 30%
 
 Using regular expression
 ------------------------
-.. literalinclude:: code/app2.py
-   :lines: 2-3,29-36
+.. literalinclude:: code/app-extend.py
+   :lines: 3-4,31-38
 
 .. image:: images/bot-choice.png
    :width: 30%
 
 .. revealjs-break::
 
-.. literalinclude:: code/app2.py
-   :lines: 37-42
+.. literalinclude:: code/app-extend.py
+   :lines: 39-45
 
 .. image:: images/bot-beers.png
    :width: 70%
 
 Block Kit support
 -----------------
-.. literalinclude:: code/app2.py
-   :lines: 44-59
+.. literalinclude:: code/app-extend.py
+   :lines: 46-61
 
 .. image:: images/bot-followme.png
    :width: 60%
 
-Events and Scopes 🔭
-====================
+Logging
+-------
+.. literalinclude:: code/app-extend.py
+   :lines: 1,11,78-83
+
+.. code-block:: bash
+
+   $ python app.py
+   ⚡️ Bolt app is running!
+   DEBUG:app.py:handle_log:message: log
+   DEBUG:app.py:handle_log:message: please write log
+
+.. image:: images/bot-logging.png
+   :width: 25%
+
+**Events** and **Scopes** 🔭
+============================
 
 Events and Scopes
 -----------------
@@ -784,16 +800,16 @@ Add Events and Scopes for private channels
   
 .. revealjs-break::
 
-* Bot can view messages in Private Channel
+* Bot can view messages in Private Channel !!
 
 .. image:: images/add-events-and-scopes6.png
    :width: 40%
 
-User joined a channel
----------------------
+To know user joined a channel
+-----------------------------
 * Add **member_joined_channel** event → Reinstall app
 
-.. literalinclude:: code/app2.py
+.. literalinclude:: code/app-extend.py
    :lines: 60-66
 
 .. image:: images/event-member-joined.png
@@ -803,11 +819,13 @@ Add Emoji reaction
 ------------------
 * Add **reactions:write** scope → Reinstall app
 
-.. literalinclude:: code/app2.py
+.. literalinclude:: code/app-extend.py
+   :language: python
    :lines: 67-75
 
 .. image:: images/scope-reactions-write.png
    :width: 50%
+
 
 **Summary** of Events and Scopes
 --------------------------------
@@ -816,6 +834,85 @@ Add Emoji reaction
 * Add events and/or scopes → Reinstall app
 * see: `Events API types <https://api.slack.com/events>`_
 * see: `Permission scopes <https://api.slack.com/scopes>`_
+
+Case studies 📚
+================
+
+Calculator function using **SymPy** 🔢
+=======================================
+
+Calculator function using **SymPy**
+-----------------------------------
+
+* Motivation
+
+  * I feel heavy to call a calculator app on my smartphone
+  * It seems useful if **Slack as a calculator**
+
+about **SymPy**
+---------------
+.. image:: https://www.sympy.org/static/images/logo.png
+
+* **SymPy**: Python library for symbolic mathematics
+* `www.sympy.org <https://www.sympy.org>`_
+
+.. code-block:: bash
+
+   $ pip install sympy
+
+**calc()** function using Sympy
+-------------------------------
+
+.. literalinclude:: code/app-sympy.py
+   :language: python
+   :lines: 6,10-24
+
+Slack as a **calculator** !!
+----------------------------
+
+.. image:: images/case-sympy.png
+   :width: 30%
+
+Plus-plus feature using **Peewee ORM** 👍
+==========================================
+
+Plus-plus feature using **Peewee ORM**
+--------------------------------------
+* Motivation
+
+  * In PyCon JP, I want to make a culture that **appreciates** each other staff 👍
+
+about **Peewee**
+----------------
+.. image:: http://docs.peewee-orm.com/en/latest/_images/peewee3-logo.png
+   :width: 40%
+
+* Simple and small ORM.
+
+  * a small, expressive ORM
+  * supports sqlite, mysql and postgresql
+
+* `docs.peewee-orm.com <https://docs.peewee-orm.com/>`_
+
+.. code-block:: bash
+
+   $ pip install peewee
+
+plusplus_model.py
+-----------------
+.. literalinclude:: code/plusplus_model.py
+
+**plusplus()** function using Peewee
+------------------------------------
+.. literalinclude:: code/app-plusplus.py
+   :language: python
+   :lines: 6, 10-22
+
+I can **appreciate** it!
+------------------------
+
+.. image:: images/case-peewee.png
+   :width: 40%
 
 Outline
 =======
