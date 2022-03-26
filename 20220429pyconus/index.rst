@@ -933,13 +933,62 @@ I can **appreciate** it!
 .. image:: images/case-peewee.png
    :width: 40%
 
+Search issues with **Jira APIs** 🔎
+====================================
+
+Search issues with **Jira APIs**
+--------------------------------
+* Motivation
+
+  * Jira is very useful
+  * Jira Web is **slow**
+  * Search issues **without Jira Web**
+
+System Overview
+---------------
+* TODO: 図を入れる
+
+about **Python Jira**
+---------------------
+* Python library to work with Jira APIs
+* `jira.readthedocs.io <https://jira.readthedocs.io/>`_
+
+.. code-block:: bash
+
+   $ pip install jira
+
+Authentication
+--------------
+* Create an API token
+
+  * see: `Manage API tokens for your Atlassian account <https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/>`_
+
+.. code-block:: python
+
+   from jira import JIRA
+
+   url = 'https://jira.atlassian.com/'
+   jira = JIRA(url, basic_auth=('email', 'API token'))
+
+* see: `2.1.2. Authentication <https://jira.readthedocs.io/examples.html#authentication>`_
+
+Search issues
+-------------
+.. literalinclude:: code/app-jira.py
+   :lines: 15-29
+   
+* see: `2.1.6. Searching <https://jira.readthedocs.io/examples.html#searching>`_
+* see: `JQL: Get started with advanced search in Jira <https://www.atlassian.com/software/jira/guides/expand-jira/jql#advanced-search>`_
+
+**Free** from Jira web!
+-----------------------
+.. image:: images/bot-jira.png
+   :width: 60%
+
 Outline
 =======
 - Case study (10m)
 
-  - Search JIRA issues and display issue
-
-    - JIRA API and jira package
   - Create multiple issues from a template
 
     - motivation and overview
