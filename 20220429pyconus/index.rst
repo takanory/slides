@@ -133,7 +133,7 @@ Simple integration with **Incoming Webhooks** 🪝
 
 System overview
 ---------------
-TODO: 図を入れる
+.. image:: images/diagram-webhook.png
 
 **Create** Incoming Webhooks Integration 🔧
 ===========================================
@@ -399,14 +399,33 @@ Summary of Incoming **Webhooks**
 **Interactive** bot 🤝
 ======================
 
-System overview
----------------
-* TODO: 図を入れる
-* Events APIとSocket Modeがあることを説明
-* 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
+2 types of connection protocols
+-------------------------------
+* Events API over HTTP
+* Socket Mode
+* see: `Choosing a protocol to connect to Slack <https://api.slack.com/apis/connections>`_
 
-  * ここではSocket Modeで説明をしていく
-* https://api.slack.com/apis/connections/events-api
+Events API over HTTP
+--------------------
+
+.. image:: images/diagram-eventsapi.png
+
+* see: `Using the Slack Events API <https://api.slack.com/apis/connections/events-api>`_
+
+Socket Mode
+-----------
+
+.. image:: images/diagram-socketmode.png
+
+* see: `Intro to Socket Mode <https://api.slack.com/apis/connections/socket>`_
+
+2 types of connection protocols
+-------------------------------
+* Events API over HTTP
+* **Socket Mode** 👈
+
+.. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
+   * ここではSocket Modeで説明をしていく
 
 **Create** bot user 🤖
 ======================
@@ -918,8 +937,6 @@ Outline
 =======
 - Case study (10m)
 
-  - Calculator function using SymPy
-  - Karma function using Peewee ORM
   - Search JIRA issues and display issue
 
     - JIRA API and jira package
