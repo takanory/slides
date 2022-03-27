@@ -13,7 +13,7 @@ jira = JIRA("https://pyconjp.atlassian.net/", basic_auth=(user, token))
 
 
 @app.message(re.compile(r"^jira (.*)$"))
-def calc(message, context, say):
+def jira(message, context, say):
     keywords = context["matches"][0]
     jql = f'text ~ "{keywords}" order by created desc'
     text = ""

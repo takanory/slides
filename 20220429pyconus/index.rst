@@ -944,7 +944,7 @@ Search issues with **Jira APIs**
   * Jira Web is **slow**
   * Search issues **without Jira Web**
 
-System Overview
+System overview
 ---------------
 * TODO: 図を入れる
 
@@ -985,17 +985,104 @@ Search issues
 .. image:: images/bot-jira.png
    :width: 60%
 
+Create **multiple issues** from a template 📝
+=============================================
+
+Create **multiple issues** from a template
+------------------------------------------
+* Motivation
+
+  * In pycamp event, **20+ issues** are required for each event
+  * Copying issues by hand is **painful**
+  * Jira Web is **slow** (again)
+
+System overview
+---------------
+* TODO: 図を入れる
+
+Google Authorization is Complex
+-------------------------------
+* Create a Google Cloud project
+
+  * Enable API(in this case: Google Sheets API)
+  * Download ``credentials.json``
+* Install Google Client Library
+
+  .. code-block:: bash
+
+     $ pip install google-api-python-client \
+       google-auth-httplib2 google-auth-oauthlib
+
+* Download `quickstart.py <https://github.com/googleworkspace/python-samples/blob/master/sheets/quickstart/quickstart.py>`_ from GitHub
+
+.. revealjs-break::
+
+* Run ``quickstart.py``
+
+  * Select your Google account in Web browser
+  * Click "Accept" button
+  * Get ``token.json`` (finish!!)
+
+.. code-block:: bash
+
+   $ python quickstart.py
+   Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?....
+   Name, Major:
+   Alexandra, English
+   :
+
+* see: `Python Quickstart | Sheets API <https://developers.google.com/sheets/api/quickstart/python>`_
+
+Issue template
+--------------
+.. image:: images/bot-issue-template.png
+
+Get Spreadsheet date
+--------------------
+.. code-block:: python
+
+   from google.oauth2.credentials import Credentials
+   from googleapiclient.discovery import build
+
+   SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
+   SHEET = "1i3YQPObe3ZC_i1Jalo44_2_XXXX"
+
+   @app.message("create issues")
+   def creaete_issues(message, say):
+       creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+       service = build('sheets', 'v4', credentials=creds)
+       sheet = service.spreadsheets()
+       result = sheet.values().get(spreadsheetId=SHEET, range="A2:C4").execute()
+       for row in result.get("values", []):
+           say(f"* Title: {row[0]}, Delta: {row[1]}")
+                
+* see: `Method: spreadsheets.values.get | Sheets API | Google Developers <https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_
+
+.. revealjs-break::
+
+.. image:: images/bot-sheet1.png
+   :width: 50%
+
+**Free** from handwork!
+-----------------------
+.. literalinclude:: code/app-sheet.py
+   :lines: 21, 27-39
+   :language: python
+
+* see: `2.1.4. Issues <https://jira.readthedocs.io/examples.html#issues>`_
+
+.. revealjs-break::
+
+.. image:: images/bot-sheet2.png
+   :width: 30%
+
+.. image:: images/bot-sheet3.png
+   :width: 70%
+
 Outline
 =======
 - Case study (10m)
 
-  - Create multiple issues from a template
-
-    - motivation and overview
-    - about Sheets Spreadsheet API
-    - How to connect with Google API
-
-      - Create a project on the Google Cloud Platform
   - Search files from Google Drive
 
     - motivation and overview

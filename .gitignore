@@ -1,3 +1,6 @@
 *.pyc
 env/
 _build/
+export.sh
+credentials.json
+token.json
