@@ -1056,28 +1056,100 @@ Get Spreadsheet date
        for row in result.get("values", []):
            say(f"* Title: {row[0]}, Delta: {row[1]}")
                 
-* see: `Method: spreadsheets.values.get | Sheets API | Google Developers <https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_
+* see: `Method: spreadsheets.values.get | Sheets API <https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_
 
 .. revealjs-break::
 
 .. image:: images/bot-sheet1.png
    :width: 50%
 
-**Free** from handwork!
------------------------
+Create Jira issues
+------------------
 .. literalinclude:: code/app-sheet.py
    :lines: 21, 27-39
    :language: python
 
 * see: `2.1.4. Issues <https://jira.readthedocs.io/examples.html#issues>`_
 
-.. revealjs-break::
-
+**Free** from copying issues!
+-----------------------------
 .. image:: images/bot-sheet2.png
    :width: 30%
 
 .. image:: images/bot-sheet3.png
    :width: 70%
+
+**Account management** of Google Workspace 👥
+==============================================
+
+**Account management** of Google Workspace
+------------------------------------------
+* Motivation
+
+  * PyCon JP Association use ``pycon.jp`` domain with Google Workspace
+  * I only use Google Admin web occasionally
+  * I **forgot** to use admin screen
+
+System overview
+---------------
+* TODO: 図を入れる
+
+Update Google Authorization
+---------------------------
+* Update a Google Cloud project
+
+  * add **Directory API**
+  * re-download ``credentials.json``
+* Remove ``token.json``
+* Add **Directory API** ``quickstart.py``
+
+  * Re-run ``quickstart.py``
+  * Get new ``token.json``
+
+Get user list
+-------------
+.. literalinclude:: code/app-admin.py
+   :language: python
+   :lines: 11, 13-26
+
+* see: `Method: users.list | Directory API <https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/list>`_
+
+.. revealjs-break::
+
+.. image:: images/bot-user-list.png
+   :width: 50%
+
+Add user
+--------
+.. literalinclude:: code/app-admin.py
+   :language: python
+   :lines: 28-42
+
+* see: `Method: users.insert | Directory API <https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/insert>`_
+
+.. revealjs-break::
+
+.. image:: images/bot-user-add.png
+   :width: 40%
+
+.. image:: images/bot-user-add2.png
+   :width: 80%
+
+I can **forget** Google Admin!
+------------------------------
+
+Summary
+=======
+* Incoming Webhooks
+* Bolt for Python
+
+  * with Libraries, APIs
+
+Next Step 🪜
+============
+* Let's make **your Slackbot**
+* Let's connect with libraries and APIs
+* Automate your Boring Stuff with Slackbot
 
 Outline
 =======
