@@ -1151,18 +1151,29 @@ Next Step 🪜
 * Let's connect with libraries and APIs
 * Automate your Boring Stuff with Slackbot
 
-Outline
-=======
-- Case study (10m)
+Thank you! 🙏
+==============
+.. image:: images/bot-translate.png
+   :width: 80%
 
-  - Search files from Google Drive
+|twitter| `@takanory <https://twitter.com/takanory>`_
 
-    - motivation and overview
-    - Add Google Drive API to the project
-    - Google Drive folders are not hierarchical
-    - Create folder hierarchy data
-  - Account management of G Suite
+|github| `github.com/takanory/slides <https://github.com/takanory/slides>`_
 
-    - motivation and overview
-    - G Suit API
-- Summary and next steps (1m)
+translate command
+-----------------
+.. code-block:: bash
+
+   $ pip install deepl
+
+.. literalinclude:: code/app-deepl.py
+   :lines: 6, 9-10, 12-18
+
+Thank you! 🙏
+--------------
+.. image:: images/bot-translate.png
+   :width: 80%
+
+|twitter| `@takanory <https://twitter.com/takanory>`_
+
+|github| `github.com/takanory/slides <https://github.com/takanory/slides>`_
