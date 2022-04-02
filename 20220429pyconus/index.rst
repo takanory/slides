@@ -21,7 +21,7 @@ Agenda
 Photos 📷 Tweets 🐦 👍
 =========================
 
-`#pyconus2022` / `@takanory`
+``#pyconus2022`` / ``@takanory``
 
 .. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
    Hashtag is #pyconus2022
@@ -59,8 +59,9 @@ Who am I? 👤
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities
 
-PyCon JP 🇯🇵
-------------
+PyCon JP 2022 🇯🇵
+-----------------
+* `2022.pycon.jp <https://2022.pycon.jp/>`_
 * Date: 2022 XXX XXX
 * Venue: Tokyo, Japan
 
@@ -121,12 +122,20 @@ Why **Slack** ?
 
 .. image:: /20190224pyconapac/images/slack.png
    :width: 60%
-	
+
 .. My secretary is chatbot of Slack.
    Is there someone using Slack?
    I'm Launching the Slack application at any time on PC and smartphone.
    So it's easy to access Slack. I want to do everything in Slack.
    Let's make chatbot on Slack.
+
+You can create **interactive** bot
+----------------------------------
+.. image:: images/bot-result1.png
+   :width: 48%
+
+.. image:: images/bot-result2.png
+   :width: 48%
 
 Simple integration with **Incoming Webhooks** 🪝
 ================================================
@@ -156,7 +165,7 @@ System overview
 
 .. image:: images/create-webhook1-2.png
    :width: 50%
-     
+
 .. revealjs-break::
    :notitle:
 
@@ -164,7 +173,7 @@ System overview
 
 .. image:: images/create-webhook2.png
    :width: 50%
-     
+
 .. revealjs-break::
    :notitle:
 
@@ -173,8 +182,8 @@ System overview
 .. image:: images/create-webhook3.png
    :width: 50%
 
-* see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
-     
+* see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
+
 2. Activate Incoming Webhooks
 -----------------------------
 .. image:: images/create-webhook4-1.png
@@ -186,7 +195,7 @@ System overview
 
 .. image:: images/create-webhook4-2.png
    :width: 50%
-     
+
 .. revealjs-break::
    :notitle:
 
@@ -194,7 +203,7 @@ System overview
 
 .. image:: images/create-webhook5.png
    :width: 50%
-     
+
 .. revealjs-break::
    :notitle:
 
@@ -230,7 +239,7 @@ Post message with **Python**
    message = {"text": "Hello from Python!"}
    data = json.dumps(message).encode()
    request.urlopen(url, data=data)
-           
+
 .. image:: images/webhook-python.png
 
 Post message with **Requests**
@@ -240,7 +249,7 @@ Post message with **Requests**
 .. code-block:: bash
 
    $ pip install requests
-   
+
 .. code-block:: python
 
    import requests
@@ -248,7 +257,7 @@ Post message with **Requests**
    url = "https://hooks.slack.com/services/T000..."
    message = {"text": "Hello from Requests!"}
    r = requests.post(url, json=message)
-     
+
 .. image:: images/webhook-requests.png
 
 Post message with **Slack SDK**
@@ -258,7 +267,7 @@ Post message with **Slack SDK**
 .. code-block:: bash
 
    $ pip install slack-sdk
-   
+
 .. code-block:: python
 
    from slack_sdk.webhook import WebhookClient
@@ -266,7 +275,7 @@ Post message with **Slack SDK**
    url = "https://hooks.slack.com/services/T000..."
    webhook = WebhookClient(url)
    r = webhook.send(text="Hello from Slack SDK!")
-     
+
 .. image:: images/webhook-slacksdk.png
 
 **Formatting** text
@@ -283,7 +292,7 @@ Post message with **Slack SDK**
    # *bold*, <url|text>, :emoji: and etc.
    r = webhook.send(text="*Hello* from "
      "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
-     
+
 .. image:: images/webhook-formatting.gif
 
 Message **Attachments**
@@ -399,8 +408,8 @@ Summary of Incoming **Webhooks**
 **Interactive** bot 🤝
 ======================
 
-2 types of connection protocols
--------------------------------
+Connection protocols
+--------------------
 * Events API over HTTP
 * Socket Mode
 * see: `Choosing a protocol to connect to Slack <https://api.slack.com/apis/connections>`_
@@ -419,8 +428,8 @@ Socket Mode
 
 * see: `Intro to Socket Mode <https://api.slack.com/apis/connections/socket>`_
 
-2 types of connection protocols
--------------------------------
+Connection protocols
+--------------------
 * Events API over HTTP
 * **Socket Mode** 👈
 
@@ -458,7 +467,7 @@ Socket Mode
 
 .. image:: images/create-bot2.png
    :width: 50%
-     
+
 .. revealjs-break::
    :notitle:
 
@@ -467,7 +476,7 @@ Socket Mode
 .. image:: images/create-bot3.png
    :width: 50%
 
-* see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_           
+* see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
 
 2. Enable Socket Mode
 ---------------------
@@ -645,7 +654,7 @@ Create new app with App Manifest
 .. revealjs-break::
    :notitle:
 
-* Install App to Workspace   
+* Install App to Workspace
 
 .. image:: images/app-manifest7.png
    :width: 70%
@@ -670,8 +679,8 @@ Create bot with **Bolt** ⚡️
 
 Bolt for Python
 ---------------
-* Python framework to build Slack app in a flash
-* Developped by Slack
+* Python framework to build Slack app in a **flash**
+* Developped by **Slack**
 * |github| https://github.com/slackapi/bolt-python
 * see:
 
@@ -779,7 +788,7 @@ Current Bot Eventes and Scopes
   :message.channels: message posted to **public channels**
 
 * Scopes
-                   
+
   :channels:history: View messages in **public channels**
   :chat:write: Post message
 
@@ -803,7 +812,7 @@ Add Events and Scopes for private channels
 
 * Select "OAuth & Permissions"
 * **groups:history** scope is added automatically
-           
+
 .. image:: images/add-events-and-scopes2.png
    :width: 50%
 
@@ -816,7 +825,7 @@ Add Events and Scopes for private channels
 
 .. image:: images/add-events-and-scopes4.png
    :width: 40%
-  
+
 .. revealjs-break::
 
 * Bot can view messages in Private Channel !!
@@ -976,7 +985,7 @@ Search issues
 -------------
 .. literalinclude:: code/app-jira.py
    :lines: 15-29
-   
+
 * see: `2.1.6. Searching <https://jira.readthedocs.io/examples.html#searching>`_
 * see: `JQL: Get started with advanced search in Jira <https://www.atlassian.com/software/jira/guides/expand-jira/jql#advanced-search>`_
 
@@ -1055,7 +1064,7 @@ Get Spreadsheet date
        result = sheet.values().get(spreadsheetId=SHEET, range="A2:C4").execute()
        for row in result.get("values", []):
            say(f"* Title: {row[0]}, Delta: {row[1]}")
-                
+
 * see: `Method: spreadsheets.values.get | Sheets API <https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_
 
 .. revealjs-break::
@@ -1138,18 +1147,18 @@ Add user
 I can **forget** Google Admin!
 ------------------------------
 
-Summary
+Summary 
 =======
-* Incoming Webhooks
-* Bolt for Python
-
-  * with Libraries, APIs
+* Simple bot using **Incoming Webhooks**
+* Interactive bot using **Bolt** for Python
+* Extend bot using **libraries** and **APIs**
 
 Next Step 🪜
 ============
+
 * Let's make **your Slackbot**
-* Let's connect with libraries and APIs
-* Automate your Boring Stuff with Slackbot
+* Let's connect with **libraries** and **APIs**
+* **Automate your Boring Stuff** with Slackbot
 
 Thank you! 🙏
 ==============
@@ -1158,7 +1167,7 @@ Thank you! 🙏
 
 |twitter| `@takanory <https://twitter.com/takanory>`_
 
-|github| `github.com/takanory/slides <https://github.com/takanory/slides>`_
+|desktop| `slides.takanory.net <https://slides.takanory.net>`_
 
 translate command
 -----------------
@@ -1176,4 +1185,34 @@ Thank you! 🙏
 
 |twitter| `@takanory <https://twitter.com/takanory>`_
 
-|github| `github.com/takanory/slides <https://github.com/takanory/slides>`_
+|desktop| `slides.takanory.net <https://slides.takanory.net>`_
+
+.. terapyon  2 hours ago
+   背景の話しいいですね。（5分くらいかかるかもしれないけど、ちゃんと説明したほうがいいと思う）
+
+   Webフックの詳しい説明は必要かな？
+   いきなり詳しい説明になっている。
+   （後半聞いてから再度検討
+
+   Botでできることを、Slackの画面キャプチャで、こういうものっていう説明がなかったような・・
+
+   最初に、トーク全体の流れは説明しているけど、ゴールとして、何ができるようになるのかっていう説明があったほうがいいかな。
+
+   チュートリアル的だけど、それがねらいかな？
+
+   これやりたいっていうコンテキスト共有に時間がかかりそう。
+
+   WebHookはがっつり削っていいのでは(peacock
+   →薄くするのはありかな
+   いきなりManifestに行くかなぁ
+
+   複雑なのはBlogで書く(shinyorke
+   →サブのテキスト用意
+   →スライドはあるけど飛ばすとか
+
+   bot user作るところはさらっと。かなぁ
+   ケーススタディが面白い。ケーススタディを先に持ってくる?
+
+   block kitは最後の方にさらっとでもいいのかな
+
+   最初にできあがったボットを見せる

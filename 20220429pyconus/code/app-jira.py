@@ -13,7 +13,7 @@ jira = JIRA("https://pyconjp.atlassian.net/", basic_auth=(user, token))
 
 
 @app.message(re.compile(r"^jira (.*)$"))
-def jira(message, context, say):
+def jira_search(message, context, say):
     keywords = context["matches"][0]
     jql = f'text ~ "{keywords}" order by created desc'
     text = ""
@@ -23,7 +23,7 @@ def jira(message, context, say):
         url = issue.permalink()
         summary = issue.fields.summary
         text += f"* <{url}|{issue_id}> {summary}\n"
-    else:
+    if not text:
         text = "No issues found"
     say(text)
 
