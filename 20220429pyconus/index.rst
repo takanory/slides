@@ -877,6 +877,10 @@ Calculator function using **SymPy**
   * I feel heavy to call a calculator app on my smartphone
   * It seems useful if **Slack as a calculator**
 
+System overview
+---------------
+.. image:: images/diagram-sympy.png
+
 about **SymPy**
 ---------------
 .. image:: https://www.sympy.org/static/images/logo.png
@@ -909,6 +913,10 @@ Plus-plus feature using **Peewee ORM**
 * Motivation
 
   * In PyCon JP, I want to make a culture that **appreciates** each other staff 👍
+
+System overview
+---------------
+.. image:: images/diagram-peewee.png
 
 about **Peewee**
 ----------------
@@ -955,7 +963,7 @@ Search issues with **Jira APIs**
 
 System overview
 ---------------
-* TODO: 図を入れる
+.. image:: images/diagram-jira.png
 
 about **Python Jira**
 ---------------------
@@ -1007,7 +1015,7 @@ Create **multiple issues** from a template
 
 System overview
 ---------------
-* TODO: 図を入れる
+.. image:: images/diagram-template.png
 
 Google Authorization is Complex
 -------------------------------
@@ -1101,7 +1109,7 @@ Create Jira issues
 
 System overview
 ---------------
-* TODO: 図を入れる
+.. image:: images/diagram-directory.png
 
 Update Google Authorization
 ---------------------------
