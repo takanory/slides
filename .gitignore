@@ -2,5 +2,5 @@
 env/
 _build/
 export.sh
-credentials.json
-token.json
+*.json
+*.db
