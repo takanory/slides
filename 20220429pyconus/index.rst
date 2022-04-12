@@ -43,6 +43,7 @@ Back to **2020**
    ビデオ提供したけど発表したって感じしない
    https://us.pycon.org/2020/
    今回、同じ内容を更新して発表する。発表できてうれしい
+   Before the main topic,...
 
 Who am I? 👤
 =============
@@ -62,8 +63,10 @@ Who am I? 👤
 PyCon JP 2022 🇯🇵
 -----------------
 * `2022.pycon.jp <https://2022.pycon.jp/>`_
-* Date: 2022 XXX XXX
+* Date: 2022 Oct 14(Fr)-16(Su)
 * Venue: Tokyo, Japan
+
+.. PyCon JP 2022やるよ。ぜひ来てね
 
 **Background** and **Motivation**
 =================================
@@ -137,8 +140,13 @@ You can create **interactive** bot
 .. image:: images/bot-result2.png
    :width: 48%
 
+.. このトークを聞くとこんなbotが作れるようになりますよ。
+   あいさつしたり、randomに選んだり、計算したり、カウントしたり、JIRA検索したり、メールアドレスを追加したり。
+
 Simple integration with **Incoming Webhooks** 🪝
 ================================================
+
+.. First, I will explain Simple integration with Incoming Webhooks.
 
 System overview
 ---------------
@@ -146,6 +154,9 @@ System overview
 
 **Create** Incoming Webhooks Integration 🔧
 ===========================================
+
+.. This is system overview of Incoming Webhooks.
+   When program send a message to a Webhook URL via HTTPS, the message will send to Slack.
 
 **Create** Incoming Webhooks Integration
 ----------------------------------------
@@ -155,6 +166,8 @@ System overview
   2. Activate Incoming Webhooks in the app
   3. Add Webhook to Workspace
 * see: `Sending messages using Incoming Webhooks <https://api.slack.com/messaging/webhooks>`_
+
+.. How to generate Webhook URL is as follows....
 
 1. Create a Slack app
 ---------------------
@@ -212,6 +225,9 @@ System overview
 .. image:: images/create-webhook6.png
    :width: 50%
 
+.. At last, we got a webhook URL
+   Then let's send a message to Slack with the URL.
+
 Post message via **Webhook URL** 📬
 ===================================
 
@@ -225,6 +241,9 @@ Post message with **cURL**
    > https://hooks.slack.com/services/T000...
 
 .. image:: images/webhook-curl.png
+
+.. We send a simple message with cURL.
+   When we send a message with JSON, the message will be displayed in Slack.
 
 Post message with **Python**
 ----------------------------
@@ -241,6 +260,9 @@ Post message with **Python**
    request.urlopen(url, data=data)
 
 .. image:: images/webhook-python.png
+
+.. But we are pythonista.
+   We use urllib.requests module.
 
 Post message with **Requests**
 ------------------------------
@@ -260,6 +282,8 @@ Post message with **Requests**
 
 .. image:: images/webhook-requests.png
 
+.. It is easier to use Requests.
+
 Post message with **Slack SDK**
 -------------------------------
 * see: `Python Slack SDK <https://slack.dev/python-slack-sdk/>`_
@@ -278,6 +302,8 @@ Post message with **Slack SDK**
 
 .. image:: images/webhook-slacksdk.png
 
+.. Slackが提供しているPython Slack SDKもおすすめです。
+
 **Formatting** text
 -------------------
 * see: `Formatting text for app surfaces <https://api.slack.com/reference/surfaces/formatting>`_
@@ -294,6 +320,8 @@ Post message with **Slack SDK**
      "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
 
 .. image:: images/webhook-formatting.gif
+
+.. markdownっぽくテキストがフォーマットできます。
 
 Message **Attachments**
 -----------------------
@@ -316,6 +344,8 @@ Message **Attachments**
 
 .. image:: images/webhook-attachments.png
 
+.. We can send complex messages like this with message attachments.
+
 Message **Attachments**
 -----------------------
 * Message Attachments is **Legacy**
@@ -324,10 +354,12 @@ Message **Attachments**
 
 * see: `Reference: Secondary message attachments <https://api.slack.com/reference/messaging/attachments>`_
 
-.. attachmentsのBlock
+.. しかしattachmentsはLegacyです。代わりに
 
 **Block** Kit 🧱
 ================
+
+.. Block Kitを使いましょう。
 
 **Block** Kit
 -------------
@@ -404,6 +436,8 @@ Summary of Incoming **Webhooks**
 * **Easy** to post messages from programs 📬
 * Create complex messages with **Block Kit** 🧱
 * But **one-way** (program➡️Webhook➡️Slack)
+
+.. I want to talk with bot. Next, I will explain how to make interactive chatbot.  
 
 **Interactive** bot 🤝
 ======================
@@ -1167,6 +1201,8 @@ Next Step 🪜
 * Let's make **your Slackbot**
 * Let's connect with **libraries** and **APIs**
 * **Automate your Boring Stuff** with Slackbot
+
+.. Then you will have more free time so you can do other creative things more.
 
 Thank you! 🙏
 ==============
