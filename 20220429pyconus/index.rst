@@ -35,13 +35,35 @@ Slide 💻
 
 Why **ver. 2** in the title?
 ============================
-.. なぜタイトルにver. 2が付いているか
 
 Back to **2020**
-================
+----------------
+* PyCon US 2020 went **online**
+* `us.pycon.org/2020/online/ <https://us.pycon.org/2020/online/>`_
+
+.. image:: images/pyconus2020.png
+   :width: 80%
+
+.. The story goes back to 2020.
+   PyCon US 2020 has accepted a talk with the same title.
+   But that event went online at the last minute, and I provided a presentation video.
+   This was unfortunate for me.
+   You can see my video at this URL.
+
+Came back at **2022**
+---------------------
+* Talk **updated** with latest information
+* I am very **happy**!!
+* **Thanks** to PyCon US staff!!
+
+.. Then, I came back at PyCon US 2022.
+   I have updated the talk with the latest information.
+   I am very happy to talk in this place!
+   Also, thanks to the PyCon US staff!!
+   Before the main topic,...
+
 .. 2020にトークが採用されたけど急遽オンラインになった
    ビデオ提供したけど発表したって感じしない
-   https://us.pycon.org/2020/
    今回、同じ内容を更新して発表する。発表できてうれしい
    Before the main topic,...
 
@@ -60,12 +82,16 @@ Who am I? 👤
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities
 
-PyCon JP 2022 🇯🇵
------------------
+**PyCon JP** 2022 🇯🇵
+---------------------
 * `2022.pycon.jp <https://2022.pycon.jp/>`_
 * Date: 2022 Oct 14(Fr)-16(Su)
 * Venue: Tokyo, Japan
 
+.. PyCon JP 2022 will be held as an in-person event.
+   Please come to Japan!
+   Let's get back to the main topic.
+   
 .. PyCon JP 2022やるよ。ぜひ来てね
 
 **Background** and **Motivation**
@@ -78,9 +104,9 @@ Conference **Tasks**
 * I held PyCon JP(2014-2016) as Chair
 * Conference tasks:
 
-  * 👨‍💻 Keynotes, Talks and Trainings arrangement
+  * 👨‍💻 Keynotes, Talks and Trainings
   * 🎫 Ticket sales and reception
-  * 🏬 Venue and facility(WiFi, Video...) management
+  * 🏬 Venue and facility(WiFi, Video...)
   * 🍱 Foods, ☕️ Coffee, 🧁 Snacks and 🍺 Beers
 
 .. I held PyCon JP event several years in the past.
@@ -140,6 +166,10 @@ You can create **interactive** bot
 .. image:: images/bot-result2.png
    :width: 48%
 
+.. If you listen to the end of this talk, you will be able to create a bot like this.
+   For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email address and more.
+   Now let's learn how to create a bot.
+   
 .. このトークを聞くとこんなbotが作れるようになりますよ。
    あいさつしたり、randomに選んだり、計算したり、カウントしたり、JIRA検索したり、メールアドレスを追加したり。
 
@@ -152,11 +182,11 @@ System overview
 ---------------
 .. image:: images/diagram-webhook.png
 
-**Create** Incoming Webhooks Integration 🔧
-===========================================
-
 .. This is system overview of Incoming Webhooks.
    When program send a message to a Webhook URL via HTTPS, the message will send to Slack.
+
+**Create** Incoming Webhooks Integration 🔧
+===========================================
 
 **Create** Incoming Webhooks Integration
 ----------------------------------------
@@ -302,6 +332,8 @@ Post message with **Slack SDK**
 
 .. image:: images/webhook-slacksdk.png
 
+.. I also recommend the Python Slack SDK provided by Slack.
+
 .. Slackが提供しているPython Slack SDKもおすすめです。
 
 **Formatting** text
@@ -321,59 +353,25 @@ Post message with **Slack SDK**
 
 .. image:: images/webhook-formatting.gif
 
+.. Text can be formatted as markdown
+   If you want to create more complex messages,... use the Block Kit.
+
 .. markdownっぽくテキストがフォーマットできます。
-
-Message **Attachments**
------------------------
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 1-11
-
-   fields = [
-       {"title": "Love", "value": ":beer:, Ferrets, LEGO", "short": True},
-       {"title": "From", "value": "Japan :jp:", "short": True},
-   ]
-   attachments =  [{
-       "pretext": "Nice to meet you!!",
-       "author_name": "Takanori Suzuki",
-       "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
-       "fields": fields,
-   }]
-
-   response = webhook.send(attachments=attachments)
-
-.. image:: images/webhook-attachments.png
-
-.. We can send complex messages like this with message attachments.
-
-Message **Attachments**
------------------------
-* Message Attachments is **Legacy**
-
-    This feature is a legacy part of messaging functionality for Slack apps.
-
-* see: `Reference: Secondary message attachments <https://api.slack.com/reference/messaging/attachments>`_
-
-.. しかしattachmentsはLegacyです。代わりに
 
 **Block** Kit 🧱
 ================
 
-.. Block Kitを使いましょう。
+.. use the Block Kit !
 
 **Block** Kit
 -------------
-  A clean and consistent UI framework for Slack apps
 
-* Blocks
+.. image:: images/block-kit.png
+   :width: 90%
 
-  * Elements
-
-    * Composition objects
 * see: `Block Kit <https://api.slack.com/block-kit>`_
 
-* TODO: 図にする
-* Block Kitは1つ以上のBlockの中にElementを配置してメッセージを作成する
+.. Block Kit is new UI framework for Slack apps.
 
 **Example** of Block Kit
 ------------------------
@@ -396,40 +394,15 @@ Message **Attachments**
 
 .. image:: images/webhook-blocks.png
 
-**Seciton** Block
------------------
-* Section Block with ``text`` and ``fields`` Field
-
-.. revealjs-code-block:: python
-   :data-line-numbers: 2,3,7
-
-   blocks = [{
-       "type": "section",  # Section Block
-       "text": {  # text Field
-            "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
-            "type": "mrkdwn"
-       },
-       "fields": [  # fields Field
-            {"type": "mrkdwn", "text": "*Love*"},
-            {"type": "mrkdwn", "text": "*From*"},
-            {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
-            {"type": "plain_text", "text": "Japan :jp:"},
-       ],
-   }]
-   response = webhook.send(blocks=blocks)
-
-* see: `Section Block <https://api.slack.com/reference/block-kit/blocks#section>`_
-
 Block Kit **Builder**
 ---------------------
-* ブロックキット複雑なのでBuilderで作れる
+.. image:: images/block-kit-builder.gif
+   :width: 80%
+
 * `app.slack.com/block-kit-builder/ <https://app.slack.com/block-kit-builder/>`_
 
-.. raw:: html
-
-   <video src="../_images/block-kit-buiilder.mov"></video>
-
-.. image:: images/block-kit-buiilder.mov
+.. Block Kit Builder is useful for creating Blocks.
+   We can write Block Kit code interactively and see the results visually.
 
 Summary of Incoming **Webhooks**
 ================================
@@ -437,7 +410,8 @@ Summary of Incoming **Webhooks**
 * Create complex messages with **Block Kit** 🧱
 * But **one-way** (program➡️Webhook➡️Slack)
 
-.. I want to talk with bot. Next, I will explain how to make interactive chatbot.  
+.. I'd like to interact with the bot.
+   Next, I will explain how to make interactive chatbot.  
 
 **Interactive** bot 🤝
 ======================
