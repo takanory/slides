@@ -411,16 +411,22 @@ Summary of Incoming **Webhooks**
 * But **one-way** (program➡️Webhook➡️Slack)
 
 .. I'd like to interact with the bot.
-   Next, I will explain how to make interactive chatbot.  
+   Next,..
 
 **Interactive** bot 🤝
 ======================
+
+.. Next,..I will explain how to make interactive chatbot.  
 
 Connection protocols
 --------------------
 * Events API over HTTP
 * Socket Mode
 * see: `Choosing a protocol to connect to Slack <https://api.slack.com/apis/connections>`_
+
+.. Slack provides 2 protocols for interacting.
+
+.. Slackは2種類のプロトコルを用意しています
 
 Events API over HTTP
 --------------------
@@ -429,6 +435,11 @@ Events API over HTTP
 
 * see: `Using the Slack Events API <https://api.slack.com/apis/connections/events-api>`_
 
+.. In "Events API over HTTP",
+   User messages will be Events API and Events API directly over HTTP.
+   The protocl requires a public HTTP endpoint.
+
+
 Socket Mode
 -----------
 
@@ -436,10 +447,15 @@ Socket Mode
 
 * see: `Intro to Socket Mode <https://api.slack.com/apis/connections/socket>`_
 
+.. On the other hand, Socket Mode does not require a static HTTP endpoint.
+   Socket Mode allows you to receive Events API through a private WebSocket.
+
 Connection protocols
 --------------------
 * Events API over HTTP
 * **Socket Mode** 👈
+
+.. I choose Socket Mode for this talk, because it is easy to develop locally.
 
 .. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
    * ここではSocket Modeで説明をしていく
@@ -457,6 +473,9 @@ Connection protocols
   4. Add Bot Token Scopes
   5. Install App to Workspace
 * Invite bot user to Slack channels
+
+.. I describe how to create interactive bot.
+   At first, we craete bot user on Slack.
 
 1. Create a Slack app
 ---------------------
@@ -581,18 +600,27 @@ Invite bot user to channels
 .. image:: images/invite-bot.png
    :width: 50%
 
-Long and Hard? 🤯
-=================
+**Long** and **Complex** !! 🤯
+===============================
+
+.. The steps are long and complex !!
+   Is there a better way ?
+   I recommend... App Manifest.
 
 .. ステップが長くて難しいですか?
 
 App **Manifest** ⚙️
 ===================
 
+.. I recommend... App Manifest.
+
 App **Manifest**
 ----------------
 * YAML-fomatted configuration for Slack apps
 * see: `Create and configure apps with manifests <https://api.slack.com/reference/manifests>`_
+
+.. App Manifests are YAML-fomatted configuration bundles for Slack apps.
+   We can share and reuse manifests.
 
 Example of App Manifest
 -----------------------
@@ -679,8 +707,11 @@ Create new app with App Manifest
    :width: 45%
 
 
-Short and Reusable !! 🥳
-========================
+**Short** and **Reusable** !! 🥳
+=================================
+
+.. App Manifest makes steps shorter and reusable.
+   Now we are ready to start creating a interactive bot.
 
 Create bot with **Bolt** ⚡️
 ============================
