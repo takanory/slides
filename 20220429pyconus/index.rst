@@ -716,6 +716,9 @@ Create new app with App Manifest
 Create bot with **Bolt** ⚡️
 ============================
 
+.. Let's create a bot with Bolt !
+   What is Bolt?
+
 Bolt for Python
 ---------------
 * Python framework to build Slack app in a **flash**
@@ -724,10 +727,13 @@ Bolt for Python
 * see:
 
   * `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
-  * `The Bolt family of SDKs <https://api.slack.com/tools/bolt>`_
+  * `The Bolt family of SDKs <https://api.slack.com/tools/bolt>`_ (JavaScript, Java)
 
-Instal Bolt for Python
-----------------------
+.. Bolt is a Python ... flash.
+   Slack also provides Bolt for JavaScript and Java.
+
+**Install** Bolt for Python
+---------------------------
 .. code-block:: bash
 
    $ mkdir beerbot
@@ -736,16 +742,19 @@ Instal Bolt for Python
    $ . env/bin/activate
    (env) $ pip install slack-bolt
 
-Create a simple bot with Bolt
------------------------------
+**Create** a simple bot with Bolt
+---------------------------------
 .. literalinclude:: code/app1.py
    :language: python
    :caption: app.py
 
-Run Slackbot
-------------
+.. When the bot receives the string "Hi", bot sends a greeting message.
+
+**Running** bot
+---------------
 .. code-block:: bash
 
+   # Set 2 tokens in environment variables
    (env) $ export SLACK_APP_TOKEN=xapp-XXX
    (env) $ export SLACK_BOT_TOKEN=xoxb-XXX
    (env) $ python app.py
@@ -753,8 +762,20 @@ Run Slackbot
 
 .. image:: images/bot-hi.png
 
+.. Set 2 tokens in environment variables, then run app.py.
+   When I write a message "Hi" on Slack, the bot responds!
+
+I can **interact** with the bot ! 🎉
+-------------------------------------
+
+.. image:: images/bot-hi.png
+
+.. But this is simple enough, so...
+
 **Extend** bot 🛠
 =================
+
+.. so I will extend the bot.
 
 ``@app.message()`` decolator
 ----------------------------
@@ -764,6 +785,9 @@ Run Slackbot
 .. image:: images/bot-decolator.png
    :width: 30%
 
+
+.. app.message() decolator executes the function when it matches the pattern.
+
 mention
 -------
 .. literalinclude:: code/app-extend.py
@@ -772,6 +796,8 @@ mention
 .. image:: images/bot-mention.png
    :width: 30%
 
+.. The bot can send mentions
+
 Using regular expression
 ------------------------
 .. literalinclude:: code/app-extend.py
@@ -779,6 +805,9 @@ Using regular expression
 
 .. image:: images/bot-choice.png
    :width: 30%
+
+.. Bolt can handle parameters.
+   We use regular expressions in app.message() decolator, you can extract matched strings from context["matches"]
 
 .. revealjs-break::
 

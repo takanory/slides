@@ -18,7 +18,7 @@ def handle_hi_message(message, say):
 
 # match any message contains "cheers"
 @app.message("cheers")
-def handle_cheers_mesasge(mesasge, say):
+def handle_cheers_message(mesasge, say):
     say("Cheers! :beers:")
 
 
@@ -31,7 +31,7 @@ def handle_morning_message(message, say):
 
 @app.message(re.compile(r"choice (.*)"))
 def handle_choice(say, context):
-    # get matchesd text from context.matches
+    # get matchesd text from context["matches"]
     words = context["matches"][0].split()
     say(random.choice(words))
 
