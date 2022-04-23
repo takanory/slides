@@ -29,7 +29,7 @@
      * Talk
      * Automate the Boring Stuff with Slackbot(ver.2)
      * `Slides <https://slides.takanory.net/slides/20220429pyconus/>`__
-   - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/238061/>`_
+   - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
      * 2022 Mar
      * Talk
@@ -47,6 +47,7 @@
      * Talk
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20220122pyconkyushu/>`__
+       `Video <https://www.youtube.com/watch?v=-L8R8tPsfg4>`__
 
 2021
 ====
