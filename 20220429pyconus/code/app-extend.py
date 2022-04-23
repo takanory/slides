@@ -31,7 +31,7 @@ def handle_morning_message(message, say):
 
 @app.message(re.compile(r"choice (.*)"))
 def handle_choice(say, context):
-    # get matchesd text from context["matches"]
+    # get matched text from context["matches"]
     words = context["matches"][0].split()
     say(random.choice(words))
 

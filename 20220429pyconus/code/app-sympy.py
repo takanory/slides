@@ -14,7 +14,7 @@ def calc(message, context, say):
         formula = context["matches"][0]
         result = sympify(formula)  # Simplifies the formula
         if result.is_Integer:
-            answer = int(result)  # Convert to interger value
+            answer = int(result)  # Convert to integer value
         else:
             answer = float(result)  # Convert to float value
         say(f"{answer:,}")

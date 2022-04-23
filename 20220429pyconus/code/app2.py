@@ -16,7 +16,7 @@ def handle_hi_message(message, say):
 
 # match any message contains "cheers"
 @app.message("cheers")
-def handle_cheers_mesasge(mesasge, say):
+def handle_cheers_mesasge(message, say):
     say("Cheers! :beers:")
 
 

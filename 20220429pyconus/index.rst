@@ -523,7 +523,7 @@ Connection protocols
 .. revealjs-break::
    :notitle:
 
-* Get **app-level token**: ``xapp-XXX``
+* Get **app-level token**: ``xapp-...``
 
 .. image:: images/create-bot6.png
    :width: 50%
@@ -590,7 +590,7 @@ Connection protocols
 .. revealjs-break::
    :notitle:
 
-* Get **Bot Token**: ``xoxb-XXX``
+* Get **Bot Token**: ``xoxb-...``
 
 .. image:: images/create-bot13.png
    :width: 50%
@@ -755,8 +755,8 @@ Bolt for Python
 .. code-block:: bash
 
    # Set 2 tokens in environment variables
-   (env) $ export SLACK_APP_TOKEN=xapp-XXX
-   (env) $ export SLACK_BOT_TOKEN=xoxb-XXX
+   (env) $ export SLACK_APP_TOKEN=xapp-...
+   (env) $ export SLACK_BOT_TOKEN=xoxb-...
    (env) $ python app.py
    ⚡️ Bolt app is running!
 
@@ -1154,7 +1154,7 @@ Get Spreadsheet date
    from googleapiclient.discovery import build
 
    SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-   SHEET = "1i3YQPObe3ZC_i1Jalo44_2_XXXX"
+   SHEET = "1i3YQPObe3ZC_i1Jalo44_2_..."
 
    @app.message("create issues")
    def creaete_issues(message, say):
