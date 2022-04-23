@@ -23,6 +23,12 @@
      * kind
      * title
      * resource
+   - * `PyCon US 2022 <https://us.pycon.org/2022/>`_
+     * Salt Lake City, UT
+     * 2022 Apr
+     * Talk
+     * Automate the Boring Stuff with Slackbot(ver.2)
+     * `Slides <https://slides.takanory.net/slides/20220429pyconus/>`__
    - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
      * 2022 Mar
