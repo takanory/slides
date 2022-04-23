@@ -845,8 +845,12 @@ Logging
 
 Events and Scopes
 -----------------
-* Eventsに設定したイベントしか受け取れない
-* Scopesに設定した範囲の情報しかアクセス
+* Can only receive events in **Bot Events**
+* Can only execute APIs allowed by **Bot Token Scopes**
+  
+.. Events and Scopes are important concepts in Slack Bots.
+   Bot can only receive events in **Bot Events**.
+   Bot aan only execute APIs allowed by **Bot Token Scopes**.
 
 Current Bot Eventes and Scopes
 ------------------------------
@@ -860,12 +864,18 @@ Current Bot Eventes and Scopes
   :channels:history: View messages in **public channels**
   :chat:write: Post message
 
+.. For exmaple, current bot events is message.channel, bot scopes are channels:history and chat:write only.
+
 .. revealjs-break::
 
-* Cannot view messages in **private channels**
+* Cannot read/write messages on **private channels**
 
 .. image:: images/bot-private-cannot-view.png
    :width: 50%
+
+.. So, the bot cannot read/write messages on private channels.
+   I invited the bot to private chanel and sent a "Hi" message but no response!
+   What shoud I do?
 
 Add Events and Scopes for private channels
 ------------------------------------------
@@ -876,13 +886,18 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes1.png
    :width: 50%
 
+.. I need to add events and scopes for privatge channels.
+   I added "message.groups" envet.
+
 .. revealjs-break::
 
 * Select "OAuth & Permissions"
-* **groups:history** scope is added automatically
+* **groups:history** scope is automatically added
 
 .. image:: images/add-events-and-scopes2.png
    :width: 50%
+
+.. "groups:history" scope is automatically added
 
 .. revealjs-break::
 
@@ -894,22 +909,30 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes4.png
    :width: 40%
 
+.. I will reinstall the app because of the change in events and scopes.
+
 .. revealjs-break::
 
-* Bot can view messages in Private Channel !!
+* Bot can read/write messages in **private channel**
 
 .. image:: images/add-events-and-scopes6.png
    :width: 40%
+
+.. Then, the bot can read/write messages in **private channel**
 
 To know user joined a channel
 -----------------------------
 * Add **member_joined_channel** event → Reinstall app
 
 .. literalinclude:: code/app-extend.py
+   :emphasize-lines: 1-2
    :lines: 60-66
 
 .. image:: images/event-member-joined.png
    :width: 40%
+
+.. If you want to know when a user joins a channel, add a "member_joind_channel" event.
+   And You can handle the event with @app.event decorator.
 
 Add Emoji reaction
 ------------------
@@ -917,17 +940,18 @@ Add Emoji reaction
 
 .. literalinclude:: code/app-extend.py
    :language: python
-   :lines: 67-75
+   :lines: 67-76
 
 .. image:: images/scope-reactions-write.png
    :width: 50%
 
+.. If you want to add emoji reaction, add a "reactions:write" scope.
 
 **Summary** of Events and Scopes
 --------------------------------
 * To receive new events
-* To use new API with new scope
-* Add events and/or scopes → Reinstall app
+* To use new API with new scopes
+* Add **events** and/or **scopes** → Reinstall app
 * see: `Events API types <https://api.slack.com/events>`_
 * see: `Permission scopes <https://api.slack.com/scopes>`_
 
@@ -1247,6 +1271,8 @@ Thank you! 🙏
 
 |desktop| `slides.takanory.net <https://slides.takanory.net>`_
 
+|code| `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
+
 translate command
 -----------------
 .. code-block:: bash
@@ -1265,32 +1291,4 @@ Thank you! 🙏
 
 |desktop| `slides.takanory.net <https://slides.takanory.net>`_
 
-.. terapyon  2 hours ago
-   背景の話しいいですね。（5分くらいかかるかもしれないけど、ちゃんと説明したほうがいいと思う）
-
-   Webフックの詳しい説明は必要かな？
-   いきなり詳しい説明になっている。
-   （後半聞いてから再度検討
-
-   Botでできることを、Slackの画面キャプチャで、こういうものっていう説明がなかったような・・
-
-   最初に、トーク全体の流れは説明しているけど、ゴールとして、何ができるようになるのかっていう説明があったほうがいいかな。
-
-   チュートリアル的だけど、それがねらいかな？
-
-   これやりたいっていうコンテキスト共有に時間がかかりそう。
-
-   WebHookはがっつり削っていいのでは(peacock
-   →薄くするのはありかな
-   いきなりManifestに行くかなぁ
-
-   複雑なのはBlogで書く(shinyorke
-   →サブのテキスト用意
-   →スライドはあるけど飛ばすとか
-
-   bot user作るところはさらっと。かなぁ
-   ケーススタディが面白い。ケーススタディを先に持ってくる?
-
-   block kitは最後の方にさらっとでもいいのかな
-
-   最初にできあがったボットを見せる
+|code| `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_

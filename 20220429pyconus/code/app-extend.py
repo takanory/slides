@@ -67,7 +67,7 @@ def member_joined(event, say):
 
 
 @app.message("beer")
-def handle_beer(client, message):
+def add_beer_emoji(client, message):
     # add reaction beer emoji
     client.reactions_add(
         channel=message["channel"],
