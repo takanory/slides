@@ -1146,7 +1146,7 @@ Issue template
 --------------
 .. image:: images/bot-issue-template.png
 
-Get Spreadsheet date
+Get Spreadsheet data
 --------------------
 .. code-block:: python
 
