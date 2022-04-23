@@ -30,7 +30,7 @@ Slide 💻
 ---------
 `slides.takanory.net <https://slides.takanory.net>`__
 
-.. This slide available on slides.takanory.net.
+.. This slide is available on slides.takanory.net.
    And I've already shared this slide on Twitter.
 
 Why **ver. 2** in the title?
@@ -56,7 +56,7 @@ Came back at **2022**
 * I am very **happy**!!
 * **Thanks** to PyCon US staff!!
 
-.. Then, I came back at PyCon US 2022.
+.. Then, I came back to PyCon US 2022.
    I have updated the talk with the latest information.
    I am very happy to talk in this place!
    Also, thanks to the PyCon US staff!!
@@ -78,15 +78,15 @@ Who am I? 👤
 
 .. Before the main topic,...I will introduce myself.
    I'm Takanori Suzuki. My twitter is "takanory", please follow me.
-   I'm Vice-Chairperson of PyCon JP Association.
+   I'm Vice-Chairperson of the PyCon JP Association.
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities
 
 **PyCon JP** 2022 🇯🇵
 ---------------------
 * `2022.pycon.jp <https://2022.pycon.jp/>`_
-* Date: 2022 Oct 14(Fr)-16(Su)
-* Venue: Tokyo, Japan
+* Date: 2022 **Oct 14** (Fri) - **16** (Sun)
+* Venue: **Tokyo**, Japan (in-person)
 
 .. PyCon JP 2022 will be held as an in-person event.
    Please come to Japan!
@@ -109,8 +109,8 @@ Conference **Tasks**
   * 🏬 Venue and facility(WiFi, Video...)
   * 🍱 Foods, ☕️ Coffee, 🧁 Snacks and 🍺 Beers
 
-.. I held PyCon JP event several years in the past.
-   As you can imagine, lots of tasks to hold Conference.
+.. I held PyCon JP events several years in the past.
+   As you can imagine, there are lots of tasks to hold Conference.
    For example, talk arrangements, ticket sales, venue management, food...
    And, ...
 
@@ -119,7 +119,7 @@ Staff ask me the **same things**
 * 40+ staff
 * 🐣 NEW staff : 🐔 OLD staff = 50 : 50
 
-.. The number of PyCon JP staff is 40 over, half of them are the new staff.
+.. The number of PyCon JP staff is over 40, half of them are new staff.
    New staff ask similar things to me. And I send similar answers repeatedly.
    But, ...
 
@@ -152,11 +152,11 @@ Why **Slack** ?
 .. image:: /20190224pyconapac/images/slack.png
    :width: 60%
 
-.. My secretary is chatbot of Slack.
+.. My secretary is a chatbot of Slack.
    Is there someone using Slack?
-   I'm Launching the Slack application at any time on PC and smartphone.
+   I'm Launching the Slack application at any time on my PC and smartphone.
    So it's easy to access Slack. I want to do everything in Slack.
-   Let's make chatbot on Slack.
+   Let's make a chatbot on Slack.
 
 You can create **interactive** bot
 ----------------------------------
@@ -167,7 +167,7 @@ You can create **interactive** bot
    :width: 48%
 
 .. If you listen to the end of this talk, you will be able to create a bot like this.
-   For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email address and more.
+   For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email addresses and more.
    Now let's learn how to create a bot.
    
 .. このトークを聞くとこんなbotが作れるようになりますよ。
@@ -182,8 +182,8 @@ System overview
 ---------------
 .. image:: images/diagram-webhook.png
 
-.. This is system overview of Incoming Webhooks.
-   When program send a message to a Webhook URL via HTTPS, the message will send to Slack.
+.. This is a system overview of Incoming Webhooks.
+   When a program sends a message to a Webhook URL via HTTPS, the message will be sent to Slack.
 
 **Create** Incoming Webhooks Integration 🔧
 ===========================================
@@ -197,7 +197,7 @@ System overview
   3. Add Webhook to Workspace
 * see: `Sending messages using Incoming Webhooks <https://api.slack.com/messaging/webhooks>`_
 
-.. How to generate Webhook URL is as follows....
+.. How to generate a Webhook URL is as follows....
 
 1. Create a Slack app
 ---------------------
@@ -371,7 +371,7 @@ Post message with **Slack SDK**
 
 * see: `Block Kit <https://api.slack.com/block-kit>`_
 
-.. Block Kit is new UI framework for Slack apps.
+.. Block Kit is a new UI framework for Slack apps.
 
 **Example** of Block Kit
 ------------------------
@@ -416,7 +416,7 @@ Summary of Incoming **Webhooks**
 **Interactive** bot 🤝
 ======================
 
-.. Next,..I will explain how to make interactive chatbot.  
+.. Next,..I will explain how to make an interactive bot.  
 
 Connection protocols
 --------------------
@@ -437,7 +437,7 @@ Events API over HTTP
 
 .. In "Events API over HTTP",
    User messages will be Events API and Events API directly over HTTP.
-   The protocl requires a public HTTP endpoint.
+   The protocol requires a public HTTP endpoint.
 
 
 Socket Mode
@@ -455,7 +455,7 @@ Connection protocols
 * Events API over HTTP
 * **Socket Mode** 👈
 
-.. I choose Socket Mode for this talk, because it is easy to develop locally.
+.. I chose Socket Mode for this talk, because it is easy to develop locally.
 
 .. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
    * ここではSocket Modeで説明をしていく
@@ -474,8 +474,8 @@ Connection protocols
   5. Install App to Workspace
 * Invite bot user to Slack channels
 
-.. I describe how to create interactive bot.
-   At first, we craete bot user on Slack.
+.. I describe how to create an interactive bot.
+   At first, we create bot user on Slack.
 
 1. Create a Slack app
 ---------------------
@@ -530,7 +530,7 @@ Connection protocols
 
 3. Subscribe bot event
 ----------------------
-* Slect "Event Subscriptions" → Turn toggle on
+* Select "Event Subscriptions" → Turn toggle on
 
 .. image:: images/create-bot3-1.png
    :width: 70%
@@ -616,10 +616,10 @@ App **Manifest** ⚙️
 
 App **Manifest**
 ----------------
-* YAML-fomatted configuration for Slack apps
+* YAML-formatted configuration for Slack apps
 * see: `Create and configure apps with manifests <https://api.slack.com/reference/manifests>`_
 
-.. App Manifests are YAML-fomatted configuration bundles for Slack apps.
+.. App Manifests are YAML-formatted configuration bundles for Slack apps.
    We can share and reuse manifests.
 
 Example of App Manifest
@@ -711,7 +711,7 @@ Create new app with App Manifest
 =================================
 
 .. App Manifest makes steps shorter and reusable.
-   Now we are ready to start creating a interactive bot.
+   Now we are ready to start creating an interactive bot.
 
 Create bot with **Bolt** ⚡️
 ============================
@@ -852,8 +852,8 @@ Events and Scopes
    Bot can only receive events in **Bot Events**.
    Bot aan only execute APIs allowed by **Bot Token Scopes**.
 
-Current Bot Eventes and Scopes
-------------------------------
+Current Bot Events and Scopes
+-----------------------------
 
 * Events
 
@@ -864,7 +864,7 @@ Current Bot Eventes and Scopes
   :channels:history: View messages in **public channels**
   :chat:write: Post message
 
-.. For exmaple, current bot events is message.channel, bot scopes are channels:history and chat:write only.
+.. For example, the current bot event is message.channel, bot scopes are channels:history and chat:write only.
 
 .. revealjs-break::
 
@@ -874,7 +874,7 @@ Current Bot Eventes and Scopes
    :width: 50%
 
 .. So, the bot cannot read/write messages on private channels.
-   I invited the bot to private chanel and sent a "Hi" message but no response!
+   I invited the bot to a private channel and sent a "Hi" message but no response!
    What shoud I do?
 
 Add Events and Scopes for private channels
@@ -886,8 +886,8 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes1.png
    :width: 50%
 
-.. I need to add events and scopes for privatge channels.
-   I added "message.groups" envet.
+.. I need to add events and scopes for private channels.
+   I added a "message.groups" event.
 
 .. revealjs-break::
 
@@ -945,7 +945,7 @@ Add Emoji reaction
 .. image:: images/scope-reactions-write.png
    :width: 50%
 
-.. If you want to add emoji reaction, add a "reactions:write" scope.
+.. If you want to add emoji reactions, add a "reactions:write" scope.
 
 **Summary** of Events and Scopes
 --------------------------------
