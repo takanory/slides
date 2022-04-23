@@ -27,7 +27,7 @@
      * Salt Lake City, UT
      * 2022 Apr
      * Talk
-     * Automate the Boring Stuff with Slackbot(ver.2)
+     * `Automate the Boring Stuff with Slackbot(ver.2) <https://us.pycon.org/2022/schedule/presentation/61/>`_
      * `Slides <https://slides.takanory.net/slides/20220429pyconus/>`__
    - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
