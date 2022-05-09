@@ -8,11 +8,12 @@ PyCon US 2022 / 2022 Apr 29
 
 .. Thank you for coming to my presentation.
    I am very happy to be able to talk in PyCon US.
+   My talk title is "Automate the Boring Stuff with Slackbot (ver. 2)"
 
 Agenda
 ======
 * **Background** and **Motivation** for Slackbot
-* How to create **simple** chatbot
+* How to create **simple** bot
 * How to create **interactive** bot
 * How to **extend** bot using libs and APIs
 
@@ -31,7 +32,7 @@ Slide 💻
 `slides.takanory.net <https://slides.takanory.net>`__
 
 .. This slide is available on slides.takanory.net.
-   And I've already shared this slide on Twitter.
+   And I've already shared this slide URL on Twitter.
 
 Why **ver. 2** in the title?
 ============================
@@ -45,7 +46,7 @@ Back to **2020**
    :width: 80%
 
 .. The story goes back to 2020.
-   PyCon US 2020 has accepted a talk with the same title.
+   PyCon US 2020 has accepted my talk with the same title.
    But that event went online at the last minute, and I provided a presentation video.
    This was unfortunate for me.
    You can see my video at this URL.
@@ -57,10 +58,10 @@ Came back at **2022**
 * **Thanks** to PyCon US staff!!
 
 .. Then, I came back to PyCon US 2022.
-   I have updated the talk with the latest information.
-   I am very happy to talk in this place!
-   Also, thanks to the PyCon US staff!!
-   Before the main topic,...
+   I've updated the talk with the latest information.
+   I am very happy to talk in PyCon US.
+   However, I am very sorry that I could not participate locally.
+   By the way, before the main topic,...
 
 .. 2020にトークが採用されたけど急遽オンラインになった
    ビデオ提供したけど発表したって感じしない
