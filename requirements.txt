@@ -1,4 +1,4 @@
-Sphinx==4.5.0
+Sphinx==5.0.1
 karma-sphinx-theme==0.0.8
 sphinx-fontawesome==0.0.6
-sphinx-revealjs==1.5.2
+sphinx-revealjs==1.5.3
