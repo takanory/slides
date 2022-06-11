@@ -4,7 +4,7 @@
 
 Takanori Suzuki
 
-PyCon US 2022 / 2022 Apr 29
+EuroPython 2022 / 2022 Jul 13
 
 .. Thank you for coming to my presentation.
    I am very happy to be able to talk in PyCon US.
