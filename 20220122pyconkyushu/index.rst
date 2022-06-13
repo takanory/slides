@@ -1,3 +1,7 @@
+:og:image: /_images/20220122pyconkyushu.png
+
+.. |cover| image:: images/20220122pyconkyushu.png
+
 =================================================
  Introduction to **Structural Pattern Matching**
 =================================================

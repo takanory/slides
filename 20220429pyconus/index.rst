@@ -1,3 +1,7 @@
+:og:image: /_images/20220429pyconus.png
+
+.. |cover| image:: images/20220429pyconus.png
+
 ======================================================
  Automate the Boring Stuff with **Slackbot** (ver. 2)
 ======================================================
