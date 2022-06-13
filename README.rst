@@ -378,9 +378,10 @@
 Reference
 =========
 * `Sphinx documentation <https://www.sphinx-doc.org/>`_
-* `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/en/latest/>`_
-* `Karma Sphinx Theme <https://karma-sphinx-theme.readthedocs.io/en/latest/>`_
+* `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_
 * `sphinx_fontawesome <https://github.com/fraoustin/sphinx_fontawesome>`_  
+* `Furo <https://pradyunsg.me/furo/>`_
+* `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_
 * `Netlify <https://www.netlify.com/>`_
 
   * `Netlify Docs <https://docs.netlify.com/>`_
