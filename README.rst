@@ -2,8 +2,9 @@
  takanory slides
 =================
 
-* Web: https://slides.takanory.net/
-* GitHub: https://github.com/takanory/slides
+* |globe| https://slides.takanory.net/
+* |github| https://github.com/takanory/slides
+* |twitter| `@takanory <https://twitter.com/takanory>`_
 * `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
@@ -29,7 +30,7 @@
      * Salt Lake City, UT
      * 2022 Apr
      * Talk
-     * Automate the Boring Stuff with Slackbot(r.2) (canceled)
+     * Automate the Boring Stuff with Slackbot(ver.2) (canceled)
      * `Slides <https://slides.takanory.net/slides/20220429pyconus/>`__
    - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
