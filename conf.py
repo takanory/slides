@@ -51,8 +51,24 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env', 'README.rst',
 html_theme = 'furo'
 
 html_theme_options = {
-    'nosidebar': False,
-    'includehidden': False,
+    # "sidebar_hide_name": True,
+    "source_repository": "https://github.com/takanory/slides/",
+    "source_branch": "master",
+}
+
+html_logo = "_static/takanory.jpg"
+
+html_title = "takanory slides"
+
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        # "sidebar/search.html",
+        # "sidebar/navigation.html",
+        # "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html",
+    ]
 }
 
 FONT_AWESOME_URL = (
@@ -64,13 +80,6 @@ html_css_files = [FONT_AWESOME_URL]
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_context = {
-  'display_github': True,
-  'github_user': 'takanory',
-  'github_repo': 'slides',
-  'github_version': 'master/',
-}
 
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/"
