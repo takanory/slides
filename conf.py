@@ -52,8 +52,8 @@ html_theme = 'furo'
 
 html_theme_options = {
     # "sidebar_hide_name": True,
-    "source_repository": "https://github.com/takanory/slides/",
-    "source_branch": "master",
+    # "source_repository": "https://github.com/takanory/slides/",
+    # "source_branch": "master",
 }
 
 html_logo = "_static/takanory.jpg"
