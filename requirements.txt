@@ -1,4 +1,4 @@
+furo==2022.6.4.1
 Sphinx==5.0.1
-karma-sphinx-theme==0.0.8
 sphinx-fontawesome==0.0.6
 sphinx-revealjs==1.5.3

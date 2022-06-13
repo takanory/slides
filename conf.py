@@ -47,7 +47,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'env', 'README.rst',
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'karma_sphinx_theme' # 'press'
+html_theme = 'furo'
 
 html_theme_options = {
     'nosidebar': False,
