@@ -61,7 +61,7 @@ html_logo = "_static/takanory.jpg"
 html_title = "takanory slides"
 
 html_sidebars = {
-    "**": [
+    "index": [
         "sidebar/scroll-start.html",
         "sidebar/brand.html",
         # "sidebar/search.html",
