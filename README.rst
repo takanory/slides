@@ -2,8 +2,9 @@
  takanory slides
 =================
 
-.. image:: https://api.netlify.com/api/v1/badges/fadbe279-4209-4329-b1be-9edeaa94a7fc/deploy-status)](https://app.netlify.com/sites/takanory-slides/deploys
-   Netlify Status
+.. image:: https://api.netlify.com/api/v1/badges/fadbe279-4209-4329-b1be-9edeaa94a7fc/deploy-status
+   :target: https://app.netlify.com/sites/takanory-slides/deploys
+   :alt: Netlify Status
 
 * |globe| https://slides.takanory.net/
 * |github| https://github.com/takanory/slides
