@@ -30,6 +30,7 @@ author = 'takanory'
 extensions = [
     'sphinx_revealjs',
     'sphinx_fontawesome',
+    "sphinxext.opengraph",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -70,6 +71,10 @@ html_context = {
   'github_repo': 'slides',
   'github_version': 'master/',
 }
+
+# -- for sphinxext-opengraph
+ogp_site_url = "https://slides.takanory.net/"
+ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
 
 # -- for revealjs --------
 # https://github.com/attakei/sphinx-revealjs/blob/master/demo/revealjs4/conf.py
