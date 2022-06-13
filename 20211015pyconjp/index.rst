@@ -1,3 +1,7 @@
+:og:image: /_images/20211015pyconjp.png
+
+.. |cover| image:: images/20211015pyconjp.png
+
 ===============================
  What's New in Python 3.10 🚀
 ===============================
