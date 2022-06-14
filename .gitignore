@@ -1,6 +1,6 @@
 *.pyc
 env/
-_build/
+build/
 export.sh
 *.json
 *.db
