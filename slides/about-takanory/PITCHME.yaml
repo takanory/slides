@@ -1,0 +1,16 @@
+gitpitch : 3.0
+theme            : template
+
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Montserrat", "#111111", "none" ]
+theme-byline     : [ "Montserrat", "#111111", "none" ]
+theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Source Code Pro" ]
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "0", "15px" ]
+
+highlight : tomorrow
+
+logo : assets/images/at-takanory.png
+logo-position: top-right

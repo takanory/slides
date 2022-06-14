@@ -1,0 +1,18 @@
+gitpitch : 3.0
+theme            : template
+
+theme-background : [ "#FFF" ]
+theme-headline   : [ "Raleway", "#111111", "none" ]
+theme-byline     : [ "Raleway", "#111111", "none" ]
+theme-text       : [ "Ubuntu", "#1C1C1C", "none" ]
+theme-links      : [ "#5289F7", "#5254F7" ]
+theme-code       : [ "Inconsolata" ]
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "0", "15px" ]
+
+highlight : ir-black
+
+controls-layout : edges
+
+logo : 20190808stapy/images/takanory-stapy.png
+logo-position: bottom-right
