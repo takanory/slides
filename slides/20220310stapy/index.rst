@@ -1,4 +1,4 @@
-:og:image: /_images/20220310stapy.png
+:og:image: _images/20220310stapy.png
 
 .. |cover| image:: images/20220310stapy.png
 

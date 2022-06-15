@@ -1,4 +1,4 @@
-:og:image: /_images/20211120pyconapac.png
+:og:image: _images/20211120pyconapac.png
 
 .. |cover| image:: images/20211120pyconapac.png
 

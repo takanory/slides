@@ -1,4 +1,4 @@
-:og:image: /_images/20220429pyconus.png
+:og:image: _images/20220429pyconus.png
 
 .. |cover| image:: images/20220429pyconus.png
 
