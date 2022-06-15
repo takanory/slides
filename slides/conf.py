@@ -56,6 +56,7 @@ html_static_path = ['_static']
 
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/slides/"
+ogp_site_name = project
 ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
 ogp_type = "article"
 
