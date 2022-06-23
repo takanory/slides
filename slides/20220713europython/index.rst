@@ -70,7 +70,7 @@ Came back at **2022**
 
 Who am I? 👤
 =============
-* Takanori Suzuki / 鈴木 たかのり (|twitter| `@takanory <https://twitter.com/takanory>`_)
+* Takanori Suzuki / 鈴木 たかのり (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 * Vice Chair of `PyCon JP Association <https://www.pycon.jp/>`_
 * Director of `BeProud Inc. <https://www.beproud.jp/>`_
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
@@ -724,7 +724,7 @@ Bolt for Python
 ---------------
 * Python framework to build Slack app in a **flash**
 * Developped by **Slack**
-* |github| https://github.com/slackapi/bolt-python
+* :fab:`github` `github.com/slackapi/bolt-python <https://github.com/slackapi/bolt-python>`_
 * see:
 
   * `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
@@ -1268,11 +1268,11 @@ Thank you! 🙏
 .. image:: images/bot-translate.png
    :width: 80%
 
-|twitter| `@takanory <https://twitter.com/takanory>`_
+:fab:`twitter` `@takanory <https://twitter.com/takanory>`_
 
-|desktop| `slides.takanory.net <https://slides.takanory.net>`_
+:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`_
 
-|code| `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
+:fas:`code` `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
 
 translate command
 -----------------
@@ -1288,8 +1288,8 @@ Thank you! 🙏
 .. image:: images/bot-translate.png
    :width: 80%
 
-|twitter| `@takanory <https://twitter.com/takanory>`_
+:fab:`twitter` `@takanory <https://twitter.com/takanory>`_
 
-|desktop| `slides.takanory.net <https://slides.takanory.net>`_
+:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`_
 
-|code| `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
+:fas:`code` `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
