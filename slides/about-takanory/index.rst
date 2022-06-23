@@ -2,12 +2,15 @@
  Takanori Suzuki
 =================
 
+.. image:: /assets/images/sokidan-square.jpg
+   :width: 30%
+   :alt: takanory
 
-Who am I? 👤
-=============
+Who am I? / お前誰よ👤
+=======================
 - 鈴木たかのり / Takanori Suzuki (`@takanory <https://twitter.com/takanory>`_)
 - `PyCon JP Association <https://www.pycon.jp>`__ 副代表理事: ``#pyconjp``
-- `株式会社BeProud <https://www.beproud.jp>`__ 取締役/Python Climber
+- `BeProud <https://www.beproud.jp>`__ 取締役/Python Climber
 - `Python mini Hack-a-thon <https://pyhack.connpass.com/>`__ 主催: ``#pyhack``
 - `Pythonボルダリング部 <https://kabepy.connpass.com/>`__ 部長: ``#kabepy``
 
@@ -64,6 +67,15 @@ PyCon JP 2022 🎫
 .. .. image:: /assets/images/pyconjp2019.png
    :alt: PyCon JP 2019
 
+PyCon JP TV 📺
+---------------
+- `tv.pycon.jp <https://tv.pycon.jp/>`__
+- YouTube LiveでPython関連情報をお届け
+
+.. image:: /assets/images/pyconjptv.png
+   :alt: PyCon JP TV
+   :width: 60%
+
 Python Boot Camp 💪
 --------------------
 - `www.pycon.jp/support/bootcamp.html <https://www.pycon.jp/support/bootcamp.html>`__
@@ -72,21 +84,17 @@ Python Boot Camp 💪
 .. image:: /assets/images/python-boot-camp-logo.png
    :alt: Python Boot Camp
 
-Books 📚
-========
+Books(`著者ページ`_) 📚
+=======================
 .. image:: /assets/images/takanory-books.png
-   :width: 65%
+   :width: 75%
 
-* `Amazonの著者ページ <https://www.amazon.co.jp/%E9%88%B4%E6%9C%A8%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/e/B00W95A036/ref=dp_byline_cont_pop_ebooks_1>`_
+.. _著者ページ: https://www.amazon.co.jp/kindle-dbs/entity/author/B00W95A036
 
-PyCon Tour 2019 🌏
-==================
-- 2月: PyCon APAC 🇵🇭
-- 5月: US PyCon 🇺🇸
-- 6月: PyCon Thailand 🇹🇭
-- 7月: EuroPython 🇨🇭
-- 8月: PyCon Malaysia 🇲🇾
-- 9月: PyCon Japan 🇯🇵
-- 9月: PyCon Taiwan 🇹🇼
-- 10月: PyCon Singapore 🇸🇬
-- 11月: PyCon Indonesia 🇮🇩
+Takanori Suzuki
+===============
+`@takanory <https://twitter.com/takanory>`_
+
+.. image:: /assets/images/sokidan-square.jpg
+   :width: 20%
+   :alt: takanory
