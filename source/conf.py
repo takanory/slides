@@ -61,6 +61,17 @@ html_css_files = [
     "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
 ]
 
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        # "sidebar/search.html",
+        "sidebar/navigation.html",
+        "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html",
+    ]
+}
+
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/"
 ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
