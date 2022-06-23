@@ -6,9 +6,9 @@
    :target: https://app.netlify.com/sites/takanory-slides/deploys
    :alt: Netlify Status
 
-* |globe| https://slides.takanory.net/
-* |github| https://github.com/takanory/slides
-* |twitter| `@takanory <https://twitter.com/takanory>`_
+* :fas:`globe` https://slides.takanory.net/
+* :fab:`github` https://github.com/takanory/slides
+* :fab:`twitter` `@takanory <https://twitter.com/takanory>`_
 * `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
@@ -392,9 +392,9 @@ Reference
 =========
 * `Sphinx documentation <https://www.sphinx-doc.org/>`_
 * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_
-* `sphinx_fontawesome <https://github.com/fraoustin/sphinx_fontawesome>`_  
 * `Furo <https://pradyunsg.me/furo/>`_
 * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_
+* `sphinx-design <https://sphinx-design.readthedocs.io/>`_
 * `Netlify <https://www.netlify.com/>`_
 
   * `Netlify Docs <https://docs.netlify.com/>`_

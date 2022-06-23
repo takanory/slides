@@ -1,4 +1,4 @@
-:og:image: /_images/20210825ossx.png
+:og:image: _images/20210825ossx.png
 
 .. |cover| image:: images/20210825ossx.png
 

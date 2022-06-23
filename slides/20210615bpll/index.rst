@@ -1,4 +1,4 @@
-:og:image: /_images/20210615bpll.png
+:og:image: _images/20210615bpll.png
 
 .. |cover| image:: images/20210615bpll.png
 
