@@ -1,5 +1,5 @@
 furo==2022.6.21
 Sphinx==5.0.2
 sphinx-fontawesome==0.0.6
-sphinx-revealjs==1.5.3
+sphinx-revealjs==2.0.0
 sphinxext-opengraph==0.6.3
