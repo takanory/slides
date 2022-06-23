@@ -29,8 +29,8 @@ author = 'takanory'
 # ones.
 extensions = [
     'sphinx_revealjs',
-    "sphinx_fontawesome",
     "sphinxext.opengraph",
+    "sphinx_design",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -91,7 +91,7 @@ revealjs_script_plugins = [
 ]
 revealjs_static_path = html_static_path
 revealjs_css_files = [
-    "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
     "revealjs4/plugin/highlight/zenburn.css",
     'slides.css',
 ]

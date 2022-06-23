@@ -28,8 +28,8 @@ author = 'takanory'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "sphinx_fontawesome",
     "sphinxext.opengraph",
+    "sphinx_design",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -58,7 +58,7 @@ html_logo = "_static/takanory.jpg"
 html_title = "takanory slides"
 
 html_css_files = [
-    "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
 ]
 
 html_sidebars = {
