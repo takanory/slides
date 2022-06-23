@@ -17,21 +17,27 @@ Agenda
 * How to create **interactive** bot
 * How to **extend** bot using libs and APIs
 
-.. Today, I will talk about...
+.. revealjs-notes::
+
+   Today, I will talk about...
 
 Photos 📷 Tweets 🐦 👍
 =========================
 
 ``#pyconus2022`` / ``@takanory``
 
-.. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
+.. revealjs-notes::
+
+   I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
    Hashtag is #pyconus2022
 
 Slide 💻
 ---------
 `slides.takanory.net <https://slides.takanory.net>`__
 
-.. This slide is available on slides.takanory.net.
+.. revealjs-notes::
+
+   This slide is available on slides.takanory.net.
    And I've already shared this slide URL on Twitter.
 
 Why **ver. 2** in the title?
@@ -45,7 +51,9 @@ Back to **2020**
 .. image:: images/pyconus2020.png
    :width: 80%
 
-.. The story goes back to 2020.
+.. revealjs-notes::
+
+   The story goes back to 2020.
    PyCon US 2020 has accepted my talk with the same title.
    But that event went online at the last minute, and I provided a presentation video.
    This was unfortunate for me.
@@ -57,7 +65,9 @@ Came back at **2022**
 * I am very **happy**!!
 * **Thanks** to PyCon US staff!!
 
-.. Then, I came back to PyCon US 2022.
+.. revealjs-notes::
+
+   Then, I came back to PyCon US 2022.
    I've updated the talk with the latest information.
    I am very happy to talk in PyCon US.
    However, I am very sorry that I could not participate locally.
@@ -77,7 +87,9 @@ Who am I? 👤
 
 .. image:: /assets/images/sokidan-square.jpg
 
-.. Before the main topic,...I will introduce myself.
+.. revealjs-notes::
+
+   Before the main topic,...I will introduce myself.
    I'm Takanori Suzuki. My twitter is "takanory", please follow me.
    I'm Vice-Chairperson of the PyCon JP Association.
    And I'm director of BeProud Inc.
@@ -89,7 +101,9 @@ Who am I? 👤
 * Date: 2022 **Oct 14** (Fri) - **16** (Sun)
 * Venue: **Tokyo**, Japan (in-person)
 
-.. PyCon JP 2022 will be held as an in-person event.
+.. revealjs-notes::
+
+   PyCon JP 2022 will be held as an in-person event.
    Please come to Japan!
    Let's get back to the main topic.
    
@@ -98,7 +112,9 @@ Who am I? 👤
 **Background** and **Motivation**
 =================================
 
-.. First, I will talk about the Background and Motivation of this talk.
+.. revealjs-notes::
+
+   First, I will talk about the Background and Motivation of this talk.
 
 Conference **Tasks**
 --------------------
@@ -110,7 +126,9 @@ Conference **Tasks**
   * 🏬 Venue and facility(WiFi, Video...)
   * 🍱 Foods, ☕️ Coffee, 🧁 Snacks and 🍺 Beers
 
-.. I held PyCon JP events several years in the past.
+.. revealjs-notes::
+
+   I held PyCon JP events several years in the past.
    As you can imagine, there are lots of tasks to hold Conference.
    For example, talk arrangements, ticket sales, venue management, food...
    And, ...
@@ -120,17 +138,23 @@ Staff ask me the **same things**
 * 40+ staff
 * 🐣 NEW staff : 🐔 OLD staff = 50 : 50
 
-.. The number of PyCon JP staff is over 40, half of them are new staff.
+.. revealjs-notes::
+
+   The number of PyCon JP staff is over 40, half of them are new staff.
    New staff ask similar things to me. And I send similar answers repeatedly.
    But, ...
 
 Programmer is **Lazy**
 ======================
-.. As you know, programmers dislike routine work. I also dislike it VERY much.
+.. revealjs-notes::
+
+   As you know, programmers dislike routine work. I also dislike it VERY much.
 
 Let's create a **secretary**!!
 ==============================
-.. I want someone to do my bothersome tasks instead of me like a secretary.
+.. revealjs-notes::
+
+   I want someone to do my bothersome tasks instead of me like a secretary.
    Let's make it.
 
 Goal
@@ -139,7 +163,9 @@ Goal
 * How to create **interactive** bot
 * How to **extend** bot using libs and APIs
 
-.. The goal of this talk.
+.. revealjs-notes::
+
+   The goal of this talk.
    You'll learn how to create simple bot,
    how to create interactive bot,
    how to extend bot using libraries and APIs through various case studies.
@@ -153,7 +179,9 @@ Why **Slack** ?
 .. image:: /20190224pyconapac/images/slack.png
    :width: 60%
 
-.. My secretary is a chatbot of Slack.
+.. revealjs-notes::
+
+   My secretary is a chatbot of Slack.
    Is there someone using Slack?
    I'm Launching the Slack application at any time on my PC and smartphone.
    So it's easy to access Slack. I want to do everything in Slack.
@@ -167,7 +195,9 @@ You can create **interactive** bot
 .. image:: images/bot-result2.png
    :width: 48%
 
-.. If you listen to the end of this talk, you will be able to create a bot like this.
+.. revealjs-notes::
+
+   If you listen to the end of this talk, you will be able to create a bot like this.
    For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email addresses and more.
    Now let's learn how to create a bot.
    
@@ -177,13 +207,17 @@ You can create **interactive** bot
 Simple integration with **Incoming Webhooks** 🪝
 ================================================
 
-.. First, I will explain Simple integration with Incoming Webhooks.
+.. revealjs-notes::
+
+   First, I will explain Simple integration with Incoming Webhooks.
 
 System overview
 ---------------
 .. image:: images/diagram-webhook.png
 
-.. This is a system overview of Incoming Webhooks.
+.. revealjs-notes::
+
+   This is a system overview of Incoming Webhooks.
    When a program sends a message to a Webhook URL via HTTPS, the message will be sent to Slack.
 
 **Create** Incoming Webhooks Integration 🔧
@@ -198,7 +232,9 @@ System overview
   3. Add Webhook to Workspace
 * see: `Sending messages using Incoming Webhooks <https://api.slack.com/messaging/webhooks>`_
 
-.. How to generate a Webhook URL is as follows....
+.. revealjs-notes::
+
+   How to generate a Webhook URL is as follows....
 
 1. Create a Slack app
 ---------------------
@@ -256,7 +292,9 @@ System overview
 .. image:: images/create-webhook6.png
    :width: 50%
 
-.. At last, we got a webhook URL
+.. revealjs-notes::
+
+   At last, we got a webhook URL
    Then let's send a message to Slack with the URL.
 
 Post message via **Webhook URL** 📬
@@ -273,7 +311,9 @@ Post message with **cURL**
 
 .. image:: images/webhook-curl.png
 
-.. We send a simple message with cURL.
+.. revealjs-notes::
+
+   We send a simple message with cURL.
    When we send a message with JSON, the message will be displayed in Slack.
 
 Post message with **Python**
@@ -292,7 +332,9 @@ Post message with **Python**
 
 .. image:: images/webhook-python.png
 
-.. But we are pythonista.
+.. revealjs-notes::
+
+   But we are pythonista.
    We use urllib.requests module.
 
 Post message with **Requests**
@@ -313,7 +355,9 @@ Post message with **Requests**
 
 .. image:: images/webhook-requests.png
 
-.. It is easier to use Requests.
+.. revealjs-notes::
+
+   It is easier to use Requests.
 
 Post message with **Slack SDK**
 -------------------------------
@@ -333,7 +377,9 @@ Post message with **Slack SDK**
 
 .. image:: images/webhook-slacksdk.png
 
-.. I also recommend the Python Slack SDK provided by Slack.
+.. revealjs-notes::
+
+   I also recommend the Python Slack SDK provided by Slack.
 
 .. Slackが提供しているPython Slack SDKもおすすめです。
 
@@ -354,7 +400,9 @@ Post message with **Slack SDK**
 
 .. image:: images/webhook-formatting.gif
 
-.. Text can be formatted as markdown
+.. revealjs-notes::
+
+   Text can be formatted as markdown
    If you want to create more complex messages,... use the Block Kit.
 
 .. markdownっぽくテキストがフォーマットできます。
@@ -362,7 +410,9 @@ Post message with **Slack SDK**
 **Block** Kit 🧱
 ================
 
-.. use the Block Kit !
+.. revealjs-notes::
+
+   use the Block Kit !
 
 **Block** Kit
 -------------
@@ -372,7 +422,9 @@ Post message with **Slack SDK**
 
 * see: `Block Kit <https://api.slack.com/block-kit>`_
 
-.. Block Kit is a new UI framework for Slack apps.
+.. revealjs-notes::
+
+   Block Kit is a new UI framework for Slack apps.
 
 **Example** of Block Kit
 ------------------------
@@ -402,7 +454,9 @@ Block Kit **Builder**
 
 * `app.slack.com/block-kit-builder/ <https://app.slack.com/block-kit-builder/>`_
 
-.. Block Kit Builder is useful for creating Blocks.
+.. revealjs-notes::
+
+   Block Kit Builder is useful for creating Blocks.
    We can write Block Kit code interactively and see the results visually.
 
 Summary of Incoming **Webhooks**
@@ -411,13 +465,17 @@ Summary of Incoming **Webhooks**
 * Create complex messages with **Block Kit** 🧱
 * But **one-way** (program➡️Webhook➡️Slack)
 
-.. I'd like to interact with the bot.
+.. revealjs-notes::
+
+   I'd like to interact with the bot.
    Next,..
 
 **Interactive** bot 🤝
 ======================
 
-.. Next,..I will explain how to make an interactive bot.  
+.. revealjs-notes::
+
+   Next,..I will explain how to make an interactive bot.  
 
 Connection protocols
 --------------------
@@ -425,7 +483,9 @@ Connection protocols
 * Socket Mode
 * see: `Choosing a protocol to connect to Slack <https://api.slack.com/apis/connections>`_
 
-.. Slack provides 2 protocols for interacting.
+.. revealjs-notes::
+
+   Slack provides 2 protocols for interacting.
 
 .. Slackは2種類のプロトコルを用意しています
 
@@ -436,7 +496,9 @@ Events API over HTTP
 
 * see: `Using the Slack Events API <https://api.slack.com/apis/connections/events-api>`_
 
-.. In "Events API over HTTP",
+.. revealjs-notes::
+
+   In "Events API over HTTP",
    User messages will be Events API and Events API directly over HTTP.
    The protocol requires a public HTTP endpoint.
 
@@ -448,7 +510,9 @@ Socket Mode
 
 * see: `Intro to Socket Mode <https://api.slack.com/apis/connections/socket>`_
 
-.. On the other hand, Socket Mode does not require a static HTTP endpoint.
+.. revealjs-notes::
+
+   On the other hand, Socket Mode does not require a static HTTP endpoint.
    Socket Mode allows you to receive Events API through a private WebSocket.
 
 Connection protocols
@@ -456,7 +520,9 @@ Connection protocols
 * Events API over HTTP
 * **Socket Mode** 👈
 
-.. I chose Socket Mode for this talk, because it is easy to develop locally.
+.. revealjs-notes::
+
+   I chose Socket Mode for this talk, because it is easy to develop locally.
 
 .. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
    * ここではSocket Modeで説明をしていく
@@ -475,7 +541,9 @@ Connection protocols
   5. Install App to Workspace
 * Invite bot user to Slack channels
 
-.. I describe how to create an interactive bot.
+.. revealjs-notes::
+
+   I describe how to create an interactive bot.
    At first, we create bot user on Slack.
 
 1. Create a Slack app
@@ -604,7 +672,9 @@ Invite bot user to channels
 **Long** and **Complex** !! 🤯
 ===============================
 
-.. The steps are long and complex !!
+.. revealjs-notes::
+
+   The steps are long and complex !!
    Is there a better way ?
    I recommend... App Manifest.
 
@@ -613,14 +683,18 @@ Invite bot user to channels
 App **Manifest** ⚙️
 ===================
 
-.. I recommend... App Manifest.
+.. revealjs-notes::
+
+   I recommend... App Manifest.
 
 App **Manifest**
 ----------------
 * YAML-formatted configuration for Slack apps
 * see: `Create and configure apps with manifests <https://api.slack.com/reference/manifests>`_
 
-.. App Manifests are YAML-formatted configuration bundles for Slack apps.
+.. revealjs-notes::
+
+   App Manifests are YAML-formatted configuration bundles for Slack apps.
    We can share and reuse manifests.
 
 Example of App Manifest
@@ -711,13 +785,17 @@ Create new app with App Manifest
 **Short** and **Reusable** !! 🥳
 =================================
 
-.. App Manifest makes steps shorter and reusable.
+.. revealjs-notes::
+
+   App Manifest makes steps shorter and reusable.
    Now we are ready to start creating an interactive bot.
 
 Create bot with **Bolt** ⚡️
 ============================
 
-.. Let's create a bot with Bolt !
+.. revealjs-notes::
+
+   Let's create a bot with Bolt !
    What is Bolt?
 
 Bolt for Python
@@ -730,7 +808,9 @@ Bolt for Python
   * `Bolt for Python <https://slack.dev/bolt-python/concepts>`_
   * `The Bolt family of SDKs <https://api.slack.com/tools/bolt>`_ (JavaScript, Java)
 
-.. Bolt is a Python ... flash.
+.. revealjs-notes::
+
+   Bolt is a Python ... flash.
    Slack also provides Bolt for JavaScript and Java.
 
 **Install** Bolt for Python
@@ -749,7 +829,9 @@ Bolt for Python
    :language: python
    :caption: app.py
 
-.. When the bot receives the string "Hi", bot sends a greeting message.
+.. revealjs-notes::
+
+   When the bot receives the string "Hi", bot sends a greeting message.
 
 **Running** bot
 ---------------
@@ -763,7 +845,9 @@ Bolt for Python
 
 .. image:: images/bot-hi.png
 
-.. Set 2 tokens in environment variables, then run app.py.
+.. revealjs-notes::
+
+   Set 2 tokens in environment variables, then run app.py.
    When I write a message "Hi" on Slack, the bot responds!
 
 I can **interact** with the bot ! 🎉
@@ -771,12 +855,16 @@ I can **interact** with the bot ! 🎉
 
 .. image:: images/bot-hi.png
 
-.. But this is simple enough, so...
+.. revealjs-notes::
+
+   But this is simple enough, so...
 
 **Extend** bot 🛠
 =================
 
-.. so I will extend the bot.
+.. revealjs-notes::
+
+   so I will extend the bot.
 
 ``@app.message()`` decolator
 ----------------------------
@@ -786,8 +874,9 @@ I can **interact** with the bot ! 🎉
 .. image:: images/bot-decolator.png
    :width: 30%
 
+.. revealjs-notes::
 
-.. app.message() decolator executes the function when it matches the pattern.
+   app.message() decolator executes the function when it matches the pattern.
 
 mention
 -------
@@ -797,7 +886,9 @@ mention
 .. image:: images/bot-mention.png
    :width: 30%
 
-.. The bot can send mentions
+.. revealjs-notes::
+
+   The bot can send mentions
 
 Using regular expression
 ------------------------
@@ -807,7 +898,9 @@ Using regular expression
 .. image:: images/bot-choice.png
    :width: 30%
 
-.. Bolt can handle parameters.
+.. revealjs-notes::
+
+   Bolt can handle parameters.
    We use regular expressions in app.message() decolator, you can extract matched strings from context["matches"]
 
 .. revealjs-break::
@@ -849,7 +942,9 @@ Events and Scopes
 * Can only receive events in **Bot Events**
 * Can only execute APIs allowed by **Bot Token Scopes**
   
-.. Events and Scopes are important concepts in Slack Bots.
+.. revealjs-notes::
+
+   Events and Scopes are important concepts in Slack Bots.
    Bot can only receive events in **Bot Events**.
    Bot aan only execute APIs allowed by **Bot Token Scopes**.
 
@@ -865,7 +960,9 @@ Current Bot Events and Scopes
   :channels:history: View messages in **public channels**
   :chat:write: Post message
 
-.. For example, the current bot event is message.channel, bot scopes are channels:history and chat:write only.
+.. revealjs-notes::
+
+   For example, the current bot event is message.channel, bot scopes are channels:history and chat:write only.
 
 .. revealjs-break::
 
@@ -874,7 +971,9 @@ Current Bot Events and Scopes
 .. image:: images/bot-private-cannot-view.png
    :width: 50%
 
-.. So, the bot cannot read/write messages on private channels.
+.. revealjs-notes::
+
+   So, the bot cannot read/write messages on private channels.
    I invited the bot to a private channel and sent a "Hi" message but no response!
    What shoud I do?
 
@@ -887,7 +986,9 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes1.png
    :width: 50%
 
-.. I need to add events and scopes for private channels.
+.. revealjs-notes::
+
+   I need to add events and scopes for private channels.
    I added a "message.groups" event.
 
 .. revealjs-break::
@@ -898,7 +999,9 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes2.png
    :width: 50%
 
-.. "groups:history" scope is automatically added
+.. revealjs-notes::
+
+   "groups:history" scope is automatically added
 
 .. revealjs-break::
 
@@ -910,7 +1013,9 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes4.png
    :width: 40%
 
-.. I will reinstall the app because of the change in events and scopes.
+.. revealjs-notes::
+
+   I will reinstall the app because of the change in events and scopes.
 
 .. revealjs-break::
 
@@ -919,7 +1024,9 @@ Add Events and Scopes for private channels
 .. image:: images/add-events-and-scopes6.png
    :width: 40%
 
-.. Then, the bot can read/write messages in **private channel**
+.. revealjs-notes::
+
+   Then, the bot can read/write messages in **private channel**
 
 To know user joined a channel
 -----------------------------
@@ -932,7 +1039,9 @@ To know user joined a channel
 .. image:: images/event-member-joined.png
    :width: 40%
 
-.. If you want to know when a user joins a channel, add a "member_joind_channel" event.
+.. revealjs-notes::
+
+   If you want to know when a user joins a channel, add a "member_joind_channel" event.
    And You can handle the event with @app.event decorator.
 
 Add Emoji reaction
@@ -946,7 +1055,9 @@ Add Emoji reaction
 .. image:: images/scope-reactions-write.png
    :width: 50%
 
-.. If you want to add emoji reactions, add a "reactions:write" scope.
+.. revealjs-notes::
+
+   If you want to add emoji reactions, add a "reactions:write" scope.
 
 **Summary** of Events and Scopes
 --------------------------------
