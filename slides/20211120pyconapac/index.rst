@@ -49,7 +49,7 @@ Slide 💻
 
 Who am I? 👤
 =============
-* Takanori Suzuki / 鈴木 たかのり (|twitter| `@takanory <https://twitter.com/takanory>`_)
+* Takanori Suzuki / 鈴木 たかのり (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 * `PyCon JP Association <https://www.pycon.jp/>`_: Vice Chair
 * `BeProud Inc. <https://www.beproud.jp/>`_: Director / Python Climber
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
@@ -225,8 +225,8 @@ Motivation
 
 .. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
 
-Syntax |code|
-=============
+Syntax :fas:`code`
+==================
 * Generic syntax of pattern matching
 
 .. revealjs-code-block:: python
@@ -269,8 +269,8 @@ Soft keywords
    ソフトキーワードは識別子に使用できる
    では、実際の書き方を説明していきます。
 
-Patterns |random|
-=================
+Patterns :fas:`suffle`
+======================
 .. revealjs-break::
 
 .. code-block:: python
@@ -968,10 +968,10 @@ Summary
 .. revealjs-break::
 
 * Motivation 💪
-* Syntax |code|
+* Syntax :fas:`code`
 
   * Soft keywords: ``match``, ``case`` and ``_``
-* Patterns |random|
+* Patterns :fas:`shuffle`
 
   * Literal, Variable, Classes, Sequense, Mapping
   * Wildcard, OR, AS, Guards
@@ -997,7 +997,7 @@ References 📚
 
 Thank you !! 🙏
 ===============
-Takanori Suzuki (|twitter| `@takanory <https://twitter.com/takanory>`_)
+Takanori Suzuki (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 
 `slides.takanory.net <https://slides.takanory.net/>`_
 

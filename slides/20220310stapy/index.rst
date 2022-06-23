@@ -38,15 +38,15 @@ Slide 💻
 
 Who am I? / お前誰よ 👤
 ========================
-* Takanori Suzuki / 鈴木 たかのり (|twitter| `@takanory <https://twitter.com/takanory>`_)
+* Takanori Suzuki / 鈴木 たかのり (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 * `PyCon JP Association <https://www.pycon.jp/>`_: 副代表理事
 * `BeProud <https://www.beproud.jp/>`_: 取締役 / Python Climber
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
 
 .. image:: /assets/images/sokidan-square.jpg
 
-Books (|amazon| 著者ページ_) 📚
---------------------------------
+Books (:fab:`amazon` 著者ページ_) 📚
+-------------------------------------
 .. image:: /assets/images/takanory-books.png
    :width: 75%
 
@@ -243,8 +243,8 @@ Structural Pattern Matching 🏛
    これがStructural Pattern Matchingのモチベーション。
    さて、モチベーションがわかったところで、構文について説明します
 
-構文 |code|
-===========
+構文 :fas:`code`
+================
 * Pattern Matchingの基本的な構文
 
 .. revealjs-code-block:: python
@@ -282,8 +282,9 @@ Structural Pattern Matching 🏛
    ソフトキーワードは識別子に使用可能。
    では、パターンについて説明します。
 
-パターン |random|
-=================
+パターン :fas:`shuffle`
+=======================
+     
 .. revealjs-break::
 
 .. code-block:: python
@@ -969,10 +970,10 @@ Pattern Matchingは **パワフル** 💪
 .. revealjs-break::
 
 * モチベーション 💪
-* 構文 |code|
+* 構文 :fas:`code`
 
   * ソフトキーワード: ``match``、``case``、``_``
-* パターン |random|
+* パターン :fas:`random`
 
   * リテラル、ワイルドカード、変数、クラス、シーケンス、マッピング、OR、AS、ガード
 
@@ -995,7 +996,7 @@ Structural Pattern Matching に **挑戦** 👍
 
 Thank you !! 🙏
 ===============
-Takanori Suzuki (|twitter| `@takanory <https://twitter.com/takanory>`_)
+Takanori Suzuki (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 
 `slides.takanory.net <https://slides.takanory.net/>`_
 
