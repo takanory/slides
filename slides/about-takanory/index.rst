@@ -93,7 +93,11 @@ Books(`著者ページ`_) 📚
 
 Takanori Suzuki
 ===============
-`@takanory <https://twitter.com/takanory>`_
+:fab:`twitter` `@takanory <https://twitter.com/takanory>`__
+
+:fab:`github` `takanory <https://github.com/takanory/>`__
+
+:fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
 
 .. image:: /assets/images/sokidan-square.jpg
    :width: 20%
