@@ -9,7 +9,7 @@
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
 * :fab:`twitter` `@takanory <https://twitter.com/takanory>`_
-* `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_
+* `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_ (`ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan

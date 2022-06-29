@@ -9,4 +9,4 @@ slides
    :glob:
    :maxdepth: 1
 
-   */index
+   */*
