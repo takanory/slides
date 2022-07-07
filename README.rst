@@ -30,6 +30,12 @@
      * kind
      * title
      * resource
+   - * BPStyle138
+     * Online
+     * 2022 Jul
+     * Talk
+     * 2要素認証について知ろう
+     * `Slides <https://slides.takanory.net/slides/20220707_2fa/>`__
    - * `PyCon US 2022 <https://us.pycon.org/2022/>`_
      * Salt Lake City, UT
      * 2022 Apr
