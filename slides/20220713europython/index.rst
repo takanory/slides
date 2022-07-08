@@ -7,7 +7,7 @@ Takanori Suzuki
 EuroPython 2022 / 2022 Jul 13
 
 .. Thank you for coming to my presentation.
-   I am very happy to be able to talk in PyCon US.
+   I am very happy to be able to talk in EuroPython.
    My talk title is "Automate the Boring Stuff with Slackbot (ver. 2)"
 
 Agenda
@@ -24,12 +24,12 @@ Agenda
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#pyconus2022`` / ``@takanory``
+``#EuroPython`` / ``@takanory``
 
 .. revealjs-notes::
 
-   I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
-   Hashtag is #pyconus2022
+   I'd be happy to take pictures and share them and give you feedback on Twitter.
+   Hashtag is #EuroPython
 
 Slide 💻
 ---------
@@ -37,46 +37,38 @@ Slide 💻
 
 .. revealjs-notes::
 
-   This slide is available on slides.takanory.net.
+   I've already published this slide on slides.takanory.net.
    And I've already shared this slide URL on Twitter.
 
 Why **ver. 2** in the title?
 ============================
 
-Back to **2020**
+Back to **2019**
 ----------------
-* PyCon US 2020 went **online**
-* `us.pycon.org/2020/online/ <https://us.pycon.org/2020/online/>`_
+* Talk in 🇵🇭 🇹🇭 🇲🇾 🇯🇵 🇹🇼 🇸🇬 🇮🇩
+* TODO: 各国PyConでの発表のコラージュ
 
 .. image:: images/pyconus2020.png
    :width: 80%
 
 .. revealjs-notes::
 
-   The story goes back to 2020.
-   PyCon US 2020 has accepted my talk with the same title.
-   But that event went online at the last minute, and I provided a presentation video.
-   This was unfortunate for me.
-   You can see my video at this URL.
+   The story goes back to 2019.
+   I have given talks on Slackbot at several PyCons.
 
-Came back at **2022**
----------------------
+And the 2022
+------------
 * Talk **updated** with latest information
 * I am very **happy**!!
-* **Thanks** to PyCon US staff!!
+* **Thanks** to EuroPython staff!!
 
 .. revealjs-notes::
 
-   Then, I came back to PyCon US 2022.
-   I've updated the talk with the latest information.
-   I am very happy to talk in PyCon US.
-   However, I am very sorry that I could not participate locally.
+   I've updated the talk with the latest information about Slack and libraries.
+   And this is my first talk at an international Python event after COVID-19!
+   I am very happy to be able to present in person in front of you all.
+   And huge thanks to EuroPython staff.
    By the way, before the main topic,...
-
-.. 2020にトークが採用されたけど急遽オンラインになった
-   ビデオ提供したけど発表したって感じしない
-   今回、同じ内容を更新して発表する。発表できてうれしい
-   Before the main topic,...
 
 Who am I? 👤
 =============
@@ -93,13 +85,16 @@ Who am I? 👤
    I'm Takanori Suzuki. My twitter is "takanory", please follow me.
    I'm Vice-Chairperson of the PyCon JP Association.
    And I'm director of BeProud Inc.
-   I'm also active in several Python related communities
+   I'm also active in several Python related communities.
 
 **PyCon JP** 2022 🇯🇵
 ---------------------
 * `2022.pycon.jp <https://2022.pycon.jp/>`_
 * Date: 2022 **Oct 14** (Fri) - **16** (Sun)
 * Venue: **Tokyo**, Japan (in-person)
+
+.. image:: /assets/images/pyconjp2022logo.png
+   :width: 50%
 
 .. revealjs-notes::
 
@@ -1381,9 +1376,9 @@ Thank you! 🙏
 
 :fab:`twitter` `@takanory <https://twitter.com/takanory>`_
 
-:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`_
+:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`__
 
-:fas:`code` `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
+:fas:`code` `github.com/takanory/slides/tree/master/slides/20220713europython/code <https://github.com/takanory/slides/tree/master/slides/20220713europython/code>`__
 
 translate command
 -----------------
@@ -1401,6 +1396,6 @@ Thank you! 🙏
 
 :fab:`twitter` `@takanory <https://twitter.com/takanory>`_
 
-:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`_
+:fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`__
 
-:fas:`code` `github.com/takanory/slides/tree/master/20220429pyconus/code <https://github.com/takanory/slides/tree/master/20220429pyconus/code>`_
+:fas:`code` `github.com/takanory/slides/tree/master/slides/20220713europython/code <https://github.com/takanory/slides/tree/master/slides/20220713europython/code>`__
