@@ -9,13 +9,61 @@
 Who am I? / お前誰よ👤
 =======================
 - 鈴木たかのり / Takanori Suzuki (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
-- `PyCon JP Association <https://www.pycon.jp>`__ 副代表理事: ``#pyconjp``
+- `PyCon JP Association <https://www.pycon.jp>`__ 副代表理事
 - `BeProud <https://www.beproud.jp>`__ 取締役/Python Climber
-- `Python mini Hack-a-thon <https://pyhack.connpass.com/>`__ 主催: ``#pyhack``
-- `Pythonボルダリング部 <https://kabepy.connpass.com/>`__ 部長: ``#kabepy``
+- `Python mini Hack-a-thon <https://pyhack.connpass.com/>`__
+- 好き: Ferrets_、`🍺 <https://untappd.com/user/takanory>`__、LEGO_ ／ 趣味: `🎺 <https://twpo.org/>`__、`🧗‍♀️ <https://kabepy.connpass.com/>`__
+
+.. _Ferrets: https://twitter.com/search?q=%E3%81%9B%E3%81%B6%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20(from%3Atakanory)&src=typed_query&f=live>
+.. _LEGO: https://brickset.com/sets/ownedby-takanori
 
 .. image:: /assets/images/kurokuri.jpg
    :alt: takanory
+
+PyCon JP Association 🐍
+========================
+- `www.pycon.jp <https://www.pycon.jp/>`__
+- 日本国内のPythonユーザーのために、Pythonの普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
+
+.. image:: /assets/images/pyconjp_logo.png
+   :alt: PyCon JP
+
+PSF Community Service Awards 🏆
+--------------------------------
+.. image:: /assets/images/psf-awards.jpg
+   :width: 50%
+
+* `PSF Community Service Awards | Python.org <https://www.python.org/community/awards/psf-awards/#december-2021>`_
+* `PyCon JP Association Awarded the PSF Community Service Award for Q4 2021 <https://pyfound.blogspot.com/2022/05/pycon-jp-association-awarded-psf.html>`_
+* `PyCon JP Blog: PyCon US 2022でCommunity Service Awardsを受賞してきました <https://pyconjp.blogspot.com/2022/06/pyconjp-win-awards.html>`_
+
+PyCon JP 2022 🎫
+-----------------
+- `2022.pycon.jp <https://2022.pycon.jp/>`__
+- 国内最大(1,000名)規模のPythonイベント
+- 日付: 2022年10月14日(金)-16日(日)
+- 会場: `TOC有明コンベンションホール <https://www.toc.co.jp/saiji/ariake/>`__
+
+.. image:: /assets/images/pyconjp2022logo.png
+   :alt: PyCon JP 2022
+   :width: 60%
+
+PyCon JP TV 📺
+---------------
+- `tv.pycon.jp <https://tv.pycon.jp/>`__
+- YouTube LiveでPython関連情報をお届け
+
+.. image:: /assets/images/pyconjptv.png
+   :alt: PyCon JP TV
+   :width: 60%
+
+Python Boot Camp 💪
+--------------------
+- `www.pycon.jp/support/bootcamp.html <https://www.pycon.jp/support/bootcamp.html>`__
+- 初心者向けPythonチュートリアル
+
+.. image:: /assets/images/python-boot-camp-logo.png
+   :alt: Python Boot Camp
 
 BeProud Inc. 🏢
 ===============
@@ -48,50 +96,6 @@ TRACERY(トレーサリー) 📑
 
 .. image:: /assets/images/tracery.png
    :width: 80%
-
-PyCon JP Association 🐍
-========================
-- `www.pycon.jp <https://www.pycon.jp/>`__
-- 日本国内のPythonユーザーのために、Pythonの普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
-
-.. image:: /assets/images/pyconjp_logo.png
-   :alt: PyCon JP
-
-PSF Community Service Awards 🏆
---------------------------------
-.. image:: /assets/images/psf-awards.jpg
-   :width: 50%
-
-* `PSF Community Service Awards | Python.org <https://www.python.org/community/awards/psf-awards/#december-2021>`_
-* `PyCon JP Association Awarded the PSF Community Service Award for Q4 2021 <https://pyfound.blogspot.com/2022/05/pycon-jp-association-awarded-psf.html>`_
-* `PyCon JP Blog: PyCon US 2022でCommunity Service Awardsを受賞してきました <https://pyconjp.blogspot.com/2022/06/pyconjp-win-awards.html>`_
-
-PyCon JP 2022 🎫
------------------
-- `2022.pycon.jp <https://2022.pycon.jp/>`__
-- 国内最大(1,000名)規模のPythonイベント
-- 日付: 2022年10月14日(金)-16日(日)
-- 会場: `TOC有明コンベンションホール <https://www.toc.co.jp/saiji/ariake/>`__
-
-.. .. image:: /assets/images/pyconjp2019.png
-   :alt: PyCon JP 2019
-
-PyCon JP TV 📺
----------------
-- `tv.pycon.jp <https://tv.pycon.jp/>`__
-- YouTube LiveでPython関連情報をお届け
-
-.. image:: /assets/images/pyconjptv.png
-   :alt: PyCon JP TV
-   :width: 60%
-
-Python Boot Camp 💪
---------------------
-- `www.pycon.jp/support/bootcamp.html <https://www.pycon.jp/support/bootcamp.html>`__
-- 初心者向けPythonチュートリアル
-
-.. image:: /assets/images/python-boot-camp-logo.png
-   :alt: Python Boot Camp
 
 Books(:fab:`amazon` `著者ページ`_) 📚
 ======================================
