@@ -24,7 +24,7 @@ Agenda
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#EuroPython`` / ``@takanory``
+``#EuroPython2022`` / ``@takanory``
 
 .. revealjs-notes::
 
@@ -58,9 +58,9 @@ Back to **2019**
 
 And the 2022
 ------------
-* Talk **updated** with latest information
-* I am very **happy**!!
-* **Thanks** to EuroPython staff!!
+* **Updated** with latest information 🆕
+* 1st in-person intl event after COVID-19 🗣👥
+* **Thanks** to EuroPython staff!! 👏
 
 .. revealjs-notes::
 
@@ -75,9 +75,14 @@ Who am I? 👤
 * Takanori Suzuki / 鈴木 たかのり (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
 * Vice Chair of `PyCon JP Association <https://www.pycon.jp/>`_
 * Director of `BeProud Inc. <https://www.beproud.jp/>`_
-* `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_, `Python Bouldering Club <https://kabepy.connpass.com/>`_
+* `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_
+* Likee: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
 
 .. image:: /assets/images/sokidan-square.jpg
+   :width: 180
+
+.. image:: /assets/images/kurokuri.jpg
+   :width: 180
 
 .. revealjs-notes::
 
@@ -152,8 +157,8 @@ Let's create a **secretary**!!
    I want someone to do my bothersome tasks instead of me like a secretary.
    Let's make it.
 
-Goal
-====
+Goal 🥅
+========
 * How to create **simple** bot
 * How to create **interactive** bot
 * How to **extend** bot using libs and APIs
@@ -165,8 +170,8 @@ Goal
    how to create interactive bot,
    how to extend bot using libraries and APIs through various case studies.
 
-Why **Slack** ?
-===============
+Why **Slack** ? :fab:`slack`
+============================
 * Launching the Slack app at any time 💻 📱
 * **Easy** to access Slack
 * To do **everything** in Slack
@@ -838,12 +843,10 @@ Bolt for Python
    (env) $ python app.py
    ⚡️ Bolt app is running!
 
-.. image:: images/bot-hi.png
-
 .. revealjs-notes::
 
    Set 2 tokens in environment variables, then run app.py.
-   When I write a message "Hi" on Slack, the bot responds!
+   Then I write a messge "Hi" on Slack,...
 
 I can **interact** with the bot ! 🎉
 -------------------------------------
@@ -852,6 +855,7 @@ I can **interact** with the bot ! 🎉
 
 .. revealjs-notes::
 
+   When I write a message "Hi" on Slack, ... the bot responds!
    But this is simple enough, so...
 
 **Extend** bot 🛠
@@ -859,7 +863,7 @@ I can **interact** with the bot ! 🎉
 
 .. revealjs-notes::
 
-   so I will extend the bot.
+   so ... I will extend the bot.
 
 ``@app.message()`` decolator
 ----------------------------
