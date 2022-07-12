@@ -45,16 +45,17 @@ Why **ver. 2** in the title?
 
 Back to **2019**
 ----------------
+* "Automate the Boring Stuff with Slackbot"
 * Talk in 🇵🇭 🇹🇭 🇲🇾 🇯🇵 🇹🇼 🇸🇬 🇮🇩
-* TODO: 各国PyConでの発表のコラージュ
 
-.. image:: images/pyconus2020.png
+.. image:: images/pycon2019-collage.jpg
    :width: 80%
 
 .. revealjs-notes::
 
    The story goes back to 2019.
    I have given talks on Slackbot at several PyCons.
+   3 years later,...
 
 And the 2022
 ------------
@@ -64,6 +65,7 @@ And the 2022
 
 .. revealjs-notes::
 
+   3 years later,...in 2022.
    I've updated the talk with the latest information about Slack and libraries.
    And this is my first talk at an international Python event after COVID-19!
    I am very happy to be able to present in person in front of you all.
