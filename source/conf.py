@@ -72,6 +72,18 @@ html_sidebars = {
     ]
 }
 
+html_theme_options = {
+    # https://pradyunsg.me/furo/customisation/footer/#using-icon-packs
+    "footer_icons": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/pradyunsg/furo",
+            "html": "",
+            "class": "fa-brands fa-github fa-2x",
+        },
+    ],
+}
+
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/"
 ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
