@@ -77,7 +77,7 @@ html_theme_options = {
     "footer_icons": [
         {
             "name": "GitHub",
-            "url": "https://github.com/pradyunsg/furo",
+            "url": "https://github.com/takanory/slides",
             "html": "",
             "class": "fa-brands fa-github fa-2x",
         },
