@@ -6,7 +6,9 @@ Takanori Suzuki
 
 EuroPython 2022 / 2022 Jul 13
 
-.. Thank you for coming to my presentation.
+.. revealjs-notes::
+
+   Thank you for coming to my presentation.
    I am very happy to be able to talk in EuroPython.
    My talk title is "Automate the Boring Stuff with Slackbot (ver. 2)"
 
@@ -24,7 +26,7 @@ Agenda
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#EuroPython2022`` / ``@takanory``
+``#EuroPython`` / ``@takanory``
 
 .. revealjs-notes::
 
@@ -39,13 +41,14 @@ Slide 💻
 
    I've already published this slide on slides.takanory.net.
    And I've already shared this slide URL on Twitter.
+   This slide has a lot of code, so look there for details.
 
 Why **ver. 2** in the title?
 ============================
 
 Back to **2019**
 ----------------
-* "Automate the Boring Stuff with Slackbot"
+* Title: "Automate the Boring Stuff with Slackbot"
 * Talk in 🇵🇭 🇹🇭 🇲🇾 🇯🇵 🇹🇼 🇸🇬 🇮🇩
 
 .. image:: images/pycon2019-collage.jpg
@@ -78,7 +81,7 @@ Who am I? 👤
 * Vice Chair of `PyCon JP Association <https://www.pycon.jp/>`_
 * Director of `BeProud Inc. <https://www.beproud.jp/>`_
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_
-* Likee: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
+* Love: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
 
 .. image:: /assets/images/sokidan-square.jpg
    :width: 180
@@ -106,9 +109,9 @@ Who am I? 👤
 .. revealjs-notes::
 
    PyCon JP 2022 will be held as an in-person event.
-   Please come to Japan!
+   Please come to Japan! See you at PyCon JP!
    Let's get back to the main topic.
-   
+
 .. PyCon JP 2022やるよ。ぜひ来てね
 
 **Background** and **Motivation**
@@ -158,6 +161,7 @@ Let's create a **secretary**!!
 
    I want someone to do my bothersome tasks instead of me like a secretary.
    Let's make it.
+   Because I'm a programmer.
 
 Goal 🥅
 ========
@@ -202,7 +206,7 @@ You can create **interactive** bot
    If you listen to the end of this talk, you will be able to create a bot like this.
    For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email addresses and more.
    Now let's learn how to create a bot.
-   
+
 .. このトークを聞くとこんなbotが作れるようになりますよ。
    あいさつしたり、randomに選んだり、計算したり、カウントしたり、JIRA検索したり、メールアドレスを追加したり。
 
@@ -296,7 +300,7 @@ System overview
 
 .. revealjs-notes::
 
-   At last, we got a webhook URL
+   At last, we got a webhook URL.
    Then let's send a message to Slack with the URL.
 
 Post message via **Webhook URL** 📬
@@ -337,7 +341,7 @@ Post message with **Python**
 .. revealjs-notes::
 
    But we are pythonista.
-   We use urllib.requests module.
+   We use urllib.request module.
 
 Post message with **Requests**
 ------------------------------
@@ -404,7 +408,7 @@ Post message with **Slack SDK**
 
 .. revealjs-notes::
 
-   Text can be formatted as markdown
+   Text can be formatted as markdown.
    If you want to create more complex messages,... use the Block Kit.
 
 .. markdownっぽくテキストがフォーマットできます。
@@ -477,7 +481,7 @@ Summary of Incoming **Webhooks**
 
 .. revealjs-notes::
 
-   Next,..I will explain how to make an interactive bot.  
+   Next,..I will explain how to make an interactive bot.
 
 Connection protocols
 --------------------
@@ -942,12 +946,12 @@ Events and Scopes
 -----------------
 * Can only receive events in **Bot Events**
 * Can only execute APIs allowed by **Bot Token Scopes**
-  
+
 .. revealjs-notes::
 
    Events and Scopes are important concepts in Slack Bots.
    Bot can only receive events in **Bot Events**.
-   Bot aan only execute APIs allowed by **Bot Token Scopes**.
+   And bot can only execute APIs allowed by **Bot Token Scopes**.
 
 Current Bot Events and Scopes
 -----------------------------
@@ -963,7 +967,7 @@ Current Bot Events and Scopes
 
 .. revealjs-notes::
 
-   For example, the current bot event is message.channel, bot scopes are channels:history and chat:write only.
+   For example, the current bot event is message.channels, bot scopes are channels:history and chat:write only.
 
 .. revealjs-break::
 
@@ -1104,8 +1108,8 @@ about **SymPy**
    :language: python
    :lines: 6,10-24
 
-Slack as a **calculator** !!
-----------------------------
+Slack as a **calculator** !! 🎉
+-------------------------------
 
 .. image:: images/case-sympy.png
    :width: 30%
@@ -1149,8 +1153,8 @@ plusplus_model.py
    :language: python
    :lines: 6, 10-22
 
-I can **appreciate** it!
-------------------------
+I can **appreciate** it! 🎉
+---------------------------
 
 .. image:: images/case-peewee.png
    :width: 40%
@@ -1202,8 +1206,8 @@ Search issues
 * see: `2.1.6. Searching <https://jira.readthedocs.io/examples.html#searching>`_
 * see: `JQL: Get started with advanced search in Jira <https://www.atlassian.com/software/jira/guides/expand-jira/jql#advanced-search>`_
 
-**Free** from Jira web!
------------------------
+**Free** from Jira web! 🎉
+--------------------------
 .. image:: images/bot-jira.png
    :width: 60%
 
@@ -1293,8 +1297,8 @@ Create Jira issues
 
 * see: `2.1.4. Issues <https://jira.readthedocs.io/examples.html#issues>`_
 
-**Free** from copying issues!
------------------------------
+**Free** from copying issues! 🎉
+--------------------------------
 .. image:: images/bot-sheet2.png
    :width: 30%
 
@@ -1357,10 +1361,10 @@ Add user
 .. image:: images/bot-user-add2.png
    :width: 80%
 
-I can **forget** Google Admin!
-------------------------------
+I can **forget** Google Admin! 🎉
+---------------------------------
 
-Summary 
+Summary
 =======
 * Simple bot using **Incoming Webhooks**
 * Interactive bot using **Bolt** for Python
@@ -1373,7 +1377,9 @@ Next Step 🪜
 * Let's connect with **libraries** and **APIs**
 * **Automate your Boring Stuff** with Slackbot
 
-.. Then you will have more free time so you can do other creative things more.
+.. revealjs-notes::
+
+   Then you will have more free time so you can do other creative things more.
 
 Thank you! 🙏
 ==============
