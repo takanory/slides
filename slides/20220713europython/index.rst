@@ -41,6 +41,10 @@ Slide 💻
 ---------
 `slides.takanory.net <https://slides.takanory.net>`__
 
+.. raw:: html
+
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My talk &quot;Automate the Boring Stuff with Slackbot (ver. 2)&quot; slides are <a href="https://t.co/YfAyUxQT0e">https://t.co/YfAyUxQT0e</a> <a href="https://twitter.com/hashtag/EuroPython2022?src=hash&amp;ref_src=twsrc%5Etfw">#EuroPython2022</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1547222521648390149?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 .. revealjs-notes::
 
    I've already published this slide on slides.takanory.net.
