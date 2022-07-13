@@ -30,12 +30,12 @@ Agenda
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#EuroPython`` / ``@takanory``
+``#EuroPython2022`` / ``@takanory``
 
 .. revealjs-notes::
 
    I'd be happy to take pictures and share them and give you feedback on Twitter.
-   Hashtag is #EuroPython
+   Hashtag is #EuroPython2022
 
 Slide 💻
 ---------
