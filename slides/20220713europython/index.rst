@@ -44,8 +44,8 @@ Slide 💻
 .. revealjs-notes::
 
    I've already published this slide on slides.takanory.net.
-   And I've already shared this slide URL on Twitter.
-   This slide has a lot of code, so look there for details.
+   And I've already shared slide URL on Twitter.
+   It has a lot of code, so you can see codes on the slide.
 
 Why **ver. 2** in the title?
 ============================
@@ -61,22 +61,22 @@ Back to **2019**
 .. revealjs-notes::
 
    The story goes back to 2019.
-   I have given talks on Slackbot at several PyCons.
+   I have given talks about Slackbot at several Python Conferences.
    3 years later,...
 
 And the 2022
 ------------
 * **Updated** with latest information 🆕
 * 1st in-person intl event after COVID-19 🗣👥
-* **Thanks** to EuroPython staff!! 👏
+* **Thanks** to EuroPython staff and volunteers!! 👏
 
 .. revealjs-notes::
 
-   3 years later,...in 2022.
+   3 years later,...in this year.
    I've updated the talk with the latest information about Slack and libraries.
    And this is my first talk at an international Python event after COVID-19!
    I am very happy to be able to present in person in front of you all.
-   And huge thanks to EuroPython staff.
+   And huge thanks to all the EuroPython staff and volunteers.
    By the way, before the main topic,...
 
 Who am I? 👤
@@ -99,7 +99,7 @@ Who am I? 👤
    I'm Takanori Suzuki. My twitter is "takanory", please follow me.
    I'm Vice-Chairperson of the PyCon JP Association.
    And I'm director of BeProud Inc.
-   I'm also active in several Python related communities.
+   I'm also active in several Python related communities in Japan.
 
 **PyCon JP** 2022 🇯🇵
 ---------------------
@@ -112,7 +112,7 @@ Who am I? 👤
 
 .. revealjs-notes::
 
-   PyCon JP 2022 will be held as an in-person event.
+   I'm from Japan. PyCon JP 2022 will be held as an in-person event.
    Please come to Japan! See you at PyCon JP!
    Let's get back to the main topic.
 
@@ -158,12 +158,12 @@ Programmer is **Lazy**
 .. revealjs-notes::
 
    As you know, programmers dislike routine work. I also dislike it VERY much.
+   I'd like someone to be my secretary and do tedious tasks for me.
 
 Let's create a **secretary**!!
 ==============================
 .. revealjs-notes::
 
-   I want someone to do my bothersome tasks instead of me like a secretary.
    Let's make it.
    Because I'm a programmer.
 
@@ -183,8 +183,8 @@ Goal 🥅
 Why **Slack** ? :fab:`slack`
 ============================
 * Launching the Slack app at any time 💻 📱
-* **Easy** to access Slack
-* To do **everything** in Slack
+* **Easy** to access
+* To do **everything**
 
 .. image:: /20190224pyconapac/images/slack.png
    :width: 60%
@@ -194,8 +194,8 @@ Why **Slack** ? :fab:`slack`
    My secretary is a chatbot of Slack.
    Is there someone using Slack?
    I'm Launching the Slack application at any time on my PC and smartphone.
-   So it's easy to access Slack. I want to do everything in Slack.
-   Let's make a chatbot on Slack.
+   So it's easy to access for me. I'd like to do everything in Slack.
+   Let's make a chatbot.
 
 You can create **interactive** bot
 ----------------------------------
@@ -207,8 +207,8 @@ You can create **interactive** bot
 
 .. revealjs-notes::
 
-   If you listen to the end of this talk, you will be able to create a bot like this.
-   For example, the bot will greet, choose randomly, calculate, count, search JIRA issues, create email addresses and more.
+   At the end of this talk, you will be able to create bots like this.
+   For example, the bot will greet, choose randomly, count beers, calculate, count, search JIRA issues, create email addresses and more.
    Now let's learn how to create a bot.
 
 .. このトークを聞くとこんなbotが作れるようになりますよ。
@@ -532,7 +532,7 @@ Connection protocols
 
 .. revealjs-notes::
 
-   I chose Socket Mode for this talk, because it is easy to develop locally.
+   In this talk, I chose Socket Mode because it is easy to develop locally.
 
 .. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
    * ここではSocket Modeで説明をしていく
@@ -820,7 +820,7 @@ Bolt for Python
 
 .. revealjs-notes::
 
-   Bolt is a Python ... flash.
+   Bolt is a Python framework to build Slack app in a flash.
    Slack also provides Bolt for JavaScript and Java.
 
 **Install** Bolt for Python
@@ -856,7 +856,7 @@ Bolt for Python
 .. revealjs-notes::
 
    Set 2 tokens in environment variables, then run app.py.
-   Then I write a messge "Hi" on Slack,...
+   When I write a messge "Hi" on Slack,...
 
 I can **interact** with the bot ! 🎉
 -------------------------------------
@@ -1078,6 +1078,10 @@ Add Emoji reaction
 
 Case studies 📚
 ================
+
+.. revealjs-notes::
+
+   From here, I will create functions to solve the issues.
 
 Calculator function using **SymPy** 🔢
 =======================================
