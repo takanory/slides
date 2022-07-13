@@ -1,3 +1,7 @@
+:og:image: _images/20220713europython.png
+
+.. |cover| image:: images/20220713europython.png
+
 ======================================================
  Automate the Boring Stuff with **Slackbot** (ver. 2)
 ======================================================
