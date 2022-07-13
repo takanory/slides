@@ -1364,6 +1364,35 @@ Add user
 I can **forget** Google Admin! 🎉
 ---------------------------------
 
+.. revealjs-notes::
+
+   But ...
+
+Security Issue 🔓
+------------------
+* **Anyone** can run it
+* Run only **Slack Admin** 🔒
+
+.. revealjs-notes::
+
+   But ...there is a security issue with this code.
+   It means anyone can list and add users.
+   So, modify commands to run only for the Slack Admin
+
+Not-Admin cannot run
+--------------------
+* Add ``users:read`` scope, use `users.info <https://api.slack.com/methods/users.info>`_ API
+
+.. literalinclude:: code/app-admin2.py
+   :language: python
+   :lines: 14-22
+
+.. image:: images/bot-not-admin.png
+   :width: 40%
+
+**Resolve** a security issue 🎊
+--------------------------------
+
 Summary
 =======
 * Simple bot using **Incoming Webhooks**
