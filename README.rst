@@ -33,6 +33,12 @@
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
      * 2022 Jul
+     * LT
+     * Spread the community after COVID-19 in Japan
+     * `Slides <https://slides.takanory.net/slides/20220715europython-lt/>`__
+   - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
+     * Dublin, Ireland
+     * 2022 Jul
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://ep2022.europython.eu/session/automate-the-boring-stuff-with-slackbot-ver-2>`_
      * `Slides <https://slides.takanory.net/slides/20220713europython/>`__
