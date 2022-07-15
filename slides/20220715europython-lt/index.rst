@@ -95,8 +95,10 @@ Other **Activities** 🕺
 
    We are also involved in other activities to promote Python in Japan.
 
+Python Boot Camp 💪
+--------------------
 .. image:: images/pycamp-collage.jpg
-   :width: 70%
+   :width: 60%
 
 .. revealjs-notes::
 
@@ -116,7 +118,7 @@ Other **Activities** 🕺
 
 .. revealjs-notes::
 
-   Other one is PyLadies Caravan.
+   Another one is PyLadies Caravan.
    The event connects local women's communities across Japan.
    However,...
 
@@ -133,8 +135,8 @@ COVID-19 **Cannot stop** us 🏃‍♂️
 
 .. revealjs-notes::
 
-   But, we must not stop in our activities to spread Python!
-   We have started a new activity.   
+   But, we must not stop our activities to spread Python!
+   We have started a new activities.   
 
 PyCon JP **TV** 📺
 -------------------
@@ -154,7 +156,7 @@ It's **selfie** time! 📷
 
    I will present EuroPython at the next PyCon JP TV.
    I would like to take pictures with you all and share it on youtube live.
-   Are you OK?
+   Are you OK? ... 
    Thank you. I'll share this on Twitter and PyCon JP TV.
 
 Python **Charity** Talks 🎗
@@ -181,7 +183,7 @@ PSF Community Service **Award** 🏆
 
 .. revealjs-notes::
 
-   Last year, board members of PyCon JP Association, including me, won the "PSF Community Service Award" in recognition of our event organizing, donations and other achievements.
+   Last year, board members of PyCon JP Association, ... including me, won the "PSF Community Service Award" in recognition of our event organizing, donations and other achievements.
 
 **PyCon JP** Association
 ========================
@@ -194,7 +196,7 @@ Goodbye 👋
 ===========
 .. revealjs-notes::
 
-   Let me say goodbye for the last time.
+   I am sorry, but I have to say goodbye.
 
 Heading to Denmark!! 🛫
 ========================
