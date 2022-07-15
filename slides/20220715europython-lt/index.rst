@@ -87,14 +87,14 @@ PyCon JP 2022
 
 .. revealjs-notes::
 
-   PyCon JP 2022 will be held as an in-person event.
-   Please come to Japan!
+   In this year, PyCon JP will be held as an in-person event.
+   Please come to Japan! Have a beer with me.
 
 Other **Activities** 🕺
 ========================
 .. revealjs-notes::
 
-   We are also involved in other activities to spread Python in Japan.
+   Apart from PyCon JP event, We also work to spread Python in Japan.
 
 Python Boot Camp 💪
 --------------------
@@ -103,9 +103,9 @@ Python Boot Camp 💪
 
 .. revealjs-notes::
 
-   One is the Python Boot Camp, tutorial events for beginners, all over Japan.
+   One is "Python Boot Camp", tutorial events for beginners, all over Japan.
    We have held 44 camps with about 800 participants!
-   BTW, I introduced Python Boot Camp at the EuroPython poster session in 2019.
+   BTW, I introduced it at the EuroPython poster session in 2019.
    Does anyone remember that?
 
 **PyLadies** Caravan 👩‍💻
@@ -119,7 +119,7 @@ Python Boot Camp 💪
 
 .. revealjs-notes::
 
-   Another one is PyLadies Caravan.
+   Another one is "PyLadies Caravan".
    The event connects local women's communities across Japan.
    However,...
 
@@ -147,9 +147,9 @@ PyCon JP **TV** 📺
 
 .. revealjs-notes::
 
-   The first new activity is "PyCon JP TV".
+   The first is "PyCon JP TV".
    We stream youtube live every month.
-   Contents include "Python News", "Conference overview", "Python new features" and etc.
+   We talk about "Python News", "Conference overview", "Python new features" and etc.
 
 **Selfie** time! 📷
 -------------------
@@ -170,9 +170,9 @@ Python **Charity** Talks 🎗
 
 .. revealjs-notes::
 
+   Another one is "Python Charity Talks".
    We wondered if there was a way to combine our spreading Python in Japan with donating to the PSF.
-   We came up with the idea of "Python Charity Talks".
-   This is another new acitivity.
+   We came up with the idea of .
    It is a half-day online event, with all participation and sponsorship fees donated to the PSF.
    We held 3 events and donated 25,000 USD over.
 
@@ -185,7 +185,8 @@ PSF Community Service **Award** 🏆
 
 .. revealjs-notes::
 
-   Last year, board members of PyCon JP Association, including me, won the "PSF Community Service Award" ... in recognition of our event organizing, donations and other achievements.
+   In recognition of these activities, board members of PyCon JP Association, including me, won the "PSF Community Service Award".
+   It was a great pleasure for us.
 
 **PyCon JP** Association
 ========================
@@ -194,11 +195,16 @@ PSF Community Service **Award** 🏆
 * `2022.pycon.jp <https://2022.pycon.jp>`__
 * `pycamp.pycon.jp <https://pycamp.pycon.jp>`__
 
+.. revelajs-notes::
+
+   If you are interested in us, check out the following URL and Twitter.
+   Finally,
+
 Goodbye 😢 👋
 ===============
 .. revealjs-notes::
 
-   I am sorry, but I have to say goodbye.
+   Finally, I am sorry, but I have to say goodbye.
 
 Heading to Denmark!! 🛫
 ========================
