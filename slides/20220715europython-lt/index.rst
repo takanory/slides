@@ -1,3 +1,7 @@
+:og:image: _images/20220715europython-lt.png
+
+.. |cover| image:: images/20220715europython-lt.png
+
 =============================================================
  **Spread** the **community** after **COVID-19** in Japan 🇯🇵
 =============================================================
