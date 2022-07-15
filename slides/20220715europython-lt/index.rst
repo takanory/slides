@@ -35,6 +35,10 @@ Who am I? 👤
 .. image:: /assets/images/kurokuri.jpg
    :width: 180
 
+.. revealjs-notes::
+
+   I'm Takanori Suzuki. Please call me Takanori.
+
 Japan 🇯🇵
 =========
 
@@ -42,7 +46,7 @@ Japan 🇯🇵
 
 .. revealjs-notes::
 
-   I'm from Tokyo, Japan.
+   I'm from Tokyo, Japan. Tokyo is far from Europe.
    Do you know Japan?
    Have you been Japan?
    Do you Know PyCon Japan?
@@ -68,8 +72,8 @@ Number of **participants** 📈
    
 .. revealjs-notes::
 
-   The first PyCon JP had around 150 participants.
-   Now, PyCon JP has grown to 1,000 participants.
+   The first PyCon JP had about 150 participants.
+   Now, PyCon JP has grown to 1,000 participants over.
 
 PyCon JP 2022
 -------------
@@ -88,12 +92,9 @@ PyCon JP 2022
 
 Other **Activities** 🕺
 ========================
-.. revealjs-break::
-   :notitle:
-
 .. revealjs-notes::
 
-   We are also involved in other activities to promote Python in Japan.
+   We are also involved in other activities to spread Python in Japan.
 
 Python Boot Camp 💪
 --------------------
@@ -140,7 +141,7 @@ COVID-19 **Cannot stop** us 🏃‍♂️
 
 PyCon JP **TV** 📺
 -------------------
-* Monthly YouTube Live
+* Monthly **YouTube Live**
 
 .. image:: images/episode11.jpg
 
@@ -148,16 +149,17 @@ PyCon JP **TV** 📺
 
    The first new activity is "PyCon JP TV".
    We stream youtube live every month.
-   Contents include "Python News", "Conference overview", "New features for Python 3.10"  and etc.
+   Contents include "Python News", "Conference overview", "Python new features" and etc.
 
-It's **selfie** time! 📷
--------------------------
+**Selfie** time! 📷
+-------------------
 .. revealjs-notes::
 
+   I't selfie time!
    I will present EuroPython at the next PyCon JP TV.
-   I would like to take pictures with you all and share it on youtube live.
+   I'd like to take pictures with you all and share it on youtube live and twitter.
    Are you OK? ... 
-   Thank you. I'll share this on Twitter and PyCon JP TV.
+   Thank you. I'll share it.
 
 Python **Charity** Talks 🎗
 ----------------------------
@@ -170,7 +172,7 @@ Python **Charity** Talks 🎗
 
    We wondered if there was a way to combine our spreading Python in Japan with donating to the PSF.
    We came up with the idea of "Python Charity Talks".
-   This is other new acitivity.
+   This is another new acitivity.
    It is a half-day online event, with all participation and sponsorship fees donated to the PSF.
    We held 3 events and donated 25,000 USD over.
 
@@ -183,7 +185,7 @@ PSF Community Service **Award** 🏆
 
 .. revealjs-notes::
 
-   Last year, board members of PyCon JP Association, ... including me, won the "PSF Community Service Award" in recognition of our event organizing, donations and other achievements.
+   Last year, board members of PyCon JP Association, including me, won the "PSF Community Service Award" ... in recognition of our event organizing, donations and other achievements.
 
 **PyCon JP** Association
 ========================
@@ -192,8 +194,8 @@ PSF Community Service **Award** 🏆
 * `2022.pycon.jp <https://2022.pycon.jp>`__
 * `pycamp.pycon.jp <https://pycamp.pycon.jp>`__
 
-Goodbye 👋
-===========
+Goodbye 😢 👋
+===============
 .. revealjs-notes::
 
    I am sorry, but I have to say goodbye.
@@ -207,6 +209,7 @@ Heading to Denmark!! 🛫
 
    I'm now heading to Denmark.
    Because the LEGO House and LEGOLAND are waiting for me.
+   Super excited!!
 
 Thank you ! 🙏
 ===============
