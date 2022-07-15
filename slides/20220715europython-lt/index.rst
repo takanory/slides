@@ -137,7 +137,7 @@ COVID-19 **Cannot stop** us 🏃‍♂️
 .. revealjs-notes::
 
    But, we must not stop our activities to spread Python!
-   We have started a new activities.   
+   We have started 2 new activities.   
 
 PyCon JP **TV** 📺
 -------------------
@@ -159,7 +159,7 @@ PyCon JP **TV** 📺
    I will present EuroPython at the next PyCon JP TV.
    I'd like to take pictures with you all and share it on youtube live and twitter.
    Are you OK? ... 
-   Thank you. I'll share it.
+   Thank you. I'll share it later.
 
 Python **Charity** Talks 🎗
 ----------------------------
@@ -172,7 +172,6 @@ Python **Charity** Talks 🎗
 
    Another one is "Python Charity Talks".
    We wondered if there was a way to combine our spreading Python in Japan with donating to the PSF.
-   We came up with the idea of .
    It is a half-day online event, with all participation and sponsorship fees donated to the PSF.
    We held 3 events and donated 25,000 USD over.
 
@@ -197,8 +196,8 @@ PSF Community Service **Award** 🏆
 
 .. revealjs-notes::
 
-   If you are interested in us, check out the following URL and Twitter.
-   Finally,
+   If you are interested in us, check out the following URL or Twitter.
+   Finally,...
 
 Goodbye 😢 👋
 ===============
