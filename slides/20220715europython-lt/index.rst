@@ -6,113 +6,217 @@ Takanori Suzuki
 
 EuroPython 2022 / 2022 Jul 15
 
-Takanori Suzuki
-===============
+Enjoy ? 🥳
+===========
 
-:fab:`twitter` `@takanory <https://twitter.com/takanory>`__
+.. revealjs-notes::
 
-:fab:`github` `takanory <https://github.com/takanory/>`__
+   Did you enjoy EuroPython?
 
-:fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
+.. revealjs-break::
+   :notitle:
+
+.. image:: images/europython2022-collage.jpg
+   
+.. revealjs-notes::
+
+   I really enjoyed EuroPython with good people and nice beer and nice beer.
+
+Who am I? 👤
+=============
+* **Takanori** Suzuki / 鈴木たかのり(:fab:`twitter` `@takanory <https://twitter.com/takanory>`__)
+* Vice Chair of **PyCon JP** Association
+* Director of BeProud Inc.
+* Love: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
 
 .. image:: /assets/images/sokidan-square.jpg
+   :width: 180
+
+.. image:: /assets/images/kurokuri.jpg
+   :width: 180
 
 Japan 🇯🇵
----------
+=========
 
-PyCon JP Association
---------------------
+.. image:: images/from-japan.png
+
+.. revealjs-notes::
+
+   I'm from Tokyo, Japan.
+   Do you know Japan?
+   Have you been Japan?
+   Do you Know PyCon Japan?
+   Have you attended PyCon Japan?
+
+PyCon JP Association 🐍
+------------------------
+.. `www.pycon.jp <https://www.pycon.jp>`__
+
 .. image:: /assets/images/pyconjp_logo.png
 
 .. revealjs-notes::
 
    I'm Vice chair of PyCon JP association.
-
    We launched PyCon JP in 2011.
-   At that time, the Python community in Japan was small. So, Masuda-san, Iqbal-san, Ian-san, and I took the lead, and other Python users who were active in Tokyo and other parts of Japan started to form PyCon JP.
-   At first, it was a 150-people PyCon JP. Now, we were able to hold a 1,000-people PyCon JP.
-   Of course, this year we will have in person event in October. 
+   At that time, the Python community in Japan was small.
 
-Python Boot Camp 💪
-====================
+Number of **participants** 📈
+------------------------------
+.. image:: images/participants.svg
+
+.. https://docs.google.com/spreadsheets/d/1uOexhV5nVG7c0s-p1qxlh704YrBUTAVE01SRLyyc2ds/edit#gid=0           
+   
+.. revealjs-notes::
+
+   The first PyCon JP had around 150 participants.
+   Now, PyCon JP has grown to 1,000 participants.
+
+PyCon JP 2022
+-------------
+* `2022.pycon.jp <https://2022.pycon.jp>`__
+* Date: 2022 **Oct** 14 (Fri) - 16 (Sun)
+* Venue: **Tokyo**, Japan (in-person)
+
+.. image:: /assets/images/pyconjp2022logo.png
+   :alt: PyCon JP 2022
+   :width: 50%
 
 .. revealjs-notes::
 
-   Other our activities have been to promote Python all over Japan and to create more various communities.
-   One of these is the tutorial event Python Bootcamp. This could be introduced in a poster session at US PyCon 2019.
+   PyCon JP 2022 will be held as an in-person event.
+   Please come to Japan!
 
-PyLadies Caravan 🐫
-====================
-
-.. revealjs-notes::
-
-   We supported PyLadies Caravan, It is making local women’s community and connecting all Japan. 
-
-STOPPED our activities 🛑
-==========================
+Other **Activities** 🕺
+========================
+.. revealjs-break::
+   :notitle:
 
 .. revealjs-notes::
 
-   However, as you all know, the world has changed in the spring of 2020.
+   We are also involved in other activities to promote Python in Japan.
 
-
-COVID-19 can't stop us 🏃‍♂️
-============================
-
-.. revealjs-notes::
-
-   But, we thought it would not be good to stop our activities here!
-
-Python Charity Talks 🎗
------------------------
-* Half day, Online event
-* Donation to PSF (about $25k)
-* 3 times
+.. image:: images/pycamp-collage.jpg
+   :width: 70%
 
 .. revealjs-notes::
 
-   We wondered if there was a way to balance continuing these activities and making donations to the PSF, 
-   so we held an event called Python Charity Talks.
-   Here, we were able to raise about $10,000. 
-   And, We were also able to hold two additional events.
+   One is the Python Boot Camp, tutorial events for beginners, all over Japan.
+   We have held 44 camps with about 800 participants!
+   BTW, I introduced Python Boot Camp at the EuroPython poster session in 2019.
+   Does anyone remember that?
 
-PyCon JP TV 📺
----------------
+**PyLadies** Caravan 👩‍💻
+--------------------------
+
+.. image:: images/pyladies-caravan.png
+   :width: 45%
+
+.. image:: images/pyladies-tokyo.png
+   :width: 45%
+
+.. revealjs-notes::
+
+   Other one is PyLadies Caravan.
+   The event connects local women's communities across Japan.
+   However,...
+
+**Stopped** our activities 💤
+==============================
+
+.. revealjs-notes::
+
+   However,... as you all know, COVID-19 has changed the world.
+   We are no longer able to organise in-person events. But,...
+
+COVID-19 **Cannot stop** us 🏃‍♂️
+=================================
+
+.. revealjs-notes::
+
+   But, we must not stop in our activities to spread Python!
+   We have started a new activity.   
+
+PyCon JP **TV** 📺
+-------------------
 * Monthly YouTube Live
-* Contents
 
-  * News around PyCons
-  * Introduce some events
-  * New features on Python 3.10
-  * etc
+.. image:: images/episode11.jpg
 
 .. revealjs-notes::
 
-   And, We have YouTube Live every month.
-   We share 「some news for Python」 and 「Python community, and introducing some events」, and 「new features for Python 3.10」, and more
-   ここで写真を撮るよとか言いたい
+   The first new activity is "PyCon JP TV".
+   We stream youtube live every month.
+   Contents include "Python News", "Conference overview", "New features for Python 3.10"  and etc.
 
-PyCon JP Association
-====================
-* `www.pycon.jp <https://www.pycon.jp>`_ (:fab:`twitter` `@pyconjapan <https://twitter.com/pyconjapan/>`_)
-* `tv.pycon.jp <https://tv.pycon.jp/>`_ (:fab:`twitter` `@pyconjptv <https://twitter.com/pyconjptv/>`_)
+It's **selfie** time! 📷
+-------------------------
+.. revealjs-notes::
 
-On my way to Denmark!! 🛫
-==========================
+   I will present EuroPython at the next PyCon JP TV.
+   I would like to take pictures with you all and share it on youtube live.
+   Are you OK?
+   Thank you. I'll share this on Twitter and PyCon JP TV.
+
+Python **Charity** Talks 🎗
+----------------------------
+* Half-day, **online** event / **Donate** to PSF ($25,000+)
+
+.. image:: images/pycharity.png
+   :width: 85%
 
 .. revealjs-notes::
 
-   I'm on my way to Denmark now.
+   We wondered if there was a way to combine our spreading Python in Japan with donating to the PSF.
+   We came up with the idea of "Python Charity Talks".
+   This is other new acitivity.
+   It is a half-day online event, with all participation and sponsorship fees donated to the PSF.
+   We held 3 events and donated 25,000 USD over.
+
+PSF Community Service **Award** 🏆
+-----------------------------------
+.. image:: /assets/images/psf-awards.jpg
+   :width: 80%
+
+* see: `PyCon JP Association Awarded the PSF Community Service Award for Q4 2021 <https://pyfound.blogspot.com/2022/05/pycon-jp-association-awarded-psf.html>`_
+
+.. revealjs-notes::
+
+   Last year, board members of PyCon JP Association, including me, won the "PSF Community Service Award" in recognition of our event organizing, donations and other achievements.
+
+**PyCon JP** Association
+========================
+* `www.pycon.jp <https://www.pycon.jp>`__ (:fab:`twitter` `@pyconjapan <https://twitter.com/pyconjapan/>`_)
+* `tv.pycon.jp <https://tv.pycon.jp/>`__ (:fab:`twitter` `@pyconjptv <https://twitter.com/pyconjptv/>`_)
+* `2022.pycon.jp <https://2022.pycon.jp>`__
+* `pycamp.pycon.jp <https://pycamp.pycon.jp>`__
+
+Goodbye 👋
+===========
+.. revealjs-notes::
+
+   Let me say goodbye for the last time.
+
+Heading to Denmark!! 🛫
+========================
+
+.. image:: images/to-billund.png
+
+.. revealjs-notes::
+
+   I'm now heading to Denmark.
+   Because the LEGO House and LEGOLAND are waiting for me.
 
 Thank you ! 🙏
 ===============
 :fas:`laptop` `slides.takanory.net <http://slides.takanory.net>`_
 
 :fab:`twitter` `@takanory <https://twitter.com/takanory>`__
-
 :fab:`github` `takanory <https://github.com/takanory/>`__
-
+:fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__
 :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
 
 .. image:: /assets/images/sokidan-square.jpg
 
+.. revealjs-notes::
+
+   See you again at PyCon JP or somewhere!
