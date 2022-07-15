@@ -195,7 +195,7 @@ PSF Community Service **Award** 🏆
 * `2022.pycon.jp <https://2022.pycon.jp>`__
 * `pycamp.pycon.jp <https://pycamp.pycon.jp>`__
 
-.. revelajs-notes::
+.. revealjs-notes::
 
    If you are interested in us, check out the following URL and Twitter.
    Finally,
