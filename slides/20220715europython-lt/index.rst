@@ -159,7 +159,7 @@ PyCon JP **TV** 📺
 -------------------
 .. revealjs-notes::
 
-   I't selfie time!
+   It's selfie time!
    I will present EuroPython at the next PyCon JP TV.
    I'd like to take pictures with you all and share it on youtube live and twitter.
    Are you OK? ... 
