@@ -30,6 +30,12 @@
      * kind
      * title
      * resource
+   - * BPStyle139
+     * Online
+     * 2022 Aug
+     * Talk
+     * Experience in EuroPython
+     * `Slides <https://slides.takanory.net/slides/20220804bpstyle/>`__
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
      * 2022 Jul
