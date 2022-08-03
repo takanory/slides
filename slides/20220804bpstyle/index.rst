@@ -64,6 +64,7 @@ Reception
 Badge
 -----
 .. image:: images/badge.jpg
+   :width: 50%
            
 Opening
 -------
