@@ -3,7 +3,7 @@
 .. |cover| image:: images/20220804bpstyle.png
 
 ==============================
- Expecience in **EuroPython**
+ Experience in **EuroPython**
 ==============================
 
 Takanori Suzuki
