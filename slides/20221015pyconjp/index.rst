@@ -12,12 +12,20 @@ PyCon JP 2022 / 2022 Oct 15
 
 .. revealjs-notes::
 
-   Thank you for coming to my presentation.
-   I am very happy to be able to talk in EuroPython.
-   My talk title is "Automate the Boring Stuff with Slackbot (ver. 2)"
+   聞きに来てくれてうれしいです。
+   PyCon JPで発表できてうれしいです。
+   トークタイトルは「Automate the Boring Stuff with Slackbot (ver. 2)」です。
+   日本語では...
 
-Agenda
-======
+退屈なことは **Slackbot** にやらせよう (ver. 2)
+===============================================
+
+Takanori Suzuki
+
+PyCon JP 2022 / 2022 Oct 15
+
+Agenda / アジェンダ
+===================
 * **Background** and **Motivation** for Slackbot
 * How to create **simple** bot
 * How to create **interactive** bot
@@ -25,17 +33,18 @@ Agenda
 
 .. revealjs-notes::
 
-   Today, I will talk about...
+   背景とモチベーション、シンプルなボットの作り方、対話型ボットの作り方、ライブラリとAPIを使って拡張する方法
 
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#EuroPython2022`` / ``@takanory``
+``#pyconjp`` / ``@takanory``
 
 .. revealjs-notes::
 
-   I'd be happy to take pictures and share them and give you feedback on Twitter.
-   Hashtag is #EuroPython2022
+   写真をとってもらってOKです。
+   Twitterなどでシェアしてもらって構いません。
+   ハッシュタグは #pyconjp
 
 Slide 💻
 ---------
@@ -47,15 +56,17 @@ Slide 💻
 
 .. revealjs-notes::
 
-   I've already published this slide on slides.takanory.net.
-   And I've already shared slide URL on Twitter.
-   It has a lot of code, so you can see codes on the slide.
+   スライドはslides.takanory.netで公開済みです。
+   スライドURLはTwitterで共有済みです。
+   コードが多いので、コードは手元で見ることがおすすめです。
 
 Why **ver. 2** in the title?
 ============================
 
-Back to **2019**
-----------------
+なぜタイトルに **ver. 2** が入ってるの?
+
+Back to **2019** / 2019年に遡る
+-------------------------------
 * Title: "Automate the Boring Stuff with Slackbot"
 * Talk in 🇵🇭 🇹🇭 🇲🇾 🇯🇵 🇹🇼 🇸🇬 🇮🇩
 
@@ -64,32 +75,31 @@ Back to **2019**
 
 .. revealjs-notes::
 
-   The story goes back to 2019.
-   I have given talks about Slackbot at several Python Conferences.
-   3 years later,...
+   物語は2019年に遡ります。
+   複数の複数のPythonカンファレンスでSlackbotについて発表しました。
+   それから3年経ち...
 
-And the 2022
-------------
+And the **2022** / そして2022年
+-------------------------------
 * **Updated** with latest information 🆕
-* 1st in-person intl event after COVID-19 🗣👥
-* **Thanks** to EuroPython staff and volunteers!! 👏
+* In-person event after COVID-19 in Japan 🇯🇵
+* **Thanks** to PyCon JP staff and volunteers!! 👏
 
 .. revealjs-notes::
 
-   3 years later,...in this year.
-   I've updated the talk with the latest information about Slack and libraries.
-   And this is my first talk at an international Python event after COVID-19!
-   I am very happy to be able to present in person in front of you all.
-   And huge thanks to all the EuroPython staff and volunteers.
-   By the way, before the main topic,...
+   2022年。
+   トークの内容をSlackとライブラリについて最新の情報に更新。
+   日本でみなさんの前で直接発表できてうれしいです。
+   また開催に尽力したPyCon JPスタッフのみなさん、ありがとうございます。
+   さて、メインの話の前に...
 
-Who am I? 👤
-=============
+Who am I? / お前誰よ 👤
+========================
 * Takanori Suzuki / 鈴木 たかのり (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
-* Vice Chair of `PyCon JP Association <https://www.pycon.jp/>`_
-* Director of `BeProud Inc. <https://www.beproud.jp/>`_
+* `PyCon JP Association <https://www.pycon.jp/>`_ Vice Chair
+* `BeProud Inc. <https://www.beproud.jp/>`_ Director / Python Climber
 * `Python Boot Camp <https://www.pycon.jp/support/bootcamp.html>`_, `Python mini Hack-a-thon <https://pyhack.connpass.com/>`_
-* Love: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
+* Love: `Ferrets <https://twitter.com/search?q=%E3%81%9B%E3%81%B6%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20(from%3Atakanory)&src=typed_query>`__, `🍺 <https://untappd.com/user/takanory>`__, `LEGO <https://brickset.com/sets/ownedby-takanori>`__ / Hobby: `🎺 <https://twpo.org/>`_, `🧗‍♀️ <https://kabepy.connpass.com/>`__
 
 .. image:: /assets/images/sokidan-square.jpg
    :width: 180
@@ -99,39 +109,53 @@ Who am I? 👤
 
 .. revealjs-notes::
 
-   Before the main topic,...I will introduce myself.
+   メインの話の前に...自己紹介をします。
    I'm Takanori Suzuki. My twitter is "takanory", please follow me.
    I'm Vice-Chairperson of the PyCon JP Association.
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities in Japan.
 
-**PyCon JP** 2022 🇯🇵
----------------------
-* `2022.pycon.jp <https://2022.pycon.jp/>`_
-* Date: 2022 **Oct 14** (Fri) - **16** (Sun)
-* Venue: **Tokyo**, Japan (in-person)
+**BeProud** inc. 🏢
+--------------------
+* `BeProud <https://www.beproud.jp/>`_: Pythonシステム開発、Consulting
+* `connpass <https://connpass.com/>`_: IT勉強会支援プラットフォーム
+* `PyQ <https://pyq.jp/>`_: Python独学プラットフォーム
+* `TRACERY <https://tracery.jp/>`_: システム開発ドキュメントサービス
 
-.. image:: /assets/images/pyconjp2022logo.png
-   :width: 50%
+(TODO: ロゴ画像)
+
+**BeProud** Booth
+-----------------
+
+(TODO: ブース画像)
+
+**Python ED** Booth
+-------------------
+* 関連書籍をお得な価格で販売中!!
+
+(TODO: ブース画像)
+
+AD is over / 宣伝は終了
+-----------------------
 
 .. revealjs-notes::
 
-   I'm from Japan. PyCon JP 2022 will be held as an in-person event.
-   Please come to Japan! See you at PyCon JP!
-   Let's get back to the main topic.
-
-.. PyCon JP 2022やるよ。ぜひ来てね
+   本題に戻ります
 
 **Background** and **Motivation**
 =================================
 
+**背景** と **モチベーション**
+
 .. revealjs-notes::
 
-   First, I will talk about the Background and Motivation of this talk.
+   最初にこのトークの背景とモチベーションについて話します
 
 Conference **Tasks**
 --------------------
-* I held PyCon JP(2014-2016) as Chair
+カンファレンスの **タスク**
+
+* I held PyCon JP(2014-2016) as **Chair**
 * Conference tasks:
 
   * 👨‍💻 Keynotes, Talks and Trainings
@@ -141,51 +165,57 @@ Conference **Tasks**
 
 .. revealjs-notes::
 
-   I held PyCon JP events several years in the past.
-   As you can imagine, there are lots of tasks to hold Conference.
-   For example, talk arrangements, ticket sales, venue management, food...
-   And, ...
+   過去PyCon JPの座長をやっていました。
+   カンファレンスの開催にはたくさんのタスクがあります。
+   たとえばトークの管理、チケット販売、会場管理、フード、コーヒー、..
+   そして...
 
 Staff ask me the **same things**
 --------------------------------
+スタッフは **同じこと** を質問する
+
 * 40+ staff
 * 🐣 NEW staff : 🐔 OLD staff = 50 : 50
 
 .. revealjs-notes::
 
-   The number of PyCon JP staff is over 40, half of them are new staff.
-   New staff ask similar things to me. And I send similar answers repeatedly.
-   But, ...
+   スタッフの数は40名を超えていて、だいたい半分が新規スタッフでした。
+   新規スタッフは似たようなことを私に聴いてきて、私も繰り返し同じように回答します。
+   しかし...
 
 Programmer is **Lazy**
 ======================
+
+プログラマーは **怠惰**
+
 .. revealjs-notes::
 
-   As you know, programmers dislike routine work. I also dislike it VERY much.
-   I'd like someone to be my secretary and do tedious tasks for me.
+   ご存じの通り、プログラマーはルーチンワークを嫌います。私もとても嫌いです。
+   誰か私の秘書が面倒なタスクを代わりにやってほしいと思います。
+   そうだ!
 
 Let's create a **secretary**!!
 ==============================
+**秘書** を作ろう!!
+
 .. revealjs-notes::
 
-   Let's make it.
-   Because I'm a programmer.
+   秘書を作ろう!!
+   なぜなら私はプログラマーだから。
 
-Goal 🥅
-========
+Goal / ゴール 🥅
+=================
 * How to create **simple** bot
 * How to create **interactive** bot
 * How to **extend** bot using libs and APIs
 
 .. revealjs-notes::
 
-   The goal of this talk.
-   You'll learn how to create simple bot,
-   how to create interactive bot,
-   how to extend bot using libraries and APIs through various case studies.
+   このトークのゴールは、以下を知ることです。
+   単純なボットの作り方、対話ボットの作り方、ライブラリとAPIを使ってノットを拡張する方法。
 
-Why **Slack** ? :fab:`slack`
-============================
+Why **Slack** ? / なぜ **Slack**? :fab:`slack`
+==============================================
 * Launching the Slack app at any time 💻 📱
 * **Easy** to access
 * To do **everything**
@@ -203,6 +233,9 @@ Why **Slack** ? :fab:`slack`
 
 You can create **interactive** bot
 ----------------------------------
+
+**対話** botが作れるようになります
+
 .. image:: images/bot-result1.png
    :width: 48%
 
@@ -221,12 +254,14 @@ You can create **interactive** bot
 Simple integration with **Incoming Webhooks** 🪝
 ================================================
 
+**Incoming Webhooks** での簡単な連携
+
 .. revealjs-notes::
 
    First, I will explain Simple integration with Incoming Webhooks.
 
-System overview
----------------
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-webhook.png
 
 .. revealjs-notes::
@@ -236,6 +271,7 @@ System overview
 
 **Create** Incoming Webhooks Integration 🔧
 ===========================================
+Incoming Webhooks連携を **作成**
 
 **Create** Incoming Webhooks Integration
 ----------------------------------------
@@ -250,8 +286,10 @@ System overview
 
    How to generate a Webhook URL is as follows....
 
-1. Create a Slack app
----------------------
+1. Create a Slack app / Slack appを作成
+---------------------------------------
+
+
 * https://api.slack.com/apps
 
 .. image:: images/create-webhook1-1.png
@@ -278,13 +316,13 @@ System overview
 
 * see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
 
-2. Activate Incoming Webhooks
------------------------------
+2. Activate Incoming Webhooks / 有効化
+--------------------------------------
 .. image:: images/create-webhook4-1.png
    :width: 50%
 
-3. Add Webhook to Workspace
----------------------------
+3. Add Webhook to Workspace / ワークスペースに追加
+--------------------------------------------------
 * Click "Add New Webhook to Workspace"
 
 .. image:: images/create-webhook4-2.png
@@ -313,6 +351,7 @@ System overview
 
 Post message via **Webhook URL** 📬
 ===================================
+**Webhook URL** 経由でメッセージを投稿
 
 Post message with **cURL**
 --------------------------
@@ -397,8 +436,8 @@ Post message with **Slack SDK**
 
 .. Slackが提供しているPython Slack SDKもおすすめです。
 
-**Formatting** text
--------------------
+**Formatting** text / テキストを整形
+------------------------------------
 * see: `Formatting text for app surfaces <https://api.slack.com/reference/surfaces/formatting>`_
 
 .. revealjs-code-block:: python
@@ -473,8 +512,10 @@ Block Kit **Builder**
    Block Kit Builder is useful for creating Blocks.
    We can write Block Kit code interactively and see the results visually.
 
-Summary of Incoming **Webhooks**
+**Summary** of Incoming Webhooks
 ================================
+**まとめ**: Incoming Webhooks
+
 * **Easy** to post messages from programs 📬
 * Create complex messages with **Block Kit** 🧱
 * But **one-way** (program➡️Webhook➡️Slack)
@@ -486,13 +527,14 @@ Summary of Incoming **Webhooks**
 
 **Interactive** bot 🤝
 ======================
+**対話型** のbot
 
 .. revealjs-notes::
 
    Next,..I will explain how to make an interactive bot.
 
-Connection protocols
---------------------
+Connection protocols / 接続方式
+-------------------------------
 * Events API over HTTP
 * Socket Mode
 * see: `Choosing a protocol to connect to Slack <https://api.slack.com/apis/connections>`_
@@ -529,8 +571,8 @@ Socket Mode
    On the other hand, Socket Mode does not require a static HTTP endpoint.
    Socket Mode allows you to receive Events API through a private WebSocket.
 
-Connection protocols
---------------------
+Connection protocols / 接続方式
+-------------------------------
 * Events API over HTTP
 * **Socket Mode** 👈
 
@@ -543,6 +585,7 @@ Connection protocols
 
 **Create** bot user 🤖
 ======================
+bot userを **作成**
 
 **Create** bot user
 -------------------
@@ -685,6 +728,7 @@ Invite bot user to channels
 
 **Long** and **Complex** !! 🤯
 ===============================
+**長い** し **複雑** !!
 
 .. revealjs-notes::
 
@@ -798,6 +842,7 @@ Create new app with App Manifest
 
 **Short** and **Reusable** !! 🥳
 =================================
+**短い** し **再利用** できる!!
 
 .. revealjs-notes::
 
@@ -806,6 +851,7 @@ Create new app with App Manifest
 
 Create bot with **Bolt** ⚡️
 ============================
+**Bolt** を使ってbotを作成
 
 .. revealjs-notes::
 
@@ -864,6 +910,7 @@ Bolt for Python
 
 I can **interact** with the bot ! 🎉
 -------------------------------------
+botと **会話** できた!
 
 .. image:: images/bot-hi.png
 
@@ -874,6 +921,7 @@ I can **interact** with the bot ! 🎉
 
 **Extend** bot 🛠
 =================
+botを **拡張**
 
 .. revealjs-notes::
 
@@ -891,8 +939,8 @@ I can **interact** with the bot ! 🎉
 
    app.message() decolator executes the function when it matches the pattern.
 
-mention
--------
+mention / メンション
+--------------------
 .. literalinclude:: code/app-extend.py
    :lines: 25-30
 
@@ -903,8 +951,8 @@ mention
 
    The bot can send mentions
 
-Using regular expression
-------------------------
+Use regular expression / 正規表現を使う
+---------------------------------------
 .. literalinclude:: code/app-extend.py
    :lines: 3-4,31-38
 
@@ -932,8 +980,8 @@ Block Kit support
 .. image:: images/bot-followme.png
    :width: 60%
 
-Logging
--------
+Logging / ロギング
+------------------
 .. literalinclude:: code/app-extend.py
    :lines: 1,11,78-83
 
@@ -949,6 +997,7 @@ Logging
 
 **Events** and **Scopes** 🔭
 ============================
+**イベント** と **スコープ**
 
 Events and Scopes
 -----------------
@@ -1074,6 +1123,8 @@ Add Emoji reaction
 
 **Summary** of Events and Scopes
 --------------------------------
+**まとめ**: イベントとスコープ
+
 * To receive new events
 * To use new API with new scopes
 * Add **events** and/or **scopes** → Reinstall app
@@ -1082,6 +1133,7 @@ Add Emoji reaction
 
 Case studies 📚
 ================
+事例紹介
 
 .. revealjs-notes::
 
@@ -1089,6 +1141,7 @@ Case studies 📚
 
 Calculator function using **SymPy** 🔢
 =======================================
+**SymPy** を使った電卓機能
 
 Calculator function using **SymPy**
 -----------------------------------
@@ -1098,8 +1151,8 @@ Calculator function using **SymPy**
   * I feel heavy to call a calculator app on my smartphone
   * It seems useful if **Slack as a calculator**
 
-System overview
----------------
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-sympy.png
 
 about **SymPy**
@@ -1120,14 +1173,16 @@ about **SymPy**
    :language: python
    :lines: 6,10-24
 
-Slack as a **calculator** !! 🎉
--------------------------------
+Slack as a **calculator**!! 🎉
+------------------------------
+Slackが **電卓** になった!!
 
 .. image:: images/case-sympy.png
    :width: 30%
 
 Plus-plus feature using **Peewee ORM** 👍
 ==========================================
+**Peewee ORM** を使ったプラプラ機能
 
 Plus-plus feature using **Peewee ORM**
 --------------------------------------
@@ -1167,12 +1222,14 @@ plusplus_model.py
 
 I can **appreciate** it! 🎉
 ---------------------------
+**感謝** できる!!
 
 .. image:: images/case-peewee.png
    :width: 40%
 
 Search issues with **Jira APIs** 🔎
 ====================================
+**Jira API** で課題を検索
 
 Search issues with **Jira APIs**
 --------------------------------
@@ -1220,11 +1277,14 @@ Search issues
 
 **Free** from Jira web! 🎉
 --------------------------
+Jira webからの **解放**!
+
 .. image:: images/bot-jira.png
    :width: 60%
 
 Create **multiple issues** from a template 📝
 =============================================
+テンプレートから **複数の課題** を作成
 
 Create **multiple issues** from a template
 ------------------------------------------
@@ -1311,6 +1371,8 @@ Create Jira issues
 
 **Free** from copying issues! 🎉
 --------------------------------
+課題のコピーからの **解放**!
+
 .. image:: images/bot-sheet2.png
    :width: 30%
 
@@ -1319,6 +1381,7 @@ Create Jira issues
 
 **Account management** of Google Workspace 👥
 ==============================================
+Google Workspaceでの **アカウント管理**
 
 **Account management** of Google Workspace
 ------------------------------------------
@@ -1375,6 +1438,7 @@ Add user
 
 I can **forget** Google Admin! 🎉
 ---------------------------------
+Google Adminを **忘れられる**!
 
 .. revealjs-notes::
 
@@ -1404,15 +1468,16 @@ Not-Admin cannot run
 
 **Resolve** a security issue 🎊
 --------------------------------
+セキュリティ上の問題も **解決**
 
-Summary
-=======
+Summary / まとめ
+================
 * Simple bot using **Incoming Webhooks**
 * Interactive bot using **Bolt** for Python
 * Extend bot using **libraries** and **APIs**
 
-Next Step 🪜
-============
+Next Step / 次のステップ 🪜
+============================
 
 * Let's make **your Slackbot**
 * Let's connect with **libraries** and **APIs**
@@ -1431,7 +1496,7 @@ Thank you! 🙏
 
 :fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`__
 
-:fas:`code` `github.com/takanory/slides/tree/master/slides/20220713europython/code <https://github.com/takanory/slides/tree/master/slides/20220713europython/code>`__
+:fas:`code` `sample code <https://github.com/takanory/slides/tree/master/slides/20221015pyconjp/code>`__
 
 translate command
 -----------------
@@ -1451,4 +1516,4 @@ Thank you! 🙏
 
 :fas:`desktop` `slides.takanory.net <https://slides.takanory.net>`__
 
-:fas:`code` `github.com/takanory/slides/tree/master/slides/20220713europython/code <https://github.com/takanory/slides/tree/master/slides/20220713europython/code>`__
+:fas:`code` `sample code <https://github.com/takanory/slides/tree/master/slides/20221015pyconjp/code>`__
