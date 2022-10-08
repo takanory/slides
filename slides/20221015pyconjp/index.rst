@@ -225,16 +225,16 @@ Why **Slack** ? / なぜ **Slack**? :fab:`slack`
 
 .. revealjs-notes::
 
-   My secretary is a chatbot of Slack.
-   Is there someone using Slack?
-   I'm Launching the Slack application at any time on my PC and smartphone.
-   So it's easy to access for me. I'd like to do everything in Slack.
-   Let's make a chatbot.
+   私の秘書はSlack上のbot。
+   Slack使っている人?
+   私はSlackアプリをPCとスマホでいつも立ち上げているので、すぐにアクセスできる。
+   いろんなことをSlack上でやりたい。
+   では、botを作りましょう。
 
 You can create **interactive** bot
 ----------------------------------
 
-**対話** botが作れるようになります
+**対話** botが作れるようになる
 
 .. image:: images/bot-result1.png
    :width: 48%
@@ -244,9 +244,9 @@ You can create **interactive** bot
 
 .. revealjs-notes::
 
-   At the end of this talk, you will be able to create bots like this.
-   For example, the bot will greet, choose randomly, count beers, calculate, count, search JIRA issues, create email addresses and more.
-   Now let's learn how to create a bot.
+   このトークを聴くとこんなbotが作れるようになる。
+   あいさつ、random選択、計算、プラプラ、JIRA検索、メールアドレス追加など
+   botの作り方を説明します。
 
 .. このトークを聞くとこんなbotが作れるようになりますよ。
    あいさつしたり、randomに選んだり、計算したり、カウントしたり、JIRA検索したり、メールアドレスを追加したり。
@@ -266,8 +266,8 @@ System overview / システム概要
 
 .. revealjs-notes::
 
-   This is a system overview of Incoming Webhooks.
-   When a program sends a message to a Webhook URL via HTTPS, the message will be sent to Slack.
+   Incoming Webhooksのシステム概要。
+   プログラムがメッセージをWebhook URLに送信すると、そのメッセージがSlackに表示される
 
 **Create** Incoming Webhooks Integration 🔧
 ===========================================
@@ -284,11 +284,10 @@ Incoming Webhooks連携を **作成**
 
 .. revealjs-notes::
 
-   How to generate a Webhook URL is as follows....
+   Webhook URLを生成する手順は以下のとおり
 
 1. Create a Slack app / Slack appを作成
 ---------------------------------------
-
 
 * https://api.slack.com/apps
 
@@ -346,8 +345,8 @@ Incoming Webhooks連携を **作成**
 
 .. revealjs-notes::
 
-   At last, we got a webhook URL.
-   Then let's send a message to Slack with the URL.
+   最後にWebhook URLが取得できる。
+   このURLを使ってSlackにメッセージを送信しましょう
 
 Post message via **Webhook URL** 📬
 ===================================
@@ -366,8 +365,8 @@ Post message with **cURL**
 
 .. revealjs-notes::
 
-   We send a simple message with cURL.
-   When we send a message with JSON, the message will be displayed in Slack.
+   簡単なメッセージをcURLで送信する。
+   JSONの中にメッセージを入れて送信するとSlackに表示される
 
 Post message with **Python**
 ----------------------------
@@ -387,8 +386,7 @@ Post message with **Python**
 
 .. revealjs-notes::
 
-   But we are pythonista.
-   We use urllib.request module.
+   みなさんはpythonistaなので、urllib.requestを使います
 
 Post message with **Requests**
 ------------------------------
@@ -410,7 +408,7 @@ Post message with **Requests**
 
 .. revealjs-notes::
 
-   It is easier to use Requests.
+   Requestsだとより簡単
 
 Post message with **Slack SDK**
 -------------------------------
@@ -432,9 +430,7 @@ Post message with **Slack SDK**
 
 .. revealjs-notes::
 
-   I also recommend the Python Slack SDK provided by Slack.
-
-.. Slackが提供しているPython Slack SDKもおすすめです。
+   Slackが提供しているPython Slack SDKもおすすめです。
 
 **Formatting** text / テキストを整形
 ------------------------------------
@@ -455,8 +451,8 @@ Post message with **Slack SDK**
 
 .. revealjs-notes::
 
-   Text can be formatted as markdown.
-   If you want to create more complex messages,... use the Block Kit.
+   markdownっぽくテキストがフォーマットできる。
+   より複雑なメッセージを作成したい場合は...
 
 .. markdownっぽくテキストがフォーマットできます。
 
@@ -465,7 +461,7 @@ Post message with **Slack SDK**
 
 .. revealjs-notes::
 
-   use the Block Kit !
+   Block Kitを使います
 
 **Block** Kit
 -------------
@@ -477,7 +473,7 @@ Post message with **Slack SDK**
 
 .. revealjs-notes::
 
-   Block Kit is a new UI framework for Slack apps.
+   Block KitはSlackアプリのUIフレームワーク
 
 **Example** of Block Kit
 ------------------------
@@ -509,8 +505,8 @@ Block Kit **Builder**
 
 .. revealjs-notes::
 
-   Block Kit Builder is useful for creating Blocks.
-   We can write Block Kit code interactively and see the results visually.
+   Blockを作成するのにBlock Kit Builderが便利です。
+   Block Kitのコードを対話的に生成して表示が確認できる
 
 **Summary** of Incoming Webhooks
 ================================
@@ -522,8 +518,10 @@ Block Kit **Builder**
 
 .. revealjs-notes::
 
-   I'd like to interact with the bot.
-   Next,..
+   プログラムで簡単にメッセージを投稿できる。
+   複雑なメッセージをBlock Kitで作成できる。
+   しかし一方向です。
+   次に、...
 
 **Interactive** bot 🤝
 ======================
@@ -531,7 +529,7 @@ Block Kit **Builder**
 
 .. revealjs-notes::
 
-   Next,..I will explain how to make an interactive bot.
+   次に、対話型のbotの作成方法を解説する
 
 Connection protocols / 接続方式
 -------------------------------
@@ -541,9 +539,7 @@ Connection protocols / 接続方式
 
 .. revealjs-notes::
 
-   Slack provides 2 protocols for interacting.
-
-.. Slackは2種類のプロトコルを用意しています
+   Slackは対話用に2種類のプロトコルを提供している
 
 Events API over HTTP
 --------------------
@@ -554,10 +550,8 @@ Events API over HTTP
 
 .. revealjs-notes::
 
-   In "Events API over HTTP",
-   User messages will be Events API and Events API directly over HTTP.
-   The protocol requires a public HTTP endpoint.
-
+   「Events API over HTTP」では、ユーザーが送信したメッセージはEvents APIとして送信される。
+   このプロトコルでは公開のHTTPエンドポイントが必要
 
 Socket Mode
 -----------
@@ -568,8 +562,8 @@ Socket Mode
 
 .. revealjs-notes::
 
-   On the other hand, Socket Mode does not require a static HTTP endpoint.
-   Socket Mode allows you to receive Events API through a private WebSocket.
+   もう一つの「Socket Mode」ではHTTPエンドポイントは不要。
+   プライベートなWebSocket内でEvent APIを受信する
 
 Connection protocols / 接続方式
 -------------------------------
@@ -578,10 +572,7 @@ Connection protocols / 接続方式
 
 .. revealjs-notes::
 
-   In this talk, I chose Socket Mode because it is easy to develop locally.
-
-.. * 公開するエンドポイントを用意するのが難しい場合はSocket Modeが便利
-   * ここではSocket Modeで説明をしていく
+   この発表では、ローカルでの開発が簡単なので、Socket Modeを使います
 
 **Create** bot user 🤖
 ======================
