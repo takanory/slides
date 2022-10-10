@@ -25,16 +25,16 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `PyCon JP 2022 <https://2022.pycon.jp/>`_
      * Tokyo, Japan
      * 2022 Oct
      * Talk
-     * `Automate the Boring Stuff with Slackbot(ver.2) <https://pretalx.com/pyconjp2022/talk/ELUNPR/>`__
+     * `Automate the Boring Stuff with Slackbot(ver.2) <https://2022.pycon.jp/timetable?id=ELUNPR>`__
      * `Slides <https://slides.takanory.net/slides/20221015pyconjp/>`__
    - * BPStyle139
      * Online
@@ -94,9 +94,9 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `PyCon APAC 2021 <https://th.pycon.org/>`__
@@ -141,9 +141,9 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `オープンソースカンファレンス2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
@@ -210,9 +210,9 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
@@ -330,9 +330,9 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `テクトモ #7 <https://techtomo.connpass.com/event/107621/>`_
@@ -368,9 +368,9 @@
    :widths: 20, 10, 10, 5, 40, 10
 
    - * event
-     * place
+     * location
      * date
-     * kind
+     * type
      * title
      * resource
    - * `テクトモ #1 <https://techtomo.connpass.com/event/89475/>`_
