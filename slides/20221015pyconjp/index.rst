@@ -1544,7 +1544,7 @@ translate command
    $ pip install deepl
 
 .. literalinclude:: code/app-deepl.py
-   :lines: 6, 9-10, 12-18
+   :lines: 6, 9-10, 12-21
 
 Thank you! 🙏
 --------------

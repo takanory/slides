@@ -12,9 +12,12 @@ translator = deepl.Translator(os.environ["DEEPL_AUTH_KEY"])
 
 @app.message(re.compile(r"^translate (.*)"))
 def translate(message, context, say):
+    """translate text into English"""
     text = context["matches"][0]
-    result = translator.translate_text(text,
-                                       target_lang="EN-US")
+    result = translator.translate_text(
+        text,
+        target_lang="EN-US",
+    )
     say(result.text)
 
 
