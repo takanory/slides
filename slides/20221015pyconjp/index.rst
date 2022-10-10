@@ -52,7 +52,7 @@ Slide 💻
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My talk &quot;Automate the Boring Stuff with Slackbot (ver. 2)&quot; slides are <a href="https://t.co/YfAyUxQT0e">https://t.co/YfAyUxQT0e</a> <a href="https://twitter.com/hashtag/EuroPython2022?src=hash&amp;ref_src=twsrc%5Etfw">#EuroPython2022</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1547222521648390149?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My talk &quot;Automate the Boring Stuff with Slackbot (ver. 2)&quot; slides are <a href="https://t.co/YfAyUxQT0e">https://t.co/YfAyUxQT0e</a> <a href="https://twitter.com/hashtag/EuroPython2022?src=hash&amp;ref_src=twsrc%5Etfw">#EuroPython2022</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1547222521648390149?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 .. revealjs-notes::
 
@@ -437,15 +437,16 @@ Post message with **Slack SDK**
 * see: `Formatting text for app surfaces <https://api.slack.com/reference/surfaces/formatting>`_
 
 .. revealjs-code-block:: python
-   :data-line-numbers: 4-7
+   :data-line-numbers: 4-8
 
    from slack_sdk.webhook import WebhookClient
 
    url = "https://hooks.slack.com/services/T000..."
    webhook = WebhookClient(url)
    # *bold*, <url|text>, :emoji: and etc.
-   r = webhook.send(text="*Hello* from "
-     "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
+   sdk_url = "https://slack.dev/python-slack-sdk/"
+   r = webhook.send(
+       text=f"*Hello* from <{sdk_url}|Slack SDK>! :beer:")
 
 .. image:: images/webhook-formatting.gif
 
@@ -482,14 +483,14 @@ Post message with **Slack SDK**
    blocks = [{
        "type": "section",
        "text": {
-            "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
             "type": "mrkdwn"
+            "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
        },
        "fields": [
             {"type": "mrkdwn", "text": "*Love*"},
-            {"type": "mrkdwn", "text": "*From*"},
-            {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
-            {"type": "plain_text", "text": "Japan :jp:"},
+            {"type": "mrkdwn", "text": "*Hobby*"},
+            {"type": "plain_text", "text": "Ferrets, :beer:, LEGO"},
+            {"type": "plain_text", "text": ":trumpet:, :man_climbing:"},
        ],
    }]
    response = webhook.send(blocks=blocks)
@@ -878,7 +879,7 @@ Bolt for Python
 ---------------------------------
 簡単なbotをBoltで **作成**
 
-.. literalinclude:: code/app1.py
+.. literalinclude:: code/app.py
    :language: python
    :caption: app.py
 
@@ -960,7 +961,7 @@ Use regular expression / 正規表現を使う
 .. revealjs-break::
 
 .. literalinclude:: code/app-extend.py
-   :lines: 39-45
+   :lines: 40-45
 
 .. image:: images/bot-beers.png
    :width: 70%
@@ -968,7 +969,7 @@ Use regular expression / 正規表現を使う
 Block Kit support
 -----------------
 .. literalinclude:: code/app-extend.py
-   :lines: 46-61
+   :lines: 48-61
 
 .. image:: images/bot-followme.png
    :width: 60%
@@ -976,9 +977,9 @@ Block Kit support
 Logging / ロギング
 ------------------
 .. literalinclude:: code/app-extend.py
-   :lines: 1,11,78-83
+   :lines: 1,11,63-67
 
-.. code-block:: bash
+.. code-block:: text
 
    $ python app.py
    ⚡️ Bolt app is running!
@@ -1092,10 +1093,10 @@ To know user joined a channel
 
 .. literalinclude:: code/app-extend.py
    :emphasize-lines: 1-2
-   :lines: 60-66
+   :lines: 70-75
 
 .. image:: images/event-member-joined.png
-   :width: 40%
+   :width: 35%
 
 .. revealjs-notes::
 
@@ -1109,10 +1110,10 @@ Add Emoji reaction / emojiリアクション
 
 .. literalinclude:: code/app-extend.py
    :language: python
-   :lines: 67-76
+   :lines: 78-85
 
 .. image:: images/scope-reactions-write.png
-   :width: 50%
+   :width: 60%
 
 .. revealjs-notes::
 
@@ -1435,7 +1436,7 @@ System overview / システム概要
 Update Google Authorization
 ---------------------------
 Google 認証を更新
- 
+
 * Update a Google Cloud project
 
   * add **Directory API**
