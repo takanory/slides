@@ -1179,9 +1179,9 @@ about **SymPy**
 **calc()** function using Sympy
 -------------------------------
 
-.. literalinclude:: code/app-sympy.py
+.. literalinclude:: code/app-calc.py
    :language: python
-   :lines: 6,10-24
+   :lines: 6,10-21
 
 Slack as a **calculator**!! 🎉
 ------------------------------
@@ -1283,8 +1283,8 @@ Authentication/ 認証
 
    from jira import JIRA
 
-   url = 'https://jira.atlassian.com/'
-   jira = JIRA(url, basic_auth=('email', 'API token'))
+   url = "https://jira.atlassian.com/"
+   jira = JIRA(url, basic_auth=("email", "API token"))
 
 * see: `2.1.2. Authentication <https://jira.readthedocs.io/examples.html#authentication>`_
 
@@ -1369,33 +1369,22 @@ Get Spreadsheet data
 --------------------
 スプレッドシートからデータを取得
 
-.. code-block:: python
-
-   from google.oauth2.credentials import Credentials
-   from googleapiclient.discovery import build
-
-   SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-   SHEET = "1i3YQPObe3ZC_i1Jalo44_2_..."
-
-   @app.message("create issues")
-   def creaete_issues(message, say):
-       creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-       service = build('sheets', 'v4', credentials=creds)
-       sheet = service.spreadsheets()
-       result = sheet.values().get(spreadsheetId=SHEET, range="A2:C4").execute()
-       for row in result.get("values", []):
-           say(f"* Title: {row[0]}, Delta: {row[1]}")
+.. literalinclude:: code/app-sheet.py
+   :lines: 3-4, 9-11, 14-22
 
 * see: `Method: spreadsheets.values.get | Sheets API <https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.values/get>`_
 
 .. revealjs-break::
 
 .. image:: images/bot-sheet1.png
+   :width: 40%
+
+.. image:: images/bot-issue-template2.png
    :width: 50%
 
 Create Jira issues / 課題を作成
 -------------------------------
-.. literalinclude:: code/app-sheet.py
+.. literalinclude:: code/app-sheet2.py
    :lines: 21, 27-39
    :language: python
 

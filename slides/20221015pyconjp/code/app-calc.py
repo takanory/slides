@@ -10,13 +10,12 @@ app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 @app.message(re.compile(r"^([-+*/^%!().\d\s]+)$"))
 def calc(message, context, say):
+    """hogehoge"""
     try:
         formula = context["matches"][0]
-        result = sympify(formula)  # Simplifies the formula
-        if result.is_Integer:
-            answer = int(result)  # Convert to integer value
-        else:
-            answer = float(result)  # Convert to float value
+        num = sympify(formula)  # Simplifies the formula
+        # convert into or float
+        answer = int(num) if num.is_Integer else float(num)
         say(f"{answer:,}")
     except SympifyError:
         pass

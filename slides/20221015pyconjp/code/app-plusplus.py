@@ -8,14 +8,14 @@ from plusplus_model import Plusplus
 app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 
-# match "word++" pattern
-@app.message(re.compile(r"^(\w+)\+\+"))
+@app.message(re.compile(r"^(\w+)\+\+")) # match "word++" pattern
 def plusplus(say, context):
+    """increments a counter with a name"""
     name = context["matches"][0]
     # Get or create object
     plus, created = Plusplus.get_or_create(
         name=name.lower(),
-        defaults={'counter': 0}
+        defaults={'counter': 0},
     )
     plus.counter += 1
     plus.save()
