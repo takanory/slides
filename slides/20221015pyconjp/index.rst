@@ -591,11 +591,11 @@ bot userを **作成**
 
 .. revealjs-notes::
 
-   I describe how to create an interactive bot.
-   At first, we create bot user on Slack.
+   対話botの作り方を解説します。
+   最初にSlackにbotユーザーを作成する
 
-1. Create a Slack app
----------------------
+1. Create a Slack app / Slack appを作成
+---------------------------------------
 * Open https://api.slack.com/apps
 
 .. image:: images/create-webhook1-1.png
@@ -622,8 +622,8 @@ bot userを **作成**
 
 * see: `Beer icons created by Freepik - Flaticon <https://www.flaticon.com/free-icons/beer>`_
 
-2. Enable Socket Mode
----------------------
+2. Enable Socket Mode / Socket Mode有効化
+-----------------------------------------
 * Select "Socket Mode" → Turn toggle on
 
 .. image:: images/create-bot4.png
@@ -645,8 +645,8 @@ bot userを **作成**
 .. image:: images/create-bot6.png
    :width: 50%
 
-3. Subscribe bot event
-----------------------
+3. Subscribe bot event / イベント登録
+-------------------------------------
 * Select "Event Subscriptions" → Turn toggle on
 
 .. image:: images/create-bot3-1.png
@@ -663,8 +663,8 @@ bot userを **作成**
 .. image:: images/create-bot3-2-2.png
    :width: 50%
 
-4. Add Bot Token Scopes
------------------------
+4. Add Bot Token Scopes / スコープ追加
+--------------------------------------
 * Select "OAuth & Permissions"
 
 .. image:: images/create-bot7.png
@@ -689,8 +689,8 @@ bot userを **作成**
 .. image:: images/create-bot10.png
    :width: 50%
 
-5. Install App to Workspace
----------------------------
+5. Install App to Workspace / アプリをインストール
+--------------------------------------------------
 * Select "Install App" → Click "Install to Workspace"
 
 .. image:: images/create-bot11.png
@@ -714,27 +714,26 @@ bot userを **作成**
 
 Invite bot user to channels
 ---------------------------
+botユーザーをチャンネルに招待
+
 .. image:: images/invite-bot.png
    :width: 50%
 
 **Long** and **Complex** !! 🤯
 ===============================
-**長い** し **複雑** !!
+手順が **長い** し **複雑** !!
 
 .. revealjs-notes::
 
-   The steps are long and complex !!
-   Is there a better way ?
-   I recommend... App Manifest.
-
-.. ステップが長くて難しいですか?
+   手順が長くて複雑!!なにかいい方法はないの?
+   おすすめは...
 
 App **Manifest** ⚙️
 ===================
 
 .. revealjs-notes::
 
-   I recommend... App Manifest.
+   おすすめは...App Manifest
 
 App **Manifest**
 ----------------
@@ -743,8 +742,8 @@ App **Manifest**
 
 .. revealjs-notes::
 
-   App Manifests are YAML-formatted configuration bundles for Slack apps.
-   We can share and reuse manifests.
+   App ManifestsはYAML形式のSlackアプリの設定ファイル。
+   manifestを共有、再利用できる
 
 Example of App Manifest
 -----------------------
@@ -771,8 +770,8 @@ Example of App Manifest
      socket_mode_enabled: true
      token_rotation_enabled: false
 
-Get App Manifest
-----------------
+Get App Manifest / App Manifestを取得
+-------------------------------------
 * Select "App Manifest" menu
 
 .. image:: images/get-app-manifest.png
@@ -780,6 +779,8 @@ Get App Manifest
 
 Create new app with App Manifest
 --------------------------------
+App ManifestでSlack appを作成
+
 * Select "From an app manifest"
 * Select workspace → Click "Next"
 
@@ -837,8 +838,8 @@ Create new app with App Manifest
 
 .. revealjs-notes::
 
-   App Manifest makes steps shorter and reusable.
-   Now we are ready to start creating an interactive bot.
+   App Manifestによって手順が短く、再利用可能になった。
+   対話botを作る準備ができた
 
 Create bot with **Bolt** ⚡️
 ============================
@@ -846,8 +847,7 @@ Create bot with **Bolt** ⚡️
 
 .. revealjs-notes::
 
-   Let's create a bot with Bolt !
-   What is Bolt?
+   Boltでbotを作成する。Boltとはなんでしょう?
 
 Bolt for Python
 ---------------
@@ -861,8 +861,8 @@ Bolt for Python
 
 .. revealjs-notes::
 
-   Bolt is a Python framework to build Slack app in a flash.
-   Slack also provides Bolt for JavaScript and Java.
+   BoltはSlackアプリを素早く構築できるフレームワーク。
+   SlackはJavaScriptとJavaのBoltも提供している
 
 **Install** Bolt for Python
 ---------------------------
@@ -876,6 +876,8 @@ Bolt for Python
 
 **Create** a simple bot with Bolt
 ---------------------------------
+簡単なbotをBoltで **作成**
+
 .. literalinclude:: code/app1.py
    :language: python
    :caption: app.py
@@ -884,8 +886,8 @@ Bolt for Python
 
    When the bot receives the string "Hi", bot sends a greeting message.
 
-**Running** bot
----------------
+**Running** bot / botを **実行**
+--------------------------------
 .. code-block:: bash
 
    # Set 2 tokens in environment variables
@@ -928,7 +930,7 @@ botを **拡張**
 
 .. revealjs-notes::
 
-   app.message() decolator executes the function when it matches the pattern.
+   app.message()デコレーターは、パターンにマッチしたら関数を実行する
 
 mention / メンション
 --------------------
@@ -940,7 +942,7 @@ mention / メンション
 
 .. revealjs-notes::
 
-   The bot can send mentions
+   botはメンションを送信できる
 
 Use regular expression / 正規表現を使う
 ---------------------------------------
@@ -952,8 +954,8 @@ Use regular expression / 正規表現を使う
 
 .. revealjs-notes::
 
-   Bolt can handle parameters.
-   We use regular expressions in app.message() decolator, you can extract matched strings from context["matches"]
+   Boltはパラメータを扱える。
+   app.message()デコレーターに正規表現をカクと、context["matches"]からマッチした文字列を取り出せる
 
 .. revealjs-break::
 
@@ -990,16 +992,16 @@ Logging / ロギング
 ============================
 **イベント** と **スコープ**
 
-Events and Scopes
------------------
+**Events** and **Scopes**
+-------------------------
 * Can only receive events in **Bot Events**
 * Can only execute APIs allowed by **Bot Token Scopes**
 
 .. revealjs-notes::
 
-   Events and Scopes are important concepts in Slack Bots.
-   Bot can only receive events in **Bot Events**.
-   And bot can only execute APIs allowed by **Bot Token Scopes**.
+   イベントとスコープはSlackアプリの重要な概念です。
+   biotは **Bot Events** で設定されたイベントのみを受け取れます。
+   そして、botは**Bot Token Scopes** で許可されたAPIのみが実行できます
 
 Current Bot Events and Scopes
 -----------------------------
@@ -1015,7 +1017,8 @@ Current Bot Events and Scopes
 
 .. revealjs-notes::
 
-   For example, the current bot event is message.channels, bot scopes are channels:history and chat:write only.
+   現在のbotイベントはmessage.channelsで、スコープはchannels:historyとchat:writeのみです。
+   これはpublicチャンネルの読み書きのみができるということです
 
 .. revealjs-break::
 
@@ -1026,9 +1029,9 @@ Current Bot Events and Scopes
 
 .. revealjs-notes::
 
-   So, the bot cannot read/write messages on private channels.
-   I invited the bot to a private channel and sent a "Hi" message but no response!
-   What shoud I do?
+   そのため、botはprivateチャンネルのメッセージが読み書きできません。
+   botをprivateチャンネルに招待して「Hi」とメッセージを送ってもなにも反応しません。
+   どうすればよいでしょうか?
 
 Add Events and Scopes for private channels
 ------------------------------------------
@@ -1041,8 +1044,8 @@ Add Events and Scopes for private channels
 
 .. revealjs-notes::
 
-   I need to add events and scopes for private channels.
-   I added a "message.groups" event.
+   botにprivateチャンネルを読み書きするイベントとスコープが必要です。
+   まず、「message.groups」を追加します
 
 .. revealjs-break::
 
@@ -1054,7 +1057,7 @@ Add Events and Scopes for private channels
 
 .. revealjs-notes::
 
-   "groups:history" scope is automatically added
+   「groups:history」スコープは自動的に追加されます
 
 .. revealjs-break::
 
@@ -1068,7 +1071,7 @@ Add Events and Scopes for private channels
 
 .. revealjs-notes::
 
-   I will reinstall the app because of the change in events and scopes.
+   そしてアプリを再インストールします。これはイベントとスコープが変わったためです
 
 .. revealjs-break::
 
@@ -1079,10 +1082,12 @@ Add Events and Scopes for private channels
 
 .. revealjs-notes::
 
-   Then, the bot can read/write messages in **private channel**
+   その結果、botがprivateチャンネルのメッセージを読み書きできるようになりました。
 
 To know user joined a channel
 -----------------------------
+ユーザーのチャンネルへの参加を知る
+
 * Add **member_joined_channel** event → Reinstall app
 
 .. literalinclude:: code/app-extend.py
@@ -1094,11 +1099,12 @@ To know user joined a channel
 
 .. revealjs-notes::
 
-   If you want to know when a user joins a channel, add a "member_joind_channel" event.
-   And You can handle the event with @app.event decorator.
+   他のイベント、スコープの例です。
+   誰かがチャンネルに参加したことを知りたい場合は「member_joind_channel」イベントを追加します。
+   @app.eventデコレーターでイベントを処理できます
 
-Add Emoji reaction
-------------------
+Add Emoji reaction / emojiリアクション
+--------------------------------------
 * Add **reactions:write** scope → Reinstall app
 
 .. literalinclude:: code/app-extend.py
@@ -1110,7 +1116,7 @@ Add Emoji reaction
 
 .. revealjs-notes::
 
-   If you want to add emoji reactions, add a "reactions:write" scope.
+   emojiリアクションができるようにするには「reactions:write」スコープを追加します
 
 **Summary** of Events and Scopes
 --------------------------------
@@ -1121,6 +1127,12 @@ Add Emoji reaction
 * Add **events** and/or **scopes** → Reinstall app
 * see: `Events API types <https://api.slack.com/events>`_
 * see: `Permission scopes <https://api.slack.com/scopes>`_
+
+.. revealjs-notes::
+
+   イベントとスコープのまとめです。
+   新しいイベント、新しいスコープが必要なAPIを実行したい場合は、それぞれ追加してアプリの再インストールが必要です。
+   イベント、スコープの種類は以下のリンクを参照してください
 
 Case studies 📚
 ================
@@ -1141,6 +1153,12 @@ Calculator function using **SymPy**
 
   * I feel heavy to call a calculator app on my smartphone
   * It seems useful if **Slack as a calculator**
+
+.. revealjs-notes::
+
+   モチベーション。
+   スマートフォンで電卓アプリを呼び出すのがめんどう。
+   Slackが電卓になったら便利そう
 
 System overview / システム概要
 ------------------------------
@@ -1181,8 +1199,13 @@ Plus-plus feature using **Peewee ORM**
 
   * In PyCon JP, I want to make a culture that **appreciates** each other staff 👍
 
-System overview
----------------
+.. revealjs-notes::
+
+   モチベーション。
+   PyCon JPでスタッフ同士が感謝する文化を作りたかった
+
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-peewee.png
 
 about **Peewee**
@@ -1230,8 +1253,14 @@ Search issues with **Jira APIs**
   * Jira Web is **slow**
   * Search issues **without Jira Web**
 
-System overview
----------------
+.. revealjs-notes::
+
+   モチベーション。
+   JIRAは便利ですが、Web画面が重たい。
+   Web画面を使わずに課題を検索した。
+
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-jira.png
 
 about **Python Jira**
@@ -1243,8 +1272,8 @@ about **Python Jira**
 
    $ pip install jira
 
-Authentication
---------------
+Authentication/ 認証
+--------------------
 * Create an API token
 
   * see: `Manage API tokens for your Atlassian account <https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/>`_
@@ -1258,8 +1287,8 @@ Authentication
 
 * see: `2.1.2. Authentication <https://jira.readthedocs.io/examples.html#authentication>`_
 
-Search issues
--------------
+Search issues / 課題を検索
+--------------------------
 .. literalinclude:: code/app-jira.py
    :lines: 15-29
 
@@ -1285,12 +1314,21 @@ Create **multiple issues** from a template
   * Copying issues by hand is **painful**
   * Jira Web is **slow** (again)
 
-System overview
----------------
+.. revealjs-notes::
+
+   モチベーション。
+   pycampイベントではイベントごとに20以上の課題作成が必要。
+   手で課題をコピーするのはつらい。
+   JIRAのWebは遅い
+
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-template.png
 
 Google Authorization is Complex
 -------------------------------
+Googleの認証は複雑
+
 * Create a Google Cloud project
 
   * Enable API(in this case: Google Sheets API)
@@ -1322,12 +1360,14 @@ Google Authorization is Complex
 
 * see: `Python Quickstart | Sheets API <https://developers.google.com/sheets/api/quickstart/python>`_
 
-Issue template
---------------
+Issue template / 課題テンプレート
+---------------------------------
 .. image:: images/bot-issue-template.png
 
 Get Spreadsheet data
 --------------------
+スプレッドシートからデータを取得
+
 .. code-block:: python
 
    from google.oauth2.credentials import Credentials
@@ -1352,8 +1392,8 @@ Get Spreadsheet data
 .. image:: images/bot-sheet1.png
    :width: 50%
 
-Create Jira issues
-------------------
+Create Jira issues / 課題を作成
+-------------------------------
 .. literalinclude:: code/app-sheet.py
    :lines: 21, 27-39
    :language: python
@@ -1382,12 +1422,20 @@ Google Workspaceでの **アカウント管理**
   * I only use Google Admin web occasionally
   * I **forgot** to use admin screen
 
-System overview
----------------
+.. revealjs-notes::
+
+   モチベーション。
+   PyCon JPはpycon.jpドメインでGoogleワークスペースを使用している。
+   管理画面はたまにしか使わないため、使い方をよく忘れる
+
+System overview / システム概要
+------------------------------
 .. image:: images/diagram-directory.png
 
 Update Google Authorization
 ---------------------------
+Google 認証を更新
+ 
 * Update a Google Cloud project
 
   * add **Directory API**
@@ -1398,8 +1446,8 @@ Update Google Authorization
   * Re-run ``quickstart.py``
   * Get new ``token.json``
 
-Get user list
--------------
+Get user list / ユーザー一覧を取得
+----------------------------------
 .. literalinclude:: code/app-admin.py
    :language: python
    :lines: 11, 13-26
@@ -1411,8 +1459,8 @@ Get user list
 .. image:: images/bot-user-list.png
    :width: 50%
 
-Add user
---------
+Add user / ユーザー追加
+-----------------------
 .. literalinclude:: code/app-admin.py
    :language: python
    :lines: 28-42
@@ -1433,21 +1481,21 @@ Google Adminを **忘れられる**!
 
 .. revealjs-notes::
 
-   But ...
+   しかし...
 
-Security Issue 🔓
-------------------
+Security Issue / セキュリティ課題 🔓
+-------------------------------------
 * **Anyone** can run it
 * Run only **Slack Admin** 🔒
 
 .. revealjs-notes::
 
-   But ...there is a security issue with this code.
-   It means anyone can list and add users.
-   So, modify commands to run only for the Slack Admin
+   しかし...このコードにはセキュリティ上の課題があります。
+   誰でもユーザーリストの取得や追加ができるということです。
+   そこで、Slackの管理者のみがこのコマンドを実行できるようにします
 
-Not-Admin cannot run
---------------------
+Only **Admin** can run / **管理者** のみ実行可
+----------------------------------------------
 * Add ``users:read`` scope, use `users.info <https://api.slack.com/methods/users.info>`_ API
 
 .. literalinclude:: code/app-admin2.py
@@ -1459,13 +1507,20 @@ Not-Admin cannot run
 
 **Resolve** a security issue 🎊
 --------------------------------
-セキュリティ上の問題も **解決**
+セキュリティ上の課題も **解決**
 
 Summary / まとめ
 ================
 * Simple bot using **Incoming Webhooks**
 * Interactive bot using **Bolt** for Python
 * Extend bot using **libraries** and **APIs**
+
+.. revealjs-notes::
+
+   全体のまとめです。
+   Incoming Webhooksで簡単なbotを作れる。
+   Bolt for Pythonで対話型のボットを作れる。
+   ライブラリーとAPIでbotを拡張できる
 
 Next Step / 次のステップ 🪜
 ============================
@@ -1476,7 +1531,10 @@ Next Step / 次のステップ 🪜
 
 .. revealjs-notes::
 
-   Then you will have more free time so you can do other creative things more.
+   あなたのSlackbotを作って見てください。
+   ライブラリやAPIとつないでみてください。
+   そしてあなたの退屈なことを、Slackbotにやらせましょう。
+   そうすれば、自由な時間が増えるので、もっと他の創造的なことができます。
 
 Thank you! 🙏
 ==============
