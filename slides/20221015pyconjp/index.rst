@@ -1440,7 +1440,7 @@ Get user list / ユーザー一覧を取得
 ----------------------------------
 .. literalinclude:: code/app-admin.py
    :language: python
-   :lines: 11, 13-26
+   :lines: 11-13, 15-25
 
 * see: `Method: users.list | Directory API <https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/list>`_
 
@@ -1453,7 +1453,7 @@ Add user / ユーザー追加
 -----------------------
 .. literalinclude:: code/app-admin.py
    :language: python
-   :lines: 28-42
+   :lines: 28-41
 
 * see: `Method: users.insert | Directory API <https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/insert>`_
 
@@ -1490,10 +1490,10 @@ Only **Admin** can run / **管理者** のみ実行可
 
 .. literalinclude:: code/app-admin2.py
    :language: python
-   :lines: 14-22
+   :lines: 16-19, 21-27
 
 .. image:: images/bot-not-admin.png
-   :width: 40%
+   :width: 30%
 
 **Resolve** a security issue 🎊
 --------------------------------
