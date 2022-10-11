@@ -42,6 +42,7 @@
      * LT
      * Spread the community after COVID-19 in Japan
      * `Slides <https://slides.takanory.net/slides/20220715europython-lt/>`__
+       `Report <https://gihyo.jp/list/group/%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A7%E9%96%8B%E5%82%AC-EuroPython-2022%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`__
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
      * 2022 Jul
