@@ -1363,7 +1363,10 @@ Googleの認証は複雑
 
 Issue template / 課題テンプレート
 ---------------------------------
+* `Issue template spread sheet <https://docs.google.com/spreadsheets/d/1i3YQPObe3ZC_i1Jalo44_2_Ce72tQmIlZLyZ5sjFj4s/edit#gid=0>`__
+
 .. image:: images/bot-issue-template.png
+   :width: 80%
 
 Get Spreadsheet data
 --------------------
