@@ -122,7 +122,7 @@ Who am I? / お前誰よ 👤
 * `PyQ <https://pyq.jp/>`_: Python独学プラットフォーム
 * `TRACERY <https://tracery.jp/>`_: システム開発ドキュメントサービス
 
-(TODO: ロゴ画像)
+.. image:: images/beproud-logos.png
 
 **BeProud** Booth
 -----------------
