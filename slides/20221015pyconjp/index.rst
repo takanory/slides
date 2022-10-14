@@ -38,7 +38,7 @@ Agenda / アジェンダ 📋
 Photos 📷 Tweets 🐦 👍
 =========================
 
-``#pyconjp`` / ``@takanory``
+``#pyconjp`` / ``#pyconjp_1`` / ``@takanory``
 
 .. revealjs-notes::
 
@@ -127,13 +127,7 @@ Who am I? / お前誰よ 👤
 **BeProud** Booth
 -----------------
 
-(TODO: ブース画像)
-
-**Python ED** Booth
--------------------
-* 関連書籍をお得な価格で販売中!!
-
-(TODO: ブース画像)
+.. image:: images/beproud-booth.jpg
 
 AD is over / 宣伝は終了
 -----------------------
