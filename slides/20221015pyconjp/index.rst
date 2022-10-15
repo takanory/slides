@@ -52,7 +52,7 @@ Slide 💻
 
 .. raw:: html
 
-   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">My talk &quot;Automate the Boring Stuff with Slackbot (ver. 2)&quot; slides are <a href="https://t.co/YfAyUxQT0e">https://t.co/YfAyUxQT0e</a> <a href="https://twitter.com/hashtag/EuroPython2022?src=hash&amp;ref_src=twsrc%5Etfw">#EuroPython2022</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1547222521648390149?ref_src=twsrc%5Etfw">July 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日はPyCon JP 2022で13:00からTrack 1で「Automate the Boring Stuff with Slackbot(ver.2) 」で発表します。退屈なことをbotにやらせたい人はぜひ聞きに来てくださいー。発表資料はこちら <a href="https://t.co/bUrVXtqR5I">https://t.co/bUrVXtqR5I</a> <a href="https://twitter.com/hashtag/pyconjp?src=hash&amp;ref_src=twsrc%5Etfw">#pyconjp</a> <a href="https://twitter.com/hashtag/pyconjp_1?src=hash&amp;ref_src=twsrc%5Etfw">#pyconjp_1</a></p>&mdash; Takanori Suzuki (@takanory) <a href="https://twitter.com/takanory/status/1581083717618892800?ref_src=twsrc%5Etfw">October 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 .. revealjs-notes::
 
