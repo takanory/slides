@@ -10,7 +10,7 @@ app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 @app.message(re.compile(r"^([-+*/^%!().\d\s]+)$"))
 def calc(message, context, say):
-    """hogehoge"""
+    """calculator function"""
     try:
         formula = context["matches"][0]
         num = sympify(formula)  # Simplifies the formula
