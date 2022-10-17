@@ -36,6 +36,7 @@
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://2022.pycon.jp/timetable?id=ELUNPR>`__
      * `Slides <https://slides.takanory.net/slides/20221015pyconjp/>`__
+       `Video <https://youtu.be/LVdxCWdhROU?t=609>`__
    - * BPStyle139
      * Online
      * 2022 Aug
@@ -48,13 +49,17 @@
      * LT
      * Spread the community after COVID-19 in Japan
      * `Slides <https://slides.takanory.net/slides/20220715europython-lt/>`__
-       `Report <https://gihyo.jp/list/group/%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A7%E9%96%8B%E5%82%AC-EuroPython-2022%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`__
+       `Video <https://youtu.be/EZCtpnc0IJA?t=27727>`__
+       `Report <https://gihyo.jp/article/2022/09/europython2022-02>`__
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
      * 2022 Jul
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://ep2022.europython.eu/session/automate-the-boring-stuff-with-slackbot-ver-2>`__
+
      * `Slides <https://slides.takanory.net/slides/20220713europython/>`__
+       `Video <https://youtu.be/x3-I2j4zSHI?t=17557>`__
+       `Report <https://gihyo.jp/article/2022/09/europython2022-01>`__
    - * BPStyle138
      * Online
      * 2022 Jul
@@ -77,7 +82,7 @@
      * Online
      * 2022 Feb
      * Panel
-     * 
+     *
      * `Video <https://www.youtube.com/watch?v=QDP2SycaAFs>`__
    - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
      * Kumamoto
