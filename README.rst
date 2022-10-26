@@ -58,7 +58,7 @@
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://ep2022.europython.eu/session/automate-the-boring-stuff-with-slackbot-ver-2>`__
 
      * `Slides <https://slides.takanory.net/slides/20220713europython/>`__
-       `Video <https://youtu.be/x3-I2j4zSHI?t=17557>`__
+       `Video <https://www.youtube.com/watch?v=3k7qHhUHuP8>`__
        `Report <https://gihyo.jp/article/2022/09/europython2022-01>`__
    - * BPStyle138
      * Online
