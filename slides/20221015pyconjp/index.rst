@@ -1,7 +1,7 @@
-.. :og:image: _images/20221015pyconjp.png
+:og:image: _images/20221015pyconjp.png
+:og:image:alt: Automate the Boring Stuff with Slackbot (ver. 2)
 
 .. |cover| image:: images/20221015pyconjp.png
-   :alt: Automate the Boring Stuff with Slackbot (ver. 2)
 
 ======================================================
  Automate the Boring Stuff with **Slackbot** (ver. 2)
