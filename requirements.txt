@@ -2,4 +2,4 @@ furo==2022.9.29
 Sphinx==5.3.0
 sphinx-revealjs==2.3.0
 sphinx_design==0.3.0
-sphinxext-opengraph==0.6.3
+sphinxext-opengraph==0.7.2

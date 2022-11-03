@@ -58,6 +58,7 @@ html_static_path = ['_static']
 ogp_site_url = "https://slides.takanory.net/slides/"
 ogp_site_name = project
 ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
+ogp_use_first_image = True
 ogp_type = "article"
 
 # -- for revealjs --------
