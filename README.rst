@@ -49,7 +49,7 @@
      * LT
      * Spread the community after COVID-19 in Japan
      * `Slides <https://slides.takanory.net/slides/20220715europython-lt/>`__
-       `Video <https://youtu.be/EZCtpnc0IJA?t=27727>`__
+       `Video <https://www.youtube.com/watch?v=o8AHM8mx61U&t=692s>`__
        `Report <https://gihyo.jp/article/2022/09/europython2022-02>`__
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
