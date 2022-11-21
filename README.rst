@@ -30,6 +30,12 @@
      * type
      * title
      * resource
+   - * BPStyle142
+     * Online
+     * 2022 Nov
+     * Talk
+     * takanory必殺技
+     * `Slides <https://github.com/pyconjp/slides/raw/master/20180705bpstyle/20180705bpstyle.pdf>`__
    - * `PyCon JP 2022 <https://2022.pycon.jp/>`_
      * Tokyo, Japan
      * 2022 Oct
