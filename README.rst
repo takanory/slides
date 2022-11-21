@@ -35,7 +35,7 @@
      * 2022 Nov
      * Talk
      * takanory必殺技
-     * `Slides <https://github.com/pyconjp/slides/raw/master/20180705bpstyle/20180705bpstyle.pdf>`__
+     * `Slides <https://github.com/takanory/slides/raw/master/slides/20221110bpstyle/20221110bpstyle.pdf>`__
    - * `PyCon JP 2022 <https://2022.pycon.jp/>`_
      * Tokyo, Japan
      * 2022 Oct
