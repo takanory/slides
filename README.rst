@@ -42,7 +42,7 @@
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://2022.pycon.jp/timetable?id=ELUNPR>`__
      * `Slides <https://slides.takanory.net/slides/20221015pyconjp/>`__
-       `Video <https://youtu.be/LVdxCWdhROU?t=609>`__
+       `Video <https://www.youtube.com/watch?v=o5ME-F2-Kmw>`__
    - * BPStyle139
      * Online
      * 2022 Aug
