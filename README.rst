@@ -117,6 +117,7 @@
      * Talk
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20211120pyconapac/>`__
+       `Video <https://www.youtube.com/watch?v=d0bHW_1L7Os>`__
    - * `PyCon JP 2021 <https://2021.pycon.jp/>`__
      * Tokyo/Online
      * 2021 Oct
