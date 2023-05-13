@@ -18,6 +18,26 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
+
+2023
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 40, 10
+
+   - * event
+     * location
+     * date
+     * type
+     * title
+     * resource
+   - * `みんなのPython勉強会#93 #79 <https://startpython.connpass.com/event/272158/>`_
+     * Online
+     * 2023 May
+     * Talk
+     * Do you know PyCon JP (Association)? 〜海外PyCon情報を添えて
+     * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
+
 2022
 ====
 .. list-table::
