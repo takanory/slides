@@ -31,7 +31,7 @@
      * type
      * title
      * resource
-   - * `みんなのPython勉強会#93 #79 <https://startpython.connpass.com/event/272158/>`_
+   - * `みんなのPython勉強会#93 <https://startpython.connpass.com/event/272158/>`_
      * Online
      * 2023 May
      * Talk
