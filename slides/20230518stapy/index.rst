@@ -125,9 +125,13 @@ PyCon JP Associationの活動 🕺
 * Python Charity Talks in Japan
 * PyCon JP TV
 * PyLadies Caravan
-* PyCon miniイベントへの支援
+* PyCon miniイベントへの支援  
 
 (それぞれがどういうイベントかを紹介)
+
+PSFに表彰された
+---------------
+* PSFから理事が表彰された話
 
 PyCon APACについて 🌏
 ======================
