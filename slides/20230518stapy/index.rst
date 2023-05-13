@@ -131,9 +131,69 @@ PyCon JP Associationの活動 🕺
 
 PyCon APACについて 🌏
 ======================
+* アジア太平洋地域のPyCon
+* 2010年にシンガポールで開催
+
+  * 当時アジアでPyConを開催していたのはシンガポールとインドくらい?
+* 2013年に日本で開催してから、各国で持ちまわり開催
+
+  * 台湾、韓国、マレーシア、フィリピン、タイ、台湾
+
+PyCon APAC 2023
+---------------
+* 10年振りに日本でPyCon APACが開催
+* https://2023-apac.pycon.jp/
+* 10月27日〜29日
+* TOC有明
+
+PyCon APAC 2023
+---------------
+* プロポーザル募集中
+* スポンサー募集中
+* トーク、ポスター、ライトニングトーク、チュートリアル
 
 海外PyCon情報 🌎
 =================
+* PyCon(Python Conference)は世界中で開催されている
+* 近年、APAC地域での開催も増えている
+
+
+APACでのPyCon
+-------------
+* https://pycon.asia/
+* Feb 25-26: PyCon PH Manila, Philippines
+* Aug 11-13: PyCon KR Seoul, Korea
+* Aug 18-22: Py Con AU Adelaide, Australia
+* Aug 17-19 (Tentative): PyCon SG Singapore
+* Aug 26: Py Con MY Malaysia
+
+.. revealjs-break::
+
+* Sept 2-3: PyCon TW Taipei, Taiwan
+* Sept 15-17: Kiwi PyCon Invercargill, New Zealand
+* Sept 29-Oct 2: Py Con India Hyderabad, India
+* Nov 10-11: PyCon HK Hong Kong
+* Nov 11-12: PyCon ID Indonesia
+* Dec 15-16 (Tentative): PyCon TH Thailand
+
+世界のPyCon
+-----------
+* https://pycon.org/
+* (地図表示する?)
+
+PyCon US 2023
+-------------
+* 写真をまじえて紹介?
+
+まとめ / Summary 📝
+====================
+* PyCon JPは日本のPythonイベント
+
+  * 2023年はPyCon APACとして開催
+* PyCon JP Associationはとりまとめ組織
+
+  * 他にもいろんな活動してるよ
+* 世界中でPythonカンファレンス開催されてるよ
 
 Thank you! 🙏
 ==============
