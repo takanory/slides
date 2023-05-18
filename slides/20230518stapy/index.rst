@@ -13,6 +13,9 @@ Takanori Suzuki
 
 `みんなのPython勉強会#93 <https://startpython.connpass.com/event/272158/>`__ / 2023 May 18
 
+Start Python Club 8周年おめでとうございます!! 🎊
+=================================================
+
 Agenda 📝
 ==========
 * PyCon JPとは
@@ -159,8 +162,7 @@ PyCon JP Association
 
   * →日本のPython界隈を **盛り上げたい**
 * 2013年3月21日に設立
-
-  * ref: `設立趣意書 <https://www.pycon.jp/committee/charter.html>`_
+* ref: `設立趣意書 <https://www.pycon.jp/committee/charter.html>`_
 
 **理事会**
 ----------
@@ -197,7 +199,6 @@ PyCon JP Associationの活動 🕺
 * Python Boot Camp Caravan
 * Python Charity Talks in Japan
 * PyCon JP TV
-* PyCon miniイベントへの支援  
 
 Python関連コミュニティ支援 (2015-)
 ----------------------------------
@@ -210,7 +211,6 @@ Python関連コミュニティ支援 (2015-)
 
 支援イベント(一部)
 ------------------
-
 `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_、
 `PyCon mini Shizuoka 2021 <https://shizuoka.pycon.jp/2021>`_、
 `DjangoCongress JP 2021 <https://djangocongress.jp/>`_、
@@ -321,9 +321,9 @@ PyCon APACとは 🌏
 * 2010年に **シンガポール** で初開催
 
   * 当時アジアのPyConは他はインドくらい?
-* 2013年に日本でPyCon APACを開催
+* 2013年に **日本** でPyCon APACを開催
 
-  * 台湾、韓国、マレーシア、シンガポール、フィリピン、タイと持ち回り
+  * 台湾、韓国、マレーシア、シンガポール、フィリピン、タイと **持ち回り**
 * ref: `PyConAPAC - Python Wiki <https://wiki.python.org/moin/PyConAPAC>`_
 
 .. revealjs-break::
