@@ -414,6 +414,10 @@ PyCon US 2023
 
 * `gihyo.jp <https://gihyo.jp>`_ にレポート掲載予定
 
+`EuroPython 2023 <https://ep2023.europython.eu>`_
+-------------------------------------------------
+.. image:: images/europython.png
+
 過去に参加したイベントレポート
 ------------------------------
 * `slides.takanory.net <https://slides.takanory.net/>`_ の **Report** をクリック
