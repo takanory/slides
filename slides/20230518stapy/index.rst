@@ -79,7 +79,7 @@ PyCon JPとは 🇯🇵
 * 国内 **最大級**
 * 2011年から **毎年開催**
 * 2020年から **オンライン**
-* 2022年から完全 **現地開催へ**
+* 2022年から完全 **現地開催** 復活
 
 * ref: `PyCon JP イベント主催事業 <https://www.pycon.jp/organizer/index.html>`_
 
@@ -296,7 +296,7 @@ PyCon APACとは 🌏
   * 当時アジアのPyConは他はインドくらい?
 * 2013年に日本でPyCon APACを開催
 
-  * 台湾、韓国、マレーシア、シンガポール、フィリピンと持ち回り
+  * 台湾、韓国、マレーシア、シンガポール、フィリピン、タイと持ち回り
 * ref: `PyConAPAC - Python Wiki <https://wiki.python.org/moin/PyConAPAC>`_
 
 .. revealjs-break::
