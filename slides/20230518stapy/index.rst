@@ -93,6 +93,15 @@ PyCon JPとは 🇯🇵
   * ライトニングトーク
 
 .. revealjs-break::
+   :notitle:
+
+キーノート
+
+.. raw:: html
+
+   <a data-flickr-embed="true" href="https://www.flickr.com/photos/pyconjp/52623198946/in/album-72177720305200994/" title="179A2843"><img src="https://live.staticflickr.com/65535/52623198946_3997b6026e_c.jpg" width="800" height="533" alt="179A2843"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+   
+.. revealjs-break::
    
 * 学んだり開発したり交流したり
 
@@ -101,12 +110,30 @@ PyCon JPとは 🇯🇵
   * スポンサーブース
 
 .. revealjs-break::
+   :notitle:
+
+スポンサーブース
+
+.. raw:: html
+
+   <a data-flickr-embed="true" href="https://www.flickr.com/photos/pyconjp/52623526105/in/album-72177720305181560/" title="DSC00288"><img src="https://live.staticflickr.com/65535/52623526105_f01d6d82c5_c.jpg" width="800" height="534" alt="DSC00288"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+.. revealjs-break::
 
 * おいしいものを食べたり飲んだり
 
   * ランチ
   * コーヒーブレイク
   * パーティー
+
+.. revealjs-break::
+   :notitle:
+
+パーティー
+
+.. raw:: html
+
+   <a data-flickr-embed="true" href="https://www.flickr.com/photos/pyconjp/52622741107/in/album-72177720305200994/" title="179A4302"><img src="https://live.staticflickr.com/65535/52622741107_19af756cf5_c.jpg" width="800" height="533" alt="179A4302"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>    
 
 今年のイベントは？
 ------------------
@@ -318,6 +345,7 @@ PyCon APAC 2023
 
   * トーク、ポスター、ライトニングトーク、チュートリアル
 * スポンサー募集はこれから
+* チケット発売もこれから
 
 知り合いがいない?
 -----------------
@@ -391,12 +419,15 @@ PyCon US 2023
 * `slides.takanory.net <https://slides.takanory.net/>`_ の **Report** をクリック
 
 `EuroPython 2022 <https://gihyo.jp/article/2022/09/europython2022-01>`_、
-`PyCon Indonesia 2019 <https://gihyo.jp/news/report/2019/12/1701>`_、
-`PyCon Singapore 2019 <https://gihyo.jp/news/report/2019/10/2901>`_、
-`PyCon Taiwan 2019 <https://gihyo.jp/list/group/%E6%97%A5%E6%9C%AC%E3%81%A8%E5%8F%B0%E6%B9%BE%E3%81%AEPython%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AE%E6%9E%B6%E3%81%91%E6%A9%8B%E3%81%AB-PyCon-Taiwan-2019-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`_、
-`PyCon Malaysia 2019 <https://gihyo.jp/news/report/2019/09/0901>`_、
+`PyCon ID 2019 <https://gihyo.jp/news/report/2019/12/1701>`_、
+`PyCon SG 2019 <https://gihyo.jp/news/report/2019/10/2901>`_
+
+`PyCon TW 2019 <https://gihyo.jp/list/group/%E6%97%A5%E6%9C%AC%E3%81%A8%E5%8F%B0%E6%B9%BE%E3%81%AEPython%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AE%E6%9E%B6%E3%81%91%E6%A9%8B%E3%81%AB-PyCon-Taiwan-2019-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`_、
+`PyCon MY 2019 <https://gihyo.jp/news/report/2019/09/0901>`_
+
 `EuroPython 2019 <https://gihyo.jp/list/group/%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%91%E3%81%AEPython%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A8%E4%BA%A4%E6%B5%81%E3%81%A7%E3%81%8D%E3%82%8B3%E6%97%A5%E9%96%93-EuroPython-2019-%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`_、
-`PyCon Thailand 2019 <https://gihyo.jp/news/report/2019/07/0501>`_、
+`PyCon TH 2019 <https://gihyo.jp/news/report/2019/07/0501>`_
+
 `PyCon US 2019 <https://gihyo.jp/list/group/%E4%B8%96%E7%95%8C%E6%9C%80%E5%A4%A7%E3%81%AEPython%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9-US-PyCon-2019-%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`_、
 `PyCon APAC 2019 <https://gihyo.jp/news/report/2019/03/1201>`_ (Philippines)
 
