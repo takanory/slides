@@ -9,7 +9,7 @@
 Who am I? / お前誰よ👤
 =======================
 - 鈴木たかのり / Takanori Suzuki (:fab:`twitter` `@takanory <https://twitter.com/takanory>`_)
-- `PyCon JP Association <https://www.pycon.jp>`__ 副代表理事
+- `PyCon JP Association <https://www.pycon.jp>`__ 代表理事
 - `BeProud <https://www.beproud.jp>`__ 取締役/Python Climber
 - `Python mini Hack-a-thon <https://pyhack.connpass.com/>`__
 - 好き: Ferrets_、`🍺 <https://untappd.com/user/takanory>`__、LEGO_ ／ 趣味: `🎺 <https://twpo.org/>`__、`🧗‍♀️ <https://kabepy.connpass.com/>`__
@@ -23,7 +23,7 @@ Who am I? / お前誰よ👤
 PyCon JP Association 🐍
 ========================
 - `www.pycon.jp <https://www.pycon.jp/>`__
-- 日本国内のPythonユーザーのために、Pythonの普及及び開発支援を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした非営利組織
+- 日本国内のPythonユーザーのために、**Pythonの普及** 及び **開発支援** を行う為に、継続的にカンファレンス(PyCon)を開くことを目的とした **非営利組織**
 
 .. image:: /assets/images/pyconjp_logo.png
    :alt: PyCon JP
@@ -37,16 +37,12 @@ PSF Community Service Awards 🏆
 * `PyCon JP Association Awarded the PSF Community Service Award for Q4 2021 <https://pyfound.blogspot.com/2022/05/pycon-jp-association-awarded-psf.html>`_
 * `PyCon JP Blog: PyCon US 2022でCommunity Service Awardsを受賞してきました <https://pyconjp.blogspot.com/2022/06/pyconjp-win-awards.html>`_
 
-PyCon JP 2022 🎫
------------------
-- `2022.pycon.jp <https://2022.pycon.jp/>`__
-- 国内最大(1,000名)規模のPythonイベント
-- 日付: 2022年10月14日(金)-16日(日)
+PyCon APAC 2023 🎫
+-------------------
+- `2023-apac.pycon.jp <https://2023-apac.pycon.jp/>`__
+- **国内最大規模** のPythonイベント
+- 日付: 2023年10月27日(金)-29日(日)
 - 会場: `TOC有明コンベンションホール <https://www.toc.co.jp/saiji/ariake/>`__
-
-.. image:: /assets/images/pyconjp2022logo.png
-   :alt: PyCon JP 2022
-   :width: 60%
 
 PyCon JP TV 📺
 ---------------
