@@ -31,12 +31,30 @@
      * type
      * title
      * resource
+   - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
+     * Seoul, Korea
+     * 2023 Aug
+     * Talk
+     * 
+     * 
+   - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
+     * Tokyo, Japan
+     * 2023 Jun
+     * Talk
+     * 
+     * 
    - * `みんなのPython勉強会#93 <https://startpython.connpass.com/event/272158/>`_
      * Online
      * 2023 May
      * Talk
      * Do you know PyCon JP (Association)? 〜海外PyCon情報を添えて
      * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
+   - * `PyCon US 2023 <https://us.pycon.org/2023/>`_
+     * Salt Lake City, Ut
+     * 2023 Apr
+     * 
+     * 
+     * `Report <https://gihyo.jp/list/group/PyCon-US-2023-%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2023/05/pycon-us2023-001>`__
 
 2022
 ====
@@ -220,15 +238,15 @@
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2020do/osc2020do.pdf>`__
        `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
-   - * `PyCon HK <https://pycon.hk/>`__
+   - * `PyCon HK 2020 <https://pycon.hk/>`__
      * Online
      * 2020 May
      * Talk
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200510pyconhk/20200510pyconhk.pdf>`__
        `Video <https://www.youtube.com/watch?v=Gi3B46Tjxh8>`__
-   - * `PyCon <https://pyhack.connpass.com/event/154028/>`__
-     * Pittsburgh, PA -> Online
+   - * `PyCon US 2020 <https://us.pycon.org/2020/>`__
+     * Online
      * 2020 Apr
      * Talk
      * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
@@ -254,7 +272,7 @@
      * Talk
      * 社歴長い人枠
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191205bpstyle/20191205bpstyle.pdf>`__
-   - * `PyCon ID <https://pycon.id/>`__
+   - * `PyCon ID 2019 <https://pycon.id/>`__
      * Surabaya, Indonesia
      * 2019 Nov
      * Talk
@@ -262,7 +280,7 @@
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191123pyconid/20191123pyconid.pdf>`__
        `Video <https://www.youtube.com/watch?v=3iBA9kjQ9B0>`__
        `Report <https://gihyo.jp/news/report/2019/12/1701>`__
-   - * `PyCon SG <https://pycon.sg/>`__
+   - * `PyCon SG 2019 <https://pycon.sg/>`__
      * Singapore
      * 2019 Oct
      * Talk
@@ -270,7 +288,7 @@
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191010pyconsg/20191010pyconsg.pdf>`__
        `Video <https://www.youtube.com/watch?v=4r3-5wvi4kA>`__
        `Report <https://gihyo.jp/news/report/2019/10/2901>`__
-   - * `PyCon TW <https://tw.pycon.org/2019/en-us/>`__
+   - * `PyCon TW 2019 <https://tw.pycon.org/2019/en-us/>`__
      * Taipei, Taiwan
      * 2019 Sep
      * Talk
@@ -278,14 +296,14 @@
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190922pycontw/20190922pycontw.pdf>`__
        `Video <https://www.youtube.com/watch?v=XGHR4D8_fjQ>`__
        `Report <https://gihyo.jp/news/report/01/pycon-tw2019>`__
-   - * `PyCon JP <https://pycon.jp/2019/>`__
+   - * `PyCon JP 2019 <https://pycon.jp/2019/>`__
      * Tokyo, Japan
      * 2019 Sep
      * Talk
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190917pyconjp/20190917pyconjp.pdf>`__
        `Video <https://www.youtube.com/watch?v=rbNI2LzwaqE>`__
-   - * `PyCon MY <https://pycon.my/>`__
+   - * `PyCon MY 2019 <https://pycon.my/>`__
      * Kuala Lumpur, Malaysia
      * 2019 Aug
      * Talk
@@ -300,14 +318,14 @@
      * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190808stapy/20190808stapy.pdf>`__
        `Video <https://www.youtube.com/watch?v=gKrQVJ1v7WM&t=589>`__
-   - * `EuroPython <https://ep2019.europython.eu/>`__
+   - * `EuroPython 2019 <https://ep2019.europython.eu/>`__
      * Bazel, Switzerland
      * 2019 Jul
      * Poster
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://ep2019.europython.eu/talks/q2tF2E8-python-boot-camp-introduction-of-efforts-to-spread-python-all-over-japan/>`__
      * `Poster <https://github.com/takanory/slides/raw/master/slides/20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
        `Report <https://gihyo.jp/news/report/01/europython2019>`__
-   - * `PyCon Thailand <https://th.pycon.org/en/>`__
+   - * `PyCon Thailand 2019 <https://th.pycon.org/en/>`__
      * Bangkok, Thailand
      * 2019 Jun
      * Talk
@@ -327,14 +345,14 @@
      * Talk
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2019do/osc2019do.pdf>`__
-   - * `PyCon <https://us.pycon.org/2019/>`__
+   - * `PyCon US 2019 <https://us.pycon.org/2019/>`__
      * Cleveland, OH
      * 2019 May
      * Poster
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://us.pycon.org/2019/schedule/presentation/130/>`__
      * `Poster <https://github.com/takanory/slides/raw/master/slides/20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
        `Report <https://gihyo.jp/news/report/01/us-pycon2019>`__
-   - * `PythonBeginners沖縄 <https://python-beginners-okinawa.connpass.com/event/125925/>`__
+   - * `PythonBeginners沖縄 22 <https://python-beginners-okinawa.connpass.com/event/125925/>`__
      * Okinawa, Japan
      * 2019 Apr
      * LT
@@ -346,7 +364,7 @@
      * Talk
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=19>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2019okinawa/osc2019okinawa.pdf>`__
-   - * `PyCon APAC <https://pycon.python.ph/>`__
+   - * `PyCon APAC 2019 <https://pycon.python.ph/>`__
      * Makati, Philippines
      * 2019 Feb
      * Talk
@@ -380,7 +398,7 @@
      * LT
      * Python Boot Campの紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20181110aoit/20181110aoit.pdf>`__
-   - * `Plone Conference <https://2018.ploneconf.org/>`__
+   - * `Plone Conference 2018 <https://2018.ploneconf.org/>`__
      * Tokyo, japan
      * 2018 Nov
      * LT
