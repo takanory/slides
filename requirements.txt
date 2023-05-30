@@ -1,4 +1,4 @@
-furo==2023.5.7
+furo==2023.5.20
 Sphinx==6.2.1
 sphinx-revealjs==2.6.0
 sphinx_design==0.4.1
