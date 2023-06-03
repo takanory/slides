@@ -49,6 +49,7 @@
      * Talk
      * Do you know PyCon JP (Association)? 〜海外PyCon情報を添えて
      * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
+       `Video <https://www.youtube.com/watch?v=k1wET4NrcRo>`__
    - * `PyCon US 2023 <https://us.pycon.org/2023/>`_
      * Salt Lake City, Ut
      * 2023 Apr
