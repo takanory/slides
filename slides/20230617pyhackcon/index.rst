@@ -61,11 +61,12 @@ Day 1: Apr 24
 
 Modern Timesへ 🚕
 ------------------
-* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804210082177731872>`__ で移動。VICTORIAさんはあまりビールを飲まない
-* 11 min / 16.99 USD
+* Lyftで移動。ドライバーのVICTORIAさんはあまりビールを飲まない
+* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804210082177731872>`__:
+  11 min / 16.99 USD
 
 .. image:: images/moderntimes.jpg
-   :width: 60%
+   :width: 70%
 
 `Modern Times`_ で 🍺
 -----------------------
@@ -87,17 +88,18 @@ Coaster_ でClarsbadへ 🚃
 * 50 min / 6.50 USD
 
 .. image:: images/coaster.jpg
-   :width: 60%
+   :width: 70%
 
 .. _Coaster: https://gonctd.com/services/coaster-commuter-rail/
 
 Hotelへ 🚕
 -----------
 * 駅で降りたのは私ともう1人のおじさんだけ
-* 4 min / 10.44 USD
+* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804253037957305848>`__:
+  4 min / 10.44 USD
 
 .. image:: images/carlsbad-hotel.jpg
-   :width: 60%
+   :width: 70%
 
 `BJ's Restaurant & Brewhouse`_ で🍺
 ------------------------------------
@@ -113,18 +115,153 @@ Hotelへ 🚕
 .. image:: images/bjbeer3.jpg
    :width: 25%
 
+.. revealjs-break::
+   :notitle:
+
+🥪 がデカいよ...
+
+.. image:: images/bjsand.jpg
+   :width: 80%
+
 Day 1終了 🛌
 -------------
 * `Carlsbad by the Sea Hotel <https://www.carlsbadbytheseahotel.com/>`_
 * 1 night / 15,756円
 
-.. image:: images/carlsbad-hotel.jpg
-   :width: 60%
+.. image:: images/carlsbad-room.jpg
+   :width: 70%
 
 Day 2: Apr 25
 =============
 * カールスバッド
+* →レゴランド
 * →アナハイム
+
+レゴランドへ 🚶
+----------------
+* 荷物を引きずり **徒歩15分** のレゴランドへ
+* **ガードレール** がない、**ゲート** あいてない
+
+.. image:: images/road-to-legoland.jpg
+   :width: 33%
+.. image:: images/legoland-gate.jpg
+   :width: 33%
+
+テンション爆上がり ⤴️
+----------------------
+.. image:: images/legoland-security.jpg
+   :width: 90%
+
+ところが...
+-----------
+
+セキュリティゲート 🚨
+----------------------
+* **カバン** や **スマートフォン** をチェック
+* **金属探知機** を通る
+
+.. image:: images/legoland-security2.jpg
+   :width: 80%
+
+セキュリティゲートでのやり取り
+------------------------------
+* 👮‍♀️ 「スーツケースはここ通れないよ」
+* 🤦‍♂️ （ファッッ？？）
+* 🙍‍♂️️ 「預けるところはありますか？」
+* 👮‍♀️ 「（管轄じゃないし）シラネ」
+
+ここでクイズです 🧐
+--------------------
+* 正解は **ホテルに預けてくる** こと
+* しかしここまできて **往復30分** かけるのは...
+* さてtakanoryはどうしたでしょうか？
+
+よい子はまねしないでね 🤫
+---------------------------
+* LEGOLANDの横に **LEGOLAND Hotel** がある
+* Hotelに **クローク** があるのはわかっている
+* ️🙋‍♂️ 「Hotelをチェックアウトしたんですが、荷物を預かってもらえますか？（嘘は言っていない）」
+* 🤵‍♂️ 「ええ、もちろん」
+* 🙆‍♂️️ （ウォッシャーーーーー！！！
+
+セキュリティティゲートを **突破**
+---------------------------------
+* ゲートで捕まってからここまで15分
+
+.. image:: images/legoland-welcome.jpg
+   :width: 80%
+
+LEGOLANDを **堪能** 🥰
+-----------------------
+* 10:30〜17:10 / 107.46 USD(ミールクーポン含む)
+
+お土産は **Tシャツ** 👕
+------------------------
+* 宇宙飛行士のminifigがかわいい / 27.14 USD
+
+.. image:: images/legoland-tshirts.jpg
+   :width: 35%
+
+LEGOLAND HotelでLyft待ち
+------------------------
+* クロークから荷物を受け取り
+* **宿泊客のふり** をしてLyftを待つ
+
+.. image:: images/legoland-hotel.jpg
+   :width: 60%
+
+Stone Brewingへ 🚕
+-------------------
+* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804591753048860808>`__:
+  18 min / 22.75 USD
+
+.. image:: images/stone-brewing.jpg
+   :width: 70%
+
+`Stone Brewing`_ で 🍺
+-----------------------
+* `Side By Side <https://untappd.com/user/takanory/checkin/1268404319>`_、`That's Not How It Gose! <https://untappd.com/user/takanory/checkin/1268407930>`_、`Stone Hazy IPA <https://untappd.com/user/takanory/checkin/1268409833>`_、`9 Minutes To Midnight <https://untappd.com/user/takanory/checkin/1268412235>`_、`Stone Point Loma SpecialTea <https://untappd.com/user/takanory/checkin/1268414748>`_
+* 1 Beer + 1 Beer flight / 20.52 USD
+
+.. image:: images/stone-beer1.jpg
+   :width: 25%
+.. image:: images/stone-beer2.jpg
+   :width: 45%
+
+.. _Stone Brewing: https://www.stonebrewing.com/
+
+駅へ移動 🚶
+------------
+* 自販機でドリトスを購入。高い / 1.60 USD
+
+.. image:: images/doritos.jpg
+   :width: 40%
+
+`Pacific Surfliner`_ でAnaheimへ 🚝
+------------------------------------
+* 70 min / 30.90 USD (Business)
+
+.. image:: images/amtrak.jpg
+   :width: 65%
+  
+.. _Pacific Surfliner: https://www.pacificsurfliner.com/
+
+Businessは軽食付き 🍿
+---------------------
+* めっちゃ助かるわ〜〜
+
+.. image:: images/amtrak-foods.jpg
+   :width: 40%
+
+aaa
+---
+
+* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804659776952810074>`__:
+  12 min / 9.53 USD
+
+* `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804998118790821598>`__:
+  37 min / 62.33 USD
+  
 
 Day 3: Apr 26
 =============
