@@ -198,6 +198,9 @@ LEGOLANDへ 🚶
 
 .. _LEGOLAND California: https://www.legoland.com/california/
 
+.. image:: images/legoland-collage.jpg
+   :width: 90%
+
 お土産は **Tシャツ** 👕
 ------------------------
 * 宇宙飛行士のminifigがかわいい / 27.14 USD
@@ -291,3 +294,10 @@ Day 4/5: Apr 27, 28
 * Los Angeles空港
 * →羽田空港
 * →自宅
+
+ゴール 🥅
+----------
+* エクストリームツアーがしたくなる
+* どう移動したらいいかイメージできる
+* 時間と金額感がわかる
+  
