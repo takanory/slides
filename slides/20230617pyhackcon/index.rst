@@ -284,8 +284,123 @@ Day 3: Apr 26
 * →Disneyland California
 * →Los Angeles空港
 
+Disneylandへ 🚶
+----------------
+* 荷物をホテルに預け **徒歩15分** のDisneylandへ
+* 途中、文句を言ってるおばさんが怖かった
+
+.. image:: images/hotel-morning.jpg
+   :width: 60%
+
+Disneylandに入場 🎡
+--------------------
+* セキュリティゲートを通って入場
+* 朝一でバンドと **ミッキー** さん達がお出迎え
+
+.. image:: images/disneyland-opening.jpg
+   :width: 70%
+
+Star Wars: Galaxy's Edgeへ 🚶
+------------------------------
+* ミッキーさんを **チラ見** して **Star Wars** へ
+* このトンネルを抜けると **Galaxy's Edge**
+
+.. image:: images/tunnel-to-starwars.jpg
+   :width: 55%
+
+Millennium Falcon (1/1スケール) 🛸
+-----------------------------------
+* テンションぶち上がるーーーー
+
+.. image:: images/millennium-falcon.jpg
+   :width: 70%
+
+チューバッカ（本物） 🏹
+------------------------
+* あの声でしゃべります（感動）
+
+.. image:: images/chewie1.jpg
+   :width: 40%
+.. image:: images/chewie2.jpg
+   :width: 30%
+
+`Rise of the Resistance`_ 🎢
+-----------------------------
+* 大人気アトラクション
+* 朝一で20分ちょっと並んだ
+* やばい、すごい、感動（語彙力）
+  
+.. image:: images/rise-of-the-resistance.jpg
+   :width: 55%
+
+.. _Rise of the Resistance: https://disneyland.disney.go.com/attractions/disneyland/star-wars-rise-of-the-resistance/
+
+`Millennium Falcon: Smugglers Run`_ 🛸
+---------------------------------------
+* アトラクションよりFalcon号の中に入れて感動
+* この **ソファ** に座りたかった...
+
+.. image:: images/falcon-sofa.jpg
+   :width: 55%
+
+.. _`Millennium Falcon: Smugglers Run`: https://disneyland.disney.go.com/attractions/disneyland/millennium-falcon-smugglers-run/
+
+`Milk Stand`_ でBlue Mild 🥛
+----------------------------
+* ルークも飲んでいた `ブルーミルク <https://starwars.fandom.com/ja/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%83%BB%E3%83%9F%E3%83%AB%E3%82%AF>`_
+* 9.47 USD
+
+.. image:: images/blue-milk.jpg
+   :width: 55%
+
+.. _Milk Stand: https://disneyland.disney.go.com/dining/disneyland/milk-stand/
+
+`Ballast Point Anaheim`_ へ 🚶
+-------------------------------
+* ランチのためパークの外へ
+
+.. image:: images/ballast-point.jpg
+   :width: 40%
+
+.. _`Ballast Point Anaheim`: https://ballastpoint.com/location/ballast-point-anaheim/
+
+`Ballast Point`_ で 🍺
+-----------------------
+* `Speedboat Salt & Lime Blonde <https://untappd.com/user/takanory/checkin/1268527369>`_、`Sculpin <https://untappd.com/user/takanory/checkin/1268530761>`_
+* 2 Beers + 🌮 / 54.95 USD
+
+.. image:: images/ballast-beer1.jpg
+   :width: 35%
+.. image:: images/ballast-beer2.jpg
+   :width: 35%
+
+.. _Ballast Point: https://ballastpoint.com/
+
+`LEGO Store`_ へ 🧱
+--------------------
+* 美女と野獣、トイストーリー、アラジンとかの巨大モデルもある
+
+.. image:: images/lego-store.jpg
+   :width: 65%
+
+.. _`LEGO Store`: https://www.lego.com/en-us/stores/store/downtown-disney
+
+再びパークにinしてGalaxy's Edgeへ 🚶
+-------------------------------------
+
+First Order Stormtrooperさんと 📷
+-----------------------------------
+* しゃべります。どう見ても本物
+
+.. image:: images/trooper.jpg
+   :width: 40%
+
+Cantinaで🍺
+------------
+* `Bad Motivator IPA <https://untappd.com/user/takanory/checkin/1268595005>`_
+
 空港へ 🚕
-----------
+---------
 * `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804998118790821598>`__:
   37 min / 62.33 USD
   
