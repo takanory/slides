@@ -395,15 +395,46 @@ First Order Stormtrooperさんと 📷
 .. image:: images/trooper.jpg
    :width: 40%
 
-Cantinaで🍺
-------------
-* `Bad Motivator IPA <https://untappd.com/user/takanory/checkin/1268595005>`_
+`Oga's Cantina`_ へ 🍷
+-----------------------
+* アプリでうまく予約できていなかった
+* スタッフの人が入れてくれてセーフ
 
-空港へ 🚕
----------
+.. image:: images/cantina.jpg
+   :width: 60%
+
+.. _Oga's Cantina: https://disneyland.disney.go.com/dining/disneyland/ogas-cantina/
+
+Cantinaで 🍺
+-------------
+* `Bad Motivator IPA <https://untappd.com/user/takanory/checkin/1268595005>`_ ここでしか飲めないビール
+* 1 Beer / 18.20 USD
+
+.. image:: images/cantina-beer.jpg
+   :width: 30%
+
+トラブル発生！！ ⛔️
+--------------------
+* 飲んでいる途中で **頭痛** が発生
+* やむなくビールを **1杯** で終了
+
+おみやげはTシャツ 👕
+---------------------
+* 39.86 USD
+
+Disneyland
+----------
+* 129.00 USD
+
+Los Angels空港へ 🚕
+--------------------
+* 疲れていたのでホテルからLyft
 * `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804998118790821598>`__:
   37 min / 62.33 USD
   
+.. image:: images/lax-airport.jpg
+   :width: 60%
+
 Day 4/5: Apr 27, 28
 ===================
 * Los Angeles空港
