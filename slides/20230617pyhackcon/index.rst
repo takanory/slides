@@ -3,9 +3,9 @@
 
 .. |cover| image:: images/20230617pyhackcon.png
 
-=========================================
+==========================================
  Southern California Extreme Tour ✈️ 🚃
-=========================================
+==========================================
 
 Takanori Suzuki
 
@@ -15,15 +15,15 @@ Python mini Hack-a-thon Conference / 2023 Jun 17
 ===========
 PyCon US 2023からの帰り道
 
-**南カリフォルニア** を移動しまくったので
+**南カリフォルニア** を移動して遊びまくったので
 
 そのことについて話します
 
 ゴール 🥅
 ----------
-* エクストリームツアーがしたくなる
-* どう移動したらいいかイメージできる
-* 時間と金額感がわかる
+* **エクストリームツアー** がしたくなる
+* どう **移動** したらいいかイメージできる
+* **時間と金額感** がわかる
 
 だいたいの旅程(地図_) 🗺️
 ------------------------
@@ -74,7 +74,7 @@ Modern Timesへ 🚕
 * 3 Beers / 22.64 USD
 
 .. image:: images/moderntimes-beer1.jpg
-   :width: 25%
+   :width: 33%
 .. image:: images/moderntimes-beer2.jpg
    :width: 25%
 .. image:: images/moderntimes-beer3.jpg
@@ -405,8 +405,8 @@ First Order Stormtrooperさんと 📷
 
 .. _Oga's Cantina: https://disneyland.disney.go.com/dining/disneyland/ogas-cantina/
 
-Cantinaで 🍺
--------------
+Oga's Cantinaで 🍺
+-------------------
 * `Bad Motivator IPA <https://untappd.com/user/takanory/checkin/1268595005>`_ ここでしか飲めないビール
 * 1 Beer / 18.20 USD
 
@@ -416,23 +416,61 @@ Cantinaで 🍺
 トラブル発生！！ ⛔️
 --------------------
 * 飲んでいる途中で **頭痛** が発生
-* やむなくビールを **1杯** で終了
+* やむなくビールを **1杯で終了**
+* （2杯まで飲める）
+
+どうする？ 😰
+--------------
+* 救護所に行くことも考えた
+* 入り口まで遠い、英語でやりとりだるそう
+* そこで...
+
+パーク内のベンチで仮眠 💤
+--------------------------
+* パーク内はアメリカとはいえ **安全** だろう
+* やらかして **Disney出禁** にはなりたくないはず
+* 頭痛薬飲んで **一時間ほど仮眠** した
+* エクストリームの **疲れ** がここで出た？
+
+チューバッカの **ファンサ** 🤝
+-------------------------------
+* 握手してもらいました！！
+
+.. image:: images/chewie3.jpg
+   :width: 40%
+.. image:: images/chewie4.jpg
+   :width: 40%
 
 おみやげはTシャツ 👕
 ---------------------
-* 39.86 USD
+* `Droid Depot <https://disneyland.disney.go.com/shops/disneyland/droid-depot/>`_ でしか売ってない(はず) / 39.86 USD
 
-Disneyland
-----------
-* 129.00 USD
+.. image:: images/sw-tshirts.jpg
+   :width: 40%
+
+`Disneyland Park`_ (主にSW)を **堪能** 🥰
+------------------------------------------
+* 08:30〜19:10 / 129.00 USD
+
+.. image:: images/disney-collage.jpg
+   :width: 90%
+
+.. _Disneyland Park: https://disneyland.disney.go.com/destinations/disneyland/
 
 Los Angels空港へ 🚕
 --------------------
-* 疲れていたのでホテルからLyft
+* ホテルで荷物ピックアップしたらLyft
 * `Lyft <https://ride.lyft.com/profile/rides?tab=All&ride=1804998118790821598>`__:
   37 min / 62.33 USD
   
 .. image:: images/lax-airport.jpg
+   :width: 60%
+
+Day 3 終了 🍜
+--------------
+* 好きなヌードル作れるコーナー楽しい
+
+.. image:: images/noodle.jpg
    :width: 60%
 
 Day 4/5: Apr 27, 28
@@ -441,9 +479,44 @@ Day 4/5: Apr 27, 28
 * →羽田空港
 * →自宅
 
+機内食（和食） 🍚
+------------------
+.. image:: images/food.jpg
+   :width: 80%
+
+羽田に到着（午前4:30） 🛬
+-------------------------
+.. image:: images/haneda.jpg
+   :width: 50%
+
+お土産ビールが... 🥫
+---------------------
+.. image:: images/beer-with-hole.jpg
+   :width: 45%
+
+Day 5 終了 🦦
+--------------
+* 6:40頃に帰宅。お疲れ様でした
+
+.. image:: images/ferret.jpg
+   :width: 40%
+
 ゴール 🥅
-----------
-* エクストリームツアーがしたくなる
-* どう移動したらいいかイメージできる
-* 時間と金額感がわかる
+===========
+* **エクストリームツアー** がしたくなる
+* どう **移動** したらいいかイメージできる
+* **時間と金額感** がわかる
   
+使ったお金 💸
+--------------
+1021.90 USD + 34,405円
+
+ヤバ...
+
+次はあなたの番です ✈️ 🚃
+--------------------------
+
+Thank You 🙏
+=============
+.. image:: images/falcon2.jpg
+   :width: 60%
