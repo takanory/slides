@@ -31,11 +31,17 @@
      * type
      * title
      * resource
+   - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
+     * Taipei, Taiwan
+     * 2023 Sep
+     * Talk
+     * Automate the Boring Stuff with Slackbot(ver.2)
+     * 
    - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
      * Seoul, Korea
      * 2023 Aug
      * Talk
-     * 
+     * Introduction to Structural Pattern Matching
      * 
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan
@@ -51,7 +57,7 @@
      * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
        `Video <https://www.youtube.com/watch?v=k1wET4NrcRo>`__
    - * `PyCon US 2023 <https://us.pycon.org/2023/>`_
-     * Salt Lake City, Ut
+     * Salt Lake City, UT
      * 2023 Apr
      * 
      * 
