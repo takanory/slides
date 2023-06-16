@@ -48,7 +48,7 @@
      * 2023 Jun
      * Talk
      * Southern California Extreme Tour
-     * 
+     * `Slides <https://slides.takanory.net/slides/20230617pyhackcon>`__
    - * `みんなのPython勉強会#93 <https://startpython.connpass.com/event/272158/>`_
      * Online
      * 2023 May
