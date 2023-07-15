@@ -31,6 +31,12 @@
      * type
      * title
      * resource
+   - * `PyCon APAC 2023 <https://2023-apac.pycon.jp/>`_
+     * Tokyo, Japan
+     * 2023 Oct
+     * Talk
+     * Introduction to Structural Pattern Matching
+     * 
    - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
      * Taipei, Taiwan
      * 2023 Sep
