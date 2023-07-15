@@ -93,7 +93,7 @@ revealjs_script_plugins = [
 revealjs_static_path = html_static_path
 revealjs_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
-    # "revealjs4/plugin/highlight/zenburn.css",
-    "revealjs4/plugin/highlight/monokai.css",
+    # "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css",
     'slides.css',
 ]
