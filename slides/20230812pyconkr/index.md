@@ -1,3 +1,10 @@
+```{eval-rst}
+:og:image: _images/20230812pyconkr.png
+:og:image:alt: Introduction to Structural Pattern Matching
+
+.. |cover| image:: images/20230812pyconkr.png
+```
+
 # Introduction to **Structural Pattern Matching**
 
 Takanori Suzuki
