@@ -40,8 +40,12 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ["**/env"]
-
+exclude_patterns = [
+    "**/env",
+    "**/PITCHME.md",
+    "**/about.md",
+    "20221015pyconjp/code/README.md",
+]
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -54,6 +58,12 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# -- for myst-parser
+# https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+# myst_enable_extensions = [
+#    "substitution",
+#]
 
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/slides/"
@@ -102,3 +112,4 @@ revealjs_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css",
     'slides.css',
 ]
+
