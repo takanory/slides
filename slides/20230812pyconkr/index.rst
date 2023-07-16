@@ -10,16 +10,14 @@ Takanori Suzuki
 
 PyCon KR 2023 / 2023 Aug 12
 
-.. Thank you for wathing my talk.
-   I'm happy to be giving a talk at PyCon APAC.
+.. Thank you for coming to my talk.
+   I'm happy to be giving a talk at PyCon Korea.
    I'm Takanori Suzuki
-   Talk title is ...
-
-.. 見てくれてありがとう。今日はこれについて話すよ的な
+   Talk title is "Introduction to Structural Pattern Matching".
 
 Agenda
 ======
-* Motivation
+* Motivation / Goal
 * What's New
 * Syntax
 * Patterns
@@ -30,14 +28,12 @@ Agenda
    Then, I'll explain the syntax of structural pattern matching.
    Finally, various patterns will be explained with code examples.
 
-.. 今日話すことをざっくり説明
-
 Photos 📷 Tweets 🐦 👍
 ========================
 ``#pyconkr`` / ``@takanory``
 
-.. I'd be happy to take pictures and share them and give you feedback on Twitter, etc.
-   Hashtag is #pyconapac
+.. I'd be happy to take pictures and share them and give you feedback on Twitter or some SNS.
+   Hashtag is #pyconkr
 
 Slide 💻
 ---------
@@ -62,17 +58,27 @@ Who am I? 👤
    And I'm director of BeProud Inc.
    I'm also active in several Python related communities
 
-PyCon APAC 2023 in **Japan** 🇯🇵
---------------------------------
-* 今年のPyCon APACはTokyo, Japan
-* Date: 2023 Oct 27-29
-* ぜひ来てね
+Me and **Korea** 🇰🇷
+--------------------
+* Attended **PyCon APAC 2016** in Korea
 
-Me and **PyCon KR** 🇰🇷
------------------------
-* 2016年のPyCon KR 2016に参加したよ
-* 久しぶりに来れてうれしいです!!
-* https://gihyo.jp/news/report/01/pycon-apac2016/0002
+.. image:: images/pyconapac2016.jpg
+
+.. My memory of Korea is attending PyCon APAC 7 yeas ago.
+   Long time no see, Pythonistas in Korea.
+   Do you know about this year's PyCon APAC?
+           
+`PyCon APAC 2023`_ in **Japan** 🇯🇵
+-----------------------------------
+.. image:: /assets/pyconapac2023-logo.png
+   :width: 55%
+
+.. _`PyCon APAC 2023`: https://2023-apac.pycon.jp
+
+* Date: 2023 Oct 27-29
+
+.. This year, the PyCon Japan team will host PyCon APAC 2023 in Tokyo.
+   I hope to see you again in Japan in October for a beer!
 
 Motivation of this talk 💪
 ===========================
@@ -84,11 +90,6 @@ Motivation of this talk 💪
    I think Structural Pattern Matching looks pretty useful.
    I'd like to YOU to know about it and try it out.
 
-.. このトークのモチベーション
-   3.10で色々新機能が増えている
-   Structural Pattern Matchingはかなり便利そう
-   みんなに知って使ってみてほしい
-
 Goal of this talk 🥅
 ---------------------
 * Learn **syntax** and **basic usage**
@@ -99,10 +100,6 @@ Goal of this talk 🥅
    And, you witll learn about the various patterns and how to use them.
    You'll be able to try it tomorrow.
 
-.. Structural Pattern Matchingの基本的な使い方を知る
-   色々なパターンがあることと、その使い方を知る
-   明日から試せる
-
 Prerequisites
 -------------
 * **Intermediate** level
@@ -112,14 +109,17 @@ Prerequisites
 
 .. This talk is for interemediate level.
    You should have a basic understanding of Python syntax.
+   For example, ...
 
-Questions
-=========
+Questions :fas:`circle-question`
+================================
 
 .. First, I have questions
 
-Have you used **Python 3.10+**? 🙋‍♂️
+Are you using **Python 3.10+**? 🙋‍♂️
 -------------------------------------
+
+.. Are you using Python 3.10 or higher?
 
 Do you know the **new features**? 🙋‍♀️
 ---------------------------------------
@@ -128,9 +128,7 @@ Do you know the **new features**? 🙋‍♀️
 **What's New** in Python 3.10 🆕
 =================================
 
-.. First, I will introduce to the new features of Python 3.10.
-
-.. Python 3.10の新機能について紹介します
+.. Now, let me introduce to the new features of Python 3.10.
 
 **What's New** in Python 3.10 🆕
 ---------------------------------
@@ -151,7 +149,7 @@ Python Release Python 3.10.11 🐍
    :alt: Python Release Python 3.10.11
 
 .. Python 3.10 was released on October 4, 2021.
-   (3.10.11は2023年4月にリリースされた)
+   The latest version os 3.10.11.
    3.10 has many new features...By the way...
 
 Who are You? 🐍
@@ -161,7 +159,7 @@ Who are You? 🐍
    :alt: Python 3.10 release logo
 
 .. This image is "Python 3.10 release logo".
-   You can find the new features of 3.10 around this snake.
+   You can find the new features around this snake.
 
 New features of Python 3.10
 ---------------------------
@@ -184,8 +182,8 @@ New features of Python 3.10
 
 .. In this talks, I will talk about Structural Pattern Matching.
 
-Structural Pattern Matching 🏛
-==============================
+Structural Pattern Matching :fas:`landmark`
+===========================================
 
 .. revealjs-break::
 
@@ -196,10 +194,8 @@ Structural Pattern Matching 🏛
   * `PEP 636 – Tutorial <https://www.python.org/dev/peps/pep-0636/>`_
 
 .. Because of the large function of Structural Patten Matching, it is diveded into 3 PEPs.
-   Specification, Motivation and Rationale and Tutorial.
-   If you are interested, please read PEPs.
-
-.. パターンマッチングは大きな機能なので3つのPEPにわけて提案されています。
+   Specification, Motivation and Rationale, Tutorial.
+   If you are interested, please read these PEPs.
 
 Motivation
 ----------
@@ -208,8 +204,6 @@ Motivation
   (Structural) pattern matching syntax is found in many languages, from Haskell, Erlang and Scala to Elixir and Ruby. (A proposal for JavaScript is also under consideration.)
 
 .. This sentence is the motivation for the Structural Pattern Matching written in PEP.
-
-.. この文章はPEPに書いてあるパターンマッチングのモチベーションです
 
 .. revealjs-break::
 
@@ -231,30 +225,20 @@ Motivation
        case host, port, mode:
            pass
 
-.. The if-elif-else idiom is often used to check type or share of an object.
+.. Look at this code.
+   The if-elif-else idiom is often used to check type or share of an object.
    For example isinstance(), hasattr(), len(), key in dict.
    Use match statements to write more elegantly.
    This is the motivation for Structural Pattern Matching.
-   Now that you know the motivation, let's talk about the syntax.
-
-.. isinstance()で型をチェックして中身を見て、みたいなのをよくやるけど、それがもっとエレガントに書ける
+   Now that you have figured out the motivation, let's talk about syntax.
 
 Syntax :fas:`code`
 ==================
 * Generic syntax of pattern matching
 
-.. revealjs-code-block:: python
+.. revealjs-literalinclude:: code/syntax.py
+   :language: python
    :data-line-numbers: 1|2-9
-
-   match subject:
-       case <pattern_1>:
-           <action_1>
-       case <pattern_2>:
-           <action_2>
-       case <pattern_3>:
-           <action_3>
-       case _:
-           <action_wildcard>
 
 .. A match statement takes an expression ... and compares its value to successive patterns given as one or more case blocks.
 
@@ -264,12 +248,12 @@ Soft keywords
 * ``match``, ``case`` and ``_``
 * Can be used identifier names
 
-.. code-block:: python
+.. code-block:: pycon
 
-   >>> match = 'match'  # OK
-   >>> class = 'class'  # NG
+   >>> match = "match"  # Valid
+   >>> class = "class"  # Invalid
      File "<stdin>", line 1
-       class = 'class'  # NG
+       class = "class"
              ^
    SyntaxError: invalid syntax
 
@@ -277,317 +261,160 @@ Soft keywords
    match, case and _ are soft keywords.
    Soft keywords can be used identifier names.
    Next, let's talk about patterns!!
+   I will explain how to write using a variety of patterns.
 
-.. 新しくソフトキーワードができた。
-   match, case, _はソフトキーワード。
-   ソフトキーワードは識別子に使用できる
-   では、実際の書き方を説明していきます。
-
-Patterns :fas:`suffle`
-======================
+Patterns :fas:`list-ul`
+=======================
 .. revealjs-break::
 
-.. code-block:: python
-
-   match subject:
-       case <pattern_1>:
-           <action_1>
-       case <pattern_2>:
-           <action_2>
-       case <pattern_3>:
-           <action_3>
-       case _:
-           <action_wildcard>
+.. literalinclude:: code/syntax.py
+   :language: python
 
 .. This is the syntax I introduced before.
-   You can specify various patterns after case.
+   You can specify various patterns after "case" keyword.
    I will introduce patterns with code examples.
-
-.. これはsyntaxですが、patternにはさまざまなpattensを指定できます。
-   いくつかを紹介していきます。
 
 **Literal** patterns
 --------------------
-.. revealjs-code-block:: python
+.. revealjs-literalinclude:: code/literal.py
+   :language: python
    :data-line-numbers: 1-7|1,8-9
 
-   match beer_style:
-       case "Pilsner":
-           result = "First drink"
-       case "IPA":
-           result = "I like it"
-       case "Hazy IPA":
-           result = "Cloudy and cloudy"
-       case _:
-           result = "I like most beers"
-
 .. First, Literal patterns. Literal patterns are the simplest patterns.
-   If the value of beer_style is "Pilsner", then "here" will be executed.
+   If the value of beer_style is "Pilsner", then 3rd line will be executed.
    (ページ送り)
    If the value doesn't match any of the patterns, it will match _.
-   _ is wildcard.
-
-.. beer_styleの中身がXXXならYYYを返します。
-   どれもマッチしなければワイルドカードの _ にマッチします。
-   _ はワイルドカードです
+   _ is wildcard pattern.
 
 **OR** patterns
 ---------------
 * ``|`` is OR
 
-.. revealjs-code-block:: python
-   :data-line-numbers: 4-5
+.. revealjs-literalinclude:: code/or.py
+   :language: python
+   :data-line-numbers: 1,4-5
 
-   match beer_style:
-       case "Pilsner":
-           result = "First drink"
-       case "IPA" | "Session IPA":
-           result = "I like it"
-       case "Hazy IPA":
-           result = "Cloudy and cloudy"
-       case _:
-           result = "I like most beers"
-
-.. This pattern matches IPA or Session IPA
+.. The vertical bar is OR.
+   This pattern matches IPA or Session IPA
 
 Literal patterns **without wildcard**
 -------------------------------------
-.. revealjs-code-block:: python
-   :data-line-numbers: 8-9
+.. revealjs-literalinclude:: code/literal2.py
+   :language: python
+   :data-line-numbers: 1,8-9
 
-   match beer_style:
-       case "Pilsner":
-           result = "First drink"
-       case "IPA":
-           result = "I like it"
-       case "Hazy IPA":
-           result = "Cloudy and cloudy"
-       # case _:
-       #     result = "I like most beers"
-
-.. I commented out the last wildcard.
+.. I commented out the last wildcard case.
    If the value doesn't match any of the pattens, nothing will happen.
+   In this case, variable "result" is not defined.
 
-.. 最後のワイルドカードを削除する。
-   それ以外を選んだらなにも起こらない。
-
-? 🤔
------
+Useful? 🤔
+-----------
 
 .. What?
-   Doesn't look very useful, does it?
-
-.. あんまり便利りそうに見えない
+   Doesn't look useful?
 
 rewrite with **if** statement
 -----------------------------
 * If written as an ``if`` statement
 
-.. code-block:: python
+.. literalinclude:: code/literal_if.py
+   :language: python
 
-   if beer_style == "Pilsner":
-       result = "First drink"
-   elif beer_style == "IPA" or beer_style == "Session IPA":
-       result =  "I like it"
-   elif beer_style == "Hazy IPA":
-       result = "Cloudy and cloudy"
-   else:
-       result = "I like most beers"
-
-.. If you write it in an if statement, you won't see much difference.
+.. If I rewrite the code with a if statement, it does not look much different.
    You're ritght.
-   But...
-
-.. こんなif文とかわなないのでは?
-   あなたの考えは正しいです。
    But...
 
 Pattern Matching is **Powerful** 💪
 ------------------------------------
 .. But...Pattern Matching is much more powerful.
-   I will introduce useful patterns.
-
-.. これからさらに強力なパターンを紹介します。
+   I will introduce more useful patterns.
 
 Literal and **Variable** patterns
 =================================
 
 Literal and **Variable** patterns
 ---------------------------------
-.. revealjs-code-block:: python
+.. literalinclude:: code/variable.py
+   :language: python
+   :lines: 1-12
 
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case ("", ""):
-               return "Please order something."
-           case (beer, ""):
-               return f"I drink {beer}."
-           case ("", food):
-               return f"I eat {food}."
-           case (beer, food):
-               return f"I drink {beer} with {food}."
-           case _:
-               return "one beer and one food only."
-
-.. Let's consider a function receives beer and food orders tuple.
-
-.. このようなタプルを受け取る関数を考えてみます。
+.. Let's consider a function receives orders tuple about beer and food.
 
 Literal and **Variable** patterns
 ---------------------------------
+.. revealjs-literalinclude:: code/variable.py
+   :language: python
+   :data-line-numbers: 1-4,14-15
+   :lines: 1-15
 
-.. revealjs-code-block:: python
-   :data-line-numbers: 1-4,14
-
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case ("", ""):  # match here
-               return "Please order something."
-           case (beer, ""):
-               return f"I drink {beer}."
-           case ("", food):
-               return f"I eat {food}."
-           case (beer, food):
-               return f"I drink {beer} with {food}."
-           case _:
-               return "one beer and one food only."
-
-   order_beer_and_food(("", ""))  # -> Please order something.
-
-.. If the argument is (empty, empty) tuple, the pattern in the 3rd line will be matched. The return "Please order something."
+.. If my order is (empty, empty) tuple, it matches the 3rd line pattern.
+   The return value is "Please order something."
 
 Literal and **Variable** patterns
 ---------------------------------
 * ``"IPA"`` assign to ``beer``
 
-.. revealjs-code-block:: python
-   :data-line-numbers: 1-2,5-6,14
+.. revealjs-literalinclude:: code/variable.py
+   :language: python
+   :data-line-numbers: 1-2,5-6,14-15
+   :lines: 1-13,17-18
 
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case ("", ""):
-               return "Please order something."
-           case (beer, ""):  # match here
-               return f"I drink {beer}."
-           case ("", food):
-               return f"I eat {food}."
-           case (beer, food):
-               return f"I drink {beer} with {food}."
-           case _:
-               return "one beer and one food only."
-
-   order_beer_and_food(("IPA", ""))  # -> I drink IPA.
-
-.. If the argument is ("IPA", empty) tuple, the pattern in the 5th line will be matched.
-   Then the first value of the tuple, IPA, is then assigned to the beer variable.
-   The result is "I drink IPA."
+.. If the order is ("IPA", empty) tuple, it matches the 5th line pattern.
+   Then the first value of the tuple, IPA, is then assigned to the beer variable
+   The return values is "I drink IPA."
 
 Literal and **Variable** patterns
 ---------------------------------
-* ``"IPA"`` assign to ``beer``
-* ``"nuts"`` assign to ``food``
+* ``"IPA"`` assign to ``beer``、``"nuts"`` assign to ``food``
 
-.. revealjs-code-block:: python
-   :data-line-numbers: 1-2,9-10,14
+.. revealjs-literalinclude:: code/variable.py
+   :language: python
+   :data-line-numbers: 1-2,9-10,14-15
+   :lines: 1-13,20-21
 
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case ("", ""):
-               return "Please order something."
-           case (beer, ""):
-               return f"I drink {beer}."
-           case ("", food):
-               return f"I eat {food}."
-           case (beer, food):  # match here
-               return f"I drink {beer} with {food}."
-           case _:
-               return "one beer and one food only."
-
-   order_beer_and_food(("IPA", "nuts"))  # -> I drink IPA with nuts.
-
-.. If the argument is ("IPA", "nuts"), the pattern in the 9th line will be matched.
-   Then the first value "IPA" is then assigned to the beer variable.
-   And the second value "nuts" is then assigned to the food variable.
-   The result is "I drink IPA with nuts."
+.. If the ordert is ("IPA", "nuts"), it matches the 9th line pattern.
+   Then "IPA" assigned to the beer variable and "nuts" assigned to the food variable.
+   The return values is "I drink IPA with nuts."
 
 Literal and **Variable** patterns
 ---------------------------------
 * Tuple length does not match
 
-.. revealjs-code-block:: python
-   :data-line-numbers: 1-2,11-14
+.. revealjs-literalinclude:: code/variable.py
+   :language: python
+   :data-line-numbers: 1-2,11-15
+   :lines: 1-13,23-24
 
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case ("", ""):
-               return "Please order something."
-           case (beer, ""):
-               return f"I drink {beer}."
-           case ("", food):
-               return f"I eat {food}."
-           case (beer, food):
-               return f"I drink {beer} with {food}."
-           case _:  # match here
-               return "one beer and one food only."
-
-   order_beer_and_food(("IPA", "nuts", "spam"))  # -> one beer and one food only.
-.. If the argument is ("IPA", "nuts", "spam"), the whildcard pattern will be matched.
-   Because the length of the tuple is not 2.
-   The result is "one beer and one food only."
+.. If the order is ("IPA", "nuts", "spam"), it matches whildcard pattern.
+   Because the length of the tuple to be matched is only 2.
+   The return values is "one beer and one food only."
 
 rewrite with **if** statement
 -----------------------------
-.. code-block:: python
+.. literalinclude:: code/variable_if.py
+   :language: python
 
-   def order_beer_and_food(order: tuple) -> str:
-       if len(order) == 2:
-           beer, food = order
-           if beer == "" and food == "":
-               return  "I'm full."
-           elif beer != "" and food == "":
-               return f"I drink {beer}."
-           elif beer == "" and food != "":
-               return f"I eat {food}."
-           else:
-               return f"I drink {beer} with {food}."
-       else:
-           return  "one beer and one food only."
+.. Let's rewrite this code with an if statement.
+   I think the code is a little confusing.
 
-.. I rewrite it with an if statement.
-   I think this code is a bit confusing.
+Which code do you **prefer**?
+-----------------------------
+* Pattern Matching 🆚 ``if`` statement
 
-Which do you like?
-------------------
-* Structural Pattern Matching
-* ``if`` statement
+.. Do you prefer Pattern Matching or if statements?
+   Still not sure?
+   I will introduce other patterns as well.
 
-**Order** is important ⬇️
-==========================
-.. revealjs-code-block:: python
-   :data-line-numbers: 3-4,14
+**Case Order** is important ⬇️
+===============================
+.. revealjs-literalinclude:: code/pattern_order.py
+   :language: python
+   :data-line-numbers: 3-4,14,15
 
-   def order_beer_and_food(order: tuple) -> str:
-       match (order):
-           case (beer, food):  # match here
-               return f"I drink {beer} with {food}."
-           case ("", ""):  # never reach
-               return "Please order something."
-           case (beer, ""):  # never reach
-               return f"I drink {beer}."
-           case ("", food):  # never reach
-               return f"I eat {food}."
-           case _:
-               return "one beer and one food only."
-
-   order_beer_and_food(("IPA", ""))  # -> I drink IPA with .
-
-.. There is one note of caution.
+.. There is one note for pattern matching.
    The order of the cases is important.
-   The patterns are compared in order from top to bottom, so if you write it this way, it will match the first pattern.
+   The patterns are compared in order from top to bottom, so if you write code like this, it will only match the first pattern.
    As a result, no other patterns will be reached.
-
-.. 一つ注意点があります。caseの順番は重要です。
-   上から順にマッチするのでこのように書くとすべて最初のパターンにマッチしてしまいます。
 
 **Classes** patterns
 ====================
@@ -595,36 +422,21 @@ Which do you like?
 
 **Classes** patterns
 --------------------
-.. code-block:: python
+.. literalinclude:: code/classes.py
+   :language: python
+   :lines: 4-7
 
-   @dataclass
-   class Order:  # Order(beer="IPA"), Order("Ale", "nuts")...
-       beer: str = ""
-       food: str = ""
+.. revealjs-literalinclude:: code/classes.py
+   :language: python
+   :lines: 10-21
+   :data-line-numbers: 3-4|5-6|7-8|9-10|1-12
 
-.. code-block:: python
-
-   def order_with_class(order: Order) -> str:
-       match (order):
-           case Order(beer="", food=""):
-               return "Please order something."
-           case Order(beer=beer, food=""):
-               return f"I drink {beer}."
-           case Order(beer="", food=food):
-               return f"I eat {food}."
-           case Order(beer=beer, food=food):
-               return f"I drink {beer} with {food}."
-           case _:
-               return "Not an order."
-
-.. Order class has beer and food attributes.
-   First case is the pattern matches when beer and food are empty.
-   Second case is the pattern matches when only food is empty.
-   Then the value of order.beer will be assignend to beer variable.
-   3rd case is order.food value assigned to food variable.
-   4th case is order.beer and order.food value assignend beer and food.
-
-.. beerとfoodを属性に持つorderクラスを作ります
+.. Here I create Order dataclass.
+   The 1st case matches when the beer and food are empty.
+   The 2nd case matches if only beer has a value.
+   The 3rd case matches if food has a value.
+   If both beer and food have a value, it matches in the 4th case
+   It's easy to read, don't you think?
 
 **Results**: Classes patterns
 -----------------------------
@@ -642,10 +454,8 @@ Which do you like?
    >>> order_with_class("IPA")
    'Not an order.'
 
-.. The results are here.
+.. Here is the result of this function.
    It works in the same way as the previous tuple case.
-
-.. 先程のタプルと同じように動作します
 
 Classes patterns
 ----------------
@@ -664,7 +474,7 @@ Classes patterns
            case _:
                return "Not an order."
 
-.. Rewrite this code of classes pattern with if statement.
+.. Let's rewrite this code with if statements.
 
 rewrite with **if** statement
 -----------------------------
@@ -683,12 +493,9 @@ rewrite with **if** statement
        else:
            return "Not an order."
 
-.. I rewrote that code  with if statements.
-   It looks a little cluttered.
+.. I rewrote that code with if statements.
+   It looks a little complex.
    And, Classes patterns are much more powerful.
-
-.. if文で書いてみるとこんな感じになります。ちょっとごちゃごちゃしてますね。
-   まだまだあります
 
 **Order** classses
 ------------------
@@ -710,8 +517,6 @@ rewrite with **if** statement
 .. There are three classes representing order of beer, food, and water.
    Each classes has attributes beer style and size, food name, and the number of glasses of water.
 
-.. ビール、フード、水の注文を表すそれぞれのクラスがあるとします。
-
 **Classes** patterns
 --------------------
 * With **multiple** classes
@@ -730,10 +535,7 @@ rewrite with **if** statement
                return "Not an order."
 
 .. This code written in classes patterns with multiple classess.
-   It is easy to recognize because it branches based on the type of classes.
-
-.. classes patternsで書くとこうなります。
-   それぞれのクラスの型で分岐するのでわかりやすいです。
+   It is easy to recognize because of the branching by each class type.
 
 rewrite with **if** statement
 -----------------------------
