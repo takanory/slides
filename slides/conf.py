@@ -28,7 +28,8 @@ author = 'takanory'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_revealjs',
+    "myst_parser",
+    "sphinx_revealjs",
     "sphinxext.opengraph",
     "sphinx_design",
 ]
@@ -68,6 +69,7 @@ ogp_type = "article"
 # revealjs_google_fonts = ["M PLUS 1p"]
 # revealjs_google_fonts = ["Noto Sans JP"]
 revealjs_style_theme = "white"
+
 revealjs_script_conf = {
     "controls": True,
     "progress": False,
@@ -76,6 +78,7 @@ revealjs_script_conf = {
     "transition": "none",
     # "navigationMode": "linear",
 }
+
 revealjs_script_plugins = [
     {
         "name": "RevealNotes",
@@ -90,7 +93,9 @@ revealjs_script_plugins = [
         "src": "revealjs4/plugin/math/math.js",
     },
 ]
+
 revealjs_static_path = html_static_path
+
 revealjs_css_files = [
     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
     # "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css",
