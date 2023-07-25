@@ -41,13 +41,13 @@
      * Taipei, Taiwan
      * 2023 Sep
      * Talk
-     * Automate the Boring Stuff with Slackbot(ver.2)
+     * `Automate the Boring Stuff with Slackbot(ver.2) <https://tw.pycon.org/2023/en-us/conference/talk/298>`__
      * 
    - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
      * Seoul, Korea
      * 2023 Aug
      * Talk
-     * Introduction to Structural Pattern Matching
+     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/29>`__
      * 
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan
