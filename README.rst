@@ -8,7 +8,10 @@
 
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
-* :fab:`twitter` `@takanory <https://twitter.com/takanory>`_
+* :fab:`twitter` `@takanory <https://twitter.com/takanory>`__
+* :fab:`github` `takanory <https://github.com/takanory/>`__
+* :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__
+* :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
 * `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_ (`ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
@@ -31,17 +34,29 @@
      * type
      * title
      * resource
+   - * `PyCon HK 2023 <https://pycon.hk/>`_
+     * Hong Kong
+     * 2023 Nov
+     * Talk
+     * Automate the Boring Stuff with Slackbot(ver.2)
+     * 
+   - * `PyCon APAC 2023 <https://2023-apac.pycon.jp/>`_
+     * Tokyo, Japan
+     * 2023 Oct
+     * Talk
+     * Introduction to Structural Pattern Matching
+     * 
    - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
      * Taipei, Taiwan
      * 2023 Sep
      * Talk
-     * Automate the Boring Stuff with Slackbot(ver.2)
+     * `Automate the Boring Stuff with Slackbot(ver.2) <https://tw.pycon.org/2023/en-us/conference/talk/298>`__
      * 
    - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
      * Seoul, Korea
      * 2023 Aug
      * Talk
-     * Introduction to Structural Pattern Matching
+     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/29>`__
      * `Slides <https://slides.takanory.net/slides/20230812pyconkr>`__
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan
@@ -473,10 +488,10 @@
 Reference
 =========
 * `Sphinx documentation <https://www.sphinx-doc.org/>`_
-* `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_
-* `Furo <https://pradyunsg.me/furo/>`_
-* `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_
-* `sphinx-design <https://sphinx-design.readthedocs.io/>`_
-* `Netlify <https://www.netlify.com/>`_
+* `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
+* `Furo <https://pradyunsg.me/furo/>`_: clean customisable Sphinx documentation theme
+* `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
+* `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
+* `Netlify <https://www.netlify.com/>`_: Hosting service
 
   * `Netlify Docs <https://docs.netlify.com/>`_
