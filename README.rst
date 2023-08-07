@@ -34,6 +34,12 @@
      * type
      * title
      * resource
+   - * `PyCon HK 2023 <https://pycon.hk/>`_
+     * Hong Kong
+     * 2023 Nov
+     * Talk
+     * Automate the Boring Stuff with Slackbot(ver.2)
+     * 
    - * `PyCon APAC 2023 <https://2023-apac.pycon.jp/>`_
      * Tokyo, Japan
      * 2023 Oct
