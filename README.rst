@@ -8,7 +8,7 @@
 
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
-* :fab:`twitter` `@takanory <https://twitter.com/takanory>`__
+* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__
 * :fab:`github` `takanory <https://github.com/takanory/>`__
 * :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__
 * :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
@@ -20,7 +20,6 @@
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
-
 
 2023
 ====
