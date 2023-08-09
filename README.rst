@@ -55,7 +55,7 @@
      * Seoul, Korea
      * 2023 Aug
      * Talk
-     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/29>`__
+     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/12>`__
      * `Slides <https://slides.takanory.net/slides/20230812pyconkr>`__
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan

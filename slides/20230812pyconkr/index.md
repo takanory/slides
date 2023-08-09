@@ -5,6 +5,8 @@
 .. |cover| image:: images/20230812pyconkr.png
 ```
 
+% <div class="logo"></div>
+
 # Introduction to **Structural Pattern Matching**
 
 Takanori Suzuki
@@ -14,8 +16,8 @@ PyCon KR 2023 / 2023 Aug 12
 ```{revealjs-notes}
 Thank you for coming to my talk.
 I'm happy to be giving a talk at PyCon Korea.
-I'm Takanori Suzuki
-Talk title is "Introduction to Structural Pattern Matching".
+I'm Takanori Suzuki.
+My talk title is "Introduction to Structural Pattern Matching".
 ```
 
 ## Agenda
@@ -47,14 +49,15 @@ Hashtag is #pyconkr
 [slides.takanory.net](https://slides.takanory.net)
 
 ```{revealjs-notes}
-This slide available on slides.takanory.net.
-And I've already shared this slide on Twitter.
-Please check it out #pyconapac.
+Slides available on slides.takanory.net.
+And I've already shared slides on Twitter.
+Please check it out.
+Before the main topic,...
 ```
 
 ## Who am I? 👤
 
-- Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
+- Takanori Suzuki / 鈴木 たかのり ({fab}`x-twitter` [@takanory](https://twitter.com/takanory))
 - [PyCon JP Association](https://www.pycon.jp/): Chair
 - [BeProud Inc.](https://www.beproud.jp/): Director / Python Climber
 - [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
@@ -63,10 +66,10 @@ Please check it out #pyconapac.
 
 ```{revealjs-notes}
 Before the main topic,...I will introduce myself.
-I'm Takanori Suzuki. My twitter is "takanory", please follow me.
+I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
 I'm Chairperson of PyCon JP Association.
 And I'm director of BeProud Inc.
-I'm also active in several Python related communities
+I'm also active in several Python related communities in Japan
 ```
 
 ### Me and **Korea** 🇰🇷
@@ -77,33 +80,36 @@ I'm also active in several Python related communities
 
 ```{revealjs-notes}
 My memory of Korea is attending PyCon APAC 7 yeas ago.
-Long time no see, Pythonistas in Korea.
-Do you know about this year's PyCon APAC?
+It is a pleasant memory for me.
+Long time no see, Korean Pythonistas!!
+By the way, do you know about this year's PyCon APAC?
 ```
 
-### [PyCon APAC 2023] in **Japan** 🇯🇵
+### PyCon APAC 2023 in **Tokyo, Japan** 🇯🇵
 
 ```{image} /assets/pyconapac2023-logo.png
 :width: 55%
 ```
 
+- [2023-apac.pycon.jp](https://2023-apac.pycon.jp/)
 - Date: 2023 Oct 27-29
 
 ```{revealjs-notes}
 This year, the PyCon Japan team will host PyCon APAC 2023 in Tokyo.
-I hope to see you again in Japan in October for a beer!
+I hope to see YOU again in PyCon APAC.
+And let's go have a beer!!
 ```
 
 ## Motivation of this talk 💪
 
 - Structural Pattern Matching looks **useful**
-- You to **know** and **try** it
+- You to **know** and **use** it
 
 ```{revealjs-notes}
-Now let's get to the main topic.
+Now back to the main topic.
 There are a lat of new features in Python 3.10.
 I think Structural Pattern Matching looks pretty useful.
-I'd like to YOU to know about it and try it out.
+I want YOU all to know about it and use it.
 ```
 
 ### Goal of this talk 🥅
@@ -114,7 +120,7 @@ I'd like to YOU to know about it and try it out.
 
 ```{revealjs-notes}
 You will learn the syntax and basic usage of Structural Pattern Matching.
-And, you witll learn about the various patterns and how to use them.
+And, you will learn about the various patterns and how to use them.
 You'll be able to try it tomorrow.
 ```
 
@@ -178,7 +184,7 @@ The new features are summarized in the "What's new" page of the Python official 
 
 ```{revealjs-notes}
 Python 3.10 was released on October 4, 2021.
-The latest version os 3.10.11.
+The latest maintenance version is 3.10.11.
 3.10 has many new features...By the way...
 ```
 
@@ -268,7 +274,7 @@ match x:
 
 ```{revealjs-notes}
 Look at this code.
-The if-elif-else idiom is often used to check type or share of an object.
+The if-elif-else idiom is often used to check type or shape of an object.
 For example isinstance(), hasattr(), len(), key in dict.
 Use match statements to write more elegantly.
 This is the motivation for Structural Pattern Matching.
@@ -295,8 +301,8 @@ A match statement takes an expression ... and compares its value to successive p
 - Can be used **identifier names**
 
 ```pycon
->>> match = "match"  # Valid
->>> class = "class"  # Invalid
+>>> match = "match"  # Valid(Soft keyword)
+>>> class = "class"  # Invalid(Keyword)
   File "<stdin>", line 1
     class = "class"
           ^
@@ -308,12 +314,15 @@ Soft keywords are a new language specification in 3.10.
 match, case and _ are soft keywords.
 Soft keywords can be used identifier names.
 Next, let's talk about patterns!!
-I will explain how to write using a variety of patterns.
 ```
+
 ## Patterns {fas}`list-ul`
 
-```{revealjs-break}
+```{revealjs-notes}
+I will explain how to write using a variety of patterns.
 ```
+
+### Patterns {fas}`list-ul`
 
 ```{literalinclude} code/syntax.py
 :language: python
@@ -370,8 +379,8 @@ In this case, variable "result" is not defined.
 ### Useful? 🤔
 
 ```{revealjs-notes}
-What?
-Doesn't look useful?
+Is it useful?
+You don't think so?
 ```
 
 ### rewrite with **if** statement
@@ -383,7 +392,7 @@ Doesn't look useful?
 ```
 
 ```{revealjs-notes}
-If I rewrite the code with a if statement, it does not look much different.
+When I rewrite the code with a if statement, it looks similar to mathc/case.
 You're ritght.
 But...
 ```
