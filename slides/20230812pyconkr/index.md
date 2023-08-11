@@ -344,7 +344,7 @@ You can specify various patterns after "case" keyword.
 ```{revealjs-notes}
 First, Literal patterns. Literal patterns are the simplest patterns.
 If the value of beer_style is "Pilsner", then 3rd line will be executed. /
-If the value os beer_style is "Ale", it will not match any patterns.
+If the value of beer_style is "Ale", it will not match any patterns.
 In this case it will match _. _ is wildcard pattern.
 ```
 
@@ -371,8 +371,8 @@ This pattern matches IPA or Session IPA
 
 ```{revealjs-notes}
 I commented out the last wildcard pattern.
-If the value doesn't match any of the pattens, nothing will happen.
-In this case, variable "result" is not defined.
+If the value doesn't match any of the patterns, nothing will happen.
+In this case, result variable is not defined.
 ```
 
 ### Useful? 🤔
@@ -485,7 +485,7 @@ The return values is "one beer and one food only."
 
 ```{revealjs-notes}
 Let's rewrite this code with an if statement.
-I think the code is a little confusing.
+I think the code is a little confusing, don't you think?
 ```
 
 ### Which code do you **prefer**?
