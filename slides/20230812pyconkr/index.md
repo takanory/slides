@@ -57,12 +57,13 @@ Before the main topic,...
 
 ## Who am I? 👤
 
-- Takanori Suzuki / 鈴木 たかのり ({fab}`x-twitter` [@takanory](https://twitter.com/takanory))
+- Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 - [PyCon JP Association](https://www.pycon.jp/): Chair
 - [BeProud Inc.](https://www.beproud.jp/): Director / Python Climber
 - [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
 Before the main topic,...I will introduce myself.
@@ -319,7 +320,7 @@ Next, let's talk about patterns!!
 ## Patterns {fas}`list-ul`
 
 ```{revealjs-notes}
-I will explain how to write using a variety of patterns.
+From here I will explain the various patterns.
 ```
 
 ### Patterns {fas}`list-ul`
@@ -331,7 +332,6 @@ I will explain how to write using a variety of patterns.
 ```{revealjs-notes}
 This is the syntax I introduced before.
 You can specify various patterns after "case" keyword.
-I will introduce patterns with code examples.
 ```
 
 ### **Literal** patterns
@@ -343,10 +343,9 @@ I will introduce patterns with code examples.
 
 ```{revealjs-notes}
 First, Literal patterns. Literal patterns are the simplest patterns.
-If the value of beer_style is "Pilsner", then 3rd line will be executed.
-(ページ送り)
-If the value doesn't match any of the patterns, it will match _.
-_ is wildcard pattern.
+If the value of beer_style is "Pilsner", then 3rd line will be executed. /
+If the value os beer_style is "Ale", it will not match any patterns.
+In this case it will match _. _ is wildcard pattern.
 ```
 
 ### **OR** patterns
@@ -371,7 +370,7 @@ This pattern matches IPA or Session IPA
 ```
 
 ```{revealjs-notes}
-I commented out the last wildcard case.
+I commented out the last wildcard pattern.
 If the value doesn't match any of the pattens, nothing will happen.
 In this case, variable "result" is not defined.
 ```
@@ -442,7 +441,7 @@ The return value is "Please order something."
 
 ```{revealjs-notes}
 If the order is ("IPA", empty) tuple, it matches the 5th line pattern.
-Then the first value of the tuple, IPA, is then assigned to the beer variable
+Then the first value of the tuple, IPA, is then assigned to the beer variable.
 The return values is "I drink IPA."
 ```
 
@@ -457,7 +456,7 @@ The return values is "I drink IPA."
 ```
 
 ```{revealjs-notes}
-If the ordert is ("IPA", "nuts"), it matches the 9th line pattern.
+If the order is ("IPA", "nuts") tuple, it matches the 9th line pattern.
 Then "IPA" assigned to the beer variable and "nuts" assigned to the food variable.
 The return values is "I drink IPA with nuts."
 ```
@@ -510,7 +509,7 @@ I will introduce other patterns as well.
 There is one note for pattern matching.
 The order of the cases is important.
 The patterns are compared in order from top to bottom, so if you write code like this, it will only match the first pattern.
-As a result, no other patterns will be reached.
+As a result,  it does not match any other patterns.
 ```
 
 ## **Classes** patterns
@@ -533,12 +532,12 @@ Next, Classes patterns.
 ```
 
 ```{revealjs-notes}
-Here I create Order dataclass.
-The 1st case matches when the beer and food are empty.
-The 2nd case matches if only beer has a value.
-The 3rd case matches if food has a value.
-If both beer and food have a value, it matches in the 4th case
-It's easy to read, don't you think?
+Here I create Order dataclass. The order dataclass has a beer attribute and a food attribute.
+The 1st case matches when the beer and food are empty. /
+The 2nd case matches if only beer has a value. /
+The 3rd case matches if food has a value. /
+If both beer and food have a value, it matches in the 4th case. / 
+It is easy to read, don't you think?
 ```
 
 ### **Results**: Classes patterns
@@ -579,7 +578,7 @@ def order_with_class(order: Order) -> str:
 ```
 
 ```{revealjs-notes}
-Let's rewrite this code with if statements.
+Let's rewrite Classes patterns with if statements.
 ```
 
 ### rewrite with **if** statement
@@ -600,7 +599,7 @@ def order_with_class(order: Order) -> str:
 ```
 
 ```{revealjs-notes}
-I rewrite classes pattern code with if statements.
+I rewrite the code.
 It looks a little complex.
 And, Classes patterns are much more powerful.
 ```
@@ -644,7 +643,7 @@ def order_with_classes(order: Beer|Food|Water) -> str:
 
 ```{revealjs-notes}
 This code written in classes patterns with multiple classess.
-It is easy to understand because each class type has a different matching case.
+It is easy to read because each class type has a different matching case.
 ```
 
 ### rewrite with **if** statement
@@ -669,7 +668,7 @@ Pattern mathing is cleaner and readable than if statements, don't you think?
 ## **Sequense** patterns ➡️
 
 ```{revealjs-notes}
-Next, I will explain about Sequense pattens.
+Next, Sequense pattens.
 ```
 
 ### **Sequense** patterns ➡️
@@ -742,10 +741,10 @@ match order_text.split():
 ```
 
 ```{revealjs-notes}
-Valid beer sizes are Pint or Half Pint only.
+If the only size of the beer is a pint or half pint.
 For example, "beer IPA small" is invalid order.
-Using the OR patterns in this way, you can match Pint or HalfPint.
-But, I don't know beer size. How do I get the value of size.
+Using the OR patterns in this way, you can match only Pint or HalfPint.
+But, I don't know beer size. How do I get the beer size?
 ```
 
 ### Capturing matched **sub-patterns**
@@ -764,7 +763,7 @@ match order_text.split():
 
 ```{revealjs-notes}
 In this case, use as patterns.
-In this case, only "Pint" or "HalfPint" is assigned to the size variable.
+If I write "as size", beer size is assigned to the size variable.
 ```
 
 ### Matching **multiple values**
@@ -809,7 +808,7 @@ Then, multiple values are assigned to a variable as a tuple.
 ### I can order several foods!! 🎉
 
 ```{revealjs-notes}
-Now I can order several food items at once!
+Now I can order multiple food items at once!
 ```
 
 ## **Mapping** Patterns 📕
@@ -886,6 +885,7 @@ Guards are not patterns, guards add conditions to patterns.
 - Invalid: 0, -1, ...
 
 ```{revealjs-notes}
+I would limit the number of water orders.
 You cannot order more than 9 glasses of water at a time.
 Also, you cannot order 0 or negative numbers.
 Valid numbers are 1 to 8.
@@ -967,10 +967,10 @@ References are here
 {fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
 {fab}`untappd` [takanory](https://untappd.com/user/takanory/)
 
-
 ![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
 Thank you for your attention.
-I look forward to seeing you at PyCon APAC in Tokyo.
+I look forward to seeing you at PyCon APAC in Tokyo, Japan.
 ```
