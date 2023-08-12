@@ -55,6 +55,8 @@ Please check it out.
 Before the main topic,...
 ```
 
+![slides.takanory.net](images/slides-takanory-net.png)
+
 ## Who am I? 👤
 
 - Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
