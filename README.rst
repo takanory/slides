@@ -8,7 +8,7 @@
 
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
-* :fab:`twitter` `@takanory <https://twitter.com/takanory>`__
+* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__
 * :fab:`github` `takanory <https://github.com/takanory/>`__
 * :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__
 * :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
@@ -20,7 +20,6 @@
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
-
 
 2023
 ====
@@ -56,8 +55,8 @@
      * Seoul, Korea
      * 2023 Aug
      * Talk
-     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/29>`__
-     * 
+     * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/12>`__
+     * `Slides <https://slides.takanory.net/slides/20230812pyconkr>`__
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan
      * 2023 Jun
