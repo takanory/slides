@@ -50,7 +50,7 @@
      * 2023 Sep
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://tw.pycon.org/2023/en-us/conference/talk/298>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20230903pycontw>`__
    - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
      * Seoul, Korea
      * 2023 Aug
