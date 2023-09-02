@@ -12,11 +12,11 @@ app = App(token=os.environ["SLACK_BOT_TOKEN"])
 def calc(message, context, say):
     try:
         formula = context["matches"][0]
-        result = sympify(formula)  # Simplifies the formula
+        result = sympify(formula)  # Simplifies formula
         if result.is_Integer:
-            answer = int(result)  # Convert to integer value
+            answer = int(result)  # Convert to integer
         else:
-            answer = float(result)  # Convert to float value
+            answer = float(result)  # Convert to float
         say(f"{answer:,}")
     except SympifyError:
         pass

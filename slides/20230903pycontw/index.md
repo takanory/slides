@@ -13,7 +13,7 @@ PyCon TW 2023 / 2023 Sep 3
 
 ```{revealjs-notes}
 Thank you for coming to my presentation.
-I am very happy to be able to talk in EuroPython.
+I am very happy to be able to talk in PyCon Taiwan.
 My talk title is "Automate the Boring Stuff with Slackbot (ver. 2)"
 ```
 
@@ -33,18 +33,18 @@ Today, I will talk about...
 `#pycontw` / `@takanory`
 
 ```{revealjs-notes}
-I'd be happy to take pictures and share them and give you feedback on Twitter.
+I'd be happy to take pictures and share them and give you feedback on Twitter or some SNS.
 Hashtag is #pycontw
 ```
 
-### Slide 💻
+### Slides 💻
 
 [slides.takanory.net](https://slides.takanory.net)
 
 ```{revealjs-notes}
-I've already published this slide on slides.takanory.net.
-And I've already shared slide URL on Twitter.
-It has a lot of code, so you can see codes on the slide.
+I've already published these slides on slides.takanory.net.
+And I've already shared slides URL on Twitter.
+It has a lot of code, so you can see codes on your PC.
 ```
 
 ## Why **ver. 2** in the title?
@@ -60,28 +60,27 @@ It has a lot of code, so you can see codes on the slide.
 
 ```{revealjs-notes}
 The story goes back to 2019.
-I have given talks about Slackbot at several Python Conferences.
-3 years later,...
+I've given talks about Slackbot at several Python Conferences.
+Then 4 years later / 
 ```
 
 ### And the **2023**
 
 - **Updated** with latest information 🆕
-- **Thanks** to EuroPython staff and volunteers!! 👏
+- **Thanks** to PyCon Taiwan staff and volunteers!! 👏
 
 ```{revealjs-notes}
-4 years later,...in this year.
+Then 4 years later /
 I've updated the talk with the latest information about Slack and libraries.
-
-I am very happy to be able to present in person in front of you all.
-And huge thanks to all the EuroPython staff and volunteers.
+And I am happy to present in Taiwan after 4 years.
+And huge thanks to all the PyCon Taiwan staff and volunteers.
 By the way, before the main topic,...
 ```
 
 ## Who am I? 👤
 
 ```{revealjs-notes}
-Before the main topic,...I will introduce myself.
+Before the main topic, / I will introduce myself.
 ```
 
 ```{revealjs-break}
@@ -99,8 +98,8 @@ Before the main topic,...I will introduce myself.
 
 ```{revealjs-notes}
 I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
-I'm Chairperson of PyCon JP Association.
-And I'm director of BeProud Inc.
+I'm a Chairperson of PyCon JP Association.
+Also, I'm a director of BeProud Inc and my title is "Python CLiber".
 I'm also active in several Python related communities in Japan.
 ```
 
@@ -114,9 +113,9 @@ I'm also active in several Python related communities in Japan.
 - Date: 2023 Oct 27-29
 
 ```{revealjs-notes}
-This year, the PyCon Japan team will host PyCon APAC 2023 in Tokyo.
+This year, the PyCon Japan team will host PyCon APAC in Tokyo.
 I hope to see YOU again in PyCon APAC.
-And let's go have a beer!!
+And let's go have a good beer!!
 ```
 
 ## **Background** and **Motivation**
@@ -139,17 +138,18 @@ First, I will talk about the Background and Motivation of this talk.
 I held PyCon JP events several years in the past.
 As you can imagine, there are lots of tasks to hold Conference.
 For example, talk arrangements, ticket sales, venue management, food...
-And, ...
+And, /
 ```
 
 ### Staff ask me the **same things**
 
 - 40+ staff
 - 🐣 NEW staff : 🐔 OLD staff = 50 : 50
+- 🐣 NEW staff ask me **similar questions**
 
 ```{revealjs-notes}
-The number of PyCon JP staff is over 40, half of them are new staff.
-New staff ask similar things to me. And I send similar answers repeatedly.
+The number of PyCon JP staff is over 40, half of them are new staff every year.
+New staff ask me similar questions. And I give similar answers repeatedly.
 But, ...
 ```
 
@@ -160,10 +160,12 @@ As you know, programmers dislike routine work. I also dislike it VERY much.
 I'd like someone to be my secretary and do tedious tasks for me.
 ```
 
+## I have an idea! 💡
+
 ## Let's create a **secretary**!!
 
 ```{revealjs-notes}
-Let's make it.
+Let's create a secretary for me.
 Because I'm a programmer.
 ```
 
@@ -412,15 +414,16 @@ I also recommend the Python Slack SDK provided by Slack.
 
 - see: [Formatting text for app surfaces](https://api.slack.com/reference/surfaces/formatting)
 
-```{revealjs-code-block}
-:data-line-numbers: 4-7
+```{revealjs-code-block} python
+:data-line-numbers: 5-7
 
 from slack_sdk.webhook import WebhookClient
 
 url = "https://hooks.slack.com/services/T000..."
 webhook = WebhookClient(url)
 # *bold*, <url|text>, :emoji: and etc.
-r = webhook.send(text="*Hello* from <https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
+r = webhook.send(text="*Hello* from "
+  "<https://slack.dev/python-slack-sdk/|Slack SDK>! :beer:")
 ```
 
 ```{image} images/webhook-formatting.gif
@@ -455,17 +458,16 @@ Block Kit is a new UI framework for Slack apps.
 
 ```python
 blocks = [{
-    "type": "section",
-    "text": {
-         "text": "*THANK YOU* for coming to my talk !:tada: Please give me *feedback* about this talk :bow:",
-         "type": "mrkdwn"
-    },
-    "fields": [
-         {"type": "mrkdwn", "text": "*Love*"},
-         {"type": "mrkdwn", "text": "*From*"},
-         {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
-         {"type": "plain_text", "text": "Japan :jp:"},
-    ],
+  "type": "section",
+  "text": {"type": "mrkdwn",
+    "text": "*THANK YOU* for coming to my talk !:tada: Please tell me good *craft beer bar* :bow:",
+  },
+  "fields": [
+    {"type": "mrkdwn", "text": "*Love*"},
+    {"type": "mrkdwn", "text": "*From*"},
+    {"type": "plain_text", "text": ":beer:, Ferrets, LEGO"},
+    {"type": "plain_text", "text": "Japan :jp:"},
+  ],
 }]
 response = webhook.send(blocks=blocks)
 ```
@@ -872,7 +874,7 @@ Slack also provides Bolt for JavaScript and Java.
 ```bash
 $ mkdir beerbot
 $ cd beerbot
-$ python3.10 -m venv env
+$ python3.11 -m venv env
 $ . env/bin/activate
 (env) $ pip install slack-bolt
 ```
@@ -913,7 +915,7 @@ When I write a message "Hi" on Slack, ... the bot responds!
    But this is simple enough, so...
 ```
 
-## **Extend** bot 🛠
+## **Extend** bot 🔧
 
 ```{revealjs-notes}
 so ... I will extend the bot.
@@ -922,7 +924,7 @@ so ... I will extend the bot.
 ### `@app.message()` decolator
 
 ```{literalinclude} code/app-extend.py
-:lines: 13-23
+:lines: 13-17, 19-23
 ```
 
 ```{image} images/bot-decolator.png
@@ -935,8 +937,9 @@ app.message() decolator executes the function when it matches the pattern.
 
 ### mention
 
-```{literalinclude} code/app-extend.py
+```{revealjs-literalinclude} code/app-extend.py
 :lines: 25-30
+:data-line-numbers: 4-5
 ```
 
 ```{image} images/bot-mention.png
@@ -949,8 +952,9 @@ The bot can send mentions
 
 ### Using regular expression
 
-```{literalinclude} code/app-extend.py
+```{revealjs-literalinclude} code/app-extend.py
 :lines: 3-4,31-38
+:data-line-numbers: 4-7
 ```
 
 ```{image} images/bot-choice.png
@@ -985,8 +989,9 @@ Bolt can handle parameters.
 
 ### Logging
 
-```{literalinclude} code/app-extend.py
+```{revealjs-literalinclude} code/app-extend.py
 :lines: 1,11,78-83
+:data-line-numbers: 1-2, 5-6
 ```
 
 ```bash
@@ -1013,15 +1018,19 @@ Bot can only receive events in **Bot Events**.
 And bot can only execute APIs allowed by **Bot Token Scopes**.
 ```
 
-### Current Bot Events and Scopes
+### **Current** Bot Events and Scopes
 
 - Events
+  - `message.channels`
 - Scopes
-  - `:channels:history:` View messages in **public channels**
-  - `:chat:write:` Post message
+  - `channels:history`
+    - View messages in **public channels**
+  - `chat:write`
+    - Post message
 
 ```{revealjs-notes}
-For example, the current bot event is message.channels, bot scopes are channels:history and chat:write only.
+For example, let's check the current events and scopes.
+bot event is message.channels, bot scopes are channels:history and chat:write only.
 ```
 
 ```{revealjs-break}
@@ -1094,15 +1103,15 @@ I will reinstall the app because of the change in events and scopes.
 ```
 
 ```{revealjs-notes}
-Then, the bot can read/write messages in **private channel**
+As a result, the bot can read/write messages in **private channel**
 ```
 
 ### To know user joined a channel
 
 - Add **member_joined_channel** event → Reinstall app
 
-```{literalinclude} code/app-extend.py
-:emphasize-lines: 1-2
+```{revealjs-literalinclude} code/app-extend.py
+:data-line-numbers: 1-2
 :lines: 60-66
 ```
 
@@ -1112,16 +1121,17 @@ Then, the bot can read/write messages in **private channel**
 
 ```{revealjs-notes}
 If you want to know when a user joins a channel, add a "member_joind_channel" event.
-And You can handle the event with @app.event decorator.
+And you can handle the event with @app.event decorator.
 ```
 
 ### Add Emoji reaction
 
 - Add **reactions:write** scope → Reinstall app
 
-```{literalinclude} code/app-extend.py
+```{revealjs-literalinclude} code/app-extend.py
 :language: python
 :lines: 67-76
+:data-line-numbers: 3-8
 ```
 
 ```{image} images/scope-reactions-write.png
@@ -1129,7 +1139,7 @@ And You can handle the event with @app.event decorator.
 ```
 
 ```{revealjs-notes}
-If you want to add emoji reactions, add a "reactions:write" scope.
+If you want to add emoji reactions, add a "reactions:write" scope and use `reactions_add()` method.
 ```
 
 ### **Summary** of Events and Scopes
@@ -1173,9 +1183,10 @@ $ pip install sympy
 
 ### **calc()** function using Sympy
 
-```{literalinclude} code/app-sympy.py
+```{revealjs-literalinclude} code/app-sympy.py
 :language: python
 :lines: 6,10-24
+:data-line-numbers: 3, 7-11
 ```
 
 ### Slack as a **calculator** !! 🎉
@@ -1213,14 +1224,16 @@ $ pip install peewee
 
 ### plusplus_model.py
 
-```{literalinclude} code/plusplus_model.py
+```{revealjs-literalinclude} code/plusplus_model.py
+:data-line-numbers: 3-10
 ```
 
 ### **plusplus()** function using Peewee
 
-```{literalinclude} code/app-plusplus.py
+```{revealjs-literalinclude} code/app-plusplus.py
 :language: python
 :lines: 6, 10-22
+:data-line-numbers: 3-5,7-13
 ```
 
 ### I can **appreciate** it! 🎉
@@ -1268,8 +1281,9 @@ jira = JIRA(url, basic_auth=('email', 'API token'))
 
 ### Search issues
 
-```{literalinclude} code/app-jira.py
+```{revealjs-literalinclude} code/app-jira.py
 :lines: 15-29
+:data-line-numbers: 4, 6-11
 ```
 
 - see: [2.1.6. Searching](https://jira.readthedocs.io/examples.html#searching)
@@ -1278,7 +1292,7 @@ jira = JIRA(url, basic_auth=('email', 'API token'))
 ### **Free** from Jira web! 🎉
 
 ```{image} images/bot-jira.png
-:width: 60%
+:width: 80%
 ```
 
 ## Create **multiple issues** from a template 📝
@@ -1334,7 +1348,9 @@ Alexandra, English
 
 ### Get Spreadsheet data
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 9-14
+
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 
@@ -1344,7 +1360,7 @@ SHEET = "1i3YQPObe3ZC_i1Jalo44_2_..."
 @app.message("create issues")
 def creaete_issues(message, say):
     creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-    service = build('sheets', 'v4', credentials=creds)
+    service = build("sheets", "v4", credentials=creds)
     sheet = service.spreadsheets()
     result = sheet.values().get(spreadsheetId=SHEET, range="A2:C4").execute()
     for row in result.get("values", []):
@@ -1362,9 +1378,10 @@ def creaete_issues(message, say):
 
 ### Create Jira issues
 
-```{literalinclude} code/app-sheet.py
+```{revealjs-literalinclude} code/app-sheet.py
 :language: python
 :lines: 21, 27-39
+:data-line-numbers: 4-12
 ```
 
 - see: [2.1.4. Issues](https://jira.readthedocs.io/examples.html#issues)
@@ -1405,9 +1422,10 @@ def creaete_issues(message, say):
 
 ### Get user list
 
-```{literalinclude} code/app-admin.py
+```{revealjs-literalinclude} code/app-admin.py
 :language: python
 :lines: 11, 13-26
+:data-line-numbers: 6-9
 ```
 
 - see: [Method: users.list | Directory API](https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/list)
@@ -1421,9 +1439,10 @@ def creaete_issues(message, say):
 
 ### Add user
 
-```{literalinclude} code/app-admin.py
+```{revealjs-literalinclude} code/app-admin.py
 :language: python
 :lines: 28-42
+:data-line-numbers: 1, 6-13
 ```
 
 - see: [Method: users.insert | Directory API](https://developers.google.com/admin-sdk/directory/reference/rest/v1/users/insert)
@@ -1460,9 +1479,10 @@ So, modify commands to run only for the Slack Admin
 
 - Add `users:read` scope, use [users.info](https://api.slack.com/methods/users.info) API
 
-```{literalinclude} code/app-admin2.py
+```{revealjs-literalinclude} code/app-admin2.py
 :language: python
 :lines: 14-22
+:data-line-numbers: 4-7
 ```
 
 ```{image} images/bot-not-admin.png
@@ -1493,25 +1513,15 @@ Then you will have more free time so you can do other creative things more.
 :width: 80%
 ```
 
-{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
-{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20230903pycontw/code)
-
-{fab}`twitter` [@takanory](https://twitter.com/takanory)
-{fab}`github` [takanory](https://github.com/takanory/)
-{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
-{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
-
-![takanory profile](/assets/images/sokidan-square.jpg)
-![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
-
 ### translate command
 
 ```bash
 $ pip install deepl
 ```
 
-```{literalinclude} code/app-deepl.py
+```{revealjs-literalinclude} code/app-deepl.py
 :lines: 6, 9-10, 12-18
+:data-line-numbers: 3, 8-9
 ```
 
 ### Thank you! 🙏
