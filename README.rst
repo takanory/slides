@@ -43,7 +43,7 @@
      * Tokyo, Japan
      * 2023 Oct
      * Talk
-     * Introduction to Structural Pattern Matching
+     * `Introduction to Structural Pattern Matching <https://2023-apac.pycon.jp/timetable?id=DXWXGJ>`__
      * 
    - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
      * Taipei, Taiwan
