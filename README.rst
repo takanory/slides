@@ -37,7 +37,7 @@
      * Hong Kong
      * 2023 Nov
      * Talk
-     * Automate the Boring Stuff with Slackbot(ver.2)
+     * `Automate the Boring Stuff with Slackbot(ver.2) <https://pycon.hk/2023/automate-the-boring-stuff-with-slackbotver-2/>`__
      * 
    - * `PyCon APAC 2023 <https://2023-apac.pycon.jp/>`_
      * Tokyo, Japan
@@ -69,7 +69,7 @@
      * Talk
      * Do you know PyCon JP (Association)? 〜海外PyCon情報を添えて
      * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
-       `Video <https://www.youtube.com/watch?v=k1wET4NrcRo>`__
+       `Video <https://www.youtube.com/watch?v=k1wET4NrcRo&t=2040>`__
    - * `PyCon US 2023 <https://us.pycon.org/2023/>`_
      * Salt Lake City, UT
      * 2023 Apr
