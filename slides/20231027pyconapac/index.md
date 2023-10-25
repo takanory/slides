@@ -48,11 +48,18 @@ PyCon APAC 2023 / 2023 Oct 27
 
 ### PyCon JP **Association** 🐍
 
-* [`www.pycon.jp`](https://www.pycon.jp)
-* PyCon JP Association Meeting 2023
+* PyCon JP / PyCon APAC: Annual event
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): Tutorial for beginners
+* [PyCon JP TV](https://tv.pycon.jp/): YouTube Live
+* [Python Community Support](https://www.pycon.jp/support/community.html)
+
+![pycon jp logo](/assets/images/pyconjp_logo.png)
+
+### PyCon JP Association **Meeting** 2023 🍱
+
 * Date: Oct 27
-* TIme: 12:30-13:30
-* Venue: 20F open space
+* Time: 12:30-13:30
+* Room: 20F open space
 
 ### **BeProud** inc. 🏢
 
@@ -71,16 +78,22 @@ We are hiring!!
 
 ## Motivation of this talk 💪
 
+発表のモチベーション
+
 - Structural Pattern Matching looks **useful**
 - You to **know** and **use** it
 
 ### Goal of this talk 🥅
+
+発表のゴール
 
 - Learn **syntax** and **basic usage**
 - Learn **various patterns** and **how to use** them
 - **Try it** tomorrow
 
 ### Prerequisites
+
+前提条件
 
 - **Intermediate** level
 - You should know **Python syntax**
@@ -243,6 +256,8 @@ Next, let's talk about patterns!!
 
 ### **Literal** patterns
 
+**リテラル** パターン
+
 ```{revealjs-literalinclude} code/literal.py
 :language: python
 :data-line-numbers: 1-7|1,8-9
@@ -257,6 +272,8 @@ In this case it will match _. _ is wildcard pattern.
 
 ### **OR** patterns
 
+**OR** パターン
+
 - `|` is OR
 
 ```{revealjs-literalinclude} code/or.py
@@ -270,6 +287,8 @@ This pattern matches IPA or Session IPA
 ```
 
 ### Literal patterns **without wildcard**
+
+**ワイルドカードなし** のリテラルパターン
 
 ```{revealjs-literalinclude} code/literal2.py
 :language: python
@@ -288,11 +307,18 @@ In this case, result variable is not defined.
 
 ### rewrite with **if** statement
 
+**if** 文で書き直す
+
 - If written as an `if` statement
 
 ```{literalinclude} code/literal_if.py
 :language: python
 ```
+
+### Looks **similer** 👯
+
+よく **似ている**
+
 ### Pattern Matching is **Powerful** 💪
 
 パターンマッチングは **強力**
@@ -354,7 +380,7 @@ In this case, result variable is not defined.
 
 ### Which code do you **prefer**?
 
-どっちが **好み** ？
+どっちのコードが **好み** ？
 
 - Pattern Matching 🆚 `if` statement
 
@@ -719,7 +745,7 @@ Can't order **many glasses** of water with guards!!
 
 ### **Try** Structural Pattern Matching 👍
 
-構造的パターンマッチングに **試して** みよう
+構造的パターンマッチングを **試そう**
 
 ### References 📚
 
