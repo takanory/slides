@@ -759,6 +759,39 @@ Can't order **many glasses** of water with guards!!
 ```{revealjs-notes}
 References are here
 ```
+## Thank you !! 🙏
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+## Finally, 2 **important** notices
+
+最後に、2つの **重要な** お知らせ
+
+## 1: PyCon APAC 2023 **Original Beer**
+
+PyCon APAC 2023 **オリジナルビール**
+
+![PyCon APAC 2023 original beer](images/apac-original-beer.jpg)
+
+### Only available at **Official party**
+
+**オフィシャルパーティー** でのみ飲めます
+
+* If you can drink beer, **You should buy** a party ticket!!
+
+## 2: Unofficial **Sprint after-party**
+
+非公式 **Sprint 打ち上げ**
+
+![Unofficial Sprint after-partu](images/sprint-after-party.jpg)
 
 ## Thank you !! 🙏
 
