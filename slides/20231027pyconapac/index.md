@@ -785,7 +785,13 @@ PyCon APAC 2023 **オリジナルビール**
 
 **オフィシャルパーティー** でのみ飲めます
 
-* If you can drink beer, **You should buy** a party ticket!!
+* I **prepared** beer in → {fab}`youtube`[Video](https://youtu.be/Vp6go5KCpKA?si=DveXpjgzJYhGXF6q)
+* If you can drink beer, you should **join the party**!!
+
+```{image} images/beer-preparing.jpg
+:alt: Beer preparing
+:width: 70%
+```
 
 ## 2: Unofficial **Sprint after-party**
 
