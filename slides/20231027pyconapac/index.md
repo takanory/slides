@@ -57,9 +57,11 @@ PyCon APAC 2023 / 2023 Oct 27
 
 ### PyCon JP Association **Meeting** 2023 🍱
 
-* Date: Oct 27
-* Time: 12:30-13:30
-* Room: 20F open space
+* Oct 27, 12:30-13:30, **20F** open space
+* Panelists: PyCon JP Association **Board Members**
+* Topics
+  * Activities and financial report
+  * Various discussions, so **please join**!
 
 ### **BeProud** inc. 🏢
 
@@ -74,7 +76,10 @@ PyCon APAC 2023 / 2023 Oct 27
 
 We are hiring!!
 
-(TODO: 写真を入れる)
+```{image} images/beproud-booth.gif
+:alt: BeProud Booth
+:width: 70%
+```
 
 ## Motivation of this talk 💪
 
