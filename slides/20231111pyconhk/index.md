@@ -67,7 +67,7 @@ Then 4 years later /
 ### And the **2023**
 
 - **Updated** with latest information 🆕
-- **Thanks** to PyCon Hong Kong organizers and volunteers!! 👏
+- Thanks to **Organizers** and **Volunteers**!! 👏
 
 ```{revealjs-notes}
 Then 4 years later /
@@ -103,19 +103,16 @@ Also, I'm a director of BeProud Inc and my title is "Python CLiber".
 I'm also active in several Python related communities in Japan.
 ```
 
-### PyCon APAC 2023 in **Tokyo, Japan** 🇯🇵
+### PyCon APAC Booth
+
+(TODO) ブースの写真
 
 ```{image} /assets/pyconapac2023-logo.png
 :width: 55%
 ```
 
-- [2023-apac.pycon.jp](https://2023-apac.pycon.jp/)
-- Date: 2023 Oct 27-29
-
 ```{revealjs-notes}
-This year, the PyCon Japan team will host PyCon APAC in Tokyo.
-I hope to see YOU again in PyCon APAC.
-And let's go have a good beer!!
+I am giving away PyCon APAC 2023 swags at the PyCon APAC booth. Please join us!
 ```
 
 ## **Background** and **Motivation**
@@ -135,34 +132,36 @@ First, I will talk about the Background and Motivation of this talk.
   - 🍱 Foods, ☕️ Coffee, 🧁 Snacks and 🍺 Beers
 
 ```{revealjs-notes}
-I held PyCon JP events several years in the past.
+I held PyCon JP events several years in the past as a Chaiirperson.
 As you can imagine, there are lots of tasks to hold Conference.
 For example, talk arrangements, ticket sales, venue management, food...
 And, /
 ```
 
-### Staff ask me the **same things**
+### Volunteers ask me **same things**
 
 - 40+ staff
-- 🐣 NEW staff : 🐔 OLD staff = 50 : 50
-- 🐣 NEW staff ask me **similar questions**
+- 🐣 NEW  : 🐔 OLD = 50 : 50
+- 🐣 NEW volunteers ask me **similar questions**
 
 ```{revealjs-notes}
 The number of PyCon JP staff is over 40, half of them are new staff every year.
-New staff ask me similar questions. And I give similar answers repeatedly.
+New volunteers ask me similar questions. And I give similar answers repeatedly.
 But, ...
 ```
 
-## Programmer is **Lazy**
+## Programmers are **Lazy** 😱
 
 ```{revealjs-notes}
-As you know, programmers dislike routine work. I also dislike it VERY much.
-I'd like someone to be my secretary and do tedious tasks for me.
+As you all know, programmers are lazy.
+We don't like to do the same things repeatedly.
+I also don't like it VERY much.
+I would like someone to be my secretary and do the boring tasks for me.
 ```
 
 ## I have an idea! 💡
 
-## Let's create a **secretary**!!
+## Let's create a **Secretary**!! 🤩
 
 ```{revealjs-notes}
 Let's create a secretary for me.
@@ -1531,7 +1530,7 @@ $ pip install deepl
 ```
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
-{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20230903pycontw/code)
+{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20231111pyconhk/code)
 
 {fab}`twitter` [@takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
