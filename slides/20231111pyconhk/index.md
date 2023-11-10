@@ -33,7 +33,7 @@ Today, I will talk about...
 `#pyconhk` / `@takanory`
 
 ```{revealjs-notes}
-I'd be happy to take pictures and share them and give you feedback on Twitter or some SNS.
+I would be happy to take pictures and share them and give you feedback on Twitter or some SNS.
 Hashtag is #pyconhk
 ```
 
@@ -44,7 +44,7 @@ Hashtag is #pyconhk
 ```{revealjs-notes}
 I've already published these slides on slides.takanory.net.
 And I've already shared slides URL on Twitter.
-It has a lot of code, so you can see codes on your PC.
+The slides have a lot of code, so you can see codes on your PC.
 ```
 
 ## Why **ver. 2** in the title?
@@ -67,13 +67,12 @@ Then 4 years later /
 ### And the **2023**
 
 - **Updated** with latest information 🆕
-- Thanks to **Organizers** and **Volunteers**!! 👏
+- -> **Ver.2** !
 
 ```{revealjs-notes}
 Then 4 years later /
 I've updated the talk with the latest information about Slack and libraries.
-And I am happy to present in Hong Kong.
-And huge thanks to all the PyCon Hong Kong organizers and volunteers.
+So this talk is ver.2!
 By the way, before the main topic,...
 ```
 
@@ -113,6 +112,18 @@ I'm also active in several Python related communities in Japan.
 
 ```{revealjs-notes}
 I am giving away PyCon APAC 2023 swags at the PyCon APAC booth. Please join us!
+APAC region is hosting PyCon in a variety of countries, so we hope you are interested it!
+```
+
+### **Hong Kong** and I
+
+- My first time in **PyCon HK**
+- My first time in **Hong Kong**
+- Thanks to **organizers** and **volunteers** 👏
+
+```{revealjs-notes}
+This is my first PyCon HK and my first time in Hong Kong.
+Thanks to the event organizers and volunteers.
 ```
 
 ## **Background** and **Motivation**
@@ -159,7 +170,7 @@ I also don't like it VERY much.
 I would like someone to be my secretary and do the boring tasks for me.
 ```
 
-## I have an idea! 💡
+## I have an **Idea**! 💡
 
 ## Let's create a **Secretary**!! 🤩
 
