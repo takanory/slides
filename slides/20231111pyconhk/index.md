@@ -104,8 +104,6 @@ I'm also active in several Python related communities in Japan.
 
 ### PyCon APAC Booth
 
-(TODO) ブースの写真
-
 ```{image} /assets/pyconapac2023-logo.png
 :width: 55%
 ```
@@ -117,12 +115,16 @@ APAC region is hosting PyCon in a variety of countries, so we hope you are inter
 
 ### **Hong Kong** and I
 
-- My first time in **PyCon HK**
-- My first time in **Hong Kong**
+- My first time in **PyCon HK** and **Hong Kong**
 - Thanks to **organizers** and **volunteers** 👏
+
+```{image} images/hongkong.jpg
+:width: 70%
+```
 
 ```{revealjs-notes}
 This is my first PyCon HK and my first time in Hong Kong.
+I am so happy to be here!
 Thanks to the event organizers and volunteers.
 ```
 
