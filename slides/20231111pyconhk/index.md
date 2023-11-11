@@ -104,8 +104,8 @@ I'm also active in several Python related communities in Japan.
 
 ### PyCon APAC Booth
 
-```{image} /assets/pyconapac2023-logo.png
-:width: 55%
+```{image} images/pyconapacbooth.jpg
+:width: 75%
 ```
 
 ```{revealjs-notes}
