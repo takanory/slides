@@ -57,6 +57,8 @@
      * Talk
      * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/12>`__
      * `Slides <https://slides.takanory.net/slides/20230812pyconkr>`__
+       `Video <https://www.youtube.com/watch?v=3KHBH8AG8SQ>`__
+       `Report <https://gihyo.jp/article/2023/08/pycon-korea-2023>`__
    - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/282942/>`_
      * Tokyo, Japan
      * 2023 Jun
