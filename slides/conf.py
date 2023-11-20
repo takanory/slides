@@ -44,7 +44,7 @@ exclude_patterns = [
     "**/env",
     "**/PITCHME.md",
     "**/about.md",
-    "20221015pyconjp/code/README.md",
+    "**/code/README.md",
 ]
 
 # -- Options for HTML output -------------------------------------------------
