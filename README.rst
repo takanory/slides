@@ -39,6 +39,7 @@
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://pycon.hk/2023/automate-the-boring-stuff-with-slackbotver-2/>`__
      * `Slides <https://slides.takanory.net/slides/20231111pyconhk>`__
+       `Report <https://gihyo.jp/article/2023/11/pycon-hk2023>`__
    - * `PyCon APAC 2023 <https://2023-apac.pycon.jp/>`_
      * Tokyo, Japan
      * 2023 Oct
@@ -51,6 +52,7 @@
      * Talk
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://tw.pycon.org/2023/en-us/conference/talk/298>`__
      * `Slides <https://slides.takanory.net/slides/20230903pycontw>`__
+       `Video <https://www.youtube.com/watch?v=kgANBlM_wtQ>`__
    - * `PyCon KR 2023 <https://2023.pycon.kr/>`_
      * Seoul, Korea
      * 2023 Aug
