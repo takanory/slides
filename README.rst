@@ -37,7 +37,7 @@
      * Osaka, Japan
      * 2024 Jan
      * Talk
-     * TBD
+     * `Pythonで日本語処理入門 / フリガナプログラムを作ろう <https://event.ospn.jp/osc2024-osaka/session/1270434>`_
      * `Slides <https://slides.takanory.net/slides/20240127oscosaka>`__
 
 2023
