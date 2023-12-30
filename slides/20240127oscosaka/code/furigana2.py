@@ -1,5 +1,5 @@
 import sys
-from jaconv import kata2hira
+from jaconv import kata2hira  # カタカナをひらがなに変換
 from janome.tokenizer import Tokenizer
 
 def furigana(s: str) -> str:
