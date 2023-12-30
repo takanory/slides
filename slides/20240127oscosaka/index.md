@@ -148,20 +148,186 @@ $ ./furigana.py "美味しい麦酒を飲もう" > result.html && cat result.htm
   * OSに依存しない
   * すぐ使い始められる
 
-### Janomeで形態素解析
+### Janomeをインストール
+
+* `pip install janome` でインストール
 
 ```bash
-$ python3.11 -m venv env
+$ python3.11 -m venv env  # venvモジュールで仮想環境作成
 $ . env/bin/activate
 (env) $ pip install janome
+...
 Successfully installed janome-0.5.0
+```
+
+### Janomeで形態素解析
+
+* `janome` コマンドで形態素解析
+
+```bash
+(env) $ echo "美味しい麦酒を飲もう" | janome
+美味しい	形容詞,自立,*,*,形容詞・イ段,基本形,美味しい,オイシイ,オイシイ
+麦酒	名詞,一般,*,*,*,*,麦酒,ビール,ビール
+を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+飲も	動詞,自立,*,*,五段・マ行,未然ウ接続,飲む,ノモ,ノモ
+う	助動詞,*,*,*,不変化型,基本形,う,ウ,ウ
+```
+
+### 形態素解析の結果
+
+* 「表層形	品詞,品詞細分類1,品詞細分類2,品詞細分類3,活用型,活用形,原形,読み,発音」の形式
+
+```
+美味しい	形容詞,自立,*,*,形容詞・イ段,基本形,美味しい,オイシイ,オイシイ
+麦酒	名詞,一般,*,*,*,*,麦酒,ビール,ビール
+を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+飲も	動詞,自立,*,*,五段・マ行,未然ウ接続,飲む,ノモ,ノモ
+う	助動詞,*,*,*,不変化型,基本形,う,ウ,ウ
+```
+
+### プログラムで形態素解析
+
+```{code-block} pycon
+(env) $ python
+>>> from janome.tokenizer import Tokenizer
+>>> t = Tokenizer()
+>>> for token in t.tokenize("美味しい麦酒を飲もう"):
+...     print(token)
+... 
+美味しい	形容詞,自立,*,*,形容詞・イ段,基本形,美味しい,オイシイ,オイシイ
+麦酒	名詞,一般,*,*,*,*,麦酒,ビール,ビール
+を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+飲も	動詞,自立,*,*,五段・マ行,未然ウ接続,飲む,ノモ,ノモ
+う	助動詞,*,*,*,不変化型,基本形,う,ウ,ウ
 ```
 
 ### Janomeで分かち書き
 
-### Janomeでフリガナを振る
+* `tokenize()` メソッドで分かち書きモード（`wakati=True`）を指定
 
-### 送り仮名に対応
+```{code-block} pycon
+>>> tokens = t.tokenize("美味しい麦酒を飲もう", wakati=True)
+>>> tokens
+<generator object Tokenizer.__tokenize_stream at 0x10055e9d0>
+>>> list(tokens)
+['美味しい', '麦酒', 'を', '飲も', 'う']
+```
+
+### 読みなど任意の情報を取得
+
+```{code-block} pycon
+>>> tokens = list(t.tokenize("飲もう"))
+>>> tokens[0].surface  # 表層系
+'飲も'
+>>> tokens[0].part_of_speech  # 品詞情報
+'動詞,自立,*,*'
+>>> tokens[0].base_form  # 原形
+'飲む'
+>>> tokens[0].reading  # 読み
+'ノモ'
+>>> tokens[0].phonetic  # 発音
+'ノモ'
+>>> tokens = list(t.tokenize("縮む"))  # 読みと発音が異なる例
+>>> tokens[0].reading, tokens[0].phonetic
+('チヂム', 'チジム')
+```
+
+## Janome でフリガナ
+
+### Janome でフリガナ
+
+```{literalinclude} code/furigana1.py
+```
+
+```{revealjs-break}
+```
+
+* すべての文字にフリガナが振られている
+
+```bash
+(env) $ python furigana1.py "美味しい麦酒を飲もう"
+<ruby><rb>美味しい</rb><rt>オイシイ</rt></ruby><ruby><rb>麦酒</rb><rt>ビール</rt></ruby><ruby><rb>を</rb><rt>ヲ</rt></ruby><ruby><rb>飲も</rb><rt>ノモ</rt></ruby><ruby><rb>う</rb><rt>ウ</rt></ruby>
+```
+
+![実行結果1](images/result1.png)
+
+### フリガナをひらがなにする
+
+* [jaconv](https://github.com/ikegami-yukino/jaconv)を利用
+
+```bash
+(env) $ pip install jaconv
+```
+
+```{revealjs-literalinclude} code/furigana2.py
+:lines: 1-12
+:data-line-numbers: 2, 11
+```
+
+```{revealjs-break}
+```
+
+* フリガナが **ひらがな** になった
+
+```bash
+(env) $ python furigana2.py "美味しい麦酒を飲もう"
+<ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby><ruby><rb>を</rb><rt>を</rt></ruby><ruby><rb>飲も</rb><rt>のも</rt></ruby><ruby><rb>う</rb><rt>う</rt></ruby>
+```
+
+![フリガナがひらがなに](images/result2.png)
+
+### 漢字が含まれる場合のみを対象に
+
+* `surface` に **漢字が含まれる** 場合のみ対象
+  * 参考: [note.nkmk.me](https://note.nkmk.me/python-re-regex-character-type/)
+
+```{revealjs-literalinclude} code/furigana3.py
+:lines: 1, 5-18
+:data-line-numbers: 1, 3, 10-14
+```
+
+```{revealjs-break}
+```
+
+* 「を」「う」のフリガナが消えた
+
+```bash
+(env) $ python furigana3.py "美味しい麦酒を飲もう"
+<ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲も</rb><rt>のも</rt></ruby>う
+```
+
+![「を」「う」のフリガナが消えた](images/result3.png)
+
+### 送りがなに対応
+
+* 「美味しい」の「美味」にフリガナを振る
+* `ruby()` 関数を作成し送りがな処理を追加
+
+```{revealjs-literalinclude} code/furigana4.py
+:lines: 7-17
+```
+
+```{revealjs-break}
+```
+
+* `ruby()` 関数を呼び出すように変更
+
+```{revealjs-literalinclude} code/furigana4.py
+:lines: 19-28
+:data-line-numbers: 7
+```
+
+```{revealjs-break}
+```
+
+* 送りがなが処理できるようになった
+
+```bash
+(env) $ python furigana4.py "美味しい麦酒を飲もう"
+<ruby><rb>美味</rb><rt>おい</rt></ruby>しい<ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>もう
+```
+
+![送りがなに対応](images/result4.png)
 
 ### 辞書をカスタマイズ
 
