@@ -190,7 +190,7 @@ Successfully installed janome-0.5.0
 ```{code-block} pycon
 (env) $ python
 >>> from janome.tokenizer import Tokenizer
->>> t = Tokenizer()
+>>> t = Tokenizer()  # トークナイザーを生成
 >>> for token in t.tokenize("美味しい麦酒を飲もう"):
 ...     print(token)
 ... 
@@ -211,13 +211,15 @@ Successfully installed janome-0.5.0
 <generator object Tokenizer.__tokenize_stream at 0x10055e9d0>
 >>> list(tokens)
 ['美味しい', '麦酒', 'を', '飲も', 'う']
+>>> list(t.tokenize("すもももももももものうち", wakati=True))
+['すもも', 'も', 'もも', 'も', 'もも', 'の', 'うち']
 ```
 
 ### 読みなど任意の情報を取得
 
 ```{code-block} pycon
 >>> tokens = list(t.tokenize("飲もう"))
->>> tokens[0].surface  # 表層系
+>>> tokens[0].surface  # 表層形
 '飲も'
 >>> tokens[0].part_of_speech  # 品詞情報
 '動詞,自立,*,*'
@@ -236,9 +238,28 @@ Successfully installed janome-0.5.0
 
 ### Janomeで **フリガナ** 🖊️
 
-* `surface` (表層系)と `reading` (読み)を使用
+* 形態素(トークン)の **表層形** と **読み** を取得
 
-```{literalinclude} code/furigana1.py
+```pycon
+>>> from janome.tokenizer import Tokenizer
+>>> t = Tokenizer()
+>>> for token in t.tokenize("美味しい麦酒を飲もう"):
+...     token.surface, token.reading  # 表層形, 読み
+... 
+('美味しい', 'オイシイ')
+('麦酒', 'ビール')
+('を', 'ヲ')
+('飲も', 'ノモ')
+('う', 'ウ')
+```
+
+### Janomeで **フリガナ** 🖊️
+
+* `surface` (表層形)と `reading` (読み)を使用
+
+```{revealjs-literalinclude} code/furigana1.py
+:language: python
+:lines: 1-2, 4-13, 15-16
 ```
 
 ```{revealjs-break}
@@ -262,7 +283,8 @@ Successfully installed janome-0.5.0
 ```
 
 ```{revealjs-literalinclude} code/furigana2.py
-:lines: 1-12
+:language: python
+:lines: 1-3, 5-13
 :data-line-numbers: 2, 11
 ```
 
@@ -284,7 +306,8 @@ Successfully installed janome-0.5.0
   * 参考: [note.nkmk.me](https://note.nkmk.me/python-re-regex-character-type/)
 
 ```{revealjs-literalinclude} code/furigana3.py
-:lines: 1, 5-18
+:language: python
+:lines: 1, 5-6, 8-19
 :data-line-numbers: 1, 3, 10-14
 ```
 
@@ -306,7 +329,8 @@ Successfully installed janome-0.5.0
 * `ruby()` 関数を作成し **送りがな処理** を追加
 
 ```{revealjs-literalinclude} code/furigana4.py
-:lines: 7-17
+:language: python
+:lines: 7,9-18
 ```
 
 ```{revealjs-break}
@@ -315,7 +339,8 @@ Successfully installed janome-0.5.0
 * `ruby()` 関数を呼び出すように変更
 
 ```{revealjs-literalinclude} code/furigana4.py
-:lines: 19-28
+:language: python
+:lines: 21-30
 :data-line-numbers: 7
 ```
 
@@ -358,12 +383,14 @@ Successfully installed janome-0.5.0
 * ユーザー定義辞書(janome_dict.csv)
 
 ```{revealjs-literalinclude} code/janome_dict.csv
+:language: csv
 ```
 
-* `Tokenizer()` の引数で辞書を指定
+* `Tokenizer()` の引数に辞書を指定
 
 ```{revealjs-literalinclude} code/furigana5.py
-:lines: 19-22
+:language: python
+:lines: 21-24
 :data-line-numbers: 3
 ```
 
@@ -445,7 +472,7 @@ EOS
 
 ```pycon
 >>> tokens = list(tokenizer.tokenize("飲もう"))
->>> tokens[0].surface()  # 表層系
+>>> tokens[0].surface()  # 表層形
 '飲もう'
 >>> tokens[0].part_of_speech()  # 品詞情報
 ('動詞', '一般', '*', '*', '五段-マ行', '意志推量形')
@@ -462,7 +489,8 @@ EOS
 * JanomeからSudachiPyに書き換え
 
 ```{revealjs-literalinclude} code/furigana6.py
-:lines: 4, 18-29
+:language: python
+:lines: 4, 20-31
 :data-line-numbers: 1, 5, 8-10, 12
 ```
 
@@ -477,11 +505,117 @@ EOS
 
 ![SudachiPyでフリガナ](images/result6.png)
 
-### 送り仮名のさらなる改善
+### 辞書を切り替え
 
-### 辞書をカスタマイズ
+* `full` の辞書は **雑多な固有名詞** が増えている
+* `-s` オプションで **辞書の切り替え** が可能
 
-### 辞書のコスト調整
+```bash
+(env) $ pip install sudachidict_full
+(env) $ echo "僕のヒーローアカデミア" | sudachipy
+僕	代名詞,*,*,*,*,*	僕
+の	助詞,格助詞,*,*,*,*	の
+ヒーロー	名詞,普通名詞,一般,*,*,*	ヒーロー
+アカデミア	名詞,普通名詞,一般,*,*,*	アカデミア
+EOS
+(env) $ echo "僕のヒーローアカデミア" | sudachipy -s full
+僕のヒーローアカデミア	名詞,固有名詞,一般,*,*,*	僕のヒーローアカデミア
+EOS
+```
+
+```{revealjs-break}
+```
+
+* `Dictionary()` に引数 `dict="full"` を指定
+
+```{revealjs-literalinclude} code/furigana7.py
+:language: python
+:lines: 21-31
+:data-line-numbers: 3
+```
+
+## フリガナのさらなる **改善** ✨
+
+### 対応できていないパターン
+
+* `[漢字]+[ひらがな]+` のパターンのみに対応
+* **途中** にひらがながあると対応できない
+  * 例: 追い出す、しみ込む、立ち入り禁止
+* **カタカナ** にもフリガナを振っている
+  * 例: アフリカ大陸、東アジア
+
+```{revealjs-break}
+```
+
+* 適切なフリガナにならない
+
+```bash
+$ python furigana7.py "追い出す、しみ込む、立ち入り禁止。アフリカ大陸と東アジア"
+<ruby><rb>追い出</rb><rt>おいだ</rt></ruby>す、<ruby><rb>しみ込</rb><rt>しみこ</rt></ruby>む、<ruby><rb>立ち入り禁止</rb><rt>たちいりきんし</rt></ruby>。<ruby><rb>アフリカ大陸</rb><rt>あふりかたいりく</rt></ruby>と<ruby><rb>東アジア</rb><rt>ひがしあじあ</rt></ruby>
+```
+
+![対応できていないパターン](images/result7.png)
+
+### doctestを追加
+
+* [doctest](https://docs.python.org/ja/3/library/doctest.html)でdocstringに対話的なテストを記述
+
+```{revealjs-literalinclude} code/furigana8.py
+:language: python
+:lines: 10-24
+```
+
+### doctestを実行
+
+* `python -m doctest` でテストを実行
+* 4/6件のテストが失敗
+
+```bash
+(env) $ python -m doctest furigana8.py
+**********************************************************************
+File "/Users/takanori/.../furigana8.py", line 16, in furigana8.ruby
+Failed example:
+    ruby("追い出す", "おいだす")
+Expected:
+    '<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>す'
+Got:
+    '<ruby><rb>追い出</rb><rt>おいだ</rt></ruby>す'
+...
+1 items had failures:
+   4 of   6 in furigana8.ruby
+```
+
+### フリガナ処理を改善
+
+* ひらがなとカタカナに対応
+* `make_ruby()` 関数を追加
+
+```{revealjs-literalinclude} code/furigana9.py
+:language: python
+:lines: 7, 9-12
+```
+
+```{revealjs-break}
+```
+
+* かなの前後で分割して、フリガナ処理を改善
+
+```{revealjs-literalinclude} code/furigana9.py
+:language: python
+:lines: 15, 30-43
+```
+
+### doctestと実行結果を確認
+
+* 6件のテストに成功(なにも出力されない)
+
+```bash
+(env) $ python -m doctest furigana9.py
+(env) $ python furigana9.py "追い出す、しみ込む、立ち入り禁止。アフリカ大陸と東アジア"
+<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>す、しみ<ruby><rb>込</rb><rt>こ</rt></ruby>む、<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>禁止</rb><rt>きんし</rt></ruby>。アフリカ<ruby><rb>大陸</rb><rt>たいりく</rt></ruby>と<ruby><rb>東</rb><rt>ひがし</rt></ruby>アジア
+```
+
+![改善されたフリガナ](images/result9.png)
 
 ### フリガナレベル対応
 

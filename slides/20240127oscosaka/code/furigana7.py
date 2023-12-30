@@ -20,7 +20,7 @@ def ruby(kanji: str, kana: str) -> str:
 
 def furigana(s: str) -> str:
     """文字列にフリガナを振ったHTMLを返す"""
-    t = dictionary.Dictionary().create()
+    t = dictionary.Dictionary(dict="full").create()
     result = ""
     for token in t.tokenize(s):
         surface = token.surface()

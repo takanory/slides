@@ -5,6 +5,7 @@ from janome.tokenizer import Tokenizer
 
 KANJI = r"[\u3005-\u3007\u4E00-\u9FFF]"  # 漢字を表す正規表現
 
+
 def furigana(s: str) -> str:
     """文字列にフリガナを振ったHTMLを返す"""
     t = Tokenizer()
@@ -16,6 +17,7 @@ def furigana(s: str) -> str:
         else:
             result += token.surface
     return result
+
 
 if __name__ == "__main__":
     print(furigana(sys.argv[1]))
