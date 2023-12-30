@@ -617,9 +617,61 @@ Got:
 
 ![改善されたフリガナ](images/result9.png)
 
-### フリガナレベル対応
+## フリガナレベル対応 🏫
 
-* [学年別漢字配当表 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%AD%A6%E5%B9%B4%E5%88%A5%E6%BC%A2%E5%AD%97%E9%85%8D%E5%BD%93%E8%A1%A8)
+### フリガナレベル対応 🏫
+
+* 小学校で習う漢字はフリガナを振らない
 * [別表　学年別漢字配当表：文部科学省](https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm)
+* [学年別漢字配当表 - Wikipedia](https://ja.wikipedia.org/wiki/%E5%AD%A6%E5%B9%B4%E5%88%A5%E6%BC%A2%E5%AD%97%E9%85%8D%E5%BD%93%E8%A1%A8)
+
+```{revealjs-break}
+:notitle:
+```
+
+![別表　学年別漢字配当表](images/kanji_grade.png)
+
+### 学年別漢字配当表を **スクレイピング**
+
+```{revealjs-literalinclude} code/kanji_grade.py
+:caption: kanji_grade.py
+:language: python
+:lines: 1-3, 5-19
+```
+
+### 学年別漢字配当表を **JSON** で保存
+
+* 上から順に小学1年生〜6年生の漢字
+* kanji_grade.json
+
+```{revealjs-literalinclude} code/kanji_grade.json
+:language: json
+```
+
+### 漢字配当表を読み込む
+
+* フリガナプログラムでJSONから読み込む
+
+```{revealjs-literalinclude} code/furigana10.py
+:language: python
+:lines: 1, 46-53
+```
 
 ## まとめ
+
+* **自然言語処理**、**形態素解析** の概要を知る
+* **Janome** で形態素解析、フリガナ
+* **SudachiPy** で形態素解析、フリガナ
+* 自然言語処理 **プログラムを作る流れ** を知る
+
+## Thank You 🙏
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
