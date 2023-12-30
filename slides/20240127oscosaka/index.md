@@ -657,6 +657,21 @@ Got:
 :lines: 1, 46-53
 ```
 
+### 漢字が範囲内かチェック
+
+* 形態素内の **全漢字** が漢字配当表に含まれるか
+
+```{revealjs-literalinclude} code/furigana10.py
+:language: python
+:lines: 56-61
+```
+
+```{revealjs-literalinclude} code/furigana10.py
+:language: python
+:lines: 64-76
+:data-line-numbers: 3, 8
+```
+
 ## まとめ
 
 * **自然言語処理**、**形態素解析** の概要を知る

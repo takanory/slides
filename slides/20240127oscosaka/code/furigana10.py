@@ -53,6 +53,14 @@ def get_kanji_grade_set() -> set[str]:
     return kanji_grade
 
 
+def is_ruby_required(surface: str, kanji_grade: set[str]) -> bool:
+    """フリガナが必要かを判定する"""
+    if re.search(KANJI, surface) is None:  # 漢字を含んでいるか
+        return False
+    kanji_set = set(re.findall(KANJI, surface))
+    return not kanji_set <= kanji_grade  # 配当表外の漢字があるか
+
+
 def furigana(s: str) -> str:
     """文字列にフリガナを振ったHTMLを返す"""
     kanji_grade = get_kanji_grade_set()
@@ -60,7 +68,7 @@ def furigana(s: str) -> str:
     result = ""
     for token in t.tokenize(s):
         surface = token.surface()
-        if re.search(KANJI, surface):  # 漢字か？
+        if is_ruby_required(surface, kanji_grade):
             result += ruby(surface, token.reading_form())
         else:
             result += surface
