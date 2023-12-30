@@ -672,6 +672,20 @@ Got:
 :data-line-numbers: 3, 8
 ```
 
+### 小学校の漢字はフリガナなしに
+
+```bash
+(env) $ python furigana10.py "祇園精舎の鐘の声、諸行無常の響あり。沙羅双樹の花の色、盛者必衰の理をあらはす。"
+<ruby><rb>祇園精舎</rb><rt>ぎおんしょうじゃ</rt></ruby>の<ruby><rb>鐘</rb><rt>かね</rt></ruby>の声、諸行無常の<ruby><rb>響</rb><rt>ひびき</rt></ruby>あり。<ruby><rb>沙羅双樹</rb><rt>さらそうじゅ</rt></ruby>の花の色、<ruby><rb>盛者必衰</rb><rt>じょうしゃひっすい</rt></ruby>の理をあらはす。
+```
+
+![中学生向けフリガナ](images/result10.png)
+
+### さらなる拡張アイデア
+
+* 小学校の学年をオプションで指定
+* 常用漢字に対応
+
 ## まとめ
 
 * **自然言語処理**、**形態素解析** の概要を知る
@@ -690,3 +704,4 @@ Got:
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+

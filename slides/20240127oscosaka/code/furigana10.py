@@ -53,12 +53,12 @@ def get_kanji_grade_set() -> set[str]:
     return kanji_grade
 
 
-def is_ruby_required(surface: str, kanji_grade: set[str]) -> bool:
+def is_ruby_required(surface: str, grade: set[str]) -> bool:
     """フリガナが必要かを判定する"""
     if re.search(KANJI, surface) is None:  # 漢字を含んでいるか
         return False
     kanji_set = set(re.findall(KANJI, surface))
-    return not kanji_set <= kanji_grade  # 配当表外の漢字があるか
+    return not kanji_set <= grade  # 配当表外の漢字があるか
 
 
 def furigana(s: str) -> str:
