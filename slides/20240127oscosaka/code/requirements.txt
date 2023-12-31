@@ -1,0 +1,5 @@
+jaconv==0.3.4
+Janome==0.5.0
+SudachiDict-core==20230927
+SudachiDict-full==20230927
+SudachiPy==0.6.8
