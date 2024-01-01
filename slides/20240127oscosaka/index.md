@@ -8,7 +8,7 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 ## アジェンダ 📋
 
-* 自然言語処理とは
+* 自然言語(日本語)処理とは
   * **形態素解析** について
 * **Janome** でフリガナプログラム
 * **SudachiPy** でフリガナプログラム
@@ -23,7 +23,7 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 `#oscosk2024` / `@takanory`
 
-### Slide / スライド 💻
+### Slides / スライド 💻
 
 [slides.takanory.net](https://slides.takanory.net)
 
@@ -45,23 +45,23 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
-### PyCon JP **Association** の主な活動
+### PyCon JP Associationの **主な活動**
 
 * PyCon JP: 年1の大規模カンファレンス
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): 初心者向けチュートリアル
 * [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
 * [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
 
-### PyCon JP Associationブース
+### PyCon JP Association **ブース**
 
 * PyCon JP 2024スタッフ募集
 * Python Boot Campの紹介
 * PyLadies Caravanの紹介
-* その他Python・コミュニティ関連相談
+* その他Python、コミュニティ関連相談
 
 ### **BeProud** Inc. 🏢
 
-* [BeProud](https://www.beproud.jp/) :Pythonシステム開発、コンサル
+* [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
 * [connpass](https://connpass.com/): IT勉強会支援プラットフォーム
 * [PyQ](https://pyq.jp/): Python独学プラットフォーム
 * [TRACERY](https://tracery.jp/): システム開発ドキュメントサービス
@@ -85,21 +85,30 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 * [Pytorch-NLP](https://pytorchnlp.readthedocs.io/en/latest/)
 * そのままでは **日本語を処理できない** ものも
 
-* [Awesome Python](https://awesome-python.com/#natural-language-processing)より
+* 参考: [Awesome Python](https://awesome-python.com/#natural-language-processing)
 
-### 日本語の特徴
+### **日本語** の特徴
 
 * 単語が **スペースで区切られていない**
 
   * 「すもももももももものうち」
 
+* 文脈で **単語の分かれ目** が違う
+
+  * 「東京都と神奈川の小京都」
+  
 * 一つの漢字に **複数の読み方**
 
   * 「一月一日は元日で昨日は大晦日」
   
-* 文脈で **単語の分かれ目** が違う
+### 単語に分割して情報を取得
 
-  * 「東京都と神奈川の小京都」
+* 日本語を単語に分割する
+  * 「すもも/も/もも/も/もも/の/うち」
+  * 「東京/都/と/神奈川/の/小/京都」
+* 読みの情報を取得する		
+  * 「いちがつ/ついたち/は/がんじつ...」
+* → **形態素解析**
 
 ## **形態素解析** とは 💬
 
@@ -109,26 +118,30 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
   * 形態素=単語などの要素
 * **品詞** などの情報を付加
-* 日本語の **辞書データ** が必要
+* 日本語の **辞書** が必要
 
 ### 品詞、原形、読み
 
 * 形態素解析が付加する主な情報
-* 例：「とても美味しいビールを飲みたい」
-* **品詞**: とても(副詞)美味しい(形容詞)ビール(副詞)...
-* **原形**: 飲み→飲む
-* **読み**: 美味しい→おいしい、飲み→のみ
+* 「とても美味しいビールを飲みたい」
+  * **品詞**: とても(副詞)美味しい(形容詞)ビール(副詞)...
+  * **原形**: 飲み→飲む
+  * **読み**: 美味しい→おいしい、飲み→のみ
 
 ### 形態素解析の用途
 
 * 検索エンジンの検索インデックス
 * 文章の分類
 * 単語の数で文章の特徴を表す(**Bag of Words**)
-* 単語の重要度を調べる(**TF-IDF**)
+* 重要な単語に重み付けする(**TF-IDF**)
 
-### **目的**：フリガナを振る
+### 形態素解析を利用した **プログラム**
 
-* 形態素解析ライブラリを使ったプログラム
+* 文章にフリガナを振るプログラムを作る
+
+### 形態素解析を利用した **プログラム**
+
+* 実行イメージ(HTMLの `ruby` タグを使用)
 
 ```bash
 $ ./furigana.py "美味しい麦酒を飲もう" > result.html && cat result.html
@@ -177,7 +190,7 @@ Successfully installed janome-0.5.0
 
 * 「表層形	品詞,品詞細分類1,品詞細分類2,品詞細分類3,活用型,活用形,原形,読み,発音」の形式
 
-```
+```text
 美味しい	形容詞,自立,*,*,形容詞・イ段,基本形,美味しい,オイシイ,オイシイ
 麦酒	名詞,一般,*,*,*,*,麦酒,ビール,ビール
 を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
@@ -215,7 +228,7 @@ Successfully installed janome-0.5.0
 ['すもも', 'も', 'もも', 'も', 'もも', 'の', 'うち']
 ```
 
-### 読みなど任意の情報を取得
+### 読みなどの情報を取得
 
 ```{code-block} pycon
 >>> tokens = list(t.tokenize("飲もう"))
@@ -302,12 +315,23 @@ Successfully installed janome-0.5.0
 ### 漢字が含まれる場合のみを対象に
 
 * `surface` に **漢字が含まれる** 場合のみ対象
+* 漢字を表す正規表現を定義
   * 参考: [note.nkmk.me](https://note.nkmk.me/python-re-regex-character-type/)
 
 ```{revealjs-literalinclude} code/furigana3.py
 :language: python
-:lines: 1, 5-6, 8-19
-:data-line-numbers: 1, 3, 10-14
+:lines: 1, 5-6
+```
+
+```{revealjs-break}
+```
+
+* 正規表現で漢字を含むかをチェック
+
+```{revealjs-literalinclude} code/furigana3.py
+:language: python
+:lines: 9-19
+:data-line-numbers: 6-10
 ```
 
 ```{revealjs-break}
@@ -324,7 +348,7 @@ Successfully installed janome-0.5.0
 
 ### 送りがなに対応
 
-* 「美味しい」の「美味」にフリガナを振る
+* 「美味しい」の「美味」のみにフリガナ
 * `ruby()` 関数を作成し **送りがな処理** を追加
 
 ```{revealjs-literalinclude} code/furigana4.py
@@ -346,7 +370,7 @@ Successfully installed janome-0.5.0
 ```{revealjs-break}
 ```
 
-* **送りがな** が処理できるようになった
+* **送りがな** が処理できるようになった！
 
 ```bash
 (env) $ python furigana4.py "美味しい麦酒を飲もう"
@@ -355,11 +379,14 @@ Successfully installed janome-0.5.0
 
 ![送りがなに対応](images/result4.png)
 
+### だがまだ完璧ではない
+
 ## **辞書** をカスタマイズ 📕
 
 ### 想定したフリガナにならない
 
-* 「新出漢字」「後付け」が想定したフリガナ（しんしゅつかんじ、あとづけ）にならない
+* 新出(しんしゅつ)漢字
+* 後付け(あとづけ)
 
 ```bash
 (env) $ echo "新出漢字、後付け" | janome
@@ -479,6 +506,55 @@ EOS
 'ノモウ'
 >>> tokens[0].dictionary_form()  # 原形
 '飲む'
+```
+
+### SudachiPyで分かち書き
+
+* 表層系(`surface()`)のリストを作成すれば分かち書きに
+
+```pycon
+(env) $  python
+>>> from sudachipy import Dictionary
+>>> tokenizer = Dictionary().create()
+>>> tokens = tokenizer.tokenize("美味しい麦酒を飲もう")
+>>> [token.surface() for token in tokens]
+['美味しい', '麦酒', 'を', '飲もう']
+```
+
+```{revealjs-break}
+```
+
+* 3種類の分割モード(Cがデフォルト)
+
+```pycon
+>>> from sudachipy import Dictionary, SplitMode
+>>> tokenizer = Dictionary().create()
+>>> for mode in SplitMode.A, SplitMode.B, SplitMode.C:
+...     [t.surface() for t in tokenizer.tokenize(s, mode)]
+... 
+['高輪', 'ゲートウェイ', '駅', 'から', '国会', '議事', '堂', '前', '駅', 'に', '向かう']
+['高輪', 'ゲートウェイ', '駅', 'から', '国会議事堂前', '駅', 'に', '向かう']
+['高輪ゲートウェイ駅', 'から', '国会議事堂前駅', 'に', '向かう']
+```
+
+### 単語の正規化にも対応
+
+* `normalized_form()` で単語を正規化
+* 表記揺れ対策に使えるかも
+
+```
+>>> from sudachipy import Dictionary, SplitMode
+>>> tokenizer = Dictionary().create()
+>>> for word in ("Vacation", "ヴァイオリン", "亜細亜",
+...              "シュミレーション", "國", "たとえば"):
+...     tokenizer.tokenize(word, mode)[0].normalized_form()
+...
+'バケーション'
+'バイオリン'
+'アジア'
+'シミュレーション'
+'国'
+'例えば'
 ```
 
 ## SudachiPyで **フリガナ** 🖊️
@@ -630,6 +706,23 @@ Got:
 
 ![別表　学年別漢字配当表](images/kanji_grade.png)
 
+### 学年別漢字配当表の **HTMLを確認**
+
+* `<td>`〜`</td>` の間を抜き出せば使えそう
+
+```{revealjs-code-block} html
+:data-line-numbers: 3, 7
+
+<tr>
+<th valign="top">第一学年</th>
+<td>一　右　雨　円　王　音　下　火　花...力　林　六（80字）</td>
+</tr>
+<tr>
+<th valign="top" scope="row">第二学年</th>
+<td>引　羽　雲　園　遠　何　科　夏　家...里　理　話（160字）</td>
+</tr>
+```
+
 ### 学年別漢字配当表を **スクレイピング**
 
 ```{revealjs-literalinclude} code/kanji_grade.py
@@ -664,6 +757,8 @@ Got:
 :language: python
 :lines: 56-61
 ```
+
+### `furigana()` 関数を書き換え
 
 ```{revealjs-literalinclude} code/furigana10.py
 :language: python
