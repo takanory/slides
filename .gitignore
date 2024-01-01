@@ -2,5 +2,6 @@
 env/
 build/
 export.sh
-*.json
+credentials.json
+token.json
 *.db

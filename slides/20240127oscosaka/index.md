@@ -262,8 +262,7 @@ Successfully installed janome-0.5.0
 :lines: 1-2, 4-13, 15-16
 ```
 
-```{revealjs-break}
-```
+### Janomeで **フリガナ** 🖊️
 
 * すべての文字にフリガナが振られている
 
@@ -274,7 +273,7 @@ Successfully installed janome-0.5.0
 
 ![実行結果1](images/result1.png)
 
-### フリガナをひらがなにする
+### フリガナを **ひらがな** にする
 
 * [jaconv](https://github.com/ikegami-yukino/jaconv)を使用して **ひらがなに変換**
 
@@ -429,7 +428,6 @@ Successfully installed janome-0.5.0
 
 ```bash
 (env) $ pip sudachidict_core sudachipy
-Successfully installed sudachipy-0.6.8
 ...
 Successfully installed sudachidict_core-20230927 sudachipy-0.6.8
 ```
@@ -440,13 +438,13 @@ Successfully installed sudachidict_core-20230927 sudachipy-0.6.8
 * 読みを確認するには `-a` オプション
 
 ```bash
-$ echo "美味しい麦酒を飲もう" | sudachipy
+(env) $ echo "美味しい麦酒を飲もう" | sudachipy
 美味しい	形容詞,一般,*,*,形容詞,連体形-一般	美味しい
 麦酒	名詞,普通名詞,一般,*,*,*	麦酒
 を	助詞,格助詞,*,*,*,*	を
 飲もう	動詞,一般,*,*,五段-マ行,意志推量形	飲む
 EOS
-$ echo "美味しい麦酒を飲もう" | sudachipy -a 
+(env) $ echo "美味しい麦酒を飲もう" | sudachipy -a 
 美味しい	形容詞,一般,*,*,形容詞,連体形-一般	美味しい	美味しい	オイシイ	0	[6880]
 麦酒	名詞,普通名詞,一般,*,*,*	麦酒	麦酒	ビール	0	[649]
 を	助詞,格助詞,*,*,*,*	を	を	ヲ	0	[]
@@ -457,6 +455,7 @@ EOS
 ### プログラムで形態素解析
 
 ```pycon
+(env) $  python
 >>> from sudachipy import Dictionary
 >>> tokenizer = Dictionary().create()
 >>> for token in tokenizer.tokenize("美味しい麦酒を飲もう"):
