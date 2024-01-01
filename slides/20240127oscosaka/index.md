@@ -28,7 +28,7 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#oscosk2024` / `@takanory`
+`#osc24os` / `@takanory`
 
 ### Slides / スライド 💻
 
