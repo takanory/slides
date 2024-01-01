@@ -1,3 +1,10 @@
+```{eval-rst}
+:og:image: _images/20240127oscosaka.png
+:og:image:alt: Pythonで日本語処理入門 フリガナプログラムを作ろう
+
+.. |cover| image:: images/20240127oscosaka.png
+```
+
 # Pythonで<br />**日本語処理** 入門
 
 **〜フリガナプログラムを作ろう〜**
