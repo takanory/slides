@@ -131,7 +131,7 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 * 形態素解析が付加する主な情報
 * 「とても美味しいビールを飲みたい」
-  * **品詞**: とても(副詞)美味しい(形容詞)ビール(副詞)...
+  * **品詞**: とても(副詞)美味しい(形容詞)ビール(名詞)...
   * **原形**: 飲み→飲む
   * **読み**: 美味しい→おいしい、飲み→のみ
 
@@ -461,7 +461,7 @@ Successfully installed janome-0.5.0
 * ここでは `core` をインストール
 
 ```bash
-(env) $ pip sudachidict_core sudachipy
+(env) $ pip install sudachidict_core sudachipy
 ...
 Successfully installed sudachidict_core-20230927 sudachipy-0.6.8
 ```
