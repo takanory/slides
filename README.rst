@@ -21,6 +21,25 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
+2024
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 40, 10
+
+   - * event
+     * location
+     * date
+     * type
+     * title
+     * resource
+   - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
+     * Osaka, Japan
+     * 2024 Jan
+     * Talk
+     * `Pythonで日本語処理入門 / フリガナプログラムを作ろう <https://event.ospn.jp/osc2024-osaka/session/1270434>`_
+     * `Slides <https://slides.takanory.net/slides/20240127oscosaka>`__
+
 2023
 ====
 .. list-table::
