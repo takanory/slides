@@ -34,6 +34,8 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 [slides.takanory.net](https://slides.takanory.net)
 
+![takanory slides](images/takanory-slides.png)
+
 ## **Who** am I? / お前 **誰よ** 👤
 
 - Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
@@ -61,10 +63,15 @@ Open Source Conference Osaka 2024 / 2024 Jan 27
 
 ### PyCon JP Association **ブース**
 
-* PyCon JP 2024スタッフ募集
-* Python Boot Campの紹介
-* PyLadies Caravanの紹介
-* その他Python、コミュニティ関連相談
+![PyCon JP Association ブース](images/pycon-booth.jpg)
+
+### PyCon JP Association **ブース**
+
+* PyCon JP 2024 **主催メンバー募集**
+* **Python Boot Camp** の紹介
+* **PyLadies Caravan** の紹介
+* Python、コミュニティ相談
+* Pythonステッカー配布
 
 ### **BeProud** Inc. 🏢
 
