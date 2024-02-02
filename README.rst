@@ -33,6 +33,18 @@
      * type
      * title
      * resource
+   - * BPStudy #198
+     * Online
+     * 2024 Feb
+     * Talk
+     * TBD
+     * Slides
+   - * `みんなのPython勉強会#101 <https://startpython.connpass.com/event/305425//>`_
+     * Tokyo, Japan
+     * 2024 Feb
+     * Talk
+     * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
+     * Slides
    - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
      * 2024 Jan
