@@ -77,6 +77,7 @@
      * Talk
      * `Introduction to Structural Pattern Matching <https://2023-apac.pycon.jp/timetable?id=DXWXGJ>`__
      * `Slides <https://slides.takanory.net/slides/20231027pyconapac>`__
+       `Video <https://www.youtube.com/watch?v=GW5GrtBnen0>`__
    - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
      * Taipei, Taiwan
      * 2023 Sep
