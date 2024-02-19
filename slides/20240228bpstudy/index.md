@@ -16,6 +16,44 @@ BPStudy #198 / 2024 Feb 28
 
 ## お前誰よ 👤
 
+* Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
+* [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
+* [PyCon JP Association](https://www.pycon.jp/) 代表理事
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html) 講師、[Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催、[Pythonボルダリング部](https://kabepy.connpass.com/) 部長
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+### PyCon JP **Association** 🐍
+
+日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした **非営利組織**
+
+* [`www.pycon.jp`](https://www.pycon.jp)
+
+![pycon jp logo](/assets/images/pyconjp_logo.png)
+
+### PyCon JP **2024**
+
+* **9月** 後半に **東京*8 で開催予定
+* 3名の **共同座長**(with 吉田さん、寺田さん)
+* **主催メンバー** 募集中
+* 詳細: [PyCon JP 2024座長決定のお知らせと主催者グループのメンバー募集](https://pyconjp.blogspot.com/2024/01/pyconjp2024-co-chair.html)
+
+### **BeProud** Inc. 🏢
+
+* [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
+* [connpass](https://connpass.com/): IT勉強会支援プラットフォーム
+* [PyQ](https://pyq.jp/): Python独学プラットフォーム
+* [TRACERY](https://tracery.jp/): システム開発ドキュメントサービス
+
+![BeProud logos](/assets/images/beproud-logos.png)
+
+### Pythonプロフェッショナルプログラミング
+
+* **ビープラウド** が執筆した書籍
+* ビープラウドに新たに **加わったメンバー** が、開発プロジェクトに **円滑に参加** するためのガイド
+* →Pythonで開発する組織に役立つはず
+* →当時の開発スタイルが見えてくる
 
 ## PyPro出版の **歴史** 📚
 
@@ -100,10 +138,11 @@ datetime.timedelta(days=2075)
 
 ![pypro4](images/pypro4.jpg)
 
-### [2024年](https://ja.wikipedia.org/wiki/2018%E5%B9%B4)のできごと
+### [2024年](https://ja.wikipedia.org/wiki/2024%E5%B9%B4)のできごと
 
-* [Python 3.12.2](https://peps.python.org/pep-0693/)、Python 3.7以前はEOL
+* [Python 3.12.2](https://peps.python.org/pep-0693/)、[Python 3.13](https://peps.python.org/pep-0719/)(10月)
 * [Django 5.0.2](https://docs.djangoproject.com/en/5.0/releases/5.0.2/)
-* Apple Vision Pro発売開始
-* 日本銀行券が刷新
-* パリオリンピック開催
+* Python 3.7以前は[EOL](https://endoflife.date/python)、Django 3.2が[4月にEOL](https://endoflife.date/django)
+* Apple Vision Pro発売開始(2月)
+* 日本銀行券が刷新(7月)
+* パリオリンピック開催(7月)
