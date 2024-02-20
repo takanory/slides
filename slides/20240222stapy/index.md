@@ -28,7 +28,7 @@ Takanori Suzuki
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#osc24os` / `@takanory`
+`#stapy` / `@takanory`
 
 ### Slides / スライド 💻
 
@@ -61,17 +61,12 @@ Takanori Suzuki
 * [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
 * [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
 
-### PyCon JP Association **ブース**
+### PyCon JP **2024** 🇯🇵
 
-![PyCon JP Association ブース](images/pycon-booth.jpg)
-
-### PyCon JP Association **ブース**
-
-* PyCon JP 2024 **主催メンバー募集**
-* **Python Boot Camp** の紹介
-* **PyLadies Caravan** の紹介
-* Python、コミュニティ相談
-* Pythonステッカー配布
+* **9月後半** に **東京** で開催予定
+* 3名の **共同座長** (with [吉田さん](https://twitter.com/koedoyoshida/)、[寺田さん](https://twitter.com/terapyon/))
+* **主催メンバー** 募集中!!
+* 詳細: [座長決定と主催メンバー募集](https://pyconjp.blogspot.com/2024/01/pyconjp2024-co-chair.html)
 
 ### **BeProud** Inc. 🏢
 
@@ -81,6 +76,14 @@ Takanori Suzuki
 * [TRACERY](https://tracery.jp/): システム開発ドキュメントサービス
 
 ![BeProud logos](/assets/images/beproud-logos.png)
+
+### Pythonプロフェッショナルプログラミング 第4版
+
+* 2024年2月16日発売
+* 468ページ、3,300円(税込)
+* **買ってね!!**
+
+![Pythonプロフェッショナルプログラミング 第4版](images/pypro4.jpg)
 
 ## **自然言語処理** とは 🗣️
 
