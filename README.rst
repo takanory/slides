@@ -44,7 +44,7 @@
      * 2024 Feb
      * Talk
      * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
-     * Slides
+     * `Slides <https://slides.takanory.net/slides/20240222stapy>`__
    - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
      * 2024 Jan
