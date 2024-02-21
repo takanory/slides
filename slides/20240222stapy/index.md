@@ -473,7 +473,7 @@ Successfully installed janome-0.5.0
 ```bash
 (env) $ pip install sudachidict_core sudachipy
 ...
-Successfully installed sudachidict_core-20230927 sudachipy-0.6.8
+Successfully installed sudachidict_core-20240109 sudachipy-0.6.8
 ```
 
 ### SudachiPyで形態素解析
@@ -546,6 +546,7 @@ EOS
 ```pycon
 >>> from sudachipy import Dictionary, SplitMode
 >>> tokenizer = Dictionary().create()
+>>> s = "高輪ゲートウェイ駅から国会議事堂前駅に向かう"
 >>> for mode in SplitMode.A, SplitMode.B, SplitMode.C:
 ...     [t.surface() for t in tokenizer.tokenize(s, mode)]
 ... 
@@ -816,4 +817,3 @@ Got:
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
-
