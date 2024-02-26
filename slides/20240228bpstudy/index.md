@@ -189,21 +189,18 @@ datetime.timedelta(days=2075)
 
 ## 改訂の歴史を **遡る**
 
-## PyPro3 ← PyPro4
+## Pythonのセットアップ 🐍
+
+### PyPro3 → PyPro4
 
 ![PyPro3](images/pypro3.jpg)
 ![PyPro4](images/pypro4.jpg)
-
-### PyPro4の **帯** (風デザイン)
-
-![PyPro4の帯風デザイン](images/pypro4-obi.jpg)
 
 ### Docker / Docker Composeの採用
 
 * Python開発環境として[Docker](https://www.docker.com/)を採用
 * PyPro3では[VirtualBox](https://www.virtualbox.org/) / [Vagrant](https://www.vagrantup.com/) 上のUbuntu
-* **2015年頃** からDockerを使う案件が出始める
-* **N年頃** からDockerが社内標準に
+  * Pythonをソースからインストール
 
 ### Black / Ruff / mypy
 
@@ -211,13 +208,109 @@ datetime.timedelta(days=2075)
 * [Black](https://black.readthedocs.io/): コード整形ツール。2018年リリース
 * [Ruff](https://docs.astral.sh/ruff/): Pythonリンター。2022年リリース
 * [mypy](https://www.mypy-lang.org/): 型ヒントの静的型チェッカー
-* 以前はリンターの[Flake8](https://github.com/pycqa/flake8)のみ紹介
+  * PyPro3ではリンターの[Flake8](https://github.com/pycqa/flake8)のみ紹介
 
-### WebアプリケーションからWeb APIへ
+### PyPro2 → PyPro3
 
-* DjangoでHTML生成ではなく、**APIのみ** 提供
-* フロントは[Vue.js](https://vuejs.org/)
-* [FastAPI](https://fastapi.tiangolo.com/)にも軽く触れている
+![PyPro2](images/pypro2.jpg)
+![PyPro3](images/pypro3.jpg)
+
+### Pythonが2.7系
+
+* インストールするPythonバージョンが2.7.6
+  * PyPro3では3.6.4
+* 仮想環境用に[virtualenv](https://github.com/pypa/virtualenv)をインストール
+  * [venv](https://docs.python.org/ja/3/library/venv.html)モジュールはPython 3.3から
+  
+### バージョン管理がMercurial
+
+* 当時はバージョン管理に[Mercurial](https://www.mercurial-scm.org/)を使用
+  * サーバーも自前でたてていた
+  * [Bitbucket](https://bitbucket.org/)も軽く紹介
+  * PyPro3からGit/GitHub
+
+### PyPro → PyPro2
+
+![PyPro](images/pypro1.jpg)
+![PyPro2](images/pypro2.jpg)
+
+### get-pip.py
+
+* `pip` コマンドはPythonに含まれていない
+* `get-pip.py` をダウンロード→インストール
+
+```bash
+$ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+$ sudo python get-pip.py
+```
+
+* ↑このURLは404 Not Found
+
+### Flake8 → PEP8とPyFlakes
+
+* Flake8 = PEP8 + PyFlakes + MaCabe
+  * まだFlake8は使っていなかった
+* `pep8` コマンドは現在は [pycodestyle](https://pypi.org/project/pycodestyle/)
+
+## Webアプリケーション 🕸️
+
+### PyPro3 → PyPro4
+
+* WebアプリケーションからWeb APIへ
+  * [Django](https://www.djangoproject.com/)でHTML生成ではなく、**APIのみ** 提供
+  * フロントは[Vue.js](https://vuejs.org/)
+  * [FastAPI](https://fastapi.tiangolo.com/)にも軽く触れている
+
+### PyPro2 → PyPro3
+
+* Flaskで乗りログ
+  * [Flask](https://flask.palletsprojects.com/en/3.0.x/)でWebアプリ構築
+  * お題は乗りログ（電車の乗車記録）
+
+### PyPro → PyPro2
+
+* Flaskでゲストブック
+  * フレームワークは[Flask](https://flask.palletsprojects.com/en/3.0.x/)
+  * お題はゲストブック
+
+## データサイエンス 📊
+
+### PyPro3 → PyPro4
+
+* 機械学習からデータサイエンスへ
+  * Jupyter Notebookから **JupyterLab** に
+  * **数理最適化** を紹介
+
+### PyPro2 → PyPro3
+
+* 機械学習の章が初登場
+* 機械学習プロジェクトの進め方を紹介
+
+## チーム開発のためのツール 🛠️
+
+### PyPro3 → PyPro4
+
+* **複数** の課題管理システムを紹介
+  * Redmine、Backlog、JIRA、GitHub Projects
+* Slackの使いこなしを追加
+* **ビデオ、音声会議** を追加
+* **Googleカレンダー**、**1Password** を追加
+  * Dropbox、Dropbox Paperを削除
+
+### PyPro2 → PyPro3
+
+* 課題管理はRedmine一択
+  * **Redmine** のインストールはあっさり
+
+### PyPro → PyPro2
+
+* **Redmine** のインストールはしっかり
+  * PyProではTracで課題管理
+* Mercurialとの連携
+* チャットシステムは **Slack**
+  * PyProではSkype
+
+## 課題管理とレビュー 🎫
 
 ### 開発ドキュメント
 
