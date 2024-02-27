@@ -8,11 +8,17 @@ Takanori Suzuki
 
 BPStudy #198 / 2024 Feb 28
 
-## アジェンダ
+## アジェンダ 📜
 
 * Pythonプロフェッショナルプログラミング(以下: PyPro)出版の歴史
-* ◯◯の歴史と比較
-* 
+* カテゴリーごとの変遷
+
+## ゴール 🥅
+
+* Python開発の変遷を知る
+* 自身のプロジェクトの参考になる
+  * なにか導入してみたくなる
+* (PyPro4が **買いたく** なる)
 
 ## お前誰よ 👤
 
@@ -330,7 +336,8 @@ $ sudo python get-pip.py
 
 * `git swtich` コマンドを紹介
 * GUIクライアントの紹介を削除
-  * エディタからの操作が増えた
+  * VSCode、PyCharmのGit連携
+  * [GitHub CLI](https://cli.github.com/)を紹介
 
 ### PyPro2 → PyPro3
 
@@ -397,3 +404,42 @@ $ sudo python get-pip.py
   * Jenkinsのインストール
   * ユニットテスト
   * Sphinxドキュメントのビルド
+
+## Pythonパッケージ 📦
+
+### PyPro3 → PyPro4
+
+* `pyproject.toml` でパッケージング
+  * [pyproject.toml - pip documentation](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
+  * [PEP 518](https://peps.python.org/pep-0518/): 2016年提案、2020年Final
+* READMEがreSTからmakdown
+* [build](https://build.pypa.io/)パッケージでビルド
+  * `python -m build` コマンド
+
+### PyPro2 → PyPro3
+
+* `setup.py` でパッケージング
+  * [Packaging and distributing projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/)
+* [twine](https://twine.readthedocs.io/en/stable/)でPyPIにアップロード
+
+### PyPro → PyPro2
+
+* `python setup.py register` でPyPIにアップロード
+* **wheel** パッケージ
+  * [PEP 427](https://peps.python.org/pep-0427/): 2012年提案、2013年Accepted
+* PyProではbdist_egg
+  * [PEP 715](https://peps.python.org/pep-0715/): 2023年PyPIへアップロード不可
+
+## Webアプリケーション公開 📢
+
+
+
+## テスト 👌
+
+## Webアプリケーション監視 👀
+
+## 追加開発 🏗️
+
+## まとめ 📚
+
+* (なにかいい感じのまとめ)
