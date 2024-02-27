@@ -118,7 +118,6 @@ datetime.timedelta(days=2075)
 
 ![pypro2](images/pypro2.jpg)
 
-
 ### [2015年](https://ja.wikipedia.org/wiki/2015%E5%B9%B4)のできごと
 
 * [Python 3.5](https://peps.python.org/pep-0478/)、[Python 2.7.10](https://peps.python.org/pep-0373/)
@@ -278,7 +277,7 @@ $ sudo python get-pip.py
 ### PyPro3 → PyPro4
 
 * 機械学習からデータサイエンスへ
-  * Jupyter Notebookから **JupyterLab** に
+  * Jupyter Notebookから[JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)に
   * **数理最適化** を紹介
 
 ### PyPro2 → PyPro3
@@ -307,25 +306,94 @@ $ sudo python get-pip.py
 * **Redmine** のインストールはしっかり
   * PyProではTracで課題管理
 * Mercurialとの連携
-* チャットシステムは **Slack**
+* チャットシステムは **Slack** (2013年リリース)
   * PyProではSkype
 
 ## 課題管理とレビュー 🎫
 
-### 開発ドキュメント
+### PyPro3 → PyPro4
+
+* Redmineの画面イメージを削除
+  * 複数の課題管理システムに対応するため
+* Backlog、Jira、GitHubでのテンプレート設定
+* チケットテンプレート例がreST→ **markdown**
+
+### PyPro → PyPro2
+
+* **チケットテンプレート** が追加
+* コードレビューには[rietveld](https://github.com/rietveld-codereview/rietveld)を使用
+  * App Engine上で動くレビューツール
+  
+## ソースコード管理 🐙
+
+### PyPro3 → PyPro4
+
+* `git swtich` コマンドを紹介
+* GUIクライアントの紹介を削除
+  * エディタからの操作が増えた
+
+### PyPro2 → PyPro3
+
+* Git/GitHubに変更
+  * ブランチ作成
+  * マージ、リベース
+  * GitHub Flow
+  * GitHubのTips
+
+### PyPro → PyPro2
+
+* Mercurialでのソースコード管理
+  * サーバー上の管理と設定
+  * フックの活用
+  * BeProud Mercurial Workflow
+
+## 開発ドキュメント 📝
+
+### PyPro3 → PyPro4
 
 * 普遍的な開発ドキュメントの話に変更
 * ビープラウドでは[TRACERY](https://tracery.jp/)を使用
   * [2022年リリース](https://prtimes.jp/main/html/rd/p/000000006.000025386.html)
 * [Sphinx](https://www.sphinx-doc.org/)はあまり使われなくなった
 
-### 単体テスト
+## 単体テスト ✅
+
+### PyPro3 → PyPro4
 
 * [pytest](https://docs.pytest.org/)と各種pytestプラグイン
-* 以前はunittestとテストランナーにpytestの組み合わせ
+* Djangoのテストは[pytest-django](https://pytest-django.readthedocs.io/)
+* pandasのテストとスナップショットテスト
+  * 過去の実行結果を次回のテストで使う
 
-### 継続的インテグレーション
+### PyPro2 → PyPro3
 
-* [GitHub Actions](https://github.co.jp/features/actions)での継続的インテグレーション
-  * [2019年に正式リリース](https://github.blog/jp/2019-11-14-universe-day-one/)
-* 以前は[CircleCI](https://circleci.com/ja/)を利用
+* [unittest](https://docs.python.org/ja/3/library/unittest.html)とテストランナーにpytestの組み合わせ
+* Webのテストは[WebTest](https://docs.pylonsproject.org/projects/webtest/)
+  * [最終リリース](https://pypi.org/project/WebTest/)が2021年8月
+
+### PyPro
+
+* テストランナーが[nose](https://nose.readthedocs.io/)
+  * [最終リリース](https://pypi.org/project/nose/)が2015年6月
+
+## 継続的インテグレーション 🤵‍♂️
+
+### PyPro3 → PyPro4
+
+* [GitHub Actions](https://github.co.jp/features/actions)に改訂 ([2019年リリース](https://github.blog/jp/2019-11-14-universe-day-one/))
+  * チェックアウト、Docker、ユニットテスト、静的解析
+  * 結果のSlack通知
+
+### PyPro2 → PyPro3
+
+* [CircleCI](https://circleci.com/ja/)で継続的インテグレーション
+  * ユニットテスト
+  * Slack通知
+  * Sphinxドキュメントのビルド
+
+### PyPro → PyPro2
+
+* [Jenkins](https://www.jenkins.io/)で継続的インテグレーション
+  * Jenkinsのインストール
+  * ユニットテスト
+  * Sphinxドキュメントのビルド
