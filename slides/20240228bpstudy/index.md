@@ -8,19 +8,27 @@ Takanori Suzuki
 
 BPStudy #198 / 2024 Feb 28
 
-## アジェンダ 📜
+## Agenda / アジェンダ 📜
 
-* Pythonプロフェッショナルプログラミング(以下: PyPro)出版の歴史
-* カテゴリーごとの変遷
+* Pythonプロフェッショナルプログラミング(以下: PyPro)**出版の歴史** を紹介
+* 章ごと **改訂** の歴史を見る
 
-## ゴール 🥅
+### Goal / ゴール 🥅
 
-* Python開発の変遷を知る
-* 自身のプロジェクトの参考になる
+* Python **開発の変遷** を知る
+* 自身の **プロジェクトの参考** になる
   * なにか導入してみたくなる
-* (PyPro4が **買いたく** なる)
+* （PyPro4を **買いたく** なる）
 
-## お前誰よ 👤
+## Photos 📷 Tweets 🐦 👍
+
+`#bpstudy` / `@takanory`
+
+### Slides / スライド 💻
+
+[slides.takanory.net](https://slides.takanory.net/)
+
+## **Who** am I? / お前 **誰よ** 👤
 
 * Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 * [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
@@ -34,7 +42,7 @@ BPStudy #198 / 2024 Feb 28
 
 日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした **非営利組織**
 
-* [`www.pycon.jp`](https://www.pycon.jp)
+[`www.pycon.jp`](https://www.pycon.jp)
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
@@ -54,7 +62,7 @@ BPStudy #198 / 2024 Feb 28
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
-### Pythonプロフェッショナルプログラミング
+### Pythonプロフェッショナル<br />プログラミング
 
 * **ビープラウド** が執筆した書籍
 * ビープラウドに新たに **加わったメンバー** が、開発プロジェクトに **円滑に参加** するためのガイド
@@ -192,9 +200,9 @@ datetime.timedelta(days=2075)
 ![pypro3](images/pypro3.jpg)
 ![pypro4](images/pypro4.jpg) 
 
-## 改訂の歴史を **遡る**
+## 章ごと **改訂** の歴史を見る 🆙
 
-## Pythonのセットアップ 🐍
+## 1. Pythonのセットアップ 🐍
 
 ### PyPro3 → PyPro4
 
@@ -257,7 +265,7 @@ $ sudo python get-pip.py
   * まだFlake8は使っていなかった
 * `pep8` コマンドは現在は [pycodestyle](https://pypi.org/project/pycodestyle/)
 
-## Webアプリケーション 🕸️
+## 2. Webアプリケーション 🕸️
 
 ### PyPro3 → PyPro4
 
@@ -278,7 +286,7 @@ $ sudo python get-pip.py
   * フレームワークは[Flask](https://flask.palletsprojects.com/en/3.0.x/)
   * お題はゲストブック
 
-## データサイエンス 📊
+## 3. データサイエンス 📊
 
 ### PyPro3 → PyPro4
 
@@ -291,7 +299,7 @@ $ sudo python get-pip.py
 * 機械学習の章が初登場
 * 機械学習プロジェクトの進め方を紹介
 
-## チーム開発のためのツール 🛠️
+## 4. チーム開発のためのツール 🛠️
 
 ### PyPro3 → PyPro4
 
@@ -315,7 +323,7 @@ $ sudo python get-pip.py
 * チャットシステムは **Slack** (2013年リリース)
   * PyProではSkype
 
-## 課題管理とレビュー 🎫
+## 5. 課題管理とレビュー 🎫
 
 ### PyPro3 → PyPro4
 
@@ -330,7 +338,7 @@ $ sudo python get-pip.py
 * コードレビューには[rietveld](https://github.com/rietveld-codereview/rietveld)を使用
   * App Engine上で動くレビューツール
   
-## ソースコード管理 🐙
+## 6. ソースコード管理 🐙
 
 ### PyPro3 → PyPro4
 
@@ -354,7 +362,7 @@ $ sudo python get-pip.py
   * フックの活用
   * BeProud Mercurial Workflow
 
-## 開発ドキュメント 📝
+## 7. 開発ドキュメント 📝
 
 ### PyPro3 → PyPro4
 
@@ -363,7 +371,7 @@ $ sudo python get-pip.py
   * [2022年リリース](https://prtimes.jp/main/html/rd/p/000000006.000025386.html)
 * [Sphinx](https://www.sphinx-doc.org/)はあまり使われなくなった
 
-## 単体テスト ✅
+## 8. 単体テスト ✅
 
 ### PyPro3 → PyPro4
 
@@ -383,7 +391,7 @@ $ sudo python get-pip.py
 * テストランナーが[nose](https://nose.readthedocs.io/)
   * [最終リリース](https://pypi.org/project/nose/)が2015年6月
 
-## 継続的インテグレーション 🤵‍♂️
+## 9. 継続的インテグレーション 🤵‍♂️
 
 ### PyPro3 → PyPro4
 
@@ -395,7 +403,7 @@ $ sudo python get-pip.py
 
 * [CircleCI](https://circleci.com/ja/)で継続的インテグレーション
   * ユニットテスト
-  * Slack通知
+  * 結果のSlack通知
   * Sphinxドキュメントのビルド
 
 ### PyPro → PyPro2
@@ -405,7 +413,7 @@ $ sudo python get-pip.py
   * ユニットテスト
   * Sphinxドキュメントのビルド
 
-## Pythonパッケージ 📦
+## 10. Pythonパッケージ 📦
 
 ### PyPro3 → PyPro4
 
@@ -420,7 +428,7 @@ $ sudo python get-pip.py
 
 * `setup.py` でパッケージング
   * [Packaging and distributing projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/)
-* [twine](https://twine.readthedocs.io/en/stable/)でPyPIにアップロード
+* [twine](https://twine.readthedocs.io/)でPyPIにアップロード
 
 ### PyPro → PyPro2
 
@@ -430,7 +438,7 @@ $ sudo python get-pip.py
 * PyProではbdist_egg
   * [PEP 715](https://peps.python.org/pep-0715/): 2023年PyPIへアップロード不可
 
-## Webアプリケーション公開 📢
+## 11. Webアプリの公開 📢
 
 ### PyPro3 → PyPro4
 
@@ -446,14 +454,14 @@ $ sudo python get-pip.py
   * PyProでは[Fabric](https://www.fabfile.org/)を使用
 * [nginx](https://nginx.org/en/)、[gunicorn](https://gunicorn.org/)は変わらず
 
-## テスト 💯
+## 12. テスト 💯
 
 ### PyPro3 → PyPro4
 
 * 自動E2Eテストツールを追加
   * [Autify](https://autify.com/ja/)、[MagicPod](https://magicpod.com/)
 
-## Webアプリケーション監視 👀
+## 13. Webアプリの監視 👀
 
 ### PyPro4(新規)
 
@@ -463,7 +471,7 @@ $ sudo python get-pip.py
 * エラー通知: [Sentry](https://sentry.io/)
 * パフォーマンス: [Performance Monitoring: Sentry](https://docs.sentry.io/product/performance/)、[PageSpeed Insights](https://pagespeed.web.dev/)
 
-## 追加開発 🏗️
+## 14. 追加開発 🏗️
 
 ### PyPro4(新規)
 
@@ -485,4 +493,19 @@ $ sudo python get-pip.py
 
 ## まとめ 📚
 
-* (なにかいい感じのまとめ)
+* 12年もあると **色々と変わって** いる
+  * 大きく変わらないものもある
+* 常に **より良い選択** に挑戦している
+* PyPro5ではなにが入れ替わるのか、楽しみ
+
+## Thank You 🙏
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
