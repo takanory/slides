@@ -8,10 +8,10 @@
 
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
-* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__
-* :fab:`github` `takanory <https://github.com/takanory/>`__
-* :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__
-* :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
+* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__ /
+  :fab:`github` `takanory <https://github.com/takanory/>`__ /
+  :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__ /
+  :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
 * `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_ (`ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
@@ -221,18 +221,20 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `PyCon APAC 2021 <https://th.pycon.org/>`__
      * Thailand/Online
      * 2021 Nov
      * Talk
+     * en
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20211120pyconapac/>`__
        `Video <https://www.youtube.com/watch?v=d0bHW_1L7Os>`__
@@ -240,6 +242,7 @@
      * Tokyo/Online
      * 2021 Oct
      * LT
+     * ja
      * What's New in Python 3.10
      * `Slides <https://slides.takanory.net/slides/20211015pyconjp/>`__
        `Video <https://www.youtube.com/watch?v=Dk_QkLQIPMU&t=401s>`__
@@ -247,6 +250,7 @@
      * Online
      * 2021 Aug
      * Talk
+     * ja
      * `Pythonブームの裏側で ～Python入門書の執筆＆監修 こぼれ話 <https://event.ospn.jp/odc2021-online/session/391797>`_
      * `Slides <https://event.ospn.jp/slides/odc2021-online/Python%E3%83%96%E3%83%BC%E3%83%A0%E3%81%AE%E8%A3%8F%E5%81%B4%E3%81%A7-%EF%BD%9EPython%E5%85%A5%E9%96%80%E6%9B%B8%E3%81%AE%E5%9F%B7%E7%AD%86%EF%BC%86%E7%9B%A3%E4%BF%AE-%E3%81%93%E3%81%BC%E3%82%8C%E8%A9%B1.pdf>`__
        `Video <https://www.youtube.com/watch?v=OPLyJ_32SWI>`__
@@ -254,6 +258,7 @@
      * Online
      * 2021 Aug
      * Talk
+     * ja
      * Pythonの現在とこれからと
      * `Slides <https://slides.takanory.net/slides/20210825ossx/>`__
        `Report <https://technomado.jp/tech/8589/>`__
@@ -261,6 +266,7 @@
      * Online
      * 2021 Jun
      * LT
+     * ja
      * PyCon US 2021にリモート参加した
      * `Slides <https://slides.takanory.net/slides/20210615bpll/>`__
 
@@ -269,18 +275,20 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `オープンソースカンファレンス2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
      * Online
      * 2020 Oct
      * Talk
+     * ja
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-fall/session/200253>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2020fall/osc2020fall.pdf>`__
        `Video <https://www.youtube.com/watch?v=4IJCRt9wklQ>`__
@@ -288,6 +296,7 @@
      * Online
      * 2020 Sep
      * Talk
+     * ja
      * オンライン時代のプログラミング習得について考える
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200910stapy/20200910stapy.pdf>`__
        `Video <https://www.youtube.com/watch?v=zuIWyyGCHeM&t=3603>`__
@@ -295,12 +304,14 @@
      * Tainan/Online
      * 2020 Sep
      * Talk
+     * en
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://tw.pycon.org/2020/en-us/conference/talk/1164383136524534147/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200905pycontw/20200905pycontw.pdf>`__
    - * `Python Charity Talks in Japan: 振り返り会 <https://pyconjp.connpass.com/event/182075/>`__
      * Online
      * 2020 Aug
      * Talk
+     * ja
      * 事前準備と当日進行について
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200803pycharity/20200803pycharity.pdf>`__
        `Video <https://www.youtube.com/watch?v=CHJiILdwAHM&t=3000>`__
@@ -308,6 +319,7 @@
      * Online
      * 2020 Jul
      * Talk
+     * en
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200724europython/20200724europython.pdf>`__
        `Video <https://www.youtube.com/watch?v=jO8isCFS_YM>`__
@@ -315,6 +327,7 @@
      * Online
      * 2020 Jun
      * Talk
+     * ja
      * `Python開発環境の整え方 <https://event.ospn.jp/osc2020-online-do/session/126701>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2020do/osc2020do.pdf>`__
        `Video <https://www.youtube.com/watch?v=vkQG-gBZ1HE>`__
@@ -322,6 +335,7 @@
      * Online
      * 2020 May
      * Talk
+     * en
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://pycon.hk/sessions-2020-spring/decade-of-pycon-jp-how-we-spread-the-python-community-in-japan-takanori-suzuki-japan/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200510pyconhk/20200510pyconhk.pdf>`__
        `Video <https://www.youtube.com/watch?v=Gi3B46Tjxh8>`__
@@ -329,6 +343,7 @@
      * Online
      * 2020 Apr
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot <https://us.pycon.org/2020/schedule/presentation/120/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200417pycon/20200417pycon.pdf>`__
        `Video <https://www.youtube.com/watch?v=ndi55Ig6-SI>`__
@@ -338,24 +353,27 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5,40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `BPStyle #109 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle109>`_
      * Tokyo, Japan
      * 2019 Dec
      * Talk
+     * ja
      * 社歴長い人枠
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191205bpstyle/20191205bpstyle.pdf>`__
    - * `PyCon ID 2019 <https://pycon.id/>`__
      * Surabaya, Indonesia
      * 2019 Nov
      * Talk
+     * en
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191123pyconid/20191123pyconid.pdf>`__
        `Video <https://www.youtube.com/watch?v=3iBA9kjQ9B0>`__
@@ -364,6 +382,7 @@
      * Singapore
      * 2019 Oct
      * Talk
+     * en
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20191010pyconsg/20191010pyconsg.pdf>`__
        `Video <https://www.youtube.com/watch?v=4r3-5wvi4kA>`__
@@ -372,6 +391,7 @@
      * Taipei, Taiwan
      * 2019 Sep
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot <https://tw.pycon.org/2019/en-us/events/talk/848945100682690780/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190922pycontw/20190922pycontw.pdf>`__
        `Video <https://www.youtube.com/watch?v=XGHR4D8_fjQ>`__
@@ -380,6 +400,7 @@
      * Tokyo, Japan
      * 2019 Sep
      * Talk
+     * en
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190917pyconjp/20190917pyconjp.pdf>`__
        `Video <https://www.youtube.com/watch?v=rbNI2LzwaqE>`__
@@ -387,6 +408,7 @@
      * Kuala Lumpur, Malaysia
      * 2019 Aug
      * Talk
+     * en
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190824pyconmy/20190824pyconmy.pdf>`__
        `Video <https://www.youtube.com/watch?v=ElUpTjh_ETQ>`__
@@ -395,6 +417,7 @@
      * Tokyo, Japan
      * 2019 Aug
      * Talk
+     * ja
      * いちばんやさしいPython機械学習の教本から見る、機械学習を学習する課題
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190808stapy/20190808stapy.pdf>`__
        `Video <https://www.youtube.com/watch?v=gKrQVJ1v7WM&t=589>`__
@@ -402,6 +425,7 @@
      * Bazel, Switzerland
      * 2019 Jul
      * Poster
+     * en
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://ep2019.europython.eu/talks/q2tF2E8-python-boot-camp-introduction-of-efforts-to-spread-python-all-over-japan/>`__
      * `Poster <https://github.com/takanory/slides/raw/master/slides/20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
        `Report <https://gihyo.jp/news/report/01/europython2019>`__
@@ -409,6 +433,7 @@
      * Bangkok, Thailand
      * 2019 Jun
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot <https://th.pycon.org/talks/#row-16>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190615pyconth/20190615pyconth.pdf>`__
        `Video <https://www.youtube.com/watch?v=4Cn59IXrtdk>`__
@@ -417,18 +442,21 @@
      * Tokyo, Japan
      * 2019 May
      * LT
+     * ja
      * `どこよりも早いUS PyCon参加レポート <https://github.com/takanory/slides/tree/master/20190514bpll/20190514bpll.pdf>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190514bpll/20190514bpll.pdf>`__
    - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-do/>`__
      * Sapporo, Japan
      * 2019 May
      * Talk
+     * ja
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-do/modules/eguide/event.php?eid=17>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2019do/osc2019do.pdf>`__
    - * `PyCon US 2019 <https://us.pycon.org/2019/>`__
      * Cleveland, OH
      * 2019 May
      * Poster
+     * en
      * `Python Boot Camp: Introduction of efforts to spread Python all over Japan <https://us.pycon.org/2019/schedule/presentation/130/>`__
      * `Poster <https://github.com/takanory/slides/raw/master/slides/20190510pycon/pycon-poster-pythonbootcamp.pdf>`__
        `Report <https://gihyo.jp/news/report/01/us-pycon2019>`__
@@ -436,18 +464,21 @@
      * Okinawa, Japan
      * 2019 Apr
      * LT
+     * ja
      * Slackbot: PyCon JP Botの紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190421pybeginners-oki/0190421pybeginners-oki.pdf>`__
    - * `オープンソースカンファレンス2019 Okinawa <https://www.ospn.jp/osc2019-okinawa/>`__
      * Okinawa, Japan
      * 2019 Apr
      * Talk
+     * ja
      * `Python言語最新情報～モダンな文法を知ってPythonを使いこなそう～ <https://www.ospn.jp/osc2019-okinawa/modules/eguide/event.php?eid=19>`__
      * `Slides <https://github.com/pyconjp/slides/raw/master/osc2019okinawa/osc2019okinawa.pdf>`__
    - * `PyCon APAC 2019 <https://pycon.python.ph/>`__
      * Makati, Philippines
      * 2019 Feb
      * Talk
+     * en
      * Automate the Boring Stuff with Slackbot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190224pyconapac/20190224pyconapac.pdf>`__
        `Report <https://gihyo.jp/news/report/2019/03/1201>`__
@@ -458,86 +489,98 @@
 
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `テクトモ #7 <https://techtomo.connpass.com/event/107621/>`_
      * Tokyo, japan
      * 2018 Dec
      * Panel
+     * ja
      * トークセッション 山口能迪＆鈴木たかのり
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20181220techtomo/20181220techtomo.pdf>`__
    - * `あおもりITひとつなぎ交流会 <https://aoit.jp/news/news-4>`_
      * Tokyo, japan
      * 2018 Nov
      * LT
+     * ja
      * Python Boot Campの紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20181110aoit/20181110aoit.pdf>`__
    - * `Plone Conference 2018 <https://2018.ploneconf.org/>`__
      * Tokyo, japan
      * 2018 Nov
      * LT
+     * en
      * PyCon JP Bot
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20181109ploneconf/20181109ploneconf.pdf>`__
    - * `BPStyle #94 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle94>`_
      * Tokyo, Japan
      * 2018 Jul
      * Talk
+     * ja
      * PyPro3執筆の光と闇
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20180705bpstyle/20180705bpstyle.pdf>`__
+   - * `テクトモ #1 <https://techtomo.connpass.com/event/89475/>`_
+     * Tokyo, Japan
+     * 2018 Jun
+     * Talk
+     * ja
+     * Pythonってどんな言語? -導入事例や気になるトレンドについて-
+     * `Slides <https://github.com/takanory/slides/raw/master/slides/20180626techtomo/20180626techtomo.pdf>`__
 
 2017
 ====
 
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
-   - * `テクトモ #1 <https://techtomo.connpass.com/event/89475/>`_
-     * Tokyo, Japan
-     * 2018 Jun
-     * Talk
-     * Pythonってどんな言語? -導入事例や気になるトレンドについて-
-     * `Slides <https://github.com/takanory/slides/raw/master/slides/20180626techtomo/20180626techtomo.pdf>`__
    - * `BPStudy #123 <https://bpstudy.connpass.com/event/68500/>`_
      * Tokyo, Japan
      * 2017 Nov
      * Talk
+     * ja
      * Pythonエンジニアファーストブックの紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20171124bpstudy/20171124bpstudy.pdf>`__
    - * `みんなのPython勉強会#30 <https://startpython.connpass.com/event/65231/>`_
      * Tokyo, Japan
      * 2017 Nov
      * Talk
+     * ja
      * いちばんやさしいPythonの学び方の作り方
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20171108stapy/20171108stapy.pdf>`__
    - * `BPStyle #86 <https://project.beproud.jp/redmine/projects/bpstyle/wiki/BPStyle86>`_
      * Tokyo, Japan
      * 2017 Oct
      * Talk
+     * ja
      * いちやさPythonの裏側
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20171005bpstyle/20171005bpstyle.pdf>`__
    - * `ヒカ☆ラボ <https://career.levtech.jp/hikalab/event/detail/130/>`__
      * Tokyo, Japan
      * 2017 Sep
      * Talk
+     * ja
      * 「Python言語」二歩目を踏み出そう！
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20170921hikalab/20170921hikalab.pdf>`__
    - * `OSS X Users Meeting #19 <https://www.scsk.jp/event/2017/20170629_2.html>`_
      * Tokyo, Japan
      * 2017 Jun
      * Talk
+     * ja
      * Pythonの特徴と注目ライブラリのご紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20170629ossx/20170629ossx.pdf>`__
 
@@ -545,11 +588,13 @@
 
 Reference
 =========
-* `Sphinx documentation <https://www.sphinx-doc.org/>`_
-* `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
-* `Furo <https://pradyunsg.me/furo/>`_: clean customisable Sphinx documentation theme
-* `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
-* `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
-* `Netlify <https://www.netlify.com/>`_: Hosting service
+* `Sphinx <https://www.sphinx-doc.org/>`_: Sphinx makes it easy to create intelligent and beautiful documentation
 
-  * `Netlify Docs <https://docs.netlify.com/>`_
+  * `Furo <https://pradyunsg.me/furo/>`_: A clean customisable Sphinx documentation theme
+  * `myst-parser <https://myst-parser.readthedocs.io/>`_: MyST - Markedly Structured Text - Parser
+  * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
+  * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
+  * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
+* `Netlify <https://www.netlify.com/>`_: Netlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations
+
+  * `Netlify Documentation <https://docs.netlify.com/>`_
