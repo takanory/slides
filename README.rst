@@ -39,12 +39,13 @@
      * Talk
      * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
      * `Slides <https://slides.takanory.net/slides/20240228bpstudy>`__
+     * Slides
    - * `みんなのPython勉強会#101 <https://startpython.connpass.com/event/305425//>`_
      * Tokyo, Japan
      * 2024 Feb
      * Talk
      * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
-     * Slides
+     * `Slides <https://slides.takanory.net/slides/20240222stapy>`__
    - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
      * 2024 Jan
@@ -77,6 +78,7 @@
      * Talk
      * `Introduction to Structural Pattern Matching <https://2023-apac.pycon.jp/timetable?id=DXWXGJ>`__
      * `Slides <https://slides.takanory.net/slides/20231027pyconapac>`__
+       `Video <https://www.youtube.com/watch?v=GW5GrtBnen0>`__
    - * `PyCon TW 2023 <https://tw.pycon.org/2023/en-us/>`_
      * Taipei, Taiwan
      * 2023 Sep

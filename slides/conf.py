@@ -92,15 +92,15 @@ revealjs_script_conf = {
 revealjs_script_plugins = [
     {
         "name": "RevealNotes",
-        "src": "revealjs4/plugin/notes/notes.js",
+        "src": "revealjs/plugin/notes/notes.js",
     },
     {
         "name": "RevealHighlight",
-        "src": "revealjs4/plugin/highlight/highlight.js",
+        "src": "revealjs/plugin/highlight/highlight.js",
     },
     {
         "name": "RevealMath",
-        "src": "revealjs4/plugin/math/math.js",
+        "src": "revealjs/plugin/math/math.js",
     },
 ]
 
