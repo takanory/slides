@@ -1,3 +1,10 @@
+```{eval-rst}
+:og:image: _images/20240228bpstudy.png
+:og:image:alt: Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
+
+.. |cover| image:: images/20240228bpstudy.png
+```
+
 # **Python開発の変遷**
 
 をPythonプロフェッショナルプログラミングの
@@ -27,6 +34,8 @@ BPStudy #198 / 2024 Feb 28
 ### Slides / スライド 💻
 
 [slides.takanory.net](https://slides.takanory.net/)
+
+![slides.takanory.net](images/slides-takanory-net.png)
 
 ## **Who** am I? / お前 **誰よ** 👤
 
