@@ -25,30 +25,34 @@
 ====
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `BPStudy #198 <https://bpstudy.connpass.com/event/309450/>`__
      * Online
      * 2024 Feb
      * Talk
+     * ja
      * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
      * `Slides <https://slides.takanory.net/slides/20240228bpstudy>`__
    - * `みんなのPython勉強会#101 <https://startpython.connpass.com/event/305425//>`_
      * Tokyo, Japan
      * 2024 Feb
      * Talk
+     * ja
      * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
      * `Slides <https://slides.takanory.net/slides/20240222stapy>`__
    - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
      * 2024 Jan
      * Talk
+     * ja
      * `Pythonで日本語処理入門 / フリガナプログラムを作ろう <https://event.ospn.jp/osc2024-osaka/session/1270434>`_
      * `Slides <https://slides.takanory.net/slides/20240127oscosaka>`__
 
@@ -56,18 +60,20 @@
 ====
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * `PyCon HK 2023 <https://pycon.hk/>`_
      * Hong Kong
      * 2023 Nov
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://pycon.hk/2023/automate-the-boring-stuff-with-slackbotver-2/>`__
      * `Slides <https://slides.takanory.net/slides/20231111pyconhk>`__
        `Report <https://gihyo.jp/article/2023/11/pycon-hk2023>`__
@@ -75,6 +81,7 @@
      * Tokyo, Japan
      * 2023 Oct
      * Talk
+     * ja
      * `Introduction to Structural Pattern Matching <https://2023-apac.pycon.jp/timetable?id=DXWXGJ>`__
      * `Slides <https://slides.takanory.net/slides/20231027pyconapac>`__
        `Video <https://www.youtube.com/watch?v=GW5GrtBnen0>`__
@@ -82,6 +89,7 @@
      * Taipei, Taiwan
      * 2023 Sep
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://tw.pycon.org/2023/en-us/conference/talk/298>`__
      * `Slides <https://slides.takanory.net/slides/20230903pycontw>`__
        `Video <https://www.youtube.com/watch?v=kgANBlM_wtQ>`__
@@ -89,6 +97,7 @@
      * Seoul, Korea
      * 2023 Aug
      * Talk
+     * en
      * `Introduction to Structural Pattern Matching <https://2023.pycon.kr/session/12>`__
      * `Slides <https://slides.takanory.net/slides/20230812pyconkr>`__
        `Video <https://www.youtube.com/watch?v=3KHBH8AG8SQ>`__
@@ -97,12 +106,14 @@
      * Tokyo, Japan
      * 2023 Jun
      * Talk
+     * ja
      * Southern California Extreme Tour
      * `Slides <https://slides.takanory.net/slides/20230617pyhackcon>`__
    - * `みんなのPython勉強会#93 <https://startpython.connpass.com/event/272158/>`_
      * Online
      * 2023 May
      * Talk
+     * en
      * Do you know PyCon JP (Association)? 〜海外PyCon情報を添えて
      * `Slides <https://slides.takanory.net/slides/20230518stapy/>`__
        `Video <https://www.youtube.com/watch?v=k1wET4NrcRo&t=2040>`__
@@ -110,31 +121,35 @@
      * Salt Lake City, UT
      * 2023 Apr
      * 
-     * 
+     *
+     *
      * `Report <https://gihyo.jp/list/group/PyCon-US-2023-%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2023/05/pycon-us2023-001>`__
 
 2022
 ====
 .. list-table::
    :header-rows: 1
-   :widths: 20, 10, 10, 5, 40, 10
+   :widths: 20, 10, 10, 5, 5, 40, 10
 
    - * event
      * location
      * date
      * type
+     * lang
      * title
      * resource
    - * BPStyle142
      * Online
      * 2022 Nov
      * Talk
+     * ja
      * takanory必殺技
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20221110bpstyle/20221110bpstyle.pdf>`__
    - * `PyCon JP 2022 <https://2022.pycon.jp/>`_
      * Tokyo, Japan
      * 2022 Oct
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://2022.pycon.jp/timetable?id=ELUNPR>`__
      * `Slides <https://slides.takanory.net/slides/20221015pyconjp/>`__
        `Video <https://www.youtube.com/watch?v=o5ME-F2-Kmw>`__
@@ -142,12 +157,14 @@
      * Online
      * 2022 Aug
      * Talk
+     * ja
      * Experience in EuroPython
      * `Slides <https://slides.takanory.net/slides/20220804bpstyle/>`__
    - * `EuroPython 2022 <https://ep2022.europython.eu/>`_
      * Dublin, Ireland
      * 2022 Jul
      * LT
+     * en
      * Spread the community after COVID-19 in Japan
      * `Slides <https://slides.takanory.net/slides/20220715europython-lt/>`__
        `Video <https://www.youtube.com/watch?v=o8AHM8mx61U&t=692s>`__
@@ -156,6 +173,7 @@
      * Dublin, Ireland
      * 2022 Jul
      * Talk
+     * en
      * `Automate the Boring Stuff with Slackbot(ver.2) <https://ep2022.europython.eu/session/automate-the-boring-stuff-with-slackbot-ver-2>`__
 
      * `Slides <https://slides.takanory.net/slides/20220713europython/>`__
@@ -165,30 +183,35 @@
      * Online
      * 2022 Jul
      * Talk
+     * ja
      * 2要素認証について知ろう
      * `Slides <https://slides.takanory.net/slides/20220707_2fa/>`__
    - * `PyCon US 2022 <https://us.pycon.org/2022/>`_
      * Salt Lake City, UT
      * 2022 Apr
      * Talk
+     * 
      * Automate the Boring Stuff with Slackbot(ver.2) (canceled)
      * `Slides <https://slides.takanory.net/slides/20220429pyconus/>`__
    - * `みんなのPython勉強会 #79 <https://startpython.connpass.com/event/239619/>`_
      * Online
      * 2022 Mar
      * Talk
+     * ja
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20220310stapy/>`__
    - * `Language Night vol.1 〜スクリプト言語〜 <https://blastengine.connpass.com/event/236962/>`_
      * Online
      * 2022 Feb
      * Panel
+     * ja
      *
      * `Video <https://www.youtube.com/watch?v=QDP2SycaAFs>`__
    - * `PyCon Kyushu 2022 Kumamoto <https://kyushu.pycon.jp/2022/>`_
      * Kumamoto
      * 2022 Jan
      * Talk
+     * ja
      * Introduction to Structural Pattern Matching
      * `Slides <https://slides.takanory.net/slides/20220122pyconkyushu/>`__
        `Video <https://www.youtube.com/watch?v=-L8R8tPsfg4>`__
