@@ -215,51 +215,36 @@ datetime.timedelta(days=2075)
 
 ### PyPro3 → PyPro4
 
-![PyPro3](images/pypro3.jpg)
-![PyPro4](images/pypro4.jpg)
-
-### Docker / Docker Composeの採用
-
-* Python開発環境として[Docker](https://www.docker.com/)を採用
-* PyPro3では[VirtualBox](https://www.virtualbox.org/) / [Vagrant](https://www.vagrantup.com/) 上のUbuntu
-  * Pythonをソースからインストール
-
-### Black / Ruff / mypy
-
-* 開発に便利なツールの最新化
-* [Black](https://black.readthedocs.io/): コード整形ツール。2018年リリース
-* [Ruff](https://docs.astral.sh/ruff/): Pythonリンター。2022年リリース
-* [mypy](https://www.mypy-lang.org/): 型ヒントの静的型チェッカー
-  * PyPro3ではリンターの[Flake8](https://github.com/pycqa/flake8)のみ紹介
+* Python: Python 3.11
+* 開発環境: [Docker](https://www.docker.com/) / Docker Composeを採用
+* 便利なツール
+  * [Black](https://black.readthedocs.io/): コード整形ツール(2018年リリース)
+  * [Ruff](https://docs.astral.sh/ruff/): Pythonリンター(2022年リリース)
+  * [mypy](https://www.mypy-lang.org/): 型ヒントの静的型チェッカー
 
 ### PyPro2 → PyPro3
 
-![PyPro2](images/pypro2.jpg)
-![PyPro3](images/pypro3.jpg)
+* Python: Python 3.6.4
+* 開発環境: [VirtualBox](https://www.virtualbox.org/) / [Vagrant](https://www.vagrantup.com/) 上のUbuntu
+  * Pythonをソースからインストール
+* 仮想環境: [venv](https://docs.python.org/ja/3/library/venv.html) (Python 3.3以降)
+* 便利なツール: [Flake8](https://github.com/pycqa/flake8): Pythonリンター
+* バージョン管理: Gitに変更
 
-### Pythonが2.7系
+### PyPro1 → PyPro2
 
-* インストールするPythonバージョンが2.7.6
-  * PyPro3では3.6.4
-* 仮想環境用に[virtualenv](https://github.com/pypa/virtualenv)をインストール
-  * [venv](https://docs.python.org/ja/3/library/venv.html)モジュールはPython 3.3から
-  
-### バージョン管理がMercurial
-
-* 当時はバージョン管理に[Mercurial](https://www.mercurial-scm.org/)を使用
+* Python: Python 2.7.6
+  * Python 3系についても触れている
+* 仮想環境: [virtualenv](https://github.com/pypa/virtualenv)をインストール
+* バージョン管理: [Mercurial](https://www.mercurial-scm.org/)を使用
   * サーバーも自前でたてていた
   * [Bitbucket](https://bitbucket.org/)も軽く紹介
-  * PyPro3からGit/GitHub
 
-### PyPro → PyPro2
-
-![PyPro](images/pypro1.jpg)
-![PyPro2](images/pypro2.jpg)
-
-### get-pip.py
-
-* `pip` コマンドはPythonに含まれていない
-* `get-pip.py` をダウンロード→インストール
+### PyPro
+  
+* get-pip.py
+  * `pip` コマンドはPythonに含まれていない
+  * `get-pip.py` をダウンロード→インストール
 
 ```bash
 $ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
@@ -267,12 +252,6 @@ $ sudo python get-pip.py
 ```
 
 * ↑このURLは404 Not Found
-
-### Flake8 → PEP8とPyFlakes
-
-* Flake8 = PEP8 + PyFlakes + MaCabe
-  * まだFlake8は使っていなかった
-* `pep8` コマンドは現在は [pycodestyle](https://pypi.org/project/pycodestyle/)
 
 ## 2. Webアプリケーション 🕸️
 
@@ -289,7 +268,7 @@ $ sudo python get-pip.py
   * [Flask](https://flask.palletsprojects.com/en/3.0.x/)でWebアプリ構築
   * お題は乗りログ（電車の乗車記録）
 
-### PyPro → PyPro2
+### PyPro、PyPro2
 
 * Flaskでゲストブック
   * フレームワークは[Flask](https://flask.palletsprojects.com/en/3.0.x/)
@@ -303,7 +282,7 @@ $ sudo python get-pip.py
   * Jupyter Notebookから[JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)に
   * **数理最適化** を紹介
 
-### PyPro2 → PyPro3
+### PyPro3
 
 * 機械学習の章が初登場
 * 機械学習プロジェクトの進め方を紹介
@@ -321,16 +300,19 @@ $ sudo python get-pip.py
 
 ### PyPro2 → PyPro3
 
-* 課題管理はRedmine一択
-  * **Redmine** のインストールはあっさり
+* 課題管理は **Redmine** のみ
+  * Redmineのインストールはあっさり
 
 ### PyPro → PyPro2
 
 * **Redmine** のインストールはしっかり
-  * PyProではTracで課題管理
 * Mercurialとの連携
 * チャットシステムは **Slack** (2013年リリース)
-  * PyProではSkype
+  
+### PyPro
+
+* 課題管理は[Trac](https://trac.edgewall.org/)
+* チャットシステムは[Skype](https://www.skype.com/ja/)
 
 ## 5. 課題管理とレビュー 🎫
 
@@ -364,7 +346,7 @@ $ sudo python get-pip.py
   * GitHub Flow
   * GitHubのTips
 
-### PyPro → PyPro2
+### PyPro、PyPro2
 
 * Mercurialでのソースコード管理
   * サーバー上の管理と設定
@@ -378,7 +360,10 @@ $ sudo python get-pip.py
 * 普遍的な開発ドキュメントの話に変更
 * ビープラウドでは[TRACERY](https://tracery.jp/)を使用
   * [2022年リリース](https://prtimes.jp/main/html/rd/p/000000006.000025386.html)
-* [Sphinx](https://www.sphinx-doc.org/)はあまり使われなくなった
+
+### PyPro〜PyPro3
+
+* [Sphinx](https://www.sphinx-doc.org/)でドキュメント作成
 
 ## 8. 単体テスト ✅
 
@@ -389,7 +374,7 @@ $ sudo python get-pip.py
 * pandasのテストとスナップショットテスト
   * 過去の実行結果を次回のテストで使う
 
-### PyPro2 → PyPro3
+### PyPro→PyPro2、PyPro3
 
 * [unittest](https://docs.python.org/ja/3/library/unittest.html)とテストランナーにpytestの組み合わせ
 * Webのテストは[WebTest](https://docs.pylonsproject.org/projects/webtest/)
@@ -415,7 +400,7 @@ $ sudo python get-pip.py
   * 結果のSlack通知
   * Sphinxドキュメントのビルド
 
-### PyPro → PyPro2
+### PyPro、PyPro2
 
 * [Jenkins](https://www.jenkins.io/)で継続的インテグレーション
   * Jenkinsのインストール
@@ -444,7 +429,10 @@ $ sudo python get-pip.py
 * `python setup.py register` でPyPIにアップロード
 * **wheel** パッケージ
   * [PEP 427](https://peps.python.org/pep-0427/): 2012年提案、2013年Accepted
-* PyProではbdist_egg
+
+### PyPro
+
+* **bdist_egg** パッケージ
   * [PEP 715](https://peps.python.org/pep-0715/): 2023年PyPIへアップロード不可
 
 ## 11. Webアプリの公開 📢
@@ -456,11 +444,14 @@ $ sudo python get-pip.py
 * [AWS CloudFormation](https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/Welcome.html)で環境構築
 * GitHub Actionsでデプロイ
 
-### PyPro → PyPro2
+### PyPro → PyPro2、PyPro3
 
 * インフラはサーバー構成のみ
 * [Ansible](https://www.ansible.com/)でのデプロイ
-  * PyProでは[Fabric](https://www.fabfile.org/)を使用
+
+### PyPro
+
+* [Fabric](https://www.fabfile.org/)でデプロイ
 * [nginx](https://nginx.org/en/)、[gunicorn](https://gunicorn.org/)は変わらず
 
 ## 12. テスト 💯
@@ -472,7 +463,7 @@ $ sudo python get-pip.py
 
 ## 13. Webアプリの監視 👀
 
-### PyPro4(新規)
+### PyPro4
 
 * 死活監視: [UptimeRobot](https://uptimerobot.com/)
 * 構造化ログ: [structlog](https://www.structlog.org/)
@@ -482,7 +473,7 @@ $ sudo python get-pip.py
 
 ## 14. 追加開発 🏗️
 
-### PyPro4(新規)
+### PyPro4
 
 * [endoflife.date](https://endoflife.date/django): Djangoのライフサイクル確認
 * `pip list -o` : 更新ライブラリ確認
