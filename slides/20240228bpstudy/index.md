@@ -432,13 +432,56 @@ $ sudo python get-pip.py
 
 ## Webアプリケーション公開 📢
 
+### PyPro3 → PyPro4
 
+* インフラ: [Amazon ECS](https://aws.amazon.com/jp/ecs/)、[AWS Fargate](https://aws.amazon.com/jp/fargate/)、[Amazon ECR](https://aws.amazon.com/jp/ecr/)
+  * Dockerベースのインフラ
+* [AWS CloudFormation](https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/Welcome.html)で環境構築
+* GitHub Actionsでデプロイ
 
-## テスト 👌
+### PyPro → PyPro2
+
+* インフラはサーバー構成のみ
+* [Ansible](https://www.ansible.com/)でのデプロイ
+  * PyProでは[Fabric](https://www.fabfile.org/)を使用
+* [nginx](https://nginx.org/en/)、[gunicorn](https://gunicorn.org/)は変わらず
+
+## テスト 💯
+
+### PyPro3 → PyPro4
+
+* 自動E2Eテストツールを追加
+  * [Autify](https://autify.com/ja/)、[MagicPod](https://magicpod.com/)
 
 ## Webアプリケーション監視 👀
 
+### PyPro4(新規)
+
+* 死活監視: [UptimeRobot](https://uptimerobot.com/)
+* 構造化ログ: [structlog](https://www.structlog.org/)
+* ログ解析: [Amazon CloudWatch Logs Insights](https://aws.amazon.com/jp/blogs/news/new-amazon-cloudwatch-logs-insights-fast-interactive-log-analytics/)
+* エラー通知: [Sentry](https://sentry.io/)
+* パフォーマンス: [Performance Monitoring: Sentry](https://docs.sentry.io/product/performance/)、[PageSpeed Insights](https://pagespeed.web.dev/)
+
 ## 追加開発 🏗️
+
+### PyPro4(新規)
+
+* [endoflife.date](https://endoflife.date/django): Djangoのライフサイクル確認
+* `pip list -o` : 更新ライブラリ確認
+* [pipdeptree](https://github.com/tox-dev/pipdeptree): パッケージの依存関係確認
+* [Dependabot](https://docs.github.com/ja/code-security/dependabot/working-with-dependabot): セキュリティ問題の警告
+
+## 消えた内容 🫥
+
+### 消えた内容
+
+* PyPro2まで
+  * 便利なPythonモジュールの紹介
+  * [dateutil](https://dateutil.readthedocs.io/)、[bpmappers](https://bpmappers.readthedocs.io/)、[Pillow](https://pillow.readthedocs.io/)、[PyCrypto](https://www.pycrypto.org/)、[tweepy](https://www.tweepy.org/)、[Requests](https://requests.readthedocs.io/)
+  * PyCryptoはメンテ終了→[cryptography](https://cryptography.io/)
+* PyProのみ
+  * [Google App Engine](https://cloud.google.com/appengine/)
 
 ## まとめ 📚
 
