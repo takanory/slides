@@ -39,7 +39,6 @@
      * Talk
      * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
      * `Slides <https://slides.takanory.net/slides/20240228bpstudy>`__
-     * Slides
    - * `みんなのPython勉強会#101 <https://startpython.connpass.com/event/305425//>`_
      * Tokyo, Japan
      * 2024 Feb
