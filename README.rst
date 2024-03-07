@@ -34,6 +34,13 @@
      * lang
      * title
      * resource
+   - * BPStyle #158
+     * Online
+     * 2024 Mar
+     * Talk
+     * ja
+     * Amazon Pollyで問題文を読み上げ
+     * `Slides <https://slides.takanory.net/slides/20240307bpstyle>`__
    - * `BPStudy #198 <https://bpstudy.connpass.com/event/309450/>`__
      * Online
      * 2024 Feb

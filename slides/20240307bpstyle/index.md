@@ -291,6 +291,16 @@ ozkですし🍣...
 * 多言語に対応
 * 細かい調整も可能
 * なにかに使えるかも？
+* {fab}`github` [sample code](https://github.com/takanory/slides/tree/master/slides/20240307bpstyle/code)
 
-## コード
+## Thank You 🙏
 
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
