@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexicon version="1.0"
+  xmlns="http://www.w3.org/2005/01/pronunciation-lexicon"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://www.w3.org/2005/01/pronunciation-lexicon 
+    http://www.w3.org/TR/2007/CR-pronunciation-lexicon-20071212/pls.xsd"
+  alphabet="ipa" xml:lang="ja">
+  <lexeme>
+    <grapheme>天皇</grapheme><alias>えんぺらー</alias>
+  </lexeme>
+  <lexeme>
+    <grapheme>（）</grapheme><alias>かっこ</alias>
+  </lexeme>
+  <lexeme>
+    <grapheme>①</grapheme><alias>まるいち</alias>
+  </lexeme>
+  <lexeme>
+    <grapheme>②</grapheme><alias>まるに</alias>
+  </lexeme>
+  <lexeme>
+    <grapheme>③</grapheme><alias>まるさん</alias>
+  </lexeme>
+</lexicon>

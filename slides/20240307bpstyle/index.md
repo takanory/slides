@@ -45,6 +45,12 @@ BPStyle #158 / 2024 Mar 7
 * 参考: [ウェブアクセシビリティ導入ガイドブック｜デジタル庁](https://www.digital.go.jp/resources/introduction-to-web-accessibility-guidebook/)
 * →今回は対象外
 
+## ゴール
+
+* Amazon Pollyでの音声合成を知る
+* Pythonでの実装方法を知る
+* 読み上げのカスタマイズ方法を知る
+
 ## Amaozon Polly
 
 ### Amaozon Polly
@@ -87,6 +93,10 @@ BPStyle #158 / 2024 Mar 7
 * mp3ファイルができた！！ 🎉
 * [masashinji.mp3](masashinji.mp3)
 
+```{literalinclude} code/polly.py
+:lines: 6-9
+```
+
 ## Amazon Pollyカスタマイズ
 
 ### 言語の変更
@@ -101,3 +111,186 @@ BPStyle #158 / 2024 Mar 7
 ```
 
 * [hajimo.mp3](hajimo.mp3)
+
+### 読みの指定
+
+* 🍣を「お寿司」と読ませたい
+* `<phoneme>` タグでフリガナを指定
+  * [発音記号を使用する](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html#phoneme-tag)
+* `TextType="ssml"` 引数を追加
+
+```{literalinclude} code/polly3.py
+:lines: 6-9
+```
+
+* [hajimo-osushi.mp3](hajimo-osushi.mp3)
+
+### SSMLタグ
+
+* **音声合成マークアップ言語(SSML)** に対応
+  * 速度変更（`<prosody>`）
+  * 一時停止（`<break>`）
+  * 強調（`<emphasis>`）など
+* [SSML ドキュメントから音声を生成する - Amazon Polly](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/ssml.html)
+* [サポートされている SSML タグ - Amazon Polly](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html#phoneme-tag)
+
+```{revealjs-break}
+```
+
+```{literalinclude} code/polly4.py
+:lines: 6, 14-19
+```
+
+* [fumi23.mp3](fumi23.mp3)
+* [fumi23-ssml.mp3](fumi23-ssml.mp3)
+
+## **Lexicon** で読みをカスタマイズ
+
+### Lexicon
+
+* **発音レキシコン**: ファイルで発音をカスタマイズ
+* `<phoneme>` は個別、レキシコンは共通ルール
+* 複数ファイルを用意して使い分けも可能
+* [レキシコンの管理 - Amazon Polly](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/managing-lexicons.html)
+
+```{revealjs-break}
+```
+
+* レキシコンの例
+
+```{literalinclude} code/sushi-lexicon.xml
+:caption: sushi-lexicon.xml
+```
+
+```{revealjs-break}
+```
+
+* Amazon Pollyの画面でLexionのデモ
+* [テキスト読み上げ機能 | Amazon Polly](https://ap-northeast-1.console.aws.amazon.com/polly/home/SynthesizeSpeech)
+
+```
+ozkですし🍣...
+```
+
+### PythonからLexiconを使用
+
+* 「yukieは実質天皇（）」にLexiconを適用する
+
+```{literalinclude} code/tenno-lexicon.xml
+:caption: tenno-lexicon.xml
+```
+
+```{revealjs-break}
+```
+
+```{literalinclude} code/polly5.py
+:lines: 7-15, 20-24
+```
+
+* [yukie.mp3](yukie.mp3)
+* [yukie-emperor.mp3](yukie-emperor.mp3)
+
+## 問題文読み上げでやったこと
+
+### Lexiconを作成
+
+* ①、②：まるいち、まるに
+* （）〔〕：括弧
+* 〜：から
+* →：やじるし
+* ＋：プラス
+* ・：、 (句点と同じ空白が入る)
+
+### スペースを `<break>` タグに
+
+* 選択式の文章「〜〜を選べ ① ほげ ② ふが」
+* スペース部分を **一時停止タグ** に置換
+  * `<break strength="x-strong"/>`
+
+### フリガナを `<phoneme>` タグに
+
+* 問題文はHTML形式
+* フリガナは `<ruby>` タグを使用
+
+```html
+<ruby>天皇<rt>えんぺらー</rt></ruby>
+↓
+<phoneme type="ruby" ph="えんぺらー">天皇</phoneme>
+```
+
+### 英語と日本語を分割
+
+* `Mizuki` 等日本語音声で英語を読ませると発音がやばい
+* 「May the Force be with you.」
+
+* [force-ja.mp3](force-ja.mp3)
+* [force-en.mp3](force-en.mp3)
+
+```{revealjs-break}
+```
+
+* 英語と日本語に **分割*8 し音声読み上げ
+* 1つのmp3にまとめる
+* →いい感じの音声になりそう
+
+```{revealjs-break}
+```
+
+* 指定した言語で読み上げる関数
+
+```{literalinclude} code/polly6.py
+:lines: 6-14
+```
+
+```{revealjs-break}
+```
+
+* 正規表現で日英を分割して読み上げ
+* [yoda.mp3](yoda.mp3)
+
+```{literalinclude} code/polly6.py
+:lines: 22-32
+```
+
+## その他Amazon Polly情報
+
+### 2種類の音声
+
+* 標準音声とニューラル音声がある
+* ニューラル音声の方がよいいい感じ
+* 対応している声が異なる
+* ニューラル音声の方がお高い
+* [Amazon Polly の音声 - Amazon Polly](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/voicelist.html)
+
+```{revealjs-break}
+```
+
+* ピックアップした問題文を2種類の音声で生成
+* 聞き比べるHTMLを生成してブラウザで確認
+
+![](images/question.png)
+
+### 同期処理の *文字数制限*
+
+* `synthesize_speech()` での音声合成は文字数制限がある
+* 長文は `start_speech_synthesis_task()` で非同期処理
+  * [start_speech_synthesis_task](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly/client/start_speech_synthesis_task.html)
+* 結果はS3に保存される
+* `get_speech_synthesis_task()` でタスクの状態が取れる
+
+### 数式読み上げ
+
+* 問題文ではmathjaxで数式を描画
+* svgになっているため読み上げできない
+* ライブラリを最新にあげると[MathML](https://developer.mozilla.org/ja/docs/Web/MathML/Authoring)も出力されるっぽい
+  * 数式も読み上げられるようになるかも！？
+  
+## まとめ
+
+* Amazon Pollyで音声合成は簡単にできる
+* 多言語に対応
+* 細かい調整も可能
+* なにかに使えるかも？
+
+## コード
+
