@@ -34,6 +34,20 @@
      * lang
      * title
      * resource
+   - * `OSC 2024 Hokkaido <https://event.ospn.jp/osc2024-do/>`_
+     * Sapporo, Japan
+     * 2024 Jun
+     * Talk
+     * ja
+     * TBD
+     * 
+   - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
+     * Osaka, Japan
+     * 2024 Apr
+     * Talk
+     * ja
+     * Amazon Pollyで問題文を読み上げ
+     * 
    - * BPStyle #158
      * Online
      * 2024 Mar
@@ -56,7 +70,7 @@
      * ja
      * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
      * `Slides <https://slides.takanory.net/slides/20240222stapy>`__
-   - * `オープンソースカンファレンス2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
+   - * `OSC 2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
      * 2024 Jan
      * Talk
@@ -254,7 +268,7 @@
      * What's New in Python 3.10
      * `Slides <https://slides.takanory.net/slides/20211015pyconjp/>`__
        `Video <https://www.youtube.com/watch?v=Dk_QkLQIPMU&t=401s>`__
-   - * `オープンデベロッパーズカンファレンス(ODC)2021 Online <https://event.ospn.jp/odc2021-online/>`_
+   - * `ODC 2021 Online <https://event.ospn.jp/odc2021-online/>`_
      * Online
      * 2021 Aug
      * Talk
@@ -292,7 +306,7 @@
      * lang
      * title
      * resource
-   - * `オープンソースカンファレンス2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
+   - * `OSC 2020 Online/Fall <https://event.ospn.jp/osc2020-online-fall/>`_
      * Online
      * 2020 Oct
      * Talk
@@ -331,7 +345,7 @@
      * `Decade of PyCon JP: How we spread the Python community in Japan <https://ep2020.europython.eu/talks/8kYqjP3-decade-of-pycon-jp-how-we-spread-the-python-community-in-japan/>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20200724europython/20200724europython.pdf>`__
        `Video <https://www.youtube.com/watch?v=jO8isCFS_YM>`__
-   - * `オープンソースカンファレンス2020 Online/Hokkaido <https://event.ospn.jp/osc2020-online-do/>`_
+   - * `OSC 2020 Online/Hokkaido <https://event.ospn.jp/osc2020-online-do/>`_
      * Online
      * 2020 Jun
      * Talk
@@ -453,7 +467,7 @@
      * ja
      * `どこよりも早いUS PyCon参加レポート <https://github.com/takanory/slides/tree/master/20190514bpll/20190514bpll.pdf>`__
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190514bpll/20190514bpll.pdf>`__
-   - * `オープンソースカンファレンス2019 Hokkaido <https://www.ospn.jp/osc2019-do/>`__
+   - * `OSC 2019 Hokkaido <https://www.ospn.jp/osc2019-do/>`__
      * Sapporo, Japan
      * 2019 May
      * Talk
@@ -475,7 +489,7 @@
      * ja
      * Slackbot: PyCon JP Botの紹介
      * `Slides <https://github.com/takanory/slides/raw/master/slides/20190421pybeginners-oki/0190421pybeginners-oki.pdf>`__
-   - * `オープンソースカンファレンス2019 Okinawa <https://www.ospn.jp/osc2019-okinawa/>`__
+   - * `OSC 2019 Okinawa <https://www.ospn.jp/osc2019-okinawa/>`__
      * Okinawa, Japan
      * 2019 Apr
      * Talk
