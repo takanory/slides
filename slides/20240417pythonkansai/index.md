@@ -106,7 +106,7 @@ Python Kansai #03 / 2024 Apr 17
 ### PyPro4 📕
 
 * [Python Professional Programming 第4版](https://www.shuwasystem.co.jp/book/9784798070544.html)
-* 2024年2月16日発売、468ページ、3300円
+* 2024年2月16日発売、468ページ、3,300円
 
 ![PyPro4](/assets/images/pypro4.jpg)
 
