@@ -47,7 +47,7 @@
      * Talk
      * ja
      * Amazon Pollyで問題文を読み上げ
-     * 
+     * `Slides <https://slides.takanory.net/slides/20240417pythonkansai>`__
    - * BPStyle #158
      * Online
      * 2024 Mar
