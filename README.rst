@@ -40,7 +40,7 @@
      * Talk
      * ja
      * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
-     * 
+     * `Slides <https://slides.takanory.net/slides/20240629osc20do>`__
    - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
      * Osaka, Japan
      * 2024 Apr
