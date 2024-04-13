@@ -66,7 +66,7 @@ Python Kansai #03 / 2024 Apr 17
 
 [slides.takanory.net](https://slides.takanory.net/)
 
-<!-- ![slides.takanory.net](images/slides-takanory-net.png) -->
+![slides.takanory.net](images/slides-takanory-net.png)
 
 ## **Who** am I? / お前 **誰よ** 👤
 
