@@ -39,7 +39,7 @@
      * 2024 Jun
      * Talk
      * ja
-     * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る <https://event.ospn.jp/osc2024-do/session/1461708>`__
      * 
    - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
      * Osaka, Japan
