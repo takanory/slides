@@ -60,7 +60,9 @@ Python Kansai #03 / 2024 Apr 17
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#pythonkansai` / `@takanory`
+`#pythonkansai` / `#mixleap`
+
+`@takanory`
 
 ### Slides / スライド 💻
 
@@ -119,7 +121,7 @@ Python Kansai #03 / 2024 Apr 17
 * 12ヶ月間、 毎月 **500万文字が無料**
 * クラウド型コールセンターのAmazon Connectでも使える
 
-### Amazon Pollyのデモ
+### Amazon Pollyの画面
 
 * [テキスト読み上げ機能 | Amazon Polly](https://ap-northeast-1.console.aws.amazon.com/polly/home/SynthesizeSpeech)
 * 画面でテキストを入力して読み上げできる
@@ -178,7 +180,7 @@ $ . env/bin/activate
 
 ### 言語の変更
 
-* 言語と音声は`VoiceId`引数を変更する
+* `VoiceId`引数で **言語と音声** を指定
 * 参考: [Amazon Polly の音声](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/voicelist.html)
   * 日本語: Mizuki, Takumi, Kazuha, Tomoko
   * 英語: Ivy, Salli, Joey, Justinなど
@@ -191,7 +193,7 @@ $ . env/bin/activate
 
 ### 読みの指定
 
-* 超サイヤ人の「超」をスーパーと読ませたい
+* 超サイヤ人の「超」を **スーパー** と読ませたい
 * `<phoneme>` タグでフリガナを指定
   * 参考: [発音記号を使用する](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html#phoneme-tag)
 * 全体を `<speak>` タグで囲む
