@@ -2,10 +2,6 @@
  takanory slides
 =================
 
-.. image:: https://api.netlify.com/api/v1/badges/fadbe279-4209-4329-b1be-9edeaa94a7fc/deploy-status
-   :target: https://app.netlify.com/sites/takanory-slides/deploys
-   :alt: Netlify Status
-
 * :fas:`globe` https://slides.takanory.net/
 * :fab:`github` https://github.com/takanory/slides
 * :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__ /
@@ -39,7 +35,7 @@
      * 2024 Jun
      * Talk
      * ja
-     * Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る <https://event.ospn.jp/osc2024-do/session/1461708>`__
      * `Slides <https://slides.takanory.net/slides/20240629osc20do>`__
    - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
      * Osaka, Japan
@@ -617,6 +613,6 @@ Reference
   * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
   * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
   * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
-* `Netlify <https://www.netlify.com/>`_: Netlify is the essential platform for the delivery of exceptional and dynamic web experiences, without limitations
+* `Cloudflare Pages <https://pages.cloudflare.com/>`_
 
-  * `Netlify Documentation <https://docs.netlify.com/>`_
+  * `Cloudflare Pages documentation · Cloudflare Pages docs <https://developers.cloudflare.com/pages>`_
