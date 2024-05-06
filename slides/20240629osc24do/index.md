@@ -55,6 +55,19 @@ OSC 2024 Hokkaido / 2024 Jun 29
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
+### PyCon JP Associationの **主な活動**
+
+* PyCon JP: 年1の大規模カンファレンス
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): 初心者向けチュートリアル
+* [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
+* [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
+
+### PyCon JP Association **ブース**
+
+* (TODO) ブースの写真
+
+% ![PyCon JP Association ブース](images/pycon-booth.jpg)
+
 ### PyCon JP **2024**
 
 * {fas}`globe` [`2024.pycon.jp`](https://2024.pycon.jp/)
