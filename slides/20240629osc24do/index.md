@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/20240629osc2024do.png
+:og:image: _images/20240629osc24do.png
 :og:image:alt: Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
 
-.. |cover| image:: images/20240629osc2024do.png
+.. |cover| image:: images/20240629osc24do.png
 ```
 
 # **Python開発の変遷**
@@ -54,6 +54,19 @@ OSC 2024 Hokkaido / 2024 Jun 29
 [`www.pycon.jp`](https://www.pycon.jp)
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
+
+### PyCon JP Associationの **主な活動**
+
+* PyCon JP: 年1の大規模カンファレンス
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): 初心者向けチュートリアル
+* [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
+* [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
+
+### PyCon JP Association **ブース**
+
+* (TODO) ブースの写真
+
+% ![PyCon JP Association ブース](images/pycon-booth.jpg)
 
 ### PyCon JP **2024**
 
