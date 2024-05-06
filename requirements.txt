@@ -1,7 +1,7 @@
 furo==2024.4.27
 matplotlib==3.8.4
-myst-parser==3.0.2
+myst-parser==3.0.1
 Sphinx==7.3.7
-sphinx-revealjs==3.0.1
+sphinx-revealjs==3.0.2
 sphinx_design==0.5.0
 sphinxext-opengraph==0.9.1
