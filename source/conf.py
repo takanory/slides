@@ -58,7 +58,7 @@ html_logo = "_static/takanory.jpg"
 html_title = "takanory slides"
 
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css",
 ]
 
 html_sidebars = {
@@ -74,6 +74,9 @@ html_sidebars = {
 
 html_theme_options = {
     # https://pradyunsg.me/furo/customisation/footer/#using-icon-packs
+    "source_repository": "https://github.com/takanory/slides/",
+    "source_branch": "master",
+    "source_directory": "source/",
     "footer_icons": [
         {
             "name": "GitHub",
