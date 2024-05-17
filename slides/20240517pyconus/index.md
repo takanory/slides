@@ -14,7 +14,7 @@ PyCon US 2024 / 2024 May 17
 ## PyCon JP 2024 **CfP** is Open
 
 * [2024.pycon.jp](https://2024.pycon.jp/)
-* Proposal Deadline: May 31
+* Proposal Deadline: **May 31** (English is welcome!!)
 * Date: Sep 27-29
 * Place: Tokyo, Japan
 
@@ -23,8 +23,6 @@ PyCon US 2024 / 2024 May 17
 ### Have you **learned** Japanese? 🙋‍♂️
 
 ### Are you **interested** in Japanese? 🙋‍♀️
-
-### Are you **interested** in Japan? 🙋‍♂️🙋‍♀️
 
 ## Japanese is **difficult** 🤔
 
@@ -72,15 +70,13 @@ PyCon US 2024 / 2024 May 17
 * **一日**: first day, one day
   * **一日** 目: Day 1
   * 一月 **一日**: Jan 1st
-  * **一日** 先秋: One day like a thousand autumns / (waiting) impatiently
 
 ### **Multiple Readings** of Kanji
 
 * Same combination but **different readings**
 * 一日: first day, one day
-  * 一日目 (**ichi nichi** me): Day 1
-  * 一月一日 (ichi gatsu **tsuitachi**): Jan 1st
-  * 一日先秋 (**ichi jitsu** sen juu): One day like a thousand autumns / (waiting) impatiently
+  * **一日** 目 (**ichi nichi** me): Day 1
+  * 一月 **一日** (ichi gatsu **tsuitachi**): Jan 1st
 
 ### 😱 😱
   
@@ -89,7 +85,6 @@ PyCon US 2024 / 2024 May 17
 * **Special readings** of Kanji idioms
 * 今 **日**: today
 * 昨 **日**: yesterday
-* 一昨 **日**: day before yesterday
 * 明 **日**: tomorrow
 
 ### **Multiple Readings** of Kanji
@@ -97,7 +92,6 @@ PyCon US 2024 / 2024 May 17
 * **Special readings** of Kanji idioms
 * 今日 (**kyou**): today
 * 昨日 (**kinou**): yesterday
-* 一昨日 (**ototoi**): day before yesterday
 * 明日 (**asu**): tomorrow
 
 ## 🤯 🤯 🤯
