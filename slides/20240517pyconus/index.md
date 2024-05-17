@@ -13,9 +13,11 @@ PyCon US 2024 / 2024 May 17
 
 ## Questions 🙋
 
-### Have you **studied** Japanese? 🙋‍♂️
+### Have you **learned** Japanese? 🙋‍♂️
 
 ### Are you **interested** in Japanese? 🙋‍♀️
+
+### Are you **interested** in Japan? 🙋‍♂️🙋‍♀️
 
 ## Japanese is **difficult** 🤔
 
@@ -43,41 +45,67 @@ PyCon US 2024 / 2024 May 17
 
 ### **Multiple Readings** of Kanji
 
-* **日** (day, sun)
-  * **Japanese**-style reading: ひ(hi)、にち(nichi)
+* **日**: day, sun
+  * **Japanese**-style reading: にち(nichi)、ひ(hi)
   * **Chinese**-style reading: じつ(jitsu)、か(ka)
   
 ### **Multiple Readings** of Kanji
 
-* Reading changes with **Kanji idioms**
+* **日**: day, sun
+  * **Japanese**-style reading: にち(nichi)、ひ(hi)
+  * **Chinese**-style reading: じつ(jitsu)、か(ka)
+* 日曜日 (**nichi** you **bi**): Sunday
+* 前日 (zen **jitsu**): previous day
+
+### 😨
+  
+### **Multiple Readings** of Kanji
+
+* Same combination but **different readings**
 * **一日**: first day, one day
-* **一日** 目 (ichi-nichi): Day 1
-* 一月 **一日** (tsuitachi): Jan 1st
-* **一日** 先秋 (ichi-jitsu): One day like a thousand autmuns
+  * **一日** 目: Day 1
+  * 一月 **一日**: Jan 1st
+  * **一日** 先秋: One day like a thousand autumns / (waiting) impatiently
 
 ### **Multiple Readings** of Kanji
 
-* 今日: today
-* 昨日: yesterday
-* 一昨日: day before yesterday
-* 明日: tomorrow
+* Same combination but **different readings**
+* 一日: first day, one day
+  * 一日目 (**ichi nichi** me): Day 1
+  * 一月一日 (ichi gatsu **tsuitachi**): Jan 1st
+  * 一日先秋 (**ichi jitsu** sen juu): One day like a thousand autumns / (waiting) impatiently
+
+### 😱 😱
+  
+### **Multiple Readings** of Kanji
+
+* **Special readings** of Kanji idioms
+* 今 **日**: today
+* 昨 **日**: yesterday
+* 一昨 **日**: day before yesterday
+* 明 **日**: tomorrow
 
 ### **Multiple Readings** of Kanji
 
-* 今日 (kyou): today
-* 昨日 (kinou): yesterday
-* 一昨日 (ototoi): day before yesterday
-* 明日 (asu): tomorrow
+* **Special readings** of Kanji idioms
+* 今日 (**kyou**): today
+* 昨日 (**kinou**): yesterday
+* 一昨日 (**ototoi**): day before yesterday
+* 明日 (**asu**): tomorrow
 
 ## 🤯 🤯 🤯
 
 ## Learn Japanese with **Python**
 
-### SudachiPy
+## **No Spaces** between Words
 
-* Japanese morphological analyzer
-* [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
-* Japanese Dictionary: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
+* すもももももももものうち
+* すもも/も/もも/も/もも/の/うち
+
+### Japanese morphological analyzer
+
+* SudachiPy: [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
+* SudachiDict: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
 
 ```bash
 $ pip install sudachipy sudachidict_core
@@ -88,12 +116,25 @@ $ pip install sudachipy sudachidict_core
 ```{literalinclude} code/word_segmentation.py
 :language: python
 ```
-### Morphological **Analysis**
 
+## **Multiple Readings** of Kanji
+
+* 今 **日** は一月一 **日** で **日** 曜 **日**
+* Today is January 1st, Sunday
+
+### Morphological **Analysis**
 
 ```{literalinclude} code/analysis.py
 :language: python
 ```
+
+### Get **Readings**
+
+```{literalinclude} code/readings.py
+:language: python
+```
+
+### Can't read **Katakana**?
 
 ### **Convert** Japanese Character
 
@@ -101,7 +142,10 @@ $ pip install sudachipy sudachidict_core
 
 ```{literalinclude} code/convert.py
 :language: python
+:lines: 9-17
 ```
+
+## Want to hear **audio**? 🗣️
 
 ### Text to **Speech**
 
@@ -123,6 +167,7 @@ $ pip install sudachipy sudachidict_core
 ## Thank you 🙏
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20240517pyconus/code)
 
 {fab}`twitter` [@takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)

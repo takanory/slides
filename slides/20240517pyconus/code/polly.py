@@ -3,7 +3,7 @@ from pathlib import Path
 import boto3
 
 polly = boto3.client("polly")
-# I'd like to drink good beer today and tomorrow.
+# I want to drink good beer today and tomorrow.
 text = "今日も明日もおいしいビールを飲みたい"
 
 result = polly.synthesize_speech(
