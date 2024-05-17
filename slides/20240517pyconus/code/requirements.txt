@@ -1,0 +1,10 @@
+boto3==1.34.106
+botocore==1.34.106
+jaconv==0.3.4
+jmespath==1.0.1
+python-dateutil==2.9.0.post0
+s3transfer==0.10.1
+six==1.16.0
+SudachiDict-core==20240409
+SudachiPy==0.6.8
+urllib3==2.2.1

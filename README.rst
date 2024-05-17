@@ -37,6 +37,13 @@
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る <https://event.ospn.jp/osc2024-do/session/1461708>`__
      * `Slides <https://slides.takanory.net/slides/20240629osc24do>`__
+   - * `PyCon US 2024 <https://us.pycon.org/2024/>`_
+     * Pittsburgh, PA
+     * 2024 May
+     * LT
+     * en
+     * Learn Japanese 🇯🇵 with Python :fab:`python`
+     * `Slides <https://slides.takanory.net/slides/20240517pyconus>`__
    - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
      * Osaka, Japan
      * 2024 Apr
