@@ -1,3 +1,10 @@
+```{eval-rst}
+:og:image: _images/20240517pyconus.png
+:og:image:alt: Learn Japanese 🇯🇵 with Python
+
+.. |cover| image:: images/20240517pyconus.png
+```
+
 # Learn **Japanese** 🇯🇵 with **Python {fab}`python`**
 
 Takanori Suzuki
