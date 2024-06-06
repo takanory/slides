@@ -22,7 +22,7 @@ BPStyle #161 / 2024 Jun 6
 
 * どうやっているか説明
 
-### Mathjaxで数式を描画
+### **Mathjax** で数式を描画
 
 * `$$` または `$` で数式を囲む
 
@@ -36,7 +36,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 次の式を解きなさい $(5x＋4)(5x＋1)$ 
 
-### **どんな数式** が書ける?
+### **どんな数式** が書ける？
 
 * LaTeXで書けるのは全部できる(はず)
 * 参考: [Easy Copy Mathjax](https://easy-copy-mathjax.nakaken88.com/)
@@ -65,7 +65,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
   * markdown-itのプラグイン
   * 内部では[mathjax-full](https://www.npmjs.com/package/mathjax-full)を使用
 
-### ブラウザで数式を **どう表示** している?
+### ブラウザで数式を **どう表示** している？
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
@@ -85,15 +85,15 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ### **SVG** じゃん... 😇
 
-## 数式って **読み上げられない** の？
+## 数式って **読み上げられない** の？ 🤔
 
-### 数式って **読み上げられない** の？
+### 数式って **読み上げられない** の？ 🤔
 
 * 数式を読み上げられなかったら数学の勉強ができない
 * まさか対応してないわけないだろ
 * 調べる
 
-### MathJaxに **Accessibility機能** あった
+### MathJaxに **Accessibility機能** あった！
 
 * [Accessibility Features - Screen Reader Support](https://docs.mathjax.org/en/latest/basic/accessibility.html#screen-reader-support)
 
@@ -146,7 +146,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 </math>
 ```
 
-## **MathML** とは
+## **MathML** とは 
 
 ### **MathML** とは
 
@@ -165,7 +165,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 * `<msup>`、`<msub>`: 上付き、下付き
 * `<morver>`: 弧で使用
 
-## **読み上げテキスト** 作成
+## **読み上げテキスト** 作成 💪
 
 * MathMLを読み上げられるテキストにする
 
