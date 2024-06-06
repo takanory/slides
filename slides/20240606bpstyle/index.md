@@ -163,7 +163,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 * `<mfrac>`: 分数
 * `<msqrt>`: ルート
 * `<msup>`、`<msub>`: 上付き、下付き
-* `<morver>`: 弧で使用
+* `<mover>`: 弧で使用
 
 ## **読み上げテキスト** 作成 💪
 
@@ -194,8 +194,8 @@ OPEROTORS = {
 
 # 識別子、演算子を変換
 for mo_mi in math.find_all(["mo", "mi"]):
-    if mo_mi.text in OPEROTORS:
-        mo_mi.replace_with(OPEROTORS[mo_mi.text])
+    if mo_mi.text in OPERATORS:
+        mo_mi.replace_with(OPERATORS[mo_mi.text])
 ```
 
 ### **分数** に対応
