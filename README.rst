@@ -37,6 +37,13 @@
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る <https://event.ospn.jp/osc2024-do/session/1461708>`__
      * `Slides <https://slides.takanory.net/slides/20240629osc24do>`__
+   - * BPStyle #161
+     * Online
+     * 2024 Jun
+     * Talk
+     * ja
+     * MathMLを解釈して数式読み上げ
+     * `Slides <https://slides.takanory.net/slides/20240606bpstyle>`__
    - * `PyCon US 2024 <https://us.pycon.org/2024/>`_
      * Pittsburgh, PA
      * 2024 May
