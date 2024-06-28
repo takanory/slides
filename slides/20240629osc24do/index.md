@@ -40,8 +40,8 @@ OSC 2024 Hokkaido / 2024 Jun 29
 ## **Who** am I? / お前 **誰よ** 👤
 
 * Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
-* [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
 * [PyCon JP Association](https://www.pycon.jp/) 代表理事
+* [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html) 講師、[Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催、[Pythonボルダリング部](https://kabepy.connpass.com/) 部長
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
@@ -72,10 +72,9 @@ OSC 2024 Hokkaido / 2024 Jun 29
 
 * {fas}`globe` [`2024.pycon.jp`](https://2024.pycon.jp/)
 * **9月27-29日** に **東京** で開催予定
+  * **旅費の支援** もあるよ
 * 3名の **共同座長**(with 吉田さん、寺田さん)
-* **主催メンバー** 募集中
-* 詳細: [PyCon JP 2024座長決定のお知らせと主催者グループのメンバー募集](https://pyconjp.blogspot.com/2024/01/pyconjp2024-co-chair.html)
-
+* **主催メンバー** も継続して募集中
 ### **BeProud** Inc. 🏢
 
 * [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
@@ -88,7 +87,7 @@ OSC 2024 Hokkaido / 2024 Jun 29
 ### Pythonプロフェッショナル<br />プログラミング
 
 * **ビープラウド** が執筆した書籍
-* ビープラウドに新たに **加わったメンバー** が、開発プロジェクトに **円滑に参加** するためのガイド
+* ビープラウドに新たに **加わったメンバー** が、プロジェクトに **円滑に参加** するためのガイド
   * **Python** で開発する **チーム** に役立つはず
   * **当時の開発スタイル** が見えてくる
 
@@ -205,17 +204,17 @@ datetime.timedelta(days=2075)
 
 ### [2024年](https://ja.wikipedia.org/wiki/2024%E5%B9%B4)のできごと
 
-* [Python 3.12.2](https://peps.python.org/pep-0693/)、[Python 3.13](https://peps.python.org/pep-0719/)(10月)
-* [Django 5.0.2](https://docs.djangoproject.com/en/5.0/releases/5.0.2/)
+* [Python 3.12.4](https://peps.python.org/pep-0693/)、[Python 3.13](https://peps.python.org/pep-0719/)(10月)
+* [Django 5.0.6](https://docs.djangoproject.com/en/5.0/releases/5.0.6/)
 * Python 3.7以前は[EOL](https://endoflife.date/python)、Django 3.2が[4月にEOL](https://endoflife.date/django)
-* Apple Vision Pro発売開始(2月)
+* Apple Vision Pro発売(2月)日本で発売(6月)
 * 日本銀行券が刷新(7月)
 * パリオリンピック開催(7月)
 
 ### PyPro出版の歴史のまとめ
 
 * **12年** で **4回** 出版
-* **メンバー** も **入れ替え** ながら
+* **メンバー** を **入れ替え** ながら
 * 執筆 **リーダー** も **代わり** ながら
 
 ![pypro1](images/pypro1.jpg)
@@ -267,6 +266,17 @@ $ sudo python get-pip.py
 
 * ↑このURLは404 Not Found
 
+```{revealjs-break}
+```
+
+* get-pip.pyはまだ有効
+* [Installation - pip documentation](https://pip.pypa.io/en/stable/installation/)
+* GitHub: [pypa/get-pip](https://github.com/pypa/get-pip)
+
+```bash
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ sudo python get-pip.py
+```
 ## 2. Webアプリケーション 🕸️
 
 ### PyPro3 → PyPro4
@@ -348,7 +358,7 @@ $ sudo python get-pip.py
 ### PyPro3 → PyPro4
 
 * `git swtich` コマンドを紹介
-* GUIクライアントの紹介を削除
+* GitのGUIクライアントの紹介を削除
   * VSCode、PyCharmのGit連携
   * [GitHub CLI](https://cli.github.com/)を紹介
 
@@ -429,7 +439,7 @@ $ sudo python get-pip.py
   * [pyproject.toml - pip documentation](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
   * [PEP 518](https://peps.python.org/pep-0518/): 2016年提案、2020年Final
 * READMEがreSTからmakdown
-* [build](https://build.pypa.io/)パッケージでビルド
+* [build](https://build.pypa.io/)モジュールでビルド
   * `python -m build` コマンド
 
 ### PyPro2 → PyPro3
