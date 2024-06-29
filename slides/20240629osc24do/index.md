@@ -64,9 +64,7 @@ OSC 2024 Hokkaido / 2024 Jun 29
 
 ### PyCon JP Association **ブース**
 
-* (TODO) ブースの写真
-
-% ![PyCon JP Association ブース](images/pycon-booth.jpg)
+![PyCon JP Association ブース](images/booth.jpg)
 
 ### PyCon JP **2024**
 
