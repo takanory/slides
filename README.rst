@@ -51,6 +51,8 @@
      * en
      * Learn Japanese 🇯🇵 with Python :fab:`python`
      * `Slides <https://slides.takanory.net/slides/20240517pyconus>`__
+       `Video <https://youtu.be/p_Vx3gDHeUI?si=ZTmo3FAqneRjA3fZ&t=506>`__
+       `Report <https://gihyo.jp/list/group/PyCon-US-2024%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2024/07/pycon-us-2024-02>`__
    - * `Python Kansai #03 <https://kansai-python.connpass.com/event/313464/>`_
      * Osaka, Japan
      * 2024 Apr
