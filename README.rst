@@ -30,6 +30,27 @@
      * lang
      * title
      * resource
+   - * `PyCon JP 2024 <https://2024.pycon.jp/>`_
+     * Tokyo, Japan
+     * 2024 Sep
+     * Talk
+     * ja
+     * Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜
+     * 
+   - * `PyCon Taiwan 2024 <https://tw.pycon.org/2024/en-us/>`_
+     * Kaohsiung, Taiwan
+     * 2024 Sep
+     * Talk
+     * en
+     * How to learn Japanese with Python 
+     * 
+   - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
+     * Shizuoka, Japan
+     * 2024 Aug
+     * Talk
+     * ja
+     * Amazon Pollyで問題文読み上げ、数式も読み上げ
+     * 
    - * `OSC 2024 Hokkaido <https://event.ospn.jp/osc2024-do/>`_
      * Sapporo, Japan
      * 2024 Jun
@@ -80,7 +101,7 @@
      * 2024 Feb
      * Talk
      * ja
-     * Pythonで 日本語処理入門 〜フリガナプログラムを作ろう〜
+     * Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜
      * `Slides <https://slides.takanory.net/slides/20240222stapy>`__
    - * `OSC 2024 Osaka <https://event.ospn.jp/osc2024-osaka/>`_
      * Osaka, Japan
