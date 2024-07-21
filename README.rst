@@ -42,14 +42,14 @@
      * 2024 Sep
      * Talk
      * en
-     * How to learn Japanese with Python 
+     * `How to learn Japanese with Python <https://tw.pycon.org/2024/en-us/conference/talk/309>`__
      * 
    - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2024 Aug
      * Talk
      * ja
-     * Amazon Pollyで問題文読み上げ、数式も読み上げ
+     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
      * 
    - * `OSC 2024 Hokkaido <https://event.ospn.jp/osc2024-do/>`_
      * Sapporo, Japan
