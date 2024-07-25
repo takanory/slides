@@ -51,6 +51,13 @@
      * ja
      * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
      * 
+   - * BPStyle #163
+     * Online
+     * 2024 Aug
+     * Talk
+     * ja
+     * arm64 linux wheel作って、dockerでarm64 linuxで動かして少しテストが速くなったよ
+     * `Slides <https://slides.takanory.net/slides/20240801bpstyle>`__
    - * `OSC 2024 Hokkaido <https://event.ospn.jp/osc2024-do/>`_
      * Sapporo, Japan
      * 2024 Jun
