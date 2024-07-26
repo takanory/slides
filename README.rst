@@ -56,7 +56,7 @@
      * 2024 Aug
      * Talk
      * ja
-     * arm64 linux wheel作って、dockerでarm64 linuxで動かして少しテストが速くなったよ
+     * arm64 linux wheel作ってM1 Macのdockerでテストが少し速くなった
      * `Slides <https://slides.takanory.net/slides/20240801bpstyle>`__
    - * `OSC 2024 Hokkaido <https://event.ospn.jp/osc2024-do/>`_
      * Sapporo, Japan
