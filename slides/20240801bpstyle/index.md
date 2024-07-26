@@ -13,7 +13,7 @@ BPStyle #163 / 2024 Aug 1
 
 ## 目的 💨
 
-* M1 MacのDockerでamd64 linuxでテストすると少し遅い
+* M1 MacのDockerでamd64 linuxでUTが遅い？
 * arm64 linuxならパフォーマンスが上がる？
 * wheelがないとpip installで失敗する
 * arm64 linux用wheelを作成して使いたい
