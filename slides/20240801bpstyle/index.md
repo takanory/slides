@@ -142,3 +142,53 @@ congratulations :) (217.01 seconds)
 * 本番環境等もamd64 linuxのまま
 
 ## Let's build arm64 linux wheel! 🏗️
+
+## おまけ: **pytest-xdist** 🏃‍➡️🏃‍➡️🏃‍➡️
+
+* [pytest-xdist](https://pytest-xdist.readthedocs.io/en/stable/): マルチCPUでテストを分散実行
+* マルチコアなので速くなるはず
+
+```bash
+$ pip install pytest-xdist[psutil]
+```
+
+### テストを実行 💻
+
+```bash
+$ pytest -n auto --dist loadfile
+...
+8 workers  # ワーカー数が出力される
+```
+
+* [Running tests across multiple CPUs — pytest-xdist documentation](https://pytest-xdist.readthedocs.io/en/stable/distribution.html)
+  * `-n auto`: CPUコア数と同じ数実行
+  * `--dist loadfile`: ファイルごとに同じワーカーで実行
+
+### 実行時間を確認 ⏱️
+
+* Apple M1(8コア)
+
+```
+# xdistなし
+py310: OK (164.82=setup[0.05]+cmd[164.77,0.00] seconds)
+# xdistあり
+py310: OK (115.08=setup[0.02]+cmd[115.06] seconds)
+```
+
+* Apple M2 Max(12コア)
+
+```
+py310: OK (90.37=setup[0.03]+cmd[90.33] seconds)
+```
+
+### GitHub Actions {fab}`github`
+
+* 1コアなので速くなりません！
+
+```bash
+py310: commands[0]> pytest -n auto --dist loadfile --cov-append --cov-report=term-missing:skip-covered --cov=apps -vv
+============================= test session starts ==============================
+...
+created: 1/1 worker
+1 worker [2002 items]
+```
