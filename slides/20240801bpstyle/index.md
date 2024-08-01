@@ -100,7 +100,7 @@ COPY djangoapp/wheel/*.whl ${WHEELDIR}/
 * [pipの--find-linksオプション](https://pip.pypa.io/en/stable/cli/pip_install/#cmdoption-f)
 
 ```text
---find-links /var/www/manaviria/djangoapp/wheel
+--find-links /var/www/hoge-prj/djangoapp/wheel
 
 argon2-cffi
 antlr4-python3-runtime==4.10
