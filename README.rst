@@ -50,7 +50,7 @@
      * Talk
      * ja
      * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20240831pyconshizu>`__
    - * BPStyle #163
      * Online
      * 2024 Aug
