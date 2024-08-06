@@ -30,6 +30,13 @@
      * lang
      * title
      * resource
+   - * `PyCon APAC 2024 <https://2024-apac.pycon.id/>`_
+     * Yogyakarta, Indonesia
+     * 2024 Oct
+     * Talk
+     * en
+     * How to learn Japanese with Python
+     * 
    - * `PyCon JP 2024 <https://2024.pycon.jp/>`_
      * Tokyo, Japan
      * 2024 Sep
