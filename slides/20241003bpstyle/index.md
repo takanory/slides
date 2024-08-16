@@ -9,4 +9,4 @@
 
 Takanori Suzuki
 
-BPStyle #164 / 2024 Spe 5
+BPStyle #164 / 2024 Oct 3

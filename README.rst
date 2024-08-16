@@ -37,6 +37,13 @@
      * en
      * How to learn Japanese with Python
      * 
+   - * BPStyle #165
+     * Online
+     * 2024 Oct
+     * Talk
+     * ja
+     * 旅行準備について
+     * `Slides <https://slides.takanory.net/slides/20241003bpstyle>`__
    - * `PyCon JP 2024 <https://2024.pycon.jp/>`_
      * Tokyo, Japan
      * 2024 Sep
@@ -51,13 +58,6 @@
      * en
      * `How to learn Japanese with Python <https://tw.pycon.org/2024/en-us/conference/talk/309>`__
      * 
-   - * BPStyle #164
-     * Online
-     * 2024 Sep
-     * Talk
-     * ja
-     * 旅行準備について
-     * `Slides <https://slides.takanory.net/slides/20240905bpstyle>`__
    - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2024 Aug
