@@ -63,7 +63,7 @@ PyCon mini Shizuoka 2024 / 2024 Aug 31
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#poycon_shizu` / `@takanory`
+`#pyconshizu` / `@takanory`
 
 ### Slides / スライド 💻
 
@@ -369,32 +369,6 @@ $ . env/bin/activate
 * フリガナを `<phoneme>` タグに
 * 日英の混ざった文章対応
 
-## Amazon Pollyの補足情報 🔍
-
-### 2種類の音声
-
-* **標準音声** と **ニューラル音声** がある
-* ニューラル音声の方がよりいい感じ
-* 対応している声が異なる
-* ニューラル音声の方がお高い
-* 参考: [Amazon Polly の音声](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/voicelist.html)
-
-```{revealjs-break}
-```
-
-* 複数の問題文を **2種類の音声** で生成
-* **聞き比べ用HTML** を作成しブラウザで確認
-
-![](images/question.png)
-
-### 同期処理の **文字数制限**
-
-* `synthesize_speech()` は **文字数制限** あり
-* `start_speech_synthesis_task()` で長文を **非同期** 処理
-  * [start_speech_synthesis_task](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly/client/start_speech_synthesis_task.html)
-  * 結果はS3に保存
-* `get_speech_synthesis_task()` で **状態** を取得
-
 ## 数式読み上げ 🧮
 
 ### 数式読み上げ 🧮
@@ -545,7 +519,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 $\dfrac{1}{2}$ を「2ぶんの1」と読ませる
 
-```xml
+```html
 # MathML
 <mfrac><mn>1</mn><mn>2</mn></mfrac>
 ```
@@ -558,33 +532,37 @@ $\dfrac{1}{2}$ を「2ぶんの1」と読ませる
 
 $x^2$ を「x2乗」と読ませる
 
-```
+```html
 # MathML
-x<msup>2</msup>
+<msup><mi>x</mi><mn>2</mn></msup>  # x 2乗
 ```
 
 ```{literalinclude} code/polly-mathml.py
-:lines: 38-42
+:lines: 38-41
 ```
 
 ### **ルート** に対応
 
 $\sqrt{5}$ を「ルート5」と読ませる
 
-```
+```html
 # MathML
-x<msup>2</msup>
+<msqrt>5</msqrt>
 ```
 
 ```{literalinclude} code/polly-mathml.py
-:lines: 44-46
+:lines: 43-45
 ```
 
 ### 数式を変換してみる
 
+二次方程式 $ax^2 + bx + c = 0$ の解は
+
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ```text
+# 読み上げ用テキスト
+二次方程式 ax2乗プラスbxプラスc=0 の解は
 x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 ```
 
@@ -592,12 +570,15 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 
 ### おしい... 😉
 
+* ax → あっくす
+* 2a → にあーる
+
 # まとめ 📚
 
 * Amazon Pollyで音声合成は **簡単** にできる
 * **多言語** に対応
 * **SSML**、**Lexicon** で細かい調整が可能
-* **数式** も **MathML** で読み上げられる
+* **数式** も **MathML** を解析して読み上げられる
 * サンプルコード：{fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20240831pyconshizu/code)
 
 ## Thank You 🙏
