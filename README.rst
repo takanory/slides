@@ -50,7 +50,7 @@
      * Talk
      * en
      * `How to learn Japanese with Python <https://tw.pycon.org/2024/en-us/conference/talk/309>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20240921pycontw>`__
    - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2024 Aug
