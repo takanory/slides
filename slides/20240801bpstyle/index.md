@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/cover.png
+:og:image: _images/20240801bpstyle.png
 :og:image:alt: arm64 linux wheel作って、dockerでarm64 linuxで動かして少しテストが速くなったよ
 
-.. |cover| image:: images/cover.png
+.. |cover| image:: images/20240801bpstyle.png
 ```
 
 # **arm64 linux wheel**作ってM1 Macのdockerでテストが少し速くなった

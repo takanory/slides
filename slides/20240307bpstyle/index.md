@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/cover.png
+:og:image: _images/20240307bpstyle.png
 :og:image:alt: Amazon Pollyで問題文を読み上げ
 
-.. |cover| image:: images/cover.png
+.. |cover| image:: images/20240307bpstyle.png
 ```
 
 # **Amazon Polly** で<br />問題文を読み上げ

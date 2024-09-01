@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/cover.png
+:og:image: _images/20240228bpstudy.png
 :og:image:alt: Python開発の変遷をPythonプロフェッショナルプログラミングの改訂の歴史から知る
 
-.. |cover| image:: images/cover.png
+.. |cover| image:: images/20240228bpstudy.png
 ```
 
 # **Python開発の変遷**
