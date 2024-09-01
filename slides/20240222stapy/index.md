@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/20240222stapy.png
+:og:image: _images/cover.png
 :og:image:alt: Pythonで日本語処理入門 フリガナプログラムを作ろう
 
-.. |cover| image:: images/20240222stapy.png
+.. |cover| image:: images/cover.png
 ```
 
 # Pythonで<br />**日本語処理** 入門

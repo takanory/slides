@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/20240606bpstyle.png
+:og:image: _images/cover.png
 :og:image:alt: MathMLを解釈して数式読み上げ
 
-.. |cover| image:: images/20240606bpstyle.png
+.. |cover| image:: images/cover.png
 ```
 
 # **MathML** を解釈して数式読み上げ
