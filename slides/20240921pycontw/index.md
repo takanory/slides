@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/cover.png
+:og:image: _images/20240921pycontw.png
 :og:image:alt: How to learn Japanese with Python
 
-.. |cover| image:: images/cover.png
+.. |cover| image:: images/20240921pycontw.png
 ```
 
 # How to learn **Japanese** w/ **Python**
