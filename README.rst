@@ -42,7 +42,7 @@
      * 2024 Sep
      * Talk
      * ja
-     * Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜
+     * `Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜 <https://2024.pycon.jp/en/talk/BQXVWE>`__
      * 
    - * `PyCon Taiwan 2024 <https://tw.pycon.org/2024/en-us/>`_
      * Kaohsiung, Taiwan
