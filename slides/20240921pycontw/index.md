@@ -186,34 +186,32 @@ Kanji | 蛇 | 麦酒
 
 * **Alphabet** annotation: Pronounciation
 
-<ruby>すもも<rt>su mo mo</rt></ruby>,
-<ruby><ruby>パイソン<rt>pa i so n</rt></ruby>
+<ruby>パイコン<rt>pa i ko n</rt></ruby>
+<ruby>たいわん<rt>ta i wa n</rt></ruby>
+(PyCon Taiwan)
 
 ```html
-<ruby>すもも<rt>su mo mo</rt></ruby>,
-<ruby><ruby>パイソン<rt>pa i so n</rt></ruby>,
+<ruby>パイコン<rt>pa i ko n</rt></ruby>
+<ruby>たいわん<rt>ta i wa n</rt></ruby>
 ```
 
 ### Indicate **pronunciation** with `<ruby>`
 
 * **Hiragana** annotation: Readings
-* ふりがな: Furigana
+* ふりがな: **Furigana**
 
-<ruby><ruby>パイソン<rt>ぱいそん</rt></ruby>
-<ruby>
-  <ruby>日曜日<rt>にちようび</rt></ruby>
-  <rt>ni chi yo u bi</rt>
-</ruby>
+<ruby>パイコン<rt>ぱいこん</rt></ruby>
+<ruby>台湾<rt>たいわん</rt></ruby>
+(PyCon Taiwan)
 
 ```html
-<ruby><ruby>パイソン<rt>ぱいそん</rt></ruby>,
-<ruby>
-  <ruby>日曜日<rt>にちようび</rt></ruby>
-  <rt>ni chi yo u bi</rt>
-</ruby>
+<ruby>パイコン<rt>ぱいこん</rt></ruby>
+<ruby>台湾<rt>たいわん</rt></ruby>
 ```
 
 ## **Hiragana** and **Katakana** (あ / ア)
+
+hebi / へび / ヘビ
 
 ### **Hiragana** and **Katakana**
 
@@ -226,9 +224,9 @@ Kanji | 蛇 | 麦酒
 ### **Hiragana** and **Katakana**
 
 * Basically use Hiragana
-  * <ruby>にちようび<rt>ni chi yo u bi</rt></ruby>
+  * <ruby>たいわん<rt>ta i wa n</rt></ruby>
 * Katakana is used for foreign words
-  * <ruby><ruby>パイソン<rt>pa i so n</rt></ruby> (Python)
+  * <ruby><ruby>パイコン<rt>pa i ko n</rt></ruby> (PyCon)
 
 ### **Romanization** of Japanese (Romaji)
 
@@ -248,10 +246,94 @@ $ . env/bin/activate
 (env) pip install jaconv
 ```
 
-```python
+```pycon
 >>> import jaconv
->>> jaconv.kana2alphabet("にちようび")  # Hiragana
-'nichiyoubi'
->>> jaconv.kata2alphabet("パイソン")  # Katakana
-'paison'
+>>> jaconv.kana2alphabet("たいわん")  # Hiragana -> alphabet
+'taiwan'
+>>> jaconv.kata2alphabet("パイコン")  # Katakana -> alphabet
+'paikon'
 ```
+
+### Add **Romaji** annotation
+
+* kana2roman.py
+
+```{revealjs-literalinclude} code/kana2roman.py
+```
+
+### Add **Romaji** annotation
+
+```bash
+$ python kana2roman.py パイコンたいわん
+<ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
+```
+
+<ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
+
+### Can read Hiragana and Katakana 🎉
+
+## **No Spaces** between Words
+
+<ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
+
+### **No Spaces** between Words
+
+* 日本語は単語がスペースで分割されていない
+* 辞書ベースで単語を分割する
+* 日本語の形態素解析ライブラリが必要
+
+### Japanese **morphological analyzer**
+
+* SudachiPy: [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
+* SudachiDcit: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
+
+```bash
+$ pip install sudachipy sudachidict_core
+```
+
+### SudachiPy
+
+* Rust製で速い
+* 辞書が複数ある(small, core, full)
+  * ここではcoreを使用
+
+### **Word Segmentation**
+
+* 辞書データを元に単語に分割するよ
+
+```pycon
+>>> from sudachipy import Dictionary
+>>> tokenizer = Dictionary().create()
+>>> text = "すもももももももものうち"
+>>> for token in tokenizer.tokenize(text):
+...     print(token)
+... 
+すもも
+も
+もも
+も
+もも
+の
+うち
+```
+
+### **Word Segmentation** with Romaji
+
+* word_segmentation.py
+
+```{revealjs-literalinclude} code/word_segmentation.py
+```
+
+### **Word Segmentation** with Romaji
+
+```bash
+$ python word_segmentation.py すもももももももものうち
+<ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
+```
+
+<ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
+
+
+## **Multiple Readings** of Kanji
+
+<ruby>日曜日<rt>nichi you bi</rt></ruby>、<ruby>前日<rt>zen jitsu</rt></ruby>
