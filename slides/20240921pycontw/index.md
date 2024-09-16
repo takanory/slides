@@ -122,7 +122,8 @@ Kanji | 蛇 | 麦酒
 
 <ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
 
-### **No Spaces** between Words
+```{revealjs-break}
+```
 
 すもももももももものうち
 
@@ -137,7 +138,8 @@ Kanji | 蛇 | 麦酒
 * **日**: day, sun
 * Taiwanese pronounciation: ri(?)
 
-### **Multiple Readings** of Kanji
+```{revealjs-break}
+```
 
 * **日**: day, sun
 * Taiwanese pronounciation: ri(?)
@@ -146,7 +148,8 @@ Kanji | 蛇 | 麦酒
 * **Chinese**-style reading(音読み)
   * じつ(jitsu)、か(ka)
 
-### **Multiple Readings** of Kanji
+```{revealjs-break}
+```
 
 * **Japanese**-style reading: にち(nichi)、ひ(hi)
 * **Chinese**-style reading: じつ(jitsu)、か(ka)
@@ -154,7 +157,10 @@ Kanji | 蛇 | 麦酒
   * 日曜日 (Sunday)
   * 前日 (Previous day)
 
-### <ruby>日<rt>**nichi**</rt></ruby><ruby>曜<rt>yo</rt></ruby><ruby>日<rt>**bi**</rt></ruby> (Sunday) / <ruby>前<rt>zen</rt></ruby><ruby>日<rt>**jitsu**</rt></ruby> (Previous day)
+```{revealjs-break}
+```
+
+<ruby>日<rt>**nichi**</rt></ruby><ruby>曜<rt>yo</rt></ruby><ruby>日<rt>**bi**</rt></ruby> (Sunday) / <ruby>前<rt>zen</rt></ruby><ruby>日<rt>**jitsu**</rt></ruby> (Previous day)
 
 * **Japanese**-style reading: にち(nichi)、ひ(hi)
 * **Chinese**-style reading: じつ(jitsu)、か(ka)
@@ -195,7 +201,8 @@ Kanji | 蛇 | 麦酒
 <ruby>たいわん<rt>ta i wa n</rt></ruby>
 ```
 
-### Indicate **pronunciation** with `<ruby>`
+```{revealjs-break}
+```
 
 * **Hiragana** annotation: Readings
 * ふりがな: **Furigana**
@@ -221,7 +228,8 @@ hebi / へび / ヘビ
 * Hiragana: <ruby>あかさたな<rt>a ka sa ta na</rt></ruby>...
 * Katakana: <ruby>アカサタナ<rt>a ka sa ta na</rt></ruby>...
 
-### **Hiragana** and **Katakana**
+```{revealjs-break}
+```
 
 * Basically use Hiragana
   * <ruby>たいわん<rt>ta i wa n</rt></ruby>
@@ -256,12 +264,12 @@ $ . env/bin/activate
 
 ### Add **Romaji** annotation
 
-* kana2roman.py
-
 ```{revealjs-literalinclude} code/kana2roman.py
+:caption: kana2roman.py
 ```
 
-### Add **Romaji** annotation
+```{revealjs-break}
+```
 
 ```bash
 $ python kana2roman.py パイコンたいわん
@@ -270,13 +278,14 @@ $ python kana2roman.py パイコンたいわん
 
 <ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
 
-### Can read Hiragana and Katakana 🎉
+### Can read **Hiragana** and **Katakana** 🎉
 
 ## **No Spaces** between Words
 
 <ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
 
-### **No Spaces** between Words
+```{revealjs-break}
+```
 
 * 日本語は単語がスペースで分割されていない
 * 辞書ベースで単語を分割する
@@ -300,6 +309,7 @@ $ pip install sudachipy sudachidict_core
 ### **Word Segmentation**
 
 * 辞書データを元に単語に分割するよ
+* ひらがなが読めない？
 
 ```pycon
 >>> from sudachipy import Dictionary
@@ -322,9 +332,11 @@ $ pip install sudachipy sudachidict_core
 * word_segmentation.py
 
 ```{revealjs-literalinclude} code/word_segmentation.py
+:caption: word_segmentation.py
 ```
 
-### **Word Segmentation** with Romaji
+```{revealjs-break}
+```
 
 ```bash
 $ python word_segmentation.py すもももももももものうち
@@ -333,7 +345,165 @@ $ python word_segmentation.py すもももももももものうち
 
 <ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
 
+### Can **split** into **Words** 🎊
 
 ## **Multiple Readings** of Kanji
 
 <ruby>日曜日<rt>nichi you bi</rt></ruby>、<ruby>前日<rt>zen jitsu</rt></ruby>
+
+### **Multiple Readings** of Kanji
+
+* **日**: day, sun
+* **Japanese**-style reading(訓読み): 
+  <ruby>にち<rt>ni chi</rt></ruby>, <ruby>ひ<rt>hi</rt></ruby>
+* **Chinese**-style reading(音読み):
+  <ruby>じつ<rt>ji tsu</rt></ruby>, <ruby>か<rt>ka</rt></ruby>
+
+```{revealjs-break}
+```
+
+* **日** 曜 **日** (Sunday): 
+  <ruby>**にち**<rt>ni chi</rt> <ruby>よう<rt>yo u</rt> <ruby>**び**<rt>bi</rt></ruby>
+* 前 **日** (Previous day):
+  <ruby>ぜん<rt>ze n</rt> <ruby>**じつ**<rt>ji tsu</rt>
+  
+### 😨
+
+### Multiple Readings of **Kanji idioms**
+
+* Same combination but **different readings**
+* **一日**: first day, one day
+  * **一日** 目(Day 1)
+  * 一月 **一日**(Jan 1st)
+
+```{revealjs-break}
+```
+
+* Same combination but **different readings**
+* **一日**: first day, one day
+  * **一日** 目(Day 1): <ruby>**いちにち**<rt>i chi ni chi</rt></ruby> <ruby>め<rt>me</rt></ruby>
+  * 一月 **一日**(Jan 1st): <ruby>いちがつ<rt>i chi ga tsu</rt></ruby> <ruby>**ついたち**<rt>tsu i ta chi</rt></ruby>
+
+### 😱 😱
+
+### **Special readings** of Kanji idioms
+
+* 今 **日** (today)
+* 昨 **日** (yesterday)
+* 明 **日** (tomorrow)
+
+```{revealjs-break}
+```
+
+* 今 **日** (today): <ruby>きょう<rt>kyo u</rt></ruby>
+* 昨 **日** (yesterday): <ruby>きのう<rt>ki no u</rt></ruby>
+* 明 **日** (tomorrow): <ruby>あした<rt>a shi ta</rt></ruby>
+
+## 🤯 🤯 🤯
+
+## Get **Reading** of Kanji
+
+* 今 **日** は一月一 **日** で **日** 曜 **日**
+* Today is January 1st, Sunday
+
+### Get **Reading** of Kanji
+
+* Use **SudachiPy** and **SudachiDict**
+* `reading_form()`: Reading in Katakana
+
+```pycon
+>>> from sudachipy import Dictionary
+>>> tokenizer = Dictionary().create()
+>>> text = "今日は一月一日で日曜日"
+>>> for token in tokenizer.tokenize(text):
+>>>     print(token, token.reading_form())
+... 
+今日 キョウ
+は ハ
+一 イチ
+月 ガツ
+一日 ツイタチ
+で デ
+日曜日 ニチヨウビ
+```
+
+```{revealjs-break}
+```
+
+* Can't read **Katakana**? Use **jaconv**!
+
+```
+>>> import jaconv
+>>> for token in tokenizer.tokenize(text):
+...     reading = token.reading_form()
+...     hiragana = jaconv.kata2hira(reading)
+...     romaji = jaconv.kata2alphabet(reading)
+...     print(f"{token}, {reading}, {hiragana}, {romaji}")
+... 
+今日, キョウ, きょう, kyou
+は, ハ, は, ha
+一, イチ, いち, ichi
+月, ガツ, がつ, gatsu
+一日, ツイタチ, ついたち, tsuitachi
+で, デ, で, de
+日曜日, ニチヨウビ, にちようび, nichiyoubi
+```
+
+### **Add Reading** to Kanji
+
+```{revealjs-literalinclude} code/kanji_reading.py
+:caption: kanji_reading.py
+```
+
+```{revealjs-break}
+```
+
+<ruby>今日<rt>きょう</rt></ruby>
+<ruby>は<rt>は</rt></ruby>
+<ruby>一<rt>いち</rt></ruby>
+<ruby>月<rt>がつ</rt></ruby>
+<ruby>一日<rt>ついたち</rt></ruby>
+<ruby>で<rt>で</rt></ruby>
+<ruby>日曜日<rt>にちようび</rt></ruby>
+
+```bash
+$ python kanji_reading.py 今日は一月一日で日曜日
+<ruby>今日<rt>きょう</rt></ruby>
+<ruby>は<rt>は</rt></ruby>
+<ruby>一<rt>いち</rt></ruby>
+<ruby>月<rt>がつ</rt></ruby>
+<ruby>一日<rt>ついたち</rt></ruby>
+<ruby>で<rt>で</rt></ruby>
+<ruby>日曜日<rt>にちようび</rt></ruby>
+```
+
+```{revealjs-break}
+```
+
+```{revealjs-literalinclude} code/kanji_reading_romaji.py
+:caption: kanji_reading_romaji.py
+```
+
+```{revealjs-break}
+```
+
+<ruby>今日<rt>kyou</rt></ruby>
+<ruby>は<rt>ha</rt></ruby>
+<ruby>一<rt>ichi</rt></ruby>
+<ruby>月<rt>gatsu</rt></ruby>
+<ruby>一日<rt>tsuitachi</rt></ruby>
+<ruby>で<rt>de</rt></ruby>
+<ruby>日曜日<rt>nichiyoubi</rt></ruby>
+
+```bash
+$ python kanji_reading_romaji.py 今日は一月一日で日曜日
+<ruby>今日<rt>kyou</rt></ruby>
+<ruby>は<rt>ha</rt></ruby>
+<ruby>一<rt>ichi</rt></ruby>
+<ruby>月<rt>gatsu</rt></ruby>
+<ruby>一日<rt>tsuitachi</rt></ruby>
+<ruby>で<rt>de</rt></ruby>
+<ruby>日曜日<rt>nichiyoubi</rt></ruby>
+```
+
+### Can read **Kanji** 🥳
