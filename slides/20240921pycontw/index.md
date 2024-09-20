@@ -574,7 +574,9 @@ text_to_speech.py
   * **SudachiPy**: Morphological analyzer
   * **Amazon Polly**: Text to Speech
   
-### 自分用の勉強アプリを作ってみて 🏗️
+## 🇯🇵 ❤️ {fab}`python`
+
+Learn **Japanese** with **Python**
 
 ## Thank you 🙏
 
