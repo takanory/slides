@@ -23,21 +23,21 @@ PyCon Taiwan 2024 / 2024 Sep 21
 
 ### Background and Motivation
 
-* 仕事で中学生向けの学習教材を言語的に処理する開発をしている
-* →より学習しやすくするために
-* その中で、Pythonライブラリが日本語学習の助けになるのではと考えた
+* Developing School **Textbook Web** at work
+  * Japanese NPL to make it **Easier to Learn**
+* Python libs could help people **Learn Japanese**
 
 ### Background and Motivation(cont.)
 
 * [FSI language difficulty](https://www.fsi-language-courses.org/blog/fsi-language-difficulty/)
-* 日本語は英語話者にとってもっと学習が難しい言語("super-hard languages")
-* 他はMandarin, Cantonese, Korean and Arabic
+* Japanese is "**super-hard languages**" for English speakers to learn
+  * Mandarin, Cantonese, Korean and Arabic
 
 ### Goal
 
-* 日本語の難しさを理解
-* 各種ライブラリの使い方を理解
-* 日本語の勉強をサポートできるかも
+* What is **difficult** about Japanese
+* How to use **Japanese NLP** libs and APIs
+* Python could support **learning Japanese**
 
 ## Photos 📷 Tweets 🐦 👍
 
@@ -170,10 +170,9 @@ Kanji | 蛇 | 麦酒
 
 ### What is **Ruby** ?
 
-* <ruby>ルビ<rt>ruby</rt></ruby> is small annotations
-* 学校で読めない漢字にルビを付ける
-
-(日本のテキストの例)
+* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation**
+* Usually placed **above** the text
+* ref: [Ruby character - Wikipedia](https://en.wikipedia.org/wiki/Ruby_character)
 
 ### **`<ruby>`** HTML Tag 💎
 
@@ -191,7 +190,7 @@ Kanji | 蛇 | 麦酒
 
 ```
 
-* see: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
+* ref: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
 
 ### Indicate **pronunciation** with `<ruby>`
 
@@ -221,7 +220,7 @@ Kanji | 蛇 | 麦酒
 <ruby>台湾<rt>たいわん</rt></ruby>
 ```
 
-### **`<ruby>`** Tag を理解した！ 💡
+### Understand **`<ruby>`** Tag 💡
 
 ## **Hiragana** and **Katakana** (あ / ア)
 
@@ -296,11 +295,11 @@ kana2roman.py
 ```{revealjs-break}
 ```
 
-* 日本語は単語がスペースで分割されていない
-* 辞書ベースで単語を分割する
-* 日本語の形態素解析ライブラリが必要
+* Japanese has **no spaces** between words
+* Use **Dictionary** to **Recognise** words
+* Japanese **Morphological Analysis** library required
 
-### Japanese **morphological analyzer**
+### Japanese **Morphological Analyzer**
 
 * SudachiPy: [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
 * SudachiDcit: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
