@@ -272,7 +272,7 @@ $ . env/bin/activate
 ```
 
 ```bash
-$ python kana2roman.py パイコンたいわん
+(env) $ python kana2roman.py パイコンたいわん
 <ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
 ```
 
@@ -297,7 +297,7 @@ $ python kana2roman.py パイコンたいわん
 * SudachiDcit: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
 
 ```bash
-$ pip install sudachipy sudachidict_core
+(env) $ pip install sudachipy sudachidict_core
 ```
 
 ### SudachiPy
@@ -339,7 +339,7 @@ $ pip install sudachipy sudachidict_core
 ```
 
 ```bash
-$ python word_segmentation.py すもももももももものうち
+(env) $ python word_segmentation.py すもももももももものうち
 <ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
 ```
 
@@ -467,7 +467,7 @@ $ python word_segmentation.py すもももももももものうち
 <ruby>日曜日<rt>にちようび</rt></ruby>
 
 ```bash
-$ python kanji_reading.py 今日は一月一日で日曜日
+(env) $ python kanji_reading.py 今日は一月一日で日曜日
 <ruby>今日<rt>きょう</rt></ruby>
 <ruby>は<rt>は</rt></ruby>
 <ruby>一<rt>いち</rt></ruby>
@@ -496,7 +496,7 @@ $ python kanji_reading.py 今日は一月一日で日曜日
 <ruby>日曜日<rt>nichiyoubi</rt></ruby>
 
 ```bash
-$ python kanji_reading_romaji.py 今日は一月一日で日曜日
+(env) $ python kanji_reading_romaji.py 今日は一月一日で日曜日
 <ruby>今日<rt>kyou</rt></ruby>
 <ruby>は<rt>ha</rt></ruby>
 <ruby>一<rt>ichi</rt></ruby>
@@ -507,3 +507,49 @@ $ python kanji_reading_romaji.py 今日は一月一日で日曜日
 ```
 
 ### Can read **Kanji** 🥳
+
+## Can read but **Cannnot Pronouce** 🗣️
+
+### Readings and Pronounciations are **slightly different**
+
+* Readings: ou / ei
+* Pronounciaciton: oo / ee
+* <ruby><ruby>東京<rt>とうきょう</rt></ruby><rt>tou kyou</rt></ruby> / 
+  <ruby><ruby>英語<rt>えいご</rt></ruby><rt>ei go</rt></ruby>
+
+### Text to **Speech**
+
+* [Amazon Polly - AWS](https://aws.amazon.com/polly/)
+* [Polly - Boto3 1.34.106 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly.html)
+
+```bash
+(env) $ pip install boto3
+```
+
+```bash
+(env) $ export AWS_ACCESS_KEY_ID=AKIAYI...
+(env) $ export AWS_SECRET_ACCESS_KEY=ZoWbpmi...
+(env) $ export AWS_DEFAULT_REGION=ap-northeast-1
+```
+
+```{revealjs-break}
+```
+
+text_to_speech.py
+
+```{revealjs-literalinclude} code/text_to_speech.py
+:data-line-numbers: 6-12
+```
+
+```{revealjs-break}
+```
+
+```bash
+(env) $ python text_to_speech.py 東京、英語
+```
+
+[japanese.mp3](code/japanese.mp3)
+
+### Can pronounce **Japanese** 🥳🥳
+
+## **Summary**
