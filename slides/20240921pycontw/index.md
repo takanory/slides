@@ -74,7 +74,7 @@ I'm also active in several Python related communities in Japan.
 * [`2024.pycon.jp`](https://2024.pycon.jp)
 * Date: 2024 **Sep 27**(Fri)-**29**(Sun)
 * Place: **Tokyo**, Japan
-* **English talks** are available
+* There are **English talks**
 
 ```{image} images/pyconjp2024logo.png
 :alt: PyCon JP 2024 logo
@@ -94,7 +94,7 @@ I'm also active in several Python related communities in Japan.
 * [`2024.pycon.jp`](https://2024.pycon.jp)
 * Date: 2024 **Sep 27**(Fri)-**29**(Sun)
 * Place: **Tokyo**, Japan
-* **English talks** are available
+* There are **English talks**
 
 ```{image} images/pyconjp2024logo.png
 :alt: PyCon JP 2024 logo
@@ -173,6 +173,7 @@ Kanji | 蛇 | 麦酒
 * <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation**
 * Usually placed **above** the text
 * ref: [Ruby character - Wikipedia](https://en.wikipedia.org/wiki/Ruby_character)
+* (Not a Programming Language)
 
 ### **`<ruby>`** HTML Tag 💎
 
