@@ -16,8 +16,8 @@ PyCon Taiwan 2024 / 2024 Sep 21
 ## Agenda ✅
 
 * Background and Motivation / Goal
-* 日本語の難しさ
-* fuga
+* Japanese is Difficult
+* Python supports Japanese leaning
 
 ## Background and Motivation 🏞️
 
@@ -103,8 +103,6 @@ I'm also active in several Python related communities in Japan.
 
 ## Japanese is **Difficult** 😫
 
-(日本語の難しい点をいくつか紹介するよ)
-
 * **3 Types** of Characters
 * **No Spaces** between Words
 * **Multiple Readings** of Kanji
@@ -142,10 +140,9 @@ Kanji | 蛇 | 麦酒
 ```
 
 * **日**: day, sun
-* Taiwanese pronounciation: ri(?)
-* **Japanese**-style reading(訓読み)
+* **Japanese**-style reading(<ruby>訓読み<rt>kun yomi</rt></ruby>)
   * にち(nichi)、ひ(hi)
-* **Chinese**-style reading(音読み)
+* **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>)
   * じつ(jitsu)、か(ka)
 
 ```{revealjs-break}
@@ -170,6 +167,14 @@ Kanji | 蛇 | 麦酒
 ## {fab}`python` Python supports Japanese leaning
 
 ## **`<ruby>`** HTML Tag 💎
+
+### What is **Ruby** ?
+
+* <ruby>ルビ<rt>ruby</rt></ruby> is small annotations
+* 学校で読めない漢字にルビを付ける
+
+(日本のテキストの例)
+
 ### **`<ruby>`** HTML Tag 💎
 
 * `<ruby>` represents **small annotations**
@@ -205,7 +210,7 @@ Kanji | 蛇 | 麦酒
 ```
 
 * **Hiragana** annotation: Readings
-* ふりがな: **Furigana**
+* <ruby>ふりがな<rt>fu ri ga na</rt></ruby>
 
 <ruby>パイコン<rt>ぱいこん</rt></ruby>
 <ruby>台湾<rt>たいわん</rt></ruby>
@@ -215,6 +220,8 @@ Kanji | 蛇 | 麦酒
 <ruby>パイコン<rt>ぱいこん</rt></ruby>
 <ruby>台湾<rt>たいわん</rt></ruby>
 ```
+
+### **`<ruby>`** Tag を理解した！ 💡
 
 ## **Hiragana** and **Katakana** (あ / ア)
 
@@ -264,8 +271,10 @@ $ . env/bin/activate
 
 ### Add **Romaji** annotation
 
+kana2roman.py
+
 ```{revealjs-literalinclude} code/kana2roman.py
-:caption: kana2roman.py
+:data-line-numbers: 2,4-7|9-12
 ```
 
 ```{revealjs-break}
@@ -329,10 +338,10 @@ $ . env/bin/activate
 
 ### **Word Segmentation** with Romaji
 
-* word_segmentation.py
+word_segmentation.py
 
 ```{revealjs-literalinclude} code/word_segmentation.py
-:caption: word_segmentation.py
+:data-line-numbers: 2,5|3,7-11
 ```
 
 ```{revealjs-break}
@@ -354,9 +363,9 @@ $ . env/bin/activate
 ### **Multiple Readings** of Kanji
 
 * **日**: day, sun
-* **Japanese**-style reading(訓読み): 
+* **Japanese**-style reading(<ruby>訓読み<rt>kun yomi</rt></ruby>): 
   <ruby>にち<rt>ni chi</rt></ruby>, <ruby>ひ<rt>hi</rt></ruby>
-* **Chinese**-style reading(音読み):
+* **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>):
   <ruby>じつ<rt>ji tsu</rt></ruby>, <ruby>か<rt>ka</rt></ruby>
 
 ```{revealjs-break}
@@ -451,8 +460,10 @@ $ . env/bin/activate
 
 ### **Add Reading** to Kanji
 
+kanji_reading.py
+
 ```{revealjs-literalinclude} code/kanji_reading.py
-:caption: kanji_reading.py
+:data-line-numbers: 3,5|7-13
 ```
 
 ```{revealjs-break}
@@ -480,8 +491,10 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
+kanji_reading_romaji.py
+
 ```{revealjs-literalinclude} code/kanji_reading_romaji.py
-:caption: kanji_reading_romaji.py
+:data-line-numbers: 11,12
 ```
 
 ```{revealjs-break}
@@ -538,7 +551,7 @@ $ . env/bin/activate
 text_to_speech.py
 
 ```{revealjs-literalinclude} code/text_to_speech.py
-:data-line-numbers: 6-12
+:data-line-numbers: 2,4|6-8|9,10
 ```
 
 ```{revealjs-break}
@@ -553,3 +566,25 @@ text_to_speech.py
 ### Can pronounce **Japanese** 🥳🥳
 
 ## **Summary**
+
+* Japanese is **Difficult**
+  * 3 Charcters, No spaces, Kanji readings
+* Python supports Japanese learning
+  * **jaconv**: Interconverter
+  * **SudachiPy**: Morphological analyzer
+  * **Amazon Polly**: Text to Speech
+  
+### 自分用の勉強アプリを作ってみて 🏗️
+
+## Thank you 🙏
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20240921pycontw/code)
+
+{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
