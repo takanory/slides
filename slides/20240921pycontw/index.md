@@ -19,25 +19,51 @@ PyCon Taiwan 2024 / 2024 Sep 21
 * Japanese is Difficult
 * Python supports Japanese leaning
 
+```{revealjs-notes}
+* The agenda for this talk is as follows.
+* I will talk about Background, Motivation and goal of this talk.
+* Next, I will introduce some of the difficulties of the Japanese language.
+* In the last part, I will explain how Python supports Japanese language learning, with examples.
+```
+
 ## Background and Motivation 🏞️
 
 ### Background and Motivation
 
 * Developing School **Textbook Web** at work
-  * Japanese NPL to make it **Easier to Learn**
+  * Japanese NLP to make it **Easier to Learn**
 * Python libs could help people **Learn Japanese**
+
+```{revealjs-notes}
+* Backgorund and Motivation of this talk.
+* I am developing web-based Textbook for jounior high school students at work.
+* I am using Japanese NLP to make the textbook easier to learn.
+* Based on this experience, I thought Python libraries could help people learn Japanese.
+```
 
 ### Background and Motivation(cont.)
 
 * [FSI language difficulty](https://www.fsi-language-courses.org/blog/fsi-language-difficulty/)
 * Japanese is "**super-hard languages**" for English speakers to learn
   * Mandarin, Cantonese, Korean and Arabic
+  
+```{revealjs-notes}
+* "FSI language difficulty" reports Japanese is ...
+* Others are Mandarin, ...
+```
 
 ### Goal
 
 * What is **difficult** about Japanese
 * How to use **Japanese NLP** libs and APIs
 * Python could support **learning Japanese**
+
+```{revealjs-notes}
+* The goals of this talk are
+* You know that is difficult about the Japanese language,
+* You know how to use the Japanese NLP libraries and APIs and
+* You understand that Python could support Japanese language learning
+```
 
 ## Photos 📷 Tweets 🐦 👍
 
@@ -67,6 +93,7 @@ I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
 I'm a Chairperson of PyCon JP Association.
 Also, I'm a director of BeProud Inc and my title is "Python CLimber".
 I'm also active in several Python related communities in Japan.
+And...
 ```
 
 ### PyCon **JP** 2024
@@ -79,6 +106,13 @@ I'm also active in several Python related communities in Japan.
 ```{image} images/pyconjp2024logo.png
 :alt: PyCon JP 2024 logo
 :width: 70%
+```
+
+```{revealjs-notes}
+I'm also Co-chair of PyCon JP 2024.
+Do you know PyCon JP?
+PyCon JP will be held next week.
+Tickets are now on sale. Hurry up!!
 ```
 
 ## Questions 🙋‍♂️
@@ -89,6 +123,10 @@ I'm also active in several Python related communities in Japan.
 
 ### Would you like to **visit** Japan? 🙋‍♀️ 🙋‍♂️
 
+```{revealjs-notes}
+There is a very good opportunity for you...
+```
+
 ### PyCon **JP** 2024
 
 * [`2024.pycon.jp`](https://2024.pycon.jp)
@@ -101,11 +139,20 @@ I'm also active in several Python related communities in Japan.
 :width: 70%
 ```
 
+```{revealjs-notes}
+PyCon JP 2024 will be held next week.
+See you again at PyCon JP.
+```
+
 ## Japanese is **Difficult** 😫
 
 * **3 Types** of Characters
 * **No Spaces** between Words
 * **Multiple Readings** of Kanji
+
+```{revealjs-notes}
+I will show you 3 difficult points of the Japanese language.
+```
 
 ### **3 Types** of Characters
 
@@ -168,6 +215,10 @@ Kanji | 蛇 | 麦酒
 
 ## **`<ruby>`** HTML Tag 💎
 
+```{revealjs-notes}
+I will explain the ruby tag before I talk about Python
+```
+
 ### What is **Ruby** ?
 
 * <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation**
@@ -188,7 +239,6 @@ Kanji | 蛇 | 麦酒
 <ruby>PyCon<rt>Python Conference</rt></ruby>
 <ruby>TW<rt>Taiwan</rt></ruby>
 2024
-
 ```
 
 * ref: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
@@ -245,11 +295,12 @@ hebi / へび / ヘビ
 
 ### **Romanization** of Japanese (Romaji)
 
-* 日本語の読みを表すためにアルファベットで書く
-* 地名の看板とかローマ字を使っている
-* ローマ字に変換してひらがなを勉強しよう
+* **Alphabet** to represent Japanese
+* **Romaji** is often used on **Information Sign**
 
 ![Ikebukuro station](images/ikebukuro.jpg)
+
+* Learn **Hiragana**/**Katakana** using Romaji
 
 ### jaconv
 
@@ -298,7 +349,7 @@ kana2roman.py
 
 * Japanese has **no spaces** between words
 * Use **Dictionary** to **Recognise** words
-* Japanese **Morphological Analysis** library required
+* Japanese **Morphological Analyzer** library required
 
 ### Japanese **Morphological Analyzer**
 
@@ -309,16 +360,28 @@ kana2roman.py
 (env) $ pip install sudachipy sudachidict_core
 ```
 
+```{revealjs-notes}
+There are several morphological analyzer libraries for Japanese.
+In this case, I use SudachiPy and SudachiDict
+```
+
 ### SudachiPy
 
-* Rust製で速い
-* 辞書が複数ある(small, core, full)
-  * ここではcoreを使用
+* Made with **Rust**, Very **Fast**
+* **Three Types** of Dictionaries
+  * Small: small vocabulary
+  * **Core**: basic vocabulary (**default**)
+  * Full: miscellaneous proper nouns
+
+```{revealjs-notes}
+SudachiPy is made by Rust and is very fast.
+SudachiDict has three types different dictionaries with different number of vocabularies.
+Here I use core dictionary, the default.
+```
 
 ### **Word Segmentation**
 
-* 辞書データを元に単語に分割するよ
-* ひらがなが読めない？
+* **Split** the words using **Dictionary**
 
 ```pycon
 >>> from sudachipy import Dictionary
@@ -335,6 +398,9 @@ kana2roman.py
 の
 うち
 ```
+
+* **Cannot read** Hiragana?
+
 
 ### **Word Segmentation** with Romaji
 
@@ -378,6 +444,10 @@ word_segmentation.py
   
 ### 😨
 
+```{revealjs-notes}
+It's difficult, but not only this.
+```
+
 ### Multiple Readings of **Kanji idioms**
 
 * Same combination but **different readings**
@@ -394,6 +464,11 @@ word_segmentation.py
   * 一月 **一日**(Jan 1st): <ruby>いちがつ<rt>i chi ga tsu</rt></ruby> <ruby>**ついたち**<rt>tsu i ta chi</rt></ruby>
 
 ### 😱 😱
+
+```{revealjs-notes)
+Terrible...
+And there is more...
+```
 
 ### **Special readings** of Kanji idioms
 
@@ -439,7 +514,7 @@ word_segmentation.py
 ```{revealjs-break}
 ```
 
-* Can't read **Katakana**? Use **jaconv**!
+* Cannot read **Katakana**? Use **jaconv**!
 
 ```
 >>> import jaconv
@@ -533,7 +608,8 @@ kanji_reading_romaji.py
 ### Text to **Speech**
 
 * [Amazon Polly - AWS](https://aws.amazon.com/polly/)
-* [Polly - Boto3 1.34.106 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly.html)
+  * 5 million chars free per month for 12 months
+* [Polly - Boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly.html)
 
 ```bash
 (env) $ pip install boto3
@@ -565,6 +641,15 @@ text_to_speech.py
 
 ### Can pronounce **Japanese** 🥳🥳
 
+## **Sample** App
+
+* {fab}`github` [learn-jp-with-python/learn_jp_tw.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_tw.py)
+
+```{image} images/demo_app.png
+:alt: Demo App
+:width: 70%
+```
+
 ## **Summary**
 
 * Japanese is **Difficult**
@@ -577,6 +662,10 @@ text_to_speech.py
 ## 🇯🇵 ❤️ {fab}`python`
 
 Learn **Japanese** with **Python**
+
+```{revealjs-notes}
+Please try to create your own Japanese learning tool!
+```
 
 ## Thank you 🙏
 
