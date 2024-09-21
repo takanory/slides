@@ -73,6 +73,8 @@ PyCon Taiwan 2024 / 2024 Sep 21
 
 [slides.takanory.net](https://slides.takanory.net)
 
+![slides.takanory.net](images/slides-takanory-net.png)
+
 ## Who am I? 👤
 
 ```{revealjs-break}
