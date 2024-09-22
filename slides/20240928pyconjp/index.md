@@ -306,7 +306,7 @@ Successfully installed janome-0.5.0
 <ruby><rb>美味しい</rb><rt>オイシイ</rt></ruby><ruby><rb>麦酒</rb><rt>ビール</rt></ruby><ruby><rb>を</rb><rt>ヲ</rt></ruby><ruby><rb>飲も</rb><rt>ノモ</rt></ruby><ruby><rb>う</rb><rt>ウ</rt></ruby>
 ```
 
-![実行結果1](images/result1.png)
+<ruby><rb>美味しい</rb><rt>オイシイ</rt></ruby><ruby><rb>麦酒</rb><rt>ビール</rt></ruby><ruby><rb>を</rb><rt>ヲ</rt></ruby><ruby><rb>飲も</rb><rt>ノモ</rt></ruby><ruby><rb>う</rb><rt>ウ</rt></ruby>
 
 ### フリガナを **ひらがな** にする
 
@@ -332,7 +332,7 @@ Successfully installed janome-0.5.0
 <ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby><ruby><rb>を</rb><rt>を</rt></ruby><ruby><rb>飲も</rb><rt>のも</rt></ruby><ruby><rb>う</rb><rt>う</rt></ruby>
 ```
 
-![フリガナがひらがなに](images/result2.png)
+<ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby><ruby><rb>を</rb><rt>を</rt></ruby><ruby><rb>飲も</rb><rt>のも</rt></ruby><ruby><rb>う</rb><rt>う</rt></ruby>
 
 ### 漢字が含まれる場合のみを対象に
 
@@ -366,7 +366,7 @@ Successfully installed janome-0.5.0
 <ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲も</rb><rt>のも</rt></ruby>う
 ```
 
-![「を」「う」のフリガナが消えた](images/result3.png)
+<ruby><rb>美味しい</rb><rt>おいしい</rt></ruby><ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲も</rb><rt>のも</rt></ruby>う
 
 ### 送りがなに対応
 
@@ -399,7 +399,7 @@ Successfully installed janome-0.5.0
 <ruby><rb>美味</rb><rt>おい</rt></ruby>しい<ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>もう
 ```
 
-![送りがなに対応](images/result4.png)
+<ruby><rb>美味</rb><rt>おい</rt></ruby>しい<ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>もう
 
 ### だがまだ完璧ではない
 
@@ -452,7 +452,7 @@ Successfully installed janome-0.5.0
 <ruby><rb>新出</rb><rt>しんしゅつ</rt></ruby><ruby><rb>漢字</rb><rt>かんじ</rt></ruby>を<ruby><rb>後付</rb><rt>あとづ</rt></ruby>けする
 ```
 
-![ユーザー定義辞書を利用](images/result5.png)
+<ruby><rb>新出</rb><rt>しんしゅつ</rt></ruby><ruby><rb>漢字</rb><rt>かんじ</rt></ruby>を<ruby><rb>後付</rb><rt>あとづ</rt></ruby>けする
 
 ### Janomeの辞書の **問題点**
 
@@ -478,7 +478,7 @@ Successfully installed janome-0.5.0
 ```bash
 (env) $ pip install sudachidict_core sudachipy
 ...
-Successfully installed sudachidict_core-20240109 sudachipy-0.6.8
+Successfully installed sudachidict_core-20240716 sudachipy-0.6.8
 ```
 
 ### SudachiPyで形態素解析
@@ -599,9 +599,10 @@ EOS
 
 ```bash
 (env) $ python furigana6.py "美味しい麦酒を飲もう。新出漢字を後付けする"
+<ruby><rb>美味</rb><rt>おい</rt></ruby>しい<ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>もう。<ruby><rb>新出</rb><rt>しんしゅつ</rt></ruby><ruby><rb>漢字</rb><rt>かんじ</rt></ruby>を<ruby><rb>後付</rb><rt>あとづ</rt></ruby>けする
 ```
 
-![SudachiPyでフリガナ](images/result6.png)
+<ruby><rb>美味</rb><rt>おい</rt></ruby>しい<ruby><rb>麦酒</rb><rt>びーる</rt></ruby>を<ruby><rb>飲</rb><rt>の</rt></ruby>もう。<ruby><rb>新出</rb><rt>しんしゅつ</rt></ruby><ruby><rb>漢字</rb><rt>かんじ</rt></ruby>を<ruby><rb>後付</rb><rt>あとづ</rt></ruby>けする
 
 ### 辞書を切り替え
 
@@ -652,7 +653,7 @@ $ python furigana7.py "追い出す、しみ込む、立ち入り禁止。アフ
 <ruby><rb>追い出</rb><rt>おいだ</rt></ruby>す、<ruby><rb>しみ込</rb><rt>しみこ</rt></ruby>む、<ruby><rb>立ち入り禁止</rb><rt>たちいりきんし</rt></ruby>。<ruby><rb>アフリカ大陸</rb><rt>あふりかたいりく</rt></ruby>と<ruby><rb>東アジア</rb><rt>ひがしあじあ</rt></ruby>
 ```
 
-![対応できていないパターン](images/result7.png)
+<ruby><rb>追い出</rb><rt>おいだ</rt></ruby>す、<ruby><rb>しみ込</rb><rt>しみこ</rt></ruby>む、<ruby><rb>立ち入り禁止</rb><rt>たちいりきんし</rt></ruby>。<ruby><rb>アフリカ大陸</rb><rt>あふりかたいりく</rt></ruby>と<ruby><rb>東アジア</rb><rt>ひがしあじあ</rt></ruby>
 
 ### doctestを追加
 
@@ -713,7 +714,7 @@ Got:
 <ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>す、しみ<ruby><rb>込</rb><rt>こ</rt></ruby>む、<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>禁止</rb><rt>きんし</rt></ruby>。アフリカ<ruby><rb>大陸</rb><rt>たいりく</rt></ruby>と<ruby><rb>東</rb><rt>ひがし</rt></ruby>アジア
 ```
 
-![改善されたフリガナ](images/result9.png)
+<ruby><rb>追</rb><rt>お</rt></ruby>い<ruby><rb>出</rb><rt>だ</rt></ruby>す、しみ<ruby><rb>込</rb><rt>こ</rt></ruby>む、<ruby><rb>立</rb><rt>た</rt></ruby>ち<ruby><rb>入</rb><rt>い</rt></ruby>り<ruby><rb>禁止</rb><rt>きんし</rt></ruby>。アフリカ<ruby><rb>大陸</rb><rt>たいりく</rt></ruby>と<ruby><rb>東</rb><rt>ひがし</rt></ruby>アジア
 
 ## フリガナレベル対応 🏫
 
@@ -796,7 +797,7 @@ Got:
 <ruby><rb>祇園精舎</rb><rt>ぎおんしょうじゃ</rt></ruby>の<ruby><rb>鐘</rb><rt>かね</rt></ruby>の声、諸行無常の<ruby><rb>響</rb><rt>ひびき</rt></ruby>あり。<ruby><rb>沙羅双樹</rb><rt>さらそうじゅ</rt></ruby>の花の色、<ruby><rb>盛者必衰</rb><rt>じょうしゃひっすい</rt></ruby>の理をあらはす。
 ```
 
-![中学生向けフリガナ](images/result10.png)
+<ruby><rb>祇園精舎</rb><rt>ぎおんしょうじゃ</rt></ruby>の<ruby><rb>鐘</rb><rt>かね</rt></ruby>の声、諸行無常の<ruby><rb>響</rb><rt>ひびき</rt></ruby>あり。<ruby><rb>沙羅双樹</rb><rt>さらそうじゅ</rt></ruby>の花の色、<ruby><rb>盛者必衰</rb><rt>じょうしゃひっすい</rt></ruby>の理をあらはす。
 
 ### さらなる拡張アイデア
 
