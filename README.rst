@@ -17,6 +17,8 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
+.. image:: /_static/qrcode.png
+
 2024
 ====
 .. list-table::
