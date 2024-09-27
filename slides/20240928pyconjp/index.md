@@ -28,16 +28,14 @@ PyCon JP 2024 / 2024 Sep 28
 
 ### ゴール 🥅
 
-* 自然言語処理がどういうものか知る
-* JanomeまたはSudachiPyを使った日本語処理ができそう
+* **自然言語処理** がどういうものか知る
+* JanomeやSudachiPyで **日本語処理ができそう**
 
 ## Photos 📷 Tweets 🐦 👍
 
 `#stapy` / `@takanory`
 
-### Slides / スライド 💻
-
-[slides.takanory.net](https://slides.takanory.net)
+### [`slides.takanory.net`](https://slides.takanory.net) 💻
 
 ![takanory slides](images/takanory-slides.png)
 
@@ -66,12 +64,17 @@ PyCon JP 2024 / 2024 Sep 28
 * [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
 * [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
 
-### PyCon JP **2024** 🇯🇵
+```{revealjs-break}
+:notitle:
+```
 
-* **9月後半** に **東京** で開催予定
-* 3名の **共同座長** (with [吉田さん](https://twitter.com/koedoyoshida/)、[寺田さん](https://twitter.com/terapyon/))
-* **主催メンバー** 募集中!!
-* 詳細: [座長決定と主催メンバー募集](https://pyconjp.blogspot.com/2024/01/pyconjp2024-co-chair.html)
+```{image} /assets/images/pyconjp2024logo.png
+:alt: PyCon JP 2024 logo
+:width: 50%
+```
+
+* [`2024.pycon.jp`](https://2024.pycon.jp)
+* 共同座長(Co-Chair)の1人
 
 ### **BeProud** Inc. 🏢
 
@@ -82,13 +85,9 @@ PyCon JP 2024 / 2024 Sep 28
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
-### Pythonプロフェッショナル<br />プログラミング 第4版
+### BeProud **Booth**
 
-* 2024年2月16日発売（5年ぶりに大幅改訂）
-* 468ページ、3,300円（税込）
-* **チーム開発** に必須の **プロの基礎知識** !!
-
-![Pythonプロフェッショナルプログラミング 第4版](images/pypro4.jpg)
+![BeProud logos](images/beproud-booth.jpg)
 
 ## **自然言語処理** とは 🗣️
 
@@ -460,6 +459,19 @@ Successfully installed janome-0.5.0
 * 「後付け」など登録されていない語が多い
 * 新しい単語が入っていない
   * **よりよい辞書**を持つライブラリへ
+  
+## お知らせ 🍺
+
+### 10 Python Beer Lovers
+
+* {fab}`github` [10-python-beer-lovers](https://github.com/10-python-beer-lovers/)
+* 10人の {fab}`python` 🍺 を愛する **個人**
+
+![10 Python Beer Lovers](images/10-python-beer-lovers.png)
+
+### Special Beer: Antigravity
+
+(TODO 写真)
 
 ## **SudachiPy** で形態素解析 🍊
 
@@ -473,7 +485,9 @@ Successfully installed janome-0.5.0
 ### SudachiPyをインストール
 
 * 辞書は `small`、`core`、`full` の3種類
+  * 語彙の数が違う
 * ここでは `core` をインストール
+* `core` が **デフォルト**
 
 ```bash
 (env) $ pip install sudachidict_core sudachipy
@@ -516,7 +530,7 @@ EOS
 飲もう
 ```
 
-### 読みなどの任意の情報を取得
+### **読み** などの任意の情報を取得
 
 ```pycon
 >>> tokens = list(tokenizer.tokenize("飲もう"))
@@ -532,7 +546,8 @@ EOS
 
 ### SudachiPyで分かち書き
 
-* 表層系(`surface()`)のリストを作成すれば分かち書きに
+* **表層系**(`surface()`)のリストを作成
+* →分かち書き
 
 ```pycon
 (env) $  python
@@ -546,7 +561,7 @@ EOS
 ```{revealjs-break}
 ```
 
-* 3種類の分割モード(Cがデフォルト)
+* 3種類の **分割モード**(Cがデフォルト)
 
 ```pycon
 >>> from sudachipy import Dictionary, SplitMode
@@ -560,7 +575,7 @@ EOS
 ['高輪ゲートウェイ駅', 'から', '国会議事堂前駅', 'に', '向かう']
 ```
 
-### 単語の正規化にも対応
+### 単語の **正規化** にも対応
 
 * `normalized_form()` で単語を正規化
 * 表記揺れ対策に使えるかも
@@ -635,7 +650,7 @@ EOS
 
 ## フリガナのさらなる **改善** ✨
 
-### 対応できていないパターン
+### **対応できていない** パターン
 
 * `[漢字]+[ひらがな]+` のパターンのみに対応
 * **途中** にひらがながあると対応できない
