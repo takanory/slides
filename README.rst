@@ -45,7 +45,7 @@
      * Talk
      * ja
      * `Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜 <https://2024.pycon.jp/en/talk/BQXVWE>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20240928pyconjp>`__
    - * `PyCon Taiwan 2024 <https://tw.pycon.org/2024/en-us/>`_
      * Kaohsiung, Taiwan
      * 2024 Sep
