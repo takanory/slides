@@ -33,7 +33,7 @@ PyCon JP 2024 / 2024 Sep 28
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#stapy` / `@takanory`
+`#pyconjp2024` / `@takanory`
 
 ### [`slides.takanory.net`](https://slides.takanory.net) 💻
 
