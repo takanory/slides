@@ -462,16 +462,20 @@ Successfully installed janome-0.5.0
   
 ## お知らせ 🍺
 
-### 10 Python Beer Lovers
+### [10 Python Beer Lovers](https://github.com/10-python-beer-lovers/)
 
-* {fab}`github` [10-python-beer-lovers](https://github.com/10-python-beer-lovers/)
 * 10人の {fab}`python` 🍺 を愛する **個人**
 
 ![10 Python Beer Lovers](images/10-python-beer-lovers.png)
 
-### Special Beer: Antigravity
+### Special Beer: **Antigravity**
 
-(TODO 写真)
+![Antigravity](images/antigravity_label.png)
+
+```{revealjs-break}
+```
+
+![Party](images/beer-party.jpg)
 
 ## **SudachiPy** で形態素解析 🍊
 
