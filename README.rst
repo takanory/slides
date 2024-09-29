@@ -39,6 +39,13 @@
      * en
      * How to learn Japanese with Python
      * 
+   - * BPStyle 165
+     * Online
+     * 2024 Oct
+     * Talk
+     * ja
+     * Travel Tips
+     * `Slides <https://slides.takanory.net/slides/20241003bpstyle>`__
    - * `PyCon JP 2024 <https://2024.pycon.jp/>`_
      * Tokyo, Japan
      * 2024 Sep
