@@ -1,4 +1,4 @@
-=================
+2=================
  takanory slides
 =================
 
@@ -32,6 +32,13 @@
      * lang
      * title
      * resource
+   - * `PyCon mini Tokai 2024 <https://tokai.pycon.jp/2024/>`_
+     * Aichi, Japan
+     * 2024 Nov
+     * Talk
+     * ja
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://tokai.pycon.jp/2024/#timetable>`__
+     * 
    - * `PyCon APAC 2024 <https://2024-apac.pycon.id/>`_
      * Yogyakarta, Indonesia
      * 2024 Oct
