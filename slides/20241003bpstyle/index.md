@@ -47,6 +47,31 @@ BPStyle 165 / 2024 Oct 3
 * 2 吹奏楽演奏会
 * 0 ただの旅行、帰省
 
+## 事前準備 🎫
+
+### 事前準備
+
+* 移動チケット確保
+* ホテル確保
+* PyConチケット確保
+* 旅費支援申し込み
+* etc.
+
+### スプレッドシートで状況を管理
+
+```{image} images/worldpycon.png
+:width: 48%
+```
+
+```{image} images/pycontw.png
+:width: 48%
+```
+
+### eチケット等のファイルをDropbox管理
+
+```{image} images/dropbox.png
+```
+
 ## スーツケース 🧳
 
 ### スーツケース
@@ -168,3 +193,36 @@ BPStyle 165 / 2024 Oct 3
 * 薄手のパーカー
 * アイマスク: テンピュール [スリープマスク](https://jp.tempur.com/tsh/travel/sleep-mask-TJP180015.html)
 * スリッパ、まくら、マスク
+
+## 荷造り 📦
+
+### 荷造り
+
+* アレ入れたっけ？
+* 朝起きてから入れるのどれだっけ？
+
+### 絶対忘れない
+
+* 現金
+* クレジットカード
+* スマートフォン
+* (パスポート)
+
+### 海外でのデータ通信
+
+* eSIM対応端末が便利
+* [ahamo](https://ahamo.com/): [だいたいの海外](https://ahamo.com/services/roaming-data/index.html)で20GB→30GB使える
+
+```{image} https://cache.cil.ahamo.com/assets/images/pages/services/roaming-data/map.png
+:alt: ahamo提供エリア
+:width: 55%
+```
+
+### 旅行準備チェックシート
+
+```{image} images/checksheet.png
+:alt: 旅行準備チェックシート
+:width: 40%
+```
+
+## Enjoy your Travel!! ✈️
