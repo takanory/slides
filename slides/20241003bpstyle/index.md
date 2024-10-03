@@ -122,7 +122,7 @@ BPStyle 165 / 2024 Oct 3
 
 * ホテルルーターというカテゴリー
 * ホテルの無線LAN設定をしなくていい
-  * ただ優先LANがないホテルも多い...
+  * ただ有線LANがないホテルも多い...
 
 ```{image} https://www.buffalo.jp/webpim/product/image/W/WMR-433W2/WMR-433W2-BK/WMR-433W2-BK__0100.jpg
 :alt: BUFFERO WMR-433W2
