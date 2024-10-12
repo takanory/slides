@@ -680,7 +680,7 @@ Reference
   * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
   * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
   * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
-  * `atsphinx-audioplayer v0.0.0 <https://atsphinx.github.io/audioplayer/en/>`_: Sphinx extension that renders html content for playing audio files
+  * `atsphinx-audioplayer <https://atsphinx.github.io/audioplayer/en/>`_: Sphinx extension that renders html content for playing audio files
 * `Cloudflare Pages <https://pages.cloudflare.com/>`_
 
-  * `Cloudflare Pages documentation · Cloudflare Pages docs <https://developers.cloudflare.com/pages>`_
+  * `Cloudflare Pages documentation <https://developers.cloudflare.com/pages>`_
