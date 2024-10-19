@@ -1,0 +1,4 @@
+boto3==1.35.23
+jaconv==0.4.0
+SudachiDict-core==20240716
+SudachiPy==0.6.8
