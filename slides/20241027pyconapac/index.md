@@ -9,6 +9,10 @@
 
 Takanori Suzuki
 
+```{image} images/pyconapac2024.png
+:width: 100
+```
+
 PyCon APAC 2024 / 2024 Oct 27
 
 ## Agenda ✅
@@ -42,7 +46,7 @@ PyCon APAC 2024 / 2024 Oct 27
 ### Background and Motivation(cont.)
 
 * [FSI language difficulty](https://www.fsi-language-courses.org/blog/fsi-language-difficulty/)
-* Japanese is "**super-hard languages**" for English speakers to learn
+  * Japanese is "**super-hard languages**" for English speakers to learn
   * Mandarin, Cantonese, Korean and Arabic
   
 ```{revealjs-notes}
@@ -67,7 +71,7 @@ PyCon APAC 2024 / 2024 Oct 27
 
 `#pycontw` / `@takanory`
 
-### [`slides.takanory.net`](https://slides.takanory.net) 💻
+### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net) 💻
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
@@ -96,7 +100,7 @@ And...
 
 ### PyCon JP Association
 
-[`www.pycon.jp`](https://www.pycon.jp/committee/english.html)
+{fas}`globe` [`www.pycon.jp`](https://www.pycon.jp/committee/english.html)
 
 **Nonprofit** organization for **Python users** in Japan, to **promote Python** and supports its development. Further it is **our goal** to hold an annual **PyCon JP**.
 
@@ -104,32 +108,39 @@ And...
 
 ### PyCon JP **2025**
 
-* [`2025.pycon.jp`](https://2025.pycon.jp/)
+* {fas}`globe` [`2025.pycon.jp`](https://2025.pycon.jp/)
 * Date: 2025 **Sep 26**(Fri)-**27**(Sat)
 * Place: **Hiroshima**, Japan
 * There are **English talks**
 
 ```{image} images/pyconjp2025-in-hiroshima.jpg
 :alt: PyCon JP 2025 in Hiroshima
-:width: 70%
+:width: 60%
 ```
 
 ```{revealjs-notes}
-I'm also Co-chair of PyCon JP 2024.
 Do you know PyCon JP?
-PyCon JP will be held next week.
-Tickets are now on sale. Hurry up!!
+PyCon JP 2025 will be held in Hiroshima at the end of September.
+For the first time, PyCon JP will be held outside of Tokyo!
+Do you know Hiroshima?...
 ```
 
 ### Hiroshima? ⛩️
 
-* 広島のなんか説明
+* Fukushima - **Hiroshima** - Kyoto - Tokyo - Hokkaido
 * [Direct flights to Hiroshima - HIJ, Japan](https://www.directflights.com/to/HIJ)
   * Seoul, Taipei, Shanghai, Hong Kong, Dalian, Hanoi
 
 ```{image} https://maps.directflights.com/directflights/800/HIJ.jpg
 :alt: Direct flights to Hiroshima
 :width: 40%
+```
+
+```{revealjs-notes}
+Do you know Hiroshima?...
+Hiroshima location is west of Tokyo and Kyoto.
+Hiroshima has several direct flights from overseas, but sorry, none from Indonesia.
+But I am here in Yogyakarta. You can go to Hiroshima too.
 ```
 
 ## Questions 🙋‍♂️
@@ -146,18 +157,18 @@ There is a very good opportunity for you...
 
 ### PyCon JP **2025**
 
-* [`2025.pycon.jp`](https://2025.pycon.jp/)
+* {fas}`globe` [`2025.pycon.jp`](https://2025.pycon.jp/)
 * Date: 2025 **Sep 26**(Fri)-**27**(Sat)
 * Place: **Hiroshima**, Japan
 * There are **English talks**
 
 ```{image} images/pyconjp2025-in-hiroshima.jpg
 :alt: PyCon JP 2025 in Hiroshima
-:width: 70%
+:width: 60%
 ```
 
 ```{revealjs-notes}
-PyCon JP 2025 will be held in Sep.
+PyCon JP 2025 will be held in Hiroshima in September.
 See you again at PyCon JP.
 ```
 
@@ -249,12 +260,12 @@ I will explain the ruby tag before I talk about Python
 * `<rt>` specifies the **ruby text** component
 
 <ruby>PyCon<rt>Python Conference</rt></ruby>
-<ruby>TW<rt>Taiwan</rt></ruby>
+<ruby>APAC<rt>Asia Pacific</rt></ruby>
 2024
 
 ```html
 <ruby>PyCon<rt>Python Conference</rt></ruby>
-<ruby>TW<rt>Taiwan</rt></ruby>
+<ruby>APAC<rt>Asia Pacific</rt></ruby>
 2024
 ```
 
@@ -265,12 +276,12 @@ I will explain the ruby tag before I talk about Python
 * **Alphabet** annotation: Pronounciation
 
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
-<ruby>たいわん<rt>ta i wa n</rt></ruby>
-(PyCon Taiwan)
+<ruby>えいぱっく<rt>e i pa kku</rt></ruby>
+(PyCon APAc)
 
 ```html
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
-<ruby>たいわん<rt>ta i wa n</rt></ruby>
+<ruby>えいぱっく<rt>e i pa kku</rt></ruby>
 ```
 
 ```{revealjs-break}
@@ -279,13 +290,13 @@ I will explain the ruby tag before I talk about Python
 * **Hiragana** annotation: Readings
 * <ruby>ふりがな<rt>fu ri ga na</rt></ruby>
 
-<ruby>パイコン<rt>ぱいこん</rt></ruby>
-<ruby>台湾<rt>たいわん</rt></ruby>
-(PyCon Taiwan)
+<ruby>インドネシア<rt>いんどねしあ</rt></ruby>
+<ruby>共和国<rt>きょうわこく</rt></ruby>
+(Republic of Indonesia)
 
 ```html
-<ruby>パイコン<rt>ぱいこん</rt></ruby>
-<ruby>台湾<rt>たいわん</rt></ruby>
+<ruby>インドネシア<rt>いんどねしあ</rt></ruby>
+<ruby>共和国<rt>きょうわこく</rt></ruby>
 ```
 
 ### Understand **`<ruby>`** Tag 💡
@@ -306,7 +317,7 @@ hebi / へび / ヘビ
 ```
 
 * Basically use Hiragana
-  * <ruby>たいわん<rt>ta i wa n</rt></ruby>
+  * <ruby>いんどねしあ<rt>i n do ne shi a</rt></ruby> (Indonesia)
 * Katakana is used for foreign words
   * <ruby><ruby>パイコン<rt>pa i ko n</rt></ruby> (PyCon)
 
@@ -331,8 +342,8 @@ $ . env/bin/activate
 
 ```pycon
 >>> import jaconv
->>> jaconv.kana2alphabet("たいわん")  # Hiragana -> alphabet
-'taiwan'
+>>> jaconv.kana2alphabet("いんどねしあ")  # Hiragana -> alphabet
+'indoneshia'
 >>> jaconv.kata2alphabet("パイコン")  # Katakana -> alphabet
 'paikon'
 ```
@@ -349,11 +360,11 @@ kana2roman.py
 ```
 
 ```bash
-(env) $ python kana2roman.py パイコンたいわん
-<ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
+(env) $ python kana2roman.py パイコンえいぱっく
+<ruby>パイコンえいぱっく<rt>paikoneipakku</rt></ruby>
 ```
 
-<ruby>パイコンたいわん<rt>paikontaiwan</rt></ruby>
+<ruby>パイコンえいぱっく<rt>paikoneipakku</rt></ruby>
 
 ### Can read **Hiragana** and **Katakana** 🎉
 
@@ -482,7 +493,7 @@ It's difficult, but not only this.
 
 ### 😱 😱
 
-```{revealjs-notes)
+```{revealjs-notes}
 Terrible...
 And there is more...
 ```
@@ -661,11 +672,11 @@ text_to_speech.py
 
 ## **Sample** App
 
-* {fab}`github` [learn-jp-with-python/learn_jp_tw.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_tw.py)
+* {fab}`github` {fab}`streamlit` [learn-jp-with-python/learn_jp_apac.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_apac.py)
 
 ```{image} images/demo_app.png
 :alt: Demo App
-:width: 70%
+:width: 60%
 ```
 
 ## **Summary**
