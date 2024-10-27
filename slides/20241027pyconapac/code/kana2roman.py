@@ -3,8 +3,8 @@ import jaconv
 
 def kana2romaji(kana: str) -> str:
     """Convert Hiragana and Katakana to Romaji"""
-    hiragana = jaconv.kata2hira(kana)
-    return jaconv.kana2alphabet(hiragana)
+    hiragana = jaconv.kata2hira(kana)  # Katakana -> Hiragana
+    return jaconv.kana2alphabet(hiragana)  # Hiragana -> alphabet
 
 def kana_with_romaji_ruby(kana: str) -> str:
     """Add romaji ruby to Kana text"""

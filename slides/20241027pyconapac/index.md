@@ -13,7 +13,12 @@ Takanori Suzuki
 :width: 100
 ```
 
-PyCon APAC 2024 / 2024 Oct 27
+PyCon APAC 2024 / 2024 Oct
+
+```{revealjs-notes}
+Terima kasih semuanya sudah datang.
+Namaku Takanori Suzuki.
+```
 
 ## Agenda ✅
 
@@ -30,6 +35,10 @@ PyCon APAC 2024 / 2024 Oct 27
 
 ## Background and Motivation 🏞️
 
+```{revealjs-notes}
+* Backgorund and Motivation of this talk...
+```
+
 ### Background and Motivation
 
 * Developing School **Textbook Web** at work
@@ -37,7 +46,7 @@ PyCon APAC 2024 / 2024 Oct 27
 * Python libs could help people **Learn Japanese**
 
 ```{revealjs-notes}
-* Backgorund and Motivation of this talk.
+* Backgorund and Motivation of this talk...
 * I am developing web-based Textbook for jounior high school students at work.
 * I am using Japanese NLP to make the textbook easier to learn.
 * Based on this experience, I thought Python libraries could help people learn Japanese.
@@ -54,6 +63,16 @@ PyCon APAC 2024 / 2024 Oct 27
 * Others are Mandarin, ...
 ```
 
+### Background and Motivation(cont.)
+
+![Call to Action](images/learn-new-language.jpg)
+
+  
+```{revealjs-notes}
+Yesterday, Anthony Show said "learn a new language!" in the keynote.
+I hope my talk will help Pythonistas who want to learn Japanese.
+```
+
 ### Goal
 
 * What is **difficult** about Japanese
@@ -62,18 +81,23 @@ PyCon APAC 2024 / 2024 Oct 27
 
 ```{revealjs-notes}
 * The goals of this talk are
-* You know that is difficult about the Japanese language,
+* You know what is difficult about the Japanese language,
 * You know how to use the Japanese NLP libraries and APIs and
 * You understand that Python could support Japanese language learning
 ```
 
-## Photos 📷 Tweets 🐦 👍
+## Photos 📷 Share 🐦 👍
 
-`#pycontw` / `@takanory`
+`#pyconapac` / `@takanory`
 
 ### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net) 💻
 
 ![slides.takanory.net](images/slides-takanory-net.png)
+
+```{revealjs-notes}
+This slide has been published.
+Please visit slides.takanory.net or via QR code and click on the "Slides" link!
+```
 
 ## Who am I? 👤
 
@@ -92,10 +116,9 @@ PyCon APAC 2024 / 2024 Oct 27
 
 ```{revealjs-notes}
 I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
-I'm a Chairperson of PyCon JP Association.
-Also, I'm a director of BeProud Inc and my title is "Python CLimber".
+I'm a Chair of PyCon JP Association.
+And I'm a director of BeProud Inc and my title is "Python CLimber".
 I'm also active in several Python related communities in Japan.
-And...
 ```
 
 ### PyCon JP Association
@@ -103,6 +126,12 @@ And...
 {fas}`globe` [`www.pycon.jp`](https://www.pycon.jp/committee/english.html)
 
 **Nonprofit** organization for **Python users** in Japan, to **promote Python** and supports its development. Further it is **our goal** to hold an annual **PyCon JP**.
+
+```{revealjs-notes}
+PyCon JP Association is a nonprofit...
+We hold PyCon JP every year.
+Do you know PyCon JP?
+```
 
 ![PyCon JP Association](/assets/images/pyconjp_logo.png)
 
@@ -119,9 +148,8 @@ And...
 ```
 
 ```{revealjs-notes}
-Do you know PyCon JP?
 PyCon JP 2025 will be held in Hiroshima at the end of September.
-For the first time, PyCon JP will be held outside of Tokyo!
+This is the first PyCon JP to be held outside of Tokyo.
 Do you know Hiroshima?...
 ```
 
@@ -139,8 +167,8 @@ Do you know Hiroshima?...
 ```{revealjs-notes}
 Do you know Hiroshima?...
 Hiroshima location is west of Tokyo and Kyoto.
-Hiroshima has several direct flights from overseas, but sorry, none from Indonesia.
-But I am here in Yogyakarta. You can go to Hiroshima too.
+Hiroshima has several direct flights from overseas, but sorry, no direct flights from indonesia.
+But I came here in Yogyakarta. You should be able to go to Hiroshima too.
 ```
 
 ## Questions 🙋‍♂️
@@ -152,6 +180,7 @@ But I am here in Yogyakarta. You can go to Hiroshima too.
 ### Would you like to **visit** Japan? 🙋‍♀️ 🙋‍♂️
 
 ```{revealjs-notes}
+Almost everyone.
 There is a very good opportunity for you...
 ```
 
@@ -168,8 +197,8 @@ There is a very good opportunity for you...
 ```
 
 ```{revealjs-notes}
-PyCon JP 2025 will be held in Hiroshima in September.
-See you again at PyCon JP.
+PyCon JP 2025 will be held in Hiroshima in next September.
+See you again at PyCon JP 2025.
 ```
 
 ## Japanese is **Difficult** 😫
@@ -191,6 +220,11 @@ Hiragana | へび | びーる
 Katakana | ヘビ | ビール
 Kanji | 蛇 | 麦酒
 
+```{revealjs-notes}
+Japanese language has 3 types of characters: hiragana, katakana, and kanji.
+This table shows 3 different caracthers for each snake and beer
+```
+
 ### **No Spaces** between Words
 
 <ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
@@ -206,25 +240,46 @@ Kanji | 蛇 | 麦酒
 
 "Plums and peaches are part of peaches"
 
+```{revealjs-notes}
+This sentence is a play on words, but it is correct Japanese.
+Most Japanese can correctly break this sentence into words.
+```
+
 ### **Multiple Readings** of Kanji
 
 * **日**: day, sun
-* Taiwanese pronounciation: ri(?)
 
+```{revealjs-notes}
+For example. This kanji means day or sun.
+```
+
+```{revealjs-break}
+```
+
+* 2 **styles of readings**
+* **Japanese**-style reading(<ruby>訓読み<rt>kun yomi</rt></ruby>)
+* **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>)
+
+```{revealjs-notes}
+Many kanji have 2 styles of readings.
+```
+  
 ```{revealjs-break}
 ```
 
 * **日**: day, sun
-* **Japanese**-style reading(<ruby>訓読み<rt>kun yomi</rt></ruby>)
-  * にち(nichi)、ひ(hi)
-* **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>)
-  * じつ(jitsu)、か(ka)
+* **Japanese**-style reading: にち(nichi)、ひ(hi)
+* **Chinese**-style reading: じつ(jitsu)、か(ka)
+
+```{revealjs-notes}
+This kanji has a total of four different readings.
+```
 
 ```{revealjs-break}
 ```
 
-* **Japanese**-style reading: にち(nichi)、ひ(hi)
-* **Chinese**-style reading: じつ(jitsu)、か(ka)
+* Japanese-style reading: にち(nichi)、ひ(hi)
+* Chinese-style reading: じつ(jitsu)、か(ka)
 * How to read?
   * 日曜日 (Sunday)
   * 前日 (Previous day)
@@ -232,14 +287,22 @@ Kanji | 蛇 | 麦酒
 ```{revealjs-break}
 ```
 
-<ruby>日<rt>**nichi**</rt></ruby><ruby>曜<rt>yo</rt></ruby><ruby>日<rt>**bi**</rt></ruby> (Sunday) / <ruby>前<rt>zen</rt></ruby><ruby>日<rt>**jitsu**</rt></ruby> (Previous day)
-
-* **Japanese**-style reading: にち(nichi)、ひ(hi)
-* **Chinese**-style reading: じつ(jitsu)、か(ka)
+* <ruby>日<rt>**nichi**</rt></ruby><ruby>曜<rt>yo</rt></ruby><ruby>日<rt>**bi**</rt></ruby> (Sunday)
+  * Japanese-style reading: にち(nichi)、ひ(hi)
+* <ruby>前<rt>zen</rt></ruby><ruby>日<rt>**jitsu**</rt></ruby> (Previous day)
+  * Chinese-style reading: じつ(jitsu)、か(ka)
 
 ### Japanese is **Difficult**!! 😱
 
-## {fab}`python` Python supports Japanese leaning
+```{revealjs-notes}
+Japanese is Difficult!! But...
+```
+
+## {fab}`python` **Python** supports **Japanese** leaning
+
+```{revealjs-notes}
+We have Python!!
+```
 
 ## **`<ruby>`** HTML Tag 💎
 
@@ -271,6 +334,10 @@ I will explain the ruby tag before I talk about Python
 
 * ref: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
 
+```{revealjs-notes}
+If I write a ruby tag like this, it will be displayed like this in a web browser
+```
+
 ### Indicate **pronunciation** with `<ruby>`
 
 * **Alphabet** annotation: Pronounciation
@@ -282,6 +349,10 @@ I will explain the ruby tag before I talk about Python
 ```html
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
 <ruby>えいぱっく<rt>e i pa kku</rt></ruby>
+```
+
+```{revealjs-notes}
+This slide uses the ruby tag to indicate pronunciation with alphabet.
 ```
 
 ```{revealjs-break}
@@ -299,7 +370,15 @@ I will explain the ruby tag before I talk about Python
 <ruby>共和国<rt>きょうわこく</rt></ruby>
 ```
 
+```{revealjs-notes}
+The ruby tag is also used to Furigana, the reading of other characters in hiragana.
+```
+
 ### Understand **`<ruby>`** Tag 💡
+
+```{revealjs-notes}
+Now we understand the ruby tag, let's move on to Python.
+```
 
 ## **Hiragana** and **Katakana** (あ / ア)
 
@@ -310,16 +389,16 @@ hebi / へび / ヘビ
 * Hiragana and Katakana are **phonogram**
 * 1 character represent a phoneme(speech sound)
   * Like a Japanese **alphabet**
-* Hiragana: <ruby>あかさたな<rt>a ka sa ta na</rt></ruby>...
-* Katakana: <ruby>アカサタナ<rt>a ka sa ta na</rt></ruby>...
+* Hiragana: <ruby>あかさたな<rt> a ka sa ta na</rt></ruby>...
+* Katakana: <ruby>アカサタナ<rt> a ka sa ta na</rt></ruby>...
 
 ```{revealjs-break}
 ```
 
 * Basically use Hiragana
-  * <ruby>いんどねしあ<rt>i n do ne shi a</rt></ruby> (Indonesia)
+  * <ruby>いんどねしあ<rt>i n do ne shi a </rt></ruby> (Indonesia)
 * Katakana is used for foreign words
-  * <ruby><ruby>パイコン<rt>pa i ko n</rt></ruby> (PyCon)
+  * <ruby><ruby>パイコン<rt>pa i ko n </rt></ruby> (PyCon)
 
 ### **Romanization** of Japanese (Romaji)
 
@@ -381,6 +460,19 @@ kana2roman.py
 
 ### Japanese **Morphological Analyzer**
 
+* see: {fab}`github` [taishi-i/awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources?tab=readme-ov-file#morphology-analysis)
+
+```{image} images/japanese-nlp.png
+:alt: Japanese Morphological Analyzers
+:width: 60%
+```
+
+```{revealjs-notes}
+There are many morphological analyzer libraries for Japanese.
+```
+
+### Japanese **Morphological Analyzer**
+
 * SudachiPy: [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
 * SudachiDcit: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
 
@@ -389,7 +481,6 @@ kana2roman.py
 ```
 
 ```{revealjs-notes}
-There are several morphological analyzer libraries for Japanese.
 In this case, I use SudachiPy and SudachiDict
 ```
 
@@ -696,7 +787,7 @@ Learn **Japanese** with **Python**
 Please try to create your own Japanese learning tool!
 ```
 
-## Thank you 🙏
+## Thank you / Terima kasih 🙏
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 {fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20240921pycontw/code)
