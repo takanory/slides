@@ -92,7 +92,10 @@ I hope my talk will help Pythonistas who want to learn Japanese.
 
 ### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net) 💻
 
-![slides.takanory.net](images/slides-takanory-net.png)
+```{image} images/slides-takanory-net.png
+:alt: slides.takanory.net
+:width: 75%
+```
 
 ```{revealjs-notes}
 This slide has been published.
