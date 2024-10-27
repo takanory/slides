@@ -44,8 +44,8 @@
      * 2024 Oct
      * Talk
      * en
-     * How to learn Japanese with Python
-     * 
+     * `How to learn Japanese with Python <https://pretalx.com/pycon-apac-2024/talk/ZBEVZK/>`_
+     * `Slides <https://slides.takanory.net/slides/20241027pyconapac>`__
    - * BPStyle 165
      * Online
      * 2024 Oct
