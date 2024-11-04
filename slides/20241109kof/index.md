@@ -9,37 +9,35 @@
 
 をPythonプロフェッショナルプログラミングの
 
-**改訂の歴史** から知る
+**改訂の歴史**から知る
 
 Takanori Suzuki
 
-![KOF2024 logo](https://www.k-of.jp/2024/wp-content/uploads/2024/07/cropped-logomark1.png)
+![KOF2024 logo](images/kof2024logo.png)
 
 関西オープンフォーラム / 2024 Nov 9
 
 ## Agenda / アジェンダ 📜
 
-* Pythonプロフェッショナルプログラミング(以下: PyPro)**出版の歴史** を紹介
-* 章ごと **改訂** の歴史を見る
+* Pythonプロフェッショナルプログラミング(以下: PyPro)**出版の歴史**を紹介
+* 章ごと**改訂**の歴史を見る
 
 ### Goal / ゴール 🥅
 
-* Python **開発の変遷** を知る
-* 自身の **プロジェクトの参考** になる
+* Python**チーム開発の変遷**を知る
+* 自身の**プロジェクトの参考**になる
   * なにか導入してみたくなる
-* （PyPro4を **買いたく** なる）
+* （PyPro4を**買いたく**なる🤑）
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#osc24do` / `@takanory`
+`#kof2024` / `@takanory`
 
-### Slides / スライド 💻
-
-[slides.takanory.net](https://slides.takanory.net/)
+### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/)
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
-## **Who** am I? / お前 **誰よ** 👤
+## **Who** am I? / お前**誰よ** 👤
 
 * Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 * [PyCon JP Association](https://www.pycon.jp/) 代表理事
@@ -51,13 +49,13 @@ Takanori Suzuki
 
 ### PyCon JP **Association** 🐍
 
-日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした **非営利組織**
+日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした**非営利組織**
 
 [`www.pycon.jp`](https://www.pycon.jp)
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
-### PyCon JP Associationの **主な活動**
+### PyCon JP Associationの**主な活動**
 
 * PyCon JP: 年1の大規模カンファレンス
 * [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html): 初心者向けチュートリアル
@@ -68,13 +66,13 @@ Takanori Suzuki
 
 ![PyCon JP Association ブース](images/booth.jpg)
 
-### PyCon JP **2024**
+### PyCon JP **2025**
 
-* {fas}`globe` [`2024.pycon.jp`](https://2024.pycon.jp/)
-* **9月27-29日** に **東京** で開催予定
-  * **旅費の支援** もあるよ
-* 3名の **共同座長**(with 吉田さん、寺田さん)
-* **主催メンバー** も継続して募集中
+* {fas}`globe` [`2025.pycon.jp`](https://2024.pycon.jp/)
+* **2025年9月26、27日**に**広島**で開催予定
+  * **旅費の支援**もあるよ
+* 座長は西本卓也さん
+* 参考: [PyCon JP 2025は来年9月に広島での開催が決定！座長は西本卓也さん！](https://pyconjp.blogspot.com/2024/10/pyconjp2025-co-chair.html)
 ### **BeProud** Inc. 🏢
 
 * [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
@@ -86,21 +84,21 @@ Takanori Suzuki
 
 ### Pythonプロフェッショナル<br />プログラミング
 
-* **ビープラウド** が執筆した書籍
-* ビープラウドに新たに **加わったメンバー** が、プロジェクトに **円滑に参加** するためのガイド
-  * **Python** で開発する **チーム** に役立つはず
-  * **当時の開発スタイル** が見えてくる
+* **ビープラウド**が執筆した書籍
+* ビープラウドに新たに**加わったメンバー**が、プロジェクトに**円滑に参加**するためのガイド
+  * **Python**で開発する**チーム**に役立つはず
+  * **当時の開発スタイル**が見えてくる
 
-## PyPro出版の **歴史** 📚
+## PyPro出版の**歴史** 📚
 
-### PyPro出版の **歴史** 📚
+### PyPro出版の**歴史** 📚
 
 * **初版**(PyPro): 2012年3月27日
 * **第2版**(PyPro2): 2015年2月27日
 * **第3版**(PyPro3): 2018年6月12日
 * **第4版**(PyPro4): 2024年2月16日
 
-### どれくらい **間があいた** のか
+### どれくらい**間があいた**のか
 
 ```python
 >>> from datetime import date
@@ -108,15 +106,15 @@ Takanori Suzuki
 >>> pypro2 = date(2015, 2, 27)
 >>> pypro3 = date(2018, 6, 12)
 >>> pypro4 = date(2024, 2, 16)
->>> pypro2 - pypro
-datetime.timedelta(days=1067)
->>> pypro3 - pypro2
-datetime.timedelta(days=1201)
->>> pypro4 - pypro3
-datetime.timedelta(days=2075)
+>>> (pypro2 - pypro).days / 365
+2.9232876712328766
+>>> (pypro3 - pypro2).days / 365
+3.2904109589041095
+>>> (pypro4 - pypro3).days / 365
+5.684931506849315
 ```
 
-### [PyPro](https://www.shuwasystem.co.jp/book/9784798032948.html) (黒)
+### [PyPro](https://www.shuwasystem.co.jp/book/9784798032948.html)（黒）
 
 * 発売日: 2012年3月27日
 * 464ページ
@@ -124,7 +122,7 @@ datetime.timedelta(days=2075)
 
 ![pypro1](images/pypro1.jpg)
 
-### [PyPro](https://www.shuwasystem.co.jp/book/9784798032948.html) 著者
+### [PyPro](https://www.shuwasystem.co.jp/book/9784798032948.html)著者
 
 * リーダー: 清水川貴之
 * 岡野真也、池田洋介、畠弥峰、drillbits、cactusman、東健太、tell-k、今川館、ナツ、文殊堂、aita、冨田洋祐
@@ -139,7 +137,7 @@ datetime.timedelta(days=2075)
 * ロンドンオリンピック開催
 * Wii U発売
 
-### [PyPro2](https://www.shuwasystem.co.jp/book/9784798043159.html) (黒+赤)
+### [PyPro2](https://www.shuwasystem.co.jp/book/9784798043159.html)（黒+赤）
 
 * 発売日: 2015年2月27日
 * 472ページ
@@ -147,7 +145,7 @@ datetime.timedelta(days=2075)
 
 ![pypro2](images/pypro2.jpg)
 
-### [PyPro2](https://www.shuwasystem.co.jp/book/9784798043159.html) 著者
+### [PyPro2](https://www.shuwasystem.co.jp/book/9784798043159.html)著者
 
 * リーダー: 清水川貴之
 * 岡野真也、drillbits、cactusman、東健太、tell-k、文殊堂、冨田洋祐、**aodag**、**鈴木たかのり**、**清原弘貴**
@@ -163,7 +161,7 @@ datetime.timedelta(days=2075)
 * 北陸新幹線が開業
 * Apple Watch発売
 
-### [PyPro3](https://www.shuwasystem.co.jp/book/9784798053820.html) (黒+青)
+### [PyPro3](https://www.shuwasystem.co.jp/book/9784798053820.html)（黒+青）
 
 * 発売日: 2018年6月12日
 * 488ページ
@@ -171,7 +169,7 @@ datetime.timedelta(days=2075)
 
 ![pypro3](images/pypro3.jpg)
 
-### [PyPro3](https://www.shuwasystem.co.jp/book/9784798053820.html) 著者
+### [PyPro3](https://www.shuwasystem.co.jp/book/9784798053820.html)著者
 
 * リーダー: 鈴木たかのり
 * 清水川貴之、tell-k、清原弘貴、**James Van Dyne**、**的場達矢**、**吉田花春**、**新木雅也**、**altnight**、川村愛美、**石上晋**
@@ -187,7 +185,7 @@ datetime.timedelta(days=2075)
 * ZOZOSUITがリリース
 * Google Home、Amazon Echo発売開始
 
-### [PyPro4](https://www.shuwasystem.co.jp/book/9784798070544.html) (黒+緑)
+### [PyPro4](https://www.shuwasystem.co.jp/book/9784798070544.html)（黒+緑）
 
 * 発売日: 2024年2月16日
 * 468ページ
@@ -195,7 +193,7 @@ datetime.timedelta(days=2075)
 
 ![pypro4](images/pypro4.jpg)
 
-### [PyPro4](https://www.shuwasystem.co.jp/book/9784798070544.html) 著者
+### [PyPro4](https://www.shuwasystem.co.jp/book/9784798070544.html)著者
 
 * リーダー: 石上晋
 * **鈴木駿**、altnight、鈴木たかのり、**Yukie**、**荻野真志**、吉田花春、**降籏洋行**、川村愛美、的場達矢
@@ -204,25 +202,25 @@ datetime.timedelta(days=2075)
 
 ### [2024年](https://ja.wikipedia.org/wiki/2024%E5%B9%B4)のできごと
 
-* [Python 3.12.4](https://peps.python.org/pep-0693/)、[Python 3.13](https://peps.python.org/pep-0719/)(10月)
+* [Python 3.12.4](https://peps.python.org/pep-0693/)、[Python 3.13](https://peps.python.org/pep-0719/)（10月）
 * [Django 5.0.6](https://docs.djangoproject.com/en/5.0/releases/5.0.6/)
 * Python 3.7以前は[EOL](https://endoflife.date/python)、Django 3.2が[4月にEOL](https://endoflife.date/django)
-* Apple Vision Pro発売(2月)日本で発売(6月)
-* 日本銀行券が刷新(7月)
-* パリオリンピック開催(7月)
+* Apple Vision Pro発売（アメリカ2月、日本6月）
+* 日本銀行券が刷新（7月）
+* パリオリンピック開催（7月）
 
 ### PyPro出版の歴史のまとめ
 
-* **12年** で **4回** 出版
-* **メンバー** を **入れ替え** ながら
-* 執筆 **リーダー** も **代わり** ながら
+* **12年間**で**4回**出版
+* **メンバー**を**入れ替え**ながら
+* 執筆**リーダー**も**代わり**ながら
 
 ![pypro1](images/pypro1.jpg)
 ![pypro2](images/pypro2.jpg)
 ![pypro3](images/pypro3.jpg)
 ![pypro4](images/pypro4.jpg) 
 
-## 章ごと **改訂** の歴史を見る 🆙
+## 章ごと**改訂**の歴史を見る 🆙
 
 ## 1. Pythonのセットアップ 🐍
 
@@ -231,9 +229,35 @@ datetime.timedelta(days=2075)
 * Python: Python 3.11
 * 開発環境: [Docker](https://www.docker.com/) / Docker Composeを採用
 * 便利なツール
-  * [Black](https://black.readthedocs.io/): コード整形ツール(2018年リリース)
-  * [Ruff](https://docs.astral.sh/ruff/): Pythonリンター(2022年リリース)
+  * [Black](https://black.readthedocs.io/): コード整形（2018年）
+  * [Ruff](https://docs.astral.sh/ruff/): Pythonリンター（2022年）
   * [mypy](https://www.mypy-lang.org/): 型ヒントの静的型チェッカー
+  
+### **Black**: コード整形
+
+* {fas}`globe` [`black.readthedocs.io`](https://black.readthedocs.io/)
+* 1行の文字数以外はほぼ**カスタマイズできない**
+
+```bash
+$ pip install black
+$ black src/ hogehoge.py  # コードをフォーマット
+$ black --check src/ hogehoge.py  # フォーマット対象があるかチェック
+```
+
+* Ruff（次で紹介）に置き換わりつつある
+
+### **Ruff**: Pythonリンター
+
+* {fas}`globe` [docs.astral.sh/ruff](https://docs.astral.sh/ruff/)
+* さまざまな[ルール](https://docs.astral.sh/ruff/rules/)でコードをチェック
+* Rust製で**速い**
+
+```bash
+$ pip install ruff
+$ ruff check  # 全ファイルをチェック
+$ ruff check --fix  # 可能なら自動で修正
+$ ruff format  # 全ファイルをフォーマット
+```
 
 ### PyPro2 → PyPro3
 
@@ -243,6 +267,19 @@ datetime.timedelta(days=2075)
 * 仮想環境: [venv](https://docs.python.org/ja/3/library/venv.html) (Python 3.3以降)
 * 便利なツール: [Flake8](https://github.com/pycqa/flake8): Pythonリンター
 * バージョン管理: Gitに変更
+
+### **venv**: Python仮想環境
+
+* Python 3.3から標準
+* プロジェクト毎の**仮想環境**を作成できる
+
+```bash
+$ python -m venv env
+$ . env/bin/activate
+(env) $ pip install django
+```
+
+* 今後[uv](https://docs.astral.sh/uv/)に変わるかも？
 
 ### PyPro1 → PyPro2
 
@@ -259,18 +296,11 @@ datetime.timedelta(days=2075)
   * `pip` コマンドはPythonに含まれていない
   * `get-pip.py` をダウンロード→インストール
 
-```bash
-$ wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
-$ sudo python get-pip.py
-```
-
-* ↑このURLは404 Not Found
-
 ```{revealjs-break}
 ```
 
-* get-pip.pyはまだ有効
-* [Installation - pip documentation](https://pip.pypa.io/en/stable/installation/)
+* get-pip.pyは**まだ有効**
+  * [Installation - pip documentation](https://pip.pypa.io/en/stable/installation/)
 * GitHub: [pypa/get-pip](https://github.com/pypa/get-pip)
 
 ```bash
@@ -282,15 +312,36 @@ $ sudo python get-pip.py
 ### PyPro3 → PyPro4
 
 * WebアプリケーションからWeb APIへ
-  * [Django](https://www.djangoproject.com/)でHTML生成ではなく、**APIのみ** 提供
+  * [Django](https://www.djangoproject.com/)でHTML生成ではなく、**APIのみ**提供
   * フロントは[Vue.js](https://vuejs.org/)
   * [FastAPI](https://fastapi.tiangolo.com/)にも軽く触れている
+  
+### **Django**: WebApplicationフレームワーク
+
+* {fas}`globe` [`www.djangoproject.com`](https://www.djangoproject.com/)
+* 最新バージョン: 5.1.2
+* Webアプリーケーション開発に必要な機能が**揃っている**
+* **セキュリティ**対策もされている
+* 大規模サイトでも利用されている
+
+### **FastAPI**: API構築用フレームワーク
+
+* {fas}`globe` [`fastapi.tiangolo.com`](https://fastapi.tiangolo.com/)
+* 最新バージョン: 0.115.4
+* **高速**に動作
+* インタラクティブな**APIドキュメント**を生成
 
 ### PyPro2 → PyPro3
 
 * Flaskで乗りログ
   * [Flask](https://flask.palletsprojects.com/en/3.0.x/)でWebアプリ構築
   * お題は乗りログ（電車の乗車記録）
+  
+### Flask: 軽量Webフレームワーク
+
+* {fas}`globe` [`flask.palletsprojects.com`](https://flask.palletsprojects.com/)
+* 最新バージョン: 3.0.3
+* シンプルなフレームワーク
 
 ### PyPro、PyPro2
 
@@ -305,6 +356,13 @@ $ sudo python get-pip.py
 * 機械学習からデータサイエンスへ
   * Jupyter Notebookから[JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)に
   * **数理最適化** を紹介
+  
+### JupyterLab: ノートブック作成アプリ
+
+* {fas}`globe` [`jupyterlab.readthedocs.io`](https://jupyterlab.readthedocs.io/)
+* コードの実行結果が表示される
+  * グラフ描画、画像表示等も可能
+* データ分析、機械学習等での試行に便利
 
 ### PyPro3
 
@@ -315,27 +373,43 @@ $ sudo python get-pip.py
 
 ### PyPro3 → PyPro4
 
-* **複数** の課題管理システムを紹介
+* **複数**の課題管理システムを紹介
   * Redmine、Backlog、JIRA、GitHub Projects
 * Slackの使いこなしを追加
-* **ビデオ、音声会議** を追加
-* **Googleカレンダー**、**1Password** を追加
+* **ビデオ、音声会議**を追加
+* **Googleカレンダー**、**1Password**を追加
   * Dropbox、Dropbox Paperを削除
+  
+### 課題管理システム
+
+* 課題（タスク）の状況を管理するシステム
+* [Redmine](https://redmine.jp/)、[Backlog](https://backlog.com/ja/)、[JIRA](https://www.atlassian.com/ja/software/jira)、[GitHub Projects](https://docs.github.com/ja/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)など
+* いつ、誰がなにをしたか
+* 課題が完了したかどうか
+* 優先度、期日
+
+### 1Password: パスワードマネージャー
+
+* {fas}`globe` [`1password.com/jp`](https://1password.com/jp)
+* アカウント、パスワード等を安全に管理
+* グループのメンバーで共有
+* 複数デバイスで利用可能
 
 ### PyPro2 → PyPro3
 
-* 課題管理は **Redmine** のみ
+* 課題管理は**Redmine**のみ
   * Redmineのインストールはあっさり
 
 ### PyPro → PyPro2
 
-* **Redmine** のインストールはしっかり
+* **Redmine**のインストールはしっかり
 * Mercurialとの連携
-* チャットシステムは **Slack** (2013年リリース)
+* チャットシステムは**Slack**（2013年リリース）
   
 ### PyPro
 
 * 課題管理は[Trac](https://trac.edgewall.org/)
+  * Python製、2023年9月まで開発
 * チャットシステムは[Skype](https://www.skype.com/ja/)
 
 ## 5. 課題管理とレビュー 🎫
@@ -345,13 +419,14 @@ $ sudo python get-pip.py
 * Redmineの画面イメージを削除
   * 複数の課題管理システムに対応するため
 * Backlog、Jira、GitHubでのテンプレート設定
-* チケットテンプレート例がreST→ **markdown**
+* チケットテンプレート例がreST→**markdown**
 
 ### PyPro → PyPro2
 
-* **チケットテンプレート** が追加
+* **チケットテンプレート**が追加
 * コードレビューには[rietveld](https://github.com/rietveld-codereview/rietveld)を使用
   * App Engine上で動くレビューツール
+  * 2018年まで開発
   
 ## 6. ソースコード管理 🐙
 
@@ -361,6 +436,18 @@ $ sudo python get-pip.py
 * GitのGUIクライアントの紹介を削除
   * VSCode、PyCharmのGit連携
   * [GitHub CLI](https://cli.github.com/)を紹介
+  
+### GitHub CLI: コマンドラインツール
+
+* {fas}`globe` [`cli.github.com`](https://cli.github.com/)
+* GitHub上の各種処理をコマンドで実行
+
+```bash
+$ brew install github
+$ gh issue list
+$ gh pr create
+$ gh pr merge
+```
 
 ### PyPro2 → PyPro3
 
@@ -369,6 +456,12 @@ $ sudo python get-pip.py
   * マージ、リベース
   * GitHub Flow
   * GitHubのTips
+
+### GitHub Flow: 軽量なワークフロー
+
+* ドキュメント: [GitHub フロー](https://docs.github.com/ja/get-started/using-github/github-flow)
+* mainブランチと各機能を実装するfeatureブランチのみ
+* mainブランチにマージしてデプロイ
 
 ### PyPro、PyPro2
 
@@ -388,6 +481,15 @@ $ sudo python get-pip.py
 ### PyPro〜PyPro3
 
 * [Sphinx](https://www.sphinx-doc.org/)でドキュメント作成
+
+### Sphinx: ドキュメンテーションツール
+
+* {fas}`globe` [`www.sphinx-doc.org`](https://www.sphinx-doc.org/)
+* マークアップテキストからドキュメント生成
+  * reStructuredText、Markdown等
+  * HTML、ePub、LaTeX等
+* [Python公式ドキュメント](https://docs.python.org/ja/3.13/)もSphinx製 
+* [この発表スライド](https://github.com/takanory/slides)もSphinx製
 
 ## 8. 単体テスト ✅
 
@@ -517,9 +619,9 @@ $ sudo python get-pip.py
 
 ## まとめ 📚
 
-* 12年もあると **色々と変わって** いる
+* 12年もあると**色々と変わって**いる
   * 大きく変わらないものもある
-* 常に **より良い選択** に挑戦している
+* 常に**より良い選択**に挑戦している
 * PyPro5ではなにが入れ替わるのか、楽しみ
 
 ## Thank You 🙏
