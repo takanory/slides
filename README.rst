@@ -39,6 +39,13 @@
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://tokai.pycon.jp/2024/#timetable>`__
      * 
+   - * `Kansai Open Forum 2024 <https://www.k-of.jp/2024/>`_
+     * Osaka, Japan
+     * 2024 Nov
+     * Talk
+     * ja
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://www.k-of.jp/2024/session/pyconjp>`__
+     * 
    - * `PyCon APAC 2024 <https://2024-apac.pycon.id/>`_
      * Yogyakarta, Indonesia
      * 2024 Oct
