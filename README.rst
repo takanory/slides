@@ -46,6 +46,13 @@
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://www.k-of.jp/2024/session/pyconjp>`__
      * 
+   - * BPStyle 166
+     * Online
+     * 2024 Nov
+     * Talk
+     * ja
+     * PyCon APAC Report
+     * `Slides <https://slides.takanory.net/slides/20241107bpstyle>`__
    - * `PyCon APAC 2024 <https://2024-apac.pycon.id/>`_
      * Yogyakarta, Indonesia
      * 2024 Oct
