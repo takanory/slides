@@ -248,7 +248,7 @@ $ black --check src/ hogehoge.py  # フォーマット対象があるかチェ�
 
 ### **Ruff**: Pythonリンター
 
-* {fas}`globe` [docs.astral.sh/ruff](https://docs.astral.sh/ruff/)
+* {fas}`globe` [`docs.astral.sh/ruff`](https://docs.astral.sh/ruff/)
 * さまざまな[ルール](https://docs.astral.sh/ruff/rules/)でコードをチェック
 * Rust製で**速い**
 
@@ -257,6 +257,21 @@ $ pip install ruff
 $ ruff check  # 全ファイルをチェック
 $ ruff check --fix  # 可能なら自動で修正
 $ ruff format  # 全ファイルをフォーマット
+```
+
+### **mypy**: Pythonの静的型チェッカー
+
+* {fas}`globe` [`mypy-lang.org`](https://mypy-lang.org/)
+* **型ヒント**を元にコードに問題がないか調べる
+
+```python
+def fib(n: int) -> Iterator[int]:
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a+b
+		
+fib("a")  # mypyでエラー
 ```
 
 ### PyPro2 → PyPro3
@@ -337,7 +352,7 @@ $ sudo python get-pip.py
   * [Flask](https://flask.palletsprojects.com/en/3.0.x/)でWebアプリ構築
   * お題は乗りログ（電車の乗車記録）
   
-### Flask: 軽量Webフレームワーク
+### **Flask**: 軽量Webフレームワーク
 
 * {fas}`globe` [`flask.palletsprojects.com`](https://flask.palletsprojects.com/)
 * 最新バージョン: 3.0.3
@@ -357,7 +372,7 @@ $ sudo python get-pip.py
   * Jupyter Notebookから[JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)に
   * **数理最適化** を紹介
   
-### JupyterLab: ノートブック作成アプリ
+### **JupyterLab**: ノートブック作成アプリ
 
 * {fas}`globe` [`jupyterlab.readthedocs.io`](https://jupyterlab.readthedocs.io/)
 * コードの実行結果が表示される
@@ -380,7 +395,7 @@ $ sudo python get-pip.py
 * **Googleカレンダー**、**1Password**を追加
   * Dropbox、Dropbox Paperを削除
   
-### 課題管理システム
+### **課題管理システム**
 
 * 課題（タスク）の状況を管理するシステム
 * [Redmine](https://redmine.jp/)、[Backlog](https://backlog.com/ja/)、[JIRA](https://www.atlassian.com/ja/software/jira)、[GitHub Projects](https://docs.github.com/ja/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)など
@@ -388,7 +403,7 @@ $ sudo python get-pip.py
 * 課題が完了したかどうか
 * 優先度、期日
 
-### 1Password: パスワードマネージャー
+### **1Password**: パスワードマネージャー
 
 * {fas}`globe` [`1password.com/jp`](https://1password.com/jp)
 * アカウント、パスワード等を安全に管理
@@ -437,7 +452,7 @@ $ sudo python get-pip.py
   * VSCode、PyCharmのGit連携
   * [GitHub CLI](https://cli.github.com/)を紹介
   
-### GitHub CLI: コマンドラインツール
+### **GitHub CLI**: コマンドラインツール
 
 * {fas}`globe` [`cli.github.com`](https://cli.github.com/)
 * GitHub上の各種処理をコマンドで実行
@@ -457,7 +472,7 @@ $ gh pr merge
   * GitHub Flow
   * GitHubのTips
 
-### GitHub Flow: 軽量なワークフロー
+### **GitHub Flow**: 軽量なワークフロー
 
 * ドキュメント: [GitHub フロー](https://docs.github.com/ja/get-started/using-github/github-flow)
 * mainブランチと各機能を実装するfeatureブランチのみ
@@ -482,7 +497,7 @@ $ gh pr merge
 
 * [Sphinx](https://www.sphinx-doc.org/)でドキュメント作成
 
-### Sphinx: ドキュメンテーションツール
+### **Sphinx**: ドキュメンテーションツール
 
 * {fas}`globe` [`www.sphinx-doc.org`](https://www.sphinx-doc.org/)
 * マークアップテキストからドキュメント生成
@@ -499,6 +514,15 @@ $ gh pr merge
 * Djangoのテストは[pytest-django](https://pytest-django.readthedocs.io/)
 * pandasのテストとスナップショットテスト
   * 過去の実行結果を次回のテストで使う
+  
+### **pytest**: テスト用フレームワーク
+
+* {fas}`globe` [`docs.pytest.org`](https://docs.pytest.org/)
+* デファクトスタンダード
+* `assert`文で検証
+* テストコードを**自動検出**
+* **プラグイン**機能と1300以上のプラグイン
+  * [Pytest Plugin List](https://docs.pytest.org/en/stable/reference/plugin_list.html#plugin-list)
 
 ### PyPro→PyPro2、PyPro3
 
@@ -518,6 +542,14 @@ $ gh pr merge
 * [GitHub Actions](https://github.co.jp/features/actions)に改訂 ([2019年リリース](https://github.blog/jp/2019-11-14-universe-day-one/))
   * チェックアウト、Docker、ユニットテスト、静的解析
   * 結果のSlack通知
+  
+### **GitHub Actions**: GitHub上のCI/CD
+
+* {fas}`globe` [`github.co.jp/features/actions`](https://github.co.jp/features/actions)
+* PRに対して自動テスト実行などで利用
+* mainにmergeすると自動デプロイなども可能
+* パブリックリポジトリは**無料**
+* プライベートでも**2,000分/月無料**
 
 ### PyPro2 → PyPro3
 
@@ -538,11 +570,19 @@ $ gh pr merge
 ### PyPro3 → PyPro4
 
 * `pyproject.toml` でパッケージング
-  * [pyproject.toml - pip documentation](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
   * [PEP 518](https://peps.python.org/pep-0518/): 2016年提案、2020年Final
 * READMEがreSTからmakdown
 * [build](https://build.pypa.io/)モジュールでビルド
   * `python -m build` コマンド
+  
+### **pyproject.toml**: パッケージ設定
+
+* {fas}`globe` [pyproject.toml - pip documentation](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
+* 各種ツールの設定ファイルとしても利用
+  * Black: [Configuration via a file](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html#configuration-via-a-file)
+  * Ruff: [Configuring Ruff](https://docs.astral.sh/ruff/configuration/)
+  * mypy: [The mypy configuration file](https://mypy.readthedocs.io/en/stable/config_file.html)
+  * pytest: [Configuration](https://docs.pytest.org/en/latest/reference/customize.html)
 
 ### PyPro2 → PyPro3
 
@@ -605,6 +645,13 @@ $ gh pr merge
 * `pip list -o` : 更新ライブラリ確認
 * [pipdeptree](https://github.com/tox-dev/pipdeptree): パッケージの依存関係確認
 * [Dependabot](https://docs.github.com/ja/code-security/dependabot/working-with-dependabot): セキュリティ問題の警告
+
+### **endoflife.date**: 製品のEOLを記録
+
+* {fas}`globe` [`endoflife.date`](https://endoflife.date)
+* Djangoは2年ごとにLTSリリース、3年サポート
+
+![Django Release Roadmap](https://static.djangoproject.com/img/release-roadmap.fdaa7bc5861f.png)
 
 ## 消えた内容 🫥
 
