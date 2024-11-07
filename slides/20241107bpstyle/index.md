@@ -11,12 +11,12 @@ Takanori Suzuki
 
 BPStyle 166 / 2024 Nov 7
 
-## PyCon APAC
+## PyCon **APAC**
 
 * {fas}`globe` [`pycon.asia`](https://pycon.asia/)
-* アジア太平洋地域のPyCon
-* 各国持ち回り
-* シンガポール、日本、台湾、韓国、タイ、マレーシア、フィリピン
+* PyCon for **Asia-Pacific region**
+* **Rotating** in each country
+  * Singapore, **Japan**, Taiwan, Korea, Thailand, Malaysia, Philippines
 
 ### PyCon APAC **2024**
 
@@ -41,14 +41,32 @@ BPStyle 166 / 2024 Nov 7
 * [World Heritage](https://whc.unesco.org/)
   * [Prambanan Temple Compounds](https://whc.unesco.org/en/list/642)
   * [Borobudur Temple Compounds](https://whc.unesco.org/en/list/592)
+  
+### Indonesia: **Good**
+
+* **Low prices**: Taxi, Hotel, Food and etc.
+* **Taxi**, **Ride sharing**(Bluebird, Grab)
+* People are **Kind**
+* **Safe**
+
+### Indonesia: **Not so good**
+
+* **Traffic Jam**
+* **Public Transportation**
+* **QR code** payment
+* **No beer**
+
+### Public transportation **Card**
+
+![Cards](images/card.jpg)
 
 ### Schedule
 
 * 23: Tokyo → Jakarta
 * 24: Jakarta → Yogya → Pranbanan
 * 25: Borobudur
-* 26: PyCon APAC
-* 27: PyCon APAC
+* **26: PyCon APAC**
+* **27: PyCon APAC**
 * 28: Yogya → Jakarta
 * 29: Jakarta → Tokyo
 
