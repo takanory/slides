@@ -629,7 +629,7 @@ $ gh pr merge
 
 ## 13. Webアプリの監視 👀
 
-### PyPro4
+### PyPro4 🆕
 
 * 死活監視: [UptimeRobot](https://uptimerobot.com/)
 * 構造化ログ: [structlog](https://www.structlog.org/)
@@ -639,7 +639,7 @@ $ gh pr merge
 
 ## 14. 追加開発 🏗️
 
-### PyPro4
+### PyPro4 🆕
 
 * [endoflife.date](https://endoflife.date/django): Djangoのライフサイクル確認
 * `pip list -o` : 更新ライブラリ確認
@@ -669,7 +669,7 @@ $ gh pr merge
 * 12年もあると**色々と変わって**いる
   * 大きく変わらないものもある
 * 常に**より良い選択**に挑戦している
-* PyPro5ではなにが入れ替わるのか、楽しみ
+* **第5版** ではなにが入れ替わるのか、楽しみ
 
 ## Thank You 🙏
 
