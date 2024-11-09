@@ -38,7 +38,7 @@
      * Talk
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://tokai.pycon.jp/2024/#timetable>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20241116tokai>`__
    - * `Kansai Open Forum 2024 <https://www.k-of.jp/2024/>`_
      * Osaka, Japan
      * 2024 Nov
