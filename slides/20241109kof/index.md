@@ -571,7 +571,7 @@ $ gh pr merge
 
 * `pyproject.toml` でパッケージング
   * [PEP 518](https://peps.python.org/pep-0518/): 2016年提案、2020年Final
-* READMEがreSTからmakdown
+* READMEがreSTからmarkdown
 * [build](https://build.pypa.io/)モジュールでビルド
   * `python -m build` コマンド
   
