@@ -62,10 +62,6 @@ PyCon mini Tokai / 2024 Nov 16
 * [Pythonコミュニティのサポート](https://www.pycon.jp/support/community.html)
 * [PyCon JP TV](https://tv.pycon.jp/): YouTubeライブ
 
-### PyCon JP Association **ブース**
-
-![PyCon JP Association ブース](images/booth.jpg)
-
 ### PyCon JP **2025**
 
 * {fas}`globe` [`2025.pycon.jp`](https://2024.pycon.jp/)
