@@ -78,6 +78,13 @@ PyCon mini Tokai / 2024 Nov 16
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
+### BeProud & PyCon JP ❤️ **PyCon mini 東海**
+
+```{image} images/sponsor.png
+:alt: PyCon mini Tokai Sponsors
+:width: 85%
+```
+
 ### Pythonプロフェッショナル<br />プログラミング
 
 * **ビープラウド**が執筆した書籍
