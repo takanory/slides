@@ -19,6 +19,27 @@
 
 .. image:: /_static/qrcode.png
 
+2025
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 5, 40, 10
+
+   - * event
+     * location
+     * date
+     * type
+     * lang
+     * title
+     * resource
+   - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
+     * Shizuoka, Japan
+     * 2025 Feb
+     * Talk
+     * ja
+     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
+     * 
+           
 2024
 ====
 .. list-table::
@@ -81,13 +102,6 @@
      * en
      * `How to learn Japanese with Python <https://tw.pycon.org/2024/en-us/conference/talk/309>`__
      * `Slides <https://slides.takanory.net/slides/20240921pycontw>`__
-   - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
-     * Shizuoka, Japan
-     * 2024 Aug
-     * Talk
-     * ja
-     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
-     * 
    - * BPStyle #163
      * Online
      * 2024 Aug
