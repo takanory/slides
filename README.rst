@@ -17,6 +17,29 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
+.. image:: /_static/qrcode.png
+
+2025
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 5, 40, 10
+
+   - * event
+     * location
+     * date
+     * type
+     * lang
+     * title
+     * resource
+   - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
+     * Shizuoka, Japan
+     * 2025 Feb
+     * Talk
+     * ja
+     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
+     * 
+           
 2024
 ====
 .. list-table::
@@ -30,27 +53,56 @@
      * lang
      * title
      * resource
+   - * `PyCon mini Tokai 2024 <https://tokai.pycon.jp/2024/>`_
+     * Aichi, Japan
+     * 2024 Nov
+     * Talk
+     * ja
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://tokai.pycon.jp/2024/#timetable>`__
+     * `Slides <https://slides.takanory.net/slides/20241116tokai>`__
+   - * `Kansai Open Forum 2024 <https://www.k-of.jp/2024/>`_
+     * Osaka, Japan
+     * 2024 Nov
+     * Talk
+     * ja
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://www.k-of.jp/2024/session/pyconjp>`__
+     * `Slides <https://slides.takanory.net/slides/20241109kof>`__
+   - * BPStyle 166
+     * Online
+     * 2024 Nov
+     * Talk
+     * ja
+     * PyCon APAC Report
+     * `Slides <https://slides.takanory.net/slides/20241107bpstyle>`__
+   - * `PyCon APAC 2024 <https://2024-apac.pycon.id/>`_
+     * Yogyakarta, Indonesia
+     * 2024 Oct
+     * Talk
+     * en
+     * `How to learn Japanese with Python <https://pretalx.com/pycon-apac-2024/talk/ZBEVZK/>`_
+     * `Slides <https://slides.takanory.net/slides/20241027pyconapac>`__
+   - * BPStyle 165
+     * Online
+     * 2024 Oct
+     * Talk
+     * ja
+     * Travel Tips
+     * `Slides <https://slides.takanory.net/slides/20241003bpstyle>`__
    - * `PyCon JP 2024 <https://2024.pycon.jp/>`_
      * Tokyo, Japan
      * 2024 Sep
      * Talk
      * ja
-     * Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜
-     * 
+     * `Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜 <https://2024.pycon.jp/en/talk/BQXVWE>`__
+     * `Slides <https://slides.takanory.net/slides/20240928pyconjp>`__
    - * `PyCon Taiwan 2024 <https://tw.pycon.org/2024/en-us/>`_
      * Kaohsiung, Taiwan
      * 2024 Sep
      * Talk
      * en
      * `How to learn Japanese with Python <https://tw.pycon.org/2024/en-us/conference/talk/309>`__
-     * 
-   - * `PyCon mini Shizuoka 2024 <https://shizuoka.pycon.jp/2024>`_
-     * Shizuoka, Japan
-     * 2024 Aug
-     * Talk
-     * ja
-     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
-     * `Slides <https://slides.takanory.net/slides/20240831pyconshizu>`__
+     * `Slides <https://slides.takanory.net/slides/20240921pycontw>`__
+       `Video <https://www.youtube.com/watch?v=P8fOpEIKzzI>`__
    - * BPStyle #163
      * Online
      * 2024 Aug
@@ -657,6 +709,7 @@ Reference
   * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
   * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
   * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
+  * `atsphinx-audioplayer <https://atsphinx.github.io/audioplayer/en/>`_: Sphinx extension that renders html content for playing audio files
 * `Cloudflare Pages <https://pages.cloudflare.com/>`_
 
-  * `Cloudflare Pages documentation · Cloudflare Pages docs <https://developers.cloudflare.com/pages>`_
+  * `Cloudflare Pages documentation <https://developers.cloudflare.com/pages>`_
