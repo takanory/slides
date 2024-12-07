@@ -32,6 +32,7 @@ extensions = [
     "sphinx_revealjs",
     "sphinxext.opengraph",
     "sphinx_design",
+    "atsphinx.audioplayer",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
