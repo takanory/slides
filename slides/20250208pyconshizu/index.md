@@ -1,15 +1,20 @@
 ```{eval-rst}
-:og:image: _images/2024831pyconshizu.png
+:og:image: _images/20250208pyconshizu.png
 :og:image:alt: Amazon Pollyで問題a文を読み上げ
 
 .. |cover| image:: images/20240831pyconshizu.png
 ```
 
-# **Amazon Polly** で<br />問題文を読み上げ **数式** も読み上げ
+# **Amazon Polly**で<br />問題文を読み上げ<br />**数式**も読み上げ
 
 Takanori Suzuki
 
-PyCon mini Shizuoka 2024 / 2024 Aug 31
+```{image} images/pyconminishizuoka-logo.png
+:alt: PyCon mini Shizuoka logo
+:width: 60%
+```
+
+PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ## アジェンダ 📜
 
@@ -579,7 +584,7 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 * **多言語** に対応
 * **SSML**、**Lexicon** で細かい調整が可能
 * **数式** も **MathML** を解析して読み上げられる
-* サンプルコード：{fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20240831pyconshizu/code)
+* サンプルコード：{fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20250208pyconshizu/code)
 
 ## Thank You 🙏
 
