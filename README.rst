@@ -53,6 +53,13 @@
      * lang
      * title
      * resource
+   - * `PyCon APAC 2024 参加報告会 <https://churadata.connpass.com/event/333786//>`_
+     * Tokyo, Japan
+     * 2024 Dec
+     * Talk
+     * ja
+     * 現地セッションの傾向 Web技術編
+     * `Slides <https://slides.takanory.net/slides/20241211apacreport>`__
    - * `PyCon mini Tokai 2024 <https://tokai.pycon.jp/2024/>`_
      * Aichi, Japan
      * 2024 Nov
