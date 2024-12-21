@@ -137,8 +137,8 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 ```
 
 * Amazon Pollyの画面からmp3をダウンロード
-* 「ボールはともだち」([friend-ja.mp3](audio/friend-ja.mp3))
-* 「The ball is my friend」([friend-en.mp3](audio/friend-en.mp3))
+* 「ボールはともだち」 {audio}`audio/friend-ja.mp3`
+* 「The ball is my friend」{audio}`audio/friend-en.mp3`
 
 ### PythonからAmazon Pollyを実行
 
@@ -167,10 +167,12 @@ $ . env/bin/activate
 ```
 
 * mp3ファイルができた！！ 🎉
-* [not-afraid.mp3](audio/not-afraid.mp3)
 
 ```{literalinclude} code/polly.py
 :lines: 6-10
+```
+
+```{audio} audio/not-afraid.mp3
 ```
 
 ### Amazon Pollyの基本まとめ 🗣️
@@ -191,7 +193,8 @@ $ . env/bin/activate
 :lines: 7-9
 ```
 
-* [sggk.mp3](audio/sggk.mp3)
+```{audio} audio/sggk.mp3
+```
 
 ### 読みの指定
 
@@ -209,7 +212,8 @@ $ . env/bin/activate
 :lines: 7-14
 ```
 
-* [super-great.mp3](audio/super-great.mp3)
+```{audio} audio/super-great.mp3
+```
 
 ### SSMLタグ
 
@@ -261,8 +265,8 @@ $ . env/bin/activate
 :lines: 7-15, 20-24
 ```
 
-* [Lexiconなし](audio/hando-no-lexicon.mp3)
-* [Lexiconあり](audio/hando-with-lexicon.mp3)
+* Lexiconなし {audio}`audio/hando-no-lexicon.mp3`
+* Lexiconあり {audio}`audio/hando-with-lexicon.mp3`
 
 ### Lexiconで読みをカスタマイズまとめ 🛠️
 
@@ -362,9 +366,11 @@ $ . env/bin/activate
 ```
 
 * 日本語と英語の混ざった音声ができた！！ 🎉
-* [question.mp3](audio/question.mp3)
 
 ```{literalinclude} code/question.txt
+```
+
+```{audio} audio/question.mp3
 ```
 
 ### 問題文読み上げでやったことまとめ 📖
@@ -571,7 +577,8 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 ```
 
-* [mathml.mp3](audio/mathml.mp3)
+```{audio} audio/mathml.mp3
+```
 
 ### おしい... 😉
 
