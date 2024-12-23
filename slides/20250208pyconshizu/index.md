@@ -94,16 +94,16 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
-```{revealjs-break}
-:notitle:
-```
+### PyCon JP **2025**
 
-![PyCon JP 2024 logo](/assets/images/pyconjp2024logo.png)
+* {fas}`globe` [`2025.pycon.jp`](https://2025.pycon.jp/)
+* 🗓️ 2025年**9月26日(金)-27日(土)**
+* ⛩️ [**広島**国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
+  * **旅費の支援**も多分あるよ
 
-* {fas}`globe` [`2024.pycon.jp`](https://2024.pycon.jp/)
-* 🎫 [PyCon JP 2024 - connpass](https://pyconjp.connpass.com/event/324211/)
-* 🗓️ 9月27日(金)-29日(日)
-* 🗼 東京、TOC有明
+### [静岡駅から広島国際会議場](https://www.google.co.jp/maps/dir/%E9%9D%99%E5%B2%A1%E9%A7%85/%E5%BA%83%E5%B3%B6%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E5%A0%B4/@34.8798837,133.2867034,7.44z/data=!3m1!5s0x355aa272b9effb61:0x6c097dceac9fffb4!4m18!4m17!1m5!1m1!1s0x601a49fa03e728b3:0x23c1a4887e4776f7!2m2!1d138.3889005!2d34.972187!1m5!1m1!1s0x355aa26d05555dd5:0x4e72455df571cd7a!2m2!1d132.450993!2d34.392088!2m3!6e0!7e2!8j1738917000!3e3?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D) 🚅
+
+![静岡駅から広島国際会議場](images/shizuoka2hiroshima.png)
 
 ### **BeProud** Inc. 🏢
 
@@ -157,7 +157,8 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-```{literalinclude} code/polly.py
+```{revealjs-literalinclude} code/polly.py
+:data-line-numbers: 1-14|5-6|8-10|12-14|1-14
 ```
 
 * [Polly - Boto3 1.34.56 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/polly.html)
@@ -261,8 +262,9 @@ $ . env/bin/activate
 
 ### PythonからLexiconを使用
 
-```{literalinclude} code/polly4.py
+```{revealjs-literalinclude} code/polly4.py
 :lines: 7-15, 20-24
+:data-line-numbers: 1-13|1-4|6-9|2,10-13
 ```
 
 * Lexiconなし {audio}`audio/hando-no-lexicon.mp3`
@@ -347,10 +349,11 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-* 指定した言語で読み上げる **関数**
+* 指定した言語で読み上げる**関数**
 
-```{literalinclude} code/polly5.py
+```{revealjs-literalinclude} code/polly5.py
 :lines: 6-15
+:data-line-numbers: 1-9|1-2|3-4|5-9
 ```
 
 ```{revealjs-break}
@@ -358,8 +361,9 @@ $ . env/bin/activate
 
 * 正規表現で **日英を分割** して読み上げ
 
-```{literalinclude} code/polly5.py
+```{revealjs-literalinclude} code/polly5.py
 :lines: 25-37
+:data-line-numbers: 1-13|1-3|5|6-11|12-13
 ```
 
 ```{revealjs-break}
@@ -384,8 +388,8 @@ $ . env/bin/activate
 
 ### 数式読み上げ 🧮
 
-* 数学や理科の問題文には **数式** がでてくる
-* 数式も **読み上げ** たい
+* 数学や理科の問題文には**数式**がでてくる
+* 数式も**読み上げ**たい
 
 ### 数式はどう表現している？
 
@@ -424,7 +428,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
   * markdown-itのプラグイン
   * 内部では[mathjax-full](https://www.npmjs.com/package/mathjax-full)を使用
 
-### 数式は **SVG** で表示されている
+### 数式は**SVG**で表示されている
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
@@ -444,28 +448,29 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ## Mathjaxを読み上げる 💬
 
-### MathJaxの **Accessibility機能**
+### MathJaxの**Accessibility機能**
 
 * [Accessibility Features - Screen Reader Support](https://docs.mathjax.org/en/latest/basic/accessibility.html#screen-reader-support)
 
   The `assistive-mml` extension embeds visually hidden MathML alongside MathJax's visual rendering while hiding the visual rendering from assistive technology (AT) such as screenreaders.
 
-### MathJaxの **Accessibility機能**
+```{revealjs-break}
+```
 
 * `assistive-mml`拡張によって視覚的なレンダリングの横に、**隠されたMathML**を埋め込む
 * スクリーンリーダーなどはそのMathMLを読む
 
-### MathJaxの出力を **再確認**
+### MathJaxの出力を**再確認**
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ```{revealjs-literalinclude} code/mathml-sample.html
-:data-line-numbers: 3-11
+:data-line-numbers: 1-13|2,12|3-11
 ```
 
 ### なんか読めそう！！👍
 
-### **MathML** だけ取り出す
+### **MathML**だけ取り出す
 
 ```html
 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -485,14 +490,14 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 </math>
 ```
 
-### **MathML** とは
+### **MathML**とは
 
 * 数式を記述するためのマークアップ言語
 * [Mathematical Markup Language - Wikipedia](https://ja.wikipedia.org/wiki/Mathematical_Markup_Language)
 * [MathML の記述 - MathML | MDN](https://developer.mozilla.org/ja/docs/Web/MathML/Authoring)
 * [MathML 要素リファレンス - MathML | MDN](https://developer.mozilla.org/ja/docs/Web/MathML/Element)
 
-### MathMLの **主な要素**
+### MathMLの**主な要素**
 
 * `<mi>`: 識別子(a, b, x, y等)
 * `<mo>`: 演算子(+、-等)
@@ -502,18 +507,19 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 * `<msup>`、`<msub>`: 上付き、下付き
 * `<mover>`: 弧で使用
 
-## **読み上げテキスト** 作成 ✍️
+## **読み上げテキスト**作成 ✍️
 
 ### MathMLをBeautiful Soup 4で解析 🥣
 
-* [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/): HTML、XMLのパーサー
+* [Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/): HTML、XMLのパーサー
 
 ```bash
 (venv) $ pip install beautifulsoup4
 ```
 
-```{literalinclude} code/polly-mathml.py
+```{revealjs-literalinclude} code/polly-mathml.py
 :lines: 5, 18-23, 53-55
+:data-line-numbers: 1-10|1-5|6-7|9-10
 ```
 
 ### **識別子**、**演算子** を変換
@@ -526,33 +532,39 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 :lines: 25-28
 ```
 
-### **分数** に対応
+### **分数**に対応
 
 $\dfrac{1}{2}$ を「2ぶんの1」と読ませる
 
 ```html
 # MathML
-<mfrac><mn>1</mn><mn>2</mn></mfrac>
+<mfrac>
+  <mn>1</mn>
+  <mn>2</mn>
+</mfrac>
 ```
 
 ```{literalinclude} code/polly-mathml.py
 :lines: 30-36
 ```
 
-### **2乗** に対応
+### **2乗**に対応
 
 $x^2$ を「x2乗」と読ませる
 
 ```html
 # MathML
-<msup><mi>x</mi><mn>2</mn></msup>  # x 2乗
+<msup>
+  <mi>x</mi>
+  <mn>2</mn>
+</msup>
 ```
 
 ```{literalinclude} code/polly-mathml.py
 :lines: 38-41
 ```
 
-### **ルート** に対応
+### **ルート**に対応
 
 $\sqrt{5}$ を「ルート5」と読ませる
 
@@ -565,7 +577,7 @@ $\sqrt{5}$ を「ルート5」と読ませる
 :lines: 43-45
 ```
 
-### 数式を変換してみる
+### **数式**を**読み上げ**る
 
 二次方程式 $ax^2 + bx + c = 0$ の解は
 
@@ -587,11 +599,11 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 
 # まとめ 📚
 
-* Amazon Pollyで音声合成は **簡単** にできる
-* **多言語** に対応
-* **SSML**、**Lexicon** で細かい調整が可能
-* **数式** も **MathML** を解析して読み上げられる
-* サンプルコード：{fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20250208pyconshizu/code)
+* Amazon Pollyで音声合成は**簡単**にできる
+* **多言語**に対応
+* **SSML**と**Lexicon**で細かい調整が可能
+* **数式**も**MathML**の解析で読み上げられる
+* サンプルコード: {fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20250208pyconshizu/code)
 
 ## Thank You 🙏
 
