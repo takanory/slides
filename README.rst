@@ -32,6 +32,13 @@
      * lang
      * title
      * resource
+   - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
+     * Quezon City, Philippines
+     * 2025 Mar
+     * Talk
+     * en
+     * How to learn Japanese with Python
+     * `Slides <https://slides.takanory.net/slides/20250301pyconapac>`__
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2025 Feb
