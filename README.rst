@@ -2,13 +2,13 @@
  takanory slides
 =================
 
-Ovewview
+Overview
 ========
 This repository maintains takanory's presentation slides.
-The built HTML and slides can be found at https://slides.takanory.net.
+HTML and slides can be found at [slides.takanory.net](https://slides.takanory.net).
 
-このリポジトリでtakanoryの発表スライドを管理しています。
-ビルドされたHTMLとスライドは https://slides.takanory.net で参照できます。
+このリポジトリではtakanoryの発表スライドを管理しています。
+HTMLとスライドは[slides.takanory.net](https://slides.takanory.net)で参照できます。
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
