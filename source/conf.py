@@ -33,6 +33,10 @@ extensions = [
     "sphinx_design",
 ]
 
+myst_enable_extensions = [
+    "attrs_inline",
+]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

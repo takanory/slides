@@ -39,51 +39,53 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 ## Books
 
+* {fab}`amazon` [Amazon.co.jp: Books by Takanori Suzuki](https://www.amazon.co.jp/stores/%E9%88%B4%E6%9C%A8-%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/author/B00W95A036?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
+
 ### Authored
 
-Title | Year| Publisher
---- | --- | ---
-[現場のPython](https://gihyo.jp/book/2024/978-4-297-14401-2) | 2024 | 技術評論社
-[Pythonプロフェッショナルプログラミング 第4版](https://www.shuwasystem.co.jp/book/9784798070544.html) | 2024 | 秀和システム
-[いちばんやさしいPython機械学習の教本 第2版](https://book.impress.co.jp/books/1122101123) | 2023 | インプレス
-[Pythonによるあたらしいデータ分析の教科書 第2版](https://www.seshop.com/product/detail/25331) | 2022 | 翔泳社
-[ワンランク上を目指す人のためのPython実践活用ガイド](https://gihyo.jp/book/2022/978-4-297-12639-1) | 2022 | 技術評論社
-[Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9) | 2022 | 技術評論社
-[いちばんやさしいPythonの教本 第2版](https://book.impress.co.jp/books/1119101162) | 2020 | インプレス
-[いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) | 2019 | インプレス
-[やってみよう！機械学習](https://gihyo.jp/book/2019/978-4-297-10396-5) | 2019 | 技術評論社
-[Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) | 2018 | 翔泳社
-[Pythonプロフェッショナルプログラミング 第3版](https://www.shuwasystem.co.jp/book/9784798053820.html) | 2018 | 秀和システム
-[Pythonエンジニア ファーストブック](https://gihyo.jp/book/2017/978-4-7741-9222-2) | 2017 | 技術評論社
-[いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151) | 2017 | インプレス
-[Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) | 2015 | 技術評論社
-[Pythonエンジニア養成読本](https://gihyo.jp/book/2015/978-4-7741-7320-7) | 2015 | 技術評論社
-[Pythonプロフェッショナルプログラミング 第2版](https://www.shuwasystem.co.jp/book/9784798043159.html) | 2015 | 秀和システム
-[Plone 4 Book](https://www.amazon.co.jp/dp/4903408027) | 2011 | Talpa-Tech
-[Plone完全活用ガイド](https://gihyo.jp/book/2008/978-4-7741-3501-4) | 2008 | 技術評論社
+Cover | Title | Year| Publisher
+--- | --- | --- | ---
+![](images/genba.jpg){w=75px} | [現場のPython](https://gihyo.jp/book/2024/978-4-297-14401-2) | 2024 | 技術評論社
+![](images/pypro4.jpg){w=75px} | [Pythonプロフェッショナルプログラミング 第4版](https://www.shuwasystem.co.jp/book/9784798070544.html) | 2024 | 秀和システム
+![](images/ichiyasa-ml2.jpg){w=75px} | [いちばんやさしいPython機械学習の教本 第2版](https://book.impress.co.jp/books/1122101123) | 2023 | インプレス
+![](images/pydata2.png){w=75px} | [Pythonによるあたらしいデータ分析の教科書 第2版](https://www.seshop.com/product/detail/25331) | 2022 | 翔泳社
+![](images/jissen-katsuyo.jpg){w=75px} | [ワンランク上を目指す人のためのPython実践活用ガイド](https://gihyo.jp/book/2022/978-4-297-12639-1) | 2022 | 技術評論社
+![](images/jissen-recipe.jpg){w=75px} | [Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9) | 2022 | 技術評論社
+![](images/ichiyasa2.jpg){w=75px} | [いちばんやさしいPythonの教本 第2版](https://book.impress.co.jp/books/1119101162) | 2020 | インプレス
+![](images/ichiyasa-ml.jpg){w=75px} | [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) | 2019 | インプレス
+![](images/yattemiyo.jpg){w=75px} | [やってみよう！機械学習](https://gihyo.jp/book/2019/978-4-297-10396-5) | 2019 | 技術評論社
+![](images/pydata.jpg){w=75px} | [Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) | 2018 | 翔泳社
+![](images/pypro3.jpg){w=75px} | [Pythonプロフェッショナルプログラミング 第3版](https://www.shuwasystem.co.jp/book/9784798053820.html) | 2018 | 秀和システム
+![](images/firstbook.jpg){w=75px} | [Pythonエンジニア ファーストブック](https://gihyo.jp/book/2017/978-4-7741-9222-2) | 2017 | 技術評論社
+![](images/ichiyasa.jpg){w=75px} | [いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151) | 2017 | インプレス
+![](images/gensen-recipe.jpg){w=75px} | [Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) | 2015 | 技術評論社
+![](images/yosei.jpg){w=75px} | [Pythonエンジニア養成読本](https://gihyo.jp/book/2015/978-4-7741-7320-7) | 2015 | 技術評論社
+![](images/pypro2.jpg){w=75px} | [Pythonプロフェッショナルプログラミング 第2版](https://www.shuwasystem.co.jp/book/9784798043159.html) | 2015 | 秀和システム
+![](images/plone4.jpg){w=75px} | [Plone 4 Book](https://www.amazon.co.jp/dp/4903408027) | 2011 | Talpa-Tech
+![](images/plone-guide.jpg){w=75px} | [Plone完全活用ガイド](https://gihyo.jp/book/2008/978-4-7741-3501-4) | 2008 | 技術評論社
 
 ### Translated
 
-Title | Year| Publisher
---- | --- | ---
-[改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6) | 2023 | 技術評論社
-[改訂新版 最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2024/978-4-297-14526-2) | 2023 | 技術評論社
-[最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2020/978-4-297-11570-8) | 2020 | 技術評論社
-[最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2020/978-4-297-11572-2) | 2020 | 技術評論社
+Cover | Title | Year| Publisher
+--- | --- | --- | ---
+![](images/pycrash2-hisshu.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6) | 2023 | 技術評論社
+![](images/pycrash2-jissen.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2024/978-4-297-14526-2) | 2023 | 技術評論社
+![](images/pycrash-hisshu.jpg){w=75px} | [最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2020/978-4-297-11570-8) | 2020 | 技術評論社
+![](images/pycrash-jissen.jpg){w=75px} | [最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2020/978-4-297-11572-2) | 2020 | 技術評論社
 
 ### Supervised
 
-Title | Year| Publisher
---- | --- | ---
-[Python&Excel自動処理 全部入り 改訂2版](https://book.impress.co.jp/books/1123101155) | 2024 | インプレス
-[Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビ出版
-[Pythonふりがなプログラミング スクレイピング入門](https://book.impress.co.jp/books/1120101182) | 2021 | インプレス
-[Pythonふりがなプログラミング 増補改訂版](https://book.impress.co.jp/books/1120101181) | 2021 | インプレス
-[解きながら学ぶ Pythonつみあげトレーニングブック](https://book.mynavi.jp/ec/products/detail/id=123041) | 2021 | マイナビ出版
-[やさしくわかるPythonの教室](https://gihyo.jp/book/2021/978-4-297-12117-4) | 2021 | 技術評論社
-[Python＆Excel自動処理 全部入り](https://book.impress.co.jp/books/1119101179) | 2020 | インプレス
-[Pythonふりがなプログラミング パターン文例80](https://book.impress.co.jp/books/1119101161) | 2020 | インプレス
-[Pythonふりがなプログラミング](https://book.impress.co.jp/books/1117101140) | 2018 | インプレス
+Cover | Title | Year| Publisher
+--- | --- | --- | ---
+![](images/python-excel2.jpg){w=75px} | [Python&Excel自動処理 全部入り 改訂2版](https://book.impress.co.jp/books/1123101155) | 2024 | インプレス
+![](images/wd.jpg){w=75px} | [Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビ出版
+![](images/furigana-scraping.jpg){w=75px} | [Pythonふりがなプログラミング スクレイピング入門](https://book.impress.co.jp/books/1120101182) | 2021 | インプレス
+![](images/furigana2.jpg){w=75px} | [Pythonふりがなプログラミング 増補改訂版](https://book.impress.co.jp/books/1120101181) | 2021 | インプレス
+![](images/tsumiage.jpg){w=75px} | [解きながら学ぶ Pythonつみあげトレーニングブック](https://book.mynavi.jp/ec/products/detail/id=123041) | 2021 | マイナビ出版
+![](images/yasawaka.jpg){w=75px} | [やさしくわかるPythonの教室](https://gihyo.jp/book/2021/978-4-297-12117-4) | 2021 | 技術評論社
+![](images/python-excel.jpg){w=75px} | [Python＆Excel自動処理 全部入り](https://book.impress.co.jp/books/1119101179) | 2020 | インプレス
+![](images/furigana-pattern.jpg){w=75px} | [Pythonふりがなプログラミング パターン文例80](https://book.impress.co.jp/books/1119101161) | 2020 | インプレス
+![](images/furigana.jpg){w=75px} | [Pythonふりがなプログラミング](https://book.impress.co.jp/books/1117101140) | 2018 | インプレス
 
 ## Magazines
 
