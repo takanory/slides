@@ -43,21 +43,26 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 Title | Year| Publisher
 --- | --- | ---
+[現場のPython](https://gihyo.jp/book/2024/978-4-297-14401-2) | 2024 | 技術評論社
+[Pythonプロフェッショナルプログラミング 第4版](https://www.shuwasystem.co.jp/book/9784798070544.html) | 2024 | 秀和システム
 [いちばんやさしいPython機械学習の教本 第2版](https://book.impress.co.jp/books/1122101123) | 2023 | インプレス
 [Pythonによるあたらしいデータ分析の教科書 第2版](https://www.seshop.com/product/detail/25331) | 2022 | 翔泳社
+[ワンランク上を目指す人のためのPython実践活用ガイド](https://gihyo.jp/book/2022/978-4-297-12639-1) | 2022 | 技術評論社
 [Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9) | 2022 | 技術評論社
 [いちばんやさしいPythonの教本 第2版](https://book.impress.co.jp/books/1119101162) | 2020 | インプレス
 [いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) | 2019 | インプレス
 [やってみよう！機械学習](https://gihyo.jp/book/2019/978-4-297-10396-5) | 2019 | 技術評論社
 [Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) | 2018 | 翔泳社
+[Pythonプロフェッショナルプログラミング 第3版](https://www.shuwasystem.co.jp/book/9784798053820.html) | 2018 | 秀和システム
 [Pythonエンジニア ファーストブック](https://gihyo.jp/book/2017/978-4-7741-9222-2) | 2017 | 技術評論社
 [いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151) | 2017 | インプレス
 [Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) | 2015 | 技術評論社
 [Pythonエンジニア養成読本](https://gihyo.jp/book/2015/978-4-7741-7320-7) | 2015 | 技術評論社
+[Pythonプロフェッショナルプログラミング 第2版](https://www.shuwasystem.co.jp/book/9784798043159.html) | 2015 | 秀和システム
 [Plone 4 Book](https://www.amazon.co.jp/dp/4903408027) | 2011 | Talpa-Tech
 [Plone完全活用ガイド](https://gihyo.jp/book/2008/978-4-7741-3501-4) | 2008 | 技術評論社
 
-### Transrated
+### Translated
 
 Title | Year| Publisher
 --- | --- | ---
@@ -71,14 +76,21 @@ Title | Year| Publisher
 Title | Year| Publisher
 --- | --- | ---
 [Python&Excel自動処理 全部入り 改訂2版](https://book.impress.co.jp/books/1123101155) | 2024 | インプレス
-[Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビブックス
+[Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビ出版
 [Pythonふりがなプログラミング スクレイピング入門](https://book.impress.co.jp/books/1120101182) | 2021 | インプレス
 [Pythonふりがなプログラミング 増補改訂版](https://book.impress.co.jp/books/1120101181) | 2021 | インプレス
-[解きながら学ぶ Pythonつみあげトレーニングブック](https://book.mynavi.jp/ec/products/detail/id=123041) | 2021 | マイナビブックス
+[解きながら学ぶ Pythonつみあげトレーニングブック](https://book.mynavi.jp/ec/products/detail/id=123041) | 2021 | マイナビ出版
 [やさしくわかるPythonの教室](https://gihyo.jp/book/2021/978-4-297-12117-4) | 2021 | 技術評論社
 [Python＆Excel自動処理 全部入り](https://book.impress.co.jp/books/1119101179) | 2020 | インプレス
 [Pythonふりがなプログラミング パターン文例80](https://book.impress.co.jp/books/1119101161) | 2020 | インプレス
 [Pythonふりがなプログラミング](https://book.impress.co.jp/books/1117101140) | 2018 | インプレス
+
+## Magazines
+
+* [WEB+DB PRESS Vol.131](https://gihyo.jp/magazine/wdpress/archive/2022/vol131):
+  現場のPython【第15回】JanomeとSudachiPyによる日本語処理
+* [Software Design 2017年6月号](https://gihyo.jp/magazine/SD/archive/2017/201706):
+  第2特集 今すぐはじめるPython
 
 ## Writings
 
