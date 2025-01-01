@@ -1,6 +1,6 @@
-=====================
- slides.takanory.net
-=====================
+=================
+ takanory slides
+=================
 
 .. toctree::
    :hidden:
@@ -13,12 +13,11 @@
   :fab:`github` `takanory <https://github.com/takanory/>`__ /
   :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__ /
   :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
-* :doc:`./profile`
-  (`en slide <https://slides.takanory.net/slides/about-takanory/>`_, `ja slide <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
+* :fas:`user` :doc:`./profile`
+  (Profile slide `en <https://slides.takanory.net/slides/about-takanory/>`_ /
+  `ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
 
 .. image:: /_static/qrcode.png
 
 .. include:: ../README.rst
    :start-after: .. include from here
-
-
