@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
+     * Quezon City, Philippines
+     * 2025 Mar
+     * Talk
+     * ja
+     * How to learn Japanese with Python
+     * 
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2025 Feb
