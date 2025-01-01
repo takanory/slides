@@ -39,6 +39,47 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 ## Books
 
+### Authored
+
+Title | Year| Publisher
+--- | --- | ---
+[いちばんやさしいPython機械学習の教本 第2版](https://book.impress.co.jp/books/1122101123) | 2023 | インプレス
+[Pythonによるあたらしいデータ分析の教科書 第2版](https://www.seshop.com/product/detail/25331) | 2022 | 翔泳社
+[Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9) | 2022 | 技術評論社
+[いちばんやさしいPythonの教本 第2版](https://book.impress.co.jp/books/1119101162) | 2020 | インプレス
+[いちばんやさしいPython機械学習の教本](https://book.impress.co.jp/books/1118101072) | 2019 | インプレス
+[やってみよう！機械学習](https://gihyo.jp/book/2019/978-4-297-10396-5) | 2019 | 技術評論社
+[Pythonによるあたらしいデータ分析の教科書](https://www.seshop.com/product/detail/22028) | 2018 | 翔泳社
+[Pythonエンジニア ファーストブック](https://gihyo.jp/book/2017/978-4-7741-9222-2) | 2017 | 技術評論社
+[いちばんやさしいPythonの教本](https://book.impress.co.jp/books/1116101151) | 2017 | インプレス
+[Python ライブラリ厳選レシピ](https://gihyo.jp/book/2015/978-4-7741-7707-6) | 2015 | 技術評論社
+[Pythonエンジニア養成読本](https://gihyo.jp/book/2015/978-4-7741-7320-7) | 2015 | 技術評論社
+[Plone 4 Book](https://www.amazon.co.jp/dp/4903408027) | 2011 | Talpa-Tech
+[Plone完全活用ガイド](https://gihyo.jp/book/2008/978-4-7741-3501-4) | 2008 | 技術評論社
+
+### Transrated
+
+Title | Year| Publisher
+--- | --- | ---
+[改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6) | 2023 | 技術評論社
+[改訂新版 最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2024/978-4-297-14526-2) | 2023 | 技術評論社
+[最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2020/978-4-297-11570-8) | 2020 | 技術評論社
+[最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2020/978-4-297-11572-2) | 2020 | 技術評論社
+
+### Supervised
+
+Title | Year| Publisher
+--- | --- | ---
+[Python&Excel自動処理 全部入り 改訂2版](https://book.impress.co.jp/books/1123101155) | 2024 | インプレス
+[Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビブックス
+[Pythonふりがなプログラミング スクレイピング入門](https://book.impress.co.jp/books/1120101182) | 2021 | インプレス
+[Pythonふりがなプログラミング 増補改訂版](https://book.impress.co.jp/books/1120101181) | 2021 | インプレス
+[解きながら学ぶ Pythonつみあげトレーニングブック](https://book.mynavi.jp/ec/products/detail/id=123041) | 2021 | マイナビブックス
+[やさしくわかるPythonの教室](https://gihyo.jp/book/2021/978-4-297-12117-4) | 2021 | 技術評論社
+[Python＆Excel自動処理 全部入り](https://book.impress.co.jp/books/1119101179) | 2020 | インプレス
+[Pythonふりがなプログラミング パターン文例80](https://book.impress.co.jp/books/1119101161) | 2020 | インプレス
+[Pythonふりがなプログラミング](https://book.impress.co.jp/books/1117101140) | 2018 | インプレス
+
 ## Writings
 
 ### [gihyo.jp](https://gihyo.jp/)
