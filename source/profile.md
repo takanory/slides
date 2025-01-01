@@ -1,6 +1,6 @@
 # Profile
 
-```{button-link} https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fslides.takanory.net%2Fprofile.hml
+```{button-link} https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fslides.takanory.net%2Fprofile
 :color: info
 :shadow:
 
