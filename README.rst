@@ -5,10 +5,12 @@
 Overview
 ========
 This repository maintains takanory's presentation slides.
-HTML and slides can be found at [slides.takanory.net](https://slides.takanory.net).
+HTML and slides can be found at `slides.takanory.net`_.
 
 このリポジトリではtakanoryの発表スライドを管理しています。
-HTMLとスライドは[slides.takanory.net](https://slides.takanory.net)で参照できます。
+HTMLとスライドは `slides.takanory.net`_ で参照できます。
+
+.. _slides.takanory.net: https://slides.takanory.net
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
