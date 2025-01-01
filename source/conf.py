@@ -28,6 +28,7 @@ author = 'takanory'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "myst_parser",
     "sphinxext.opengraph",
     "sphinx_design",
 ]

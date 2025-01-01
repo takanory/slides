@@ -2,13 +2,24 @@
  takanory slides
 =================
 
-* :fas:`globe` https://slides.takanory.net/
-* :fab:`github` https://github.com/takanory/slides
-* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__ /
-  :fab:`github` `takanory <https://github.com/takanory/>`__ /
-  :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__ /
-  :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
-* `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_ (`ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
+.. only:: html
+
+   .. toctree::
+      :hidden:
+
+      profile
+
+   * :fas:`globe` https://slides.takanory.net/
+   * :fab:`github` https://github.com/takanory/slides
+
+   * :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__ /
+     :fab:`github` `takanory <https://github.com/takanory/>`__ /
+     :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__ /
+     :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
+   * :doc:`./profile`
+     (`en slide <https://slides.takanory.net/slides/about-takanory/>`_, `ja slide <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
+
+   .. image:: /_static/qrcode.png
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
@@ -16,8 +27,6 @@
      * Talk
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
-
-.. image:: /_static/qrcode.png
 
 2025
 ====
