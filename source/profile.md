@@ -1,5 +1,12 @@
 # Profile
 
+```{button-link} https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fslides.takanory.net%2Fprofile.hml
+:color: info
+:shadow:
+
+{material-regular}`translate` Translate to English
+```
+
 ```{image} /_static/takanory.jpg
 :width: 200
 :alt: takanory

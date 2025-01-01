@@ -2,6 +2,12 @@
  takanory slides
 =================
 
+.. button-link:: https://translate.google.com/translate?sl=auto&tl=en&u=https%3A%2F%2Fslides.takanory.net%2F
+   :color: info
+   :shadow:
+
+   :material-regular:`translate` Translate to English
+
 .. toctree::
    :hidden:
 
