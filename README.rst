@@ -2,13 +2,15 @@
  takanory slides
 =================
 
-* :fas:`globe` https://slides.takanory.net/
-* :fab:`github` https://github.com/takanory/slides
-* :fab:`x-twitter` `@takanory <https://twitter.com/takanory>`__ /
-  :fab:`github` `takanory <https://github.com/takanory/>`__ /
-  :fab:`linkedin` `takanory <https://www.linkedin.com/in/takanory/>`__ /
-  :fab:`untappd` `takanory <https://untappd.com/user/takanory/>`__
-* `Self introduction <https://slides.takanory.net/slides/about-takanory/>`_ (`ja <https://slides.takanory.net/slides/about-takanory/index-ja.html>`_)
+Overview
+========
+This repository maintains takanory's presentation slides.
+HTML and slides can be found at `slides.takanory.net`_.
+
+このリポジトリではtakanoryの発表スライドを管理しています。
+HTMLとスライドは `slides.takanory.net`_ で参照できます。
+
+.. _slides.takanory.net: https://slides.takanory.net
 
 .. - * `Python mini Hack-a-thon Conference <https://pyhack.connpass.com/event/154028/>`__
      * Tokyo, Japan
@@ -17,7 +19,7 @@
      * TBD
      * `Slides <https://gitpitch.com/takanory/slides?p=20200307pyhackcon>`__
 
-.. image:: /_static/qrcode.png
+.. include from here
 
 2025
 ====
@@ -32,7 +34,14 @@
      * lang
      * title
      * resource
-   - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024-continue>`_
+   - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
+     * Quezon City, Philippines
+     * 2025 Mar
+     * Talk
+     * ja
+     * How to learn Japanese with Python
+     * 
+   - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
      * Shizuoka, Japan
      * 2025 Feb
      * Talk
@@ -53,6 +62,13 @@
      * lang
      * title
      * resource
+   - * `PyCon APAC 2024 参加報告会 <https://churadata.connpass.com/event/333786//>`_
+     * Tokyo, Japan
+     * 2024 Dec
+     * Talk
+     * ja
+     * 現地セッションの傾向 Web技術編
+     * `Slides <https://slides.takanory.net/slides/20241211apacreport>`__
    - * `PyCon mini Tokai 2024 <https://tokai.pycon.jp/2024/>`_
      * Aichi, Japan
      * 2024 Nov
@@ -67,6 +83,7 @@
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://www.k-of.jp/2024/session/pyconjp>`__
      * `Slides <https://slides.takanory.net/slides/20241109kof>`__
+       `Video <https://www.youtube.com/watch?v=R-K-Prvymc0>`__
    - * BPStyle 166
      * Online
      * 2024 Nov
@@ -95,6 +112,7 @@
      * ja
      * `Pythonで日本語処理入門 〜フリガナプログラムを作ろう〜 <https://2024.pycon.jp/en/talk/BQXVWE>`__
      * `Slides <https://slides.takanory.net/slides/20240928pyconjp>`__
+       `Video <https://www.youtube.com/watch?v=4NawUHTgUoY>`__
    - * `PyCon Taiwan 2024 <https://tw.pycon.org/2024/en-us/>`_
      * Kaohsiung, Taiwan
      * 2024 Sep

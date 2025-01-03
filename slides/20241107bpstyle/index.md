@@ -1,8 +1,8 @@
 ```{eval-rst}
-:og:image: _images/20241106bpstyle.png
+:og:image: _images/20241107bpstyle.png
 :og:image:alt: PyCon APAC Report
 
-.. |cover| image:: images/20241106bpstyle.png
+.. |cover| image:: images/20241107bpstyle.png
 ```
 
 # **PyCon APAC** Report
