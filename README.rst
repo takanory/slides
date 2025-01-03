@@ -46,9 +46,9 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2025 Feb
      * Talk
      * ja
-     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024/info>`__
-     * 
-           
+     * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024-continue/info>`__
+     * `Slides <https://slides.takanory.net/slides/20250208pyconshizu>`__
+            
 2024
 ====
 .. list-table::
