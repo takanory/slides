@@ -38,7 +38,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Quezon City, Philippines
      * 2025 Mar
      * Talk
-     * ja
+     * en
      * How to learn Japanese with Python
      * 
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024>`_
