@@ -33,6 +33,7 @@ extensions = [
     "sphinxext.opengraph",
     "sphinx_design",
     "atsphinx.audioplayer",
+    "sphinx_nekochan",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
