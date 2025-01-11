@@ -167,7 +167,7 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-* mp3ファイルができた！！ 🎉
+* mp3ファイルができた！！ {nekochan}`clap`
 
 ```{literalinclude} code/polly.py
 :lines: 6-10
@@ -369,7 +369,7 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-* 日本語と英語の混ざった音声ができた！！ 🎉
+* 日本語と英語の混ざった音声ができた！！ {nekochan}`medetai`
 
 ```{literalinclude} code/question.txt
 ```
@@ -444,7 +444,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 </mjx-container>
 ```
 
-### SVGは画像フォーマットなので<br />読めない... 😇
+### SVGは画像フォーマットなので<br />読めない... {nekochan}`mesareta`
 
 ## Mathjaxを読み上げる 💬
 
@@ -592,12 +592,12 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 ```{audio} audio/mathml.mp3
 ```
 
-### おしい... 😉
+### おしい... {nekochan}`wink`
 
 * ax → あっくす
 * 2a → にあーる
 
-# まとめ 📚
+# まとめ  {nekochan}`good`
 
 * Amazon Pollyで音声合成は**簡単**にできる
 * **多言語**に対応
@@ -605,7 +605,12 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 * **数式**も**MathML**の解析で読み上げられる
 * サンプルコード: {fab}`github` [code](https://github.com/takanory/slides/tree/master/slides/20250208pyconshizu/code)
 
-## Thank You 🙏
+## お知らせ
+
+* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張[sphinx-nekochan](https://sphinx-nekochan.readthedocs.io/)をリリースしました {nekochan}`banzai`
+  * 参考：[【2024.08追加】SlackやDiscordで使えるネコチャン絵文字を配布しています♪｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/nd217dc0617db)
+
+## Thank You {nekochan}`pray`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
