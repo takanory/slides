@@ -17,10 +17,10 @@
 :alt: kuri-chan and kuri-chan
 ```
 
-{fab}`x-twitter` [@takanory](https://twitter.com/takanory) /
-{fab}`github` [@takanory](https://github.com/takanory/) /
-{fab}`linkedin` [@takanory](https://www.linkedin.com/in/takanory/) /
-{fab}`untappd` [@takanory](https://untappd.com/user/takanory/)
+{fab}`x-twitter` [takanory](https://twitter.com/takanory) /
+{fab}`github` [takanory](https://github.com/takanory/) /
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/) /
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
 
 ## Takanori Suzuki / 鈴木たかのり
 
