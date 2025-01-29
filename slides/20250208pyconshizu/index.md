@@ -608,13 +608,13 @@ x=2aぶんのマイナスbプラスマイナスルートb2乗マイナス4ac
 ## お知らせ
 
 * Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張[sphinx-nekochan](https://sphinx-nekochan.readthedocs.io/)をリリースしました {nekochan}`banzai`
-  * 参考：[【2024.08追加】SlackやDiscordで使えるネコチャン絵文字を配布しています♪｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/nd217dc0617db)
+* 参考：[【2024.08追加】SlackやDiscordで使えるネコチャン絵文字を配布しています♪｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/nd217dc0617db)
 
 ## Thank You {nekochan}`pray`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
-{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`twitter` [takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
 {fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
 {fab}`untappd` [takanory](https://untappd.com/user/takanory/)
