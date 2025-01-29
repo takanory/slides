@@ -1,8 +1,8 @@
 ```{eval-rst}
 :og:image: _images/20250208pyconshizu.png
-:og:image:alt: Amazon Pollyで問題a文を読み上げ
+:og:image:alt: Amazon Pollyで問題文を読み上げ 数式も読み上げ
 
-.. |cover| image:: images/20240831pyconshizu.png
+.. |cover| image:: images/20250208pyconshizu.png
 ```
 
 # **Amazon Polly**で<br />問題文を読み上げ<br />**数式**も読み上げ
