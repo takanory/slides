@@ -47,7 +47,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * `Amazon Pollyで問題文読み上げ、数式も読み上げ <https://shizuoka.pycon.jp/2024-continue/info>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250208pyconshizu>`__
            
 2024
 ====
@@ -728,6 +728,7 @@ Reference
   * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
   * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
   * `atsphinx-audioplayer <https://atsphinx.github.io/audioplayer/en/>`_: Sphinx extension that renders html content for playing audio files
+  * `sphinx-nekochan <https://sphinx-nekochan.readthedocs.io/>`_: Sphinx extension for adding the Nekochan(cat) emoji to documents
 * `Cloudflare Pages <https://pages.cloudflare.com/>`_
 
   * `Cloudflare Pages documentation <https://developers.cloudflare.com/pages>`_
