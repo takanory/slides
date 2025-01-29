@@ -70,9 +70,7 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 `#pyconshizu` / `@takanory`
 
-### Slides / スライド 💻
-
-[slides.takanory.net](https://slides.takanory.net/)
+### [slides.takanory.net](https://slides.takanory.net/) 💻
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
