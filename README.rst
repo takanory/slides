@@ -40,7 +40,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * en
      * How to learn Japanese with Python
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250301pyconapac>`__
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024-continue>`_
      * Shizuoka, Japan
      * 2025 Feb
