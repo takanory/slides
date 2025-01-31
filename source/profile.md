@@ -17,10 +17,10 @@
 :alt: kuri-chan and kuri-chan
 ```
 
-{fab}`x-twitter` [@takanory](https://twitter.com/takanory) /
-{fab}`github` [@takanory](https://github.com/takanory/) /
-{fab}`linkedin` [@takanory](https://www.linkedin.com/in/takanory/) /
-{fab}`untappd` [@takanory](https://untappd.com/user/takanory/)
+{fab}`x-twitter` [takanory](https://twitter.com/takanory) /
+{fab}`github` [takanory](https://github.com/takanory/) /
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/) /
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
 
 ## Takanori Suzuki / 鈴木たかのり
 
@@ -75,8 +75,8 @@ Cover | Title | Year| Publisher
 
 Cover | Title | Year| Publisher
 --- | --- | --- | ---
-![](images/pycrash2-hisshu.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6) | 2023 | 技術評論社
-![](images/pycrash2-jissen.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2024/978-4-297-14526-2) | 2023 | 技術評論社
+![](images/pycrash2-hisshu.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6) | 2024 | 技術評論社
+![](images/pycrash2-jissen.jpg){w=75px} | [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2024/978-4-297-14526-2) | 2024 | 技術評論社
 ![](images/pycrash-hisshu.jpg){w=75px} | [最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2020/978-4-297-11570-8) | 2020 | 技術評論社
 ![](images/pycrash-jissen.jpg){w=75px} | [最短距離でゼロからしっかり学ぶ Python入門 実践編](https://gihyo.jp/book/2020/978-4-297-11572-2) | 2020 | 技術評論社
 
