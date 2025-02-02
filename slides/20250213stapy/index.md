@@ -101,7 +101,7 @@ SyntaxError: expected ':'
 * 構文が正しい
 * **実行時**にエラーが発生
 
-```{code-block} python3
+```{code-block} python3.13
 >>> 1 / 0
 Traceback (most recent call last):
   File "<python-input-0>", line 1, in <module>
@@ -124,7 +124,7 @@ ZeroDivisionError: division by zero
 :caption: error_example.py
 ```
 
-```bash
+```python
 % python3.13 error_example.py 
   File ".../error_example.py", line 1  # このファイルの1行目の
     for i in range(10)
@@ -161,6 +161,200 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 * Eric Matthes著
 * 鈴木たかのり、安田善一郎翻訳
 * **大絶賛発売中！！**
+
+### どんなエラーが出る？(p18)
+
+```{literalinclude} code/message.py
+:caption: message.py
+```
+
+```{revealjs-break}
+```
+
+```bash
+Traceback (most recent call last):
+  File ".../message.py", line 2, in <module>
+    print(mesage)
+          ^^^^^^
+NameError: name 'mesage' is not defined. \
+    Did you mean: 'message'?
+```
+
+* [`NameError`](https://docs.python.org/ja/3.13/library/exceptions.html#NameError)：名前が見つからないエラー
+* `'mesage'`という名前は定義されていません
+* `'message'` と間違えてませんか？
+
+```{revealjs-break}
+```
+
+* 変数名を修正して解決
+
+```{literalinclude} code/message_fixed.py
+```
+
+### どんなエラーが出る？(p27)
+
+```{literalinclude} code/message2.py
+:caption: message2.py
+```
+
+```{revealjs-break}
+```
+
+```bash
+  File ".../message2.py", line 1
+    message = 'One of Python's strengths is its diverse community.'
+                                                                  ^
+SyntaxError: unterminated string literal (detected at line 1)
+```
+
+* [`SyntaxError`](https://docs.python.org/ja/3.13/library/exceptions.html#SyntaxError)：構文エラー
+* 文字列リテラルが終了していません
+
+```{revealjs-break}
+```
+
+* クォーテーションを変更して解決
+
+```{literalinclude} code/message2_fixed.py
+```
+
+### どんなエラーが出る？(p52)
+
+```{literalinclude} code/beers.py
+:caption: beers.py
+```
+
+```{revealjs-break}
+```
+
+```python
+  File ".../beers.py", line 2, in <module>
+    print(beers[3])
+          ~~~~~^^^
+IndexError: list index out of range
+```
+
+* [`IndexError`](https://docs.python.org/ja/3.13/library/exceptions.html#IndexError)：インデックスエラー
+* インデックスが範囲外です
+
+```{revealjs-break}
+```
+
+* 正しい範囲を指定して解決
+
+```{literalinclude} code/beers_fixed.py
+```
+
+### どんなエラーが出る？(p60)
+
+```{literalinclude} code/beers2.py
+:caption: beers2.py
+```
+
+```{revealjs-break}
+```
+
+```python
+  File ".../beers2.py", line 3
+    print(beer)
+    ^^^^^
+IndentationError: expected an indented block after \
+    'for' statement on line 2
+```
+
+* [`IndentationError`](https://docs.python.org/ja/3.13/library/exceptions.html#IndentationError)：正しくないインデントのエラー
+* 2行目の`for`文のあとにインデントが必要
+
+```{revealjs-break}
+```
+
+* インデントを追加して解決
+
+```{literalinclude} code/beers2_fixed.py
+```
+
+### どんなエラーが出る？(p61)
+
+```{literalinclude} code/beers3.py
+:caption: beers3.py
+```
+
+```{revealjs-break}
+```
+
+```python
+  File ".../beers3.py", line 2
+    for beer in beers
+                     ^
+SyntaxError: expected ':'
+```
+
+* [`SyntaxError`](https://docs.python.org/ja/3.13/library/exceptions.html#SyntaxError)：構文エラー
+* `:` が必要です
+
+```{revealjs-break}
+```
+
+* インデントを追加して解決
+
+```{literalinclude} code/beers3_fixed.py
+```
+
+### どんなエラーが出る？(p75)
+
+```{literalinclude} code/sizes.py
+:caption: sizes.py
+```
+
+```{revealjs-break}
+```
+
+```python
+Traceback (most recent call last):
+  File ".../sizes.py", line 2, in <module>
+    sizes[0] = "UK Pint"
+    ~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+```
+
+* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* タプルは要素の代入に対応していません
+
+```{revealjs-break}
+```
+
+* タプル全体を上書きは可能
+
+```{literalinclude} code/sizes_fixed.py
+```
+
+### どんなエラーが出る？(p113)
+
+```{literalinclude} code/beer_dict.py
+:caption: beer_dict.py
+```
+
+```{revealjs-break}
+```
+
+```python
+Traceback (most recent call last):
+  File ".../beer_dict.py", line 2, in <module>
+    beer["style"]
+    ~~~~^^^^^^^^^
+KeyError: 'style'
+```
+
+* [`KeyError`](https://docs.python.org/ja/3.13/library/exceptions.html#KeyError)：辞書のキーが存在しないエラー
+
+```{revealjs-break}
+```
+
+* `get()`メソッドを使用する
+
+```{literalinclude} code/beer_dict_fixed.py
+```
 
 ## 例外処理
 
