@@ -71,13 +71,13 @@ Takanori Suzuki
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
-## Pythonのエラーってなに {nekochan}`hate-nya`
+## Pythonの**エラーってなに**？ {nekochan}`hate-nya`
 
 ### エラー好きな人？ {nekochan}`ok`
 
 ### エラー嫌いな人？ {nekochan}`ng`
 
-### Pythonには**2つのエラー**
+### Pythonには**2種類のエラー**
 
 * 構文エラー（syntax error）
 * 例外（exception）
@@ -356,7 +356,89 @@ KeyError: 'style'
 ```{literalinclude} code/beer_dict_fixed.py
 ```
 
-## 例外処理
+### どんなエラーが出る？(p134)
+
+```{literalinclude} code/age.py
+:caption: age.py
+```
+
+```bash
+% python3.13 age.py
+何歳ですか？21
+```
+
+```{revealjs-break}
+```
+
+```python
+% python3.13 age.py
+何歳ですか？21
+Traceback (most recent call last):
+  File ".../age.py", line 2, in <module>
+    if age >= 20:
+       ^^^^^^^^^
+TypeError: '>=' not supported between instances of \
+    'str' and 'int'
+```
+
+* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* strとintの間で`>=`はサポートされていません
+
+```{revealjs-break}
+```
+
+* `int()`で整数に変換する
+
+```{literalinclude} code/age_fixed.py
+```
+
+```
+% python3.13 age.py
+何歳ですか？21
+お酒が飲める年齢です
+```
+
+### どんなエラーが出る？(p157)
+
+```{literalinclude} code/beer_func.py
+:caption: beer_func.py
+```
+
+```{revealjs-break}
+```
+
+```python
+Traceback (most recent call last):
+  File ".../beer_func.py", line 5, in <module>
+    describe_beer()
+    ~~~~~~~~~~~~~^^
+TypeError: describe_beer() missing 2 required positional \
+    arguments: 'beer_name' and 'brewery'
+```
+
+* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* 2つの位置引数beer_nameとbreweryがありません
+
+```{revealjs-break}
+```
+
+* 引数を正しく指定する
+
+```{literalinclude} code/beer_func_fixed.py
+```
+
+### 何個わかりました？
+
+### エラーの一覧
+
+* [組み込み例外 — Python公式ドキュメント](https://docs.python.org/ja/3.13/library/exceptions.html)
+* **初めて見る**例外があったら調べてみよう！
+
+### さまざまな**例外が発生**する {nekochan}`hiza-ni-ya-wo-ukete-simatte`
+
+### 例外が発生しても**正しく動作**させたい {nekochan}`kochira`
+
+## 例外を処理する {nekochan}`kamon`
 
 ## おまけ：better error messages
 
