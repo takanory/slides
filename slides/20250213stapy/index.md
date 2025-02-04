@@ -73,7 +73,17 @@ Takanori Suzuki
 
 ### BeProud**メンバー募集中** {nekochan}`kamon`
 
-[`www.beproud.jp/careers/`](https://www.beproud.jp/careers/)
+```{image} /assets/images/qr-career.png
+:width: 40%
+:alt: Pythno求人QRコード
+:target: https://www.beproud.jp/careers/python/
+```
+
+```{image} /assets/images/qr-casual-interview.png
+:width: 40%
+:alt: カジュアル面談QRコード
+:target: https://forms.gle/tM4n2ufKf49MbXsH9
+```
 
 ## Pythonの**エラーってなに**？ {nekochan}`hate-nya`
 
