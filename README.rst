@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * How to learn Japanese with Python
      * 
+   - * `みんなのPython勉強会#112 <https://startpython.connpass.com/event/341061/>`__
+     * Online, Japan
+     * 2025 Feb
+     * Talk
+     * ja
+     * エラーはともだち こわくないよ
+     * 
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024-continue>`_
      * Shizuoka, Japan
      * 2025 Feb
