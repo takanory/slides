@@ -33,7 +33,7 @@ Takanori Suzuki
 
 `#stapy` / `@takanory`
 
-### [slides.takanory.net](https://slides.takanory.net/) 💻
+### [`slides.takanory.net`](https://slides.takanory.net/) 💻
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
@@ -126,7 +126,7 @@ ZeroDivisionError: division by zero
 
 ### エラーが怖い？
 
-### エラーは怒っていない
+### エラーは**怒っていない**
 
 * **ここが問題だよ**と教えてくれている
 * 問題を修正するための**案内役**
@@ -146,7 +146,7 @@ ZeroDivisionError: division by zero
 SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 ```
 
-### エラーの意味がわからない？
+### エラーの意味が**わからない**？
 
 ### Googleで検索 {nekochan}`miru`
 
@@ -156,7 +156,7 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 
 ![ChatGPTで質問](images/ask-chatgpt.png)
 
-### そのうち**自分**で**エラーに対処**できる {nekochan}`benkyou` （はず）
+### そのうち**自分**で**エラーに対処**できる {nekochan}`benkyou` （ようになるはず）
 
 ## よくあるエラーの**パターン** {nekochan}`naruhodo`
 
@@ -171,7 +171,7 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 ```
 
 * [改訂新版 最短距離でゼロからしっかり学ぶ Python入門 必修編](https://gihyo.jp/book/2024/978-4-297-14528-6)
-* 2024年10月31日、3,630円
+* 2024年10月31日発売、価格：3,630円
 * Eric Matthes著
 * 鈴木たかのり、安田善一郎翻訳
 * **大絶賛発売中！！**
@@ -453,6 +453,110 @@ TypeError: describe_beer() missing 2 required positional \
 ### 例外が発生しても**正しく動作**させたい {nekochan}`kochira`
 
 ## 例外を処理する {nekochan}`kamon`
+
+### 例外処理の基本
+
+* 数値以外を指定すると[`ValueError`](https://docs.python.org/ja/3.13/library/exceptions.html#ValueError)が発生
+
+```{literalinclude} code/age_fixed.py
+```
+
+```bash
+% python3.13 age.py
+何歳ですか？二十歳
+Traceback (most recent call last):
+  File "...//age.py", line 2, in <module>
+    if int(age) >= 20:
+       ~~~^^^^^
+ValueError: invalid literal for int() with base 10: '二十歳'
+```
+
+```{revealjs-break}
+```
+
+* `try` と `except` で例外処理
+
+```bash
+% python3.13 age2.py
+何歳ですか？二十歳
+数値を入力してください
+```
+
+```{revealjs-literalinclude} code/age2.py
+:data-line-numbers: 1-8|1-3,7-8
+```
+
+```{revealjs-break}
+```
+
+* 例外がなければ `except` 節は**実行されない**
+
+```bash
+% python3.13 age2.py
+何歳ですか？21
+お酒が飲める年齢です
+```
+
+```{revealjs-literalinclude} code/age2.py
+:data-line-numbers: 1-8|1-4
+```
+
+### 複数の例外に対応する
+
+* 1つの処理で異なる種類の例外が発生する場合がある
+* ファイルからテキストを読み込む場合
+* **どんな例外**が考えられますか？
+
+```{revealjs-literalinclude} code/read_text.py
+```
+
+```{revealjs-break}
+```
+
+* 例外の種類によってメッセージを**出し分け**
+
+```{revealjs-literalinclude} code/read_text2.py
+```
+
+### **事前チェック**と例外処理
+
+* 事前にチェックして例外を防げる場合もある
+* どちらを使うかはお好みで
+
+```python
+from pathlib import Path
+
+p = Path("beer.txt")
+if not p.exists():  # ファイルの存在チェック
+    print("ファイルが存在しません")
+else:
+    ...
+	
+if key in beer_dict:  # キーの存在チェック
+    beer_dict[key]
+else:
+    ...
+```
+
+### **辞書のget**は適切に使おう
+
+* キー名をtypoしているのに気づかないことも
+* `[]`なら例外で気づける
+* 型ヒントで[`TypedDict`](https://docs.python.org/3/library/typing.html#typing.TypedDict)を使うのもあり
+
+```python
+style = beer.get("stlye")  # typoに気づかない
+
+class Beer(TypedDict):
+    name: str
+    style: str
+
+beer: Beer = {"name": "Stone IPA", "style": "IPA"}
+```
+
+### `try`節は短く書く
+
+* 参考：[65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
 
 ## おまけ：better error messages
 
