@@ -156,6 +156,37 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 
 ![ChatGPTで質問](images/ask-chatgpt.png)
 
+### **長いエラー**が出たうわってなる？ {nekochan}`guruguru`
+
+### 大事なのは**一番最後**
+
+```{revealjs-code-block} python
+:data-line-numbers: 1-22|20-22
+
+>>> import urllib.request
+>>> urllib.request.urlopen("https://hoge.com")
+Traceback (most recent call last):
+  File "<python-input-4>", line 1, in <module>
+    urllib.request.urlopen("https://hoge.com")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+```
+
 ### そのうち**自分**で**エラーに対処**できる {nekochan}`benkyou` （ようになるはず）
 
 ## よくあるエラーの**パターン** {nekochan}`naruhodo`
@@ -554,13 +585,59 @@ class Beer(TypedDict):
 beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 ```
 
-### `try`節は短く書く
+### 例外を**握りつぶさない**
 
-* 参考：[65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
+* 例外を隠蔽すると**エラーの原因**がわからなくなる
+
+```{revealjs-literalinclude} code/hide_exception.py
+```
+
+* [64:例外を握り潰さない — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/64-%E4%BE%8B%E5%A4%96%E3%82%92%E6%8F%A1%E3%82%8A%E6%BD%B0%E3%81%95%E3%81%AA%E3%81%84.html)
+
+### **try節は短く**書く
+
+* エラー発生時に問題を切り分けられない
+
+```{revealjs-literalinclude} code/long_try.py
+```
+
+* [65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
+
+```{revealjs-break}
+```
+
+* tryの範囲を短く
+
+```{revealjs-literalinclude} code/long_try_fixed.py
+```
+
+```{revealjs-break}
+```
+
+* `{e}`で例外を見分ける
+
+```{revealjs-literalinclude} code/long_try_fixed.py
+:lines: 9-14
+```
+
+```python
+# "aaaa" などカンマがない場合
+データ変換エラーが発生: not enough values to unpack (expected 2, got 1)
+# "aaaa,bbbb" など2番目の要素が数字じゃない
+データ変換エラーが発生: invalid literal for int() with base 10: 'b'
+```
 
 ## おまけ：better error messages
 
 ## まとめ {nekochan}`good`
+
+* エラーが出たら**調べる**
+  * そのうち読めるようになる
+* **よくあるエラー**を紹介
+  * `NameError`、`SyntaxError`、`IndexError`、`IndentationError`、`TypeError`、`KeyError`
+* **例外処理**の基本と気をつける**ポイント**
+
+### エラーと**ともだち**になれそう？ {nekochan}`nakayoshi`
 
 ## お知らせ
 
