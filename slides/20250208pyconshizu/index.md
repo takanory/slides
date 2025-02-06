@@ -112,6 +112,20 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
+### BeProud**メンバー募集中** {nekochan}`kamon`
+
+```{image} /assets/images/qr-career.png
+:width: 40%
+:alt: Pythno求人のQRコード
+:target: https://www.beproud.jp/careers/python/
+```
+
+```{image} /assets/images/qr-casual-interview.png
+:width: 40%
+:alt: カジュアル面談のQRコード
+:target: https://forms.gle/tM4n2ufKf49MbXsH9
+```
+
 ## Amazon Pollyの基本 🗣️
 
 ### Amaozon Polly
