@@ -112,7 +112,7 @@ SyntaxError: expected ':'
 
 ### 例外（exception）
 
-* 構文が正しい
+* 構文は正しい
 * **実行時**にエラーが発生
 
 ```{code-block} python3.13
@@ -156,7 +156,7 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 
 ![ChatGPTで質問](images/ask-chatgpt.png)
 
-### **長いエラー**が出たうわってなる？ {nekochan}`guruguru`
+### **長いエラー**が出たらうわってなる？ {nekochan}`guruguru`
 
 ### 大事なのは**一番最後**
 
@@ -346,7 +346,7 @@ SyntaxError: expected ':'
 ```{literalinclude} code/beers3_fixed.py
 ```
 
-### どんなエラーが出る？(p75)
+### どんなエラーが出る？(p76)
 
 ```{literalinclude} code/sizes.py
 :caption: sizes.py
