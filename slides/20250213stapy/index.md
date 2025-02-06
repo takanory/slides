@@ -75,13 +75,13 @@ Takanori Suzuki
 
 ```{image} /assets/images/qr-career.png
 :width: 40%
-:alt: Pythno求人QRコード
+:alt: Pythno求人のQRコード
 :target: https://www.beproud.jp/careers/python/
 ```
 
 ```{image} /assets/images/qr-casual-interview.png
 :width: 40%
-:alt: カジュアル面談QRコード
+:alt: カジュアル面談のQRコード
 :target: https://forms.gle/tM4n2ufKf49MbXsH9
 ```
 
