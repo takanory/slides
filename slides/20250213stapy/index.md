@@ -642,9 +642,11 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 ```{revealjs-literalinclude} code/unclosed.py
 ```
 
-* Python 3.9だとエラーが**意味不明** {nekochan}`oko`
+* Python 3.9だとエラーが**意味不明** {nekochan}`yabai`
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % Python 3.9 unclosed.py
   File ".../unclosed.py", line 2
     beer = beers[0]
@@ -660,7 +662,9 @@ SyntaxError: invalid syntax
 
 * Python 3.10だと**わかりやすい**！ {nekochan}`medetai`
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % Python 3.10 unclosed.py
   File ".../unclosed.py", line 1
     beers = ["Punk IPA", "よなよなエール",
@@ -673,7 +677,9 @@ SyntaxError: '[' was never closed
 ```{revealjs-literalinclude} code/beers3.py
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % python3.9 beers3.py
   File ".../beers3.py", line 2
     for beer in beers
@@ -681,7 +687,9 @@ SyntaxError: '[' was never closed
 SyntaxError: invalid syntax  # 無効なシンタックス
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % python3.10 beers3.py
   File ".../beers3.py", line 2
     for beer in beers
@@ -694,7 +702,9 @@ SyntaxError: expected ':'  # ':'を忘れてません？
 ```{revealjs-literalinclude} code/beers2.py
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % python3.9 beers2.py
   File ".../beers2.py", line 3
     print(beer)
@@ -702,7 +712,9 @@ SyntaxError: expected ':'  # ':'を忘れてません？
 IndentationError: expected an indented block
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % python3.10 beers2.py
   File ".../beers2.py", line 3
     print(beer)
@@ -715,25 +727,32 @@ IndentationError: expected an indented block after 'for' statement on line 2
 ```{revealjs-literalinclude} code/message.py
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-4
+
 % python3.9 message.py
   File ".../message.py", line 3
     print(mesage)
 NameError: name 'mesage' is not defined
 ```
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 3-5
+
 % python3.10 message.py
   File ".../message.py", line 3
     print(mesage)
-NameError: name 'mesage' is not defined. Did you mean: 'message'?
+NameError: name 'mesage' is not defined. \
+    Did you mean: 'message'?
 ```
 
 ### Python 3.11での改善
 
 * Python 3.11: [PEP 657: トレースバックのエラー位置の詳細化](https://docs.python.org/ja/3.13/whatsnew/3.11.html#pep-657-fine-grained-error-locations-in-tracebacks)
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 1-2,5-7
+
 >>> x, y, z = 1, 1, 0
 >>> x / y / z
 Traceback (most recent call last):
@@ -748,7 +767,9 @@ ZeroDivisionError: float division by zero
 * Python 3.12: [Improved Error Messages](https://docs.python.org/ja/3.13/whatsnew/3.12.html#improved-error-messages)
 * 標準ライブラリ、`ImportError`でも提案
   
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 1,4-6,9-11
+
 >>> random.randint()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -757,16 +778,18 @@ NameError: name 'random' is not defined. \
 >>> from datetime import datatime
 Traceback (most recent call last):
   File "<python-input-6>", line 1, in <module>
-    from datetime import datatime
-ImportError: cannot import name 'datatime' from 'datetime' (...). \
-    Did you mean: 'datetime'?
+    from datetime import data
+ImportError: cannot import name 'data' from 'datetime' (...). \
+    Did you mean: 'date'?
 ```
 ### Python 3.13での改善
 
 * Python 3.13: [Improved error messages](https://docs.python.org/ja/3.13/whatsnew/3.13.html#whatsnew313-improved-error-messages)
 * 引数にもDid you meanで提案
 
-```python
+```{revealjs-code-block} python
+:data-line-numbers: 1,4-6
+
 >>> f = open("beer.txt", encodeng="utf-8")
 Traceback (most recent call last):
   File "<python-input-7>", line 1, in <module>
