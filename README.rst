@@ -47,7 +47,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * エラーはともだち こわくないよ
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250213stapy>`__
    - * `PyCon mini Shizuoka 2024 continue <https://shizuoka.pycon.jp/2024-continue>`_
      * Shizuoka, Japan
      * 2025 Feb
