@@ -102,7 +102,7 @@ Takanori Suzuki
 * Pythonの**構文**として**正しくない**
 * **構文解析時**にエラーが発生
 
-```pycon
+```python
 >>> for i in range(10)
   File "<python-input-1>", line 1
     for i in range(10)
@@ -115,7 +115,7 @@ SyntaxError: expected ':'
 * 構文は正しい
 * **実行時**にエラーが発生
 
-```{code-block} python3.13
+```{code-block} python
 >>> 1 / 0
 Traceback (most recent call last):
   File "<python-input-0>", line 1, in <module>
@@ -136,9 +136,10 @@ ZeroDivisionError: division by zero
 
 ```{literalinclude} code/error_example.py
 :caption: error_example.py
+:language: python
 ```
 
-```python
+```{code-block} python
 % python3.13 error_example.py 
   File ".../error_example.py", line 1  # このファイルの1行目の
     for i in range(10)
@@ -163,26 +164,26 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 ```{revealjs-code-block} python
 :data-line-numbers: 1-22|20-22
 
->>> import urllib.request
->>> urllib.request.urlopen("https://hoge.com")
+>>> from urllib import request
+>>> request.urlopen("https://httpbin.org/status/403")
 Traceback (most recent call last):
-  File "<python-input-4>", line 1, in <module>
-    urllib.request.urlopen("https://hoge.com")
-    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+  File "<python-input-1>", line 1, in <module>
+    request.urlopen("https://httpbin.org/status/403")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ".../urllib/request.py", line 189, in urlopen
     return opener.open(url, data, timeout)
            ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+  File ".../urllib/request.py", line 495, in open
     response = meth(req, response)
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+  File ".../urllib/request.py", line 604, in http_response
     response = self.parent.error(
         'http', request, response, code, msg, hdrs)
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+  File ".../urllib/request.py", line 533, in error
     return self._call_chain(*args)
            ~~~~~~~~~~~~~~~~^^^^^^^
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+  File ".../urllib/request.py", line 466, in _call_chain
     result = func(*args)
-  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+  File ".../urllib/request.py", line 613, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 403: Forbidden
 ```
@@ -211,6 +212,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 
 ```{literalinclude} code/message.py
 :caption: message.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -235,12 +237,14 @@ NameError: name 'mesage' is not defined. \
 * 変数名を修正して解決
 
 ```{literalinclude} code/message_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p27)
 
 ```{literalinclude} code/message2.py
 :caption: message2.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -262,12 +266,14 @@ SyntaxError: unterminated string literal (detected at line 1)
 * クォーテーションを変更して解決
 
 ```{literalinclude} code/message2_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p52)
 
 ```{literalinclude} code/beers.py
 :caption: beers.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -289,12 +295,14 @@ IndexError: list index out of range
 * 正しい範囲を指定して解決
 
 ```{literalinclude} code/beers_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p60)
 
 ```{literalinclude} code/beers2.py
 :caption: beers2.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -317,12 +325,14 @@ IndentationError: expected an indented block after \
 * インデントを追加して解決
 
 ```{literalinclude} code/beers2_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p61)
 
 ```{literalinclude} code/beers3.py
 :caption: beers3.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -344,12 +354,14 @@ SyntaxError: expected ':'
 * インデントを追加して解決
 
 ```{literalinclude} code/beers3_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p76)
 
 ```{literalinclude} code/sizes.py
 :caption: sizes.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -372,12 +384,14 @@ TypeError: 'tuple' object does not support item assignment
 * タプル全体を上書きは可能
 
 ```{literalinclude} code/sizes_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p113)
 
 ```{literalinclude} code/beer_dict.py
 :caption: beer_dict.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -399,12 +413,14 @@ KeyError: 'style'
 * `get()`メソッドを使用する
 
 ```{literalinclude} code/beer_dict_fixed.py
+:language: python
 ```
 
 ### どんなエラーが出る？(p134)
 
 ```{literalinclude} code/age.py
 :caption: age.py
+:language: python
 ```
 
 ```bash
@@ -435,6 +451,7 @@ TypeError: '>=' not supported between instances of \
 * `int()`で整数に変換する
 
 ```{literalinclude} code/age_fixed.py
+:language: python
 ```
 
 ```
@@ -447,6 +464,7 @@ TypeError: '>=' not supported between instances of \
 
 ```{literalinclude} code/beer_func.py
 :caption: beer_func.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -470,6 +488,7 @@ TypeError: describe_beer() missing 2 required positional \
 * 引数を正しく指定する
 
 ```{literalinclude} code/beer_func_fixed.py
+:language: python
 ```
 
 ### 何個わかりました？
@@ -490,6 +509,7 @@ TypeError: describe_beer() missing 2 required positional \
 * 数値以外を指定すると[`ValueError`](https://docs.python.org/ja/3.13/library/exceptions.html#ValueError)が発生
 
 ```{literalinclude} code/age_fixed.py
+:language: python
 ```
 
 ```bash
@@ -514,6 +534,7 @@ ValueError: invalid literal for int() with base 10: '二十歳'
 ```
 
 ```{revealjs-literalinclude} code/age2.py
+:language: python
 :data-line-numbers: 1-8|1-3,7-8
 ```
 
@@ -530,6 +551,7 @@ ValueError: invalid literal for int() with base 10: '二十歳'
 
 ```{revealjs-literalinclude} code/age2.py
 :data-line-numbers: 1-8|1-4
+:language: python
 ```
 
 ### 複数の例外に対応する
@@ -539,6 +561,7 @@ ValueError: invalid literal for int() with base 10: '二十歳'
 * **どんな例外**が考えられますか？
 
 ```{revealjs-literalinclude} code/read_text.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -547,6 +570,7 @@ ValueError: invalid literal for int() with base 10: '二十歳'
 * 例外の種類によってメッセージを**出し分け**
 
 ```{revealjs-literalinclude} code/read_text2.py
+:language: python
 ```
 
 ### **事前チェック**と例外処理
@@ -590,6 +614,7 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 * 例外を隠蔽すると**エラーの原因**がわからなくなる
 
 ```{revealjs-literalinclude} code/hide_exception.py
+:language: python
 ```
 
 * [64:例外を握り潰さない — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/64-%E4%BE%8B%E5%A4%96%E3%82%92%E6%8F%A1%E3%82%8A%E6%BD%B0%E3%81%95%E3%81%AA%E3%81%84.html)
@@ -599,6 +624,7 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 * エラー発生時に問題を切り分けられない
 
 ```{revealjs-literalinclude} code/long_try.py
+:language: python
 ```
 
 * [65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
@@ -609,6 +635,7 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 * tryの範囲を短く
 
 ```{revealjs-literalinclude} code/long_try_fixed.py
+:language: python
 ```
 
 ```{revealjs-break}
@@ -618,6 +645,7 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 
 ```{revealjs-literalinclude} code/long_try_fixed.py
 :lines: 9-14
+:language: python
 ```
 
 ```python
@@ -640,6 +668,7 @@ beer: Beer = {"name": "Stone IPA", "style": "IPA"}
 ### **閉じカッコ**忘れ
 
 ```{revealjs-literalinclude} code/unclosed.py
+:language: python
 ```
 
 * Python 3.9だとエラーが**意味不明** {nekochan}`yabai`
@@ -658,6 +687,7 @@ SyntaxError: invalid syntax
 ```
 
 ```{revealjs-literalinclude} code/unclosed.py
+:language: python
 ```
 
 * Python 3.10だと**わかりやすい**！ {nekochan}`medetai`
@@ -675,6 +705,7 @@ SyntaxError: '[' was never closed
 ### **末尾の:** 忘れ
 
 ```{revealjs-literalinclude} code/beers3.py
+:language: python
 ```
 
 ```{revealjs-code-block} python
@@ -700,6 +731,7 @@ SyntaxError: expected ':'  # ':'を忘れてません？
 ### **インデント**忘れ
 
 ```{revealjs-literalinclude} code/beers2.py
+:language: python
 ```
 
 ```{revealjs-code-block} python
@@ -725,6 +757,7 @@ IndentationError: expected an indented block after 'for' statement on line 2
 ### `NameError`の**Did you mean**
 
 ```{revealjs-literalinclude} code/message.py
+:language: python
 ```
 
 ```{revealjs-code-block} python
@@ -749,6 +782,7 @@ NameError: name 'mesage' is not defined. \
 ### Python 3.11での改善
 
 * Python 3.11: [PEP 657: トレースバックのエラー位置の詳細化](https://docs.python.org/ja/3.13/whatsnew/3.11.html#pep-657-fine-grained-error-locations-in-tracebacks)
+* 例外の発生箇所がわかりやすい！！
 
 ```{revealjs-code-block} python
 :data-line-numbers: 1-2,5-7
@@ -765,7 +799,7 @@ ZeroDivisionError: float division by zero
 ### Python 3.12での改善
 
 * Python 3.12: [Improved Error Messages](https://docs.python.org/ja/3.13/whatsnew/3.12.html#improved-error-messages)
-* 標準ライブラリ、`ImportError`でも提案
+* 関数、`ImportError`などでも提案が追加
   
 ```{revealjs-code-block} python
 :data-line-numbers: 1,4-6,9-11
@@ -785,7 +819,7 @@ ImportError: cannot import name 'data' from 'datetime' (...). \
 ### Python 3.13での改善
 
 * Python 3.13: [Improved error messages](https://docs.python.org/ja/3.13/whatsnew/3.13.html#whatsnew313-improved-error-messages)
-* 引数にもDid you meanで提案
+* 引数もDid you meanで提案
 
 ```{revealjs-code-block} python
 :data-line-numbers: 1,4-6
