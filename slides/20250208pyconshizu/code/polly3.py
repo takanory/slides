@@ -5,9 +5,11 @@ import boto3
 polly = boto3.client('polly')
 
 # speakタグとphonemeタグ
-s = ('<speak><phoneme type="ruby" ph="すーぱーぐれーと">S・G</phoneme>・'
-     '<phoneme type="ruby" ph="ごーるきーぱー">G・K</phoneme>・'
-     '若林源三。</speak>')
+s = """<speak>
+<phoneme type="ruby" ph="すーぱーぐれーと">S・G</phoneme>・
+<phoneme type="ruby" ph="ごーるきーぱー">G・K</phoneme> 
+若林源三。
+</speak>"""
 
 # 引数に TextType="ssml" を追加
 result = polly.synthesize_speech(

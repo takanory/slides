@@ -26,9 +26,9 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ## 背景 🏞️
 
-* 学習教材の **電子化** プロジェクト
-* **合理的配慮** の一環としてのテキスト読み上げ
-* 全盲の人向けではなく、**聴覚優位** の人向け
+* 学習教材の**電子化**プロジェクト
+* **合理的配慮**の一環としてのテキスト読み上げ
+* 全盲の人向けではなく、**聴覚優位**の人向け
 
 ### 合理的配慮
 
@@ -46,9 +46,9 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ### やりたいこと
 
-* 問題文などを **読み上げ** られる
-  * **聴覚優位** の生徒が理解しやすく
-  * **数式** も読み上げられる
+* 問題文などを**読み上げ**られる
+  * **聴覚優位**の生徒が理解しやすく
+  * **数式**も読み上げられる
 * 完全な読み上げじゃなくてもよい
 
 ### ちなみに全盲の場合
@@ -61,16 +61,16 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ## ゴール 🥅
 
-* **Amazon Polly** での音声合成を知る
-* Pythonでの **実装方法** を知る
-* 読み上げの **カスタマイズ方法** を知る
-* **数式を読み上げ** る方法を知る
+* **Amazon Polly**での音声合成を知る
+* Pythonでの**実装方法**を知る
+* 読み上げの**カスタマイズ方法**を知る
+* **数式を読み上げ**る方法を知る
 
 ## Photos 📷 Tweets 🐦 👍
 
 `#pyconshizu` / `@takanory`
 
-### [slides.takanory.net](https://slides.takanory.net/) 💻
+### [`slides.takanory.net`](https://slides.takanory.net/) 💻
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
@@ -86,7 +86,7 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ### PyCon JP **Association** 🐍
 
-日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした **非営利組織**
+日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした**非営利組織**
 
 [`www.pycon.jp`](https://www.pycon.jp)
 
@@ -98,6 +98,7 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 * 🗓️ 2025年**9月26日(金)-27日(土)**
 * ⛩️ [**広島**国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
   * **旅費の支援**も多分あるよ
+* **主催メンバー**募集中！！
 
 ### [静岡駅から広島国際会議場](https://www.google.co.jp/maps/dir/%E9%9D%99%E5%B2%A1%E9%A7%85/%E5%BA%83%E5%B3%B6%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E5%A0%B4/@34.8798837,133.2867034,7.44z/data=!3m1!5s0x355aa272b9effb61:0x6c097dceac9fffb4!4m18!4m17!1m5!1m1!1s0x601a49fa03e728b3:0x23c1a4887e4776f7!2m2!1d138.3889005!2d34.972187!1m5!1m1!1s0x355aa26d05555dd5:0x4e72455df571cd7a!2m2!1d132.450993!2d34.392088!2m3!6e0!7e2!8j1738917000!3e3?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D) 🚅
 
@@ -112,13 +113,27 @@ PyCon mini Shizuoka 2024 continue / 2025 Feb 8
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
+### BeProud**メンバー募集中** {nekochan}`kamon`
+
+```{image} /assets/images/qr-career.png
+:width: 40%
+:alt: Pythno求人のQRコード
+:target: https://www.beproud.jp/careers/python/
+```
+
+```{image} /assets/images/qr-casual-interview.png
+:width: 40%
+:alt: カジュアル面談のQRコード
+:target: https://forms.gle/tM4n2ufKf49MbXsH9
+```
+
 ## Amazon Pollyの基本 🗣️
 
 ### Amaozon Polly
 
 * [Amazon Polly（深層学習を使用したテキスト読み上げサービス）| AWS](https://aws.amazon.com/jp/polly/)
-* **数十の言語** で高品質で自然な人間の声を展開
-* 12ヶ月間、 毎月 **500万文字が無料**
+* **40以上の言語**で高品質で自然な人間の声を展開
+* 12ヶ月間、 毎月**500万文字が無料**
 * クラウド型コールセンターのAmazon Connectでも使える
 
 ### Amazon Pollyの画面
@@ -176,14 +191,14 @@ $ . env/bin/activate
 
 ### Amazon Pollyの基本まとめ 🗣️
 
-* **AWSの画面** から使える
-* Pythonでは **Boto3** 経由で使える
+* **AWSの画面**から使える
+* Pythonでは**Boto3**経由で使える
 
 ## 読み上げをカスタマイズ 🔧
 
 ### 言語の変更
 
-* `VoiceId`引数で **言語と音声** を指定
+* `VoiceId`引数で**言語と音声**を指定
 * 参考: [Amazon Polly の音声](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/voicelist.html)
   * 日本語: Mizuki, Takumi, Kazuha, Tomoko
   * 英語: Ivy, Salli, Joey, Justinなど
@@ -199,7 +214,7 @@ $ . env/bin/activate
 
 * 「S・G・G・K」をちゃんと読ませたい
 * `<phoneme>` タグでフリガナ指定
-  * 参考: [発音記号を使用する](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html#phoneme-tag)
+  * 参考：[発音記号を使用する](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html#phoneme-tag)
 * 全体を `<speak>` タグで囲む
 * `TextType="ssml"` 引数を追加
 
@@ -208,7 +223,7 @@ $ . env/bin/activate
 ```
 
 ```{literalinclude} code/polly3.py
-:lines: 7-14
+:lines: 7-16
 ```
 
 ```{audio} audio/super-great.mp3
@@ -216,29 +231,29 @@ $ . env/bin/activate
 
 ### SSMLタグ
 
-* **音声合成マークアップ言語(SSML)** に対応
+* **音声合成マークアップ言語(SSML)**に対応
   * 段落を区切る（`<p>`）
   * 強調する（`<emphasis>`）
   * 音量、話す速度、ピッチ（`<prosody>`）
   * 呼吸音（`<amazon:breath>`）など
-* 参考:
+* 参考：
   * [SSML ドキュメントから音声を生成する](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/ssml.html)
   * [サポートされている SSML タグ](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/supportedtags.html)
 
 ### 読み上げをカスタマイズまとめ 🔧
 
-* **言語** と **音声** を変更できる
-* **読み** を指定できる
-* **SSMLタグ** でカスタマイズできる
+* **言語**と**音声**を変更できる
+* **読み**を指定できる
+* **SSMLタグ**でカスタマイズできる
 
-## **Lexicon** で読みをカスタマイズ 🛠️
+## **Lexicon**で読みをカスタマイズ 🛠️
 
-### **Lexicon** とは
+### **Lexicon**とは
 
-* **発音レキシコン**: 発音の定義ファイル
-* `<phoneme>` は **個別**、レキシコンは **共通**
+* **発音レキシコン**：発音の定義ファイル
+* `<phoneme>`は**個別**、レキシコンは**共通**
 * 複数ファイルを用意して使い分けも可能
-* 参考: [レキシコンの管理](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/managing-lexicons.html)
+* 参考：[レキシコンの管理](https://docs.aws.amazon.com/ja_jp/polly/latest/dg/managing-lexicons.html)
 
 ### Lexiconを使用する
 
@@ -270,13 +285,13 @@ $ . env/bin/activate
 
 ### Lexiconで読みをカスタマイズまとめ 🛠️
 
-* **Lexiconファイル** をXMLで作成
-* Lexiconファイルを **登録**
-* 任意のLexiconを **適用**
+* **Lexiconファイル**をXMLで作成
+* Lexiconファイルを**登録**
+* 任意のLexiconを**適用**
 
 ## 問題文読み上げでやったこと 📖
 
-### **Lexicon** を作成
+### **Lexicon**を作成
 
 * ①、②：まるいち、まるに
 * （）〔〕：括弧
@@ -285,9 +300,9 @@ $ . env/bin/activate
 * ＋：プラス
 * ・：、 (句点と同じ空白が入る)
 
-### スペースを `<break>` タグに
+### スペースを`<break>`タグに
 
-* スペース部分を **一時停止タグ** に置換
+* スペース部分を**一時停止タグ**に置換
 * 選択肢のラベルを区切って読む
 
 ```
@@ -300,10 +315,10 @@ $ . env/bin/activate
 〜〜を選べ<break strength="x-strong"/>①<break strength="x-strong"/>ほげ<break strength="x-strong"/>②<break strength="x-strong"/>ふが
 ```
 
-### フリガナを `<phoneme>` タグに
+### フリガナを`<phoneme>`タグに
 
 * 問題文はHTML形式
-* フリガナはHTMLの `<ruby>` タグ
+* フリガナはHTMLの`<ruby>`タグ
 
 ```html
 <ruby>反動蹴速迅砲<rt>はんどうしゅうそくじんほう</rt></ruby>
@@ -319,8 +334,8 @@ $ . env/bin/activate
 
 * 日本語音声で英語を読ませると発音が**やばい**
   * カタカナ英語みたいになる
-* 英語の問題文は日本語と英語が **混ざっている**
-* 日本語と英語に **分割** し音声読み上げ
+* 英語の問題文は日本語と英語が**混ざっている**
+* 日本語と英語に**分割**し音声読み上げ
 * 1つのmp3にまとめる
 
 ```{revealjs-break}
@@ -334,7 +349,7 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-* （）、①を読ませるために **Lexicon** を登録
+* （）、①を読ませるために**Lexicon**を登録
 
 ```{literalinclude} code/tsubasa-lexicon.xml
 :lines: 14-22
@@ -357,7 +372,7 @@ $ . env/bin/activate
 ```{revealjs-break}
 ```
 
-* 正規表現で **日英を分割** して読み上げ
+* 正規表現で**日英を分割**して読み上げ
 
 ```{revealjs-literalinclude} code/polly5.py
 :lines: 25-37
@@ -378,20 +393,20 @@ $ . env/bin/activate
 ### 問題文読み上げでやったことまとめ 📖
 
 * Lexiconを作成
-* スペースを `<break>` タグに
-* フリガナを `<phoneme>` タグに
+* スペースを`<break>`タグに
+* フリガナを`<phoneme>`タグに
 * 日英の混ざった文章対応
 
-## 数式読み上げ 🧮
+## **数式**読み上げ 🧮
 
-### 数式読み上げ 🧮
+### **数式**読み上げ 🧮
 
 * 数学や理科の問題文には**数式**がでてくる
 * 数式も**読み上げ**たい
 
-### 数式はどう表現している？
+### 数式は**どう表現**している？
 
-* `$$` または `$` で数式を囲む
+* `$$`または`$`で数式を囲む
 
 ```markdown
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
@@ -403,10 +418,10 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 次の式を解きなさい $(5x＋4)(5x＋1)$
 
-### **どんな数式** が書ける？
+### **どんな数式**が書ける？
 
-* LaTeXで書ける数式は全部できる(はず)
-* 参考: [Easy Copy Mathjax](https://easy-copy-mathjax.nakaken88.com/)
+* LaTeXで書ける数式は全部できる（はず）
+* 参考：[Easy Copy Mathjax](https://easy-copy-mathjax.nakaken88.com/)
 
 \begin{eqnarray}
 \triangle ABC \equiv \triangle DEF
@@ -418,7 +433,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
  = \bigcup_{ n \in \mathbb{ N } } \bigcap_{ k \geqq n } A_k
 \end{eqnarray}
 
-### どうやって **数式を表示** している？
+### どうやって**数式を表示**している？
 
 * 原稿はMarkdownの中に`$`、`$$`で囲んだ数式
 * Markdown変換: [markdown-it](https://github.com/markdown-it/markdown-it)
@@ -444,7 +459,7 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ### SVGは画像フォーマットなので<br />読めない... {nekochan}`mesareta`
 
-## Mathjaxを読み上げる 💬
+## **Mathjax**を読み上げる 💬
 
 ### MathJaxの**Accessibility機能**
 
@@ -497,12 +512,12 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
 
 ### MathMLの**主な要素**
 
-* `<mi>`: 識別子(a, b, x, y等)
-* `<mo>`: 演算子(+、-等)
+* `<mi>`: 識別子（$a$、$b$、$x$、$y$など）
+* `<mo>`: 演算子（$+$、$-$など）
 * `<mn>`: 数字
-* `<mfrac>`: 分数
-* `<msqrt>`: ルート
-* `<msup>`、`<msub>`: 上付き、下付き
+* `<mfrac>`: 分数（$\frac{22}{7}$）
+* `<msqrt>`: ルート（$\sqrt{2}$）
+* `<msup>`: 上付き（$x^2$）
 * `<mover>`: 弧で使用
 
 ## **読み上げテキスト**作成 ✍️
