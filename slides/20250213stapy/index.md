@@ -351,7 +351,7 @@ SyntaxError: expected ':'
 ```{revealjs-break}
 ```
 
-* インデントを追加して解決
+* 末尾に`:`を追加して解決
 
 ```{literalinclude} code/beers3_fixed.py
 :language: python
