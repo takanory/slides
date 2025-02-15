@@ -7,17 +7,23 @@
 
 # How to learn **Japanese** w/ **Python**
 
-Takanori Suzuki
 
-```{image} images/pyconapac2025.png
-:width: 300
+```{eval-rst}
+.. |background| image:: images/pyconapac2025-template.png
 ```
+
+```{revealjs-section}
+:data-background-image: ../_images/pyconapac2025-template.png
+:data-background-size: cover
+```
+
+Takanori Suzuki
 
 PyCon APAC 2025 / 2025 Mar 1
 
 ```{revealjs-notes}
-Terima kasih semuanya sudah datang.
-Namaku Takanori Suzuki.
+Salamat sa pagpunta
+Ang pangalan ko ay Takanori Suzuki.
 ```
 
 ## Agenda ✅
