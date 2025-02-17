@@ -6,6 +6,7 @@
    :hidden:
 
    profile
+   license
 
 .. grid:: 2
 
