@@ -75,7 +75,7 @@ Ang pangalan ko ay Takanori Suzuki.
 
   
 ```{revealjs-notes}
-Yesterday, Anthony Show said "learn a new language!" in the keynote.
+"learn a new language!" by Anthony Show in his PyCon APAC 2024 keynote.
 I hope my talk will help Pythonistas who want to learn Japanese.
 ```
 
@@ -96,7 +96,7 @@ I hope my talk will help Pythonistas who want to learn Japanese.
 
 `#pyconapac` / `@takanory`
 
-### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net) 💻
+### [`slides.takanory.net`](https://slides.takanory.net) 💻
 
 ```{image} images/slides-takanory-net.png
 :alt: slides.takanory.net
@@ -180,20 +180,20 @@ Hiroshima has several direct flights from overseas, but sorry, no direct flights
 But I came here in Yogyakarta. You should be able to go to Hiroshima too.
 ```
 
-## Questions 🙋‍♂️
+## Questions {nekochan}`hai`
 
-### Have you **learned** Japanese? 🙋‍♀️
+### Have you **learned** Japanese? {nekochan}`study`
 
-### Are you **interested** in Japanese? 🙋‍♂️
+### Are you **interested** in Japanese? {nekochan}`miru`
 
-### Would you like to **visit** Japan? 🙋‍♀️ 🙋‍♂️
+### Would you like to **visit** Japan? {nekochan}`travel`
 
 ```{revealjs-notes}
 Almost everyone.
 There is a very good opportunity for you...
 ```
 
-### PyCon JP **2025**
+### PyCon JP **2025** {nekochan}`yoshi`
 
 * {fas}`globe` [`2025.pycon.jp`](https://2025.pycon.jp/)
 * Date: 2025 **Sep 26**(Fri)-**27**(Sat)
@@ -210,7 +210,7 @@ PyCon JP 2025 will be held in Hiroshima in next September.
 See you again at PyCon JP 2025.
 ```
 
-## Japanese is **Difficult** 😫
+## Japanese is **Difficult** {nekochan}`yabai`
 
 * **3 Types** of Characters
 * **No Spaces** between Words
@@ -301,7 +301,7 @@ This kanji has a total of four different readings.
 * <ruby>前<rt>zen</rt></ruby><ruby>日<rt>**jitsu**</rt></ruby> (Previous day)
   * Chinese-style reading: じつ(jitsu)、か(ka)
 
-### Japanese is **Difficult**!! 😱
+### Japanese is **Difficult**!! {nekochan}`scream`
 
 ```{revealjs-notes}
 Japanese is Difficult!! But...
@@ -383,7 +383,7 @@ This slide uses the ruby tag to indicate pronunciation with alphabet.
 The ruby tag is also used to Furigana, the reading of other characters in hiragana.
 ```
 
-### Understand **`<ruby>`** Tag 💡
+### Understand **`<ruby>`** Tag {nekochan}`naruhodo`
 
 ```{revealjs-notes}
 Now we understand the ruby tag, let's move on to Python.
@@ -454,7 +454,7 @@ kana2roman.py
 
 <ruby>パイコンえいぱっく<rt>paikoneipakku</rt></ruby>
 
-### Can read **Hiragana** and **Katakana** 🎉
+### Can read **Hiragana** and **Katakana** {nekochan}`good`
 
 ## **No Spaces** between Words
 
@@ -548,7 +548,7 @@ word_segmentation.py
 
 <ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
 
-### Can **split** into **Words** 🎊
+### Can **split** into **Words** {nekochan}`clap`
 
 ## **Multiple Readings** of Kanji
 
@@ -570,7 +570,7 @@ word_segmentation.py
 * 前 **日** (Previous day):
   <ruby>ぜん<rt>ze n</rt> <ruby>**じつ**<rt>ji tsu</rt>
   
-### 😨
+### {nekochan}`pokan`
 
 ```{revealjs-notes}
 It's difficult, but not only this.
@@ -591,7 +591,7 @@ It's difficult, but not only this.
   * **一日** 目(Day 1): <ruby>**いちにち**<rt>i chi ni chi</rt></ruby> <ruby>め<rt>me</rt></ruby>
   * 一月 **一日**(Jan 1st): <ruby>いちがつ<rt>i chi ga tsu</rt></ruby> <ruby>**ついたち**<rt>tsu i ta chi</rt></ruby>
 
-### 😱 😱
+### {nekochan}`yabai;1.5em` {nekochan}`yabai;1.5em`
 
 ```{revealjs-notes}
 Terrible...
@@ -611,7 +611,7 @@ And there is more...
 * 昨 **日** (yesterday): <ruby>きのう<rt>ki no u</rt></ruby>
 * 明 **日** (tomorrow): <ruby>あした<rt>a shi ta</rt></ruby>
 
-## 🤯 🤯 🤯
+### {nekochan}`scream;2em` {nekochan}`scream;2em` {nekochan}`scream;2em`
 
 ## Get **Reading** of Kanji
 
@@ -722,9 +722,9 @@ kanji_reading_romaji.py
 <ruby>日曜日<rt>nichiyoubi</rt></ruby>
 ```
 
-### Can read **Kanji** 🥳
+### Can read **Kanji** {nekochan}`medetai`
 
-## Can read but **Cannnot Pronouce** 🗣️
+## Can read but **Cannnot Pronouce** {nekochan}`sing`
 
 ### Readings and Pronounciations are **slightly different**
 
@@ -768,7 +768,7 @@ text_to_speech.py
 ```{audio} code/japanese.mp3
 ```
 
-### Can pronounce **Japanese** 🥳🥳
+### Can pronounce **Japanese**  {nekochan}`medetai` {nekochan}`medetai`
 
 ## **Sample** App
 
@@ -779,7 +779,7 @@ text_to_speech.py
 :width: 60%
 ```
 
-## **Summary**
+## **Summary** {nekochan}`tunda`
 
 * Japanese is **Difficult**
   * 3 Charcters, No spaces, Kanji readings
@@ -796,12 +796,12 @@ Learn **Japanese** with **Python**
 Please try to create your own Japanese learning tool!
 ```
 
-## Thank you / Terima kasih 🙏
+## Thank you {nekochan}`pray`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
-{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20240921pycontw/code)
+{fas}`code` [sample code](https://github.com/takanory/slides/tree/master/slides/20250301pyconapac/code)
 
-{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fab}`twitter` [takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
 {fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
 {fab}`untappd` [takanory](https://untappd.com/user/takanory/)
