@@ -772,11 +772,23 @@ text_to_speech.py
 
 ## **Sample** App
 
-* {fab}`github` {fab}`streamlit` [learn-jp-with-python/learn_jp_apac.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_apac.py)
+* {fab}`github` [learn_jp_apac.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_apac.py)
 
-```{image} images/demo_app.png
+```bash
+% git clone https://github.com/takanory/learn-jp-with-python.git
+% cd learn-jp-with-python/
+% python3.12 -m venv env
+% . env/bin/activaet
+(env) % pip install -r requirements.txt
+(env) % streamlit run learn_jp_apac.py
+```
+
+```{revealjs-break}
+```
+
+```{image} images/demo_app.gif
 :alt: Demo App
-:width: 60%
+:width: 75%
 ```
 
 ## **Summary** {nekochan}`tunda`
