@@ -39,7 +39,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2025 May
      * Talk
      * en
-     * How to learn Japanese with Python
+     * `How to learn Japanese with Python https://us.pycon.org/2025/schedule/presentation/122/>`__
      * 
    - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
      * Quezon City, Philippines
