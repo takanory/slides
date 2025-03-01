@@ -21,11 +21,6 @@ Takanori Suzuki
 
 PyCon APAC 2025 / 2025 Mar 1
 
-```{revealjs-notes}
-Salamat sa pagpunta
-Ang pangalan ko ay Takanori Suzuki.
-```
-
 ## Agenda ✅
 
 * Background and Motivation / Goal
@@ -75,8 +70,9 @@ Ang pangalan ko ay Takanori Suzuki.
 
   
 ```{revealjs-notes}
-"learn a new language!" by Anthony Show in his PyCon APAC 2024 keynote.
-I hope my talk will help Pythonistas who want to learn Japanese.
+This images is from Anthony Shaw's keynote at PyCon APAC 2024.
+He said "If you are an English speaker - learn a new language!".
+I hope my talk will help Pythonistas who want to learn Japanese.a
 ```
 
 ### Goal
@@ -164,7 +160,7 @@ Do you know Hiroshima?...
 
 ### Hiroshima? ⛩️
 
-* Fukushima - **Hiroshima** - Kyoto - Tokyo - Hokkaido
+* Fukuoka - **Hiroshima** - Kyoto - Tokyo - Hokkaido
 * [Direct flights to Hiroshima - HIJ, Japan](https://www.directflights.com/to/HIJ)
   * Seoul, Taipei, Shanghai, Hong Kong, Dalian, Hanoi
 
@@ -176,8 +172,7 @@ Do you know Hiroshima?...
 ```{revealjs-notes}
 Do you know Hiroshima?...
 Hiroshima location is west of Tokyo and Kyoto.
-Hiroshima has several direct flights from overseas, but sorry, no direct flights from indonesia.
-But I came here in Yogyakarta. You should be able to go to Hiroshima too.
+Hiroshima has several direct flights from overseas, but sorry, no direct flights from Philippines.
 ```
 
 ## Questions {nekochan}`hai`
@@ -303,6 +298,10 @@ This kanji has a total of four different readings.
 
 ### Japanese is **Difficult**!! {nekochan}`scream`
 
+* **3 Types** of Characters
+* **No Spaces** between Words
+* **Multiple Readings** of Kanji
+
 ```{revealjs-notes}
 Japanese is Difficult!! But...
 ```
@@ -353,7 +352,7 @@ If I write a ruby tag like this, it will be displayed like this in a web browser
 
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
 <ruby>えいぱっく<rt>e i pa kku</rt></ruby>
-(PyCon APAc)
+(PyCon APAC)
 
 ```html
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
@@ -550,6 +549,10 @@ word_segmentation.py
 
 ### Can **split** into **Words** {nekochan}`clap`
 
+```{revealjs-notes}
+You can correctly split Japanese text into words!
+```
+
 ## **Multiple Readings** of Kanji
 
 <ruby>日曜日<rt>nichi you bi</rt></ruby>、<ruby>前日<rt>zen jitsu</rt></ruby>
@@ -611,7 +614,15 @@ And there is more...
 * 昨 **日** (yesterday): <ruby>きのう<rt>ki no u</rt></ruby>
 * 明 **日** (tomorrow): <ruby>あした<rt>a shi ta</rt></ruby>
 
+```{revealjs-notes}
+These are special readings of Kanji idioms.
+```
+
 ### {nekochan}`scream;2em` {nekochan}`scream;2em` {nekochan}`scream;2em`
+
+```{revealjs-notes}
+Oh my gosh
+```
 
 ## Get **Reading** of Kanji
 
