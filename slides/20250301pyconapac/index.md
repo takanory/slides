@@ -332,12 +332,12 @@ I will explain the ruby tag before I talk about Python
 
 <ruby>PyCon<rt>Python Conference</rt></ruby>
 <ruby>APAC<rt>Asia Pacific</rt></ruby>
-2024
+2025
 
 ```html
 <ruby>PyCon<rt>Python Conference</rt></ruby>
 <ruby>APAC<rt>Asia Pacific</rt></ruby>
-2024
+2025
 ```
 
 * ref: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
