@@ -59,7 +59,7 @@ datetime.timedelta(days=125)
 
 ### Philippines: **Good** 👍
 
-* **Low prices**: Taxi, Hotel, Food and etc.
+* **Low prices**: Hotel, Food, Beer and etc.
 * **Ride sharing**: Grab
 * **Beer**
 
@@ -72,15 +72,26 @@ datetime.timedelta(days=125)
 ### Schedule 🗓️
 
 * Feb 27: Tokyo → Manila
-* Feb 28: Work(at Hotel)
+* Feb 28: Work from Hotel
 * **Mar 1: PyCon APAC**
 * **Mar 2: PyCon APAC**
 * **Mar 3: PyCon APAC Sprints**
 * Mar 4: Manila → Tokyo
 
+## PyCon APAC 2025 Day 0 👌
+
+### Beer: [Fred's Revolucion](https://www.instagram.com/freds_revolucion/)
+
+![Fred's Revolucion](images/freds1.jpg)
+
+```{revealjs-break}
+```
+
+![Fred's Revolucion](images/freds2.jpg)
+
 ## PyCon APAC 2025 **Day 1** ☝️
 
-### Hangover... 🍻 🍻 🍻
+### Hangover... 🍻 🤕 🛌
 
 ### Lunch 🍱
 
