@@ -8,7 +8,7 @@
 # **PyCon APAC 2025** Report
 
 ```{revealjs-section}
-:data-background-image: ../_images/pyconapac2025-template.png
+:data-background-image: ../20250301pyconapac/images/pyconapac2025-template.png
 :data-background-size: cover
 ```
 

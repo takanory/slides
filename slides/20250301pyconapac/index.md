@@ -7,13 +7,8 @@
 
 # How to learn **Japanese** w/ **Python**
 
-
-```{eval-rst}
-.. |background| image:: images/pyconapac2025-template.png
-```
-
 ```{revealjs-section}
-:data-background-image: ../_images/pyconapac2025-template.png
+:data-background-image: images/pyconapac2025-template.png
 :data-background-size: cover
 ```
 
