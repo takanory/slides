@@ -120,6 +120,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * `How to learn Japanese with Python <https://pretalx.com/pycon-apac-2024/talk/ZBEVZK/>`_
      * `Slides <https://slides.takanory.net/slides/20241027pyconapac>`__
+       `Video <https://www.youtube.com/watch?v=Wh6KTgRSG2E&t=1s>`__
    - * BPStyle 165
      * Online
      * 2024 Oct
