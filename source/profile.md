@@ -52,6 +52,7 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 Cover | Title | Year| Publisher
 --- | --- | --- | ---
+![](images/pydata3.png){w=75px} | [Pythonによるあたらしいデータ分析の教科書 第3版](https://www.seshop.com/product/detail/26879) | 2025 | 翔泳社
 ![](images/genba.jpg){w=75px} | [現場のPython](https://gihyo.jp/book/2024/978-4-297-14401-2) | 2024 | 技術評論社
 ![](images/pypro4.jpg){w=75px} | [Pythonプロフェッショナルプログラミング 第4版](https://www.shuwasystem.co.jp/book/9784798070544.html) | 2024 | 秀和システム
 ![](images/ichiyasa-ml2.jpg){w=75px} | [いちばんやさしいPython機械学習の教本 第2版](https://book.impress.co.jp/books/1122101123) | 2023 | インプレス
