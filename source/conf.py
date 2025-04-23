@@ -11,7 +11,7 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-# import sys
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -94,4 +94,12 @@ html_theme_options = {
 
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/"
-ogp_image = "https://slides.takanory.net/_static/takanory.jpg"
+ogp_social_cards = {
+    "image": "_static/takanory.jpg",
+    "font": "Noto Sans CJK JP",
+}
+# font settings for macOS and Windows
+if sys.platform == "darwin":
+    ogp_social_cards["font"] = "Hiragino Maru Gothic Pro"
+elif sys.platform == "win32":
+    ogp_social_cards["font"] = "MS Gothic"
