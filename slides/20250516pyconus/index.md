@@ -263,7 +263,7 @@ Many kanji have 2 styles of readings.
 ```
 
 * **人**: person, people
-* **Japanese**-style reading: ひと(hito)
+* **Japanese**-style reading: ひと(hito)、びと(bito)
 * **Chinese**-style reading: じん(jin)、にん(nin)
 
 ```{revealjs-notes}
@@ -273,17 +273,17 @@ This kanji has a total of three different readings.
 ```{revealjs-break}
 ```
 
-* Japanese-style reading: ひと(hito)
+* Japanese-style reading: ひと(hito)、びと(bito)
 * Chinese-style reading: じん(jin)、にん(nin)
 * How to read?
-  * 人手 (Manpower / A hand)
+  * 小人 (Dwarf)
   * 日本人 (Japanese)
 
 ```{revealjs-break}
 ```
 
-* <ruby>人<rt>**hito**</rt></ruby><ruby>手<rt>de</rt></ruby> (Manpower / A hand)
-  * Japanese-style reading: ひと(hito)
+* <ruby>小<rt>ko</rt></ruby><ruby>人<rt>**bito**</rt></ruby> (Dwarf)
+  * Japanese-style reading: ひと(hito)、びと(bito)
 * <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>**jin**</rt></ruby> (Japanese)
   * Chinese-style reading: じん(jin)、にん(nin)
 
@@ -301,6 +301,264 @@ Japanese is Difficult!! But...
 
 ```{revealjs-notes}
 We have Python!!
+```
+
+## **`<ruby>`** HTML Tag 💎
+
+```{revealjs-notes}
+I will explain the ruby tag before I talk about Python
+```
+
+### What is **Ruby** ?
+
+* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation**
+* Usually placed **above** the text
+* ref: [Ruby character - Wikipedia](https://en.wikipedia.org/wiki/Ruby_character)
+* (Not a Programming Language)
+
+### **`<ruby>`** HTML Tag 💎
+
+* `<ruby>` represents **small annotations** [^ruby]
+* `<rt>` specifies the **ruby text** component
+
+<ruby>PyCon<rt>Python Conference</rt></ruby>
+<ruby>US<rt>United States</rt></ruby>
+2025
+
+```html
+<ruby>PyCon<rt>Python Conference</rt></ruby>
+<ruby>US<rt>United States</rt></ruby>
+2025
+```
+
+[^ruby]: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
+
+```{revealjs-notes}
+If I write a ruby tag like this, it will be displayed like this in a web browser
+```
+
+### Indicate **pronunciation** with `<ruby>`
+
+* **Alphabet** annotation: Pronounciation
+
+<ruby>パイコン<rt>pa i ko n</rt></ruby>
+<ruby>あめりか<rt>a me ri ka</rt></ruby>
+(PyCon America)
+
+```html
+<ruby>パイコン<rt>pa i ko n</rt></ruby>
+<ruby>あめりか<rt>a me ri ka</rt></ruby>
+```
+
+```{revealjs-notes}
+This slide uses the ruby tag to indicate pronunciation with alphabet.
+```
+
+```{revealjs-break}
+```
+
+* **Hiragana** annotation: Readings
+* <ruby>ふりがな<rt>fu ri ga na</rt></ruby>
+
+<ruby>アメリカ<rt>あめりか</rt></ruby>
+<ruby>合衆国<rt>がっしゅうこく</rt></ruby>
+(The United States of America)
+
+```html
+<ruby>アメリカ<rt>あめりか</rt></ruby>
+<ruby>合衆国<rt>がっしゅうこく</rt></ruby>
+```
+
+```{revealjs-notes}
+The ruby tag is also used to Furigana, the reading of other characters in hiragana.
+```
+
+### Understand **`<ruby>`** Tag {nekochan}`naruhodo`
+
+```{revealjs-notes}
+Now we understand the ruby tag, let's move on to Python.
+```
+
+## **Hiragana** and **Katakana** (あ / ア)
+
+Snake(🐍) / hebi / へび / ヘビ
+
+### **Hiragana** and **Katakana**
+
+* Hiragana and Katakana are **phonogram**
+* 1 character represent a phoneme(speech sound)
+  * Like a Japanese **alphabet**
+* Hiragana: <ruby>あかさたな<rt> a ka sa ta na</rt></ruby>...
+* Katakana: <ruby>アカサタナ<rt> a ka sa ta na</rt></ruby>...
+
+```{revealjs-break}
+```
+
+* Basically use Hiragana
+  * <ruby>あめりか<rt> a me ri ka</rt></ruby> (America)
+* Katakana is used for foreign words
+  * <ruby><ruby>パイコン<rt>pa i ko n </rt></ruby> (PyCon)
+
+### **Romanization** of Japanese (Romaji)
+
+* **Alphabet** to represent Japanese
+* **Romaji** is often used on **Information Sign**
+
+![Ikebukuro station](images/ikebukuro.jpg)
+
+* Learn **Hiragana**/**Katakana** using Romaji
+
+### jaconv
+
+* [jaconv](https://github.com/ikegami-yukino/jaconv): interconverter for Hiragana, Katakana, alphabet and etc.
+
+```bash
+$ python3.12 -m venv env
+$ . env/bin/activate
+(env) pip install jaconv
+```
+
+```pycon
+>>> import jaconv
+>>> jaconv.kana2alphabet("あめりか")  # Hiragana -> alphabet
+'amerika'
+>>> jaconv.kata2alphabet("パイコン")  # Katakana -> alphabet
+'paikon'
+```
+
+### Add **Romaji** annotation
+
+kana2roman.py
+
+```{revealjs-literalinclude} code/kana2roman.py
+:data-line-numbers: 2,4-7|9-12
+```
+
+```{revealjs-break}
+```
+
+```bash
+(env) $ python kana2roman.py "パイコン あめりか"
+<ruby>パイコン あめりか<rt>paikon amerika</rt></ruby>
+```
+
+<ruby>パイコン あめりか<rt>paikon amerika</rt></ruby>
+
+### Can read **Hiragana** and **Katakana** {nekochan}`good`
+
+## **No Spaces** between Words
+
+<ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
+
+```{revealjs-break}
+```
+
+* Japanese has **no spaces** between words
+* Use **Dictionary** to **Recognise** words
+* Japanese **Morphological Analyzer** library required
+
+### Japanese **Morphological Analyzer**
+
+* see: {fab}`github` [taishi-i/awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources?tab=readme-ov-file#morphology-analysis)
+
+```{image} images/japanese-nlp.png
+:alt: Japanese Morphological Analyzers
+:width: 60%
+```
+
+```{revealjs-notes}
+There are many morphological analyzer libraries for Japanese.
+```
+
+### Japanese **Morphological Analyzer**
+
+* SudachiPy: [pypi.org/project/SudachiPy](https://pypi.org/project/SudachiPy/)
+* SudachiDcit: [pypi.org/project/SudachiDict-core](https://pypi.org/project/SudachiDict-core/)
+
+```bash
+(env) $ pip install sudachipy sudachidict_core
+```
+
+```{revealjs-notes}
+In this case, I use SudachiPy and SudachiDict
+```
+
+### SudachiPy
+
+* Made with **Rust**, Very **Fast**
+* **Three Types** of Dictionaries
+  * Small: small vocabulary
+  * **Core**: basic vocabulary (**default**)
+  * Full: miscellaneous proper nouns
+
+```{revealjs-notes}
+SudachiPy is made by Rust and is very fast.
+SudachiDict has three types different dictionaries with different number of vocabularies.
+Here I use core dictionary, the default.
+```
+
+### **Word Segmentation**
+
+* **Split** the words using **Dictionary**
+
+```pycon
+>>> from sudachipy import Dictionary
+>>> tokenizer = Dictionary().create()
+>>> text = "すもももももももものうち"
+>>> for token in tokenizer.tokenize(text):
+...     print(token)
+... 
+すもも
+も
+もも
+も
+もも
+の
+うち
+```
+
+### **Word Segmentation**
+
+word_segmentation.py
+
+```{revealjs-literalinclude} code/word_segmentation.py
+:data-line-numbers: 2,4|6-11
+```
+
+```{revealjs-break}
+```
+
+```bash
+(env) $ python word_segmentation.py すもももももももものうち
+すもも / も / もも / も / もも / の / うち
+```
+
+すもも / も / もも / も / もも / の / うち
+
+* **Cannot read** Hiragana?
+
+### **Word Segmentation** with Romaji
+
+word_segmentation_with_ruby.py
+
+```{revealjs-literalinclude} code/word_segmentation_with_ruby.py
+:data-line-numbers: 3,10
+```
+
+```{revealjs-break}
+```
+
+```bash
+(env) $ python word_segmentation_with_ruby.py すもももももももものうち
+<ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
+```
+
+<ruby>すもも<rt>sumomo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>も<rt>mo</rt></ruby> / <ruby>もも<rt>momo</rt></ruby> / <ruby>の<rt>no</rt></ruby> / <ruby>うち<rt>uchi</rt></ruby>
+
+### Can **split** into **Words** {nekochan}`clap`
+
+```{revealjs-notes}
+You can correctly split Japanese text into words!
 ```
 
 ## Multiple Readings of Kanji
