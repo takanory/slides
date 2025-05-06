@@ -9,7 +9,10 @@
 
 Takanori Suzuki
 
-![PyCon US 2025 logo](images/pyconus2025-logo.svg)
+```{image} images/pyconus2025-logo.svg
+:alt: PyCon US 2025 logo
+:width: 50%
+```
 
 PyCon US 2025 / 2025 May 16
 
@@ -559,6 +562,266 @@ word_segmentation_with_ruby.py
 
 ```{revealjs-notes}
 You can correctly split Japanese text into words!
+```
+
+## **Multiple Readings** of Kanji
+
+<ruby>小<rt>ko</rt></ruby><ruby>人<rt>bito</rt></ruby> (Dwarf)
+
+<ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>jin</rt></ruby> (Japanese)
+
+### **Multiple Readings** of Kanji
+
+* **人**: person, people
+* 🇯🇵 **Japanese**-style reading(<ruby>訓読み<rt>kun yomi</rt></ruby>):
+  * <ruby>ひと<rt>hi to</rt></ruby>、<ruby>びと<rt>bi to</rt></ruby>
+* 🇨🇳 **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>):
+  * <ruby>じん<rt>ji n</rt></ruby>、<ruby>にん<rt>ni n</rt></ruby>
+
+```{revealjs-break}
+```
+
+* 小**人** (Dwarf): 
+  🇯🇵 <ruby>こ<rt>ko</rt> <ruby>**びと**<rt>bi to</rt>
+* 日本**人** (Japanese):
+  🇨🇳 <ruby>に<rt>ni</rt> <ruby>ほん<rt>ho n</rt> <ruby>**じん**<rt>jin</rt>
+  
+### {nekochan}`pokan`
+
+```{revealjs-notes}
+It's difficult, but not only this.
+```
+
+### Multiple Readings of **Kanji idioms**
+
+* Same combination but **different readings**
+* **一人**: One person
+  * **一人** (One person)
+  * **一人**前 (One serving)
+
+```{revealjs-break}
+```
+
+* Same combination but **different readings**
+* **一人**: One person
+  * **一人** (One person): <ruby>**ひとり**<rt>hi to ri</rt></ruby> 🇯🇵
+  * **一人**前 (One serving): <ruby>**いちにん**<rt>i chi ni n</rt></ruby> <ruby>まえ<rt>ma e</rt></ruby> 🇨🇳
+
+### {nekochan}`yabai;1.5em` {nekochan}`yabai;1.5em`
+
+```{revealjs-notes}
+Terrible...
+And there is more...
+```
+
+### **Special readings** of Kanji idioms
+
+* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri</rt></ruby> 🇯🇵
+* 二 **人** (Two people)
+* 三 **人** (Three people)
+
+```{revealjs-break}
+```
+
+* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri</rt></ruby> 🇯🇵
+* 二 **人** (Two people): <ruby>**ふたり**<rt>fu ta ri</rt></ruby> 🇯🇵
+* 三 **人** (Three people): <ruby>**さんにん**<rt>sa n ni n</rt></ruby> 🇨🇳
+
+```{revealjs-notes}
+These are special readings of Kanji idioms.
+```
+
+```{revealjs-break}
+```
+
+* Other special readings
+* 大人: <ruby>**おとな**<rt>o to na</rt></ruby> (Adult)
+* 玄人: <ruby>**くろうと**<rt>ku ro u to </rt></ruby> (Professional)
+* 防人: <ruby>**さきもり**<rt>sa ki mo ri</rt></ruby> (soldiers garrisoned at strategic posts in Kyushu in ancient times)
+
+### {nekochan}`scream;2em` {nekochan}`scream;2em` {nekochan}`scream;2em`
+
+```{revealjs-notes}
+Oh my gosh
+```
+
+## Get **Reading** of Kanji
+
+<ruby>一**人**<rt>one person</rt>の<ruby>日本**人**<rt>Japanese</rt></ruby>の<ruby>大**人**<rt>adult</rt></ruby>が<ruby>一**人**前<rt>one serving</rt></ruby>の<ruby>ラーメン<rt>🍜</rt></ruby>を<ruby>食べる<rt>eat</rt></ruby>
+
+One Japanese adult eats one serving of ramen
+
+### Get **Reading** of Kanji
+
+* Use **SudachiPy** and **SudachiDict** again
+* `reading_form()`: Reading in Katakana
+
+```pycon
+>>> from sudachipy import Dictionary
+>>> tokenizer = Dictionary().create()  # Make tokenizer
+>>> text = "一人の日本人の大人が一人前のラーメンを食べる"
+>>> for token in tokenizer.tokenize(text):  # Word segmentation
+...     (str(token), token.reading_form())  # Get reading
+... 
+('一人', 'ヒトリ')
+('の', 'ノ')
+('日本人', 'ニホンジン')
+('の', 'ノ')
+('大人', 'オトナ')
+...
+```
+
+```{revealjs-break}
+```
+
+* Looks good {nekochan}`good`
+* Cannot read **Katakana**?
+
+```pycon
+('一人', 'ヒトリ')
+('の', 'ノ')
+('日本人', 'ニホンジン')
+('の', 'ノ')
+('大人', 'オトナ')
+...
+```
+
+```{revealjs-break}
+```
+
+* Cannot read **Katakana**? Use **jaconv**!
+
+```
+>>> from jaconv import kata2hira, kata2alphabet
+>>> for token in tokenizer.tokenize(text):
+...     reading = token.reading_form()
+...     hiragana = kata2hira(reading)  # to Hiragana
+...     romaji = kata2alphabet(reading)  # to Alphabet(romaji)
+...     (str(token), reading, hiragana, romaji)
+... 
+('一人', 'ヒトリ', 'ひとり', 'hitori')
+('の', 'ノ', 'の', 'no')
+('日本人', 'ニホンジン', 'にほんじん', 'nihonjin')
+('の', 'ノ', 'の', 'no')
+('大人', 'オトナ', 'おとな', 'otona')
+...
+```
+
+### Can add **Reading** to **Kanji** {nekochan}`yatta`
+
+### **Add Reading** to Kanji
+
+kanji_reading.py
+
+```{revealjs-literalinclude} code/kanji_reading.py
+:data-line-numbers: 3,5|7-13
+```
+
+```{revealjs-break}
+```
+
+<ruby>一人<rt>ひとり</rt></ruby>
+<ruby>の<rt>の</rt></ruby>
+<ruby>日本人<rt>にほんじん</rt></ruby>
+<ruby>の<rt>の</rt></ruby>
+<ruby>大人<rt>おとな</rt></ruby>
+<ruby>が<rt>が</rt></ruby>
+<ruby>一人前<rt>いちにんまえ</rt></ruby>
+<ruby>の<rt>の</rt></ruby>
+<ruby>ラーメン<rt>らーめん</rt></ruby>
+<ruby>を<rt>を</rt></ruby>
+<ruby>食べる<rt>たべる</rt></ruby>
+
+```bash
+(env) $ python kanji_reading.py 一人の日本人の大人が一人前のラーメンを食べる
+<ruby>一人<rt>ひとり</rt></ruby>
+<ruby>の<rt>の</rt></ruby>
+<ruby>日本人<rt>にほんじん</rt></ruby>
+<ruby>の<rt>の</rt></ruby>
+<ruby>大人<rt>おとな</rt></ruby>
+...
+```
+
+```{revealjs-break}
+```
+
+kanji_reading_romaji.py
+
+```{revealjs-literalinclude} code/kanji_reading_romaji.py
+:data-line-numbers: 11,12
+```
+
+```{revealjs-break}
+```
+
+<ruby>一人<rt>hitori</rt></ruby>
+<ruby>の<rt>no</rt></ruby>
+<ruby>日本人<rt>nihonjin</rt></ruby>
+<ruby>の<rt>no</rt></ruby>
+<ruby>大人<rt>otona</rt></ruby>
+<ruby>が<rt>ga</rt></ruby>
+<ruby>一人前<rt>ichininmae</rt></ruby>
+<ruby>の<rt>no</rt></ruby>
+<ruby>ラーメン<rt>raーmen</rt></ruby>
+<ruby>を<rt>wo</rt></ruby>
+<ruby>食べる<rt>taberu</rt></ruby>
+
+```bash
+(env) $ python kanji_reading_romaji.py 一人の日本人の大人が一人前のラーメンを食べる
+<ruby>一人<rt>hitori</rt></ruby>
+<ruby>の<rt>no</rt></ruby>
+<ruby>日本人<rt>nihonjin</rt></ruby>
+<ruby>の<rt>no</rt></ruby>
+<ruby>大人<rt>otona</rt></ruby>
+```
+
+### Can read **Kanji** {nekochan}`medetai`
+ 
+## Kanji **level** support {nekochan}`tunda`
+
+### Kanji **level** support {nekochan}`tunda`
+
+* If you study Japanese, you may know the **JLPT** [^jlpt]
+* JLPT has **N1**(difficult) ~ **N5**(easy) levels [^jlpt-level]
+
+```{image} https://www.jlpt.jp/e/resource/img_common/logo.gif
+:alt: JLPT logo
+:target: https://www.jlpt.jp/e/index.html
+```
+
+[^jlpt]: [What is the Japanese-Language Proficiency Test? Index | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/index.html)
+[^jlpt-level]: [N1-N5: Summary of Linguistic Competence Required for Each Level | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/levelsummary.html)
+
+### Reading corresponding to Kanji levels
+
+```{revealjs-notes}
+I want to create reading corresponding to kanji levels.
+```
+
+### Kanji list for each level
+
+* [jiten](https://pypi.org/project/jiten/) has JLPT Kanji lists
+  * <https://github.com/obfusk/jiten/tree/master/jiten/res/jlpt>
+
+### Make JLPT Kanji level dict
+
+make_jlpt_kanji_dict.py
+
+```{revealjs-literalinclude} code/make_jlpt_kanji_dict.py
+:language: python
+:data-line-numbers: 2-10|1,12-13
+```
+
+```{revealjs-break}
+```
+
+* Kanji dict is ready!! {nekochan}`naosu`
+
+```bash
+% python make_jlpt_kanji_dict.py
+```
+
+```{revealjs-literalinclude} code/JLPT_kanji.json
 ```
 
 ## Multiple Readings of Kanji
