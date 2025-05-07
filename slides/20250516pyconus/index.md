@@ -824,6 +824,12 @@ make_jlpt_kanji_dict.py
 ```{revealjs-literalinclude} code/JLPT_kanji.json
 ```
 
+### Make JLPT Kanji level dict
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+```
+
+
 ## Multiple Readings of Kanji
 
 * 人を使った熟語

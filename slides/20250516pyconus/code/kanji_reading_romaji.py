@@ -8,7 +8,7 @@ def add_reading(text: str) -> str:
     """Add Hiranaga ruby to text"""
     result = ""
     for token in tokenizer.tokenize(text):
-        # ruby = kata2hira(token.reading_form())  # to Alphabet(romaji)
+        # ruby = kata2hira(token.reading_form())  # to Hiragana
         ruby = kata2alphabet(token.reading_form())  # to Alphabet(romaji)
         result += f"<ruby>{token}<rt>{ruby}</rt></ruby>\n"
     return result
