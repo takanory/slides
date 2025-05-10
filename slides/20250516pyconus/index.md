@@ -792,18 +792,18 @@ kanji_reading_romaji.py
 [^jlpt]: [What is the Japanese-Language Proficiency Test? Index | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/index.html)
 [^jlpt-level]: [N1-N5: Summary of Linguistic Competence Required for Each Level | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/levelsummary.html)
 
-### Reading corresponding to Kanji levels
+### Reading corresponding to **Kanji levels** {nekochan}`kamon`
 
 ```{revealjs-notes}
 I want to create reading corresponding to kanji levels.
 ```
 
-### Kanji list for each level
+### **Kanji list** for each level
 
 * [jiten](https://pypi.org/project/jiten/) has JLPT Kanji lists
   * <https://github.com/obfusk/jiten/tree/master/jiten/res/jlpt>
 
-### Make JLPT Kanji level dict
+### Make JLPT **Kanji level dict**
 
 make_jlpt_kanji_dict.py
 
@@ -824,15 +824,126 @@ make_jlpt_kanji_dict.py
 ```{revealjs-literalinclude} code/JLPT_kanji.json
 ```
 
-### Make JLPT Kanji level dict
+### Get reading with **Kanji level**
 
-```{revealjs-literalinclude} code/kanji_reading_with_level.py
+* `-a`: Alphabet annotation(default: Hiragana)
+* `-l`: Kanji level option
+
+```text
+% python kanji_reading_with_level.py -h
+usage: kanji_reading_with_level.py [-h] [-a] [-l {1,2,3,4,5}] text
+
+Add Furigana to Japanese text
+
+positional arguments:
+  text            text to add furigana annotation
+
+options:
+  -h, --help      show this help message and exit
+  -a              Alphabet(Romaji) annotation(default: Hiragana)
+  -l {1,2,3,4,5}  set kanji level
 ```
 
+```{revealjs-break}
+```
 
-## Multiple Readings of Kanji
+```bash
+% python kanji_reading_with_level.py 日本語を勉強する
+```
 
-* 人を使った熟語
-* 日本人、
-* 人気(にんき、ひとけ)
-* 一人、二人、大人
+<ruby>日本語<rt>にほんご</rt></ruby>
+<ruby>を<rt>を</rt></ruby>
+<ruby>勉強<rt>べんきょう</rt></ruby>
+<ruby>する<rt>する</rt></ruby>
+(default)
+
+```bash
+% python kanji_reading_with_level.py -a 日本語を勉強する
+```
+
+<ruby>日本語<rt>nihongo</rt></ruby>
+<ruby>を<rt>wo</rt></ruby>
+<ruby>勉強<rt>benkyou</rt></ruby>
+<ruby>する<rt>suru</rt></ruby>
+(Alphabet(romaji))
+
+```bash
+% python kanji_reading_with_level.py -l 5 日本語を勉強する
+```
+
+日本語
+を
+<ruby>勉強<rt>べんきょう</rt></ruby>
+する
+(N5 level)
+
+```{revealjs-break}
+```
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 70-81|53-55|26-37|57-67|59|40-50|57-67
+```
+
+### Can handle **Kanji level**!! {nekochan}`yatta`
+
+No Level: <ruby>日本語<rt>にほんご</rt></ruby>
+<ruby>を<rt>を</rt></ruby>
+<ruby>勉強<rt>べんきょう</rt></ruby>
+<ruby>する<rt>する</rt></ruby>
+
+N5: 日本語
+を
+<ruby>勉強<rt>べんきょう</rt></ruby>
+する
+
+N4: 日本語
+を
+勉強
+する
+
+```{revealjs-notes}
+Now, We can handle Kanji level.
+You can learn at your own Japanese level
+```
+
+## **Sample** App
+
+* {fab}`github` [learn_jp_apac.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_apac.py)
+
+```bash
+% git clone https://github.com/takanory/learn-jp-with-python.git
+% cd learn-jp-with-python/
+% python3.12 -m venv env
+% . env/bin/activate
+(env) % pip install -r requirements.txt
+(env) % streamlit run learn_jp_us.py
+```
+
+## **Summary** {nekochan}`juutai`
+
+* Japanese is **Difficult**
+  * 3 Charcters, No spaces, Kanji readings
+* Python supports Japanese learning
+  * **jaconv**: Interconverter
+  * **SudachiPy**: Morphological analyzer
+  
+## 🇯🇵 ❤️ {fab}`python`
+
+Learn **Japanese** with **Python**
+
+```{revealjs-notes}
+Please try to create your own Japanese learning tool!
+```
+
+## Thank you {nekochan}`pray`
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+{fas}`code` [sample code](https://github.com/takanory/slides/tree/master/slides/20250516pyconapac/code)
+
+{fab}`twitter` [takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
