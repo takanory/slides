@@ -906,7 +906,7 @@ Now, We can handle Kanji level.
 You can learn at your own Japanese level
 ```
 
-## **Sample** App
+## **Sample** App {nekochan}`work`
 
 * {fab}`github` [learn_jp_pyconus.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_pyconus.py)
 
