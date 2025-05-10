@@ -908,7 +908,7 @@ You can learn at your own Japanese level
 
 ## **Sample** App
 
-* {fab}`github` [learn_jp_apac.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_apac.py)
+* {fab}`github` [learn_jp_pyconus.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_pyconus.py)
 
 ```bash
 % git clone https://github.com/takanory/learn-jp-with-python.git
@@ -916,7 +916,15 @@ You can learn at your own Japanese level
 % python3.12 -m venv env
 % . env/bin/activate
 (env) % pip install -r requirements.txt
-(env) % streamlit run learn_jp_us.py
+(env) % streamlit run learn_jp_pyconus.py
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+```{image} images/streamlit_demo.gif
+:width: 85%
 ```
 
 ## **Summary** {nekochan}`juutai`
