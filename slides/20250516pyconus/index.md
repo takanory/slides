@@ -39,7 +39,7 @@ PyCon US 2025 / 2025 May 16
 ## Background and Motivation 🏞️
 
 ```{revealjs-notes}
-* Backgorund and Motivation of this talk...
+* Background and Motivation of this talk...
 ```
 
 ### Background and Motivation
@@ -49,8 +49,8 @@ PyCon US 2025 / 2025 May 16
 * Python libs could help people **Learn Japanese**
 
 ```{revealjs-notes}
-* Backgorund and Motivation of this talk...
-* I am developing web-based Textbook for jounior high school students at work.
+* Background and Motivation of this talk...
+* I am developing web-based Textbook system for junior high school students at work.
 * I am using Japanese NLP to make the textbook easier to learn.
 * Based on this experience, I thought Python libraries could help people learn Japanese.
 ```
@@ -167,7 +167,7 @@ Do you know Hiroshima?...
 
 ```{revealjs-notes}
 Do you know Hiroshima?...
-Hiroshima location is west of Tokyo and Kyoto.
+Hiroshima is west of Tokyo and Kyoto.
 Hiroshima has several direct flights from overseas, but sorry, no direct flights from US.
 ```
 
@@ -195,7 +195,7 @@ There is a very good opportunity for you...
 ```
 
 ```{revealjs-notes}
-PyCon JP 2025 will be held in Hiroshima in next September.
+PyCon JP 2025 will be held in Hiroshima in September.
 See you again at PyCon JP 2025.
 ```
 
@@ -220,7 +220,7 @@ Kanji | 桃 | 蛇
 
 ```{revealjs-notes}
 Japanese language has 3 types of characters: hiragana, katakana, and kanji.
-This table shows 3 different caracthers for each peach and beer
+This table shows 3 different characters for each peach and beer
 ```
 
 ### **No Spaces** between Words
@@ -248,7 +248,7 @@ Most Japanese can correctly break this sentence into words.
 * **人**: person, people
 
 ```{revealjs-notes}
-For example. This kanji means peason and people.
+For example, this kanji means peason and people.
 ```
 
 ```{revealjs-break}
@@ -342,7 +342,7 @@ If I write a ruby tag like this, it will be displayed like this in a web browser
 
 ### Indicate **pronunciation** with `<ruby>`
 
-* **Alphabet** annotation: Pronounciation
+* **Alphabet** annotation: Pronunciation
 
 <ruby>パイコン<rt>pa i ko n</rt></ruby>
 <ruby>あめりか<rt>a me ri ka</rt></ruby>
@@ -354,7 +354,7 @@ If I write a ruby tag like this, it will be displayed like this in a web browser
 ```
 
 ```{revealjs-notes}
-This slide uses the ruby tag to indicate pronunciation with alphabet.
+This slide uses the ruby tag to indicate pronunciation with alphabets.
 ```
 
 ```{revealjs-break}
@@ -373,7 +373,7 @@ This slide uses the ruby tag to indicate pronunciation with alphabet.
 ```
 
 ```{revealjs-notes}
-The ruby tag is also used to Furigana, the reading of other characters in hiragana.
+The ruby tag is also used for Furigana, the reading of other characters in hiragana.
 ```
 
 ### Understand **`<ruby>`** Tag {nekochan}`naruhodo`
@@ -496,7 +496,7 @@ In this case, I use SudachiPy and SudachiDict
 
 ```{revealjs-notes}
 SudachiPy is made by Rust and is very fast.
-SudachiDict has three types different dictionaries with different number of vocabularies.
+SudachiDict has three types of different dictionaries with different numbers of vocabularies.
 Here I use core dictionary, the default.
 ```
 
@@ -792,10 +792,10 @@ kanji_reading_romaji.py
 [^jlpt]: [What is the Japanese-Language Proficiency Test? Index | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/index.html)
 [^jlpt-level]: [N1-N5: Summary of Linguistic Competence Required for Each Level | JLPT Japanese-Language Proficiency Test](https://www.jlpt.jp/e/about/levelsummary.html)
 
-### Reading corresponding to **Kanji levels** {nekochan}`kamon`
+### Readings corresponding to **Kanji levels** {nekochan}`kamon`
 
 ```{revealjs-notes}
-I want to create reading corresponding to kanji levels.
+I want to create readings corresponding to kanji levels.
 ```
 
 ### **Kanji list** for each level
@@ -930,7 +930,7 @@ You can learn at your own Japanese level
 ## **Summary** {nekochan}`juutai`
 
 * Japanese is **Difficult**
-  * 3 Charcters, No spaces, Kanji readings
+  * 3 Characters, No spaces, Kanji readings
 * Python supports Japanese learning
   * **jaconv**: Interconverter
   * **SudachiPy**: Morphological analyzer
