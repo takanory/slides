@@ -106,6 +106,7 @@ Cover | Title | Year| Publisher
 
 ### [gihyo.jp](https://gihyo.jp/)
 
+* [GitHub Actionsでデジタル証明書付きPythonパッケージをリリースする方法](https://gihyo.jp/article/2025/05/monthly-python-2505)
 * [Python型ヒントの動向と新しい機能の紹介](https://gihyo.jp/article/2024/11/monthly-python-2411)
 * [PyCon US 2024参加レポート](https://gihyo.jp/list/group/PyCon-US-2024%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2024/07/pycon-us-2024)
 * [Python製静的サイトジェネレーターSphinxでWebサイトを構築して公開](https://gihyo.jp/article/2024/06/monthly-python-2406)
