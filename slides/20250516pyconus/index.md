@@ -279,13 +279,13 @@ This kanji has a total of three different readings.
 * Japanese-style reading: ひと(hito)、びと(bito)
 * Chinese-style reading: じん(jin)、にん(nin)
 * How to read?
-  * 小人 (Dwarf)
+  * 小人 (Small person)
   * 日本人 (Japanese)
 
 ```{revealjs-break}
 ```
 
-* <ruby>小<rt>ko</rt></ruby><ruby>人<rt>**bito**</rt></ruby> (Dwarf)
+* <ruby>小<rt>ko</rt></ruby><ruby>人<rt>**bito**</rt></ruby> (Samll person)
   * Japanese-style reading: ひと(hito)、びと(bito)
 * <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>**jin**</rt></ruby> (Japanese)
   * Chinese-style reading: じん(jin)、にん(nin)
@@ -566,7 +566,7 @@ You can correctly split Japanese text into words!
 
 ## **Multiple Readings** of Kanji
 
-<ruby>小<rt>ko</rt></ruby><ruby>人<rt>bito</rt></ruby> (Dwarf)
+<ruby>小<rt>ko</rt></ruby><ruby>人<rt>bito</rt></ruby> (Small person)
 
 <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>jin</rt></ruby> (Japanese)
 
@@ -581,7 +581,7 @@ You can correctly split Japanese text into words!
 ```{revealjs-break}
 ```
 
-* 小**人** (Dwarf): 
+* 小**人** (Small person): 
   🇯🇵 <ruby>こ<rt>ko</rt> <ruby>**びと**<rt>bi to</rt>
 * 日本**人** (Japanese):
   🇨🇳 <ruby>に<rt>ni</rt> <ruby>ほん<rt>ho n</rt> <ruby>**じん**<rt>jin</rt>
@@ -844,6 +844,10 @@ options:
   -l {1,2,3,4,5}  set kanji level
 ```
 
+```{revealjs-notes}
+I have created an annotation script that supports Kanji levels.
+```
+
 ```{revealjs-break}
 ```
 
@@ -877,11 +881,85 @@ options:
 する
 (N5 level)
 
+```{revealjs-notes}
+I will explain the code.
+```
+
+### Parse arguments
+
+* Process `-a` and `-l` with **argparse**
+* Call `add_reading()` function
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 70-81
+```
+
+### Get **Kanji set** with level
+
+* Get Kanji set with `get_kanji_set(level)`
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 53-55
+```
+
+```{revealjs-notes}
+In add_reading() func, to get the Kanji set, specify the level argument to the get_kanji_set() func.
+```
+
 ```{revealjs-break}
 ```
 
+* Load `"JLPT_kanji.json"`
+* Create a Kanji set is **easier than level**
+
 ```{revealjs-literalinclude} code/kanji_reading_with_level.py
-:data-line-numbers: 70-81|53-55|26-37|57-67|59|40-50|57-67
+:data-line-numbers: 26-37
+```
+
+```{revealjs-notes}
+get_kanji_set() func reads Kanjis per level from JSON.
+Then Create a Kanji set that is easier than the level.
+```
+
+### Is **ruby required**?
+
+* **Ruby / not Ruby** with `is_ruby_required()`
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 53,57-59
+```
+
+```{revealjs-notes}
+Determine if ruby is required or not with the is_ruby_required() function for each token.
+```
+
+```{revealjs-break}
+```
+
+* Get all Kanjis -> `kanji_in_surface`
+* Kanjis are **within** the level or **above**
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 40-45|46-50
+```
+
+```{revealjs-notes}
+In the function, I get all Kanjis in the token and assign them to kanji_in_surface.
+Next, determine if there is a Kanji and if Kanjis are within the level or above the level.
+```
+
+### Add **Ruby text**
+
+* `is_ruby_required() == True`: add Ruby
+* `alphabet`: Alphabet or Hiragana(default)
+
+```{revealjs-literalinclude} code/kanji_reading_with_level.py
+:data-line-numbers: 57-67
+```
+
+```{revealjs-notes}
+Finally, if is_ruby_required() is True, add ruby text.
+And, depending on the value of alphabet, ruby is converted to alphabet or hiragana
 ```
 
 ### Can handle **Kanji level**!! {nekochan}`yatta`
@@ -903,7 +981,7 @@ N4: 日本語
 
 ```{revealjs-notes}
 Now, We can handle Kanji level.
-You can learn at your own Japanese level
+You can learn Kanji at your own Japanese level.
 ```
 
 ## **Sample** App {nekochan}`work`
@@ -934,12 +1012,14 @@ You can learn at your own Japanese level
 * Python supports Japanese learning
   * **jaconv**: Interconverter
   * **SudachiPy**: Morphological analyzer
+* **Kanji level** support
   
 ## 🇯🇵 ❤️ {fab}`python`
 
 Learn **Japanese** with **Python**
 
 ```{revealjs-notes}
+You can learn Japanese with Python.
 Please try to create your own Japanese learning tool!
 ```
 
