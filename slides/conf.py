@@ -30,6 +30,7 @@ author = 'takanory'
 extensions = [
     "myst_parser",
     "sphinx_revealjs",
+    "sphinx_revealjs.ext.footnotes",
     "sphinxext.opengraph",
     "sphinx_design",
     "atsphinx.audioplayer",
@@ -66,6 +67,7 @@ html_static_path = ['_static']
 # myst_enable_extensions = [
 #    "substitution",
 #]
+myst_footnote_sort = False
 
 # -- for sphinxext-opengraph
 ogp_site_url = "https://slides.takanory.net/slides/"
