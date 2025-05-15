@@ -46,7 +46,7 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 ## Books
 
-* {fab}`amazon` [Amazon.co.jp: Books by Takanori Suzuki](https://www.amazon.co.jp/stores/%E9%88%B4%E6%9C%A8-%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/author/B00W95A036?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
+* {fab}`amazon` Amazon Author page: [Amazon.co.jp: Books by Takanori Suzuki](https://www.amazon.co.jp/stores/%E9%88%B4%E6%9C%A8-%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A/author/B00W95A036?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true)
 
 ### Authored
 
@@ -106,6 +106,7 @@ Cover | Title | Year| Publisher
 
 ### [gihyo.jp](https://gihyo.jp/)
 
+* [GitHub Actionsでデジタル証明書付きPythonパッケージをリリースする方法](https://gihyo.jp/article/2025/05/monthly-python-2505)
 * [Python型ヒントの動向と新しい機能の紹介](https://gihyo.jp/article/2024/11/monthly-python-2411)
 * [PyCon US 2024参加レポート](https://gihyo.jp/list/group/PyCon-US-2024%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2024/07/pycon-us-2024)
 * [Python製静的サイトジェネレーターSphinxでWebサイトを構築して公開](https://gihyo.jp/article/2024/06/monthly-python-2406)
@@ -128,8 +129,7 @@ Cover | Title | Year| Publisher
 * [世界最大のPythonカンファレンス「US PyCon 2019」レポート](https://gihyo.jp/news/report/01/us-pycon2019)
 * [アジアパシフィックのPyConユーザのつながりを感じた2日間「PyCon APAC 2019」レポート](https://gihyo.jp/news/report/2019/03/1201)
 * [『Pythonエンジニア養成読本』読書会便り ～基礎やTipsから質疑応答の内容まで～](https://gihyo.jp/news/report/01/python-training-book-reading-club)
-
-* [鈴木たかのり（すずきたかのり） | gihyo.jp](https://gihyo.jp/author/%E9%88%B4%E6%9C%A8%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A)
+* Author profile: [鈴木たかのり（すずきたかのり） | gihyo.jp](https://gihyo.jp/author/%E9%88%B4%E6%9C%A8%E3%81%9F%E3%81%8B%E3%81%AE%E3%82%8A)
 
 ### [CodeZine](https://codezine.jp/)
 
@@ -139,8 +139,7 @@ Cover | Title | Year| Publisher
 * [「PyCon Taiwan 2013」レポート一覧](https://codezine.jp/article/corner/491)
 * [「PyCon JP 2012」レポート一覧](https://codezine.jp/article/corner/462)
 * [「PyCon JP 2011」レポート一覧](https://codezine.jp/article/corner/430)
-
-* [鈴木 たかのりについて|CodeZine（コードジン）](https://codezine.jp/author/1238)
+* Author profile: [鈴木 たかのりについて|CodeZine（コードジン）](https://codezine.jp/author/1238)
 
 ### [Think IT](https://thinkit.co.jp/)
 
@@ -150,8 +149,7 @@ Cover | Title | Year| Publisher
 * [第3回 Slackをカスタマイズしてとことん使いこなす](https://thinkit.co.jp/article/5878)
 * [第2回 Slackの基本的な使い方を学んで、コミュニケーションが捗る！](https://thinkit.co.jp/article/5877)
 * [第1回 Slackを始めよう](https://thinkit.co.jp/article/5876)
-
-* [鈴木 たかのり | Think IT（シンクイット）](https://thinkit.co.jp/author/11618)
+* Author profile: [鈴木 たかのり | Think IT（シンクイット）](https://thinkit.co.jp/author/11618)
 
 ## Inteviews
 
