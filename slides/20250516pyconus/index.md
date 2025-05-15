@@ -26,13 +26,13 @@ PyCon US 2025 / 2025 May 16
 * The agenda for this talk is as follows.
 * I will talk about Background, Motivation and goal of this talk.
 * Next, I will introduce some of the difficulties of the Japanese language.
-* In the last part, I will explain how Python supports Japanese language learning, with examples.
+* In the last part, I will explain how Python supports Japanese language learning, with example codes.
 ```
 
 ### PyCon US 2024
 
-* PyCon US 2024のLightning Talkで同じアイデアのトークをしました
-* 今日は、その内容をさらに詳細に語っています
+* **Lightning Talk** on the same idea
+* I will talk in **more detail**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p_Vx3gDHeUI?si=H6ZHmYQfvvWOn-U4&amp;controls=0&amp;start=530" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -50,7 +50,7 @@ PyCon US 2025 / 2025 May 16
 
 ```{revealjs-notes}
 * Background and Motivation of this talk...
-* I am developing web-based Textbook system for junior high school students at work.
+* My team is developing web-based Textbook for junior high school students at work.
 * I am using Japanese NLP to make the textbook easier to learn.
 * Based on this experience, I thought Python libraries could help people learn Japanese.
 ```
@@ -61,27 +61,28 @@ PyCon US 2025 / 2025 May 16
   * Japanese is "**super-hard languages**" for English speakers to learn
   * Catevory V* (More than 88 weeks)
   
+```{revealjs-notes}
+* "FSI language difficulty" reports Japanese is ...
+```
+
 ```{revealjs-break}
 :notitle:
 ```
   
 <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="740"><a href="https://www.reddit.com/r/MapPorn/comments/1f97r63/language_difficulty_rankings_for_native_english/">Language difficulty rankings (for native English speakers)</a><br> by<a href="https://www.reddit.com/user/Homesanto/">u/Homesanto</a> in<a href="https://www.reddit.com/r/MapPorn/">MapPorn</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
   
-```{revealjs-notes}
-* "FSI language difficulty" reports Japanese is ...
-```
 
 ### Goal
 
 * What is **difficult** about Japanese
 * How to use **Japanese NLP** libs and APIs
-* Python could support **learning Japanese**
+* How Python can support **Japanese learning**
 
 ```{revealjs-notes}
 * The goals of this talk are
 * You know what is difficult about the Japanese language,
 * You know how to use the Japanese NLP libraries and APIs and
-* You understand that Python could support Japanese language learning
+* You understand how Python can support Japanese language 
 ```
 
 ## Photos 📷 Share 🐦 👍
@@ -206,6 +207,7 @@ See you again at PyCon JP 2025.
 * **Multiple Readings** of Kanji
 
 ```{revealjs-notes}
+Back to the main topic.
 I will show you 3 difficult points of the Japanese language.
 ```
 
@@ -220,7 +222,7 @@ Kanji | 桃 | 蛇
 
 ```{revealjs-notes}
 Japanese language has 3 types of characters: hiragana, katakana, and kanji.
-This table shows 3 different characters for each peach and beer
+This table shows 3 different characters for each peach and snake.
 ```
 
 ### **No Spaces** between Words
@@ -239,7 +241,7 @@ This table shows 3 different characters for each peach and beer
 "Plums and peaches are part of peaches"
 
 ```{revealjs-notes}
-This sentence is a play on words, but it is correct Japanese.
+This sentence "すもももももももものうち" is a play on words, but it is correct Japanese.
 Most Japanese can correctly break this sentence into words.
 ```
 
@@ -248,7 +250,7 @@ Most Japanese can correctly break this sentence into words.
 * **人**: person, people
 
 ```{revealjs-notes}
-For example, this kanji means peason and people.
+For example, this kanji character means peason and people.
 ```
 
 ```{revealjs-break}
@@ -259,7 +261,7 @@ For example, this kanji means peason and people.
 * **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>)
 
 ```{revealjs-notes}
-Many kanji have 2 styles of readings.
+Many kanji caracter have 2 styles of readings.
 ```
   
 ```{revealjs-break}
@@ -270,7 +272,7 @@ Many kanji have 2 styles of readings.
 * **Chinese**-style reading: じん(jin)、にん(nin)
 
 ```{revealjs-notes}
-This kanji has a total of three different readings.
+The kanji caracter has a total of four different readings.
 ```
 
 ```{revealjs-break}
@@ -278,9 +280,13 @@ This kanji has a total of three different readings.
 
 * Japanese-style reading: ひと(hito)、びと(bito)
 * Chinese-style reading: じん(jin)、にん(nin)
-* How to read?
+* Can you read?
   * 小人 (Small person)
   * 日本人 (Japanese)
+
+```{revealjs-notes}
+What do you think these idioms read?
+```
 
 ```{revealjs-break}
 ```
@@ -289,6 +295,12 @@ This kanji has a total of three different readings.
   * Japanese-style reading: ひと(hito)、びと(bito)
 * <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>**jin**</rt></ruby> (Japanese)
   * Chinese-style reading: じん(jin)、にん(nin)
+  
+```{revealjs-notes}
+The 1st one is Japanese-style reading, "Kobito".
+The 2nd one is Chinese-style reading, "Nihonjin".
+```
+  
 
 ### Japanese is **Difficult**!! {nekochan}`scream`
 
@@ -314,14 +326,15 @@ I will explain the ruby tag before I talk about Python
 
 ### What is **Ruby** ?
 
-* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation**
+* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation** [^ruby]
 * Usually placed **above** the text
-* ref: [Ruby character - Wikipedia](https://en.wikipedia.org/wiki/Ruby_character)
 * (Not a Programming Language)
+
+[^ruby]: [Ruby character - Wikipedia](https://en.wikipedia.org/wiki/Ruby_character)
 
 ### **`<ruby>`** HTML Tag 💎
 
-* `<ruby>` represents **small annotations** [^ruby]
+* `<ruby>` represents **small annotations** [^ruby-tag]
 * `<rt>` specifies the **ruby text** component
 
 <ruby>PyCon<rt>Python Conference</rt></ruby>
@@ -334,7 +347,7 @@ I will explain the ruby tag before I talk about Python
 2025
 ```
 
-[^ruby]: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
+[^ruby-tag]: [`<ruby>`: The Ruby Annotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby)
 
 ```{revealjs-notes}
 If I write a ruby tag like this, it will be displayed like this in a web browser
@@ -376,10 +389,10 @@ This slide uses the ruby tag to indicate pronunciation with alphabets.
 The ruby tag is also used for Furigana, the reading of other characters in hiragana.
 ```
 
-### Understand **`<ruby>`** Tag {nekochan}`naruhodo`
+### Figured out **`<ruby>`** Tag {nekochan}`naruhodo`
 
 ```{revealjs-notes}
-Now we understand the ruby tag, let's move on to Python.
+Now we have figured out the the ruby tag, let's move on to Python.
 ```
 
 ## **Hiragana** and **Katakana** (あ / ア)
@@ -651,6 +664,10 @@ Oh my gosh
 
 One Japanese adult eats one serving of ramen
 
+```{revealjs-notes}
+There are 4 same kanji character, all with different readings.
+```
+
 ### Get **Reading** of Kanji
 
 * Use **SudachiPy** and **SudachiDict** again
@@ -707,7 +724,7 @@ One Japanese adult eats one serving of ramen
 ...
 ```
 
-### Can add **Reading** to **Kanji** {nekochan}`yatta`
+### Can get **Reading** to **Kanji** {nekochan}`yatta`
 
 ### **Add Reading** to Kanji
 
@@ -781,7 +798,7 @@ kanji_reading_romaji.py
 
 ### Kanji **level** support {nekochan}`tunda`
 
-* If you study Japanese, you may know the **JLPT** [^jlpt]
+ * If you study Japanese, you may know the **JLPT** [^jlpt]
 * JLPT has **N1**(difficult) ~ **N5**(easy) levels [^jlpt-level]
 
 ```{image} https://www.jlpt.jp/e/resource/img_common/logo.gif
@@ -891,7 +908,7 @@ I will explain the code.
 * Call `add_reading()` function
 
 ```{revealjs-literalinclude} code/kanji_reading_with_level.py
-:data-line-numbers: 70-81
+:data-line-numbers: 70-79|80
 ```
 
 ### Get **Kanji set** with level
@@ -913,7 +930,7 @@ In add_reading() func, to get the Kanji set, specify the level argument to the g
 * Create a Kanji set is **easier than level**
 
 ```{revealjs-literalinclude} code/kanji_reading_with_level.py
-:data-line-numbers: 26-37
+:data-line-numbers: 26-32|33-37
 ```
 
 ```{revealjs-notes}
@@ -954,7 +971,7 @@ Next, determine if there is a Kanji and if Kanjis are within the level or above 
 * `alphabet`: Alphabet or Hiragana(default)
 
 ```{revealjs-literalinclude} code/kanji_reading_with_level.py
-:data-line-numbers: 57-67
+:data-line-numbers: 57-67|60-63
 ```
 
 ```{revealjs-notes}
