@@ -1054,7 +1054,7 @@ Please try to create your own Japanese learning tool!
 ## Thank you {nekochan}`pray`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
-{fas}`code` [sample code](https://github.com/takanory/slides/tree/master/slides/20250516pyconapac/code)
+{fas}`code` [sample code](https://github.com/takanory/slides/tree/master/slides/20250516pyconus/code)
 
 {fab}`twitter` [takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
