@@ -36,6 +36,12 @@ PyCon US 2025 / 2025 May 16
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p_Vx3gDHeUI?si=H6ZHmYQfvvWOn-U4&amp;controls=0&amp;start=530" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+```{revealjs-notes}
+I gave a lightning talk on the same idea at PyCon US 2024.
+Does anyone remember it?
+Today I will talk in more detail.
+```
+
 ## Background and Motivation 🏞️
 
 ```{revealjs-notes}
@@ -46,13 +52,13 @@ PyCon US 2025 / 2025 May 16
 
 * Developing School **Textbook Web** at work
   * Japanese NLP to make it **Easier to Learn**
-* Python libs could help people **Learn Japanese**
+* NLP libs could help people **Learn Japanese**
 
 ```{revealjs-notes}
 * Background and Motivation of this talk...
 * My team is developing web-based Textbook for junior high school students at work.
 * I am using Japanese NLP to make the textbook easier to learn.
-* Based on this experience, I thought Python libraries could help people learn Japanese.
+* Based on this experience, I thought Python's NPL libraries could help people learn Japanese.
 ```
 
 ### Background and Motivation(cont.)
@@ -87,13 +93,18 @@ PyCon US 2025 / 2025 May 16
 
 ## Photos 📷 Share 🐦 👍
 
-`#pyconus` / `@takanory`
+`#PyConUS` / `@takanory`
+
+```{revealjs-notes}
+I would be happy to take pictures and share them on SNS.
+Hashtag is #pyconus
+```
 
 ### [`slides.takanory.net`](https://slides.takanory.net) 💻
 
 ```{image} images/slides-takanory-net.png
 :alt: slides.takanory.net
-:width: 90%
+:width: 85%
 ```
 
 ```{revealjs-notes}
