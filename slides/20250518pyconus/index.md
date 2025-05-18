@@ -133,18 +133,291 @@ Copy & Paste lots of Emojis is **Boring**
 ### Get Started
 
 ```bash
-(env) % pip install sphinx sphinx-nekochan
-(env) % sphinx-quickstart
+(env) % pip install sphinx-nekochan  # sphinx is also install
+(env) % sphinx-quickstart  # generates Sphinx base files
 ```
 
-```{code-block} python
-:caption: conf.py
+* add extension in **conf.py**
 
+```{code-block} python
 extensions = [
     ...
     "sphinx_nekochan",
 ]
 ```
+
+```{revealjs-break}
+```
+
+* Use **`nekochan`** role in the document
+
+````{tab-set-code}
+```markdown
+I love {nekochan}`beer`
+```
+
+```rst
+I love :nekochan:`beer`
+```
+````
+
+* **Build** html documents
+
+```bash
+(env) % make html
+(env) % open build/html/index.html
+```
+
+```{revealjs-break}
+```
+
+* Cat Emoji **displayed** in the document!! 🎉
+
+```{image} images/sphinx-nekochan-sample.png
+:alt: sphinx-nekochan sample document
+:width: 100%
+```
+
+### **List** of Cat Emoji
+
+* [List of Nekochan emoji](https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html)
+* [List of Nekochan emoji without text](https://sphinx-nekochan.readthedocs.io/nekochan_emojis_without_text.html)
+
+```{image} https://sphinx-nekochan.readthedocs.io/_images/nekochan-search.gif
+:width: 70%
+```
+
+## sphinx-nekochan on **slides** 💻
+
+### sphinx-revealjs 
+
+* {fas}`globe` [sphinx-revealjs.readthedocs.io](https://sphinx-revealjs.readthedocs.io/)
+* Sphinx extension to generate [Reveal.js](https://revealjs.com/) slides
+
+<iframe height="400" src="https://attakei.github.io/sphinx-revealjs/en/index.html" title="Introduction of sphinx-revealjs" width="600"></iframe>
+
+### sphinx-revealjs with sphinx-nekochan
+
+* **Same code** will display Cat Emoji
+
+````{tab-set-code}
+```markdown
+I love {nekochan}`beer`
+```
+
+```rst
+I love :nekochan:`beer`
+```
+````
+
+I love {nekochan}`beer`
+
+## **Customize** emoji {nekochan}`work`
+
+### Customize emoji **Height** {nekochan}`nobita` [^height]
+
+````{tab-set-code}
+```markdown
+* Big bear {nekochan}`bear;1.5em` default {nekochan}`bear`
+* Huge hot-sprint nekochan {nekochan}`hot-spring;128px`
+```
+
+```rst
+* Big bear :nekochan:`bear;1.5em` default :nekochan:`bear`
+* Huge hot-sprint nekochan :nekochan:`hot-spring;128px`
+```
+````
+
+* Big bear {nekochan}`bear;1.5em` default {nekochan}`bear`
+* Huge hot-sprint nekochan {nekochan}`hot-spring;128px`
+
+[^height]: <https://sphinx-nekochan.readthedocs.io/#customize-emoji-height-and-alt-text>
+
+### **Transform** emoji {nekochan}`sushi` [^transform]
+
+````{tab-set-code}
+```markdown
+* {nekochan}`skip` rotate {nekochan}`skip;;;rotate-90`
+* {nekochan}`yoshi` flip horizontal
+{nekochan}`yoshi;;;flip-horizontal`
+```
+
+```rst
+* :nekochan:`skip` rotate :nekochan:`skip;;;rotate-90`
+* :nekochan:`yoshi` flip horizontal
+:nekochan:`yoshi;;;flip-horizontal`
+```
+````
+
+* {nekochan}`skip` rotate {nekochan}`skip;;;rotate-90`
+* {nekochan}`yoshi` flip horizontal
+{nekochan}`yoshi;;;flip-horizontal`
+
+[^transform]: <https://sphinx-nekochan.readthedocs.io/#transform-emoji>
+
+## **Enjoy** sphinx-nekochan {nekochan}`yatta`
+
+* {nekochan}`work` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
+* {nekochan}`octpus` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
+  * Please **GitHub star** if you like it! {nekochan}`kitai`
+* {nekochan}`snake` [pypi.org/project/sphinx-nekochan](https://pypi.org/project/sphinx-nekochan/)
+
+```{revealjs-break}
+:notitle:
+```
+
+{nekochan}`akeome-nya`
+{nekochan}`ame-nya`
+{nekochan}`amefoot-nya`
+{nekochan}`angel-nya`
+{nekochan}`ase-nya`
+{nekochan}`atsui-nya`
+{nekochan}`autumn-nya`
+{nekochan}`azarashi-nya`
+{nekochan}`badminton-nya`
+{nekochan}`bakushou-nya`
+{nekochan}`banban-nya`
+{nekochan}`banya-nya`
+{nekochan}`banzai-nya`
+{nekochan}`barista-nya`
+{nekochan}`barrier-nya`
+{nekochan}`basketball-nya`
+{nekochan}`beam-nya`
+{nekochan}`beer-nya`
+{nekochan}`benkyou`
+{nekochan}`big-love-nya`
+{nekochan}`bikkuri-nya`
+{nekochan}`bow-nya`
+{nekochan}`bow-nya2`
+{nekochan}`buriburiburiburi-muchaburi-nya`
+{nekochan}`buttobu-nya`
+{nekochan}`byebye-nya`
+{nekochan}`calendar-nya`
+{nekochan}`camera-nya`
+{nekochan}`cat-rareta-nya`
+{nekochan}`chira-nya`
+{nekochan}`choo-choo-train-nya`
+{nekochan}`chudoon-nya`
+{nekochan}`clap-nya`
+{nekochan}`css-kanzen-ni-rikai-sita-nya`
+{nekochan}`dai-kansha-nya`
+{nekochan}`daijoubu-nya`
+{nekochan}`dancing-nya`
+{nekochan}`densha-nya`
+{nekochan}`docchidemo-ii-nya`
+{nekochan}`donburako-nya`
+{nekochan}`done-nya`
+{nekochan}`donmai-nya`
+{nekochan}`doron-nya`
+{nekochan}`doya-nya`
+{nekochan}`drum-nya`
+{nekochan}`eiei-o-nya`
+{nekochan}`fire-nya`
+{nekochan}`freeze-nya`
+{nekochan}`gattai-nya`
+{nekochan}`gerokowa-nya`
+{nekochan}`gessori-nya`
+{nekochan}`gohan-nya`
+{nekochan}`gohan-taberu-nya`
+{nekochan}`good-nya`
+{nekochan}`goron-goron-nya`
+{nekochan}`gorua-nya`
+{nekochan}`guiter-nya`
+{nekochan}`guruguru-nya`
+{nekochan}`ha-nya`
+{nekochan}`hachi-nya`
+{nekochan}`hai-nya`
+{nekochan}`haniwa-nya`
+{nekochan}`haniwa-nya-noroi`
+{nekochan}`haniwa-nya-purupuru`
+{nekochan}`haniwa-nya-shousei`
+{nekochan}`haniwa-nya-shutudo`
+{nekochan}`haniwa-nya-spin`
+{nekochan}`haniwa-nya-yatta`
+{nekochan}`hansei-nya`
+{nekochan}`hare-nya`
+{nekochan}`hate-nya`
+{nekochan}`hebi-nya`
+{nekochan}`help-nya`
+{nekochan}`hige-nya`
+{nekochan}`hirameita-nya`
+{nekochan}`hituji-nya`
+{nekochan}`hiza-ni-ya-wo-ukete-simatte-nya`
+{nekochan}`ho-nya`
+{nekochan}`hokkori-nya`
+{nekochan}`holiday-nya2`
+{nekochan}`holiday-nya3`
+{nekochan}`hospital-nya`
+{nekochan}`hotcake-nya`
+{nekochan}`hueta-nya`
+{nekochan}`hug-nya`
+{nekochan}`hyoui-nya`
+{nekochan}`hyun-nya`
+{nekochan}`ie-nya`
+{nekochan}`ika-nya`
+{nekochan}`inai-nya`
+{nekochan}`inosisi-nya`
+{nekochan}`inu-nya`
+{nekochan}`isogu-nya`
+{nekochan}`issue-mada-nai-nya`
+{nekochan}`itabasami-nya`
+{nekochan}`itsumo-sumanai-nya`
+{nekochan}`ittari-kitari-nya`
+{nekochan}`ji-nya`
+{nekochan}`jii-nya2`
+{nekochan}`jikan-nya`
+{nekochan}`jiken-nya`
+{nekochan}`jinrou-nya`
+{nekochan}`jito-nya`
+{nekochan}`juutai-nya`
+{nekochan}`kahun-nya`
+{nekochan}`kaisan-nya`
+{nekochan}`kami-nya`
+{nekochan}`kaminari-nya`
+{nekochan}`kamon-nya`
+{nekochan}`karai-nya`
+{nekochan}`kata-koru-nya`
+{nekochan}`kaze-tuyoi-nya`
+{nekochan}`kenkou-shindan-nya`
+{nekochan}`kick-nya`
+{nekochan}`kiku-nya`
+{nekochan}`kiriri-nya`
+{nekochan}`kitaeru-nya`
+{nekochan}`kitai-nya`
+{nekochan}`kitakitakitakita-kitakitsune-nya`
+{nekochan}`kito-nya`
+{nekochan}`kochira-nya`
+{nekochan}`komata-nya`
+{nekochan}`kosame-nya`
+{nekochan}`kossori-nya`
+{nekochan}`kouji-nya`
+{nekochan}`kuchibue-nya`
+{nekochan}`kuma-nya`
+{nekochan}`kuro-bow-nya`
+{nekochan}`kuro-juutai-nya`
+{nekochan}`kuro_ng`
+{nekochan}`kuro_ok`
+{nekochan}`kusa-nya`
+{nekochan}`kyapi-nya`
+{nekochan}`kyomu-nya`
+{nekochan}`kyomu-nya2`
+{nekochan}`kyun-desu-nya`
+{nekochan}`lgtm-nya`
+{nekochan}`lion-nya`
+{nekochan}`love-nya`
+{nekochan}`maccho-nya`
+{nekochan}`mada-nya`
+{nekochan}`magic-nya`
+{nekochan}`maguro-no-osushi-nya`
+{nekochan}`mail-nya`
+{nekochan}`manpuku-nya`
+{nekochan}`mask-nya`
+{nekochan}`massage-nya`
+{nekochan}`maturi-nya`
+{nekochan}`mawaru-nya`
+{nekochan}`mechanaki-nya`
+{nekochan}`medetai-nya`
+{nekochan}`melty-nya`
 
 ## Thank you {nekochan}`pray`
 
