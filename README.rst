@@ -39,7 +39,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2025 May
      * LT
      * en
-     * Put the Cat Emoji in your documents!
+     * Put 🐱 Cat Emojis in your documents!
      * `Slides <https://slides.takanory.net/slides/20250518pyconus>`__
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
