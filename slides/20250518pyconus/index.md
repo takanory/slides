@@ -105,6 +105,8 @@ Copy & Paste lots of Emojis is **Boring**
 
 ### We have **Python** {fab}`python`
 
+**Simplify** the Boring Stuff with Python
+
 ## **sphinx-nekochan**
 
 ("Nekochan" is Cat in Japanese)
