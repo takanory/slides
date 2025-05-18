@@ -37,6 +37,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
      * 2025 May
+     * LT
+     * en
+     * Put the Cat Emoji in your documents!
+     * `Slides <https://slides.takanory.net/slides/20250518pyconus>`__
+   - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
+     * Pittsburgh, PA
+     * 2025 May
      * Talk
      * en
      * `How to learn Japanese with Python <https://us.pycon.org/2025/schedule/presentation/122/>`__
