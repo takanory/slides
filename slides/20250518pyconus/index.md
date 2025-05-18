@@ -99,18 +99,36 @@ PyCon US 2025 / 2025 May 18
 :width: 75%
 ```
 
-### **Programmer is Lazy**
+### **Programmer is Lazy** 
 
-Copying & Pasting lots of Emojis is **Boring**
+Copy & Paste lots of Emojis is **Boring**
 
 ### We have **Python** {fab}`python`
 
 ## **sphinx-nekochan**
 
+("Nekochan" is Cat in Japanese)
+
 ### **sphinx-nekochan**
 
-* A Sphinx extension for adding the **Nekochan(cat) emoji** to documents
+* **Sphinx extension** for adding **Cat emoji** to docs
 * {fas}`globe` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io/)
+
+```{image} images/sphinx-nekochan-web.png
+:alt: sphinx-nekochan web page
+:width: 60%
+```
+
+### Sphinx 👁️‍🗨️
+
+* {fas}`globe` [www.sphinx-doc.org](https://www.sphinx-doc.org/)
+* Easy to create intelligent and beautiful docs
+* [docs.python.org](https://docs.python.org/3/) using Sphinx
+
+```{image} images/docs-python-org.png
+:alt: docs.python.org
+:width: 60%
+```
 
 ### Get Started
 
