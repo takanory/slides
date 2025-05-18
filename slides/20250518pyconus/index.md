@@ -18,7 +18,7 @@ PyCon US 2025 / 2025 May 18
 
 ## Do you **like cats**? 🐱
 
-### IMO, **many programmers** like cats 🤔
+### IMO, **Many programmers** like Cats <br /> 🧑‍💻 👩‍💻 ❤️ 🐱
 
 ### For example
 
@@ -53,7 +53,7 @@ PyCon US 2025 / 2025 May 18
 
 ## About **Cat Emojis** 🐱
 
-### Cat Emojis for **Slack** and **Discord**
+### Cat Emojis for **Slack** & **Discord**
 
 * Cat Emojis are **Created** and **Distributed** by **Shikamatsu-san**([@shi_ka_ma_tsu](https://x.com/shi_ka_ma_tsu))
 
@@ -78,16 +78,26 @@ PyCon US 2025 / 2025 May 18
 ```
 
 * You **can download** Cat Emojis!!
-  * [note.com/shikamatsu/n/nd217dc0617db](https://note.com/shikamatsu/n/nd217dc0617db) 🇯🇵
-  * [translated by Google translate](https://note-com.translate.goog/shikamatsu/n/nd217dc0617db?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=wapp&_x_tr_hist=true)
-* [Guidelines for Using Cat Emojis](https://note.com/shikamatsu/n/n8818bb5ebea1#8b38f78f-1883-46c6-a596-63d9bf4c69da)
+* [note.com/shikamatsu/n/nd217dc0617db](https://note.com/shikamatsu/n/nd217dc0617db) [^guide]
+
+```{image} images/download-nekochan-emojis.png
+:alt: Download Nekochan emojis
+:width: 60%
+```
+
+[^guide]: [Guidelines for Using Cat Emojis](https://note.com/shikamatsu/n/n8818bb5ebea1#8b38f78f-1883-46c6-a596-63d9bf4c69da)
 
 ## Cat Emojis in **Documents** 🐱 📄
 
 ### Motivation
 
-* Use a Cat Emojis on **My Slides**
+* Use Cat Emojis on **My Slides**
 * Can do it by **Copy & Paste** Emoji image
+
+```{image} images/emoji-copy-paste.gif
+:alt: Copy and Paste Cat Emoji
+:width: 75%
+```
 
 ### **Programmer is Lazy**
 
