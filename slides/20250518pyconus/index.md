@@ -180,7 +180,7 @@ I love :nekochan:`beer`
 :width: 100%
 ```
 
-### **List** of Cat Emoji
+### **Find** the **Name** of Cat Emoji 🔎
 
 * [List of Nekochan emoji](https://sphinx-nekochan.readthedocs.io/nekochan_emojis.html)
 * [List of Nekochan emoji without text](https://sphinx-nekochan.readthedocs.io/nekochan_emojis_without_text.html)
