@@ -41,6 +41,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * Put 🐱 Cat Emojis in your documents!
      * `Slides <https://slides.takanory.net/slides/20250518pyconus>`__
+       `Video <https://www.youtube.com/watch?v=lXngPPRaqGg&t=1009s>`__
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
      * 2025 May
@@ -48,6 +49,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * `How to learn Japanese with Python <https://us.pycon.org/2025/schedule/presentation/122/>`__
      * `Slides <https://slides.takanory.net/slides/20250516pyconus>`__
+       `Video <https://www.youtube.com/watch?v=3wQxP-GfT-A>`__
    - * `PyCon APAC 2025 参加報告会 <https://pyconjp.connpass.com/event/349628/>`_
      * Tokyo, Japan
      * 2025 Apr
