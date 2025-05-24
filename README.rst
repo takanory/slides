@@ -64,6 +64,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * PyCon APAC 2025 Report
      * `Slides <https://slides.takanory.net/slides/20250306bpstyle>`__
+       `Video <https://www.youtube.com/watch?v=JpuoNFIN6Es>`__
    - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
      * Quezon City, Philippines
      * 2025 Mar
