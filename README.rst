@@ -64,7 +64,6 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * PyCon APAC 2025 Report
      * `Slides <https://slides.takanory.net/slides/20250306bpstyle>`__
-       `Video <https://www.youtube.com/watch?v=JpuoNFIN6Es>`__
    - * `PyCon APAC 2025 <https://pycon-apac.python.ph/>`_
      * Quezon City, Philippines
      * 2025 Mar
@@ -72,6 +71,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * How to learn Japanese with Python
      * `Slides <https://slides.takanory.net/slides/20250301pyconapac>`__
+       `Video <https://www.youtube.com/watch?v=JpuoNFIN6Es>`__
    - * `みんなのPython勉強会#112 <https://startpython.connpass.com/event/341061/>`__
      * Online, Japan
      * 2025 Feb
