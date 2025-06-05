@@ -34,6 +34,20 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon US 2025 参加報告会 <https://pyconjp.connpass.com/event/357582/>`_
+     * Tokyo, Japan
+     * 2025 Jul
+     * Talk
+     * ja
+     * ついにPyCon USで現地登壇できた！！激闘と苦難の歴史
+     * 
+   - * `OSC 2025 Shimane <https://event.ospn.jp/osc2025-shimane/>`_
+     * Shimane, Japan
+     * 2025 Jun
+     * Talk
+     * ja
+     * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
+     * 
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
      * 2025 May
