@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * ついにPyCon USで現地登壇できた！！激闘と苦難の歴史
      * 
+   - * BPStyle 174
+     * Online
+     * 2025 Jul
+     * Talk
+     * ja
+     * PyCon US 漫遊記(仮)
+     * 
    - * `OSC 2025 Shimane <https://event.ospn.jp/osc2025-shimane/>`_
      * Shimane, Japan
      * 2025 Jun
