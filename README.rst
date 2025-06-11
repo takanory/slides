@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `TechRAMEN 2025 Conference <https://techramenconf.net/>`_
+     * Asahikawa, Japan
+     * 2025 Jul
+     * Talk
+     * ja
+     * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://fortee.jp/techramen-25-conf/proposal/1df97adf-381d-4b29-bd96-1c1fdb9ddfc3>`__
+     * 
    - * `PyCon US 2025 参加報告会 <https://pyconjp.connpass.com/event/357582/>`_
      * Tokyo, Japan
      * 2025 Jul
