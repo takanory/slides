@@ -1,21 +1,15 @@
 ```{eval-rst}
-:og:image: _images/20250213stapy.png
+:og:image: _images/20250621oscshimane.png
 :og:image:alt: エラーはともだちこわくないよ
 
-.. |cover| image:: images/20250213stapy.png
+.. |cover| image:: images/20250621oscshimane.png
 ```
 
 # **エラー**は**ともだち** こわくないよ
 
 Takanori Suzuki
 
-```{image} images/stapy-logo.png
-:alt: Start Python Club logo
-:width: 15%
-```
-
-
-みんなのPython勉強会 #112 / 2025 Feb 13
+OSC 2025 Shimane / 2025 Jun 21
 
 ## 今日**はなすこと**
 
@@ -31,7 +25,7 @@ Takanori Suzuki
 
 ## Photos 📷 Tweets 🐦 👍
 
-`#stapy` / `@takanory`
+`#osc25sm` / `@takanory`
 
 ### [`slides.takanory.net`](https://slides.takanory.net/) 💻
 
@@ -57,10 +51,25 @@ Takanori Suzuki
 
 ### PyCon JP **2025**
 
+```{image} /assets/images/pyconjp2025logo.svg
+:alt: PyCon JP 2025 logo
+:width: 30%
+```
+
 * {fas}`globe` [`2025.pycon.jp`](https://2025.pycon.jp/)
 * 🗓️ 2025年**9月26日(金)-27日(土)**
-* ⛩️ [**広島**国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
-  * **旅費の支援**も多分あるよ
+* ⛩️ [広島国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
+* 🎤 [プロポーザル募集中](https://pretalx.com/pycon-jp-2025/cfp)
+  * 6月29日 [AoE](https://www.timeanddate.com/time/zones/aoe) 締め切り
+
+### 松江から広島 🚌 [^route]
+
+```{image} images/matsue2hiroshima.png
+:alt: 松江から広島
+:width: 60%
+```
+
+[^route]: <https://maps.app.goo.gl/wp9VpvjgFoje5ok36>
 
 ### **BeProud** Inc. 🏢
 
@@ -71,20 +80,6 @@ Takanori Suzuki
 
 ![BeProud logos](/assets/images/beproud-logos.png)
 
-### BeProud**メンバー募集中** {nekochan}`kamon`
-
-```{image} /assets/images/qr-career.png
-:width: 40%
-:alt: Pythno求人のQRコード
-:target: https://www.beproud.jp/careers/python/
-```
-
-```{image} /assets/images/qr-casual-interview.png
-:width: 40%
-:alt: カジュアル面談のQRコード
-:target: https://forms.gle/tM4n2ufKf49MbXsH9
-```
-
 ## Pythonの**エラーってなに**？ {nekochan}`hate-nya`
 
 ### エラー好きな人？ {nekochan}`ok`
@@ -93,11 +88,11 @@ Takanori Suzuki
 
 ### Pythonには**2種類のエラー**
 
-* 構文エラー（syntax error）
-* 例外（exception）
-* 参考：[8. エラーと例外 — Python公式ドキュメント](https://docs.python.org/ja/3.13/tutorial/errors.html)
+* 構文エラー（Syntax Error）
+* 例外（Exception）
+* 参考：[8. エラーと例外 — Python公式ドキュメント](https://docs.python.org/ja/3/tutorial/errors.html)
 
-### 構文エラー（syntax error）
+### 構文エラー（Syntax Error）
 
 * Pythonの**構文**として**正しくない**
 * **構文解析時**にエラーが発生
@@ -110,7 +105,7 @@ Takanori Suzuki
 SyntaxError: expected ':'
 ```
 
-### 例外（exception）
+### 例外（Exception）
 
 * 構文は正しい
 * **実行時**にエラーが発生
@@ -124,15 +119,17 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-### エラーが怖い？
+### エラーが怖い？ {nekochan}`purupuru`
 
-### エラーは**怒っていない**
+### エラーは**怒っていない** {nekochan}`ho`
 
 * **ここが問題だよ**と教えてくれている
 * 問題を修正するための**案内役**
 
 ```{revealjs-break}
 ```
+
+* エラーメッセージの例
 
 ```{literalinclude} code/error_example.py
 :caption: error_example.py
@@ -147,7 +144,7 @@ ZeroDivisionError: division by zero
 SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 ```
 
-### エラーの意味が**わからない**？
+### エラーの意味が**わからない**？ {nekochan}`hate`
 
 ### Googleで検索 {nekochan}`miru`
 
@@ -159,7 +156,7 @@ SyntaxError: expected ':'  # 構文エラーが発生：`:`がここに必要
 
 ### **長いエラー**が出たらうわってなる？ {nekochan}`guruguru`
 
-### 大事なのは**一番最後**
+### 大事なのは**一番最後** {nekochan}`yoshi`
 
 ```{revealjs-code-block} python
 :data-line-numbers: 1-22|20-22
@@ -206,7 +203,7 @@ urllib.error.HTTPError: HTTP Error 403: Forbidden
 * 2024年10月31日発売、価格：3,630円
 * Eric Matthes著
 * 鈴木たかのり、安田善一郎翻訳
-* **大絶賛発売中！！**
+* **絶賛発売中！！**
 
 ### どんなエラーが出る？(p18)
 
@@ -227,7 +224,7 @@ NameError: name 'mesage' is not defined. \
     Did you mean: 'message'?
 ```
 
-* [`NameError`](https://docs.python.org/ja/3.13/library/exceptions.html#NameError)：名前が見つからないエラー
+* [`NameError`](https://docs.python.org/ja/3/library/exceptions.html#NameError)：名前が見つからないエラー
 * `'mesage'`という名前は定義されていません
 * `'message'` と間違えてませんか？
 
@@ -252,12 +249,12 @@ NameError: name 'mesage' is not defined. \
 
 ```bash
   File ".../message2.py", line 1
-    message = 'One of Python's strengths is its diverse community.'
-                                                                  ^
+    message = 'OSC's member'
+                           ^
 SyntaxError: unterminated string literal (detected at line 1)
 ```
 
-* [`SyntaxError`](https://docs.python.org/ja/3.13/library/exceptions.html#SyntaxError)：構文エラー
+* [`SyntaxError`](https://docs.python.org/ja/3/library/exceptions.html#SyntaxError)：構文エラー
 * 文字列リテラルが終了していません
 
 ```{revealjs-break}
@@ -286,7 +283,7 @@ SyntaxError: unterminated string literal (detected at line 1)
 IndexError: list index out of range
 ```
 
-* [`IndexError`](https://docs.python.org/ja/3.13/library/exceptions.html#IndexError)：インデックスエラー
+* [`IndexError`](https://docs.python.org/ja/3/library/exceptions.html#IndexError)：インデックスエラー
 * インデックスが範囲外です
 
 ```{revealjs-break}
@@ -316,7 +313,7 @@ IndentationError: expected an indented block after \
     'for' statement on line 2
 ```
 
-* [`IndentationError`](https://docs.python.org/ja/3.13/library/exceptions.html#IndentationError)：正しくないインデントのエラー
+* [`IndentationError`](https://docs.python.org/ja/3/library/exceptions.html#IndentationError)：正しくないインデントのエラー
 * 2行目の`for`文のあとにインデントが必要
 
 ```{revealjs-break}
@@ -345,7 +342,7 @@ IndentationError: expected an indented block after \
 SyntaxError: expected ':'
 ```
 
-* [`SyntaxError`](https://docs.python.org/ja/3.13/library/exceptions.html#SyntaxError)：構文エラー
+* [`SyntaxError`](https://docs.python.org/ja/3/library/exceptions.html#SyntaxError)：構文エラー
 * `:` が必要です
 
 ```{revealjs-break}
@@ -375,7 +372,7 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 
-* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* [`TypeError`](https://docs.python.org/ja/3/library/exceptions.html#TypeError)：データ型に関するエラー
 * タプルは要素の代入に対応していません
 
 ```{revealjs-break}
@@ -405,7 +402,7 @@ Traceback (most recent call last):
 KeyError: 'style'
 ```
 
-* [`KeyError`](https://docs.python.org/ja/3.13/library/exceptions.html#KeyError)：辞書のキーが存在しないエラー
+* [`KeyError`](https://docs.python.org/ja/3/library/exceptions.html#KeyError)：辞書のキーが存在しないエラー
 
 ```{revealjs-break}
 ```
@@ -442,7 +439,7 @@ TypeError: '>=' not supported between instances of \
     'str' and 'int'
 ```
 
-* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* [`TypeError`](https://docs.python.org/ja/3/library/exceptions.html#TypeError)：データ型に関するエラー
 * strとintの間で`>=`はサポートされていません
 
 ```{revealjs-break}
@@ -479,7 +476,7 @@ TypeError: describe_beer() missing 2 required positional \
     arguments: 'beer_name' and 'brewery'
 ```
 
-* [`TypeError`](https://docs.python.org/ja/3.13/library/exceptions.html#TypeError)：データ型に関するエラー
+* [`TypeError`](https://docs.python.org/ja/3/library/exceptions.html#TypeError)：データ型に関するエラー
 * 2つの位置引数beer_nameとbreweryがありません
 
 ```{revealjs-break}
@@ -495,7 +492,7 @@ TypeError: describe_beer() missing 2 required positional \
 
 ### エラーの一覧
 
-* [組み込み例外 — Python公式ドキュメント](https://docs.python.org/ja/3.13/library/exceptions.html)
+* [組み込み例外 — Python公式ドキュメント](https://docs.python.org/ja/3/library/exceptions.html)
 * **初めて見る**例外があったら調べてみよう！
 
 ### さまざまな**例外が発生**する {nekochan}`hiza-ni-ya-wo-ukete-simatte`
@@ -506,7 +503,7 @@ TypeError: describe_beer() missing 2 required positional \
 
 ### 例外処理の基本
 
-* 数値以外を指定すると[`ValueError`](https://docs.python.org/ja/3.13/library/exceptions.html#ValueError)が発生
+* 数値以外を指定すると[`ValueError`](https://docs.python.org/ja/3/library/exceptions.html#ValueError)が発生
 
 ```{literalinclude} code/age_fixed.py
 :language: python
@@ -597,7 +594,7 @@ else:
 
 * キー名をtypoしているのに気づかないことも
 * `[]`なら例外で気づける
-* 型ヒントで[`TypedDict`](https://docs.python.org/3/library/typing.html#typing.TypedDict)を使うのもあり
+* 型ヒントで[`TypedDict`](https://docs.python.org/ja/3/library/typing.html#typing.TypedDict)を使うのもあり
 
 ```python
 style = beer.get("stlye")  # typoに気づかない
@@ -606,28 +603,28 @@ class Beer(TypedDict):
     name: str
     style: str
 
-beer: Beer = {"name": "Stone IPA", "style": "IPA"}
+beer: Beer = {"name": "縁結麦酒スタウト", "style": "Stout"}
 ```
 
 ### 例外を**握りつぶさない**
 
-* 例外を隠蔽すると**エラーの原因**がわからなくなる
+* 例外を隠蔽すると**エラーの原因**がわからなくなる [^jiso64]
 
 ```{revealjs-literalinclude} code/hide_exception.py
 :language: python
 ```
 
-* [64:例外を握り潰さない — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/64-%E4%BE%8B%E5%A4%96%E3%82%92%E6%8F%A1%E3%82%8A%E6%BD%B0%E3%81%95%E3%81%AA%E3%81%84.html)
+[^jiso64]: [64:例外を握り潰さない — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/64-%E4%BE%8B%E5%A4%96%E3%82%92%E6%8F%A1%E3%82%8A%E6%BD%B0%E3%81%95%E3%81%AA%E3%81%84.html)
 
 ### **try節は短く**書く
 
-* エラー発生時に問題を切り分けられない
+* エラー発生時に問題を切り分けられない [^jiso65]
 
 ```{revealjs-literalinclude} code/long_try.py
 :language: python
 ```
 
-* [65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
+[^jiso65]: [65:try節は短く書く — 自走プログラマー【抜粋版】](https://jisou-programmer.beproud.jp/%E3%82%A8%E3%83%A9%E3%83%BC%E3%83%8F%E3%83%B3%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B0/65-try%E7%AF%80%E3%81%AF%E7%9F%AD%E3%81%8F%E6%9B%B8%E3%81%8F.html)
 
 ```{revealjs-break}
 ```
@@ -745,13 +742,14 @@ IndentationError: expected an indented block
 ```
 
 ```{revealjs-code-block} python
-:data-line-numbers: 3-5
+:data-line-numbers: 3-6
 
 % python3.10 beers2.py
   File ".../beers2.py", line 3
     print(beer)
     ^
-IndentationError: expected an indented block after 'for' statement on line 2
+IndentationError: expected an indented block after \
+  'for' statement on line 2
 ```
 
 ### `NameError`の**Did you mean**
@@ -781,7 +779,7 @@ NameError: name 'mesage' is not defined. \
 
 ### Python 3.11での改善
 
-* Python 3.11: [PEP 657: トレースバックのエラー位置の詳細化](https://docs.python.org/ja/3.13/whatsnew/3.11.html#pep-657-fine-grained-error-locations-in-tracebacks)
+* Python 3.11: [PEP 657: トレースバックのエラー位置の詳細化](https://docs.python.org/ja/3/whatsnew/3.11.html#pep-657-fine-grained-error-locations-in-tracebacks)
 * 例外の発生箇所がわかりやすい！！
 
 ```{revealjs-code-block} python
@@ -798,7 +796,7 @@ ZeroDivisionError: float division by zero
 
 ### Python 3.12での改善
 
-* Python 3.12: [Improved Error Messages](https://docs.python.org/ja/3.13/whatsnew/3.12.html#improved-error-messages)
+* Python 3.12: [Improved Error Messages](https://docs.python.org/ja/3/whatsnew/3.12.html#improved-error-messages)
 * 関数、`ImportError`などでも提案が追加
   
 ```{revealjs-code-block} python
@@ -816,9 +814,10 @@ Traceback (most recent call last):
 ImportError: cannot import name 'data' from 'datetime' (...). \
     Did you mean: 'date'?
 ```
+
 ### Python 3.13での改善
 
-* Python 3.13: [Improved error messages](https://docs.python.org/ja/3.13/whatsnew/3.13.html#whatsnew313-improved-error-messages)
+* Python 3.13: [Improved error messages](https://docs.python.org/ja/3/whatsnew/3.13.html#whatsnew313-improved-error-messages)
 * 引数もDid you meanで提案
 
 ```{revealjs-code-block} python
@@ -830,6 +829,22 @@ Traceback (most recent call last):
     f = open("beer.txt", encodeng="utf-8")
 TypeError: open() got an unexpected keyword argument 'encodeng'. \
     Did you mean 'encoding'?
+```
+
+### Python 3.14での改善
+
+* Python 3.14: [Improved error messages](https://docs.python.org/ja/3.14/whatsnew/3.14.html#improved-error-messages)
+* キーワードもDid you meanで提案
+
+```{revealjs-code-block} python
+:data-line-numbers: 1-2, 4-6
+
+>>> whille True:
+...     pass
+  File "<python-input-0>", line 1
+    whille True:
+    ^^^^^^
+SyntaxError: invalid syntax. Did you mean 'while'?
 ```
 
 ### エラーメッセージが**改善**されている<br />**新しいバージョン**を使おう {nekochan}`isogu`
@@ -846,8 +861,11 @@ TypeError: open() got an unexpected keyword argument 'encodeng'. \
 
 ## お知らせ
 
-* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張[sphinx-nekochan](https://sphinx-nekochan.readthedocs.io/)をリリースしました {nekochan}`banzai`
-* 参考：[【2024.08追加】SlackやDiscordで使えるネコチャン絵文字を配布しています♪｜しかまつ(ネコチャン絵文字職人)](https://note.com/shikamatsu/n/nd217dc0617db)
+* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]をリリースしました {nekochan}`banzai`
+* ネコチャン絵文字[^nekochan]はしかまつさんが作成・配布しています
+
+[^nekochan]: <https://note.com/shikamatsu/n/nd217dc0617db>
+[^sphinx-nekochan]: <https://sphinx-nekochan.readthedocs.io/>
 
 ## Thank You {nekochan}`pray`
 

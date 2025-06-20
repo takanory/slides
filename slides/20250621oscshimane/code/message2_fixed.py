@@ -1,2 +1,2 @@
-message = "Start Python Club's member"
+message = "OSC's member"
 print(message)
