@@ -152,8 +152,9 @@ Cover | Title | Year| Publisher
 * [第1回 Slackを始めよう](https://thinkit.co.jp/article/5876)
 * Author profile: [鈴木 たかのり | Think IT（シンクイット）](https://thinkit.co.jp/author/11618)
 
-## Inteviews
+## Interviews
 
+* [PyCon US 2025 参加レポート　参加した鈴木たかのりさんにイベントの様子をお聞きしました - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_250619)
 * [PyCon APAC 2025 のインタビューレポート！登壇者にお話を聞いてきました - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_250410)
 * [PyCon APAC 2024 参加レポート【takanory編】 - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_241113)
 * [PyCon US 2024 参加レポート　イベントに参加した鈴木たかのりさんに、現地での発表や思い出についてインタビューしました - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_240605)
