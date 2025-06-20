@@ -29,7 +29,10 @@ OSC 2025 Shimane / 2025 Jun 21
 
 ### [`slides.takanory.net`](https://slides.takanory.net/) 💻
 
-![slides.takanory.net](images/slides-takanory-net.png)
+```{image} images/slides-takanory-net.png
+:alt: slides.takanory.net
+:width: 80%
+```
 
 ## **Who** am I? / お前 **誰よ** 👤
 
