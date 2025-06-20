@@ -61,7 +61,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250621oscshimane>`__
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
      * 2025 May
