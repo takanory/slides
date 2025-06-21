@@ -44,6 +44,32 @@ OSC 2025 Shimane / 2025 Jun 21
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
+### 初！島根
+
+![松江駅](images/matsue-station.jpg)
+
+### 初！（一瞬）鳥取
+
+![目玉のおやじ](images/medama-oyaji.jpg)
+
+### **おすすめ情報**お待ちしています！！
+
+```{image} images/beer.jpg
+:width: 20%
+```
+
+* 明日は出雲へ
+* クラフトビール
+* 食事
+* お土産
+* 観光
+
+### Izumo Brewing Co.出雲店は**お休み** [^izumo] 🥹
+
+![](images/izumo-brewing.png)
+
+[^izumo]: <https://www.instagram.com/p/DKQvw_sS-im/?utm_source=ig_web_copy_link>
+
 ### PyCon JP **Association** 🐍
 
 日本国内のPythonユーザのために、**Pythonの普及及び開発支援**を行うために、継続的にカンファレンス(**PyCon**)を開くことを目的とした **非営利組織**
@@ -73,6 +99,13 @@ OSC 2025 Shimane / 2025 Jun 21
 ```
 
 [^route]: <https://maps.app.goo.gl/wp9VpvjgFoje5ok36>
+
+### PyCon JP Associationブース
+
+```{image} images/pyconjp-booth.jpg
+:alkt: PyCon JP Associationブース
+:width: 70%
+```
 
 ### **BeProud** Inc. 🏢
 
