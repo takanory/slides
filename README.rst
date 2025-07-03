@@ -53,8 +53,8 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2025 Jul
      * Talk
      * ja
-     * PyCon US 漫遊記(仮)
-     * 
+     * PyCon US 2025 Travelogue
+     * `Slides <https://slides.takanory.net/slides/20250703bpstyle>`__
    - * `OSC 2025 Shimane <https://event.ospn.jp/osc2025-shimane/>`_
      * Shimane, Japan
      * 2025 Jun

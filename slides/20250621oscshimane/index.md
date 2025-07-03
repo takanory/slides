@@ -103,7 +103,7 @@ OSC 2025 Shimane / 2025 Jun 21
 ### PyCon JP Associationブース
 
 ```{image} images/pyconjp-booth.jpg
-:alkt: PyCon JP Associationブース
+:alt: PyCon JP Associationブース
 :width: 70%
 ```
 
