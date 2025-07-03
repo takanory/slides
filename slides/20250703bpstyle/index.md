@@ -61,6 +61,12 @@ BPStyle 174 / 2025 Jul 3
 :width: 35%
 ```
 
+### Badge
+
+```{image} images/badge.jpg
+:width: 35%
+```
+
 ### Booth
 
 ![](images/booth.jpg)
@@ -208,7 +214,7 @@ BPStyle 174 / 2025 Jul 3
 
 ## May 19: 💻 **Sprint**
 
-### Sprint Board
+### Sprint Board 
 
 ```{image} images/sprint-board.jpg
 :width: 35%
@@ -282,11 +288,11 @@ BPStyle 174 / 2025 Jul 3
 
 ## May 21: 🍺 Chicago
 
-### [Union Station](https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3%E9%A7%85_(%E3%82%B7%E3%82%AB%E3%82%B4))
+### [Union Station](https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3%E9%A7%85_(%E3%82%B7%E3%82%AB%E3%82%B4)) {nekochan}`densha`
 
 ![](images/station.jpg)
 
-### [Flamingo](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B4_(%E5%BD%AB%E5%83%8F))
+### [Flamingo](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B4_(%E5%BD%AB%E5%83%8F)) {nekochan}`niwatori`
 
 ![](images/flamingo.jpg)
 
@@ -356,7 +362,7 @@ BPStyle 174 / 2025 Jul 3
 
 ## May 22: ✈️ Chicago -> Toronto -> Haneda
 
-### Chicago Airport
+### Chicago Airport 🇺🇸
 
 ```{image} images/ord1.jpg
 :width: 35%
@@ -367,7 +373,7 @@ BPStyle 174 / 2025 Jul 3
 
 ![](images/ord2.jpg)
 
-### Toront Airport
+### Toronto Airport 🇨🇦
 
 ![](images/transit.jpg)
 
@@ -381,7 +387,7 @@ BPStyle 174 / 2025 Jul 3
 
 ![](images/to-haneda.jpg)
 
-### Haneda Airport
+### Haneda Airport 🇯🇵
 
 ![](images/tokyo.jpg)
 
@@ -389,6 +395,18 @@ BPStyle 174 / 2025 Jul 3
 ```
 
 ![](images/haneda.jpg)
+
+## Laggage was **broken** {nekochan}`mechanaki`
+
+```{image} images/broken-laggage.jpg
+:width: 35%
+```
+
+### My new gear {nekochan}`yoshi`
+
+```{image} images/new-suit-case.jpg
+:width: 35%
+```
 
 ## References
 
