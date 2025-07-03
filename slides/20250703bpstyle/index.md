@@ -71,7 +71,7 @@ BPStyle 174 / 2025 Jul 3
 
 ![](images/booth.jpg)
 
-### Python Asia Booth
+### [Python Asia Organization](https://pythonasia.org/) Booth
 
 ![](images/pao-booth.jpg)
 
@@ -148,6 +148,16 @@ BPStyle 174 / 2025 Jul 3
 ### PyLadies Auction
 
 ![](images/auction.jpg)
+
+```{revealjs-break}
+```
+
+![](images/auction2.jpg)
+
+```{revealjs-break}
+```
+
+![](images/auction3.jpg)
 
 ## May 18: 🎙️ **Conference** Day 3
 
@@ -362,6 +372,20 @@ BPStyle 174 / 2025 Jul 3
 
 ## May 22: ✈️ Chicago -> Toronto -> Haneda
 
+### Delay 🚗
+
+![](images/delay.png)
+
+```{revealjs-break}
+```
+
+![](images/uber.jpg)
+
+```{revealjs-break}
+```
+
+![](images/just-in-time.png)
+
 ### Chicago Airport 🇺🇸
 
 ```{image} images/ord1.jpg
@@ -396,17 +420,19 @@ BPStyle 174 / 2025 Jul 3
 
 ![](images/haneda.jpg)
 
-## Laggage was **broken** {nekochan}`mechanaki`
+## Laggage was **Broken** {nekochan}`mechanaki`
 
-```{image} images/broken-laggage.jpg
+![](images/broken-laggage.jpg)
+
+### New Suitcase {nekochan}`yoshi`
+
+```{image} images/new-suitcase.jpg
 :width: 35%
 ```
 
-### My new gear {nekochan}`yoshi`
+### See you in next **Travelogue** {nekochan}`byebye`
 
-```{image} images/new-suit-case.jpg
-:width: 35%
-```
+![](images/europython.png)
 
 ## References
 
