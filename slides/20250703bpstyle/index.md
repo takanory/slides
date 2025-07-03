@@ -424,7 +424,7 @@ BPStyle 174 / 2025 Jul 3
 
 ![](images/broken-laggage.jpg)
 
-### New Suitcase {nekochan}`yoshi`
+### [New Suitcase](https://store.ace.jp/shop/g/g01343-04/) {nekochan}`yoshi`
 
 ```{image} images/new-suitcase.jpg
 :width: 35%
