@@ -47,7 +47,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * ついにPyCon USで現地登壇できた！！激闘と苦難の歴史
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250710usporert>`__
    - * BPStyle 174
      * Online
      * 2025 Jul
