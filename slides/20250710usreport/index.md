@@ -234,6 +234,10 @@ PyCOn US 2025参加報告会 / 2025 Jul 10
 
 ## ついに**PyCon US**で**現地登壇**できた‼**激闘**と**苦難**の歴史<br />完
 
+## PyCon USみやげあります！！
+
+![](images/pyconusswag.jpg)
+
 ## 点滴石を穿つ {nekochan}`tuntun`🪨
 
 ## Thank You {nekochan}`pray`
