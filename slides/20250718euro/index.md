@@ -181,7 +181,7 @@ $ pip install sudachipy sudachidict_core
 ## Thank you {nekochan}`pray`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
-{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20240517pyconus/code)
+{fas}`code` [code](https://github.com/takanory/slides/tree/master/slides/20250718euro/code)
 
 {fab}`twitter` [@takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
