@@ -22,15 +22,24 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 ## Agenda / アジェンダ 📜
 
-* Pythonプロフェッショナルプログラミング(以下: PyPro)**出版の歴史**を紹介
+* Pythonプロフェッショナルプログラミング(以下：PyPro)**出版の歴史**を紹介
 * 章ごと**改訂**の歴史を見る
 
 ### Goal / ゴール 🥅
 
-* Python**チーム開発の変遷**を知る
+* Python**チーム開発の変遷**を知る {nekochan}`sore`
 * 自身の**プロジェクトの参考**になる
   * なにか導入してみたくなる
-* （PyPro4を**買いたく**なる🤑）
+* （PyPro4を**買いたく**なる {nekochan}`kamon`）
+
+### ...が
+
+### 2025年7月4日に出版社が**破産** [^shuwa-hasan]
+
+```{image} images/shuwa-hasan.png
+```
+
+[^shuwa-hasan]: [破産した秀和システムの出版事業、トゥーヴァージンズグループに譲渡 | TSRデータインサイト | 東京商工リサーチ](https://www.tsr-net.co.jp/data/detail/1201574_1527.html)
 
 ## Photos 📷 Tweets 🐦 👍
 
@@ -49,6 +58,22 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+### （たぶん）**初**旭川 & TechRAMEN {nekochan}`yatta`
+
+```{image} images/hokkaido1.png
+:alt: 北海道
+:width: 75%
+```
+
+### 旭川→エスコン🍺→釧路→東京
+
+```{image} images/hokkaido2.png
+:alt: 北海道
+:width: 75%
+```
+
+* 釧路出身、釧路高専卒
 
 ### PyCon JP **Association** 🐍
 
@@ -107,14 +132,16 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 ### PyPro出版の**歴史** 📚
 
-* **初版**(PyPro): 2012年3月27日
-* **第2版**(PyPro2): 2015年2月27日
-* **第3版**(PyPro3): 2018年6月12日
-* **第4版**(PyPro4): 2024年2月16日
+| 版 | 略称 | 出版日 |
+| -- | -- | -- |
+| 初版 | PyPro |  2012年3月27日| 
+| 第2版 | PyPro2 | 2015年2月27日 |
+| 第3版 | PyPro3 | 2018年6月12日 |
+| 第4版 | PyPro4 | 2024年2月16日 |
 
 ### どれくらい**間があいた**のか
 
-```python
+```pycon
 >>> from datetime import date
 >>> pypro = date(2012, 3, 27)
 >>> pypro2 = date(2015, 2, 27)
@@ -223,7 +250,7 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 * 日本銀行券が刷新（7月）
 * パリオリンピック開催（7月）
 
-### PyPro出版の歴史のまとめ
+### PyPro出版の歴史のまとめ {nekochan}`unun`
 
 * **12年間**で**4回**出版
 * **メンバー**を**入れ替え**ながら
@@ -234,9 +261,9 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 ![pypro3](images/pypro3.jpg)
 ![pypro4](images/pypro4.jpg) 
 
-## 章ごと**改訂**の歴史を見る 🆙
+## 章ごと**改訂**の歴史を見る {nekochan}`good`
 
-## 1. Pythonのセットアップ 🐍
+## 1. Pythonのセットアップ {nekochan}`hebi`
 
 ### PyPro3 → PyPro4
 
@@ -336,7 +363,7 @@ $ . env/bin/activate
 $ wget https://bootstrap.pypa.io/get-pip.py
 $ sudo python get-pip.py
 ```
-## 2. Webアプリケーション 🕸️
+## 2. Webアプリケーション {nekochan}`badminton`
 
 ### PyPro3 → PyPro4
 
@@ -345,20 +372,30 @@ $ sudo python get-pip.py
   * フロントは[Vue.js](https://vuejs.org/)
   * [FastAPI](https://fastapi.tiangolo.com/)にも軽く触れている
   
-### **Django**: WebApplicationフレームワーク
+### **Django**[^django]: Webフレームワーク
 
-* {fas}`globe` [`www.djangoproject.com`](https://www.djangoproject.com/)
-* 最新バージョン: 5.1.2
+```{image} images/django-logo-positive.svg
+:width: 30%
+```
+
+* 最新バージョン: 5.2.4
 * Webアプリーケーション開発に必要な機能が**揃っている**
 * **セキュリティ**対策もされている
 * 大規模サイトでも利用されている
 
-### **FastAPI**: API構築用フレームワーク
+[^django]: {fas}`globe` [`www.djangoproject.com`](https://www.djangoproject.com/)
 
-* {fas}`globe` [`fastapi.tiangolo.com`](https://fastapi.tiangolo.com/)
-* 最新バージョン: 0.115.4
+### **FastAPI**[^fastapi]: API構築用フレームワーク
+
+```{image} images/fastapi.png
+:width: 40%
+```
+
+* 最新バージョン: 0.116.1
 * **高速**に動作
 * インタラクティブな**APIドキュメント**を生成
+
+[^fastapi]: {fas}`globe` [`fastapi.tiangolo.com`](https://fastapi.tiangolo.com/)
 
 ### PyPro2 → PyPro3
 
@@ -366,11 +403,16 @@ $ sudo python get-pip.py
   * [Flask](https://flask.palletsprojects.com/en/3.0.x/)でWebアプリ構築
   * お題は乗りログ（電車の乗車記録）
   
-### **Flask**: 軽量Webフレームワーク
+### **Flask**[^flask]: 軽量Webフレームワーク
 
-* {fas}`globe` [`flask.palletsprojects.com`](https://flask.palletsprojects.com/)
-* 最新バージョン: 3.0.3
+```{image} images/flask-name.svg
+:width: 40%
+```
+* 最新バージョン: 3.1.1
 * シンプルなフレームワーク
+
+[^flask]: {fas}`globe` [`flask.palletsprojects.com`](https://flask.palletsprojects.com/)
+
 
 ### PyPro、PyPro2
 
@@ -386,12 +428,16 @@ $ sudo python get-pip.py
   * Jupyter Notebookから[JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)に
   * **数理最適化** を紹介
   
-### **JupyterLab**: ノートブック作成アプリ
+### **JupyterLab**[^jupyter]: ノートブック作成アプリ
 
-* {fas}`globe` [`jupyterlab.readthedocs.io`](https://jupyterlab.readthedocs.io/)
+```{image} images/jupyter-logo.svg
+:width: 40%
+```
 * コードの実行結果が表示される
   * グラフ描画、画像表示等も可能
 * データ分析、機械学習等での試行に便利
+
+[^jupyter]: {fas}`globe` [`jupyterlab.readthedocs.io`](https://jupyterlab.readthedocs.io/)
 
 ### PyPro3
 
@@ -417,12 +463,17 @@ $ sudo python get-pip.py
 * 課題が完了したかどうか
 * 優先度、期日
 
-### **1Password**: パスワードマネージャー
+### **1Password**[^1pass]: パスワードマネージャー
 
-* {fas}`globe` [`1password.com/jp`](https://1password.com/jp)
+```{image} images/1password.png
+:width: 40%
+```
+
 * アカウント、パスワード等を安全に管理
 * グループのメンバーで共有
 * 複数デバイスで利用可能
+
+[^1pass]: {fas}`globe` [`1password.com/jp`](https://1password.com/jp)
 
 ### PyPro2 → PyPro3
 
@@ -506,19 +557,28 @@ $ gh pr merge
 * 普遍的な開発ドキュメントの話に変更
 * ビープラウドでは[TRACERY](https://tracery.jp/)を使用
   * [2022年リリース](https://prtimes.jp/main/html/rd/p/000000006.000025386.html)
+  
+```{image} images/tracery_logo_color.svg
+:width: 40%
+```
 
 ### PyPro〜PyPro3
 
 * [Sphinx](https://www.sphinx-doc.org/)でドキュメント作成
 
-### **Sphinx**: ドキュメンテーションツール
+### **Sphinx**[^sphinx]: ドキュメンテーションツール
 
-* {fas}`globe` [`www.sphinx-doc.org`](https://www.sphinx-doc.org/)
+```{image} images/sphinx-logo.png
+:width: 40%
+```
+
 * マークアップテキストからドキュメント生成
   * reStructuredText、Markdown等
   * HTML、ePub、LaTeX等
 * [Python公式ドキュメント](https://docs.python.org/ja/3.13/)もSphinx製 
 * [この発表スライド](https://github.com/takanory/slides)もSphinx製
+
+[^sphinx]: {fas}`globe` [`www.sphinx-doc.org`](https://www.sphinx-doc.org/)
 
 ## 8. 単体テスト ✅
 
@@ -529,14 +589,19 @@ $ gh pr merge
 * pandasのテストとスナップショットテスト
   * 過去の実行結果を次回のテストで使う
   
-### **pytest**: テスト用フレームワーク
+### **pytest**[^pytest]: テスト用フレームワーク
 
-* {fas}`globe` [`docs.pytest.org`](https://docs.pytest.org/)
 * デファクトスタンダード
 * `assert`文で検証
 * テストコードを**自動検出**
-* **プラグイン**機能と1300以上のプラグイン
-  * [Pytest Plugin List](https://docs.pytest.org/en/stable/reference/plugin_list.html#plugin-list)
+* **プラグイン**機能と1300以上のプラグイン[^pytest-plugin]
+
+```{image} images/pytest1.webp
+:width: 20%
+```
+
+[^pytest]: {fas}`globe` [`docs.pytest.org`](https://docs.pytest.org/)
+[^pytest-plugin]: [Pytest Plugin List](https://docs.pytest.org/en/stable/reference/plugin_list.html)
 
 ### PyPro→PyPro2、PyPro3
 
