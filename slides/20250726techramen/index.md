@@ -41,9 +41,9 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 [^shuwa-hasan]: [破産した秀和システムの出版事業、トゥーヴァージンズグループに譲渡 | TSRデータインサイト | 東京商工リサーチ](https://www.tsr-net.co.jp/data/detail/1201574_1527.html)
 
-## Photos 📷 Tweets 🐦 👍
+## Photos {nekochan}`camera` Tweets {nekochan}`niwatori` {nekochan}`come-on`
 
-`#pycontokai` / `@takanory`
+`#techramen25conf` / `@takanory`
 
 ### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/)
 
@@ -63,14 +63,14 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 ```{image} images/hokkaido1.png
 :alt: 北海道
-:width: 75%
+:width: 70%
 ```
 
-### 旭川→エスコン🍺→釧路→東京
+### → エスコン🍺 → 釧路 → 東京 {nekochan}`travel`
 
 ```{image} images/hokkaido2.png
 :alt: 北海道
-:width: 75%
+:width: 70%
 ```
 
 * 釧路出身、釧路高専卒
@@ -103,7 +103,7 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 * 🎫 [チケット発売中](https://pyconjp.connpass.com/event/359523/)
 * ✈️ [遠方参加者の支援制度](https://pyconjp.blogspot.com/2025/06/travel-grant-ja.html)あり
 
-### 旭川の直行便はなかった... [^flight]
+### 旭川の直行便はなかった... [^flight] {nekochan}`komata`
 
 ```{image} images/flights-to-hiroshima.png
 :alt: Flight to Hiroshima
@@ -111,6 +111,15 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 ```
 
 [^flight]: <https://www.flightconnections.com/flights-to-hiroshima-hij>
+
+### **BeProud** Inc. 🏢
+
+* [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
+* [connpass](https://connpass.com/): IT勉強会支援プラットフォーム
+* [PyQ](https://pyq.jp/): Python独学プラットフォーム
+* [TRACERY](https://tracery.jp/): システム開発ドキュメントサービス
+
+![BeProud logos](/assets/images/beproud-logos.png)
 
 ### BeProud**メンバー募集中** {nekochan}`kamon`
 
@@ -125,15 +134,6 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 :alt: カジュアル面談のQRコード
 :target: https://forms.gle/tM4n2ufKf49MbXsH9
 ```
-
-### **BeProud** Inc. 🏢
-
-* [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
-* [connpass](https://connpass.com/): IT勉強会支援プラットフォーム
-* [PyQ](https://pyq.jp/): Python独学プラットフォーム
-* [TRACERY](https://tracery.jp/): システム開発ドキュメントサービス
-
-![BeProud logos](/assets/images/beproud-logos.png)
 
 ### Pythonプロフェッショナル<br />プログラミング
 
@@ -275,7 +275,7 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 ![pypro3](images/pypro3.jpg)
 ![pypro4](images/pypro4.jpg) 
 
-## 章ごと**改訂**の歴史を見る {nekochan}`good`
+## 章ごと**改訂**の歴史を見る {nekochan}`miru`
 
 ## 1. Pythonのセットアップ {nekochan}`hebi`
 
@@ -596,15 +596,15 @@ $ gh pr merge
 
 * [Sphinx](https://www.sphinx-doc.org/)でドキュメント作成
 
-### **Sphinx**[^sphinx]: ドキュメンテーションツール
+### **Sphinx**[^sphinx]: ドキュメント作成ツール
 
 ```{image} images/sphinx-logo.png
 :width: 40%
 ```
 
 * マークアップテキストからドキュメント生成
-  * reStructuredText、Markdown等
-  * HTML、ePub、LaTeX等
+  * 入力：reStructuredText、Markdown等
+  * 出力：HTML、ePub、LaTeX等
 * [Python公式ドキュメント](https://docs.python.org/ja/3.13/)もSphinx製 
 * [この発表スライド](https://github.com/takanory/slides)もSphinx製
 
@@ -774,14 +774,14 @@ $ gh pr merge
 * PyProのみ
   * [Google App Engine](https://cloud.google.com/appengine/)
 
-## まとめ 📚
+## まとめ {nekochan}`mou-dounidemo-nare`
 
 * 12年もあると**色々と変わって**いる
   * 大きく変わらないものもある
 * 常に**より良い選択**に挑戦している
 * **第5版** ではなにが入れ替わるのか、楽しみ
 
-## Thank You 🙏
+## Thank You {nekochan}`bow`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
@@ -792,3 +792,10 @@ $ gh pr merge
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+### 使用ツール {nekochan}`work`
+
+* [sphinx](https://www.sphinx-doc.org/en/master/)
+* [MyST-parser](https://myst-parser.readthedocs.io/en/latest/)
+* [sphinx-revealjs](https://sphinx-revealjs.readthedocs.io/en/stable/)
+* [sphinx-nekochan](https://sphinx-nekochan.readthedocs.io/)
