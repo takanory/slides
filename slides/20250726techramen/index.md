@@ -112,6 +112,20 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 [^flight]: <https://www.flightconnections.com/flights-to-hiroshima-hij>
 
+### BeProud**メンバー募集中** {nekochan}`kamon`
+
+```{image} /assets/images/qr-career.png
+:width: 40%
+:alt: Pythno求人のQRコード
+:target: https://www.beproud.jp/careers/python/
+```
+
+```{image} /assets/images/qr-casual-interview.png
+:width: 40%
+:alt: カジュアル面談のQRコード
+:target: https://forms.gle/tM4n2ufKf49MbXsH9
+```
+
 ### **BeProud** Inc. 🏢
 
 * [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
@@ -274,10 +288,14 @@ TechRAMEN 2025 Conference / 2025 Jul 26
   * [Ruff](https://docs.astral.sh/ruff/): Pythonリンター（2022年）
   * [mypy](https://www.mypy-lang.org/): 型ヒントの静的型チェッカー
   
-### **Black**: コード整形
+### **Black**[^black]: コード整形
 
-* {fas}`globe` [`black.readthedocs.io`](https://black.readthedocs.io/)
+```{image} images/black-logo.webp
+:width: 40%
+```
+
 * 1行の文字数以外はほぼ**カスタマイズできない**
+* Ruff（次で紹介）に置き換わりつつある
 
 ```bash
 $ pip install black
@@ -285,13 +303,17 @@ $ black src/ hogehoge.py  # コードをフォーマット
 $ black --check src/ hogehoge.py  # フォーマット対象があるかチェック
 ```
 
-* Ruff（次で紹介）に置き換わりつつある
+[^black]: {fas}`globe` [`black.readthedocs.io`](https://black.readthedocs.io/)
 
-### **Ruff**: Pythonリンター
+### **Ruff**[^ruff]: Pythonリンター
 
-* {fas}`globe` [`docs.astral.sh/ruff`](https://docs.astral.sh/ruff/)
+```{image} images/ruff-logo.svg
+:width: 15%
+```
+
 * さまざまな[ルール](https://docs.astral.sh/ruff/rules/)でコードをチェック
 * Rust製で**速い**
+* フォーマッターも含まれている
 
 ```bash
 $ pip install ruff
@@ -300,12 +322,18 @@ $ ruff check --fix  # 可能なら自動で修正
 $ ruff format  # 全ファイルをフォーマット
 ```
 
-### **mypy**: Pythonの静的型チェッカー
+[^ruff]: {fas}`globe` [`docs.astral.sh/ruff`](https://docs.astral.sh/ruff/)
 
-* {fas}`globe` [`mypy-lang.org`](https://mypy-lang.org/)
+### **mypy**[^mypy]: Pythonの静的型チェッカー
+
+```{image} images/mypy_logo.svg
+:width: 30%
+```
+
 * **型ヒント**を元にコードに問題がないか調べる
 
 ```python
+# 引数nはint、返り値はintのイテレーター
 def fib(n: int) -> Iterator[int]:
     a, b = 0, 1
     while a < n:
@@ -314,6 +342,8 @@ def fib(n: int) -> Iterator[int]:
 		
 fib("a")  # mypyでエラー
 ```
+
+[^mypy]: {fas}`globe` [`mypy-lang.org`](https://mypy-lang.org/)
 
 ### PyPro2 → PyPro3
 
@@ -420,7 +450,7 @@ $ sudo python get-pip.py
   * フレームワークは[Flask](https://flask.palletsprojects.com/en/3.0.x/)
   * お題はゲストブック
 
-## 3. データサイエンス 📊
+## 3. データサイエンス {nekochan}`work`
 
 ### PyPro3 → PyPro4
 
@@ -444,7 +474,7 @@ $ sudo python get-pip.py
 * 機械学習の章が初登場
 * 機械学習プロジェクトの進め方を紹介
 
-## 4. チーム開発のためのツール 🛠️
+## 4. チーム開発のためのツール {nekochan}`naosu`
 
 ### PyPro3 → PyPro4
 
@@ -492,7 +522,7 @@ $ sudo python get-pip.py
   * Python製、2023年9月まで開発
 * チャットシステムは[Skype](https://www.skype.com/ja/)
 
-## 5. 課題管理とレビュー 🎫
+## 5. 課題管理とレビュー {nekochan}`issue-mada-nai`
 
 ### PyPro3 → PyPro4
 
@@ -508,7 +538,7 @@ $ sudo python get-pip.py
   * App Engine上で動くレビューツール
   * 2018年まで開発
   
-## 6. ソースコード管理 🐙
+## 6. ソースコード管理 {nekochan}`tako`
 
 ### PyPro3 → PyPro4
 
@@ -550,7 +580,7 @@ $ gh pr merge
   * フックの活用
   * BeProud Mercurial Workflow
 
-## 7. 開発ドキュメント 📝
+## 7. 開発ドキュメント {nekochan}`holiday2`
 
 ### PyPro3 → PyPro4
 
@@ -580,7 +610,7 @@ $ gh pr merge
 
 [^sphinx]: {fas}`globe` [`www.sphinx-doc.org`](https://www.sphinx-doc.org/)
 
-## 8. 単体テスト ✅
+## 8. 単体テスト {nekochan}`test-mada-nai`
 
 ### PyPro3 → PyPro4
 
@@ -614,7 +644,7 @@ $ gh pr merge
 * テストランナーが[nose](https://nose.readthedocs.io/)
   * [最終リリース](https://pypi.org/project/nose/)が2015年6月
 
-## 9. 継続的インテグレーション 🤵‍♂️
+## 9. 継続的インテグレーション {nekochan}`mawaru`
 
 ### PyPro3 → PyPro4
 
@@ -644,7 +674,7 @@ $ gh pr merge
   * ユニットテスト
   * Sphinxドキュメントのビルド
 
-## 10. Pythonパッケージ 📦
+## 10. Pythonパッケージ {nekochan}`itabasami`
 
 ### PyPro3 → PyPro4
 
@@ -680,7 +710,7 @@ $ gh pr merge
 * **bdist_egg** パッケージ
   * [PEP 715](https://peps.python.org/pep-0715/): 2023年PyPIへアップロード不可
 
-## 11. Webアプリの公開 📢
+## 11. Webアプリの公開 {nekochan}`banzai`
 
 ### PyPro3 → PyPro4
 
@@ -699,14 +729,14 @@ $ gh pr merge
 * [Fabric](https://www.fabfile.org/)でデプロイ
 * [nginx](https://nginx.org/en/)、[gunicorn](https://gunicorn.org/)は変わらず
 
-## 12. テスト 💯
+## 12. テスト {nekochan}`ok`
 
 ### PyPro3 → PyPro4
 
 * 自動E2Eテストツールを追加
   * [Autify](https://autify.com/ja/)、[MagicPod](https://magicpod.com/)
 
-## 13. Webアプリの監視 👀
+## 13. Webアプリの監視 {nekochan}`miru`
 
 ### PyPro4 🆕
 
@@ -716,7 +746,7 @@ $ gh pr merge
 * エラー通知: [Sentry](https://sentry.io/)
 * パフォーマンス: [Performance Monitoring: Sentry](https://docs.sentry.io/product/performance/)、[PageSpeed Insights](https://pagespeed.web.dev/)
 
-## 14. 追加開発 🏗️
+## 14. 追加開発 {nekochan}`hueta`
 
 ### PyPro4 🆕
 
@@ -725,10 +755,11 @@ $ gh pr merge
 * [pipdeptree](https://github.com/tox-dev/pipdeptree): パッケージの依存関係確認
 * [Dependabot](https://docs.github.com/ja/code-security/dependabot/working-with-dependabot): セキュリティ問題の警告
 
-### **endoflife.date**: 製品のEOLを記録
+### **endoflife.date**[^endlife]: 製品のEOLを記録
 
-* {fas}`globe` [`endoflife.date`](https://endoflife.date)
 * Djangoは2年ごとにLTSリリース、3年サポート
+
+[^endlife]: {fas}`globe` [`endoflife.date`](https://endoflife.date)
 
 ![Django Release Roadmap](https://static.djangoproject.com/img/release-roadmap.fdaa7bc5861f.png)
 
