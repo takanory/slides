@@ -40,7 +40,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * `Python開発の変遷をPythonプロフェッショナルプログラミングの改定の歴史から知る <https://fortee.jp/techramen-25-conf/proposal/1df97adf-381d-4b29-bd96-1c1fdb9ddfc3>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250726techramen>`__
    - * `EuroPython 2025 <https://ep2025.europython.eu/>`_
      * Prague, Czech
      * 2025 Jul
