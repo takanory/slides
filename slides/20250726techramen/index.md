@@ -43,7 +43,7 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 
 ## Photos {nekochan}`camera` Tweets {nekochan}`niwatori` {nekochan}`come-on`
 
-`#techramen25conf` / `@takanory`
+`#techramen25conf` / `#shoyu` / `@takanory`
 
 ### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/)
 
