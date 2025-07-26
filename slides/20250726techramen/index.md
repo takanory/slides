@@ -66,6 +66,17 @@ TechRAMEN 2025 Conference / 2025 Jul 26
 :width: 70%
 ```
 
+### [大雪地ビール館](https://ji-beer.com/jibeerkan/) {nekochan}`hituji`
+
+![大雪地ビール館](images/taisetsu.jpg)
+
+### [-Freehouse- THE YEAST](https://www.instagram.com/freehouse_the_yeast/) {nekochan}`beer`
+
+```{image} images/beer.jpg
+:width: 35%
+:alt: -Freehouse- THE YEAST
+```
+
 ### → エスコン🍺 → 釧路 → 東京 {nekochan}`travel`
 
 ```{image} images/hokkaido2.png
