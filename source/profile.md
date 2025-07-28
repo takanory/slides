@@ -154,6 +154,7 @@ Cover | Title | Year| Publisher
 
 ## Interviews
 
+* [AI時代も「手を動かす」重要性は変わらない、Python学習初心者が陥る錯覚 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/03273/071600005/)
 * [PyCon US 2025 参加レポート　参加した鈴木たかのりさんにイベントの様子をお聞きしました - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_250619)
 * [PyCon APAC 2025 のインタビューレポート！登壇者にお話を聞いてきました - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_250410)
 * [PyCon APAC 2024 参加レポート【takanory編】 - Python学習チャンネル by PyQ](https://blog.pyq.jp/entry/python_events_241113)
