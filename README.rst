@@ -34,6 +34,19 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * EuroPython & PHPers Day 2025 参加報告会
+     * Tokyo, Japan
+     * 2025 Aug
+     * Talk
+     * ja
+     * 素振り（すぶり）のススメ
+     * 
+   - * BPStyle 175
+     * 2025 Aug
+     * Talk
+     * ja
+     * EuroPython 2025 Travelogue
+     * 
    - * `TechRAMEN 2025 Conference <https://techramenconf.net/>`_
      * Asahikawa, Japan
      * 2025 Jul
