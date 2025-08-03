@@ -43,10 +43,11 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 
    - * BPStyle 175
      * 2025 Aug
+     * Online
      * Talk
      * ja
      * EuroPython 2025 Travelogue
-     * 
+     *
    - * `TechRAMEN 2025 Conference <https://techramenconf.net/>`_
      * Asahikawa, Japan
      * 2025 Jul
