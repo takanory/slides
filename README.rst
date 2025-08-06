@@ -41,7 +41,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * Python開発環境の整え方ライブデモ
      * 
-   - * EuroPython & PHPers Day 2025 参加報告会
+   - * `EuroPython & PHPers Day 2025 参加報告会 <https://pyconjp.connpass.com/event/364753/>`__
      * Tokyo, Japan
      * 2025 Aug
      * Talk
