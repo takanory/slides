@@ -175,6 +175,115 @@ BPStyle 175 / 2025 Aug 7
 
 ![](images/1516beer3.jpg)
 
+## Jul 14: 🚞 Vienna -> Prague
+
+### Vienna -> Prague (4h) [^regiojet]
+
+![](images/regiojet.jpg)
+
+[^regiojet]: [RegioJet | Train & bus tickets](https://regiojet.com/)
+
+```{revealjs-break}
+```
+
+```{image} images/regiojet-seat.jpg
+:width: 35%
+```
+
+```{image} images/regiojet-power.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/regiojet-desk.jpg)
+
+### Proud Ležák (0.8 EUR) [^proud]
+
+```{image} images/regiojet-beer.jpg
+:width: 35%
+```
+
+[^proud]: [Pivo Proud | Moderní český ležák z Prazdroje](https://www.pivoproud.cz/)
+
+### Praha hlavní nádraží [^prague-station]
+
+[^prague-station]: [プラハ本駅 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%A9%E3%83%8F%E6%9C%AC%E9%A7%85)
+
+![](images/prague-station.jpg)
+
+### Prague Main Station LEGO
+
+![](images/prague-st-lego.jpg)
+
+### The Prague Congress Centre [^centre]
+
+![](images/centre1.jpg)
+
+[^centre]: [Welcome to the Prague Congress Centre](https://www.praguecc.cz/en/homepage)
+
+```{revealjs-break}
+```
+
+![](images/centre2.jpg)
+
+### Badge
+
+```{image} images/nametag.jpg
+:width: 35%
+```
+
+### Museum of Bricks [^bricks]
+
+```{image} images/bricks1.jpg
+:width: 35%
+```
+
+[^bricks]: [Museum of Bricks Czech Republic - THE LARGEST PRIVATE LEGO® COLLECTION IN THE WORLD](https://museumofbricks.cz/en)
+
+```{revealjs-break}
+```
+
+![](images/bricks2.jpg)
+
+```{revealjs-break}
+```
+
+![](images/bricks3.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/bricks4.jpg
+:width: 35%
+```
+
+### U Pinkasu [^pinkasu]
+
+![](images/pinkasu1.jpg)
+
+[^pinkasu]: [U Pinkasu Restaurant - The best Pilsner Urquell beer restaurant in Prague](http://www.upinkasu.com/)
+
+```{revealjs-break}
+```
+
+```{image} images/pinkasu2.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+```{image} images/pinkasu3.jpg
+:width: 35%
+```
+
+## Jul 15: 🏰 Sightseeing
+## Jul 16-18: 🎙️ **Conference**
+## Jul 19: 💻 **Sprint**
+## Jul 19/20: ✈️ Prague -> Warsaw -> Narita
+
 ## May 15: 📛 **Opening Reception**
 
 ### Lunch {nekochan}`beer`
