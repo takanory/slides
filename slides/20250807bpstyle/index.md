@@ -280,6 +280,191 @@ BPStyle 175 / 2025 Aug 7
 ```
 
 ## Jul 15: 🏰 Sightseeing
+
+### Supermarket
+
+![](images/penny1.jpg)
+
+```{revealjs-break}
+```
+![](images/penny2.jpg)
+
+```{revealjs-break}
+```
+
+2L Beer (39.90 CZK = 280 JPY)
+
+```{image} images/penny3.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/penny4.jpg)
+
+### Prašná brána [^powder]
+
+```{image} images/powder-tower.jpg
+:width: 35%
+```
+
+[^powder]: [火薬塔 - トリップアドバイザー](https://www.tripadvisor.jp/Attraction_Review-g274707-d318576-Reviews-Prasna_brana-Prague_Bohemia.html)
+
+### Obecní dům [^dum]
+
+![](images/dum1.jpg)
+
+[^dum]: [プラハ市民会館 (スメタナホール) - トリップアドバイザー](https://www.tripadvisor.jp/Attraction_Review-g274707-d539414-Reviews-Obecni_Dum-Prague_Bohemia.html)
+
+### Kavárna obecní dům [^kavarna]
+
+![](images/dum2.jpg)
+
+[^kavarna]: [カヴェールナ オベツニー ドゥーム - トリップアドバイザー](https://www.tripadvisor.jp/Restaurant_Review-g274707-d1095857-Reviews-Kavarna_Obecni_dum-Prague_Bohemia.html)
+
+```{revealjs-break}
+```
+
+![](images/dum2.jpg)
+
+```{revealjs-break}
+```
+
+![](images/dum3.jpg)
+
+```{revealjs-break}
+```
+
+![](images/dum4.jpg)
+
+### Staroměstské náměstí [^square]
+
+[^square]: [旧市街広場 (プラハ) - Wikipedia](https://ja.wikipedia.org/wiki/%E6%97%A7%E5%B8%82%E8%A1%97%E5%BA%83%E5%A0%B4_%28%E3%83%97%E3%83%A9%E3%83%8F%29)
+
+![](images/square1.jpg)
+
+```{revealjs-break}
+```
+
+![](images/square2.jpg)
+
+```{revealjs-break}
+```
+
+![](images/square3.jpg)
+
+```{revealjs-break}
+```
+
+![](images/square4.jpg)
+
+### Pražský orloj [^orloj]
+
+```{image} images/orloj1.jpg
+:width: 35%
+```
+
+[^orloj]: [プラハの天文時計 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%A9%E3%83%8F%E3%81%AE%E5%A4%A9%E6%96%87%E6%99%82%E8%A8%88)
+
+```{revealjs-break}
+```
+
+```{image} images/orloj2.jpg
+:width: 35%
+```
+
+### Fat Cat Burgers & Craft Beer [^fatcat]
+
+```{image} images/fatcat1.jpg
+:width: 35%
+```
+
+[^fatcat]: [FAT CAT Burgers & Craft Beer](https://fat-cat.cz/)
+
+```{revealjs-break}
+```
+
+```{image} images/fatcat2.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/fatcat3.jpg)
+
+### Karlův most [^karluv]
+
+```{image} images/karluv1.jpg
+:width: 35%
+```
+
+[^karluv]: [カレル橋 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AC%E3%83%AB%E6%A9%8B)
+
+```{revealjs-break}
+```
+
+![](images/karluv2.jpg)
+
+```{revealjs-break}
+```
+
+![](images/karluv3.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/karluv4.jpg
+:width: 35%
+```
+
+### Katedrála svatého Víta [^vita]
+
+[^vita]: [聖ヴィート大聖堂 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%81%96%E3%83%B4%E3%82%A3%E3%83%BC%E3%83%88%E5%A4%A7%E8%81%96%E5%A0%82)
+
+![](images/vita1.jpg)
+
+```{revealjs-break}
+```
+
+![](images/vita2.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/vita3.jpg
+:width: 35%
+```
+
+### Zizkov Television Tower [^zizkov]
+
+```{image} images/zizkov.jpg
+:width: 35%
+```
+
+[^zizkov]: [Prague TV tower - Zizkov Television Tower - トリップアドバイザー](https://www.tripadvisor.jp/Attraction_Review-g274707-d24024849-Reviews-Prague_TV_tower_Zizkov_Television_Tower-Prague_Bohemia.html)
+
+### BeerGeek Bar & Pivotéka [^beergeek]
+
+[^beergeek]: [BeerGeek](https://beergeek.cz/en/#about)
+
+```{image} images/beergeek1.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+```{image} images/beergeek2.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/beergeek3.jpg)
+
 ## Jul 16-18: 🎙️ **Conference**
 ## Jul 19: 💻 **Sprint**
 ## Jul 19/20: ✈️ Prague -> Warsaw -> Narita
