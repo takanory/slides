@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon JP 2025 <https://2025.pycon.jp/>`__
+     * Hiroshima, Japan
+     * 2025 Sep
+     * Talk
+     * ja
+     * Python開発環境の整え方ライブデモ
+     * 
    - * EuroPython & PHPers Day 2025 参加報告会
      * Tokyo, Japan
      * 2025 Aug
