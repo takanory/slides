@@ -603,394 +603,152 @@ BPStyle 175 / 2025 Aug 7
 
 ## Jul 18: 🎙️ **Conference**
 
+### Organisers Open Space [^openspace]
+
+![](images/openspace1.jpg)
+
+[^openspace]: [Community Organisers Activities | EuroPython 2025](https://ep2025.europython.eu/community-activities/)
+
+### Organisers Lunch
+
+![](images/lunch2.jpg)
+
+### Python: the Documentary
+
+![](images/documentary1.jpg)
+
+[^documentary]: ["Python: the Documentary" screening and Q&A](https://ep2025.europython.eu/session/python-the-documentary-screening-and-q-a)
+
+```{revealjs-break}
+```
+
+![](images/documentary2.jpg)
+
+### Lightning Talks
+
+![](images/lt-ebike.jpg)
+
+### Lightning Talks [^lt-takanory]
+
+[^lt-takanory]: [Learn Japanese 🇯🇵 with Python](https://slides.takanory.net/slides/20250718euro/#/)
+
+![](images/lt-takanory.jpg)
+
+### Lightning Talks [^song]
+
+```{figure} images/lt-song.mp4
+:class: controls
+```
+
+[^song]: [Always Look on the Bright Side of Life - Wikipedia](https://ja.wikipedia.org/wiki/Always_Look_on_the_Bright_Side_of_Life)
+
+### Conference Closing
+
+![](images/closing.jpg)
+
+### The Beer Spot [^beerspot]
+
+[^beerspot]: [THE BEER SPOT - Craft Beer Restaurant & Garden in Prague](https://beerspotprague.cz/the-beer-spot/)
+
+```{image} images/beerspot1.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/beerspot2.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/beerspot3.jpg
+:width: 35%
+```
+
+```{image} images/beerspot4.jpg
+:width: 35%
+```
+
+### Klub Újezd [^ujezd]
+
+[^ujezd]: [Klub Újezd](https://www.klubujezd.cz/)
+
+![](images/ujezd1.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/ujezd2.jpg
+:width: 35%
+```
+
 ## Jul 19: 💻 **Sprint**
+
+### Sprint Venue [^wpp]
+
+![](images/sprintvenue.jpg)
+
+[^wpp]: [WPP Prague](https://www.wpp.com/ja-jp)
+
+### Sprint
+
+![](images/sprint1.jpg)
+
+### Free Snack Table
+
+![](images/sprint2.jpg)
+
+### with Rodrigo
+
+![](images/sprint4.jpg)
+
+### Sprint Lunch
+
+![](images/sprint3.jpg)
+
+### Adam Turner, Koxudaxi and Łukasz
+
+![](images/sprint5.jpg)
+
 ## Jul 19/20: ✈️ Prague -> Warsaw -> Narita
 
-## May 15: 📛 **Opening Reception**
+### Prague Airpot
 
-### Lunch {nekochan}`beer`
-
-```{image} images/lunch-beer.jpg
+```{image} images/prague-airport.jpg
 :width: 35%
 ```
+### Prague -> Warsaw ([LO 526](https://www.flightaware.com/live/flight/LOT526) 1h10m)
 
-### Badge
+![](images/lo526.jpg)
 
-```{image} images/badge.jpg
-:width: 35%
-```
+### Warsaw Airpot
 
-### Booth
+![](images/warsaw-airport.jpg)
 
-![](images/booth.jpg)
+### Warsaw -> Narita ([LO 079](https://www.flightaware.com/live/flight/LOT79) 12h50m)
 
-### [Python Asia Organization](https://pythonasia.org/) Booth
-
-![](images/pao-booth.jpg)
-
-### Terada with Guido
-
-```{image} images/terada-with-guido.jpg
-:width: 50%
-```
-
-### Anaconda Happy Hour {nekochan}`beer`
-
-```{image} images/anaconda.jpg
-:width: 35%
-```
-## May 16: 🎙️ **Conference** Day 1
-
-### Breakfast {nekochan}`gohan`
-
-![](images/breakfast.jpg)
-
-### Opening
-
-![](images/opening.jpg)
+![](images/to-narita.jpg)
 
 ```{revealjs-break}
 ```
 
-![](images/nakagami.jpg)
-
-### My Talk {nekochan}`doya`
-
-![](images/takanory-talk.jpg)
+![](images/food-in-flight.jpg)
 
 ```{revealjs-break}
 ```
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/3wQxP-GfT-A?si=VTkrjDLAaL8YtyCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### After my Talk {nekochan}`juutai`
-
-![](images/takanory-audience.jpg)
-
-### Lunch {nekochan}`gohan-taberu`
-
-![](images/lunch.jpg)
-
-### Duolingo Party {nekochan}`beer`
-
-```{image} images/duolingo.jpg
-:width: 35%
-```
+![](images/food-in-flight2.jpg)
 
 ```{revealjs-break}
 ```
 
-```{image} images/duo.jpg
-:width: 35%
-```
+![](images/narita.jpg)
 
-## May 17: 🎙️ **Conference** Day 2
-
-### Keynote: Lynn Root
-
-![](images/lynn.jpg)
-
-### Conference Chair: Elaine
-
-![](images/elaine.jpg)
-
-### Talk: Why `len("😶‍🌫️") == 4`
-
-![](images/why-len.jpg)
-
-### PyLadies Auction
-
-![](images/auction.jpg)
-
-```{revealjs-break}
-```
-
-![](images/auction2.jpg)
-
-```{revealjs-break}
-```
-
-![](images/auction3.jpg)
-
-## May 18: 🎙️ **Conference** Day 3
-
-### My Lightning Talk {nekochan}`doya`
-
-![](images/takanory-lt.jpg)
-
-```{revealjs-break}
-```
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/lXngPPRaqGg?si=rtXgnnal_ChukDRH&amp;start=1009" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### Job Fair
-
-```{image} images/job-fair.jpg
-:width: 35%
-```
-
-### Poster Session
-
-![](images/poster.jpg)
-
-### Steering Council Panel
-
-![](images/council.jpg)
-
-```{revealjs-break}
-```
-
-![](images/nekochan.jpg)
-
-### Awards
-
-![](images/awards.jpg)
-
-### PyCon US 2026
-
-![](images/pyconus2026.jpg)
-
-### [Penn Brewery](https://www.pennbrew.com/) {nekochan}`beer`
-
-![](images/penn-brewery1.jpg)
-
-```{revealjs-break}
-```
-
-```{image} images/penn-brewery.jpg
-:width: 35%
-```
-
-### [Church Brew Works](https://churchbrew.com/) {nekochan}`beer`
-
-
-```{image} images/church-brew1.jpg
-:width: 35%
-```
-
-```{revealjs-break}
-```
-
-```{image} images/church-brew2.jpg
-:width: 35%
-```
-
-## May 19: 💻 **Sprint**
-
-### Sprint Board 
-
-```{image} images/sprint-board.jpg
-:width: 35%
-```
-
-### Bridge
-
-![](images/bridge.jpg)
-
-### [Coop de Ville](https://coopdevillepgh.com/) {nekochan}`beer`
-
-![](images/coop1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/coop2.jpg)
-
-## May 20: 🚗 Pittsburgh -> Chicago
-
-### Drive
-
-![](images/route.png)
-
-```{revealjs-break}
-```
-
-![](images/drive.jpg)
-
-```{revealjs-break}
-```
-
-![](images/cars.jpg)
-
-```{revealjs-break}
-```
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/rDjYzlPW7hM?si=0MGsd-deHxXSganP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### Service Plaza
-
-![](images/service-plaza.jpg)
-
-```{revealjs-break}
-```
-
-![](images/chinese.jpg)
-
-### [District Brew Yards](https://districtbrewyards.com/) {nekochan}`beer`
-
-![](images/dist-beer1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/dist-beer2.jpg)
-
-### [Lou Malnati's](https://www.loumalnatis.com/) {nekochan}`beer`
-
-![](images/pizza1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/pizza2.jpg)
-
-```{revealjs-break}
-```
-
-![](images/pizza3.jpg)
-
-## May 21: 🍺 Chicago
-
-### [Union Station](https://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3%E9%A7%85_(%E3%82%B7%E3%82%AB%E3%82%B4)) {nekochan}`densha`
-
-![](images/station.jpg)
-
-### [Flamingo](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B4_(%E5%BD%AB%E5%83%8F)) {nekochan}`niwatori`
-
-![](images/flamingo.jpg)
-
-### [Industry Ales](https://www.industryales.com/) {nekochan}`beer`
-
-![](images/ales1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/ales2.jpg)
-
-### [The Bean (Cloud Gate)](https://www.choosechicago.com/articles/tours-and-attractions/the-bean-chicago/)
-
-![](images/bean.jpg)
-
-### [Chicago Tribune](https://www.chicagotribune.com/)
-
-```{image} images/tribune1.jpg
-:width: 35%
-```
-
-```{revealjs-break}
-```
-
-![](images/tribune2.jpg)
-
-### [It'Sugar](https://itsugar.com/)
-
-![](images/itsugar1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/itsugar2.jpg)
-
-### LEGO Store
-
-![](images/lego.jpg)
-
-### [Off Color Brewing](https://www.offcolorbrewing.com/) {nekochan}`beer`
-
-![](images/off-color1.jpg)
-
-```{revealjs-break}
-```
-
-```{image} images/off-color2.jpg
-:width: 35%
-```
-
-### [Half Acre Beer](https://halfacrebeer.com/) {nekochan}`beer`
-
-![](images/half-acre1.jpg)
-
-```{revealjs-break}
-```
-
-![](images/half-acre2.jpg)
-
-```{revealjs-break}
-```
-
-```{image} images/half-acre3.jpg
-:width: 35%
-```
-
-## May 22: ✈️ Chicago -> Toronto -> Haneda
-
-### Delay 🚗
-
-![](images/delay.png)
-
-```{revealjs-break}
-```
-
-![](images/uber.jpg)
-
-```{revealjs-break}
-```
-
-![](images/just-in-time.png)
-
-### Chicago Airport 🇺🇸
-
-```{image} images/ord1.jpg
-:width: 35%
-```
-
-```{revealjs-break}
-```
-
-![](images/ord2.jpg)
-
-### Toronto Airport 🇨🇦
-
-![](images/transit.jpg)
-
-```{revealjs-break}
-```
-
-![](images/canada-beer.jpg)
-
-```{revealjs-break}
-```
-
-![](images/to-haneda.jpg)
-
-### Haneda Airport 🇯🇵
-
-![](images/tokyo.jpg)
-
-```{revealjs-break}
-```
-
-![](images/haneda.jpg)
-
-## Laggage was **Broken** {nekochan}`mechanaki`
-
-![](images/broken-laggage.jpg)
-
-### [New Suitcase](https://store.ace.jp/shop/g/g01343-04/) {nekochan}`yoshi`
-
-```{image} images/new-suitcase.jpg
-:width: 35%
-```
-
-### See you in next **Travelogue** {nekochan}`byebye`
-
-![](images/europython.png)
+## See you in next **Travelogue** {nekochan}`byebye`
 
 ## References
 
-* [PyCon US 2025参加レポート | gihyo.jp](https://gihyo.jp/list/group/PyCon-US-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2025/06/pycon-us-2025-03)
-  * [Conference Day 1まで](https://gihyo.jp/article/2025/06/pycon-us-2025-01)
-  * [Conference Day 2](https://gihyo.jp/article/2025/06/pycon-us-2025-02)
-  * [Conference Day 3, Sprint](https://gihyo.jp/article/2025/06/pycon-us-2025-03)
-* [#53: PyCon US 2025報告会 - 2025-06-13](https://tv.pycon.jp/episode/53.html)
+* [EuroPython 2025 | July 14th-20th 2025 | Prague, Czech Republic & Remote](https://ep2025.europython.eu/)
+* [EuroPython 2025への道 - posfie](https://posfie.com/@takanory/p/efSnDMG)
+* [#55: EuroPython 2025 報告会 - 2025-08-01](https://tv.pycon.jp/episode/55.html)
