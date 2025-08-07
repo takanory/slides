@@ -742,6 +742,16 @@ BPStyle 175 / 2025 Aug 7
 
 ![](images/narita.jpg)
 
+## EuroPython&PHPers Day報告会
+
+* {fas}`globe` [pyconjp.connpass.com/event/364753](https://pyconjp.connpass.com/event/364753/)
+* Date: 2025 Aug 26(Tue)
+* Venue: HENNGE / Online
+
+```{image} images/europython.jpg
+:width: 60%
+```
+
 ## See you in next **Travelogue** {nekochan}`byebye`
 
 ## References
