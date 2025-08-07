@@ -155,7 +155,9 @@ BPStyle 175 / 2025 Aug 7
 ```{revealjs-break}
 ```
 
-![](images/stephansdom2.jpg)
+```{image} images/stephansdom2.jpg
+:width: 35%
+```
 
 ### 1516 Brew Company [^1516beer]
 
@@ -322,11 +324,6 @@ BPStyle 175 / 2025 Aug 7
 ![](images/dum2.jpg)
 
 [^kavarna]: [カヴェールナ オベツニー ドゥーム - トリップアドバイザー](https://www.tripadvisor.jp/Restaurant_Review-g274707-d1095857-Reviews-Kavarna_Obecni_dum-Prague_Bohemia.html)
-
-```{revealjs-break}
-```
-
-![](images/dum2.jpg)
 
 ```{revealjs-break}
 ```
@@ -603,17 +600,17 @@ BPStyle 175 / 2025 Aug 7
 
 ## Jul 18: 🎙️ **Conference**
 
-### Organisers Open Space [^openspace]
+### Community Organisers Open Space [^openspace]
 
 ![](images/openspace1.jpg)
 
 [^openspace]: [Community Organisers Activities | EuroPython 2025](https://ep2025.europython.eu/community-activities/)
 
-### Organisers Lunch
+### Community Organisers Lunch
 
 ![](images/lunch2.jpg)
 
-### Python: the Documentary
+### Python: the Documentary [^documentary]
 
 ![](images/documentary1.jpg)
 
@@ -713,7 +710,7 @@ BPStyle 175 / 2025 Aug 7
 
 ## Jul 19/20: ✈️ Prague -> Warsaw -> Narita
 
-### Prague Airpot
+### Prague Airport
 
 ```{image} images/prague-airport.jpg
 :width: 35%
@@ -722,7 +719,7 @@ BPStyle 175 / 2025 Aug 7
 
 ![](images/lo526.jpg)
 
-### Warsaw Airpot
+### Warsaw Airport
 
 ![](images/warsaw-airport.jpg)
 
