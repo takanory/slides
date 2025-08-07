@@ -465,7 +465,144 @@ BPStyle 175 / 2025 Aug 7
 
 ![](images/beergeek3.jpg)
 
-## Jul 16-18: 🎙️ **Conference**
+## Jul 16: 🎙️ **Conference**
+
+### Conference Opening
+
+![](images/opening.jpg)
+
+### Keynote: Savannah Bailey [^keynote1]
+
+![](images/keynote1.jpg)
+
+[^keynote1]: [You don’t have to be a compiler engineer to work on Python](https://ep2025.europython.eu/session/you-dont-have-to-be-a-compiler-engineer-to-work-on-python)
+
+### Lunch
+
+![](images/lunch1.jpg)
+
+### Retro Game
+
+![](images/game1.jpg)
+
+```{revealjs-break}
+```
+
+![](images/game2.jpg)
+
+### Yuichiro Tachibana(@whitphx) [^yuichiro]
+
+![](images/whitphx.jpg)
+
+[^yuichiro]: [Democratize serverless web AI apps for Python devs](https://ep2025.europython.eu/session/democratize-serverless-web-ai-apps-for-python-devs)
+
+### Python quiz
+
+![](images/quiz1.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/quiz2.jpg
+:width: 35%
+```
+
+### Pyvo [^pyvo1]
+
+[^pyvo1]: [Wednesday Local Community Drinks | EuroPython 2025](https://ep2025.europython.eu/pyvo/)
+
+![](images/pyvo1.jpg)
+
+```{revealjs-break}
+```
+
+![](images/pyvo2.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/pyvo3.jpg
+:width: 35%
+```
+
+```{revealjs-break}
+```
+
+![](images/pyvo4.jpg)
+
+```{revealjs-break}
+```
+
+```{figure} images/pyvo5.mp4
+:class: controls
+```
+
+## Jul 17: 🎙️ **Conference**
+
+### Keynote: Brett Cannon [^keynote2]
+
+![](images/keynote2.jpg)
+
+[^keynote2]: [Why it took 4 years to get a lock files specification](https://ep2025.europython.eu/session/why-it-took-4-years-to-get-a-lock-files-specification)
+
+### Pablo Galindo Salgado [^pablo]
+
+![](images/pablo.jpg)
+
+[^pablo]: [A new safe external debugger interface for CPython](https://ep2025.europython.eu/session/a-new-safe-external-debugger-interface-for-cpython) 
+
+### Mark Shannon [^shannon]
+
+![](images/markshannon.jpg)
+
+[^shannon]: [Performance improvements in 3.14 and maybe 3.15](https://ep2025.europython.eu/session/performance-improvements-in-3-14-and-maybe-3-15)
+
+### Keynote: Sebastián Ramírez [^keynote3]
+
+![](images/sebastian.jpg)
+
+[^keynote3]: [Behind the scenes of FastAPI and friends for developers and builders](https://ep2025.europython.eu/session/behind-the-scenes-of-fastapi-and-friends-for-developers-and-builders)
+
+### Lightning Talks
+
+![](images/lt-boy.jpg)
+
+```{revealjs-break}
+```
+
+![](images/lt-mitsuhiko.jpg)
+
+### Social Event [^social]
+
+![](images/social1.jpg)
+
+[^social]: [Thursday Social Event | EuroPython 2025](https://ep2025.europython.eu/social-event/)
+
+```{revealjs-break}
+```
+
+![](images/social2.jpg)
+
+### Sibeeria Tap Room [^sibeeria]
+
+![](images/sibeeria1.jpg)
+
+[^sibeeria]: [Sibeeria Brewery - nezávislý pivovar v Praze](https://sibeeria.cz/)
+
+```{revealjs-break}
+```
+
+![](images/sibeeria2.jpg)
+
+```{revealjs-break}
+```
+
+```{image} images/sibeeria3.jpg
+:width: 35%
+```
+
+## Jul 18: 🎙️ **Conference**
+
 ## Jul 19: 💻 **Sprint**
 ## Jul 19/20: ✈️ Prague -> Warsaw -> Narita
 
