@@ -54,7 +54,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * EuroPython 2025 Travelogue
-     *
+     * `Slides <https://slides.takanory.net/slides/20250807bpstyle>`__
    - * `TechRAMEN 2025 Conference <https://techramenconf.net/>`_
      * Asahikawa, Japan
      * 2025 Jul
