@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * Python開発環境の整え方ライブデモ
      * 
+   - * `PyCon China 2025 <https://cn.pycon.org/2025/en/>`__
+     * Shanghai, China
+     * 2025 Sep
+     * Talk
+     * en
+     * How to learn Japanese with Python
+     * 
    - * `EuroPython & PHPers Day 2025 参加報告会 <https://pyconjp.connpass.com/event/364753/>`__
      * Tokyo, Japan
      * 2025 Aug
