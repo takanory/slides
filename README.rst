@@ -76,6 +76,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * Learn Japanese 🇯🇵 with Python
      * `Slides <https://slides.takanory.net/slides/20250718euro>`__
+       `Report <https://gihyo.jp/list/group/EuroPython-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`__
    - * `PyCon US 2025 参加報告会 <https://pyconjp.connpass.com/event/357582/>`_
      * Tokyo, Japan
      * 2025 Jul
@@ -113,7 +114,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * `How to learn Japanese with Python <https://us.pycon.org/2025/schedule/presentation/122/>`__
      * `Slides <https://slides.takanory.net/slides/20250516pyconus>`__
        `Video <https://www.youtube.com/watch?v=3wQxP-GfT-A>`__
-       `Report <https://gihyo.jp/list/group/PyCon-US-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2025/06/pycon-us-2025-03>`__
+       `Report <https://gihyo.jp/list/group/PyCon-US-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`__
    - * `PyCon APAC 2025 参加報告会 <https://pyconjp.connpass.com/event/349628/>`_
      * Tokyo, Japan
      * 2025 Apr
