@@ -44,7 +44,7 @@ EuroPython & PHPers Day 参加報告会 / 2025 Aug 26
 
 ### 完 {nekochan}`mu`
 
-### オレ達たちの戦いはこれからだ！ {nekochan}`punch`
+### オレ達の戦いはこれからだ！ {nekochan}`punch`
 
 takanory先生の次回作にご期待ください
 
@@ -80,30 +80,46 @@ takanory先生の次回作にご期待ください
 
 ## その裏には<br />**幸運**と**素振り**があった {nekochan}`kami`
 
-### LT申し込みで**アピール**
+### LT申し込みで**アピール** {nekochan}`choo-choo-train`
 
 * 「PyCon US 2024でLTやりました」とアピール
 * スライドURLも付けておいた
 
-### スライドは**公開済み**
+### スライドは**公開済み** {nekochan}`lgtm`
 
 * すぐに参照して発表できる状態
 
-### **英語原稿なし**での発表
+### **英語原稿なし**での発表 {nekochan}`pusupusu`
 
 * PyCon US 2024で同じLTを原稿なしで発表済み
 * 当時、時間を使って準備した
 * →ぶっつけ本番でもなんとかなるだろう
 
-### Rodrigoが声をかけてきた**幸運**
+### 主催者が声をかけてきた**幸運** {nekochan}`kitai`
 
 * LTで1枠キャンセルがあった
 * 私は前の方に座っていた
-* LTリーダーのRodrigoが私を見つけた
+* LT担当のRodrigoが私を見つけた
 * （多分）PyCon USのLTで顔を知っていた
 
-### Rodrigoからのメッセージ[^linkedin]
+### 後日Rodrigoからの**メッセージ** [^linkedin] {nekochan}`bow`
 
 ![](images/rodrigo-message.jpg)
 
-[^linkedin]: [LinkedInのコメント](https://www.linkedin.com/feed/update/urn:li:ugcPost:7352279607405940737?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352279607405940737%2C7353015767895785472%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287353015767895785472%2Curn%3Ali%3AugcPost%3A7352279607405940737%29)
+[^linkedin]: [(16) 投稿 | フィード | LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7352279607405940737/?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7352279607405940737%2C7353015767895785472%29&amp;dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287353015767895785472%2Curn%3Ali%3AugcPost%3A7352279607405940737%29)
+
+### **2年前**の自分には**無理**だった {nekochan}`ng`
+
+## しよう**素振り** {nekochan}`tennis`<br />掴もう**幸運** {nekochan}`yossha`
+
+## Thank You {nekochan}`pray`
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
