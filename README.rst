@@ -54,7 +54,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * 素振り（すぶり）のススメ
-     * 
+     * `Slides <https://slides.takanory.net/slides/20250826euroreport>`__
    - * BPStyle 175
      * 2025 Aug
      * Online
