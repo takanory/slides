@@ -44,9 +44,16 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
    - * `PyCon China 2025 <https://cn.pycon.org/2025/en/>`__
      * Shanghai, China
      * 2025 Sep
+     * LT
+     * en
+     * `Put 🐱 Cat Emojis in your documents! <https://cn.pycon.org/2025/en/talks/add-cat-emojis-to-your-document/>`__
+     * 
+   - * `PyCon China 2025 <https://cn.pycon.org/2025/en/>`__
+     * Shanghai, China
+     * 2025 Sep
      * Talk
      * en
-     * How to learn Japanese with Python
+     * `How to learn Japanese with Python <https://cn.pycon.org/2025/en/talks/how-to-learn-japanese-with-python/>`__
      * 
    - * `EuroPython & PHPers Day 2025 参加報告会 <https://pyconjp.connpass.com/event/364753/>`__
      * Tokyo, Japan
