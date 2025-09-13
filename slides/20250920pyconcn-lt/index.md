@@ -5,18 +5,19 @@
 .. |cover| image:: images/20250920pyconcn-lt.png
 ```
 
-# Put 🐱 **Cat Emojis** in your **Documents**!
+# Put 🐱 Cat Emojis in your Documents!
+```{revealjs-section}
+:data-background-image: images/pyconchina-background1.png
+```
 
 Takanori Suzuki
-
-```{image} images/pyconchina.png
-:alt: PyCon China logo
-:width: 20%
-```
 
 PyCon China 2025 / 2025 Sep 20
 
 ## Do you **like cats**? 🐱
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### IMO, **Many programmers** like Cats <br /> 🧑‍💻 👩‍💻 ❤️ 🐱
 
@@ -46,6 +47,9 @@ PyCon China 2025 / 2025 Sep 20
 ```
 
 ## About **Cat Emojis** 🐱
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### Cat Emojis for **Slack** & **Discord** 💬
 
@@ -82,6 +86,9 @@ PyCon China 2025 / 2025 Sep 20
 [^guide]: [Guidelines for Using Cat Emojis](https://note.com/shikamatsu/n/n8818bb5ebea1#8b38f78f-1883-46c6-a596-63d9bf4c69da)
 
 ## Cat Emojis in **Documents** 🐱 📄
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### Motivation 💪
 
@@ -102,6 +109,9 @@ Copy & Paste lots of Emojis is **Boring**
 **Simplify** the Boring Stuff with Python
 
 ## **sphinx-nekochan** 🔧
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ("Nekochan" is Cat in Japanese)
 
@@ -186,6 +196,9 @@ I love :nekochan:`beer`
 ```
 
 ## sphinx-nekochan on **slides** 💻
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### sphinx-revealjs 
 
@@ -214,6 +227,9 @@ I love :nekochan:`beer`
 * I want to see {nekochan}`panda`
 
 ## **Customize** emoji {nekochan}`memo`
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### Customize emoji **Height** {nekochan}`nobita` [^height]
 
@@ -234,7 +250,7 @@ I love :nekochan:`beer`
 
 [^height]: <https://sphinx-nekochan.readthedocs.io/#customize-emoji-height-and-alt-text>
 
-### **Transform** emoji {nekochan}`gorongoron` [^transform]
+### **Transform** emoji {nekochan}`goron-goron` [^transform]
 
 ````{tab-set-code}
 ```markdown
@@ -257,6 +273,9 @@ I love :nekochan:`beer`
 [^transform]: <https://sphinx-nekochan.readthedocs.io/#transform-emoji>
 
 ## **Enjoy** sphinx-nekochan {nekochan}`yatta`
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 * {nekochan}`work` [sphinx-nekochan.readthedocs.io](https://sphinx-nekochan.readthedocs.io)
 * {nekochan}`octpus` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
@@ -421,6 +440,9 @@ I love :nekochan:`beer`
 {nekochan}`melty-nya`
 
 ## Thank you {nekochan}`pray`
+```{revealjs-section}
+:data-background-image: images/pyconchina-background1.png
+```
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
