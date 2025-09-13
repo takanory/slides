@@ -5,18 +5,21 @@
 .. |cover| image:: images/20250920pyconcn.png
 ```
 
-# How to learn **Japanese** w/ **Python**
+# How to learn Japanese w/ Python
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background1.png
+```
 
 Takanori Suzuki
-
-```{image} images/pyconchina.png
-:alt: PyCon China logo
-:width: 20%
-```
 
 PyCon China 2025 / 2025 Sep 20
 
 ## Agenda ✅
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 * Background and Motivation / Goal
 * Japanese is Difficult
@@ -30,6 +33,10 @@ PyCon China 2025 / 2025 Sep 20
 ```
 
 ## Background and Motivation 🏞️
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ```{revealjs-notes}
 * Background and Motivation of this talk...
@@ -80,6 +87,10 @@ PyCon China 2025 / 2025 Sep 20
 
 ## Photos 📷 Share 🐦 👍
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 `#PyConChina` / `@takanory`
 
 ```{revealjs-notes}
@@ -100,6 +111,10 @@ Please visit slides.takanory.net or via QR code and click on the "Slides" link!
 ```
 
 ## Who am I? 👤
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ```{revealjs-break}
 :notitle:
@@ -172,6 +187,10 @@ Hiroshima has several direct flights from overseas, but sorry, no direct flights
 
 ## Questions {nekochan}`hai`
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 ### Have you **learned** Japanese? {nekochan}`study`
 
 ### Are you **interested** in Japanese? {nekochan}`miru`
@@ -199,6 +218,10 @@ See you again at PyCon JP 2025.
 ```
 
 ## Japanese is **Difficult** {nekochan}`yabai`
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 * **3 Types** of Characters
 * **No Spaces** between Words
@@ -312,11 +335,20 @@ Japanese is Difficult!! But...
 
 ## {fab}`python` **Python** supports **Japanese** leaning
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 ```{revealjs-notes}
 We have Python!!
 ```
 
 ## **`<ruby>`** HTML Tag 💎
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 
 ```{revealjs-notes}
 I will explain the ruby tag before I talk about Python
@@ -395,6 +427,10 @@ Now we have figured out the the ruby tag, let's move on to Python.
 
 ## **Hiragana** and **Katakana** (あ / ア)
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 Snake(🐍) / hebi / へび / ヘビ
 
 ### **Hiragana** and **Katakana**
@@ -461,6 +497,10 @@ kana2roman.py
 ### Can read **Hiragana** and **Katakana** {nekochan}`good`
 
 ## **No Spaces** between Words
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 <ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
 
@@ -577,6 +617,10 @@ You can correctly split Japanese text into words!
 
 ## **Multiple Readings** of Kanji
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 <ruby>小<rt>ko</rt></ruby><ruby>人<rt>bito</rt></ruby> (Small person)
 
 <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>jin</rt></ruby> (Japanese)
@@ -657,6 +701,10 @@ Oh my gosh
 ```
 
 ## Get **Reading** of Kanji
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 <ruby>一**人**<rt>one person</rt>の<ruby>日本**人**<rt>Japanese</rt></ruby>の<ruby>大**人**<rt>adult</rt></ruby>が<ruby>一**人**前<rt>one serving</rt></ruby>の<ruby>ラーメン<rt>🍜</rt></ruby>を<ruby>食べる<rt>eat</rt></ruby>
 
@@ -793,6 +841,10 @@ kanji_reading_romaji.py
 ### Can read **Kanji** {nekochan}`medetai`
  
 ## Kanji **level** support {nekochan}`tunda`
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ### Kanji **level** support {nekochan}`tunda`
 
@@ -1001,6 +1053,10 @@ You can learn Kanji at your own Japanese level.
 
 ## **Sample** App {nekochan}`work`
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 * {fab}`github` [learn-jp-with-python/learn_jp_pyconcn.py](https://github.com/takanory/learn-jp-with-python/blob/main/learn_jp_pyconcn.py)
 
 ```bash
@@ -1022,6 +1078,10 @@ You can learn Kanji at your own Japanese level.
 
 ## **Summary** {nekochan}`juutai`
 
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
+
 * Japanese is **Difficult**
   * 3 Characters, No spaces, Kanji readings
 * Python supports Japanese learning
@@ -1029,9 +1089,11 @@ You can learn Kanji at your own Japanese level.
   * **SudachiPy**: Morphological analyzer
 * **Kanji level** support
   
-## 🇯🇵 ❤️ {fab}`python`
+## 🇯🇵 ❤️ {fab}`python`<br />Learn **Japanese** with **Python**
 
-Learn **Japanese** with **Python**
+```{revealjs-section}
+:data-background-image: images/pyconchina-background2.png
+```
 
 ```{revealjs-notes}
 You can learn Japanese with Python.
@@ -1039,6 +1101,10 @@ Please try to create your own Japanese learning tool!
 ```
 
 ## Thank you {nekochan}`pray`
+
+```{revealjs-section}
+:data-background-image: images/pyconchina-background1.png
+```
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 {fas}`code` [sample code](https://github.com/takanory/slides/tree/master/slides/20250516pyconus/code)
