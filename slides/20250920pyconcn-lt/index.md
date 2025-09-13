@@ -5,7 +5,7 @@
 .. |cover| image:: images/20250920pyconcn-lt.png
 ```
 
-# Put 🐱 Cat Emojis in your Documents!
+# Put 🐱 Cat Emojis<br />in your Documents!
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background1.png
 ```
