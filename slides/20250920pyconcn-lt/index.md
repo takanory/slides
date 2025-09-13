@@ -9,6 +9,7 @@
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background1.png
 ```
+在你的文档里加入🐱猫咪表情吧！
 
 Takanori Suzuki
 
@@ -19,7 +20,11 @@ PyCon China 2025 / 2025 Sep 20
 :data-background-image: images/pyconchina-background2.png
 ```
 
+你喜欢猫吗？🐱
+
 ### IMO, **Many programmers** like Cats <br /> 🧑‍💻 👩‍💻 ❤️ 🐱
+
+在我看来，许多程序员喜欢猫
 
 ### For example
 
@@ -50,6 +55,8 @@ PyCon China 2025 / 2025 Sep 20
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background2.png
 ```
+
+关于猫咪表情符号
 
 ### Cat Emojis for **Slack** & **Discord** 💬
 
@@ -90,6 +97,8 @@ PyCon China 2025 / 2025 Sep 20
 :data-background-image: images/pyconchina-background2.png
 ```
 
+文档中的猫咪表情符号
+
 ### Motivation 💪
 
 * Use Cat Emojis on **My Slides**
@@ -114,6 +123,8 @@ Copy & Paste lots of Emojis is **Boring**
 ```
 
 ("Nekochan" is Cat in Japanese)
+
+("Nekochan" 是日语中的 "猫")
 
 ### **sphinx-nekochan** 🔧
 
@@ -200,6 +211,8 @@ I love :nekochan:`beer`
 :data-background-image: images/pyconchina-background2.png
 ```
 
+sphinx-nekochan 在幻灯片上
+
 ### sphinx-revealjs 
 
 * {fas}`globe` [sphinx-revealjs.readthedocs.io](https://sphinx-revealjs.readthedocs.io/)
@@ -230,6 +243,8 @@ I love :nekochan:`beer`
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background2.png
 ```
+
+自定义表情符号
 
 ### Customize emoji **Height** {nekochan}`nobita` [^height]
 
@@ -439,7 +454,7 @@ I love :nekochan:`beer`
 {nekochan}`medetai-nya`
 {nekochan}`melty-nya`
 
-## Thank you {nekochan}`pray`
+## Thank you / 谢谢 {nekochan}`pray`
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background1.png
 ```
