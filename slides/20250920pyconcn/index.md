@@ -11,6 +11,8 @@
 :data-background-image: images/pyconchina-background1.png
 ```
 
+如何用 Python 学习日语
+
 Takanori Suzuki
 
 PyCon China 2025 / 2025 Sep 20
@@ -191,11 +193,19 @@ Hiroshima has several direct flights from overseas, but sorry, no direct flights
 :data-background-image: images/pyconchina-background2.png
 ```
 
+我有问题
+
 ### Have you **learned** Japanese? {nekochan}`study`
+
+你学过日语吗？
 
 ### Are you **interested** in Japanese? {nekochan}`miru`
 
+你对日语感兴趣吗？
+
 ### Would you like to **visit** Japan? {nekochan}`travel`
+
+您想去日本旅行吗？
 
 ```{revealjs-notes}
 Almost everyone.
@@ -356,7 +366,7 @@ I will explain the ruby tag before I talk about Python
 
 ### What is **Ruby** ?
 
-* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation** [^ruby]
+* <ruby>ルビ<rt>ruby</rt></ruby>(注音) characters are **small annotation** [^ruby]
 * Usually placed **above** the text
 * (Not a Programming Language)
 
@@ -709,6 +719,8 @@ Oh my gosh
 <ruby>一**人**<rt>one person</rt>の<ruby>日本**人**<rt>Japanese</rt></ruby>の<ruby>大**人**<rt>adult</rt></ruby>が<ruby>一**人**前<rt>one serving</rt></ruby>の<ruby>ラーメン<rt>🍜</rt></ruby>を<ruby>食べる<rt>eat</rt></ruby>
 
 One Japanese adult eats one serving of ramen
+
+一位日本成年人吃一碗标准份量的拉面
 
 ```{revealjs-notes}
 There are 4 same kanji character, all with different readings.
