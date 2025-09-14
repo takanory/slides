@@ -61,7 +61,8 @@ PyCon China 2025 / 2025 Sep 20
 
 * [FSI language difficulty](https://www.fsi-language-courses.org/blog/fsi-language-difficulty/)
   * Japanese is "**super-hard languages**" for English speakers to learn
-  * Catevory V* (More than 88 weeks)
+  * Category V* (More than 88 weeks)
+  * (Chinese is Category V)
   
 ```{revealjs-notes}
 * "FSI language difficulty" reports Japanese is ...
@@ -71,8 +72,7 @@ PyCon China 2025 / 2025 Sep 20
 :notitle:
 ```
   
-<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="740"><a href="https://www.reddit.com/r/MapPorn/comments/1f97r63/language_difficulty_rankings_for_native_english/">Language difficulty rankings (for native English speakers)</a><br> by<a href="https://www.reddit.com/user/Homesanto/">u/Homesanto</a> in<a href="https://www.reddit.com/r/MapPorn/">MapPorn</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
-  
+<blockquote class="reddit-embed-bq" style="height:400px" data-embed-height="700"><a href="https://www.reddit.com/r/MapPorn/comments/1f97r63/language_difficulty_rankings_for_native_english/">Language difficulty rankings (for native English speakers)</a><br> by<a href="https://www.reddit.com/user/Homesanto/">u/Homesanto</a> in<a href="https://www.reddit.com/r/MapPorn/">MapPorn</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 ### Goal
 
@@ -269,7 +269,9 @@ This table shows 3 different characters for each peach and snake.
 
 すもも/も/もも/も/もも/の/うち
 
-"Plums and peaches are part of peaches"
+"Plums and peaches are a kind of peaches"
+
+"李子和桃子都属于桃类水果"
 
 ```{revealjs-notes}
 This sentence "すもももももももものうち" is a play on words, but it is correct Japanese.
@@ -283,6 +285,14 @@ Most Japanese can correctly break this sentence into words.
 ```{revealjs-notes}
 For example, this kanji character means peason and people.
 ```
+
+```{revealjs-break}
+```
+
+* Many **Chinese Kanjis** have **One** pronunciation
+* 人: rén
+* 日本:  rì běn
+* 小: xiǎo
 
 ```{revealjs-break}
 ```
@@ -301,6 +311,7 @@ Many kanji caracter have 2 styles of readings.
 * **人**: person, people
 * **Japanese**-style reading: ひと(hito)、びと(bito)
 * **Chinese**-style reading: じん(jin)、にん(nin)
+* (Chinese pronounciation: rén )
 
 ```{revealjs-notes}
 The kanji caracter has a total of four different readings.
@@ -326,6 +337,7 @@ What do you think these idioms read?
   * Japanese-style reading: ひと(hito)、びと(bito)
 * <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>**jin**</rt></ruby> (Japanese)
   * Chinese-style reading: じん(jin)、にん(nin)
+* (Chinese pronounciation: rì běn rén  /  xiǎo rén)
   
 ```{revealjs-notes}
 The 1st one is Japanese-style reading, "Kobito".
@@ -681,16 +693,23 @@ And there is more...
 
 ### **Special readings** of Kanji idioms
 
-* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri</rt></ruby> 🇯🇵
+* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri </rt></ruby> 🇯🇵
 * 二 **人** (Two people)
 * 三 **人** (Three people)
 
 ```{revealjs-break}
 ```
 
-* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri</rt></ruby> 🇯🇵
-* 二 **人** (Two people): <ruby>**ふたり**<rt>fu ta ri</rt></ruby> 🇯🇵
-* 三 **人** (Three people): <ruby>**さんにん**<rt>sa n ni n</rt></ruby> 🇨🇳
+* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri </rt></ruby> 🇯🇵
+* 二 **人** (Two people): <ruby>**ふたり**<rt>fu ta ri </rt></ruby> 🇯🇵
+* 三 **人** (Three people)
+
+```{revealjs-break}
+```
+
+* 一 **人** (One person): <ruby>**ひとり**<rt>hi to ri </rt></ruby> 🇯🇵
+* 二 **人** (Two people): <ruby>**ふたり**<rt>fu ta ri </rt></ruby> 🇯🇵
+* 三 **人** (Three people): <ruby>**さんにん**<rt>sa n ni n </rt></ruby> 🇨🇳
 
 ```{revealjs-notes}
 These are special readings of Kanji idioms.
