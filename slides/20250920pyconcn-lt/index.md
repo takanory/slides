@@ -97,7 +97,7 @@ PyCon China 2025 / 2025 Sep 20
 :data-background-image: images/pyconchina-background2.png
 ```
 
-文档中的猫咪表情符号
+手动选择猫咪表情符号的文件
 
 ### Motivation 💪
 
@@ -124,7 +124,7 @@ Copy & Paste lots of Emojis is **Boring**
 
 ("Nekochan" is Cat in Japanese)
 
-("Nekochan" 是日语中的 "猫")
+("Nekochan" 是日语 "猫ちゃん" 的罗马音)
 
 ### **sphinx-nekochan** 🔧
 
@@ -211,7 +211,7 @@ I love :nekochan:`beer`
 :data-background-image: images/pyconchina-background2.png
 ```
 
-sphinx-nekochan 在幻灯片上
+在幻灯片中使用sphinx-nekochan
 
 ### sphinx-revealjs 
 

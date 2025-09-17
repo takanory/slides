@@ -205,7 +205,7 @@ Hiroshima has several direct flights from overseas, but sorry, no direct flights
 
 ### Would you like to **visit** Japan? {nekochan}`travel`
 
-您想去日本旅行吗？
+你想去日本旅行吗？
 
 ```{revealjs-notes}
 Almost everyone.
@@ -378,7 +378,8 @@ I will explain the ruby tag before I talk about Python
 
 ### What is **Ruby** ?
 
-* <ruby>ルビ<rt>ruby</rt></ruby>(注音) characters are **small annotation** [^ruby]
+* <ruby>ルビ<rt>ruby</rt></ruby> characters are **small annotation** [^ruby]
+  * (Chinese: 注音)
 * Usually placed **above** the text
 * (Not a Programming Language)
 
