@@ -134,7 +134,7 @@ Please visit slides.takanory.net or via QR code and click on the "Slides" link!
 ```{revealjs-notes}
 I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
 I'm a Chair of PyCon JP Association.
-And I'm a director of BeProud Inc and my title is "Python CLimber".
+And I'm a director of BeProud Inc and my title is "Python Climber".
 I'm also active in several Python related communities in Japan.
 ```
 
@@ -165,7 +165,7 @@ Do you know PyCon JP?
 ```
 
 ```{revealjs-notes}
-PyCon JP 2025 will be held in Hiroshima at the end of September.
+PyCon JP 2025 will be held in Hiroshima next week.
 This is the first PyCon JP to be held outside of Tokyo.
 Do you know Hiroshima?...
 ```
@@ -184,7 +184,7 @@ Do you know Hiroshima?...
 ```{revealjs-notes}
 Do you know Hiroshima?...
 Hiroshima is west of Tokyo and Kyoto.
-Hiroshima has several direct flights from overseas, but sorry, no direct flights from US.
+Hiroshima has direct flights from Shanghai and Dalian.
 ```
 
 ## Questions {nekochan}`hai`
@@ -223,8 +223,8 @@ There is a very good opportunity for you...
 ```
 
 ```{revealjs-notes}
-PyCon JP 2025 will be held in Hiroshima in September.
-See you again at PyCon JP 2025.
+PyCon JP 2025 will be held in Hiroshima next week.
+I'm here. You can go Hiroshima. See you again at PyCon JP 2025.
 ```
 
 ## Japanese is **Difficult** {nekochan}`yabai`
@@ -260,6 +260,11 @@ This table shows 3 different characters for each peach and snake.
 
 <ruby>すもももももももものうち<rt> su mo mo mo mo mo mo mo mo no u chi </rt></ruby>
 
+```{revealjs-notes}
+This sentence "すもももももももものうち" is a play on words, but it is correct Japanese.
+Most Japanese can correctly break this sentence into words.
+```
+
 ```{revealjs-break}
 ```
 
@@ -272,11 +277,6 @@ This table shows 3 different characters for each peach and snake.
 "Plums and peaches are a kind of peaches"
 
 "李子和桃子都属于桃类水果"
-
-```{revealjs-notes}
-This sentence "すもももももももものうち" is a play on words, but it is correct Japanese.
-Most Japanese can correctly break this sentence into words.
-```
 
 ### **Multiple Readings** of Kanji
 
@@ -302,7 +302,7 @@ For example, this kanji character means peason and people.
 * **Chinese**-style reading(<ruby>音読み<rt>on yomi</rt></ruby>)
 
 ```{revealjs-notes}
-Many kanji caracter have 2 styles of readings.
+Many Japanese kanjis have 2 styles of readings.
 ```
   
 ```{revealjs-break}
@@ -337,7 +337,7 @@ What do you think these idioms read?
   * Japanese-style reading: ひと(hito)、びと(bito)
 * <ruby>日<rt>ni</rt></ruby><ruby>本<rt>hon</rt></ruby><ruby>人<rt>**jin**</rt></ruby> (Japanese)
   * Chinese-style reading: じん(jin)、にん(nin)
-* (Chinese pronounciation: rì běn rén  /  xiǎo rén)
+* (Chinese pronounciation: xiǎo rén / rì běn rén)
   
 ```{revealjs-notes}
 The 1st one is Japanese-style reading, "Kobito".
@@ -468,7 +468,7 @@ Snake(🐍) / hebi / へび / ヘビ
 ```
 
 * Basically use Hiragana
-  * <ruby>あめりか<rt> a me ri ka</rt></ruby> (America)
+  * <ruby>ちゅ<rt>chu</rt></ruby><ruby>うごく<rt> u go ku </rt></ruby> (China)
 * Katakana is used for foreign words
   * <ruby><ruby>パイコン<rt>pa i ko n </rt></ruby> (PyCon)
 
@@ -570,7 +570,7 @@ In this case, I use SudachiPy and SudachiDict
 
 ```{revealjs-notes}
 SudachiPy is made by Rust and is very fast.
-SudachiDict has three types of different dictionaries with different numbers of vocabularies.
+SudachiDict has three types of dictionaries with different numbers of vocabularies.
 Here I use core dictionary, the default.
 ```
 
@@ -1132,7 +1132,7 @@ You can learn Japanese with Python.
 Please try to create your own Japanese learning tool!
 ```
 
-## Thank you {nekochan}`pray`
+## Thank you / 谢谢 {nekochan}`pray`
 
 ```{revealjs-section}
 :data-background-image: images/pyconchina-background1.png
@@ -1148,3 +1148,8 @@ Please try to create your own Japanese learning tool!
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+```{revealjs-notes}
+Thank you!!
+See you again at PyCon Japan or somewhere.
+```

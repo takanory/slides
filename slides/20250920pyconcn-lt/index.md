@@ -149,14 +149,14 @@ Copy & Paste lots of Emojis is **Boring**
 
 ### Get Started 🏃
 
+* install, generate Sphinx base files
+
 ```bash
-# sphinx is also install
 (env) % pip install sphinx-nekochan
-# generates Sphinx base files
-(env) % sphinx-quickstart
+	(env) % sphinx-quickstart
 ```
 
-* add `sphinx_nekochan` extension in **conf.py**
+	* add `sphinx_nekochan` extension in **conf.py**
 
 ```{code-block} python
 extensions = [
@@ -235,6 +235,10 @@ I love :nekochan:`beer`
 * I want to see :nekochan:`panda`
 ```
 ````
+
+```bash
+(env) % make revealjs
+```
 
 * I love {nekochan}`beer`
 * I want to see {nekochan}`panda`
