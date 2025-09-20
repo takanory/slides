@@ -17,6 +17,11 @@ Takanori Suzuki
 
 PyCon China 2025 / 2025 Sep 20
 
+```{revealjs-notes}
+I'm happy to talk here.
+This is my first PyCon China and my first time in China.
+```
+
 ## Agenda ✅
 
 ```{revealjs-section}
@@ -109,7 +114,7 @@ Hashtag is #pyconchina
 
 ```{revealjs-notes}
 This slide has been published.
-Please visit slides.takanory.net or via QR code and click on the "Slides" link!
+Please visit slides.takanory.net or scan QR code and click on the "Slides" link!
 ```
 
 ## Who am I? 👤
@@ -184,7 +189,7 @@ Do you know Hiroshima?...
 ```{revealjs-notes}
 Do you know Hiroshima?...
 Hiroshima is west of Tokyo and Kyoto.
-Hiroshima has direct flights from Shanghai and Dalian.
+Grea news!! Shanghai and Dalian have direct flights to Hiroshima.
 ```
 
 ## Questions {nekochan}`hai`
@@ -293,6 +298,11 @@ For example, this kanji character means peason and people.
 * 人: rén
 * 日本:  rì běn
 * 小: xiǎo
+
+```{revealjs-notes}
+Many Chinese Kanjis have One pronunciation, right? But...
+```
+
 
 ```{revealjs-break}
 ```
@@ -445,7 +455,7 @@ The ruby tag is also used for Furigana, the reading of other characters in hirag
 ### Figured out **`<ruby>`** Tag {nekochan}`naruhodo`
 
 ```{revealjs-notes}
-Now we have figured out the the ruby tag, let's move on to Python.
+Now we have figured out the ruby tag, let's move on to Python.
 ```
 
 ## **Hiragana** and **Katakana** (あ / ア)
@@ -727,7 +737,8 @@ These are special readings of Kanji idioms.
 ### {nekochan}`scream;2em` {nekochan}`scream;2em` {nekochan}`scream;2em`
 
 ```{revealjs-notes}
-Oh my gosh
+Oh my gosh.
+There are no rules for special readings. You just have to memorize them.
 ```
 
 ## Get **Reading** of Kanji
