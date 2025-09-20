@@ -153,10 +153,10 @@ Copy & Paste lots of Emojis is **Boring**
 
 ```bash
 (env) % pip install sphinx-nekochan
-	(env) % sphinx-quickstart
+(env) % sphinx-quickstart
 ```
 
-	* add `sphinx_nekochan` extension in **conf.py**
+* add `sphinx_nekochan` extension in **conf.py**
 
 ```{code-block} python
 extensions = [
