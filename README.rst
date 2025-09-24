@@ -40,7 +40,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * `Python開発環境の整え方ライブデモ <https://2025.pycon.jp/ja/timetable/talk/SB3RDY>`__
-     * 
+     * `Slides <https://docs.google.com/presentation/d/16hBhrfSc4V5ng6LIS28uI9RJdbscRuLHUzF2QOJ2I7o/edit>`__
    - * `PyCon China 2025 <https://cn.pycon.org/2025/en/>`__
      * Shanghai, China
      * 2025 Sep
