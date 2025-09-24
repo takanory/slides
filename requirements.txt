@@ -5,4 +5,4 @@ Sphinx==8.2.3
 sphinx-nekochan==0.3.4
 sphinx-revealjs==3.2.0
 sphinx_design==0.6.1
-sphinxext-opengraph[social_cards]==0.12.0
+sphinxext-opengraph[social_cards]==0.13.0
