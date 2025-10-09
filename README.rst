@@ -62,6 +62,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * 素振り（すぶり）のススメ
      * `Slides <https://slides.takanory.net/slides/20250826euroreport>`__
+       `Video <https://www.youtube.com/watch?v=ZVjKvNWd_Zk&t=1395s>`__
    - * BPStyle 175
      * 2025 Aug
      * Online
@@ -91,6 +92,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * ついにPyCon USで現地登壇できた！！激闘と苦難の歴史
      * `Slides <https://slides.takanory.net/slides/20250710usreport>`__
+       `Video <https://youtu.be/C6rtIirEMD0?si=fp6BghP_Ok9PtNx3&t=472>`__
    - * BPStyle 174
      * Online
      * 2025 Jul
@@ -105,6 +107,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
      * `Slides <https://slides.takanory.net/slides/20250621oscshimane>`__
+       `Video <https://www.youtube.com/live/f5qsxiI28kQ?si=PCDwBIsjYugSIDHL&t=13397>`__
    - * `PyCon US 2025 <https://us.pycon.org/2025/>`_
      * Pittsburgh, PA
      * 2025 May
