@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `OSC 2025 Fukuoka <https://event.ospn.jp/osc2025-fukuoka/>`_
+     * Fukuoka, Japan
+     * 2025 Nov
+     * Talk
+     * ja
+     * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
+     * 
    - * `PyCon JP 2025 <https://2025.pycon.jp/>`__
      * Hiroshima, Japan
      * 2025 Sep
