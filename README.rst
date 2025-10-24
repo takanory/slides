@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
      * 
+   - * `PyLadies Tokyo11周年記念パーティ <https://pyladies-tokyo.connpass.com/event/371548/>`__
+     * Tokyo, Japan
+     * 2025 Oct
+     * Talk
+     * ja
+     * 素振り（すぶり）のススメ
+     * `Slides <https://slides.takanory.net/slides/20251025pyladies>`__
    - * `PyCon JP 2025 <https://2025.pycon.jp/>`__
      * Hiroshima, Japan
      * 2025 Sep
