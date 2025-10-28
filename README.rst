@@ -69,6 +69,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * `How to learn Japanese with Python <https://cn.pycon.org/2025/en/talks/how-to-learn-japanese-with-python/>`__
      * `Slides <https://slides.takanory.net/slides/20250920pyconcn>`__
+       `Video <https://www.bilibili.com/video/BV1QPWmzbEKa/>`__
        `Report <https://gihyo.jp/article/2025/10/pycon-cn-2025>`__
    - * `EuroPython & PHPers Day 2025 参加報告会 <https://pyconjp.connpass.com/event/364753/>`__
      * Tokyo, Japan
