@@ -100,7 +100,8 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * Learn Japanese 🇯🇵 with Python
      * `Slides <https://slides.takanory.net/slides/20250718euro>`__
-       `Report <https://gihyo.jp/list/group/EuroPython-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88>`__
+       `Video <https://www.youtube.com/watch?v=IkYWHLSgyOo&t=104s>`__
+       `Report <https://youtu.be/IkYWHLSgyOo?si=nxkcITFhzSNOxkFG&t=1409>`__
    - * `PyCon US 2025 参加報告会 <https://pyconjp.connpass.com/event/357582/>`_
      * Tokyo, Japan
      * 2025 Jul
