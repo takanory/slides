@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
      * 
+   - * BPStyle 178
+     * 2025 Nov
+     * Online
+     * Talk
+     * ja
+     * はじめての中国 はじめてのPyCon China
+     * `Slides <https://slides.takanory.net/slides/20251106bpstyle>`__
    - * `PyLadies Tokyo11周年記念パーティ <https://pyladies-tokyo.connpass.com/event/371548/>`__
      * Tokyo, Japan
      * 2025 Oct
