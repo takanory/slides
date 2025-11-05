@@ -2,7 +2,7 @@ atsphinx-audioplayer==0.2.0
 furo==2025.9.25
 myst-parser==4.0.1
 Sphinx==8.2.3
-sphinx-nekochan==0.3.4
+sphinx-nekochan==0.4.0
 sphinx-revealjs==3.2.0
 sphinx_design==0.6.1
 sphinxext-opengraph[social_cards]==0.13.0
