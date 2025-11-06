@@ -178,7 +178,7 @@ BPStyle 178 / 2025 Nov 6
 
 ![](images/supermarket.jpg)
 
-### Frugra (48.05 CNY = 1,030 JPY)
+### Frugra (48.05 CNY = 1,030 JPY) {nekochan}`rubber-chicken`
 
 ```{image} images/frugra.jpg
 :width: 35%
@@ -188,13 +188,73 @@ BPStyle 178 / 2025 Nov 6
 
 ![](images/crab.jpg)
 
-### In-flight meal
+### In-flight meal {nekochan}`gohan-taberu`
 
 ![](images/meal.jpg)
 
-### Japan
+### Return to Japan {nekochan}`ie`
 
 ![](images/japan.jpg)
+
+## はじめての中国<br />**いい**ところ {nekochan}`ok`<br />**いまいち**なところ {nekochan}`ng`
+
+### 物価が**安い** {nekochan}`nice`
+
+* 1 CNY≒20 JPY
+* リニアモーターカー: 50 CNY
+* 地下鉄: 3〜7 CNY
+* 新幹線で1駅: 25 CNY
+
+### どこでも**QRコード**決済 {nekochan}`shoudan`
+
+* AlipayまたはWechat Pay必須
+* クレジットカードから引き落とし
+* 現金不要
+
+### ここで飲んでいた時のこと
+
+![](images/beer2.jpg)
+
+```{revealjs-break}
+```
+
+* 店内は一杯なので外で立ち飲み
+* 物乞いの人が来た
+* 「マニーマニー」と言っているが無視
+* 「首から提げた**QRコード**」をアピール {nekochan}`bikkuri`
+* 物乞いの人もQRコード決済が必須
+
+### Alipay、Wechatはスーパーアプリ
+
+* Alipayの中から**DiDi**（配車アプリ）を使える
+* 支払いはAlipay
+* 便利 {nekochan}`good`
+
+### **グレート・ファイアウォール**[^firewall] {nekochan}`nanimo-sitenainoni-kowareta`
+
+* 普段使っているサービスが**使えない**
+* Gmail、Googleドライブ、YouTubeなどのGoogleのサービス全般
+* X（Twitter⁠）⁠、Facebook、GitHub
+* **VPN**が必須
+
+[^firewall]: [グレート・ファイアウォール - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB)
+
+### Google Mapsでルート検索できない {nekochan}`scream`
+
+* 鉄道のルート検索ができない！！
+* 高徳地図または百度地図が必須
+
+![](images/route.png)
+
+### アプリ入れたくないけど<br />入れないわけにいかない... {nekochan}`yadayada`
+
+* 帰国したら速攻アンインストール {nekochan}`byebye`
+
+### まとめ
+
+* PyCon JP直前なので滞在短め
+* また行ってもいいかなと思いつつ
+* ネットとアプリがアレだからなー...
 
 ## See you in next **Travelogue** {nekochan}`travel`
 
