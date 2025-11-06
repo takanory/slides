@@ -43,7 +43,7 @@ BPStyle 178 / 2025 Nov 6
 
 ![](images/to-maglev.jpg)
 
-### Maglev
+### [Shanghai Maglev](http://www.smtdc.com/en/)
 
 ![](images/maglev.jpg)
 
@@ -51,11 +51,13 @@ BPStyle 178 / 2025 Nov 6
 
 ![](images/300km.jpg)
 
-### Subway Gates(VISA touch!!) {nekochan}`yatta`
+### Subway Gates(VISA touch!!)[^visa] {nekochan}`yatta`
 
 ```{image} images/subway-gates.jpg
-:width: 35%
+:width: 30%
 ```
+
+[^visa]: [中国・上海メトロ全線でVisaタッチ決済を導入、21路線517駅で利用可能に（トラベルボイス） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/6088099874c155a378f6867c0e640e85fab3f2dd)
 
 ### [Tap That](https://www.instagram.com/tapthatshanghai/?hl=ja) {nekochan}`beer`
 
@@ -222,7 +224,9 @@ BPStyle 178 / 2025 Nov 6
 * 物乞いの人が来た
 * 「マニーマニー」と言っているが無視
 * 「首から提げた**QRコード**」をアピール {nekochan}`bikkuri`
-* 物乞いの人もQRコード決済が必須
+* 物乞いの人もQRコード決済が必須 [^monogoi]
+
+[^monogoi]: [中国のキャッシュレス｢物乞いまで｣浸透した訳 政府による｢GAFA締め出し｣が功を奏した | 中国･台湾 | 東洋経済オンライン](https://toyokeizai.net/articles/-/337343?display=b)
 
 ### Alipay、Wechatはスーパーアプリ
 
