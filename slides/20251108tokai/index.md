@@ -124,7 +124,7 @@ Cat Emojis for **Slack** & **Discord**
 
 [^guide]: [Guidelines for Using Cat Emojis](https://note.com/shikamatsu/n/n8818bb5ebea1#8b38f78f-1883-46c6-a596-63d9bf4c69da)
 
-## **ドキュメント**にネコチャン絵文字 🐱 📄
+## **ドキュメント**に<br />ネコチャン絵文字 🐱 📄
 
 Cat Emojis in **Documents**
 
@@ -193,7 +193,7 @@ extensions = [
 ```{revealjs-break}
 ```
 
-* ドキュメントで**`nekochan`**ロールを使用
+* ドキュメントで **`nekochan`** ロールを使用
 
 ````{tab-set-code}
 ```markdown
