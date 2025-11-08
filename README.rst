@@ -41,6 +41,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
      * 
+   - * `PyCon mini 東海 2025 <https://tokai.pycon.jp/2025/>`__
+     * 2025 Nov
+     * Aichi, Japan
+     * Talk
+     * ja
+     * 🐱ネコチャン絵文字をドキュメントに入れよう！
+     * `Slides <https://slides.takanory.net/slides/20251108tokai>`__
    - * BPStyle 178
      * 2025 Nov
      * Online
