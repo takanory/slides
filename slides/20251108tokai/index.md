@@ -15,7 +15,38 @@ Takanori Suzuki
 
 PyCon mini 東海 2025 / 2025 Nov 8
 
-## **ネコ**🐱は好きですか？
+## **Who** am I? / お前 **誰よ** 👤
+
+* Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
+* [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
+* [PyCon JP Association](https://www.pycon.jp/) 代表理事
+* [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html) 講師、[Python mini Hack-a-thon](https://pyhack.connpass.com/) 主催、[Pythonボルダリング部](https://kabepy.connpass.com/) 部長
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
+### PyCon JP 2026**共同座長** [^chairs] 🪑🪑
+
+* 日程：2026年8月21日（金）〜23日（日）
+* 会場： 広島国際会議場
+* 共同座長：佐野浩士、鈴木たかのり
+
+```{image} images/pyconjp2026-chairs.png
+:width: 60%
+```
+
+[^chairs]: [PyCon JP Blog: PyCon JP 2026 座長発表](https://pyconjp.blogspot.com/2025/10/pyconjp2026-co-chairs.html)
+
+### 主催メンバー**募集中**！！ 🙌
+
+* **イベントの方向性**や**チーム運営の方法**を<br />**一緒に考えて**くれる方をまず募集
+* PyCon JP 2026主催メンバー申込フォーム [^form]
+
+![](images/pyconjp2026-form-qr.png)
+
+[^form]: <https://forms.gle/of8NjqkPmUaF8HGR7>
+
+## **ネコ**は好きですか？ 🐱
 
 Do you like **Cats** 🐱?
 
@@ -277,6 +308,17 @@ I love {nekochan}`beer`
 * {nekochan}`octpus` [takanory/sphinx-nekochan](https://github.com/takanory/sphinx-nekochan)
   * 気に入ったら**GitHub star**してね！ {nekochan}`kitai`
 * {nekochan}`snake` [pypi.org/project/sphinx-nekochan](https://pypi.org/project/sphinx-nekochan/)
+
+
+```{revealjs-break}
+:notitle:
+```
+
+* Version 0.4.0リリースしました！！[^changelog] {nekochan}`nadenade`
+
+![](images/nekochan-changelog.png)
+
+[^changelog]: <https://sphinx-nekochan.readthedocs.io/changelog.html>
 
 ```{revealjs-break}
 :notitle:
