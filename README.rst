@@ -40,7 +40,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-fukuoka/session/2208016>`__
-     * 
+     * `Slides <https://slides.takanory.net/slides/20251122oscfukuoka>`__
    - * `PyCon mini 東海 2025 <https://tokai.pycon.jp/2025/>`__
      * 2025 Nov
      * Aichi, Japan
