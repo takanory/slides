@@ -886,9 +886,10 @@ SyntaxError: invalid syntax. Did you mean 'while'?
 
 ### エラーと**ともだち**になれそう？ {nekochan}`nakayoshi`
 
-## お知らせ
+## お知らせ {nekochan}`osirase`
 
-* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]をリリースしました {nekochan}`banzai`
+* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]を開発しています {nekochan}`banzai`
+* 気に入ったらGitHub Starしてね {nekochan}`big-love`
 * ネコチャン絵文字[^nekochan]はしかまつさんが作成・配布しています
 
 [^nekochan]: <https://note.com/shikamatsu/n/nd217dc0617db>
