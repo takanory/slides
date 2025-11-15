@@ -39,7 +39,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2025 Nov
      * Talk
      * ja
-     * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-shimane/session/2181394>`__
+     * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-fukuoka/session/2208016>`__
      * 
    - * `PyCon mini 東海 2025 <https://tokai.pycon.jp/2025/>`__
      * 2025 Nov
