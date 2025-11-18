@@ -1,4 +1,4 @@
-atsphinx-audioplayer==0.2.0
+atsphinx-audioplayer==0.2.1
 furo==2025.9.25
 myst-parser==4.0.1
 Sphinx==8.2.3
