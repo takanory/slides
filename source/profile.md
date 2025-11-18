@@ -107,6 +107,7 @@ Cover | Title | Year| Publisher
 
 ### [gihyo.jp](https://gihyo.jp/)
 
+* [t-string：テンプレート文字列リテラルの紹介](https://gihyo.jp/article/2025/11/monthly-python-2511)
 * [PyCon China 2025 参加レポート ―中国のPython事情を初見聞](https://gihyo.jp/article/2025/10/pycon-cn-2025)
 * [EuroPython 2025参加レポート](https://gihyo.jp/list/group/EuroPython-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2025/08/europython-2025-01)
 * [PyCon US 2025参加レポート](https://gihyo.jp/list/group/PyCon-US-2025%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2025/06/pycon-us-2025-01)
