@@ -95,6 +95,14 @@ OSC 2025 Fukuoka / 2025 Nov 22
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d846787.2227137293!2d130.7789848274482!3d33.99863135840774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3541eda1e9848429%3A0xf60a729936398783!2z56aP5bKh!3m2!1d33.5901838!2d130.4016888!4m5!1s0x355a9908eef34fbb%3A0x7e4ce50cfc1f772!2z5bqD5bO2!3m2!1d34.3852894!2d132.45530549999998!5e0!3m2!1sja!2sjp!4v1763183023892!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+### Python Boot Camp in 北九州 {nekochan}`work-moeru`
+
+* {fas}`globe` [`pyconjp.connpass.com/event/376015`](https://pyconjp.connpass.com/event/376015/)
+* 🗓️ 2025年12月20日(土) 13:00-17:00
+* 🏢 [GYMLABO](https://www.gymlabo.kyutech.jp/)
+* 🎫 大人2,000円、学生500円
+* 🧑‍💻👩‍💻 参加者、TA募集中！
+
 ### PyCon JP Associationブース
 
 ```{image} images/pyconjp-booth.jpg
