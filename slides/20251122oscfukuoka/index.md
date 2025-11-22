@@ -46,16 +46,31 @@ OSC 2025 Fukuoka / 2025 Nov 22
 
 ### 初！福岡 {nekochan}`yatta`
 
-![福岡空港](images/matsue-station.jpg)
+![牧のうどん](images/udon.jpg)
+
+### 初！BEERKICHI {nekochan}`beer`
+
+```{image} images/beerkichi.jpg
+:alt: BEERKICHI
+:width: 30%
+```
+
+```{image} images/beerkichi-beer.jpg
+:alt: 猫桃天国
+:width: 30%
+```
 
 ### **おすすめ情報**お待ちしています！！ {nekochan}`beer`
 
-```{image} images/beer.jpg
-:width: 20%
-```
-
 * クラフトビール
 * お土産
+* 食事
+
+```{image} images/beer-midori.jpg
+:alt: みどりのあ！くま！
+:width: 20%
+:align: center
+```
 
 ### PyCon JP **Association** 🐍
 
@@ -888,7 +903,7 @@ SyntaxError: invalid syntax. Did you mean 'while'?
 
 ## お知らせ {nekochan}`osirase`
 
-* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]を開発しています {nekochan}`banzai`
+* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]を公開 {nekochan}`banzai`
 * 気に入ったらGitHub Starしてね {nekochan}`big-love`
 * ネコチャン絵文字[^nekochan]はしかまつさんが作成・配布しています
 
