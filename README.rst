@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * BPStyle 179
+     * Online
+     * 2025 Dec
+     * Talk
+     * ja
+     * Pydanticで複雑なJSONを一発でValidation
+     * 
    - * `OSC 2025 Fukuoka <https://event.ospn.jp/osc2025-fukuoka/>`_
      * Fukuoka, Japan
      * 2025 Nov
