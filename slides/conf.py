@@ -35,6 +35,7 @@ extensions = [
     "sphinx_design",
     "atsphinx.audioplayer",
     "sphinx_nekochan",
+    "sphinxcontrib.mermaid",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

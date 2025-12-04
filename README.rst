@@ -40,7 +40,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Talk
      * ja
      * Pydanticで複雑なJSONを一発でValidation
-     * 
+     * `Slides <https://slides.takanory.net/slides/20251204bpstyle>`__
    - * `OSC 2025 Fukuoka <https://event.ospn.jp/osc2025-fukuoka/>`_
      * Fukuoka, Japan
      * 2025 Nov
