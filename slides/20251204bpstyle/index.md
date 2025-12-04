@@ -197,3 +197,135 @@ age
 email
   value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='not-an-email-address', input_type=str]
 ```
+
+## **Pydantic**で複雑なJSONをValidation {nekochan}`work-moeru`
+
+### 複数のモデルを**Unions**でまとめる {nekochan}`nakayoshi`
+
+* フォーム形式ごとにPydanticモデルは必要
+* **Unions**を使用すると「いずれかにマッチ」ができる
+* [Unions - Pydantic Validation](https://docs.pydantic.dev/latest/concepts/unions/)
+
+```{revealjs-break}
+```
+
+```{literalinclude} code/unions_sample.py
+:language: python
+```
+
+### 複数のフォームを**Unions**でまとめる {nekochan}`gattai`
+
+```{mermaid}
+classDiagram
+    BaseForm <|-- WrittenForm
+    BaseForm <|-- ChoicesForm
+    WrittenForm <-- AnswerForm
+    ChoicesForm <-- AnswerForm
+    class BaseForm{
+        str: question
+        str: answer_format
+        object: display
+        object: body
+    }
+    class WrittenForm {
+        WrittenDisplay: display
+        WrittenBody: body
+    }
+    class ChoicesForm {
+        ChoicesDisplay: display
+        ChoicesBody: body
+    }
+    class AnswerForm {
+        WritterForm_or_ChoicesForm: answer_form
+    }
+```
+
+```{revealjs-break}
+```
+
+* フォームの**ベースクラス**を定義
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 1-11
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **記述式**のフォームモデルを定義
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 14-17,19-23,25-29
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **選択式**のフォームモデルを定義
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 32-36,38-42,44-47,49-53
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **Unions**で複数のフォームを1つに**まとめる**
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 25-30,49-54,56-58
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* 記述式を**Validation**
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 61-73,91-92
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* 選択式を**Validation**
+
+```{literalinclude} code/unions_form.py
+:language: python
+:lines: 74-90,95-96
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* きちんとValidationできてるーーーー {nekochan}`big-love`
+
+```{code-block} python
+# 見やすさのために改行を入れてます
+answer_form=WrittenForm(
+    question='Pythonの作者は？',
+    answer_format='written',
+    display=WrittenDisplay(textInputFormat=1),
+    body=WrittenBody(answers=['Guido van Rossum'], placeholder='作者名をアルファベットで書いてください'))
+answer_form=ChoicesForm(
+    question='Python 3.14の新機能はどれ？',
+    answer_format='choices',
+    display=ChoicesDisplay(choices_selector='button', choices_label='ABC'),
+    body=ChoicesBody(answers=[
+        ChoicesAnswer(answer='t-string', is_correct=True),
+        ChoicesAnswer(answer='safe external debugger', is_correct=True),
+        ChoicesAnswer(answer='lazy import', is_correct=False)
+    ]))
+```
+
