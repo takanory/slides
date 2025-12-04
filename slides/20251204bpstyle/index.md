@@ -81,7 +81,7 @@ BPStyle 179 / 2025 Nov 4
 
 ### JSON Schema
 
-* [`json-schema.org`](https://json-schema.org/)
+* {fas}`globe` [`json-schema.org`](https://json-schema.org/)
 * JSONデータの定義をJSONで書ける
 * Pythonのライブラリ([jsonschema](https://python-jsonschema.readthedocs.io/en/stable/))あり
 
@@ -129,7 +129,7 @@ BPStyle 179 / 2025 Nov 4
 
 ### Pydantic
 
-* [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
+* {fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
 * Python用のデータValidationライブラリ
 * dataclass、TypedDictなどをValidation可能
 * **型ヒント**を使ってルールを定義 {nekochan}`yoshi`
@@ -143,7 +143,7 @@ BPStyle 179 / 2025 Nov 4
 
 * めっちゃ**いい感じ**にできた（自画自賛） {nekochan}`doya`
 
-## Pydanticの基本
+## Pydanticの基本 {nekochan}`benkyou`
 
 ```{code-block} bash
 $ pip install "pydantic"
@@ -213,29 +213,35 @@ email
 :language: python
 ```
 
-### 複数のフォームを**Unions**でまとめる {nekochan}`gattai`
+### 複数の**フォーム**をUnionsでまとめる {nekochan}`gattai`
+
+```{revealjs-break}
+```
 
 ```{mermaid}
+---
+title: モデルクラスの構成図
+---
 classDiagram
     BaseForm <|-- WrittenForm
     BaseForm <|-- ChoicesForm
     WrittenForm <-- AnswerForm
     ChoicesForm <-- AnswerForm
-    class BaseForm{
+    class BaseForm["BaseForm(共通の要素を定義)"] {
         str: question
         str: answer_format
         object: display
         object: body
     }
-    class WrittenForm {
+    class WrittenForm["WrittenForm(記述式のフォーム)"] {
         WrittenDisplay: display
         WrittenBody: body
     }
-    class ChoicesForm {
+    class ChoicesForm["ChoicesForm(選択式のフォーム)"] {
         ChoicesDisplay: display
         ChoicesBody: body
     }
-    class AnswerForm {
+    class AnswerForm["AnswerForm(複数フォームをまとめたモデル)"] {
         WritterForm_or_ChoicesForm: answer_form
     }
 ```
@@ -329,3 +335,118 @@ answer_form=ChoicesForm(
     ]))
 ```
 
+### Pydanticで**一発でValidation**できそう！ {nekochan}`kitakitakitakita-kitakitsune`
+
+## SchemaからPydantic**コード生成** {nekochan}`kitai`
+
+### SchemaからPydantic**コード生成** {nekochan}`kitai`
+
+* 実際のJSON Schemaはもっと**複雑**
+* フォーム形式も**6パターン**
+* Pydanticのコード書くのは大変そう
+
+### datamodel-code-generator {nekochan}`kami`
+
+* {fas}`globe` [`koxudaxi.github.io/datamodel-code-generator`](https://koxudaxi.github.io/datamodel-code-generator/)
+* 各種データ定義からPythonの**コードを生成**
+* 入力：OpenAPI、**JSON Schema**、YAML、GraphQL、Python辞書など
+* 出力：**Pydantic**、dataclass、TypedDictなど
+
+```{revealjs-break}
+```
+
+* 基本的な使い方
+* 実際はフォーム形式ごとにJSONファイルを作成し、モデルコードを生成
+
+```{code-block} bash
+% pip install datamodel-code-generator
+% datamodel-codegen --input scheama.json \
+  --input-file-type jsonschema \
+  --output-model-type pydantic_v2.BaseModel \
+  --output model.py
+```
+
+### 生成コードで各フォームの<br />**Pydanticモデル**ができた！ {nekochan}`dai-kansha`
+
+## さらにValidation**ルールを追加** {nekochan}`mada`
+
+### さらにValidation**ルールを追加** {nekochan}`mada`
+
+* データを意味的に解釈してチェックしたい
+* 複数の項目の組み合わせでチェックしたい
+* →**Constraints**追加、**Validator**の**作成**
+
+### **任意の値**のみ選択可能にする
+
+* Enumで定義した値のみ指定可 [^enums]
+
+```{code-block} python
+from enum import Enum
+
+class TextInputFormat(Enum):
+    """記述式のテキスト入力形式"""
+    HALF_WIDTH = 1  # 幅50%
+    FULL_WIDTH = 2  # 幅100%（1行）
+	
+class WrittenDisplay(BaseModel):
+    """記述式の表示形式"""
+    text_input_format: TextInputFormat
+```
+
+[^enums]: <https://docs.pydantic.dev/latest/api/standard_library_types/#enums>
+
+### **数値の範囲**や**文字数**を指定
+
+* `Field()`に数値の範囲[^integers]、文字数[^strings]などの条件を指定できる
+
+```{code-block} python
+class WrittenDisplay(BaseModel):
+    # 数値の上限を指定
+    max_length: PositiveInt = Field(..., le=100)
+    # 文字数の範囲を指定
+    question: str = Field(..., min_length=20, max_length=500)
+```
+
+ [^integers]: <https://docs.pydantic.dev/latest/api/standard_library_types/#integers>
+ [^strings]: <https://docs.pydantic.dev/latest/api/standard_library_types/#strings>
+
+### 選択肢の中に**正解があるか**
+
+* `@model_validator`でValidatorを定義 [^validators]
+
+[^validators]: <https://docs.pydantic.dev/latest/concepts/validators/>
+
+```{code-block} python
+class ChoicesAnswer(BaseModel):  # 選択式の1つの選択肢
+    answer: str  # 選択肢
+    is_correct: bool  # 正解フラグ
+
+class ChoicesBody(BaseModel):  # 選択式
+    answers: list[ChoicesAnswer]  # 複数の選択肢
+	
+    @model_validator(mode="after")
+    def at_least_one_correct(self) -> Self:
+        """answersに1つ以上のis_correct: Trueがあるか"""
+        if not any(a.is_correct for a in self.answers):
+            raise ValueError("正解の選択肢がありません")
+        return self
+```
+
+### 他にもいろいろできるんで<br />詳しくは**ドキュメント**読んでね {nekochan}`megane`
+
+{fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
+
+## **複雑なデータ**をValidation<br />→**Pydantic**を検討しよう！ {nekochan}`kyapi`
+
+## Thank You {nekochan}`pray`
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+{fas}`code` [20251204bpstyle/code](https://github.com/takanory/slides/tree/master/slides/20251204bpstyle/code)
+
+{fab}`twitter` [takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)

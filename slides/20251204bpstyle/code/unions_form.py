@@ -13,7 +13,7 @@ class BaseForm(BaseModel):
 
 class WrittenDisplay(BaseModel):
     """記述式の表示形式"""
-    textInputFormat: PositiveInt = Field(le=3)
+    text_input_format: PositiveInt = Field(le=3)
 
 
 class WrittenBody(BaseModel):
@@ -63,7 +63,7 @@ written = {
     "question": "Pythonの作者は？", # 採点形式: 自動
     "answer_format": "written", # 記述式
     "display": {
-        "textInputFormat": 1,
+        "text_input_format": 1,
     },
     "body": {
         "answers": ["Guido van Rossum"],
@@ -90,7 +90,7 @@ choices = {
 
 written_form = AnswerForm(answer_form=written)
 print(written_form)
-# answer_form=WrittenForm(question='Pythonの作者は？', answer_format='written', display=WrittenDisplayOptions(textInputFormat=1), body=WrittenBody(answers=['Guido van Rossum'], placeholder='作者名をアルファベットで書いてください'))
+# answer_form=WrittenForm(question='Pythonの作者は？', answer_format='written', display=WrittenDisplayOptions(text_input_format=1), body=WrittenBody(answers=['Guido van Rossum'], placeholder='作者名をアルファベットで書いてください'))
 
 choices_form = AnswerForm(answer_form=choices)
 print(choices_form)
