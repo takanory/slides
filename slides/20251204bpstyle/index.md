@@ -87,9 +87,9 @@ BPStyle 179 / 2025 Nov 4
 
 ![JSON Schema logo](https://json-schema.org/img/logos/logo-blue.svg)
 
-### JSON Schemaのサンプル [^sample]
+### JSON Schemaのサンプル [^json-schema-sample]
 
-[^sample]: <https://json-schema.org/learn/getting-started-step-by-step>
+[^json-schema-sample]: [Creating your first schema](https://json-schema.org/learn/getting-started-step-by-step)
 
 ```{code-block} json
 {"productId": 5, "productName": "MANAVIRIA"}
@@ -137,4 +137,63 @@ BPStyle 179 / 2025 Nov 4
 ```{image} https://avatars.githubusercontent.com/u/110818415
 :width: 25%
 :alt: Pydantic logo
+```
+
+### PydanticでValidationの結論
+
+* めっちゃ**いい感じ**にできた（自画自賛） {nekochan}`doya`
+
+## Pydanticの基本
+
+```{code-block} bash
+$ pip install "pydantic"
+$ pip install "pydantic[email]"  # email Validationする場合
+```
+
+### JSON dataをvalidation[^examples]
+
+```{literalinclude} code/person.json
+:language: json
+```
+
+```{literalinclude} code/example_model.py
+:language: python
+```
+
+[^examples]: [Validating File Data - Pydantic Validation](https://docs.pydantic.dev/latest/examples/files/)
+
+### JSON dataをvalidation（続き）
+
+* 正しいJSONをValidation {nekochan}`yoshi`
+
+```{literalinclude} code/example.py
+:language: python
+:lines: 1, 5-10
+```
+
+###  正しくないJSONをValidation
+
+* `name`がない
+* `age`がマイナス
+* `email`がメールアドレスじゃない
+
+```{literalinclude} code/person_wrong.json
+```
+
+### エラーがめちゃ親切 {nekochan}`dai-kansha`
+
+```{literalinclude} code/example.py
+:language: python
+:lines: 3-4, 12-16
+```
+
+```{code-block} text
+name
+  Field required [type=missing, input_value={'age': -30, 'email': 'not-an-email-address'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+age
+  Input should be greater than 0 [type=greater_than, input_value=-30, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/greater_than
+email
+  value is not a valid email address: An email address must have an @-sign. [type=value_error, input_value='not-an-email-address', input_type=str]
 ```
