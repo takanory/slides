@@ -11,12 +11,12 @@ Takanori Suzuki
 
 BPStyle 179 / 2025 Nov 4
 
-## はじめに
+## 背景、モチベーション
 
-* プロジェクトで複雑なJSONをバリデーションする必要があった
-* いままではJSON Schemaを使っていた
-* JSON Schemaのメンテだるそう
-* Pydanticに載せ替えたらいい感じになった {nekochan}`yatta`
+* プロジェクトで**複雑なJSON**をValidationする必要があった
+* いままでは**JSON Schema**を使っていた
+* JSON Schemaの**メンテだるそう**
+* **Pydantic**に載せ替えたらいい感じになった {nekochan}`yatta`
 
 ## システムの概要 {nekochan}`benkyou`
 
@@ -26,7 +26,7 @@ BPStyle 179 / 2025 Nov 4
 
 ### さまざまな解答**フォーム形式** {nekochan}`good`
 
-* 記述、選択、並べ替え等
+* 記述、選択式、並べ替え等
 
 ![さまざまな解答形式](images/manaviria1.png)
 
@@ -48,7 +48,7 @@ BPStyle 179 / 2025 Nov 4
 * 選択式
   * 表示形式：ボタンorセレクトボックス、選択肢ラベル
   * 解答欄：選択肢リスト、正解リスト
-* 並べ替え...
+* 並べ替え他
 
 ### **JSON**にしてDBに保存
 
@@ -127,7 +127,7 @@ BPStyle 179 / 2025 Nov 4
 
 ## **Pydantic**でValidation {nekochan}`mita`
 
-### Pydantic
+### **Pydantic**
 
 * {fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
 * Python用のデータValidationライブラリ
@@ -139,11 +139,11 @@ BPStyle 179 / 2025 Nov 4
 :alt: Pydantic logo
 ```
 
-### PydanticでValidationの結論
+### PydanticでValidationの**結論**
 
 * めっちゃ**いい感じ**にできた（自画自賛） {nekochan}`doya`
 
-## Pydanticの基本 {nekochan}`benkyou`
+## Pydanticの**基本** {nekochan}`benkyou`
 
 ```{code-block} bash
 $ pip install "pydantic"
@@ -202,7 +202,7 @@ email
 
 ### 複数のモデルを**Unions**でまとめる {nekochan}`nakayoshi`
 
-* フォーム形式ごとにPydanticモデルは必要
+* フォーム形式（記述、選択式等）ごとにPydanticモデルは必要
 * **Unions**を使用すると「いずれかにマッチ」ができる
 * [Unions - Pydantic Validation](https://docs.pydantic.dev/latest/concepts/unions/)
 
