@@ -880,6 +880,7 @@ Reference
   * `sphinx-revealjs <https://sphinx-revealjs.readthedocs.io/>`_: Sphinx extension to generate Reveal.js presentation documents
   * `sphinxext-opengraph <https://sphinxext-opengraph.readthedocs.io/>`_: Sphinx extension to generate Open Graph metadata
   * `sphinx-design <https://sphinx-design.readthedocs.io/>`_: Sphinx extension for designing beautiful, screen-size responsive web-components
+  * `sphinxcontrib-mermaid <https://github.com/mgaitan/sphinxcontrib-mermaid>`_: Sphinx extension for embedding `Mermaid <https://mermaid.js.org/>`__ charts
   * `atsphinx-audioplayer <https://atsphinx.github.io/audioplayer/en/>`_: Sphinx extension that renders html content for playing audio files
   * `sphinx-nekochan <https://sphinx-nekochan.readthedocs.io/>`_: Sphinx extension for adding the Nekochan(cat) emoji to documents
 * `Cloudflare Pages <https://pages.cloudflare.com/>`_
