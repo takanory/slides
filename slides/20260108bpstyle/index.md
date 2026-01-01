@@ -125,7 +125,6 @@ from import_export import resources
 from core.models import Book
 
 class BookResource(resources.ModelResource):
-
     class Meta:
         model = Book
 ```
@@ -155,6 +154,188 @@ class BookAdmin(ImportExportModelAdmin):
 
 ![](https://django-import-export.readthedocs.io/en/latest/_images/django-import-export-change.png)
 
+### 対象フォーマットは以下
+
+* csv, xlsx, tsv, json, yaml, html
+
 ### しかし、このままでは教材データの<br />コピーには**使えない**... {nekochan}`work-yabai`
 
 ## django-import-exportの<br />**使いこなし** {nekochan}`work-moeru`
+
+### **対象フィールド**の指定
+
+* インポート・エクスポート対象を指定 [^declare]
+
+```{code-block} python
+class BookResource(resources.ModelResource):
+    class Meta:
+        model = Book
+        # 対象フィールドを指定
+        fields = ("id", "name", "price")
+```
+
+```{code-block} python
+class BookResource(resources.ModelResource):
+    class Meta:
+        model = Book
+        # 対象外フィールドを指定
+        exclude = ("created_at", "updated_at")
+```
+
+[^declare]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#declare-fields>
+
+```{revealjs-break}
+```
+
+* 今回は`exclude`を選択
+* フィールドが増えても自動で対応
+
+```{code-block} python
+class WorkResource(resources.ModelResource):
+    class Meta:
+        model = Work
+        exclude = ("id", "created_at", "updated_at", "updated_by")
+```
+
+### **主キー**の変更
+
+* デフォルトでは`id`を使って追加、更新する
+* 環境が異なるため`id`がずれる
+
+```{revealjs-break}
+```
+
+* データを一意に識別するフィールドを指定 [^idfields]
+* `code`というユニークな文字列を使用
+
+```{code-block} python
+class WorkResource(resources.ModelResource):
+    class Meta:
+        model = Work
+        import_id_fields = ("code",)  # codeで一意に識別
+```
+
+[^idfields]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#create-or-update-model-instances>
+
+### **大量データ**対応 [^duplicate]
+
+* 教材の問題は**大量**→**全件**インポート
+* 同じ値の場合は**処理を飛ばす**
+* 飛ばしたデータは確認画面で**表示しない**
+
+```{code-block} python
+class WorkResource(resources.ModelResource):
+    class Meta:
+        model = Work
+        import_id_fields = ("code",)
+        skip_unchanged = True  # 処理を飛ばす
+        report_skipped = False  # 表示しない
+```
+
+[^duplicate]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#handling-duplicate-data>
+
+### **外部キー**の維持
+
+* 教材の目次構造は**外部キー**で実現
+
+```{mermaid}
+erDiagram
+    direction LR
+    Work ||--|{ Unit : has
+    Unit ||--|{ Question : has
+    Work {
+        int id PK
+        string code
+        string name
+    }
+    Unit {
+        int id PK
+        int work_id FK
+        string code
+        string title
+    }
+    Question {
+        int id PK
+        int unit_id FK
+        string code
+        string text
+    }
+```
+
+```{revealjs-break}
+```
+
+* しかし`id`は環境ごとに**異なる**
+* 任意のフィールド（`code`）を外部キー代わりに使用 [^foreignkey]
+
+```{code-block} python
+class UnitResource(resources.ModelResource):
+    class Meta:
+        model = Unit
+
+    work = fields.Field(
+        column_name="work",
+        attribute="work",
+        widget=ForeignKeyWidget(Work, field="code"))
+```
+
+[^foreignkey]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#foreign-key-relations>
+
+### **任意のデータ**をエクスポート対象に
+
+* 全件エクスポートだと**レビュー中の教材データ**も本番に入る
+* レビュー**完了したデータ**のみをエクスポート対象にしたい
+
+```{revealjs-break}
+```
+
+* `can_exrpot`がTrueのデータをエクスポート
+* 上位がFalseならエクスポートしない
+
+```{mermaid}
+erDiagram
+    direction LR
+    Work ||--|{ Unit : has
+    Unit ||--|{ Question : has
+    Work {
+        int id PK
+        string code
+        bool can_export
+    }
+    Unit {
+        int id PK
+        int work_id FK
+        string code
+        bool can_export
+    }
+    Question {
+        int id PK
+        int unit_id FK
+        string code
+        string text
+    }
+```
+
+```{revealjs-break}
+```
+
+* `get_export_queryset()`で絞り込み\ [^exrpoting]
+
+```{revealjs-code-block} python
+class WorkAdmin(ImportExportModelAdmin):
+    def get_export_queryset(self, request):
+        return Work.objects.filter(can_export=True)
+
+class UnitAdmin(ImportExportModelAdmin):
+    def get_export_queryset(self, request):
+        return Unit.objects.filter(
+            can_export=True, work__can_export=True)
+
+class QuestionAdmin(ImportExportModelAdmin):
+    def get_export_queryset(self, request):
+        return Question.objects.filter(
+            unit__can_export=True, unit__work__can_export=True)
+```
+
+[^exrpoting]: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html#exporting-via-admin-action>
+
