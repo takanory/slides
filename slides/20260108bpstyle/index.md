@@ -63,9 +63,7 @@ BPStyle 180 / 2026 Jan 8
 
 ### 既存の教材データコピー {nekochan}`tako`
 
-* 原稿作成環境(Edit)で教材データを**作成**
-* Editの教材データをExcelで**エクスポート**
-* Excelを本番環境(Production)に**インポート**
+* 原稿作成環境(Edit)から本番環境(Production)にExcelファイルで教材データをコピー
 
 ```{mermaid}
 architecture-beta
@@ -319,23 +317,33 @@ erDiagram
 ```{revealjs-break}
 ```
 
-* `get_export_queryset()`で絞り込み\ [^exrpoting]
+* `get_export_queryset()`で絞り込み [^exrpoting]
 
 ```{revealjs-code-block} python
 class WorkAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
         return Work.objects.filter(can_export=True)
+```
 
+[^exrpoting]: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html#exporting-via-admin-action>
+
+```{revealjs-break}
+```
+
+```{revealjs-code-block} python
 class UnitAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
+        # UnitとWorkの両方のcan_exportがTrue
         return Unit.objects.filter(
-            can_export=True, work__can_export=True)
+            can_export=True,
+            work__can_export=True,
+        )
 
 class QuestionAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
         return Question.objects.filter(
-            unit__can_export=True, unit__work__can_export=True)
+            unit__can_export=True,
+            unit__work__can_export=True
+        )
 ```
-
-[^exrpoting]: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html#exporting-via-admin-action>
 
