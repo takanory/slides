@@ -110,7 +110,7 @@ INSTALLED_APPS = (
 )
 ```
 
-[^install]: <https://django-import-export.readthedocs.io/en/latest/installation.html>
+[^install]: Installation and configuration: <https://django-import-export.readthedocs.io/en/latest/installation.html>
 
 ### リソースクラスを作成 [^resource]
 
@@ -127,7 +127,7 @@ class BookResource(resources.ModelResource):
         model = Book
 ```
 
-[^resource]: <https://django-import-export.readthedocs.io/en/latest/getting_started.html>
+[^resource]: Creating a resource: <https://django-import-export.readthedocs.io/en/latest/getting_started.html#creating-a-resource>
 
 ### Django Adminに適用 [^integration]
 
@@ -146,7 +146,7 @@ class BookAdmin(ImportExportModelAdmin):
     resource_classes = [BookResource]
 ```
 
-[^integration]: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html>
+[^integration]: Admin integration: <https://django-import-export.readthedocs.io/en/latest/admin_integration.htmla>
 
 ### Django Admin画面で<br />**インポート**・**エクスポート**できる！ {nekochan}`yatta`
 
@@ -162,7 +162,27 @@ class BookAdmin(ImportExportModelAdmin):
 
 ### **対象フィールド**の指定
 
-* インポート・エクスポート対象を指定 [^declare]
+* 作成日時、更新日時等は不要
+
+```{mermaid}
+erDiagram
+    Work["Work(教材)"] {
+        int id PK
+        string code "コード"
+        int textbook_id FK "教科書ID"
+        int subject_id FK "教科ID"
+        string name "教材名"
+        datetime created_at "作成日時"
+        datetime updated_at "更新日時"
+        int updated_by FK "更新者"
+        str updated_by_name "更新者名"
+    }
+```
+
+```{revealjs-break}
+```
+
+* リソースで対象フィールドを指定 [^declare]
 
 ```{code-block} python
 class BookResource(resources.ModelResource):
@@ -180,25 +200,41 @@ class BookResource(resources.ModelResource):
         exclude = ("created_at", "updated_at")
 ```
 
-[^declare]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#declare-fields>
+[^declare]: Declare fields: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#declare-fields>
 
 ```{revealjs-break}
 ```
 
 * 今回は`exclude`を選択
-* フィールドが増えても自動で対応
+* フィールドが**増えて**も**自動**で対応
 
 ```{code-block} python
 class WorkResource(resources.ModelResource):
     class Meta:
         model = Work
-        exclude = ("id", "created_at", "updated_at", "updated_by")
+        exclude = ("id", "created_at", "updated_at",
+                   "updated_by")
 ```
 
 ### **主キー**の変更
 
 * デフォルトでは`id`を使って追加、更新する
 * 環境が異なるため`id`がずれる
+
+```{mermaid}
+erDiagram
+    Work["Work(教材)"] {
+        int id PK
+        string code "コード"
+        int textbook_id FK "教科書ID"
+        int subject_id FK "教科ID"
+        string name "教材名"
+        datetime created_at "作成日時"
+        datetime updated_at "更新日時"
+        int updated_by FK "更新者"
+        str updated_by_name "更新者名"
+    }
+```
 
 ```{revealjs-break}
 ```
@@ -213,7 +249,7 @@ class WorkResource(resources.ModelResource):
         import_id_fields = ("code",)  # codeで一意に識別
 ```
 
-[^idfields]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#create-or-update-model-instances>
+[^idfields]: Create or update model instances: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#create-or-update-model-instances>
 
 ### **大量データ**対応 [^duplicate]
 
@@ -225,12 +261,11 @@ class WorkResource(resources.ModelResource):
 class WorkResource(resources.ModelResource):
     class Meta:
         model = Work
-        import_id_fields = ("code",)
         skip_unchanged = True  # 処理を飛ばす
         report_skipped = False  # 表示しない
 ```
 
-[^duplicate]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#handling-duplicate-data>
+[^duplicate]: Handling duplicate data: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#handling-duplicate-data>
 
 ### **外部キー**の維持
 
@@ -241,18 +276,18 @@ erDiagram
     direction LR
     Work ||--|{ Unit : has
     Unit ||--|{ Question : has
-    Work {
+    Work["Work(教材)"] {
         int id PK
         string code
         string name
     }
-    Unit {
+    Unit["Unit(ユニット)"] {
         int id PK
         int work_id FK
         string code
         string title
     }
-    Question {
+    Question["Qustion(問題)"] {
         int id PK
         int unit_id FK
         string code
@@ -263,7 +298,7 @@ erDiagram
 ```{revealjs-break}
 ```
 
-* しかし`id`は環境ごとに**異なる**
+* `id`は環境ごとに**異なる**
 * 任意のフィールド（`code`）を外部キー代わりに使用 [^foreignkey]
 
 ```{code-block} python
@@ -277,7 +312,7 @@ class UnitResource(resources.ModelResource):
         widget=ForeignKeyWidget(Work, field="code"))
 ```
 
-[^foreignkey]: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#foreign-key-relations>
+[^foreignkey]: Foreign Key relations: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#foreign-key-relations>
 
 ### **任意のデータ**をエクスポート対象に
 
@@ -295,18 +330,18 @@ erDiagram
     direction LR
     Work ||--|{ Unit : has
     Unit ||--|{ Question : has
-    Work {
+    Work["Work(教材)"] {
         int id PK
         string code
-        bool can_export
+        bool can_export "エクスポートフラグ"
     }
-    Unit {
+    Unit["Unit(ユニット)"] {
         int id PK
         int work_id FK
         string code
-        bool can_export
+        bool can_export "エクスポートフラグ"
     }
-    Question {
+    Question["Question(問題)"] {
         int id PK
         int unit_id FK
         string code
@@ -325,7 +360,7 @@ class WorkAdmin(ImportExportModelAdmin):
         return Work.objects.filter(can_export=True)
 ```
 
-[^exrpoting]: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html#exporting-via-admin-action>
+[^exrpoting]: Exporting via Admin action: <https://django-import-export.readthedocs.io/en/latest/admin_integration.html#exporting-via-admin-action>
 
 ```{revealjs-break}
 ```
@@ -347,3 +382,47 @@ class QuestionAdmin(ImportExportModelAdmin):
         )
 ```
 
+### インポート時の**データ削除**
+
+* 原稿作成環境で削除されたデータを本番環境でも**自動で削除**したい
+* →モデルに**削除フラグ**を追加
+
+```{code-block} python
+class Question(BaseModel):
+    """問題のモデルクラス"""
+    ...
+    is_delete = models.BooleanField("削除フラグ", default=False)
+    ...
+```
+
+```{revealjs-break}
+```
+
+* リソースに`for_delete()`メソッドを追加 [^delete]
+
+```{code-block} python
+class QuestionResource(resources.ModelResource):
+    """Question（問題）のインポート・エクスポート用の設定"""
+
+    def for_delete(self, row, instance):
+        """is_deleteがTrueのデータを削除する"""
+        return row["is_delete"] == "1"
+
+    ...
+```
+
+[^delete]: Deleting data: <https://django-import-export.readthedocs.io/en/latest/getting_started.html#deleting-data>
+
+## まとめ {nekochan}`juutai`
+
+* 単純な処理以外にいろいろできる
+* **対象フィールド**の指定
+* **主キー**の変更
+* **大量データ**対応
+* **外部キー**の維持
+* **任意のデータ**をエクスポート対象に
+* インポート時の**データ削除**
+
+## 他にもいろいろできるので<br />**インポート・エクスポート**が<br />必要なときは**思い出して**ね {nekochan}`kyapi`
+
+{fas}`globe` [django-import-export.readthedocs.io](https://django-import-export.readthedocs.io/)
