@@ -26,7 +26,7 @@
 
 [PyCon JP Association](https://www.pycon.jp/committee/english.html) Chair, [BeProud Inc. (株式会社ビープラウド)](https://www.beproud.jp/) Director / Python Climber.
 
-Discovered Zope/Plone while building an internal website and ever since used Python where needed. Worked as PyCon JP staff since PyCon mini JP in January 2011 and has been the Co-Chair of PyCon JP 2024.
+Discovered Zope/Plone while building an internal website and ever since used Python where needed. Worked as PyCon JP staff since PyCon mini JP in January 2011 and has been the Co-Chair of [PyCon JP 2024](https://2024.pycon.jp/en) and [2026](https://2026.pycon.jp/).
 
 Founder of the [Python Bouldering Club (Pythonボルダリング部, #kabepy)](https://kabepy.connpass.com/) and organizer of [Python mini Hack-a-thon (#pyhack)](https://pyhack.connpass.com/).
 
@@ -38,7 +38,7 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 [一般社団法人PyCon JP Association](https://www.pycon.jp/)代表理事、[株式会社ビープラウド](https://www.beproud.jp/) 取締役 / Python Climber
 
-部内のサイトを作るためにZope/Ploneと出会い、その後必要にかられてPythonを使い始める。PyCon JPでは2011年1月のPyCon mini JPからスタッフとして活動。PyCon JP 2024共同座長。
+部内のサイトを作るためにZope/Ploneと出会い、その後必要にかられてPythonを使い始める。PyCon JPでは2011年1月のPyCon mini JPからスタッフとして活動。[PyCon JP 2024](https://2024.pycon.jp/ja)、[2026](https://2026.pycon.jp/)共同座長。
 他の主な活動は、[Pythonボルダリング部(#kabepy)](https://kabepy.connpass.com/) 部長、[Python mini Hack-a-thon(#pyhack)](https://pyhack.connpass.com/) 主催など。
 
 各国PyConやPython Boot Campで訪れた土地で、現地のクラフトビールを飲むことが楽しみ。
