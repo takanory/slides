@@ -314,6 +314,104 @@ class UnitResource(resources.ModelResource):
 
 [^foreignkey]: Foreign Key relations: <https://django-import-export.readthedocs.io/en/latest/advanced_usage.html#foreign-key-relations>
 
+### 外部キーの維持（**複数カラム**）
+
+* 教材は任意の教科書に紐付く
+
+```{mermaid}
+erDiagram
+    direction LR
+    Subject ||--|{ Textbook : has
+    Textbook ||--|{ Work : has
+    Subject["Subject(教科)"] {
+        int id PK
+        string name "国語等"
+    }
+    Textbook["Textbook(教科書)"] {
+        int id PK
+        int subject_id FK "教科ID"
+        int edition "発行年"
+        int year "学年"
+		int publisher "出版社"
+    }
+    Work["Work(教材)"] {
+        int id PK
+		int textbook_id FK "教科書ID"
+        string name
+    }
+```
+
+```{revealjs-break}
+```
+
+* 教科書は**複数カラム**で一意になる
+
+```{mermaid}
+erDiagram
+    direction LR
+    Textbook["Textbook(教科書)"] {
+        int id PK
+        int subject_id FK "教科ID"
+        int edition "発行年"
+        int year "学年"
+		int publisher "出版社"
+    }
+```
+
+```{revealjs-break}
+```
+
+* 外部キーの維持にnatural keyを使用[^natural]
+* 複数の情報が**JSONにシリアライズ**される
+
+[^natural]: Django Natural Keys: <https://django-import-export.readthedocs.io/en/stable/advanced_usage.html#django-natural-keys>
+
+
+```{code-block} python
+class TextbookManager(models.Manager):
+    def get_by_natural_key(self, edition, subject_name, year, publisher):
+	    """natural keyを使用してデータを取得するメソッド"""
+        return self.get(
+            edition=edition,
+            subject__name=subject_name,
+            year=year,
+            publisher=publisher,
+        )
+```
+
+```{revealjs-break}
+```
+
+* モデルに`natural_key`メソッド追加
+* `objects`に`TextbookManager()`を指定
+
+```{code-block} python
+class Textbook(BaseModel):
+    """教科書モデル"""
+    objects = TextbookManager()
+
+    def natural_key(self):
+        return (
+            self.edition, self.subject.name,
+            self.year, self.publisher,
+        )
+```
+ 
+```{revealjs-break}
+```
+
+* `ForeignKeyWidget`でnatural keyを使用
+
+```{code-block} python
+class WorkResource(resources.ModelResource):
+    textbook = fields.Field(
+        column_name="textbook",
+        attribute="textbook",
+        widget=ForeignKeyWidget(Textbook,
+            use_natural_foreign_keys=True)
+    )
+```
+
 ### **任意のデータ**をエクスポート対象に
 
 * 全件エクスポートだと**レビュー中の教材データ**も本番に入る
@@ -419,7 +517,7 @@ class QuestionResource(resources.ModelResource):
 * **対象フィールド**の指定
 * **主キー**の変更
 * **大量データ**対応
-* **外部キー**の維持
+* **外部キー**の維持（**複数カラム**も）
 * **任意のデータ**をエクスポート対象に
 * インポート時の**データ削除**
 
