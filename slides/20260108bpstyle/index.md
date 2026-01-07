@@ -77,7 +77,14 @@ architecture-beta
 
 ### 運用できていたわけですが... {nekochan}`good`
 
-### **◯◯**が爆誕！！ {nekochan}`paaan`
+### **マナビリアCBT**が爆誕！！ [^cbt] {nekochan}`paaan`
+
+```{image} images/manaviria-cbt.png
+:alt: マナビリアCBT
+:width: 75%
+```
+
+[^cbt]: <https://www.meijitosho.co.jp/gakusan/special/digital_learning/>
 
 ### **新しい**教材データコピーが必要 {nekochan}`ha`
 
