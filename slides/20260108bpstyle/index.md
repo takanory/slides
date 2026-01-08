@@ -290,13 +290,13 @@ erDiagram
     }
     Unit["Unit(ユニット)"] {
         int id PK
-        int work_id FK
+        int work_id FK "教材ID"
         string code
         string title
     }
     Question["Qustion(問題)"] {
         int id PK
-        int unit_id FK
+        int unit_id FK "ユニットID"
         string code
         string text
     }
@@ -438,19 +438,19 @@ erDiagram
     Work["Work(教材)"] {
         int id PK
         string code
-        bool can_export "エクスポートフラグ"
+        bool can_export "フラグ"
     }
     Unit["Unit(ユニット)"] {
         int id PK
-        int work_id FK
+        int work_id FK "教材ID"
         string code
-        bool can_export "エクスポートフラグ"
+        bool can_export "フラグ"
     }
     Question["Question(問題)"] {
         int id PK
-        int unit_id FK
+        int unit_id FK "ユニットID"
         string code
-        string text
+        string text "問題文"
     }
 ```
 
@@ -481,7 +481,7 @@ class UnitAdmin(ImportExportModelAdmin):
 
 class QuestionAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
-        return Question.objects.select_related("unit", "work").filter(
+        return Question.objects.select_related("unit__work").filter(
             unit__can_export=True,
             unit__work__can_export=True
         )
