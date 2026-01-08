@@ -21,6 +21,27 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
 
 .. include from here
 
+2026
+====
+.. list-table::
+   :header-rows: 1
+   :widths: 20, 10, 10, 5, 5, 40, 10
+
+   - * event
+     * location
+     * date
+     * type
+     * lang
+     * title
+     * resource
+   - * BPStyle 180
+     * Online
+     * 2026 Jan
+     * Talk
+     * ja
+     * django-import-exportはただインポート・エクスポートできるだけじゃない。カスタマイズと使いこなし
+     * `Slides <https://slides.takanory.net/slides/20260108bpstyle>`__
+
 2025
 ====
 .. list-table::
