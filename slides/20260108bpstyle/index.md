@@ -474,14 +474,14 @@ class WorkAdmin(ImportExportModelAdmin):
 class UnitAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
         # UnitとWorkの両方のcan_exportがTrue
-        return Unit.objects.filter(
+        return Unit.objects.select_related("work").filter(
             can_export=True,
             work__can_export=True,
         )
 
 class QuestionAdmin(ImportExportModelAdmin):
     def get_export_queryset(self, request):
-        return Question.objects.filter(
+        return Question.objects.select_related("unit", "work").filter(
             unit__can_export=True,
             unit__work__can_export=True
         )
