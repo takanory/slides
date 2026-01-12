@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * PyCon mini Shizuoka 2026
+     * Shizuoka, Japan
+     * 2026 Feb
+     * Talk
+     * ja
+     * Pydanticで複雑なJSONを一発でValidation
+     * `Slides <https://slides.takanory.net/slides/20260221shizuoka>`__
    - * BPStyle 180
      * Online
      * 2026 Jan
