@@ -23,3 +23,18 @@
     background-position: 0% 100%;
     background-repeat: no-repeat;
 }
+/* 全スライドの右下に固定文字を表示 */
+.reveal::after {
+    font-style: normal;
+    content: "slides.takanory.net";
+    position: absolute;
+    bottom: 40px;
+    right: 120px;
+    z-index: 100;
+    font-size: 0.6em;
+    color: #666;
+    pointer-events: none; /* 文字がクリックを邪魔しないようにする */
+}
+.reveal:has(.present h1)::after {
+  display: none;
+}
