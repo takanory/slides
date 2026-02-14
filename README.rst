@@ -34,13 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
-   - * `みんなのPython勉強会#120 <https://startpython.connpass.com/event/382895/>`_
+   - * `みんなのPython勉強会#120 <https://startpython.connpass.com/event/382895/>`__
      * Online
      * 2026 Feb
      * LT
      * ja
      * 🐱ネコチャン絵文字をドキュメントに入れよう！
-     * `Slides <https://slides.takanory.net/slides/20260219startpython`__
+     * `Slides <https://slides.takanory.net/slides/20260219startpython>`__
    - * BPStyle 180
      * Online
      * 2026 Jan
