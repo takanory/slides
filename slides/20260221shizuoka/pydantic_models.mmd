@@ -1,0 +1,86 @@
+classDiagram
+    BaseForm
+    BaseForm <|-- BaseWork
+    BaseForm <|-- BaseCBT
+    BaseWork <|-- WorkWritten
+    BaseWork <|-- WorkChoices
+    BaseWork <|-- WorkSorting
+    BaseCBT <|-- CBTWritten
+    BaseCBT <|-- CBTChoices
+    BaseCBT <|-- CBTSorting
+    CBTWritten *-- BaseWrittenBody
+    WorkWritten *-- BaseWrittenBody
+    CBTChoices *-- BaseChoicesBody
+    WorkChoices *-- BaseChoicesBody
+    CBTSorting *-- BaseSortingBody
+    WorkSorting *-- BaseSortingBody
+
+    namespace Work {
+        class WorkWritten
+        class WorkChoices
+        class WorkSorting
+    }
+
+    namespace CBT {
+        class CBTWritten
+        class CBTChoices
+        class CBTSorting
+    }
+
+    class BaseForm["解答ベースクラス"] {
+        str 問題文
+        int ソート順
+        int 解答形式
+        object 解答欄ボディ
+    }
+    
+    class BaseCBT["CBT解答ベースクラス"] {
+        int 点数
+    }
+
+    class BaseWork["ワーク解答ベースクラス"]
+
+    class CBTWritten["CBT記述式"] {
+        int 解答形式_1
+        object 記述式ボディ
+    }
+
+    class CBTChoices["CBT選択式"] {
+        int 解答形式_2
+        object 選択式ボディ
+    }
+
+    class WorkChoices["ワーク選択式"] {
+        int 解答形式_2
+        object 選択式ボディ
+    }
+
+    class WorkWritten["ワーク記述式"] {
+        int 解答形式_1
+        object 記述式ボディ
+    }
+
+    class BaseWrittenBody["記述式ボディ"] {
+        int フォームの幅
+        str 正答
+        str プレースホルダー
+        int 最大文字数
+    }
+
+    class BaseChoicesBody["選択式ボディ"] {
+        int ラジオorリストボックス
+        int レイアウト
+        list[str] 選択肢
+        list[bool] 正解or不正解
+    }
+    class CBTSorting["CBT並べ替え"] {
+        int 解答形式_3
+        object 並べ替えボディ
+    }    
+
+    class WorkSorting["ワーク並べ替え"] {
+        int 解答形式_3
+        object 並べ替えボディ
+    }    
+
+    class BaseSortingBody["並べ替えボディ"]

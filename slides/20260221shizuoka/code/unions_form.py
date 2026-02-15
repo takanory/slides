@@ -4,94 +4,122 @@ from typing import Literal
 from pydantic import BaseModel, Field, PositiveInt
 
 class BaseForm(BaseModel):
-    """フォームのベースクラス"""
-    question: str  # 質問文
-    answer_format: str  # 解答欄形式
-    display: object  # フォーム形式ごとの表示形式
-    body: object  # フォーム形式ごとのボディ
+    """解答ベースクラス"""
+    question: str  # 問題文
+    sort_order: int  # ソート順
+    answer_format: int  # 解答形式
+    body: object  # 解答欄ボディ
 
 
-class WrittenDisplay(BaseModel):
-    """記述式の表示形式"""
-    text_input_format: PositiveInt = Field(le=3)
+class CBTForm(BaseForm):
+    """CBT解答ベースクラス"""
+    score: PositiveInt  # 点数
+    
+
+class WorkForm(BaseForm):
+    """ワーク解答ベースクラス"""
+    pass    
 
 
 class WrittenBody(BaseModel):
-    """記述式のボディ"""
-    answers: list[str]
-    placeholder: str
+    """記述式ボディ"""
+    form_width: int  # フォームの幅
+    answer: str  # 正答
+    placeholder: str  # プレースホルダー
+    max_chars: PositiveInt  # 最大文字数
 
     
-class WrittenForm(BaseForm):
-    """記述式のモデル"""
-    answer_format: Literal["written"]  # 「記述式」にのみマッチ
-    display: WrittenDisplay
-    body: WrittenBody
+class CBTWritten(CBTForm):
+    """CBT記述式"""
+    answer_format: Literal[1]  # 解答形式は「記述式」
+    body: WrittenBody  # 記述式ボディ
 
 
-class ChoicesDisplay(BaseModel):
-    """選択式の表示形式"""
-    choices_selector: str  # ラジオ or セレクトボックス
-    choices_label: str  # ABCなどのラベル形式
-
-
-class ChoicesAnswer(BaseModel):
-    """選択式の1つの選択肢"""
-    answer: str  # 選択肢
-    is_correct: bool  # 正解フラグ
+class WorkWritten(WorkForm):
+    """ワーク記述式"""
+    answer_format: Literal[1]  # 解答形式は「記述式」
+    body: WrittenBody  # 記述式ボディ
 
 
 class ChoicesBody(BaseModel):
-    """記述式のボディ"""
-    answers: list[ChoicesAnswer]
+    """選択式ボディ"""
+    choices_selector: int  # ラジオ or セレクトボックス
+    layout: str  # レイアウト
+    choices: list[str]  # 選択肢
+    is_collects: list[bool]  # 正解 or 不正解
+
+
+class CBTChoices(CBTForm):
+    """CBT選択式"""
+    answer_format: Literal[2]  # 解答形式は「選択式」
+    body: ChoicesBody  # 選択式ボディ
+
+
+class WorkChoices(WorkForm):
+    """ワーク選択式"""
+    answer_format: Literal[2]  # 解答形式は「選択式」
+    body: ChoicesBody  # 選択式ボディ
+
+
+class SortingBody(BaseModel):
+    """並べ替えボディ"""
+    ...
+
+
+class CBTSorting(CBTForm):
+    """CBT並べ替え"""
+    answer_format: Literal[3]  # 解答形式は「並べ替え式」
+    body: SortingBody  # 並べ替えボディ
 
     
-class ChoicesForm(BaseForm):
-    """選択式のモデル"""
-    answer_format: Literal["choices"]  # 「選択式」にのみマッチ
-    display: ChoicesDisplay
-    body: ChoicesBody
+class WorkSorting(WorkForm):
+    """ワーク並べ替え"""
+    answer_format: Literal[3]  # 解答形式は「並べ替え式」
+    body: SortingBody  # 並べ替えボディ
+
+    
+class CBTAnswer(BaseModel):
+    """いずれかのCBTの解答形式にマッチするモデル"""
+    form: CBTWritten | CBTChoices | CBTSorting \
+        = Field(discriminator="answer_format")
 
 
-class AnswerForm(BaseModel):
-    """いずれかのフォーム形式にマッチするモデル"""
-    answer_form: WrittenForm | ChoicesForm = Field(discriminator="answer_format")
+class WorkAnswer(BaseModel):
+    """いずれかのワークの解答形式にマッチするモデル"""
+    form: WorkWritten | WorkChoices | WorkSorting \
+        = Field(discriminator="answer_format")
 
 
-# 記述式のサンプル
-written = {
-    "question": "Pythonの作者は？", # 採点形式: 自動
-    "answer_format": "written", # 記述式
-    "display": {
-        "text_input_format": 1,
-    },
+written_sample = {  # CBT記述式のサンプル
+    "score": 5,  # 点数
+    "question": "Pythonの作者は？", # 採点形式
+    "sort_order": 1,  # ソート順
+    "answer_format": 1, # 記述式
     "body": {
-        "answers": ["Guido van Rossum"],
+        "form_width": 1,  # フォームの幅
+        "answer": "Guido van Rossum",   # 正答
         "placeholder": "作者名をアルファベットで書いてください",
+        "max_chars": 100, # 最大文字数
     },
 }
 
-# 選択式のサンプル
-choices = {
+result = CBTAnswer(form=written_sample)
+print(result)
+# form=CBTWritten(question='Pythonの作者は？', sort_order=1, answer_format=1, body=WrittenBody(form_width=1, answer='Guido van Rossum', placeholder='作者名をアルファベットで書いてください', max_chars=100), score=5)
+
+choices_sample = {  # ワーク選択式のサンプル
     "question": "Python 3.14の新機能はどれ？",
-    "answer_format": "choices",
-    "display": {
-        "choices_selector": "button",
-        "choices_label": "ABC",
-    },
+    "sort_order": 2,  # ソート順
+    "answer_format": 2, # 選択式
     "body": {
-        "answers": [
-            {"answer": "t-string", "is_correct": True},
-            {"answer": "safe external debugger", "is_correct": True},
-            {"answer": "lazy import", "is_correct": False},
-        ],
+        "choices_selector": 1,  # ラジオ
+        "layout": "default",  # レイアウト
+        "choices": ["t-string", "safe external debugger", "lazy import"],
+        "is_collects": [True, True, False],
     },
 }
 
-written_form = AnswerForm(answer_form=written)
-print(written_form)
-# answer_form=WrittenForm(question='Pythonの作者は？', answer_format='written', display=WrittenDisplayOptions(text_input_format=1), body=WrittenBody(answers=['Guido van Rossum'], placeholder='作者名をアルファベットで書いてください'))
+result = WorkAnswer(form=choices_sample)
+print(result)
+# form=WorkChoices(question='Python 3.14の新機能はどれ？', sort_order=2, answer_format=2, body=ChoicesBody(choices_selector=1, layout='default', choices=['t-string', 'safe external debugger', 'lazy import'], is_collects=[True, True, False]))
 
-choices_form = AnswerForm(answer_form=choices)
-print(choices_form)
-# answer_form=ChoicesForm(question='Python 3.14の新機能はどれ？', answer_format='choices', display=ChoicesDisplayOptions(choices_selector='button', choices_label='ABC'), body=ChoicesBody(answers=[ChoicesAnswer(answer='t-string', is_correct=True), ChoicesAnswer(answer='safe external debugger', is_correct=True), ChoicesAnswer(answer='lazy import', is_correct=False)]))

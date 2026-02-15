@@ -27,11 +27,11 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 
 `#pyconshizu` / `@takanory`
 
-### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/)
+### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/) {nekochan}`miru`
 
 ![slides.takanory.net](images/slides-takanory-net.png)
 
-## **Who** am I? / お前 **誰よ** 👤
+## **Who** am I? / お前 **誰よ** {nekochan}`beer`
 
 * Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 * [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
@@ -41,7 +41,7 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
-### PyCon JP 2026**共同座長** [^chairs] 🪑🪑
+### PyCon JP 2026**共同座長** [^chairs] {nekochan}`nakayoshi`
 
 * 日程：2026年8月21日（金）〜23日（日）
 * 会場： 広島国際会議場
@@ -53,7 +53,7 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 
 [^chairs]: [PyCon JP Blog: PyCon JP 2026 座長発表](https://pyconjp.blogspot.com/2025/10/pyconjp2026-co-chairs.html)
 
-### 主催メンバー**募集中**！！ 🙌
+### 主催メンバー**募集中**！！ {nekochan}`kamon`
 
 * **イベント企画の具体化**を進めてくれる方募集
 * PyCon JP 2026主催メンバー申込フォーム [^form]
@@ -62,7 +62,7 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 
 [^form]: <https://forms.gle/of8NjqkPmUaF8HGR7>
 
-### **BeProud** Inc. 🏢
+### **BeProud** Inc. {nekochan}`work`
 
 * [BeProud](https://www.beproud.jp/): Pythonシステム開発、コンサル
 * [connpass](https://connpass.com/): IT勉強会支援プラットフォーム
@@ -85,28 +85,37 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 :target: https://forms.gle/tM4n2ufKf49MbXsH9
 ```
 
+### **ブース出展**してます {nekochan}`banban`
+
+```{image} images/beproud-booth.jpg
+:width: 80%
+```
+
 ## **どんな課題**があったか {nekochan}`yabai`
 
-### 学習教材のWebシステム
+### **学習教材**のWebシステム [^manaviria] {nekochan}`benkyou`
 
-* [デジタル教材マナビリア](https://www.meijitosho.co.jp/gakusan/manaviria/)
-* 小・中学校向け学習プラットフォーム
-* 学習教材を使った勉強がWebでできる
+```{image} https://www.meijitosho.co.jp/db/gakusan/manaviria/img/title-mv-manaviria-logo@2x.png
+:alt: デジタル教材マナビリア
+:width: 50%
+```
+
+* Webブラウザ上で副教材を使った勉強ができる
+
+[^manaviria]: <https://www.meijitosho.co.jp/gakusan/manaviria/>
 
 ### さまざまな解答**フォーム形式** {nekochan}`good`
 
 * 記述、選択式、並べ替え等
 
-![さまざまな解答形式](/20251204bpstyle/images/manaviria1.png)
-
-### **編集者画面**で教材を作成 {nekochan}`work`
-
-```{image} /20251204bpstyle/images/edit_quiz1.png
-:width: 40%
+```{image} /20251204bpstyle/images/manaviria1.png
+:alt: さまざまな解答形式
+:width: 60%
 ```
 
-```{image} /20251204bpstyle/images/edit_quiz2.png
-:width: 40%
+### **さまざまな解答形式**の教材を作成 {nekochan}`work`
+
+```{image} images/edit_quiz.gif
 ```
 
 ### フォーム形式ごとに異なる**設定項目** {nekochan}`guruguru`
@@ -117,15 +126,16 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 * 選択式
   * 表示形式：ボタンorセレクトボックス、選択肢ラベル
   * 解答欄：選択肢リスト、正解リスト
-* 並べ替え他
+* などなど...
 
-### **JSON**にしてDBに保存
+### 設定項目は**JSON**をDBに保存 {nekochan}`mask`
 
 ```{code-block} json
 {
-    "question": "Python 3.14の新機能はどれ？"
+    "question": "Python 3.14の新機能はどれ？（選択式）"
     "answer_format": "choices",
-    "display": {"choices_selector": "button", "choices_label": "ABC"}
+    "display": {"choices_selector": "button",
+                "choices_label": "ABC"},
     "body": {
         "answers": [
             {"answer": "t-string",
@@ -134,25 +144,23 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
              "is_correct": true},
             {"answer": "lazy import",
              "is_correct": false},
-            {"answer": "アノテーションの遅延評価",
-             "is_correct": true}
-        ]
-    }
+    ]}
 }
 ```
 
-### DB保存時にJSONを**Validation**
+### DB保存時にJSONを**Validation** {nekochan}`ok`
 
-* 誤ったデータの混入を防ぐ {nekochan}`ng`
-* **JSON Schema**でValidationしていた
+* 目的：誤った形式のデータの混入を防ぐ
+* 今までは**JSON Schema**でValidation
 
-### **JSON Schema**でValidation {nekochan}`yoshi`
+### **JSON Schema**とは {nekochan}`itabasami`
 
-* {fas}`globe` [`json-schema.org`](https://json-schema.org/)
-* JSONデータの定義をJSONで書ける
+![JSON Schema logo](https://json-schema.org/img/logos/logo-blue.svg) [^json-schema]
+
+* JSONデータの構造を**JSONで定義**する言語
 * Pythonのライブラリ([jsonschema](https://python-jsonschema.readthedocs.io/en/stable/))あり
 
-![JSON Schema logo](https://json-schema.org/img/logos/logo-blue.svg)
+[^json-schema]: <https://json-schema.org/>
 
 ### JSON Schemaのサンプル [^json-schema-sample]
 
@@ -182,16 +190,17 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 }
 ```
 
-### マナビリア**CBT**が爆誕[^cbt] {nekochan}`chudoon`
+### **JSON Schemaでいい**んじゃないの？ {nekochan}`hate`
 
-* 今まではワークのみ
-* CBT（テスト機能）が追加（2026年4月）
+### **マナビリアCBT**が爆誕[^cbt] {nekochan}`chudoon`
+
+* ワークのみ→**CBT**が追加（2026年4月）
 
 ```{image} https://www.meijitosho.co.jp/db/info/20250801_2.png
 :width: 30%
 ```
 
-[^cbt]: [全問自動採点のCBTサービス開始](https://www.meijitosho.co.jp/info/?id=20250801) 
+[^cbt]: 全問自動採点のCBTサービス開始: <https://www.meijitosho.co.jp/info/?id=20250801>
 
 ### 似てるけど**微妙に異なる**JSON仕様 {nekochan}`ase`
 
@@ -201,7 +210,7 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 * ソート順：共通
 * などなど
 
-### JSON Schemaで両方に対応する？ {nekochan}`yabai`
+### JSON Schemaで**両方に対応**する？ {nekochan}`yabai`
 
 * 共通の所は共通の処理にしたい
 * コピペで似たJSON Schema管理はやりたくない
@@ -216,25 +225,23 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
   
 ### **Pydantic**に書き換えよう！！ {nekochan}`sore`
 
+### PydanticでValidationの**結論** {nekochan}`doya`
+
+* めっちゃ**いい感じ**にできた（自画自賛）
+
 ## Pydanticの**基本** {nekochan}`benkyou`
 
-### **Pydantic**とは
+### **Pydantic**とは {nekochan}`mita`
 
-* {fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
+![Pydantic logo](https://raw.githubusercontent.com/pydantic/brand/refs/heads/main/pydantic-name-light.svg) [^pydantic]
+
 * Python用のデータValidationライブラリ
 * dataclass、TypedDictなどをValidation可能
 * **型ヒント**を使ってルールを定義 {nekochan}`yoshi`
 
-```{image} https://avatars.githubusercontent.com/u/110818415
-:width: 25%
-:alt: Pydantic logo
-```
+[^pydantic]: <https://docs.pydantic.dev/>
 
-### PydanticでValidationの**結論**
-
-* めっちゃ**いい感じ**にできた（自画自賛） {nekochan}`doya`
-
-### Pydanticを**インストール** {nekochan}`kamon`
+### Pydanticを**インストール** {nekochan}`kochira`
 
 ```{code-block} bash
 $ pip install "pydantic"
@@ -251,7 +258,7 @@ $ pip install "pydantic[email]"  # email Validationする場合
 :language: python
 ```
 
-[^examples]: [Validating File Data - Pydantic Validation](https://docs.pydantic.dev/latest/examples/files/)
+[^examples]: Validating File Data: <https://docs.pydantic.dev/latest/examples/files/>
 
 ### JSONをValidation
 
@@ -311,5 +318,241 @@ email
 * `email`の値がメールアドレス形式じゃない
 
 ## Pydanticで**複雑なJSON**を<br />**Validation** {nekochan}`work-moeru`
-## JSON SchemaからPydantic**コード生成** {nekochan}`kitai`
+
+### 複数のモデルを**Unions**でまとめる {nekochan}`nakayoshi`
+
+* 解答フォーム形式（記述、選択式等）ごとにPydanticモデルが必要
+* **Unions**（`|`）[^unions]を使用すると「いずれかにマッチ」ができる
+
+[^unions]: Unions: <https://docs.pydantic.dev/latest/concepts/unions/>
+
+```{revealjs-break}
+```
+
+```{literalinclude} code/unions_sample.py
+:language: python
+```
+
+### **複数の解答形式**のクラス構成 {nekochan}`purupuru`
+
+```{mermaid} pydantic_models.mmd
+```
+
+```{revealjs-break}
+```
+
+* 解答の**ベースクラス**を定義
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 1-21
+:data-line-numbers: 6-11|14-21
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **CBT記述式**と**ワーク記述式**のモデル定義
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 24-41
+:data-line-numbers: 1-6|9-18|9,15
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **CBT選択式**と**ワーク選択式**のモデル定義
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 44-61
+:data-line-numbers: 1-6|9-18
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **CBT並べ替え**と**ワーク並べ替え**のモデル定義
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 64-78
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* **Unions**で複数の解答欄を1つに**まとめる**
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 81-90
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* CBT記述式を**Validation**
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 92-107
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* きちんと**Validationできてる**ーーーー {nekochan}`big-love`
+
+```bash
+$ python unions_form.py  # 見やすくするために改行を入れている
+form=CBTWritten(
+  question='Pythonの作者は？',
+  sort_order=1,
+  answer_format=1,
+  body=WrittenBody(
+    form_width=1,
+    answer='Guido van Rossum',
+    placeholder='作者名をアルファベットで書いてください',
+    max_chars=100
+  ),
+  score=5
+)
+```
+
+```{revealjs-break}
+:notitle:
+```
+
+* ワーク選択式を**Validation**
+
+```{revealjs-literalinclude} code/unions_form.py
+:language: python
+:lines: 110-124
+```
+
+### Pydanticで**一発でValidation**できる！ {nekochan}`kitakitakitakita-kitakitsune`
+
+## JSON Schemaから<br />Pydantic**コード生成** {nekochan}`kitai`
+
+### SchemaからPydantic**コード生成** {nekochan}`kitai`
+
+* 実際のJSON Schemaはもっと**複雑**
+* 解答形式も**6パターン**
+* Pydanticのコード書くのは大変そう {nekochan}`ase`
+
+### datamodel-code-generator [^codegen] {nekochan}`kami`
+
+* 各種データ定義からPythonの**コードを生成**
+* 入力：OpenAPI、**JSON Schema**、YAML、GraphQL、Python辞書など
+* 出力：**Pydantic**、dataclass、TypedDictなど
+
+[^codegen]: <https://koxudaxi.github.io/datamodel-code-generator/>
+
+```{revealjs-break}
+```
+
+* 解答欄の形式ごとに**JSONファイル**を作成
+* →Pydanticの**モデルコード**を生成
+
+```{code-block} bash
+$ pip install datamodel-code-generator
+$ datamodel-codegen --input schema.json \
+  --input-file-type jsonschema \
+  --output-model-type pydantic_v2.BaseModel \
+  --output model.py
+```
+
+### 解答欄の**Pydanticモデル**ができた！ {nekochan}`dai-kansha`
+
 ## さらなる**Validtionルール** {nekochan}`megane`
+
+### さらなる**Validtionルール** {nekochan}`megane`
+
+* データを**意味的に解釈**してValidationしたい
+* 複数の項目の**組み合わせ**でValidationしたい
+* →**Constraints**追加、**Validator**の**作成**
+
+### **任意の値**のみ選択可能にする
+
+* Enumで定義した値のみ指定可 [^enums]
+
+```{code-block} python
+from enum import Enum
+
+class TextInputFormat(Enum):
+    """記述式のテキスト入力形式"""
+    HALF_WIDTH = 1  # 幅50%
+    FULL_WIDTH = 2  # 幅100%（1行）
+	
+class WrittenBody(BaseModel):
+    """記述式ボディ"""
+    text_input_format: TextInputFormat
+    ...
+```
+
+[^enums]: <https://docs.pydantic.dev/latest/api/standard_library_types/#enums>
+
+### **数値の範囲**や**文字数**を指定
+
+* `Field()`クラスの引数で条件を指定
+* 文字数[^strings]、数値の範囲[^integers]など
+
+```{code-block} python
+class WrittenBody(BaseModel):
+    """記述式ボディ"""
+    # プーレースホルダーの文字数を指定
+    placeholder: str = Field(..., min_length=10, max_length=50)
+    # 解答の最大文字数を100以下に指定
+    max_chars: PositiveInt = Field(..., le=100)
+```
+
+ [^strings]: <https://docs.pydantic.dev/latest/api/standard_library_types/#strings>
+ [^integers]: <https://docs.pydantic.dev/latest/api/standard_library_types/#integers>
+
+### 選択肢は**1つ以上の正解**が必要
+
+* `@model_validator`でValidatorを定義 [^validators]
+
+[^validators]: <https://docs.pydantic.dev/latest/concepts/validators/>
+
+```{code-block} python
+class ChoicesBody(BaseModel):
+    "選択式ボディ"""
+    is_collects: list[bool]  # 正解 or 不正解
+	
+    @model_validator(mode="after")
+    def at_least_one_correct(self) -> Self:
+        """is_collectsに1つ以上のTrueがあるか"""
+        if not any(is_corrects):
+            raise ValueError("正解の選択肢がありません")
+        return self
+```
+
+### 他にもいろいろできるので<br />詳しくは**ドキュメント**読んでね {nekochan}`holiday-nya2`
+
+{fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
+
+## **複雑なデータ**をValidation<br />→**Pydantic**を検討しよう！ {nekochan}`kyapi`
+
+## Thank You {nekochan}`pray`
+
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+{fas}`code` [20260221shizuoka/code](https://github.com/takanory/slides/tree/master/slides/20260221shizuoka/code)
+
+{fab}`twitter` [takanory](https://twitter.com/takanory)
+{fab}`github` [takanory](https://github.com/takanory/)
+{fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
+{fab}`untappd` [takanory](https://untappd.com/user/takanory/)
+
+![takanory profile](/assets/images/sokidan-square.jpg)
+![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+
