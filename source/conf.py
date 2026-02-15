@@ -62,8 +62,10 @@ html_logo = "_static/takanory.jpg"
 
 html_title = "takanory slides"
 
+html_last_updated_fmt = '%Y-%m-%d'
+
 html_css_files = [
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css",
 ]
 
 html_sidebars = {

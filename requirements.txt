@@ -1,9 +1,9 @@
 atsphinx-audioplayer==0.2.1
 furo==2025.12.19
-myst-parser==4.0.1
-Sphinx==8.2.3
+myst-parser==5.0.0
+Sphinx==9.1.0
 sphinx-nekochan==0.4.0
 sphinx-revealjs==3.2.1
-sphinx_design==0.6.1
-sphinxcontrib-mermaid==1.2.3
+sphinx_design==0.7.0
+sphinxcontrib-mermaid==2.0.0
 sphinxext-opengraph[social_cards]==0.13.0
