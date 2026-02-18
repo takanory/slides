@@ -29,7 +29,10 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 
 ### {fas}`globe` [`slides.takanory.net`](https://slides.takanory.net/) {nekochan}`miru`
 
-![slides.takanory.net](images/slides-takanory-net.png)
+```{image} images/slides-takanory-net.png
+:alt: slides.takanory.net
+:width: 80%
+```
 
 ## **Who** am I? / お前 **誰よ** {nekochan}`beer`
 
