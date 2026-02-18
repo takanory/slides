@@ -194,7 +194,7 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 
 ### **マナビリアCBT**が爆誕[^cbt] {nekochan}`chudoon`
 
-* ワークのみ→**CBT**が追加（2026年4月）
+* ワークのみ→**CBT**(テスト)が追加(2026年4月)
 
 ```{image} https://www.meijitosho.co.jp/db/info/20250801_2.png
 :width: 30%
@@ -537,6 +537,15 @@ class ChoicesBody(BaseModel):
         return self
 ```
 
+### つらみは**解消**した？ {nekochan}`singi-chu`
+
+* Schemaが**長くて**見づらい
+  * **コンパクト**になった
+* 定義が**JSON**なので読みにくい
+  * **型ヒント**で読みやすく
+* フォーム形式ごとにバリデーション切り替え
+  * 1つのモデルに**集約**
+  
 ### 他にもいろいろできるので<br />詳しくは**ドキュメント**読んでね {nekochan}`holiday-nya2`
 
 {fas}`globe` [`docs.pydantic.dev`](https://docs.pydantic.dev/latest/)
