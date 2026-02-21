@@ -94,6 +94,14 @@ PyCon mini Shizuoka 2026 / 2026 Feb 21
 :width: 80%
 ```
 
+```{revealjs-break}
+:notitle:
+```
+
+パンフレット持っていってくださいーー {nekochan}`otodoke`
+
+![](images/beproud-paper.jpg)
+
 ## **どんな課題**があったか {nekochan}`yabai`
 
 ### **学習教材**のWebシステム [^manaviria] {nekochan}`benkyou`
