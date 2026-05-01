@@ -84,15 +84,15 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-fukuoka/session/2208016>`__
      * `Slides <https://slides.takanory.net/slides/20251122oscfukuoka>`__
    - * `PyCon mini 東海 2025 <https://tokai.pycon.jp/2025/>`__
-     * 2025 Nov
      * Aichi, Japan
+     * 2025 Nov
      * Talk
      * ja
      * 🐱ネコチャン絵文字をドキュメントに入れよう！
      * `Slides <https://slides.takanory.net/slides/20251108tokai>`__
    - * BPStyle 178
-     * 2025 Nov
      * Online
+     * 2025 Nov
      * Talk
      * ja
      * はじめての中国 はじめてのPyCon China
@@ -136,8 +136,8 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * `Slides <https://slides.takanory.net/slides/20250826euroreport>`__
        `Video <https://www.youtube.com/watch?v=ZVjKvNWd_Zk&t=1395s>`__
    - * BPStyle 175
-     * 2025 Aug
      * Online
+     * 2025 Aug
      * Talk
      * ja
      * EuroPython 2025 Travelogue
