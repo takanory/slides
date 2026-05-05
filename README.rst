@@ -34,13 +34,6 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
-   - * `PythonAsia 2026 <https://2026.pythonasia.org/>`__
-     * Manila, Philippines
-     * 2026 Mar
-     * LT
-     * en
-     * Put 🐱 Cat Emojis in your Documents!
-     * `Slides <https://slides.takanory.net/slides/20260322pythonasia>`__
    - * `PyCon mini Shizuoka 2026 <https://shizuoka.pycon.jp/2026/>`__
      * Shizuoka, Japan
      * 2026 Feb
