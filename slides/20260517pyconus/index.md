@@ -1,3 +1,10 @@
+```{eval-rst}
+:og:image: _images/20260517pyconus.png
+:og:image:alt: Find Better 🐱 Cat Emojis with your text!
+
+.. |cover| image:: images/20260517pyconus.png
+```
+
 # Find **Better** 🐱 Cat Emojis with your text!
 
 Takanori Suzuki
@@ -28,12 +35,11 @@ PyCon US 2026 / 2026 May 17
 
 ![Thomas's Cat](images/thomas.jpg)
 
-## In PyCon 2025 🎙️ [^youtube][^slides]
+## In PyCon US 2025 ⚡️️ [^youtube][^slides]
 
-```{image} images/pyconus2025slides.png
+```{image} images/pyconus2025lt.jpg
 :alt: Put 🐱 Cat Emojis in your Documents!
-:target: https://slides.takanory.net/slides/20250518pyconus/
-:width: 70%
+:width: 68%
 ```
 
 [^youtube]: {fab}`youtube` [Lightning Talks - Sunday, May 18th, 2025 AM](https://www.youtube.com/watch?v=lXngPPRaqGg&t=1009s)
@@ -47,18 +53,24 @@ If you're interested, please check out YouTube or slides.
 
 ## The Problem {nekochan}`nanimo-sitenainoni-kowareta-nya`
 
+```{revealjs-notes}
+But, we now face a new problem.
+```
+
+### The Problem {nekochan}`nanimo-sitenainoni-kowareta-nya`
+
 ```{revealjs-section}
 :data-background-image: images/many-nekochan-emojis.png
 :data-background-size: contain
 ```
 
-* Lots of Cat Emojis!!(378 emojis)
-* Hard to find the right one
+* LOTS of CAT EMOJIS!!(378 emojis)
+* Hard to find the right emoji
 
 ```{revealjs-notes}
-But, we now face a new problem.
-There are simply too many nekochan emojis!
-It's really hard to find the right emoji for the context.
+There are lots of cat emojis!!
+That makes it really hard to find the right one for the context.
+But...
 ```
 
 ## We have **Python** {fab}`python` and **AI** {nekochan}`robot`
@@ -73,13 +85,17 @@ To solve the problem, I created a new tool called nekochan-suggest.
 It helps you find the purr-fect cat emoji using the power of AI!
 ```
 
-## How it works {nekochan}`work-moeru`
+## `nekochan-suggest`:<br>How it works {nekochan}`work-moeru`
 
-### How it works {nekochan}`work-moeru`
+### `nekochan-suggest`: How it works {nekochan}`work-moeru`
 
 * **Captioning**: [Ollama](https://ollama.com/) + [gemma4:e4b](https://ollama.com/library/gemma4:e4b)
 * **Embedding**: [SentenceTransformers](https://www.sbert.net/) + [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base)
 * **Search**: Vector Nearest Neighbor
+
+```{revealjs-notes}
+The mechanism of nekocha-suggest can be divided into the following three parts:
+```
 
 ### Captioning: [Ollama](https://ollama.com/) + [gemma4:e4b](https://ollama.com/library/gemma4:e4b) {nekochan}`memo`
 
@@ -107,14 +123,14 @@ This model can embed multilingual text.
 ```{revealjs-notes}
 During a search, the input text is embedded using the same model.
 Then, the similarity between the resulting vector and the vectors for each emoji is calculated.
-In this case, the emoji of a cat holding an umbrella has a higher score, so it is displayed as a search result.
+In this case, the emoji of umbrella cat has a higher score, so it is displayed as a search result.
 ```
 
 ## Demo {nekochan}`work`
 
 ### `nekochan-suggest` CLI {nekochan}`work`
 
-```bash
+```{code-block} console
 % nekochan-suggest "I love beer"
 1. beer-nya  0.78
 2. wine-nya  0.78
@@ -124,7 +140,7 @@ In this case, the emoji of a cat holding an umbrella has a higher score, so it i
 ```{revealjs-break}
 ```
 
-```bash
+```{code-block} console
 % nekochan-suggest build-anotations --help
 usage: nekochan-suggest [-h] [--count N] [--json] [TEXT]
 
@@ -148,6 +164,12 @@ options:
 ```
 
 ![nekochan-suggest-ui](images/nekochan-suggest-ui.gif)
+
+### **Easier** to find **Right Cat Emoji**!! {nekochan}`paaan`
+
+```{revealjs-notes}
+Now it's easier to find the right cat emoji!!
+```
 
 ## Thank you {nekochan}`pray`
 
