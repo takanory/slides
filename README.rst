@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon US 2026 <https://us.pycon.org/2026/>`__
+     * Long Beach, CA
+     * 2026 May
+     * LT
+     * en
+     * Put BETTER 🐱 Cat Emojis in your documents!
+     * `Slides <https://slides.takanory.net/slides/20260517pyconus>`__
    - * `PyCon mini Shizuoka 2026 <https://shizuoka.pycon.jp/2026/>`__
      * Shizuoka, Japan
      * 2026 Feb
