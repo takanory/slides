@@ -20,11 +20,11 @@ PyCon US 2026 / 2026 May 17
 :width: 20%
 ```
 
-## Do you **like cats**? 🐱
+## Do you **like Cats**? 🐱
 
 ### IMO, **Many programmers** like Cats <br /> 🧑‍💻 👩‍💻 ❤️ 🐱
 
-### **Council Member** is also like cats 😍
+### **A Council Member** also likes Cats 😍
 
 ![Thomas's Cat](images/thomas.jpg)
 
@@ -52,7 +52,7 @@ If you're interested, please check out YouTube or slides.
 :data-background-size: contain
 ```
 
-* TOO MANY NEKOCHAN EMOJIS!(378 emojis)
+* Lots of Cat Emojis!!(378 emojis)
 * Hard to find the right one
 
 ```{revealjs-notes}
@@ -87,17 +87,17 @@ It helps you find the purr-fect cat emoji using the power of AI!
 
  
 ```{revealjs-notes}
-Gemma4 supports multimodal processing, so it generates annotation text based on emoji images.
+I used Gemma4 to generate annotation text from cat emoji images.
+Gemma4 can handle image inputs.
 ```
 
 ### Embedding: [SentenceTransformers](https://www.sbert.net/) + [multilingual-e5-base](https://huggingface.co/intfloat/multilingual-e5-base) {nekochan}`itabasami`
 
 ![Embeddng](images/embedding.png)
 
-
 ```{revealjs-notes}
-I use a multilingual model for embedding.
-I used this model to convert annotation text into vectors.
+I used multilingual-e5-base model to vectorize the annotation text.
+This model can embed multilingual text.
 ```
 
 ### Search: Vector Nearest Neighbor {nekochan}`miru`
@@ -153,7 +153,7 @@ options:
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
-{fas}`github` [takanory/nekochan-suggest](https://github.com/takanory/nekochan-suggest/)
+{fab}`github` [takanory/nekochan-suggest](https://github.com/takanory/nekochan-suggest/)
 
 {fab}`twitter` [takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
@@ -162,3 +162,4 @@ options:
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+![QR code for slides](images/slides.png)
