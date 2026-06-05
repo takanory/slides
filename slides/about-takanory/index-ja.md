@@ -10,7 +10,10 @@
 * 鈴木たかのり / Takanori Suzuki ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 * [PyCon JP Association](https://www.pycon.jp) 代表理事
 * [BeProud](https://www.beproud.jp/) 取締役 / Python Climber
-* [Python mini Hack-a-thon](https://pyhack.connpass.com/)
+* [Python Boot Camp](<https://www.pycon.jp/support/bootcamp.html)、
+  [Python mini Hack-a-thon](https://pyhack.connpass.com/)、
+  [Python Bouldering Club](https://kabepy.connpass.com/)
+
 * 好き: [Ferrets](https://twitter.com/search?q=%E3%81%9B%E3%81%B6%E3%82%93%E3%81%A1%E3%82%83%E3%82%93%20(from%3Atakanory)&src=typed_query&f=live)、[🍺](https://untappd.com/user/takanory)、[LEGO](https://brickset.com/sets/ownedby-takanori) ／ 趣味: [🎺](https://twpo.org/)、[🧗‍♀️](https://kabepy.connpass.com/)
 
 ![takanory profile](/assets/images/sokidan-square.jpg)
@@ -24,17 +27,30 @@
 
 ![pycon jp logo](/assets/images/pyconjp_logo.png)
 
-### PyCon JP 2024 🎫
+### PSF Community Service Awards 🏆
 
-* [2024.pycon.jp](https://2024.pycon.jp/)
+```{image} /assets/images/psf-awards.jpg
+:width: 60%
+```
+
+* [PSF Community Service Awards | Python.org](https://www.python.org/community/awards/psf-awards/#december-2021)
+* [PyCon JP Association Awarded the PSF Community Service Award for Q4 2021](https://pyfound.blogspot.com/2022/05/pycon-jp-association-awarded-psf.html)
+
+### PyCon JP 2026 🎫
+
+* {fas}`globe` [`2026.pycon.jp`](https://2026.pycon.jp/)
 * **国内最大規模** のPythonイベント
-* 日付: 2024年9月27日(金)-29日(日)
-* 会場: [TOC有明コンベンションホール](https://www.toc.co.jp/saiji/ariake/)
+* 📆 日付: 2026年**8月21日**(金)-**23日**(日)
+* ⛩️ 会場: [広島国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
+* 👥 共同座長：佐野浩士、鈴木たかのり
 
+```{image} /20251108tokai/images/pyconjp2026-chairs.png
+:width: 40%
+```
 ### PyCon JP TV 📺
 
-* [tv.pycon.jp](https://tv.pycon.jp/)
-* YouTube LiveでPython関連情報をお届け
+* {fas}`globe` [`tv.pycon.jp`](https://tv.pycon.jp/)
+* 毎月第1火曜日、**YouTube Live**でPython関連情報をお届け
 
 ```{image} /assets/images/pyconjptv.png
 :width: 50%
@@ -43,21 +59,21 @@
 
 ### Python Boot Camp 💪
 
-* [www.pycon.jp/support/bootcamp.html](https://www.pycon.jp/support/bootcamp.html)
+* {fas}`globe` [`www.pycon.jp/support/bootcamp.html`](https://www.pycon.jp/support/bootcamp.html)
 * 初心者向けPythonチュートリアル
 
 ![Python Boot Camp](/assets/images/python-boot-camp-logo.png)
 
 ## BeProud Inc. 🏢
 
-* [www.beproud.jp](https://www.beproud.jp/)
+* {fas}`globe` [`www.beproud.jp`](https://www.beproud.jp/)
 * Pythonでシステム開発、研修など
 
 ![BeProud](/assets/images/beproud.png)
 
 ### connpass 🤝
 
-* [connpass.com](https://connpass.com/)
+* {fas}`globe` [`connpass.com`](https://connpass.com/)
 * IT勉強会支援プラットフォーム
 
 ```{image} /assets/images/connpass.png
@@ -66,7 +82,7 @@
 ```
 ### PyQ(パイキュー) 💻
 
-* [pyq.jp](https://pyq.jp/)
+* {fas}`globe` [`pyq.jp`](https://pyq.jp/)
 * Pythonに特化したオンライン学習サービス
 
 ```{image} /assets/images/pyq.png
@@ -76,7 +92,7 @@
 
 ### TRACERY(トレーサリー) 📑
 
-* [tracery.jp](https://tracery.jp/)
+* {fas}`globe` [`tracery.jp`](https://tracery.jp/)
 * システム開発のためのドキュメントサービス
 
 ```{image} /assets/images/tracery.png
@@ -92,7 +108,9 @@
 
 ## Takanori Suzuki
 
-{fab}`twitter` [@takanory](https://twitter.com/takanory)
+{fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
+
+{fab}`twitter` [takanory](https://twitter.com/takanory)
 {fab}`github` [takanory](https://github.com/takanory/)
 {fab}`linkedin` [takanory](https://www.linkedin.com/in/takanory/)
 {fab}`untappd` [takanory](https://untappd.com/user/takanory/)
