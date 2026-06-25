@@ -41,6 +41,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * Put BETTER 🐱 Cat Emojis in your documents!
      * `Slides <https://slides.takanory.net/slides/20260517pyconus>`__
+       `Report <https://gihyo.jp/list/group/PyCon-US-2026%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2026/06/pycon-us-2026-001>`__
    - * `PyCon mini Shizuoka 2026 <https://shizuoka.pycon.jp/2026/>`__
      * Shizuoka, Japan
      * 2026 Feb
