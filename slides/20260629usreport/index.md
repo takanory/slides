@@ -14,6 +14,6 @@ Takanori Suzuki
 :width: 30%
 ```
 
-PyCon US 2026参加報告会 / 2026 Jun 29
+[PyCon US 2026参加報告会](https://pyconjp.connpass.com/event/395452/) / 2026 Jun 29
 
 ## aaa

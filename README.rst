@@ -34,7 +34,6 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
-       20260629pyconusreport
    - * `PyCon US 2026 参加報告会 <https://pyconjp.connpass.com/event/395452/>`__
      * Tokyo, Japan
      * 2026 Jun
