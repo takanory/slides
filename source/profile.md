@@ -34,6 +34,9 @@ Recently started to travel to rural Japan to teach at Python Boot Camps and enjo
 
 His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
+* 2026 December: [PSF Community Service Awards](https://www.python.org/community/awards/psf-awards/#december-2021)
+* 2026 Q2: [PSF Fellow Member](https://www.python.org/psf/fellows/)
+
 ---
 
 [一般社団法人PyCon JP Association](https://www.pycon.jp/)代表理事、[株式会社ビープラウド](https://www.beproud.jp/) 取締役 / Python Climber
@@ -43,6 +46,9 @@ His hobbies are playing the trumpet, bouldering, Lego and puzzles.
 
 各国PyConやPython Boot Campで訪れた土地で、現地のクラフトビールを飲むことが楽しみ。
 フェレットとビールとレゴが好き。趣味は吹奏楽(トランペット)とボルダリング。
+
+* 2026年12月: [PSF Community Service Awards](https://www.python.org/community/awards/psf-awards/#december-2021)
+* 2026年Q2: [PSF Fellow Member](https://www.python.org/psf/fellows/)
 
 ## Books
 
