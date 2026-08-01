@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `Open Source Conference 2026 Kyoto <https://event.ospn.jp/osc2026-kyoto/>`__
+     * Kyoto, Japan
+     * 2026 Aug
+     * Talk
+     * ja
+     * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2026-kyoto/session/2320797>`__
+     * `Slides <https://slides.takanory.net/slides/20260801osckyoto>`__
    - * `PyCon US 2026 参加報告会 <https://pyconjp.connpass.com/event/395452/>`__
      * Tokyo, Japan
      * 2026 Jun
