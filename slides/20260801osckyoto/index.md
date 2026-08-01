@@ -44,7 +44,9 @@ Takanori Suzuki
 ![takanory profile](/assets/images/sokidan-square.jpg)
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
-### TODO: なにか京都の画像
+### 久しぶりの京都（OSCは**初めて**）
+
+![](images/tetsugaku.jpg)
 
 ### PyCon JP **Association** 🐍
 
@@ -56,14 +58,14 @@ Takanori Suzuki
 
 ### PyCon JP **2026**
 
-```{image} images/pyconjp2026-form-qr.png
-:width: 25%
+```{image} images/pyconjp2026logo.png
+:width: 20%
 ```
 
 * {fas}`globe` [`2026.pycon.jp`](https://2026.pycon.jp/)
 * 🗓️ 2025年**8月21日(金)-23日(日)**
 * ⛩️ [広島国際会議場](https://www.pcf.city.hiroshima.jp/icch/)
-* 👥 [主催メンバー申込](https://docs.google.com/forms/d/e/1FAIpQLSdl0-Tx-zt5-jqvVAMMSU55WDD79gsmfLBtHW7W1BnwW4864Q/viewform)
+* 🎫 [pyconjp.connpass.com/.../391006](https://pyconjp.connpass.com/event/391006/)
 
 ### 京都から広島 🚅
 
@@ -849,7 +851,7 @@ TypeError: open() got an unexpected keyword argument 'encodeng'. \
 
 ### Python 3.14での改善
 
-* Python 3.14: [Improved error messages](https://docs.python.org/ja/3.14/whatsnew/3.14.html#improved-error-messages)
+* Python 3.14: [Improved error messages](https://docs.python.org/ja/3/whatsnew/3.14.html#improved-error-messages)
 * キーワードもDid you meanで提案
 
 ```{revealjs-code-block} python
@@ -861,6 +863,59 @@ TypeError: open() got an unexpected keyword argument 'encodeng'. \
     whille True:
     ^^^^^^
 SyntaxError: invalid syntax. Did you mean 'while'?
+```
+
+### Python 3.15での改善
+
+* Python 3.15: [Improved error messages](https://docs.python.org/ja/3.15/whatsnew/3.15.html#improved-error-messages)
+* 属性のネスト時にもDid you meanを表示
+
+```{revealjs-code-block} python
+@dataclass
+class Circle:
+   radius: float
+
+   @property
+   def area(self) -> float:
+      return pi * self.radius**2
+
+class Container:
+   def __init__(self, inner: Circle) -> None:
+      self.inner = inner
+
+circle = Circle(radius=4.0)
+container = Container(circle)
+print(container.area)
+```
+
+```{revealjs-break}
+```
+
+```{revealjs-code-block} python
+Traceback (most recent call last):
+  File "/home/pablogsal/github/python/main/lel.py", line 42, in <module>
+    print(container.area)
+          ^^^^^^^^^^^^^^
+AttributeError: 'Container' object has no attribute 'area'.
+  Did you mean '.inner.area' instead of '.area'?
+```
+
+### Python 3.15での改善
+
+* 他言語のメソッド名使用時に提案を表示
+
+```{revealjs-code-block} python
+>>> [1, 2, 3].push(4)
+Traceback (most recent call last):
+...
+AttributeError: 'list' object has no attribute 'push'.
+  Did you mean '.append'?
+
+>>> 'hello'.toUpperCase()
+Traceback (most recent call last):
+...
+AttributeError: 'str' object has no attribute 'toUpperCase'.
+  Did you mean '.upper'?
 ```
 
 ### エラーメッセージが**改善**されている<br />**新しいバージョン**を使おう {nekochan}`isogu`
@@ -877,12 +932,16 @@ SyntaxError: invalid syntax. Did you mean 'while'?
 
 ## お知らせ {nekochan}`osirase`
 
-* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochan[^sphinx-nekochan]を公開 {nekochan}`banzai`
+* Sphinxドキュメントにネコチャン絵文字を簡単に入れられる拡張sphinx-nekochanを公開 {nekochan}`banzai`
+  * {fab}`github` [`takanory/sphinx-nekochan`](https://github.com/takanory/sphinx-nekochan)
 * 気に入ったらGitHub Starしてね {nekochan}`big-love`
 * ネコチャン絵文字[^nekochan]はしかまつさんが作成・配布しています
 
 [^nekochan]: <https://note.com/shikamatsu/n/nd217dc0617db>
-[^sphinx-nekochan]: <https://sphinx-nekochan.readthedocs.io/>
+
+## See you at **PyCon JP 2026**!! {nekochan}`yatta`
+
+![](images/pyconjp2026.jpg)
 
 ## Thank You {nekochan}`pray`
 
