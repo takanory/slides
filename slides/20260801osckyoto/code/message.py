@@ -1,2 +1,2 @@
-message = "こんにちは、Start Python Clubのみなさん！"
+message = "こんにちは、OSC京都のみなさん！"
 print(mesage)

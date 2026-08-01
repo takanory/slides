@@ -621,7 +621,7 @@ class Beer(TypedDict):
     name: str
     style: str
 
-beer: Beer = {"name": "縁結麦酒スタウト", "style": "Stout"}
+beer: Beer = {"name": "一意専心", "style": "Belgian IPA"}
 ```
 
 ### 例外を**握りつぶさない**
