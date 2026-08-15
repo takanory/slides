@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon Korea 2026 <https://2026.pycon.kr/>`__
+     * Seoul, Korea
+     * 2026 Aug
+     * LT
+     * en
+     * Find Better 🐱 Cat Emojis with your text!
+     * `Slides <https://slides.takanory.net/slides/20260815pyconkr>`__
    - * `Open Source Conference 2026 Kyoto <https://event.ospn.jp/osc2026-kyoto/>`__
      * Kyoto, Japan
      * 2026 Aug
@@ -53,7 +60,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * 2026 May
      * LT
      * en
-     * Put BETTER 🐱 Cat Emojis in your documents!
+     * Find Better 🐱 Cat Emojis with your text!
      * `Slides <https://slides.takanory.net/slides/20260517pyconus>`__
        `Report <https://gihyo.jp/list/group/PyCon-US-2026%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2026/06/pycon-us-2026-001>`__
    - * `PyCon mini Shizuoka 2026 <https://shizuoka.pycon.jp/2026/>`__
