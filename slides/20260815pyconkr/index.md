@@ -28,6 +28,8 @@ PyCon Korea 2026 / 2026 Aug 15
 
 ### IMO, **Many programmers** like Cats <br /> 🧑‍💻 👩‍💻 ❤️ 🐱
 
+제 개인적인 생각이지만, 프로그래머 중 상당수는 고양이를 좋아합니다
+
 ## In PyCon US 2025 ⚡️️ [^youtube][^slides]
 
 ```{image} images/pyconus2025lt.jpg
@@ -45,6 +47,8 @@ If you're interested, please check out YouTube or slides.
 ```
 
 ## The Problem {nekochan}`nanimo-sitenainoni-kowareta-nya`
+
+문제점
 
 ```{revealjs-notes}
 But, we now face a new problem.
@@ -68,6 +72,8 @@ But...
 
 ## We have **Python** {fab}`python` and **AI** {nekochan}`robot`
 
+우리에게는 파이썬과 AI가 있다
+
 ### Solution: `nekochan-suggest` {nekochan}`hirameita`
 
 * Find the **purr-fect** cat emoji using AI
@@ -79,6 +85,8 @@ It helps you find the purr-fect cat emoji using the power of AI!
 ```
 
 ## `nekochan-suggest`:<br>How it works {nekochan}`work-moeru`
+
+작동 원리
 
 ### `nekochan-suggest`: How it works {nekochan}`work-moeru`
 
@@ -121,6 +129,8 @@ In this case, the emoji of umbrella cat has a higher score, so it is displayed a
 
 ## Demo {nekochan}`work`
 
+데모
+
 ### `nekochan-suggest` CLI {nekochan}`work`
 
 ```{code-block} console
@@ -159,6 +169,8 @@ options:
 ![nekochan-suggest-ui](images/nekochan-suggest-ui.gif)
 
 ### **Easier** to find **Better Cat Emoji**!! {nekochan}`paaan`
+
+더 좋은 고양이 이모지를 더 쉽게 찾을 수 있다
 
 ```{revealjs-notes}
 Now it's easier to find the better cat emoji!!
