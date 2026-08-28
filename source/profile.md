@@ -93,6 +93,7 @@ Cover | Title | Year| Publisher
 
 Cover | Title | Year| Publisher
 --- | --- | --- | ---
+![](images/furigana3.jpg){w=75px} | [Pythonふりがなプログラミング 改訂3版](https://book.impress.co.jp/books/1126101029) | 2026 | インプレス
 ![](images/python-excel2.jpg){w=75px} | [Python&Excel自動処理 全部入り 改訂2版](https://book.impress.co.jp/books/1123101155) | 2024 | インプレス
 ![](images/wd.jpg){w=75px} | [Web Designing 2021年12月号：Python ライブラリ・フレームワークの基本](https://book.mynavi.jp/wdonline/samp/detail/id=126681) | 2021 | マイナビ出版
 ![](images/furigana-scraping.jpg){w=75px} | [Pythonふりがなプログラミング スクレイピング入門](https://book.impress.co.jp/books/1120101182) | 2021 | インプレス
