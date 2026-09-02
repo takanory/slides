@@ -61,7 +61,7 @@ BPStyle 188 / 2026 Sep 3
 
 ## 8月17日(月) PyCon Korea、**ソウル→釜山**（🚄）
 
-### Sprints
+### Sprints {nekochan}`banban`
 
 ![](images/sprints.jpg)
 
@@ -146,7 +146,7 @@ BPStyle 188 / 2026 Sep 3
 
 ![](images/busan-terminal.jpg)
 	
-### 出国して搭乗
+### 出国して**搭乗待ち** {nekochan}`seiza-taiki`
 
 ![](images/boarding.jpg)
 	
@@ -154,7 +154,7 @@ BPStyle 188 / 2026 Sep 3
 
 ![](images/ferry.jpg)
 	
-### 部屋(一等船室)
+### 部屋(一等船室) {nekochan}`kyukei`
 
 ```{image} images/room.jpg
 :width: 32%
@@ -183,7 +183,7 @@ BPStyle 188 / 2026 Sep 3
 
 ## 8月19日(水) 朝**下関**到着(🛳️)、**下関→広島**（🚄）
 
-### 下関港で入国(7:45頃)
+### 下関港で入国(7:45頃) {nekochan}`travel`
 
 ![](images/shimonoseki-terminal.jpg)
 
@@ -203,7 +203,7 @@ BPStyle 188 / 2026 Sep 3
 :width: 35%
 ```
 
-## まとめ
+## まとめ {nekochan}`work-yabai`
 
 * 特急列車は**早めに予約**しよう
 * フェリーに**WiFi**があるか調べよう
