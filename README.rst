@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * BPStyle 188
+     * Online
+     * 2026 Sep
+     * Talk
+     * ja
+     * PyCon Korea珍道中
+     * `Slides <https://slides.takanory.net/slides/20260903bpstyle>`__
    - * `PyCon Korea 2026 <https://2026.pycon.kr/>`__
      * Seoul, Korea
      * 2026 Aug
