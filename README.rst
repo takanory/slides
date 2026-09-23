@@ -121,6 +121,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `エラーはともだち こわくないよ <https://event.ospn.jp/osc2025-fukuoka/session/2208016>`__
      * `Slides <https://slides.takanory.net/slides/20251122oscfukuoka>`__
+       `Video <https://www.youtube.com/watch?v=HQz5tLKmAUU>`__
    - * `PyCon mini 東海 2025 <https://tokai.pycon.jp/2025/>`__
      * Aichi, Japan
      * 2025 Nov
@@ -149,6 +150,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * ja
      * `Python開発環境の整え方ライブデモ <https://2025.pycon.jp/ja/timetable/talk/SB3RDY>`__
      * `Slides <https://docs.google.com/presentation/d/16hBhrfSc4V5ng6LIS28uI9RJdbscRuLHUzF2QOJ2I7o/edit>`__
+       `Video <https://www.youtube.com/watch?v=Wy3Lixh1vwk&t=25s>`__
    - * `PyCon China 2025 <https://cn.pycon.org/2025/en/>`__
      * Shanghai, China
      * 2025 Sep
