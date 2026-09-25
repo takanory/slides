@@ -49,6 +49,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * Find Better 🐱 Cat Emojis with your text!
      * `Slides <https://slides.takanory.net/slides/20260815pyconkr>`__
        `Video <https://youtu.be/2zNPbMJLyTM?si=pjLlFP6dDQ5vJ3E_&t=381>`__
+       `Report <https://gihyo.jp/article/2026/09/pycon-korea-2026>`__
    - * `Open Source Conference 2026 Kyoto <https://event.ospn.jp/osc2026-kyoto/>`__
      * Kyoto, Japan
      * 2026 Aug

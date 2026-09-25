@@ -115,6 +115,7 @@ Cover | Title | Year| Publisher
 
 ### [gihyo.jp](https://gihyo.jp/)
 
+* [PyCon Korea 2026 参加レポート](https://gihyo.jp/article/2026/09/pycon-korea-2026)
 * [Python 3.15新機能：lazy imports（遅延インポート）の紹介](https://gihyo.jp/article/2026/06/monthly-python-2606)
 * [PyCon US 2026参加レポート](https://gihyo.jp/list/group/PyCon-US-2026%E5%8F%82%E5%8A%A0%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88#rt:/article/2026/06/pycon-us-2026-001)
 * [t-string：テンプレート文字列リテラルの紹介](https://gihyo.jp/article/2025/11/monthly-python-2511)
