@@ -53,12 +53,6 @@ Thank you.
 
 參加海外 PyCon 是很大的挑戰吧？
 
-```{revealjs-notes}
-But I know, going to an overseas PyCon is a big challenge.
-```
-
-### Overseas PyCons are a big challenge, right? {nekochan}`yabai`
-
 - Language 🗣️
 - Money 💰 → Financial Aid / [PSF Grants](https://www.python.org/psf/grants/)
 - Travel ✈️
@@ -66,6 +60,7 @@ But I know, going to an overseas PyCon is a big challenge.
 **Yes, it's not easy** {nekochan}`ase`
 
 ```{revealjs-notes}
+But I know, going to an overseas PyCon is a big challenge.
 You may worry about language, money, and travel.
 For money, many PyCons have Financial Aid, and the PSF has Grants.
 Yes, it's not easy.
@@ -106,34 +101,6 @@ Let me show you my overseas PyCon journey.
 I have been to more than 25 PyCons in more than 13 countries and regions.
 ```
 
-## How I challenge {nekochan}`totugeki`
-
-我如何挑戰
-
-```{revealjs-notes}
-How do I do it?
-```
-
-### How I challenge {nekochan}`totugeki`
-
-**Find CfP** 🔍 → **Submit proposal** 📝 → **Accepted** 🎉
-
-→ **Fly** ✈️ → **Talk** 🎤 → **Beer** {nekochan}`beer`
-
-```{revealjs-notes}
-It's simple.
-Find a Call for Proposals, and submit a proposal.
-When it's accepted, I fly there, give a talk, and drink beer!
-```
-
-### What if your proposal is rejected? {nekochan}`pien`
-
-如果提案被拒絕了呢？
-
-```{revealjs-notes}
-But what if your proposal is rejected?
-```
-
 ### Rejected too! {nekochan}`orz`
 
 我也會被拒絕
@@ -142,7 +109,7 @@ But what if your proposal is rejected?
 - But I'm here with an **LT**! {nekochan}`doya`
 
 ```{revealjs-notes}
-Don't worry. I get rejected too.
+But I get rejected too.
 My talk proposal for this PyCon Taiwan was rejected.
 But I'm here with a lightning talk!
 ```
@@ -151,95 +118,45 @@ But I'm here with a lightning talk!
 
 我的收穫
 
-```{revealjs-notes}
-So, what did I get from overseas PyCons?
-```
-
-### What I got {nekochan}`yatta`
-
-1. Friends around the world
-2. Travel, food & beer
-3. Speaking in English & growth
-
-```{revealjs-notes}
-I got three things.
-```
-
-### Friends around the world {nekochan}`nakayoshi`
-
-世界各地的朋友
-
-% TODO(T025): uncomment after adding images/friends.jpg
+% TODO(T025): uncomment after adding images/friends.jpg, beer.jpg, speaking.jpg
 % ```{image} images/friends.jpg
 % :alt: Friends at PyCons
-% :width: 60%
+% :width: 30%
 % ```
-
-Friends in every country I visit
-
-```{revealjs-notes}
-First, friends. Now I have friends in every country I visit.
-```
-
-### Travel, food & beer {nekochan}`beer`
-
-旅行、美食與啤酒
-
-% TODO(T025): uncomment after adding images/beer.jpg
 % ```{image} images/beer.jpg
 % :alt: Local food and craft beer
-% :width: 60%
+% :width: 30%
 % ```
-
-Local food & craft beer everywhere!
-
-```{revealjs-notes}
-Second, travel. I can enjoy local food and craft beer everywhere.
-```
-
-### Speaking in English & growth {nekochan}`sodateru`
-
-英語演講與成長
-
-% TODO(T025): uncomment after adding images/speaking.jpg
 % ```{image} images/speaking.jpg
 % :alt: Speaking at a PyCon
-% :width: 60%
+% :width: 30%
 % ```
 
-My English is not perfect, but it's OK!
+1. Friends around the world {nekochan}`nakayoshi`
+2. Travel, food & beer {nekochan}`beer`
+3. Speaking in English & growth {nekochan}`sodateru`
 
 ```{revealjs-notes}
-Third, I grew by speaking in English.
-My English is not perfect, but it's OK!
+What did I get from overseas PyCons? Three things.
+Friends around the world.
+Local food and craft beer.
+And I grew by speaking in English. My English is not perfect, but it's OK!
 ```
 
 ## Let's go to overseas PyCons! {nekochan}`kamon`
 
 一起去海外 PyCon 吧！
 
-```{revealjs-notes}
-So, let's go to overseas PyCons!
-```
+**Step 1**: **Attend** 🎫 → **Step 2**: **Speak** 🎤
 
-### Let's go to overseas PyCons! {nekochan}`kamon`
+**Speaking is more fun!** {nekochan}`paaan`
 
-**Step 1**: **Attend** 🎫
-
-→ **Step 2**: **Speak** 🎤
-
-```{revealjs-notes}
-Step 1, just attend. Step 2, give a talk.
-```
-
-### Speaking is more fun! {nekochan}`paaan`
-
-演講更好玩！
-
-- People ask questions and give feedback on your talk {nekochan}`nakayoshi`
+- Questions & feedback on your talk {nekochan}`nakayoshi`
 - Beer after your talk tastes the best {nekochan}`beer`
 
 ```{revealjs-notes}
+So, let's go to overseas PyCons!
+Step 1, just attend. Step 2, give a talk.
 Speaking is more fun!
 People ask you questions and give you feedback about your talk.
 And beer after your talk tastes the best!
@@ -279,39 +196,18 @@ It has English talks too. Please join us!
 
 - 🇭🇰 **PyCon HK 2026**: Nov 14-15, Hong Kong
 - 🇺🇸 **PyCon US 2027**: May 12-18, USA
-- 🇸🇬 **PythonAsia 2027**: Jun 2027 (TBA), Singapore
-- 🇹🇭 **PyCon TH 2027**: Jun 18-19, Thailand
 - 🇯🇵 **PyCon JP 2027**: Sep 24-26, Japan
-- 🇰🇷 **PyCon KR 2027**: TBA
-
-```{revealjs-notes}
-There are many more PyCons.
-PyCon HK, PyCon US, PythonAsia, PyCon Thailand, PyCon JP, and PyCon Korea.
-```
-
-```{revealjs-break}
-```
 
 {fas}`globe` Find more: [pythondeadlin.es](https://pythondeadlin.es/)
 
-```{image} images/pythondeadlines.png
-:alt: Python Conference Deadlines
-:width: 65%
-```
-
 ```{revealjs-notes}
-You can find more conferences and deadlines on pythondeadlin.es.
-```
-
-## See you at PyCon somewhere {nekochan}`byebye`
-
-我們在某個 PyCon 見！
-
-```{revealjs-notes}
-See you at PyCon somewhere!
+There are more PyCons. PyCon HK, PyCon US, and PyCon JP.
+You can find more on pythondeadlin.es.
 ```
 
 ## Thank you / 謝謝 {nekochan}`thanks`
+
+**See you at PyCon somewhere!** {nekochan}`byebye`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
@@ -324,5 +220,5 @@ See you at PyCon somewhere!
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
-Thank you very much!
+See you at PyCon somewhere! Thank you very much!
 ```
