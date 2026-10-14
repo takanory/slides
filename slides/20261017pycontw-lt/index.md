@@ -33,50 +33,45 @@ Hello everyone! Today I will talk about my overseas PyCon journey.
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
-I'm Takanori Suzuki. My X(Twitter) is "takanory", please follow me.
-I'm a Chair of PyCon JP Association.
-And I'm a director of BeProud Inc and my title is "Python Climber".
-I'm also active in several Python related communities in Japan.
+I'm Takanori Suzuki from Japan.
 ```
 
-## Have you been to an overseas PyCon? {nekochan}`hai`
+## Been to an overseas PyCon? {nekochan}`hai`
 
 你參加過海外 PyCon 嗎？
 
 ```{revealjs-notes}
 First, a question.
-Have you been to a PyCon outside Taiwan? Please raise your hand!
+Have you been to an overseas PyCon? Please raise your hand!
 Thank you.
 ```
 
-## Overseas PyCons are a big challenge, right? {nekochan}`yabai`
+## Many hurdles to go overseas {nekochan}`yabai`
 
-參加海外 PyCon 是很大的挑戰吧？
+參加海外 PyCon 有各種困難
 
 - Language 🗣️
 - Money 💰 → Financial Aid / [PSF Grants](https://www.python.org/psf/grants/)
 - Travel ✈️
 
-**Yes, it's not easy** {nekochan}`ase`
-
 ```{revealjs-notes}
-But I know, going to an overseas PyCon is a big challenge.
+But going to an overseas PyCon has many challenges.
 You may worry about language, money, and travel.
 For money, many PyCons have Financial Aid, and the PSF has Grants.
-Yes, it's not easy.
 ```
 
-### But it's worth it! {nekochan}`daijoubu`
+### Overseas PyCons are worth it! {nekochan}`daijoubu`
 
-但是很值得！
+海外 PyCon 很值得！
 
-**Benefits > Hardships**
+**Unique value** you can only get there
 
-**Submit a proposal first,<br />think after it's accepted!**
+**Submit a proposal** first, think later!
 
 ```{revealjs-notes}
-But it's worth it! The benefits are bigger than the hardships.
-So, submit a proposal first. Think about the rest after it's accepted!
+But in my opinion, overseas PyCons are worth it.
+They give you value you can only get there. So please try!
+Submit a proposal first. Think about the rest after it's accepted!
 ```
 
 ## My Overseas PyCon Journey {nekochan}`travel`
@@ -97,15 +92,18 @@ Let me show you my overseas PyCon journey.
 
 **25+ PyCons** / **13+ countries & regions**
 
+**16** Talks / **8** LTs / **2** Posters
+
 ```{revealjs-notes}
 I have been to more than 25 PyCons in more than 13 countries and regions.
+I gave 16 talks, 8 lightning talks, and 2 posters.
 ```
 
 ### Rejected too! {nekochan}`orz`
 
 我也會被拒絕
 
-- My talk proposal for **PyCon Taiwan 2026** was **rejected** 😇
+- My proposal was **rejected** 😇
 - But I'm here with an **LT**! {nekochan}`doya`
 
 ```{revealjs-notes}
@@ -143,9 +141,9 @@ Local food and craft beer.
 And I grew by speaking in English. My English is not perfect, but it's OK!
 ```
 
-## Let's go to overseas PyCons! {nekochan}`kamon`
+## Let's try overseas PyCons! {nekochan}`kamon`
 
-一起去海外 PyCon 吧！
+挑戰海外 PyCon 吧！
 
 **Step 1**: **Attend** 🎫 → **Step 2**: **Speak** 🎤
 
@@ -155,7 +153,7 @@ And I grew by speaking in English. My English is not perfect, but it's OK!
 - Beer after your talk tastes the best {nekochan}`beer`
 
 ```{revealjs-notes}
-So, let's go to overseas PyCons!
+So, let's try overseas PyCons!
 Step 1, just attend. Step 2, give a talk.
 Speaking is more fun!
 People ask you questions and give you feedback about your talk.
@@ -170,22 +168,27 @@ And beer after your talk tastes the best!
 Do you want to know some recommended events?
 ```
 
-### Next: PyCon mini Tokyo {nekochan}`youkoso`
+### PyCon mini Tokyo {nekochan}`youkoso`
 
 ```{image} images/pycon-mini-tokyo.png
 :alt: PyCon mini Tokyo with PythonAsia conference
-:width: 25%
+:width: 80%
 ```
-
-- **PyCon mini Tokyo with PythonAsia conference** [^pycon-mini-tokyo]
-- 📅 2026 **Dec 12** (Sat) / 📍 Tokyo, Japan
-- 🌏 With PythonAsia: **English talks** too!
-- 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
 
 [^pycon-mini-tokyo]: Image: <https://pyconjp.connpass.com/event/404336/>
 
 ```{revealjs-notes}
 My first recommendation is PyCon mini Tokyo with PythonAsia conference.
+```
+
+### PyCon mini Tokyo {nekochan}`youkoso`
+
+- **with PythonAsia conference** [^pycon-mini-tokyo]
+- 📅 2026 **Dec 12** (Sat) / 📍 Tokyo, Japan
+- 🌏 **English talks** too!
+- 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
+
+```{revealjs-notes}
 It is on December 12 in Tokyo, Japan.
 It has English talks too. Please join us!
 ```
