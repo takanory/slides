@@ -271,22 +271,21 @@ There are more PyCons. PyCon HK, PyCon US, PythonAsia in Singapore, and PyCon JP
 You can find more on pythondeadlin.es.
 ```
 
-## See you at PyCon in **Japan**<br />or somewhere! {nekochan}`beer`
+## See you at **PyCon somewhere**! {nekochan}`beer`
 
-在日本或其他地方的 PyCon 見面吧！
+在某個 PyCon 見面吧！
 
 ```{image} images/pyconjp-beer.jpg
 :alt: Beer at PyCon JP
-:width: 45%
+:width: 55%
 ```
 
 ```{revealjs-notes}
 See you at PyCon in Japan, or at a PyCon somewhere!
+Let's go drink good beer together!
 ```
 
 ## Thank you / 謝謝 {nekochan}`thanks`
-
-See you at **PyCon somewhere**! {nekochan}`byebye`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
@@ -299,6 +298,5 @@ See you at **PyCon somewhere**! {nekochan}`byebye`
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
-See you at PyCon somewhere! Let's drink good beer together!
 Thank you very much!
 ```
