@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * `PyCon Taiwan 2026 <https://tw.pycon.org/2026/>`__
+     * Taipei, Taiwan
+     * 2026 Oct
+     * LT
+     * en
+     * Talks, Beer & Python: My Overseas PyCon Journey
+     * `Slides <https://slides.takanory.net/slides/20261017pycontw-lt>`__
    - * BPStyle 188
      * Online
      * 2026 Sep
