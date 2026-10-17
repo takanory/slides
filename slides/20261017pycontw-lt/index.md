@@ -277,7 +277,7 @@ You can find more on pythondeadlin.es.
 
 ```{image} images/pyconjp-beer.jpg
 :alt: Beer at PyCon JP
-:width: 55%
+:width: 65%
 ```
 
 ```{revealjs-notes}
