@@ -156,17 +156,22 @@ First, friends. Now I have friends around the world.
 
 ```{image} images/welcome-taiwan.jpg
 :alt: Welcome to Taiwan
-:width: 37%
+:width: 35%
 ```
 
 ```{image} images/korean-food.jpg
 :alt: Korean food
-:width: 37%
+:width: 35%
 ```
 
-```{image} images/pyconjp-beer.jpg
-:alt: Craft beer
-:width: 17%
+```{image} images/pythonasia-beer.jpg
+:alt: Beer at PythonAsia
+:width: 35%
+```
+
+```{image} images/fremont.jpg
+:alt: Fremont
+:width: 35%
 ```
 
 ```{revealjs-notes}
