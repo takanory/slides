@@ -17,20 +17,21 @@ Hello everyone! Today I will talk about my overseas PyCon journey.
 
 ## Who am I? {nekochan}`hate`
 
-我是誰？
-
-```{revealjs-break}
-:notitle:
-```
-
 - Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 - [PyCon JP Association](https://www.pycon.jp/committee/english.html/): Chair
 - [BeProud Inc.](https://www.beproud.jp/): Director / Python Climber
 - [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
 - Love: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
 
-![takanory profile](/assets/images/sokidan-square.jpg)
-![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
+```{image} /assets/images/sokidan-square.jpg
+:alt: takanory profile
+:width: 10%
+```
+
+```{image} /assets/images/kurokuri.jpg
+:alt: kuro-chan and kuri-chan
+:width: 10%
+```
 
 ```{revealjs-notes}
 I'm Takanori Suzuki from Japan.
