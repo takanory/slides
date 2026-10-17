@@ -87,7 +87,7 @@ Let me show you my overseas PyCon journey.
 
 **25+** PyCons / **13+** countries & regions
 
-🇹🇼 🇵🇭 🇺🇸 🇹🇭 🇨🇭 🇲🇾 🇸🇬 🇮🇩 🇮🇪 🇰🇷 🇭🇰 🇨🇿 🇨🇳
+🇹🇼 🇰🇷 🇭🇰 🇨🇳 🇵🇭 🇹🇭 🇲🇾 🇸🇬 🇮🇩 🇺🇸 🇨🇭 🇮🇪 🇨🇿
 
 **16** Talks / **8** LTs / **2** Posters
 
@@ -113,9 +113,8 @@ But what if your proposal is rejected?
 
 ```{revealjs-notes}
 I have been rejected too.
-My talk proposal for this PyCon Taiwan was rejected.
 But sometimes I can give a lightning talk, like this one!
-If your proposal is rejected, try a lightning talk at the event, like me!
+If your proposal is rejected, try a lightning talk, like me!
 ```
 
 ## What I got {nekochan}`yatta`
@@ -180,9 +179,26 @@ Second, travel. I can enjoy local food and craft beer everywhere.
 
 ### Speaking in English & growth {nekochan}`sodateru`
 
+```{image} images/takanory-pyconus2025.jpg
+:alt: My talk at PyCon US 2025
+:width: 30%
+```
+
+```{image} images/takanory-pyconus2026.jpg
+:alt: My talk at PyCon US 2026
+:width: 30%
+```
+
+<br />
+
+```{image} images/takanory-euro.jpg
+:alt: My talk at EuroPython
+:width: 30%
+```
+
 ```{image} images/takanory-qa.jpg
 :alt: Q&A after my talk
-:width: 60%
+:width: 30%
 ```
 
 ```{revealjs-notes}
