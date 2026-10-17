@@ -102,15 +102,23 @@ I have been to more than 25 PyCons in more than 13 countries and regions.
 I gave 16 talks, 8 lightning talks, and 2 posters.
 ```
 
+### What if your proposal is rejected? {nekochan}`pien`
+
+如果提案被拒絕了呢？
+
+```{revealjs-notes}
+But what if your proposal is rejected?
+```
+
 ### Rejected too! {nekochan}`orz`
 
 我也會被拒絕
 
-- My proposal was **rejected** 😇
-- But I'm here with an **LT**! {nekochan}`doya`
+- My **talk** proposal was **rejected** 😇
+- But I'm here with an **LT**! {nekochan}`happy-cat`
 
 ```{revealjs-notes}
-But I get rejected too.
+Don't worry. I get rejected too.
 My talk proposal for this PyCon Taiwan was rejected.
 But I'm here with a lightning talk!
 ```
@@ -148,17 +156,16 @@ And I grew by speaking in English. My English is not perfect, but it's OK!
 
 挑戰海外 PyCon 吧！
 
-**Step 1**: **Attend** 🎫 → **Step 2**: **Speak** 🎤
-
-**Speaking is more fun!** {nekochan}`paaan`
-
-- Questions & feedback on your talk {nekochan}`nakayoshi`
-- Beer after your talk tastes the best {nekochan}`beer`
+- Step 1: **Attend** 🎫
+- Step 2: **Talk** 🎤
+- Giving a talk is **more fun**! 🎉
+  - Questions & feedback on your talk
+  - Beer after your talk tastes the best 🍺
 
 ```{revealjs-notes}
 So, let's try overseas PyCons!
 Step 1, just attend. Step 2, give a talk.
-Speaking is more fun!
+Giving a talk is more fun!
 People ask you questions and give you feedback about your talk.
 And beer after your talk tastes the best!
 ```
@@ -178,16 +185,14 @@ Do you want to know some recommended events?
 :width: 80%
 ```
 
-[^pycon-mini-tokyo]: Image: <https://pyconjp.connpass.com/event/404336/>
-
 ```{revealjs-notes}
 My first recommendation is PyCon mini Tokyo with PythonAsia conference.
 ```
 
 ### PyCon mini Tokyo {nekochan}`youkoso`
 
-- **with PythonAsia conference** [^pycon-mini-tokyo]
-- 📅 2026 **Dec 12** (Sat) / 📍 Tokyo, Japan
+- **with PythonAsia conference**
+- 📅 2026 **Dec 12** (Sat)
 - 🌏 **English talks** too!
 - 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
 
@@ -200,9 +205,9 @@ It has English talks too. Please join us!
 
 更多 PyCon
 
-- 🇭🇰 **PyCon HK 2026**: Nov 14-15, Hong Kong
-- 🇺🇸 **PyCon US 2027**: May 12-18, USA
-- 🇯🇵 **PyCon JP 2027**: Sep 24-26, Japan
+- 🇭🇰 PyCon **HK** 2026: Nov 14-15, Hong Kong
+- 🇺🇸 PyCon **US** 2027: May 12-18, USA
+- 🇯🇵 PyCon **JP** 2027: Sep 24-26, Japan
 
 {fas}`globe` Find more: [pythondeadlin.es](https://pythondeadlin.es/)
 
@@ -213,7 +218,7 @@ You can find more on pythondeadlin.es.
 
 ## Thank you / 謝謝 {nekochan}`thanks`
 
-**See you at PyCon somewhere!** {nekochan}`byebye`
+See you at **PyCon somewhere**! {nekochan}`byebye`
 
 {fas}`desktop` [slides.takanory.net](https://slides.takanory.net/)
 
