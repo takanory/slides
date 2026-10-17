@@ -114,7 +114,7 @@ But what if your proposal is rejected?
 ```{revealjs-notes}
 I have been rejected too.
 But sometimes I can give a lightning talk, like this one!
-If your proposal is rejected, try a lightning talk, like me!
+If your proposal is rejected, try a lightning talk!
 ```
 
 ## What I got {nekochan}`yatta`
@@ -231,7 +231,7 @@ And beer after your talk tastes the best!
 Do you want to know some recommended events?
 ```
 
-### PyCon mini **Tokyo** {nekochan}`youkoso`
+### PyCon mini **Tokyo** with **PythonAsia** {nekochan}`youkoso`
 
 ```{image} images/pycon-mini-tokyo.png
 :alt: PyCon mini Tokyo with PythonAsia conference
@@ -246,8 +246,7 @@ My first recommendation is PyCon mini Tokyo with PythonAsia conference.
 
 - 📅 2026 **Dec 12** (Sat)
 - 🎤 Keynotes: **Seth Larson** & **Mike Fiedler**
-- 🌏 **English talks** too!
-- ⚡ **Lightning talks** too!
+- 🌏 **English** talks & ⚡ **Lightning talks** too!
 - 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
 
 ```{revealjs-notes}
