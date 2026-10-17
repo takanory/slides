@@ -102,7 +102,7 @@ I have been to more than 25 PyCons in more than 13 countries and regions.
 I gave 16 talks, 8 lightning talks, and 2 posters.
 ```
 
-### What if your proposal is rejected? {nekochan}`pien`
+### What if your proposal is **rejected**? {nekochan}`pien`
 
 如果提案被拒絕了呢？
 
@@ -127,29 +127,57 @@ But I'm here with a lightning talk!
 
 我的收穫
 
-% TODO(T025): uncomment after adding images/friends.jpg, beer.jpg, speaking.jpg
-% ```{image} images/friends.jpg
-% :alt: Friends at PyCons
-% :width: 30%
-% ```
-% ```{image} images/beer.jpg
-% :alt: Local food and craft beer
-% :width: 30%
-% ```
-% ```{image} images/speaking.jpg
-% :alt: Speaking at a PyCon
-% :width: 30%
-% ```
-
-1. Friends around the world {nekochan}`nakayoshi`
-2. Travel, food & beer {nekochan}`beer`
-3. Speaking in English & growth {nekochan}`sodateru`
-
 ```{revealjs-notes}
 What did I get from overseas PyCons? Three things.
-Friends around the world.
-Local food and craft beer.
-And I grew by speaking in English. My English is not perfect, but it's OK!
+```
+
+### Friends around the world {nekochan}`nakayoshi`
+
+```{image} images/friends-taiwan.jpg
+:alt: Friends in Taiwan
+:width: 35%
+```
+
+```{image} images/friends-pyconus.jpg
+:alt: Friends at PyCon US
+:width: 35%
+```
+
+```{image} images/friends-euro.jpg
+:alt: Friends at EuroPython
+:width: 35%
+```
+
+```{image} images/friends-china.jpg
+:alt: Friends in China
+:width: 35%
+```
+
+```{revealjs-notes}
+First, friends. Now I have friends around the world.
+```
+
+### Travel, food & beer {nekochan}`beer`
+
+```{image} images/pyconjp-beer.jpg
+:alt: Craft beer
+:width: 25%
+```
+
+```{revealjs-notes}
+Second, travel. I can enjoy local food and craft beer everywhere.
+```
+
+### Speaking in English & growth {nekochan}`sodateru`
+
+```{image} images/takanory-qa.jpg
+:alt: Q&A after my talk
+:width: 60%
+```
+
+```{revealjs-notes}
+Third, I grew by speaking in English.
+My English is not perfect, but it's OK!
 ```
 
 ## Let's try overseas PyCons! {nekochan}`kamon`
@@ -178,7 +206,7 @@ And beer after your talk tastes the best!
 Do you want to know some recommended events?
 ```
 
-### PyCon mini Tokyo {nekochan}`youkoso`
+### PyCon mini **Tokyo** {nekochan}`youkoso`
 
 ```{image} images/pycon-mini-tokyo.png
 :alt: PyCon mini Tokyo with PythonAsia conference
@@ -189,9 +217,9 @@ Do you want to know some recommended events?
 My first recommendation is PyCon mini Tokyo with PythonAsia conference.
 ```
 
-### PyCon mini Tokyo {nekochan}`youkoso`
+### PyCon mini **Tokyo** {nekochan}`youkoso`
 
-- **with PythonAsia conference**
+- with **PythonAsia** conference
 - 📅 2026 **Dec 12** (Sat)
 - 🌏 **English talks** too!
 - 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
