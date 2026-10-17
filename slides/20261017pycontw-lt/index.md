@@ -91,7 +91,9 @@ Let me show you my overseas PyCon journey.
 % :width: 70%
 % ```
 
-**25+ PyCons** / **13+ countries & regions**
+**25+** PyCons / **13+** countries & regions
+
+🇹🇼 🇵🇭 🇺🇸 🇹🇭 🇨🇭 🇲🇾 🇸🇬 🇮🇩 🇮🇪 🇰🇷 🇭🇰 🇨🇿 🇨🇳
 
 **16** Talks / **8** LTs / **2** Posters
 
