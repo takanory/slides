@@ -85,12 +85,6 @@ Let me show you my overseas PyCon journey.
 
 ### My Overseas PyCon Journey {nekochan}`travel`
 
-% TODO(T020): uncomment after adding images/world-map.png
-% ```{image} images/world-map.png
-% :alt: Overseas PyCons I visited
-% :width: 70%
-% ```
-
 **25+** PyCons / **13+** countries & regions
 
 🇹🇼 🇵🇭 🇺🇸 🇹🇭 🇨🇭 🇲🇾 🇸🇬 🇮🇩 🇮🇪 🇰🇷 🇭🇰 🇨🇿 🇨🇳
@@ -98,8 +92,8 @@ Let me show you my overseas PyCon journey.
 **16** Talks / **8** LTs / **2** Posters
 
 ```{revealjs-notes}
-I have been to more than 25 PyCons in more than 13 countries and regions.
-I gave 16 talks, 8 lightning talks, and 2 posters.
+I have been to many PyCons in many countries and regions.
+I gave many talks, lightning talks, and posters.
 ```
 
 ### What if your proposal is **rejected**? {nekochan}`pien`
@@ -121,6 +115,7 @@ But what if your proposal is rejected?
 Don't worry. I get rejected too.
 My talk proposal for this PyCon Taiwan was rejected.
 But I'm here with a lightning talk!
+If your proposal is rejected, try a lightning talk at the event, like me!
 ```
 
 ## What I got {nekochan}`yatta`
@@ -131,7 +126,7 @@ But I'm here with a lightning talk!
 What did I get from overseas PyCons? Three things.
 ```
 
-### Friends around the world {nekochan}`nakayoshi`
+### **Friends** around the **world** {nekochan}`nakayoshi`
 
 ```{image} images/friends-taiwan.jpg
 :alt: Friends in Taiwan
@@ -159,9 +154,19 @@ First, friends. Now I have friends around the world.
 
 ### Travel, food & beer {nekochan}`beer`
 
+```{image} images/welcome-taiwan.jpg
+:alt: Welcome to Taiwan
+:width: 37%
+```
+
+```{image} images/korean-food.jpg
+:alt: Korean food
+:width: 37%
+```
+
 ```{image} images/pyconjp-beer.jpg
 :alt: Craft beer
-:width: 25%
+:width: 17%
 ```
 
 ```{revealjs-notes}
@@ -176,8 +181,7 @@ Second, travel. I can enjoy local food and craft beer everywhere.
 ```
 
 ```{revealjs-notes}
-Third, I grew by speaking in English.
-My English is not perfect, but it's OK!
+Third, by speaking English more often, maybe I grew a little.
 ```
 
 ## Let's try overseas PyCons! {nekochan}`kamon`
@@ -222,11 +226,15 @@ My first recommendation is PyCon mini Tokyo with PythonAsia conference.
 - with **PythonAsia** conference
 - 📅 2026 **Dec 12** (Sat)
 - 🌏 **English talks** too!
+- 🎤 Keynotes: **Seth Larson** & **Mike Fiedler**
 - 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
 
 ```{revealjs-notes}
 It is on December 12 in Tokyo, Japan.
-It has English talks too. Please join us!
+It has English talks too.
+The keynote speakers are Seth Larson and Mike Fiedler.
+They are security engineers at the Python Software Foundation.
+Please join us!
 ```
 
 ### More PyCons {nekochan}`calendar`
