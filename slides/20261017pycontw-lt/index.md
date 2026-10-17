@@ -20,17 +20,16 @@ Hello everyone! Today I will talk about my overseas PyCon journey.
 - Takanori Suzuki / 鈴木 たかのり ({fab}`twitter` [@takanory](https://twitter.com/takanory))
 - [PyCon JP Association](https://www.pycon.jp/committee/english.html/): Chair
 - [BeProud Inc.](https://www.beproud.jp/): Director / Python Climber
-- [Python Boot Camp](https://www.pycon.jp/support/bootcamp.html), [Python mini Hack-a-thon](https://pyhack.connpass.com/), [Python Bouldering Club](https://kabepy.connpass.com/)
 - Love: Ferrets, LEGO, 🍺 / Hobby: 🎺, 🧗‍♀️
 
 ```{image} /assets/images/sokidan-square.jpg
 :alt: takanory profile
-:width: 10%
+:width: 20%
 ```
 
 ```{image} /assets/images/kurokuri.jpg
 :alt: kuro-chan and kuri-chan
-:width: 10%
+:width: 20%
 ```
 
 ```{revealjs-notes}
@@ -44,7 +43,8 @@ I'm Takanori Suzuki from Japan.
 ```{revealjs-notes}
 First, a question.
 Have you been to an overseas PyCon? Please raise your hand!
-Thank you.
+Thank you. About 10%, I see.
+This talk is for the other 90% of you.
 ```
 
 ## Many hurdles to go overseas {nekochan}`yabai`
@@ -56,7 +56,7 @@ Thank you.
 - Travel ✈️
 
 ```{revealjs-notes}
-But going to an overseas PyCon has many challenges.
+You know, going to an overseas PyCon has many challenges.
 You may worry about language, money, and travel.
 For money, many PyCons have Financial Aid, and the PSF has Grants.
 ```
@@ -108,13 +108,13 @@ But what if your proposal is rejected?
 
 我也會被拒絕
 
-- My **talk** proposal was **rejected** 😇
-- But I'm here with an **LT**! {nekochan}`happy-cat`
+- I have been **rejected** too 😇
+- But sometimes I can give an **LT** like this! {nekochan}`happy-cat`
 
 ```{revealjs-notes}
-Don't worry. I get rejected too.
+I have been rejected too.
 My talk proposal for this PyCon Taiwan was rejected.
-But I'm here with a lightning talk!
+But sometimes I can give a lightning talk, like this one!
 If your proposal is rejected, try a lightning talk at the event, like me!
 ```
 
@@ -226,34 +226,33 @@ Do you want to know some recommended events?
 My first recommendation is PyCon mini Tokyo with PythonAsia conference.
 ```
 
-### PyCon mini **Tokyo** {nekochan}`youkoso`
+### PyCon mini **Tokyo** with **PythonAsia** {nekochan}`youkoso`
 
-- with **PythonAsia** conference
 - 📅 2026 **Dec 12** (Sat)
-- 🌏 **English talks** too!
 - 🎤 Keynotes: **Seth Larson** & **Mike Fiedler**
+- 🌏 **English talks** too!
+- ⚡ **Lightning talks** too!
 - 🔗 [pyconjp.connpass.com/event/404336](https://pyconjp.connpass.com/event/404336/)
 
 ```{revealjs-notes}
 It is on December 12 in Tokyo, Japan.
-It has English talks too.
-The keynote speakers are Seth Larson and Mike Fiedler.
+The keynote speakers are Seth and Mike.
 They are security engineers at the Python Software Foundation.
+It has English talks and lightning talks too.
 Please join us!
 ```
 
 ### More PyCons {nekochan}`calendar`
 
-更多 PyCon
-
 - 🇭🇰 PyCon **HK** 2026: Nov 14-15, Hong Kong
 - 🇺🇸 PyCon **US** 2027: May 12-18, USA
+- 🇸🇬 **PythonAsia** 2027: TBA, Singapore
 - 🇯🇵 PyCon **JP** 2027: Sep 24-26, Japan
 
 {fas}`globe` Find more: [pythondeadlin.es](https://pythondeadlin.es/)
 
 ```{revealjs-notes}
-There are more PyCons. PyCon HK, PyCon US, and PyCon JP.
+There are more PyCons. PyCon HK, PyCon US, PythonAsia in Singapore, and PyCon JP.
 You can find more on pythondeadlin.es.
 ```
 
@@ -272,5 +271,6 @@ See you at **PyCon somewhere**! {nekochan}`byebye`
 ![kuro-chan and kuri-chan](/assets/images/kurokuri.jpg)
 
 ```{revealjs-notes}
-See you at PyCon somewhere! Thank you very much!
+See you at PyCon somewhere! Let's drink good beer together!
+Thank you very much!
 ```
