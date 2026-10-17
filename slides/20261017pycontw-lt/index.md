@@ -271,6 +271,19 @@ There are more PyCons. PyCon HK, PyCon US, PythonAsia in Singapore, and PyCon JP
 You can find more on pythondeadlin.es.
 ```
 
+## See you at PyCon in **Japan**<br />or somewhere! {nekochan}`beer`
+
+在日本或其他地方的 PyCon 見面吧！
+
+```{image} images/pyconjp-beer.jpg
+:alt: Beer at PyCon JP
+:width: 45%
+```
+
+```{revealjs-notes}
+See you at PyCon in Japan, or at a PyCon somewhere!
+```
+
 ## Thank you / 謝謝 {nekochan}`thanks`
 
 See you at **PyCon somewhere**! {nekochan}`byebye`
