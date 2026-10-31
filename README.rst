@@ -34,6 +34,13 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * lang
      * title
      * resource
+   - * BPStyle 190
+     * Online
+     * 2026 Nov
+     * Talk
+     * ja
+     * PyCon Taiwan Travelogue
+     * `Slides <https://slides.takanory.net/slides/20261105bpstyle>`__
    - * `PyCon Taiwan 2026 <https://tw.pycon.org/2026/>`__
      * Taipei, Taiwan
      * 2026 Oct
