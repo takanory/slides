@@ -100,7 +100,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 24%
 ```
 
-### 企画してくれた台湾Beer Friends {nekochan}`nakama`
+### 企画してくれた台湾Beer Friends {nekochan}`nakayoshi`
 
 ![](images/day0beer.jpg)
 
@@ -112,7 +112,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 80%
 ```
 
-## 10月17日(土) PyCon Taiwan: Day 1
+## 10月17日(土) PyCon TW: Day 1
 
 ### Opening
 
@@ -126,15 +126,15 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/wat.jpg)
 
-### 発表後にいろいろ質問されるwatさん
+### 発表後にいろいろ**質問されるwat**さん
 
 ![](images/wat2.jpg)
 
-### PAOブースの大量のお菓子
+### PAOブースの大量の**お菓子**
 
 ![](images/paobooth.jpg)
 
-### ランチはお弁当
+### ランチはお弁当 {nekochan}`gohan-taberu`
 
 ![](images/bento.jpg)
 
@@ -144,19 +144,19 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 40%
 ```
 
-### LTしてきた
+### [ライトニングトーク](https://slides.takanory.net/slides/20261017pycontw-lt/)してきた
 
 ```{image} images/lt-takanory.jpg
 :width: 80%
 ```
 
-### PyNight
+### PyNight {nekochan}`pizza`
 
 ```{image} images/pynight.jpg
 :width: 40%
 ```
 
-### PyNight中に次のビールの店を相談
+### PyNight中に次の**ビール**の店を**相談**
 
 * 「どこかビール行きたいんだけど」
 * 「ここから近いところで」
@@ -189,7 +189,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/day1beer.jpg)
 
-### 夜市(ナイトマーケット)へ
+### **夜市**(ナイトマーケット)へ
 
 ![](images/market.jpg)
 
@@ -197,7 +197,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/ice.jpg)
 
-### ビブグルマンにも選ばれたかき氷
+### ビブグルマンにも選ばれた**かき氷**
 
 ```{image} images/ice2.jpg
 :width: 40%
@@ -213,9 +213,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 30%
 ```
 
-
-
-## 10月18日(日) PyCon Taiwan: Day 2
+## 10月18日(日) PyCon TW: Day 2
 
 ## 10月19日(月) Unofficial Sprint
 
