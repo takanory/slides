@@ -112,7 +112,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 80%
 ```
 
-## 10月17日(土) PyCon TW: Day 1
+## 10月17日(土) PyCon TW: **Day 1**
 
 ### Opening
 
@@ -213,9 +213,65 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 30%
 ```
 
-## 10月18日(日) PyCon TW: Day 2
+## 10月18日(日) PyCon TW: **Day 2**
 
-## 10月19日(月) Unofficial Sprint
+### Keynote: Anita Hu
+
+![](images/anita.jpg)
+
+### tshoのトーク
+
+![](images/tsho.jpg)
+
+### MetaのRebecca Chenさんのトーク
+
+![](images/meta.jpg)
+
+### Panel Discussion
+
+![](images/panel.jpg)
+
+### TPさんのLightning Talk
+
+![](images/lt-tp.jpg)
+
+### Closing
+
+![](images/closing1.jpg)
+
+### Closing
+
+![](images/closing2.jpg)
+
+### スタッフ**打ち上げ**に入れてもらった {nekochan}`beer`
+
+### [品鱻海鮮熱炒店](https://maps.app.goo.gl/kH86U2ABVzQgSPcu7)
+
+![](images/uchiage1.jpg)
+
+### 次々運ばれてくる**謎料理** {nekochan}`gohan`
+
+![](images/uchiage2.jpg)
+
+### スタッフの**誕生日**をお祝い {nekochan}`medetai`
+
+![](images/uchiage3.jpg)
+
+### 一部**治安の悪い**テーブル {nekochan}`ase`
+
+```{image} images/uchiage4.jpg
+:width: 80%
+```
+
+### 当然**二次会**@[Gravity](https://maps.app.goo.gl/izS6wQRV7YVhKrmy6)へ {nekochan}`beer`
+
+![](images/day2beer.jpg)
+
+### **2時**まで飲んでた人たち
+
+![](images/day2beer-friends.jpg)
+
+## 10月19日(月) Unofficial **Sprints**
 
 ## 10月20日(火) 台北→東京 ✈️
 
