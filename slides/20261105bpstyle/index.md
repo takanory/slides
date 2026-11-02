@@ -13,7 +13,7 @@ BPStyle 190 / 2026 Nov 5
 
 ## PyCon **Taiwan** 2026に行った 🇹🇼
 
-![](images/pycontw2026.png)
+![](images/pycontw.png)
 
 ### まじめなレポートは
 
@@ -272,6 +272,58 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 ![](images/day2beer-friends.jpg)
 
 ## 10月19日(月) Unofficial **Sprints**
+
+WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-kansha`
+
+### スプリント会場
+
+![](images/sprints.jpg)
+
+### ランチは[芝鄉涼麵](https://maps.app.goo.gl/K9s7A9AbsrF4kuHK8)へ
+
+![](images/lunch1.jpg)
+
+### G絲涼麵と味噌綜合湯
+
+![](images/lunch2.jpg)
+
+### スプリント参加メンバー
+
+![](images/sprinters.jpg)
+
+### **北京料理**@[北平同慶楼](https://maps.app.goo.gl/9sMHn3qK8JfTAFtc6)へ {nekochan}`panda`
+
+![](images/day3dinner.jpg)
+
+### たらふく食べた
+
+```{image} images/dinner1.jpg
+:width: 30%
+```
+
+```{image} images/dinner2.jpg
+:width: 30%
+```
+
+```{image} images/dinner3.jpg
+:width: 30%
+```
+
+### みんなで楽しく食べた
+
+![](images/chinese-dinner.jpg)
+
+### 当然ビール@[23 Public](https://maps.app.goo.gl/HvV5X8CQigfvSww69)に行く
+
+![](images/day3beer.jpg)
+
+### 毎日楽しく飲みました！！
+
+![](images/day3beer-friends.jpg)
+
+### 最後まで飲んでいた男たち
+
+![](images/day3beer-last-men.jpg)
 
 ## 10月20日(火) 台北→東京 ✈️
 
