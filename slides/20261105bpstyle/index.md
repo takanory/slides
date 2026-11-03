@@ -17,19 +17,19 @@ BPStyle 190 / 2026 Nov 5
 
 ### まじめなレポートは
 
-gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
+gihyo.jpに掲載予定なのでそちらを読んでね  {nekochan}`kochira`
 
 ## スケジュール {nekochan}`calendar`
 
-* 10月16日(金) 東京→台北 ✈️
-* 10月17日(土) PyCon Taiwan: Day 1
-* 10月18日(日) PyCon Taiwan: Day 2
-* 10月19日(月) Unofficial Sprint
-* 10月20日(火) 台北→東京 ✈️
+* 10月16日(金) 東京→台北  {nekochan}`hikouki`
+* 10月17日(土) PyCon Taiwan: **Day 1** {nekochan}`presen`
+* 10月18日(日) PyCon Taiwan: **Day 2** {nekochan}`presen`
+* 10月19日(月) Unofficial **Sprints** {nekochan}`work-moeru`
+* 10月20日(火) 台北→東京 {nekochan}`hikouki`
 
-## 10月16日(金) 東京→台北 ✈️
+## 10月16日(金) 東京→台北 {nekochan}`hikouki`
 
-### 午後に羽田出発
+### 午後に羽田出発 {nekochan}`buttobu`
 
 ![](images/flight1.jpg)
 
@@ -37,7 +37,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/flight-food1.jpg)
 
-### 台北に到着
+### 台北に到着 {nekochan}`zusa`
 
 ![](images/welcome.jpg)
 
@@ -47,7 +47,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 35%
 ```
 
-### 部屋はAirBnB
+### 部屋はAirBnB {nekochan}`yoshi`
 
 ![](images/room.jpg)
 
@@ -63,7 +63,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/beer-list2.jpg)
 
-### いやー、飲んだ飲んだ {nekochan}`beer`
+### いやー、飲んだ飲んだ {nekochan}`manpuku`
 
 ```{image} images/head-beer1.jpg
 :width: 24%
@@ -106,13 +106,13 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ### [Flow Brewing](https://www.flowbrewing.beer/)へ移動 🚕
 
-### スピーカーディナー組と合流
+### スピーカーディナー組と合流 {nekochan}`juutai`
 
 ```{image} images/day0beer2.jpg
 :width: 80%
 ```
 
-## 10月17日(土) PyCon TW: **Day 1**
+## 10月17日(土) PyCon TW: **Day 1** {nekochan}`presen`
 
 ### Opening
 
@@ -126,11 +126,11 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/wat.jpg)
 
-### 発表後にいろいろ**質問されるwat**さん
+### 発表後に**質問されるwat**さん {nekochan}`singi-chu`
 
 ![](images/wat2.jpg)
 
-### PAOブースの大量の**お菓子**
+### PAOブースの大量の**お菓子** {nekochan}`subeteno-cookie-wo-ukeireru`
 
 ![](images/paobooth.jpg)
 
@@ -138,13 +138,13 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/bento.jpg)
 
-### おやつタイム
+### おやつタイム {nekochan}`gohan`
 
 ```{image} images/snacks.jpg
 :width: 40%
 ```
 
-### [ライトニングトーク](https://slides.takanory.net/slides/20261017pycontw-lt/)してきた
+### [ライトニングトーク](https://slides.takanory.net/slides/20261017pycontw-lt/)してきた {nekochan}`presen`
 
 ```{image} images/lt-takanory.jpg
 :width: 80%
@@ -156,14 +156,14 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 40%
 ```
 
-### PyNight中に次の**ビール**の店を**相談**
+### PyNight中に次の**ビール**の店を**相談** {nekochan}`singi-chu`
 
 * 「どこかビール行きたいんだけど」
 * 「ここから近いところで」
 * 「じゃあ◯◯とか△△は？」
 * 「ありがと、そこ行ってみる」
 
-### そのときの様子が撮られてた
+### そのときの様子が撮られてた {nekochan}`tehe`
 
 ![](images/pynight2.jpg)
 
@@ -171,7 +171,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/beergeek.jpg)
 
-### はい飲んだ
+### はい飲んだ {nekochan}`beer`
 
 ```{image} images/geek-beer1.jpg
 :width: 30%
@@ -185,11 +185,11 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 30%
 ```
 
-### 本日のビールメンツ
+### 本日のビールメンツ {nekochan}`nakayoshi`
 
 ![](images/day1beer.jpg)
 
-### **夜市**(ナイトマーケット)へ
+### **夜市**(ナイトマーケット)へ {nekochan}`yoru`
 
 ![](images/market.jpg)
 
@@ -197,7 +197,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/ice.jpg)
 
-### ビブグルマンにも選ばれた**かき氷**
+### ビブグルマンにも選ばれた**かき氷** {nekochan}`freeze`
 
 ```{image} images/ice2.jpg
 :width: 40%
@@ -213,7 +213,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 :width: 30%
 ```
 
-## 10月18日(日) PyCon TW: **Day 2**
+## 10月18日(日) PyCon TW: **Day 2** {nekochan}`presen`
 
 ### Keynote: Anita Hu
 
@@ -245,7 +245,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ### スタッフ**打ち上げ**に入れてもらった {nekochan}`beer`
 
-### [品鱻海鮮熱炒店](https://maps.app.goo.gl/kH86U2ABVzQgSPcu7)
+### [品鱻海鮮熱炒店](https://maps.app.goo.gl/kH86U2ABVzQgSPcu7) {nekochan}`ika`
 
 ![](images/uchiage1.jpg)
 
@@ -257,7 +257,7 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/uchiage3.jpg)
 
-### 一部**治安の悪い**テーブル {nekochan}`ase`
+### 一部**治安の悪い**テーブルあり {nekochan}`ase`
 
 ```{image} images/uchiage4.jpg
 :width: 80%
@@ -267,15 +267,15 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 
 ![](images/day2beer.jpg)
 
-### **2時**まで飲んでた人たち
+### **2時**まで飲んでた人たち {nekochan}`utatane`
 
 ![](images/day2beer-friends.jpg)
 
-## 10月19日(月) Unofficial **Sprints**
+## 10月19日(月) Unofficial **Sprints** {nekochan}`work-moeru`
 
 WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-kansha`
 
-### スプリント会場
+### スプリント会場 {nekochan}`work`
 
 ![](images/sprints.jpg)
 
@@ -283,19 +283,21 @@ WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-k
 
 ![](images/lunch1.jpg)
 
-### G絲涼麵と味噌綜合湯
+### G絲涼麵と味噌綜合湯 {nekochan}`donburako`
 
 ![](images/lunch2.jpg)
 
-### スプリント参加メンバー
+### スプリント参加メンバー {nekochan}`good`
 
-![](images/sprinters.jpg)
+```{image} images/sprinters.jpg
+:width: 80%
+```
 
 ### **北京料理**@[北平同慶楼](https://maps.app.goo.gl/9sMHn3qK8JfTAFtc6)へ {nekochan}`panda`
 
 ![](images/day3dinner.jpg)
 
-### たらふく食べた
+### たらふく食べた {nekochan}`manpuku`
 
 ```{image} images/dinner1.jpg
 :width: 30%
@@ -309,31 +311,33 @@ WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-k
 :width: 30%
 ```
 
-### みんなで楽しく食べた
+### みんなで楽しく食べた {nekochan}`good`
 
-![](images/chinese-dinner.jpg)
+```{image} images/chinese-dinner.jpg
+:width: 80%
+```
 
-### 当然ビール@[23 Public](https://maps.app.goo.gl/HvV5X8CQigfvSww69)に行く
+### 当然ビール@[23 Public](https://maps.app.goo.gl/HvV5X8CQigfvSww69)に行く {nekochan}`totugeki`
 
 ![](images/day3beer.jpg)
 
-### 毎日楽しく飲みました！！
+### 毎日楽しく飲みました！！ {nekochan}`big-love`
 
 ![](images/day3beer-friends.jpg)
 
-### 最後まで飲んでいた男たち
+### 最後まで飲んでいた男たち {nekochan}`yatta`
 
 ![](images/day3beer-last-men.jpg)
 
-## 10月20日(火) 台北→東京 ✈️
+## 10月20日(火) 台北→東京 {nekochan}`hikouki`
 
-### 台北101
+### 台北101 {nekochan}`nobita`
 
 ```{image} images/taipei101-2.jpg
 :width: 35%
 ```
 
-### 台北に資さん烏龍麺（うどん）
+### 台北に**資さん**うどん（烏龍麺） {nekochan}`sushi`
 
 ```{image} images/sukesan.jpg
 :width: 35%
@@ -343,31 +347,31 @@ WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-k
 
 ![](images/dakishimetai.jpg)
 
-### 台北のLEGO Storeへ
+### 台北のLEGO Storeへ {nekochan}`yatta`
 
 ![](images/lego.jpg)
 
-### パイナップルケーキの[SunnyHills](https://www.sunnyhills.com.tw/index/ja-jp/)へ
+### パイナップルケーキの[SunnyHills](https://www.sunnyhills.com.tw/index/ja-jp/)へ {nekochan}`pineapple`
 
 ```{image} images/sunnyhills.jpg
 :width: 35%
 ```
 
-### 松山空港（TSA）
+### 松山空港（TSA） {nekochan}`hikouki`
 
 ![](images/tsa.jpg)
 
-### 最後の台湾ビールと牛肉麺
+### 最後の台湾ビールと牛肉麺 {nekochan}`beer` {nekochan}`ushi`
 
 ```{image} images/lastbeer.jpg
 :width: 35%
 ```
 
-### 羽田行きに搭乗
+### 羽田行きに搭乗 {nekochan}`buttobu`
 
 ![](images/boarding.jpg)
 
-### 機内食
+### 機内食 {nekochan}`gohan`
 
 ![](images/flight-food2.jpg)
 
@@ -375,8 +379,8 @@ WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-k
 
 ![](images/banana.jpg)
 
-## まとめ
+## まとめ {nekochan}`tunda`
 
 * よく飲んだ
-* たくさんしゃべった
-* カンファレンスも結構トークを聞いた
+* たくさん交流できた（しゃべった）
+* カンファレンスのトークもしっかり楽しんだ
