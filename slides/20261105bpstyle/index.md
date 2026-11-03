@@ -22,8 +22,8 @@ gihyo.jpに掲載予定なのでそちらを読んでね {nekochan}`bow`
 ## スケジュール {nekochan}`calendar`
 
 * 10月16日(金) 東京→台北 ✈️
-* 10月17日(土) PyCon Taiwan
-* 10月18日(日) PyCon Taiwan
+* 10月17日(土) PyCon Taiwan: Day 1
+* 10月18日(日) PyCon Taiwan: Day 2
 * 10月19日(月) Unofficial Sprint
 * 10月20日(火) 台北→東京 ✈️
 
@@ -327,4 +327,56 @@ WebとTPが**非公式スプリント**を開催してくれた {nekochan}`dai-k
 
 ## 10月20日(火) 台北→東京 ✈️
 
+### 台北101
 
+```{image} images/taipei101-2.jpg
+:width: 35%
+```
+
+### 台北に資さん烏龍麺（うどん）
+
+```{image} images/sukesan.jpg
+:width: 35%
+```
+
+### 抱きしめ鯛 {nekochan}`medetai`
+
+![](images/dakishimetai.jpg)
+
+### 台北のLEGO Storeへ
+
+![](images/lego.jpg)
+
+### パイナップルケーキの[SunnyHills](https://www.sunnyhills.com.tw/index/ja-jp/)へ
+
+```{image} images/sunnyhills.jpg
+:width: 35%
+```
+
+### 松山空港（TSA）
+
+![](images/tsa.jpg)
+
+### 最後の台湾ビールと牛肉麺
+
+```{image} images/lastbeer.jpg
+:width: 35%
+```
+
+### 羽田行きに搭乗
+
+![](images/boarding.jpg)
+
+### 機内食
+
+![](images/flight-food2.jpg)
+
+### 羽田に帰ってきた {nekochan}`banana`
+
+![](images/banana.jpg)
+
+## まとめ
+
+* よく飲んだ
+* たくさんしゃべった
+* カンファレンスも結構トークを聞いた
