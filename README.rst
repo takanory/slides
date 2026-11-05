@@ -48,6 +48,7 @@ HTMLとスライドは `slides.takanory.net`_ で参照できます。
      * en
      * Talks, Beer & Python: My Overseas PyCon Journey
      * `Slides <https://slides.takanory.net/slides/20261017pycontw-lt>`__
+       `Report <https://gihyo.jp/article/2026/11/pycon-tw-2026>`__
    - * BPStyle 188
      * Online
      * 2026 Sep
