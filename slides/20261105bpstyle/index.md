@@ -17,7 +17,13 @@ BPStyle 190 / 2026 Nov 5
 
 ### まじめなレポートは
 
-gihyo.jpに掲載予定なのでそちらを読んでね  {nekochan}`kochira`
+gihyo.jpに掲載してあるのでそちらを読んでね[^gihyojp]  {nekochan}`kochira`
+
+[^gihyojp]: [PyCon Taiwan 2026 参加レポート](https://gihyo.jp/article/2026/11/pycon-tw-2026)
+
+```{image} images/gihyojp.png
+:width: 75%
+```
 
 ## スケジュール {nekochan}`calendar`
 
