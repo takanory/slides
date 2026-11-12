@@ -115,6 +115,7 @@ Cover | Title | Year| Publisher
 
 ### [gihyo.jp](https://gihyo.jp/)
 
+* [Python 3.15の新プロファイラーTachyonの紹介](https://gihyo.jp/article/2026/11/monthly-python-2611)
 * [PyCon Taiwan 2026 参加レポート](https://gihyo.jp/article/2026/11/pycon-tw-2026)
 * [PyCon Korea 2026 参加レポート](https://gihyo.jp/article/2026/09/pycon-korea-2026)
 * [Python 3.15新機能：lazy imports（遅延インポート）の紹介](https://gihyo.jp/article/2026/06/monthly-python-2606)
